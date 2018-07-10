@@ -37,8 +37,8 @@ There are a number of different tools that provide enrichment capabilities. Some
 
 Some other examples of enrichment tools are:
 
-    [gProfiler](http://biit.cs.ut.ee/gprofiler/)
-    [BiNGO](https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html)
-    [Ontologizer](http://ontologizer.de)
-    [GOrilla](http://cbl-gorilla.cs.technion.ac.il/)
+* [gProfiler](http://biit.cs.ut.ee/gprofiler/)
+* [BiNGO](https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html)
+* [Ontologizer](http://ontologizer.de)
+* [GOrilla](http://cbl-gorilla.cs.technion.ac.il/)
 
