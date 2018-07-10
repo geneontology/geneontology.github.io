@@ -18,20 +18,17 @@ Users can perform enrichment analyses directly from the [home page of the GOC we
 **5. You will be redirected to the results on the PANTHER website.** These results are based on enrichment relative the set of all protein-coding genes in the genome you selected in step 3.
 
 **6. (optional but HIGHLY RECOMMENDED) Add a custom REFERENCE LIST and re-run the analysis.** Press the **"change"** button on the "Reference list" line of the PANTHER analysis summary at the top of the results page, upload the reference list file, and press the **"Launch analysis"** button to re-run the analysis. The reference list should be the list of all the genes from which your smaller analysis list was selected. For example, in a list of differentially expressed genes, the reference list should only contain genes that were detected at all in the experiment, and thus potentially could have been on a list of genes derived from the experiment.
-### Interpreting the Results Table
 
+### Interpreting the Results Table
 The results page displays a table that lists **significant shared GO terms (or parents of GO terms)** used to describe the set of genes that users entered on the previous page, the **background frequency**, the **sample frequency**, **expected p-value**, an indication of **over/underrepresentation** for each term, and **p-value**. In addition, the results page displays all the criteria used in the analysis. Any unresolved gene names will be listed on top of the table.
 
-    #### Background Frequency and Sample Frequency
-
+#### Background Frequency and Sample Frequency
 *Background frequency* is the number of genes annotated to a GO term in the entire background set, while *sample frequency* is the number of genes annotated to that GO term in the input list. For example, if the input list contains 10 genes and the enrichment is done for biological process in S. cerevisiae whose background set contains 6442 genes, then if 5 out of the 10 input genes are annotated to the GO term: DNA repair, then the sample frequency for DNA repair will be 5/10. Whereas if there are 100 genes annotated to DNA repair in all of the S. cerevisiae genome, then the background frequency will be 100/6442.
 
-    #### Overrepresented or Underrepresented
-
+#### Overrepresented or Underrepresented
 The symbols + and - indicate over or underrepresentation of a term.
 
-    #### P-value
-
+#### P-value
 *P-value* is the probability or chance of seeing at least x number of genes out of the total n genes in the list annotated to a particular GO term, given the proportion of genes in the whole genome that are annotated to that GO Term. That is, the GO terms shared by the genes in the user's list are compared to the background distribution of annotation. The closer the p-value is to zero, the more significant the particular GO term associated with the group of genes is (i.e. the less likely the observed annotation of the particular GO term to a group of genes occurs by chance).
 
 In other words, when searching the process ontology, if all of the genes in a group were associated with "DNA repair", this term would be significant. However, since all genes in the genome (with GO annotations) are indirectly associated with the top level term "biological_process", this would not be significant if all the genes in a group were associated with this very high level term.
