@@ -1,5 +1,6 @@
 # Introduction to the GO resource
 ---
+<!-- Mission Statement: The mission of the GO Consortium is to develop an up-to-date, comprehensive, computational model of biological systems, from the molecular level to larger pathways, cellular and organism-level systems. -->
 
 Because of the staggering complexity of biological systems and the ever-increasing size of datasets to analyze, biomedical research is becoming increasingly dependent on knowledge stored in computable form. The Gene Ontology (GO) project provides the most comprehensive resource currently available for computable knowledge regarding the functions of genes and gene products.
 
