@@ -1,6 +1,6 @@
 # GO Annotations
 ---
-
+<!-- GO annotations: the model of biology. Annotations are statements describing the functions of specific genes, using concepts in the Gene Ontology. The simplest and most common annotation links one gene to one function, e.g. FZD4 + Wnt signaling pathway. Each statement is based on a specified piece of evidence. -->
 A GO annotation is a statement about the function of a particular gene. Each GO annotation consists of an association between a gene and a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. Evidence is presented in the form of a GO ‘evidence code’ and either a published reference or description of the methodology used to create the annotation.
 
 All GO annotations, however, are ultimately supported by the scientific literature, either directly or indirectly. The [GO evidence codes](http://geneontology.org/page/guide-go-evidence-codes) describe the evidence and roughly reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
