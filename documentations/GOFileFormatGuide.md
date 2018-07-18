@@ -16,8 +16,8 @@ The GO File Format Guide documents the structure and syntax of the files availab
 
 OBO is fully supported via the OWL-API.
 
-* [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools):a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
-* [OWL API in Github](https://github.com/owlcs/owlapi):a Java API for creating, manipulating and serialising OWL Ontologies.
+* [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools): a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
+* [OWL API in Github](https://github.com/owlcs/owlapi): a Java API for creating, manipulating and serialising OWL Ontologies.
 
  
 ## Ontology Flat File Formats
