@@ -5,14 +5,14 @@
 
 The GO File Format Guide documents the structure and syntax of the files available on the GO website, to assist users who need to read, write parsers for, or create these files. The following file formats are documented separately:
 
-* [OBO 1.4 File Format Guide](TheOBOFlatFileFormat1_4SyntaxandSemantics.md): the ontology file format used and recommended by the GO Consortium
-* [OBO 1.2 File Format Guide](TheOBOFlatFileFormatSpecificationversion1_2.md): previous iteration of the OBO format
-* [OBO 1.0 File Format Guide](TheOBOFlatFileFormatSpecificationversion1_0.md): previous iteration of the OBO format
+* [OBO 1.4 File Format Guide](http://owlcollab.github.io/oboformat/doc/obo-syntax.html): the ontology file format used and recommended by the GO Consortium
+* [OBO 1.2 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_2.html): previous iteration of the OBO format
+* [OBO 1.0 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_0.html): previous iteration of the OBO format
 * [GO RDF-XML format](GORDFXMLFileFormat.md)
 * [GO annotation ("gene association") file format](GOAnnotationFileFormats.md)
 * External mapping file format
 
-~~The combined GO annotation and ontology data is stored as a MySQL database;~~ see the GO database documentation for more information, including the database schema.
+~~The combined GO annotation and ontology data is stored as a MySQL database; see the GO database documentation for more information, including the database schema. ~~
 
 OBO is fully supported via the OWL-API.
 
