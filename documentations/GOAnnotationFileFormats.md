@@ -1,4 +1,6 @@
-<!-- This page contains links to the wiki which must be updated ASAP or the links removed. Should we also remove old file formats (GAF 1.0)? -->
+<!-- Deprecated file formats should be on the wiki, e.g. "For the deprecated GAFs 1.0-2.0, please see the documentation on the wiki [HERE]" 
+  Also needs the http://wiki.geneontology.org/index.php/Introduction_to_the_GO_Consortium_annotation_set page to be updated. (Link omitted, should be under "see the annotation guide". -->
+
 # GO Annotation File Formats
 
 This page documents the file formats used to store gene associations (annotations), data capturing the attributes of gene products using terms from the Gene Ontology. For more general information on annotation, please see the [GO annotation guide](http://wiki.geneontology.org/index.php/Introduction_to_the_GO_Consortium_annotation_set).
