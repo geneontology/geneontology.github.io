@@ -26,22 +26,22 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 | Column 	| Content 	| Required? 	| Cardinality 	| Example|
 |----------|---------|-------------|---------|--------|
 | 1 	| [DB](#db-column-1 "DB (column 1)")	| required 	| 1 |	UniProtKB|
-| 2 	| DB Object ID 	| required 	| 1 |	P12345|
-| 3 	|  DB Object Symbol 	| required 	| 1 |	PHO3|
-| 4 	| Qualifier 	| optional 	| 0 or greater |	NOT|
-| 5 	| GO ID 	| required 	| 1 |	GO:0003993|
-| 6 	| DB:Reference (\|DB:Reference) 	| required 	| 1 or greater |	PMID:2676709|
-| 7 	| Evidence Code 	| required 	| 1 |	IMP|
-| 8 	| With (or) From 	| optional 	| 0 or greater |	GO:0000346|
-| 9 	| Aspect 	| required 	| 1 |	F|
-| 10 	| DB Object Name 	| optional |	0 or 1 |	Toll-like receptor 4|
-| 11 	| DB Object Synonym (\|Synonym) 	| optional |	0 or greater |	hToll|Tollbooth|
-| 12 	| DB Object Type 	| required |	1 |	protein|
-| 13 	| Taxon(\|taxon)	| required |	1 or 2 |	taxon:9606|
-| 14 	| Date 	| required |	1 |	20090118|
-| 15 	| Assigned By 	| required |	1 |	SGD|
-| 16 	| Annotation Extension 	| optional |	0 or greater |	part_of(CL:0000576)|
-| 17 	| Gene Product Form ID 	| optional |	0 or 1 |	UniProtKB:P12345-2|
+| 2 	| [DB Object ID](#db-object-id-column-2 "DB Object ID (column 2)") 	| required 	| 1 |	P12345|
+| 3 	|  [DB Object Symbol](#db-object-symbol-column-3 "DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
+| 4 	| [Qualifier](#qualifier-column-4 "Qualifier (column 4)") 	| optional 	| 0 or greater |	NOT|
+| 5 	| [GO ID](#go-id-column-5 "GO ID (column 5)") 	| required 	| 1 |	GO:0003993|
+| 6 	| [DB:Reference (\|DB:Reference)](#dbreference-column-6 "DB:Reference (column 6)") 	| required 	| 1 or greater |	PMID:2676709|
+| 7 	| [Evidence Code](#evidence-code-column-7 "Evidence Code (column 7)") 	| required 	| 1 |	IMP|
+| 8 	| [With (or) From](#with-or-from-column-8 "With [or] From (column 8)") 	| optional 	| 0 or greater |	GO:0000346|
+| 9 	| [Aspect](#aspect-column-9 "Aspect (column 9)") 	| required 	| 1 |	F|
+| 10 	| [DB Object Name](#db-object-name-column-10 "DB Object Name (column 10)") 	| optional |	0 or 1 |	Toll-like receptor 4|
+| 11 	| [DB Object Synonym (\|Synonym)](#db-object-synonym-column-11 "DB Object Synonym (column 11)") 	| optional |	0 or greater |	hToll|Tollbooth|
+| 12 	| [DB Object Type](#db-object-type-column-12 "DB Object Type (column 12)") 	| required |	1 |	protein|
+| 13 	| [Taxon(\|taxon)](#taxon-column-13 "Taxon (column 13)")	| required |	1 or 2 |	taxon:9606|
+| 14 	| [Date](#date-column-14 "Date (column 14)") 	| required |	1 |	20090118|
+| 15 	| [Assigned By](#assigned-by-column-15 "Assigned By (column 15)") 	| required |	1 |	SGD|
+| 16 	| [Annotation Extension](#annotation-extension-column-16 "Annotation Extension (column 16)") 	| optional |	0 or greater |	part_of(CL:0000576)|
+| 17 	| [Gene Product Form ID](#gene-product-form-id-column-17 "Gene Product Form ID (column 17)") 	| optional |	0 or 1 |	UniProtKB:P12345-2|
 
  
 ### Definitions and requirements for field contents
