@@ -14,8 +14,8 @@ There are two annotation file formats:
 * [GAF 2.1](GOAnnotationFileFormat2_1.md) is the latest version of the GAF format. Data has been released in this format since the summer of 2015.
   
   **GAF 2.1 allows the use of pipes and comma in column 8 (with/from column)** compared to GAF 2.0 which allows the use of pipes only. **Pipe will indicate 'OR' and Comma will indicate 'AND'.**
-* [GAF 2.0](GOAnnotationFileFormat2_0.md) is the primary format currently used by the GO Consortium.
-* [GAF 1.0](GOAnnotationFileFormat1_0.md) is a deprecated format (as of June 2010), which captures slightly less information. The GO Consortium continues to provide files in this format for users who have not yet switched to GAF 2.0.
+* [GAF 2.0](http://geneontology.org/page/go-annotation-file-format-20) is the primary format currently used by the GO Consortium.
+* [GAF 1.0](http://geneontology.org/page/go-annotation-file-gaf-format-10) is a deprecated format (as of June 2010), which captures slightly less information. The GO Consortium continues to provide files in this format for users who have not yet switched to GAF 2.0.
 
 ### Gene Product Association Data (GPAD): The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information (GPI).
 
