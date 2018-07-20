@@ -9,14 +9,14 @@ For the first GAF 1.0 file syntax, please see the GAF 1.0 file format guide.
 Please see the information on the changes in GAF 2.1.
 ## Changes in GAF 2.1
 
-GAF 2.1 allows the use of pipes (|) and comma (,) in column 8 (with/from column) compared to GAF 2.0 which allows the use of pipes only. Pipe will indicate 'OR' and Comma will indicate 'AND'.
+**GAF 2.1 allows the use of pipes (|) and comma (,) in column 8 (with/from column)** compared to GAF 2.0 which allows the use of pipes only. **Pipe will indicate 'OR' and Comma will indicate 'AND'.**
 
 In GAF 2.0, multiple values are separated by pipes where the pipe has been used to mean 'AND'. However, in the annotation extension field (column 16) pipe is used to indicate 'OR' and a comma to indicate 'AND'. This change to column 8 will allow consistent use of pipes and commas in the GO annotations. Please see the descriptions below for full details.
 ## File Header
 
 All gene association files must start with a single line denoting the file format, as follows:
 
-!gaf-version: 2.1
+    !gaf-version: 2.1
 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
 ## Annotation File Fields
@@ -25,7 +25,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 
 | Column 	| Content 	| Required? 	| Cardinality 	| Example|
 |----------|---------|-------------|---------|--------|
-| 1 	| DB 	| required 	| 1 |	UniProtKB|
+| 1 	| [DB](#db-column-1 "DB (column 1)")	| required 	| 1 |	UniProtKB|
 | 2 	| DB Object ID 	| required 	| 1 |	P12345|
 | 3 	|  DB Object Symbol 	| required 	| 1 |	PHO3|
 | 4 	| Qualifier 	| optional 	| 0 or greater |	NOT|
