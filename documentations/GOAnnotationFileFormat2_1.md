@@ -25,45 +25,53 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 
 | Column 	| Content 	| Required? 	| Cardinality 	| Example|
 |----------|---------|-------------|---------|--------|
-| 1 	| [DB](#db-column-1 "DB (column 1)")	| required 	| 1 |	UniProtKB|
-| 2 	| [DB Object ID](#db-object-id-column-2 "DB Object ID (column 2)") 	| required 	| 1 |	P12345|
-| 3 	|  [DB Object Symbol](#db-object-symbol-column-3 "DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
-| 4 	| [Qualifier](#qualifier-column-4 "Qualifier (column 4)") 	| optional 	| 0 or greater |	NOT|
-| 5 	| [GO ID](#go-id-column-5 "GO ID (column 5)") 	| required 	| 1 |	GO:0003993|
-| 6 	| [DB:Reference (\|DB:Reference)](#dbreference-column-6 "DB:Reference (column 6)") 	| required 	| 1 or greater |	PMID:2676709|
-| 7 	| [Evidence Code](#evidence-code-column-7 "Evidence Code (column 7)") 	| required 	| 1 |	IMP|
-| 8 	| [With (or) From](#with-or-from-column-8 "With [or] From (column 8)") 	| optional 	| 0 or greater |	GO:0000346|
-| 9 	| [Aspect](#aspect-column-9 "Aspect (column 9)") 	| required 	| 1 |	F|
-| 10 	| [DB Object Name](#db-object-name-column-10 "DB Object Name (column 10)") 	| optional |	0 or 1 |	Toll-like receptor 4|
-| 11 	| [DB Object Synonym (\|Synonym)](#db-object-synonym-column-11 "DB Object Synonym (column 11)") 	| optional |	0 or greater |	hToll|Tollbooth|
-| 12 	| [DB Object Type](#db-object-type-column-12 "DB Object Type (column 12)") 	| required |	1 |	protein|
-| 13 	| [Taxon(\|taxon)](#taxon-column-13 "Taxon (column 13)")	| required |	1 or 2 |	taxon:9606|
-| 14 	| [Date](#date-column-14 "Date (column 14)") 	| required |	1 |	20090118|
-| 15 	| [Assigned By](#assigned-by-column-15 "Assigned By (column 15)") 	| required |	1 |	SGD|
-| 16 	| [Annotation Extension](#annotation-extension-column-16 "Annotation Extension (column 16)") 	| optional |	0 or greater |	part_of(CL:0000576)|
-| 17 	| [Gene Product Form ID](#gene-product-form-id-column-17 "Gene Product Form ID (column 17)") 	| optional |	0 or 1 |	UniProtKB:P12345-2|
+| 1 	| [DB](#db-column-1 "Definition and requirements for DB (column 1)")	| required 	| 1 |	UniProtKB|
+| 2 	| [DB Object ID](#db-object-id-column-2 "Definition and requirements for DB Object ID (column 2)") 	| required 	| 1 |	P12345|
+| 3 	|  [DB Object Symbol](#db-object-symbol-column-3 "Definition and requirements for DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
+| 4 	| [Qualifier](#qualifier-column-4 "Definition and requirements for Qualifier (column 4)") 	| optional 	| 0 or greater |	NOT|
+| 5 	| [GO ID](#go-id-column-5 "Definition and requirements for GO ID (column 5)") 	| required 	| 1 |	GO:0003993|
+| 6 	| [DB:Reference (\|DB:Reference)](#dbreference-column-6 "Definition and requirements for DB:Reference (column 6)") 	| required 	| 1 or greater |	PMID:2676709|
+| 7 	| [Evidence Code](#evidence-code-column-7 "Definition and requirements for Evidence Code (column 7)") 	| required 	| 1 |	IMP|
+| 8 	| [With (or) From](#with-or-from-column-8 "Definition and requirements for With [or] From (column 8)") 	| optional 	| 0 or greater |	GO:0000346|
+| 9 	| [Aspect](#aspect-column-9 "Definition and requirements for Aspect (column 9)") 	| required 	| 1 |	F|
+| 10 	| [DB Object Name](#db-object-name-column-10 "Definition and requirements for DB Object Name (column 10)") 	| optional |	0 or 1 |	Toll-like receptor 4|
+| 11 	| [DB Object Synonym (\|Synonym)](#db-object-synonym-column-11 "Definition and requirements for DB Object Synonym (column 11)") 	| optional |	0 or greater |	hToll|Tollbooth|
+| 12 	| [DB Object Type](#db-object-type-column-12 "Definition and requirements for DB Object Type (column 12)") 	| required |	1 |	protein|
+| 13 	| [Taxon(\|taxon)](#taxon-column-13 "Definition and requirements for Taxon (column 13)")	| required |	1 or 2 |	taxon:9606|
+| 14 	| [Date](#date-column-14 "Definition and requirements for Date (column 14)") 	| required |	1 |	20090118|
+| 15 	| [Assigned By](#assigned-by-column-15 "Definition and requirements for Assigned By (column 15)") 	| required |	1 |	SGD|
+| 16 	| [Annotation Extension](#annotation-extension-column-16 "Definition and requirements for Annotation Extension (column 16)") 	| optional |	0 or greater |	part_of(CL:0000576)|
+| 17 	| [Gene Product Form ID](#gene-product-form-id-column-17 "Definition and requirements for Gene Product Form ID (column 17)") 	| optional |	0 or 1 |	UniProtKB:P12345-2|
 
  
 ### Definitions and requirements for field contents
 
 #### DB (column 1)
  Refers to the database from which the identifier in DB object ID (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the DB object ID (column 2), DB (column 1) should be UniProtKB. 
-    must be one of the values from the set of GO database cross-references
-    this field is mandatory, cardinality 1
+
+Must be one of the values from the set of GO database cross-references
+
+This field is mandatory, cardinality 1
 
  
 #### DB Object ID (column 2)
 A unique identifier from the database in DB (column 1) for the item being annotated
-    this field is mandatory, cardinality 1
-    In GAF 2.1 format, the identifier must reference a top-level primary gene or gene product identifier: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are not legal values in this field.
-    The DB object ID (column 2) is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in DB object ID field) or annotations to a protein object (protein ID in DB object ID field).
+
+This field is mandatory, cardinality 1
+
+In GAF 2.1 format, the identifier must reference a top-level primary gene or gene product identifier: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are not legal values in this field.
+
+The DB object ID (column 2) is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in DB object ID field) or annotations to a protein object (protein ID in DB object ID field).
 
  
 #### DB Object Symbol (column 3)
 A (unique and valid) symbol to which DB object ID is matched
-    can use ORF name for otherwise unnamed gene or protein
-    if gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol this field is mandatory, cardinality 1
-    The DB Object Symbol field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (DB object ID [column 2] provides the unique identifier), although IDs can be used as a DB object symbol if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
+
+Can use ORF name for otherwise unnamed gene or protein
+
+If gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol this field is mandatory, cardinality 1
+
+The DB Object Symbol field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (DB object ID [column 2] provides the unique identifier), although IDs can be used as a DB object symbol if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
 
  
 #### Qualifier (column 4)
