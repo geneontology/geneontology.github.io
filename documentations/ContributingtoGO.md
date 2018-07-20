@@ -48,14 +48,14 @@ To start, check if there are existing annotations to the gene or protein of inte
 
 [Contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
  
-1. Genome-scale annotations for Model Organism Databases (MODs) and/or non-model organisms:
+#### Genome-scale annotations for Model Organism Databases (MODs) and/or non-model organisms:
      
 * Submitting manual annotations:
- - [ ] Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues). Each of your annotations should include at least one key literature references (PMIDs) in support of your assertions. Please state whether or not regular updates will be submitted about this annotation.
+  - [ ] Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues). Each of your annotations should include at least one key literature references (PMIDs) in support of your assertions. Please state whether or not regular updates will be submitted about this annotation.
          
 * Submitting Automated Annotations:
-- [ ] Follow the [steps outlined in this guide](http://geneontology.org/page/submitting-go-annotations) to prepare multiple annotations for submission to the GOC.
-- [ ] Submit the finalized annotation file(s) using SVN. Details about how to submit files to the GOC SVN repository are found in our [SVN Help Guide](http://geneontology.org/page/svn-help). When submitting your files, please state whether or not regular updates will be submitted about this annotation.
+   - [ ] Follow the [steps outlined in this guide](http://geneontology.org/page/submitting-go-annotations) to prepare multiple annotations for submission to the GOC.
+   - [ ] Submit the finalized annotation file(s) using SVN. Details about how to submit files to the GOC SVN repository are found in our [SVN Help Guide](http://geneontology.org/page/svn-help). When submitting your files, please state whether or not regular updates will be submitted about this annotation.
      
-2. Special interest research groups:  
-        If your research group has a specific focus for GO annotations, for example genes or gene products localized in ["synapse" (cellular component)](http://amigo.geneontology.org/amigo/term/GO:0045202), then you should first [contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations, and then follow the steps outlined on the guide to [Preparing GO Annotations](http://geneontology.org/page/submitting-go-annotations).
+#### Special interest research groups:  
+ If your research group has a specific focus for GO annotations, for example genes or gene products localized in ["synapse" (cellular component)](http://amigo.geneontology.org/amigo/term/GO:0045202), then you should first [contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations, and then follow the steps outlined on the guide to [Preparing GO Annotations](http://geneontology.org/page/submitting-go-annotations).
