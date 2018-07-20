@@ -47,45 +47,45 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 ### Definitions and requirements for field contents
 
 #### DB (column 1)
- refers to the database from which the identifier in DB object ID (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the DB object ID (column 2), DB (column 1) should be UniProtKB. 
+ Refers to the database from which the identifier in DB object ID (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the DB object ID (column 2), DB (column 1) should be UniProtKB. 
     must be one of the values from the set of GO database cross-references
     this field is mandatory, cardinality 1
 
  
 #### DB Object ID (column 2)
-a unique identifier from the database in DB (column 1) for the item being annotated
+A unique identifier from the database in DB (column 1) for the item being annotated
     this field is mandatory, cardinality 1
     In GAF 2.1 format, the identifier must reference a top-level primary gene or gene product identifier: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are not legal values in this field.
     The DB object ID (column 2) is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in DB object ID field) or annotations to a protein object (protein ID in DB object ID field).
 
  
 #### DB Object Symbol (column 3)
-a (unique and valid) symbol to which DB object ID is matched
+A (unique and valid) symbol to which DB object ID is matched
     can use ORF name for otherwise unnamed gene or protein
     if gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol this field is mandatory, cardinality 1
     The DB Object Symbol field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (DB object ID [column 2] provides the unique identifier), although IDs can be used as a DB object symbol if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
 
  
 #### Qualifier (column 4)
-flags that modify the interpretation of an annotation
+Flags that modify the interpretation of an annotation
     one (or more) of NOT, contributes_to, colocalizes_with
     this field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. NOT|contributes_to)
     See also the documentation on qualifiers in the GO annotation guide
 
  
 #### GO ID (column 5)
-the GO identifier for the term attributed to the DB object ID
+The GO identifier for the term attributed to the DB object ID
     this field is mandatory, cardinality 1
 
  
 #### DB:Reference (column 6)
-one or more unique identifiers for a single source cited as an authority for the attribution of the GO ID to the DB object ID. This may be a literature reference or a database record. The syntax is DB:accession_number.
+One or more unique identifiers for a single source cited as an authority for the attribution of the GO ID to the DB object ID. This may be a literature reference or a database record. The syntax is DB:accession_number.
     Note that only one reference can be cited on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, we strongly recommend that the PubMed ID be included, as well as an identifier within a model organism database. Note that if the model organism database has an identifier for the reference, that identifier should always be included, even if a PubMed ID is also used.
     this field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. SGD_REF:S000047763|PMID:2676709).
 
  
 #### Evidence Code (column 7)
-see the GO evidence code guide for the list of valid evidence codes for GO annotations
+See the GO evidence code guide for the list of valid evidence codes for GO annotations
     this field is mandatory, cardinality 1
 
  
@@ -122,7 +122,7 @@ For e.g. A triple mutant in C. elegans supports annotation to a specific process
 
 For e.g. annotations to cell redox homeostasis (GO:0045454) that are inferred from three InterPro domains: InterPro:IPR005746|InterPro:IPR013766|InterPro:IPR017937
 
-    This removes a large amount of redundancy and significantly decreases the size of UniProt files.
+   This removes a large amount of redundancy and significantly decreases the size of UniProt files.
 
  Note that a gene ID may be used in the with column for a IPI annotation, or for an ISS annotation based on amino acid sequence or protein structure similarity, if the database does not have identifiers for individual gene products. A gene ID may also be used if the cited reference provides enough information to determine which gene ID should be used, but not enough to establish which protein ID is correct.
     'GO:GO_id' is used only when the evidence code is IC, and refers to the GO term(s) used as the basis of a curator inference. In these cases the entry in the 'DB:Reference' column will be that used to assign the GO term(s) from which the inference is made. This field is mandatory for evidence code IC.
@@ -130,12 +130,12 @@ For e.g. annotations to cell redox homeostasis (GO:0045454) that are inferred fr
 
  
 #### Aspect (column 9)
- refers to the namespace or ontology to which the GO ID (column 5) belongs; one of P (biological process), F (molecular function) or C (cellular component)
+ Refers to the namespace or ontology to which the GO ID (column 5) belongs; one of P (biological process), F (molecular function) or C (cellular component)
     this field is mandatory; cardinality 1
 
  
 #### DB Object Name (column 10)
- name of gene or gene product
+ Name of gene or gene product
     this field is not mandatory, cardinality 0, 1 [white space allowed]
 
  
@@ -150,12 +150,12 @@ For e.g. annotations to cell redox homeostasis (GO:0045454) that are inferred fr
 
  
 #### Taxon (column 13)
- taxonomic identifier(s) For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction. this field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries (e.g. taxon:1|taxon:1000) See the GO annotation conventions for more information on multi-organism terms.
+ Taxonomic identifier(s) For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction. this field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries (e.g. taxon:1|taxon:1000) See the GO annotation conventions for more information on multi-organism terms.
 
  
 #### Date (column 14)
  Date on which the annotation was made; format is YYYYMMDD
-    this field is mandatory, cardinality 1
+    This field is mandatory, cardinality 1
 
  
 #### Assigned By (column 15)
@@ -167,7 +167,7 @@ For e.g. annotations to cell redox homeostasis (GO:0045454) that are inferred fr
 
  
 #### Annotation Extension (column 16)
- one of:
+ One of:
 
         DB:gene_id
         DB:sequence_id
