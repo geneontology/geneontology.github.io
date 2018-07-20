@@ -1,4 +1,4 @@
-<!-- Deprecated file formats should be on the wiki, e.g. "For the deprecated GAFs 1.0-2.0, please see the documentation on the wiki [HERE]" 
+<!-- Is 2.0 the primary format? Not 2.1? Deprecated file formats (definitely 1.0) should be on the wiki, e.g. "For the deprecated GAFs 1.0-2.0, please see the documentation on the wiki [HERE]" 
   Also needs the http://wiki.geneontology.org/index.php/Introduction_to_the_GO_Consortium_annotation_set page to be updated. (Link omitted, should be under "see the annotation guide". -->
 
 # GO Annotation File Formats
