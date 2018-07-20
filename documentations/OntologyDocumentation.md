@@ -29,6 +29,7 @@ A biological process is not equivalent to a pathway. At present, the GO does not
 * [Cellular Component Ontology](http://geneontology.org/page/cellular-component-ontology-guidelines): Rules governing content and stylistic aspects of GO terms in the cellular component ontology.
 * [Molecular Function Ontology](http://geneontology.org/page/molecular-function-ontology-guidelines): Rules governing content and stylistic aspects of GO terms, standard definitions and term relationships in the molecular function ontology.
 * [Biological Process Ontology](http://geneontology.org/page/biological-process-ontology-guidelines): Rules governing content and stylistic aspects of GO terms, standard definitions and term relationships in the biological process ontology.
+* [GO Slim Guide](http://geneontology.org/page/go-slim-and-subset-guide): information about GO slims, cut-down versions of the ontologies useful for providing an overview of GO
 * [Species-Specific Terms](http://geneontology.org/page/species-specific-terms): How the Gene Ontology deals with words or phrases where the meaning varies depending on the organism.
 * Documentation on specific areas of the ontology:
     * [Membrane proteins](http://wiki.geneontology.org/index.php/Membrane_proteins)
@@ -42,4 +43,4 @@ A biological process is not equivalent to a pathway. At present, the GO does not
     * [Detection and Response to stimulus](http://wiki.geneontology.org/page/detection-and-response-stimulus)
     * [Sensory perception](http://wiki.geneontology.org/page/sensory-perception)
     * [Transport and transporters](http://wiki.geneontology.org/page/transport-and-transporters)
-* [GO Slim Guide](http://geneontology.org/page/go-slim-and-subset-guide): information about GO slims, cut-down versions of the ontologies useful for providing an overview of GO
+
