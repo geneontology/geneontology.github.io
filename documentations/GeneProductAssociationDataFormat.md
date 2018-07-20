@@ -41,7 +41,7 @@ should have these values separated by pipes.
 #### DB
 Refers to the database from which the identifier in **DB Object ID** is drawn. This is not necessarily the group submitting 
 the file. If a UniProtKB ID is the **DB Object ID**, **DB** should be UniProtKB. Must be one of the values from the set of 
-GO database cross-references\ 
+GO database cross-references.\
 This field is mandatory, cardinality 1 
 #### DB Object ID
 A unique identifier (from the database in DB) for the item being annotated\
@@ -123,7 +123,7 @@ The with column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0
 ECO:0000307 [ND].
 #### Interacting taxon ID
 Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process 
-term 'multi-organism process' or the cellular component term 'host' as an ancestor.\ 
+term 'multi-organism process' or the cellular component term 'host' as an ancestor.\
 This field is mandatory for terms with parentage under 'multi-organism process' or 'host', cardinality 1; annotations to other 
 terms should leave this column blank.\
 See the [GO annotation conventions for more information on multi-organism terms](http://geneontology.org/page/go-annotation-conventions#interactions). 
