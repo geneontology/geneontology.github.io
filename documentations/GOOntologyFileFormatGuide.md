@@ -12,7 +12,7 @@ The GO File Format Guide documents the structure and syntax of the files availab
 * [GO annotation ("gene association") file format](GOAnnotationFileFormats.md)
 * External mapping file format
 
-~~The combined GO annotation and ontology data is stored as a MySQL database; see the GO database documentation for more information, including the database schema. ~~
+~~The combined GO annotation and ontology data is stored as a MySQL database; see the GO database documentation for more information, including the database schema.~~
 
 OBO is fully supported via the OWL-API.
 
