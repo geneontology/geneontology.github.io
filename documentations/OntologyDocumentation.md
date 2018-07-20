@@ -31,15 +31,15 @@ A biological process is not equivalent to a pathway. At present, the GO does not
 * [Biological Process Ontology](http://geneontology.org/page/biological-process-ontology-guidelines): Rules governing content and stylistic aspects of GO terms, standard definitions and term relationships in the biological process ontology.
 * [Species-Specific Terms](http://geneontology.org/page/species-specific-terms): How the Gene Ontology deals with words or phrases where the meaning varies depending on the organism.
 * Documentation on specific areas of the ontology:
-    * [Membrane proteins](http://geneontology.org/page/membrane-proteins)
-    * [Membranes and envelopes](http://geneontology.org/page/membranes-and-envelopes)
-    * [Protein complexes](http://geneontology.org/page/protein-complexes)
-    * [Cell Cycle](http://geneontology.org/page/cell-cycle)
-    * [Development](http://geneontology.org/page/development)
-    * [Metabolic processes](http://geneontology.org/page/metabolic-process)
-    * [Other organisms and viruses](http://geneontology.org/page/other-organisms-and-viruses)
-    * [Regulation](http://geneontology.org/page/regulation)
-    * [Detection and Response to stimulus](http://geneontology.org/page/detection-and-response-stimulus)
-    * [Sensory perception](http://geneontology.org/page/sensory-perception)
-    * [Transport and transporters](http://geneontology.org/page/transport-and-transporters)
+    * [Membrane proteins](http://wiki.geneontology.org/index.php/Membrane_proteins)
+    * [Membranes and envelopes](http://wiki.geneontology.org/page/membranes-and-envelopes)
+    * [Protein complexes](http://wiki.geneontology.org/page/protein-complexes)
+    * [Cell Cycle](http://wiki.geneontology.org/page/cell-cycle)
+    * [Development](http://wiki.geneontology.org/page/development)
+    * [Metabolic processes](http://wiki.geneontology.org/page/metabolic-process)
+    * [Other organisms and viruses](http://wiki.geneontology.org/page/other-organisms-and-viruses)
+    * [Regulation](http://wiki.geneontology.org/page/regulation)
+    * [Detection and Response to stimulus](http://wiki.geneontology.org/page/detection-and-response-stimulus)
+    * [Sensory perception](http://wiki.geneontology.org/page/sensory-perception)
+    * [Transport and transporters](http://wiki.geneontology.org/page/transport-and-transporters)
 * [GO Slim Guide](http://geneontology.org/page/go-slim-and-subset-guide): information about GO slims, cut-down versions of the ontologies useful for providing an overview of GO
