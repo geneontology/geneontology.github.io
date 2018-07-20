@@ -2,8 +2,7 @@
 
 # GO Annotation File (GAF) Format 2.1
 
-Annotation data is submitted to the GO Consortium in the form of gene association files, or GAFs. This guide lays out the format specifications for GAF 2.1; for the previous GAF 2.0 file syntax, please see the GAF 2.0 file format guide.
-
+Annotation data is submitted to the GO Consortium in the form of gene association files, or GAFs. This guide lays out the format specifications for GAF 2.1; for the previous GAF 2.0 file syntax, please see the GAF 2.0 file format guide.\
 For the first GAF 1.0 file syntax, please see the GAF 1.0 file format guide.
 
 Please see the information on the changes in GAF 2.1.
