@@ -1,4 +1,4 @@
-<!--Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is MUCH too long.->
+<!--Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.->
 
 # GO Annotation File (GAF) Format 2.1
 
