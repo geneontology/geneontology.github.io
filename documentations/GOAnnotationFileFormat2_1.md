@@ -7,7 +7,7 @@ Annotation data is submitted to the GO Consortium in the form of gene associatio
 
 ## Changes in GAF 2.1
 
-**GAF 2.1 allows the use of pipes (|) and comma (,) in column 8 (with/from column)** compared to GAF 2.0 which allows the use of pipes only. **Pipe will indicate 'OR' and Comma will indicate 'AND'.**
+**GAF 2.1 allows the use of pipes** (**|**) **and comma** (**,**) **in column 8 (with/from column)** compared to GAF 2.0 which allows the use of pipes only. **Pipe will indicate 'OR' and Comma will indicate 'AND'.**
 
 In GAF 2.0, multiple values are separated by pipes where the pipe has been used to mean 'AND'. However, in the annotation extension field (column 16) pipe is used to indicate 'OR' and a comma to indicate 'AND'. This change to column 8 will allow consistent use of pipes and commas in the GO annotations. Please see the descriptions below for full details.
 ## File Header
