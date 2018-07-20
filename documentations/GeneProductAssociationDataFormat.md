@@ -149,7 +149,7 @@ This field is optional, cardinality 0 or greater.
 Note that several fields contain database cross-reference (dbxrefs) in the format dbname:dbaccession. The fields are: 
 GO ID; Reference; With or From; and Annotation Extension.
 #### Annotation Properties
-    The Annotation Properties column can be filled with a pipe separated list of "property_name = property_value". 
-    There will be a fixed vocabulary for the property names and this list can be extended when necessary. 
-    The initial supported properties would be curator_name and annotation_identifier*, but can be extended to 
-    include curator_ID, modification_date, creation_date, annotation_notes, etc. 
+ The Annotation Properties column can be filled with a pipe separated list of "property_name = property_value". 
+There will be a fixed vocabulary for the property names and this list can be extended when necessary. 
+ The initial supported properties would be curator_name and annotation_identifier*, but can be extended to 
+include curator_ID, modification_date, creation_date, annotation_notes, etc. 
