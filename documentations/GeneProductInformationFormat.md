@@ -25,7 +25,7 @@ The file format comprises 10 tab-delimited fields. Fields with multiple values (
 ### Definitions and requirements for field contents
 
 #### DB
-The database abbreviation (namespace) for the source of the DB_Object_ID.\
+The database abbreviation (namespace) for the source of the **DB_Object_ID**.\
 This field is mandatory; cardinality 1.
 #### DB_Object_ID
 A unique identifier (from the database in DB) for the item being annotated.\
@@ -37,7 +37,7 @@ In GPI 1.0 format, the identifier may reference a top-level primary gene or gene
 A (unique and valid) symbol to which the **DB_Object_ID** is matched.\
 This field is mandatory, cardinality 1.\
 The **DB_Object_Symbol** field should contain a symbol that is recognizable to a biologist wherever possible (an abbreviation widely used in the literature, for example). It is not a unique identifier or an accession number (unlike the **DB_Object_ID**), although IDs can be used as a **DB_Object_Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated). ORF names can be used for otherwise unnamed genes or proteins. If gene products are annotated, the gene product symbol can be used if available. Many gene product annotation entries may share a gene symbol. 
-The text entered in the **DB_Object_Name** and **DB_Object_Symbol** should refer to the entity in **DB_Object_ID**. For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in DB_Object_ID, but with the same gene symbol in the **DB_Object_Symbol** column. 
+The text entered in the **DB_Object_Name** and **DB_Object_Symbol** should refer to the entity in **DB_Object_ID**. For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB_Object_ID**, but with the same gene symbol in the **DB_Object_Symbol** column. 
 #### DB_Object_Name
 The name of the gene or gene product in **DB_Object_ID**.\
 This field is not mandatory, cardinality 0, 1 [white space allowed]\
@@ -55,7 +55,7 @@ This field is mandatory, cardinality 1.\
 The taxon should be specified as a number with the prefix "taxon". 
 #### Parent_Object_ID
 If the **DB_Object_ID** refers to a variant of a gene product, this column will hold the identifier of the gene product from which it was derived.\
-This field is mandatory, cardinality 1, when variant forms of a gene product (e.g. identifiers that specify distinct proteins produced by differential splicing, alternative translational starts, post-translational cleavage or post-translational modification) are represented in DB_Object_ID. If the **DB_Object_ID** refers to the canonical form of a gene product, this column should be blank.\
+This field is mandatory, cardinality 1, when variant forms of a gene product (e.g. identifiers that specify distinct proteins produced by differential splicing, alternative translational starts, post-translational cleavage or post-translational modification) are represented in **DB_Object_ID**. If the **DB_Object_ID** refers to the canonical form of a gene product, this column should be blank.\
 The identifier used must be a standard 2-part global identifier, e.g. UniProtKB:OK0206 
 The entity in the **Parent_Object_ID** column may not necessarily be the canonical form of the gene product; the canonical form would be identifiable as an entry for that gene product in the GPI file that would have the **Parent_Object_ID** blank. 
 #### DB_Xrefs
