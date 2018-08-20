@@ -74,4 +74,4 @@ Given a GO subset file, and a current ontology (in one or more files), the Map2S
 Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the OWLTools Wiki at https://github.com/owlcollab/owltools/wiki/Map2Slim.
 ## On the web
 
-Similarly, there are a couple of online tools that may be of use. The first is the Princeton slimming tool, the second is the legacy amigo slimmer. It should be noted that online tools do often contain limitations and timeouts.
+Similarly, there are a couple of online tools that may be of use. The first is the [Princeton slimming tool](http://go.princeton.edu/), the second is the legacy [AmiGO slimmer](http://amigo1.geneontology.org/cgi-bin/amigo/slimmer). It should be noted that online tools do often contain limitations and timeouts.
