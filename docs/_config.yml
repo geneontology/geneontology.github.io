@@ -1,3 +1,56 @@
-theme: jekyll-theme-minimal
-plugins:
+# Site settings
+title: Gene Ontology
+email: TBD@geneontology.org
+description: >
+  Jekyll Template for Project Websites
+  providing documentation and blog post pages.
+
+baseurl: "/go-docs" # the subpath of your site, e.g. /blog/
+url: https://geneontology.github.io/go-docs # the base hostname & protocol for your site
+git_address: https://github.com/geneontology/go-docs
+git_edit_address: https://github.com/geneontology/go-docs/blob/gh-pages
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: paper
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: America/Los_Angeles
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    sectionid: docs
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
