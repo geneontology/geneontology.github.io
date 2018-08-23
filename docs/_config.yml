@@ -6,9 +6,9 @@ description: >
   providing documentation and blog post pages.
 
 baseurl: "/go-docs" # the subpath of your site, e.g. /blog/
-url: https://geneontology.github.io/go-docs # the base hostname & protocol for your site
-git_address: https://github.com/geneontology/go-docs
-git_edit_address: https://github.com/geneontology/go-docs/blob/gh-pages
+url: https://kltm.github.io/go-docs # the base hostname & protocol for your site
+git_address: https://github.com/kltm/go-docs
+git_edit_address: https://github.com/kltm/go-docs/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
