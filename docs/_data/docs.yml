@@ -1,10 +1,10 @@
-- title: Getting Started
+- title: Documentation
   docs:
   - home
-  - themes
+  - downloads
   - customization
 
-- title: Examples
+- title: Downloads
   docs:
   - cheatsheet
   - font-awesome

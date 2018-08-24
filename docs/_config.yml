@@ -47,6 +47,15 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _faq
+    type: docs
+  values:
+    layout: docs
+    sectionid: faq
+    seo:
+      type: "WebPage"
+
 collections:
   docs:
     permalink: /:collection/:path/
