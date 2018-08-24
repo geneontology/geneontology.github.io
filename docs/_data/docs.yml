@@ -1,7 +1,6 @@
 - title: Ontology
   docs:
     - ontology-documentation
-    - ontology
     - go-subset-guide
 
 - title: Annotation
