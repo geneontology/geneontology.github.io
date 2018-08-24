@@ -1,4 +1,5 @@
-# Publications
+---
+title: Publications
 ---
 
 The Gene Ontology resource plays a critical role in biomedical research. It is referenced in tens of thousands of scientific papers. The major uses of the GO, and links to the associated publications, are listed below:

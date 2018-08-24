@@ -1,4 +1,8 @@
-# GO RDFXML File Format
+---
+title: GO RDF-XML File Format
+permalink: /docs/go-rdfxml-file-format/
+---
+
 The GO Consortium makes ontology and gene association data available as RDF-XML, which can be downloaded from the [GO database archive](http://archive.geneontology.org/latest-termdb/). The document type definition (DTD) is available from [GO CVS web](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/www/xml-dtd/go.dtd) or from the directory go/www/xml-dtd/ in the [GO CVS repository](http://geneontology.org/page/ftp-and-cvs-downloads#cvs).
 ## Sample data
 

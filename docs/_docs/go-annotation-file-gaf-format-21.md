@@ -1,7 +1,11 @@
+---
+title: GO Annotation File (GAF) Format 2.1
+permalink: /docs/go-annotation-file-gaf-format-21/
+---
+
 <!--Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.
 Suggestion: can we use "optional" instead of "not mandatory"?-->
 
-# GO Annotation File (GAF) Format 2.1
 
 Annotation data is submitted to the GO Consortium in the form of gene association files, or GAFs. This guide lays out the format specifications for GAF 2.1; for the previous GAF file syntax, please see the GAF 2.0 file format guide or the GAF 1.0 file format guide.
 
@@ -41,7 +45,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 | 16 	| [Annotation Extension](#annotation-extension-column-16 "Definition and requirements for Annotation Extension (column 16)") 	| optional |	0 or greater |	part_of(CL:0000576)|
 | 17 	| [Gene Product Form ID](#gene-product-form-id-column-17 "Definition and requirements for Gene Product Form ID (column 17)") 	| optional |	0 or 1 |	UniProtKB:P12345-2|
 
- 
+
 ### Definitions and requirements for field contents
 
 #### DB (column 1)
@@ -54,7 +58,7 @@ A unique identifier from the database in DB (column 1) for the item being annota
 This field is mandatory, cardinality 1.\
 In GAF 2.1 format, the identifier **must reference a top-level primary gene or gene product identifier**: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are *not* legal values in this field.\
 The **DB object ID** is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in **DB object ID** field) or annotations to a protein object (protein ID in **DB object ID** field).
- 
+
 #### DB Object Symbol (column 3)
 A (unique and valid) symbol to which **DB object ID** is matched\
 Can use ORF name for otherwise unnamed gene or protein\
@@ -124,7 +128,7 @@ This removes a large amount of redundancy and significantly decreases the size o
 #### DB Object Name (column 10)
  Name of gene or gene product.\
     This field is not mandatory, cardinality 0, 1 [white space allowed].
- 
+
 #### DB Object Synonym (column 11)
  Gene symbol [or other text] Note that we strongly recommend that gene synonyms are included in the gene association file, as this aids the searching of GO.\
     This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene).
@@ -144,7 +148,7 @@ This removes a large amount of redundancy and significantly decreases the size o
  Date on which the annotation was made; format is YYYYMMDD\
     This field is mandatory, cardinality 1.
 
- 
+
 #### Assigned By (column 15)
  The database which made the annotation\
     One of the values from the set of GO database cross-references\
@@ -152,7 +156,7 @@ This removes a large amount of redundancy and significantly decreases the size o
     Value will differ from column 1 for any annotation that is made by one database and incorporated into another.\
     This field is mandatory, cardinality 1.
 
- 
+
 #### Annotation Extension (column 16)
  One of:
 
@@ -167,7 +171,7 @@ Contains cross references to other ontologies that can be used to qualify or enh
     See the documentation on using the **Annotation Extension** column for details of practical usage; a wider discussion of the annotation extension column can be found on the GO wiki.\
     This field is optional, cardinality 0 or greater.
 
- 
+
 #### Gene Product Form ID (column 17)
 As the **DB Object ID** (column 2) entry must be a canonical entity—a gene OR an abstract protein that has a 1:1 correspondence to a gene—this field allows the annotation of specific variants of that gene or gene product. Contents will frequently include protein sequence identifiers: for example, identifiers that specify distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. Identifiers for functional RNAs can also be included in this column.\
     The identifier used must be a standard 2-part global identifier, e.g. UniProtKB:OK0206-2

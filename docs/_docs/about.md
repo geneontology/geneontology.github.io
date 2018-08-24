@@ -1,22 +1,26 @@
+---
+title: About
+permalink: /docs/about/
+---
+
 <!--The links to many of the names are broken, so I did not link any.  All need to be reviewed.-->
 
-# About
 ## The Gene Ontology Project
 
-The Gene Ontology (GO) project is a major bioinformatics initiative to develop a computational representation of our 
-evolving knowledge of how genes encode biological functions at the molecular, cellular and tissue system levels. 
-Biological systems are so complex that we need to rely on computers to represent this knowledge. The project has 
-developed formal ontologies that represent over 40,000 biological concepts, and are constantly being revised to 
-reflect new discoveries. To date, these concepts have been used to "annotate" gene functions based on experiments 
+The Gene Ontology (GO) project is a major bioinformatics initiative to develop a computational representation of our
+evolving knowledge of how genes encode biological functions at the molecular, cellular and tissue system levels.
+Biological systems are so complex that we need to rely on computers to represent this knowledge. The project has
+developed formal ontologies that represent over 40,000 biological concepts, and are constantly being revised to
+reflect new discoveries. To date, these concepts have been used to "annotate" gene functions based on experiments
 reported in over 140,000 peer-reviewed scientific papers. An overview of the GO resource [can be found here](IntroductiontoGOResource.md
 ).
 
-The GO resource plays an essential role in supporting biomedical research, including interpretation of large scale 
-molecular experiments and computational analysis of biological knowledge. It has been used in tens of thousands of 
+The GO resource plays an essential role in supporting biomedical research, including interpretation of large scale
+molecular experiments and computational analysis of biological knowledge. It has been used in tens of thousands of
 scientific studies.
 
-The Gene Ontology Consortium (GOC) includes groups from around the world that collaborate closely on the development 
-of the Gene Ontology and creation of gene function annotations. Read more about the GO Consortium member groups, and 
+The Gene Ontology Consortium (GOC) includes groups from around the world that collaborate closely on the development
+of the Gene Ontology and creation of gene function annotations. Read more about the GO Consortium member groups, and
 additional funding for those groups.
 ### The GOC is co-directed by (in alphabetical order):
 
@@ -36,5 +40,5 @@ additional funding for those groups.
  * Helen Parkinson, Ontologies Team lead, European Bioinformatics Institute (ontology development)
  * Monte Westerfield, University of Oregon (zebrafish gene annotation)
 
-### The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), 
+### The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health),
 grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989).

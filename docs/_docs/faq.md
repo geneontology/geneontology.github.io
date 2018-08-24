@@ -1,3 +1,8 @@
+---
+title: FAQs
+permalink: /docs/faq/
+---
+
 <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
 
 <a href="/" class="logo navbar-btn pull-left" title="Home"><img src="http://geneontology.org/sites/default/files/go-logo-icon.mini__0.png" alt="Home" /></a> <a href="/" class="name navbar-brand" title="Home">Gene Ontology Consortium</a>
@@ -1304,5 +1309,3 @@ Copyright © 1999-2018 [the Gene Ontology](http://geneontology.org/ "The Gene On
 Member of the [Open Biological and Biomedical Ontologies](http://www.obofoundry.org/ "Open Biological and Biomedical Ontologies")
 
 The Gene Ontology Consortium is supported by a P41 grant from the National Human Genome Research Institute (NHGRI) \[grant [2U41HG002273-17](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989 "National Human Genome Research Institute grant 2U41HG002273-17")\].
-
-
