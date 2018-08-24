@@ -1,7 +1,7 @@
 ---
 title: Welcome
-permalink: /pages/home/
-redirect_from: /pages/index.html
+permalink: /page/home/
+redirect_from: /page/index.html
 ---
 
 ## Getting started
