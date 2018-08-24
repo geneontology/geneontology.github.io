@@ -57,8 +57,6 @@ defaults:
     layout: post
     sectionid: blog
 
-- scope:
-
 collections:
   pages:
     permalink: /page/:path/
