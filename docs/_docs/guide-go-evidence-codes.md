@@ -3,8 +3,6 @@ title: Guide to GO Evidence Codes
 permalink: /docs/guide-go-evidence-codes/
 ---
 
-# Guide to GO Evidence Codes
-
 A GO annotation consists of a GO term associated with a specific reference that describes the work or analysis upon which the association between a specific GO term and gene product is based. Each annotation must also include an evidence code to indicate how the annotation to a particular term is supported. Although evidence codes do reflect the type of work or analysis described in the cited reference which supports the GO term to gene product association, they are not necessarily a classification of types of experiments/analyses. Note that these evidence codes are intended for use in conjunction with GO terms, and should not be considered in isolation from the terms. If a reference describes multiple methods that each provide evidence to make a GO annotation to a particular term, then multiple annotations with identical GO identifiers and reference identifiers but different evidence codes may be made.
 
 Out of all the evidence codes available, only Inferred from Electronic Annotation (IEA) is not assigned by a curator. Manually-assigned evidence codes fall into four general categories: experimental (and experimental from high throughput experiments), computational analysis, author statements, and curatorial statements.

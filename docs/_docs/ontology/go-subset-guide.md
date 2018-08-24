@@ -3,25 +3,8 @@ title: GO Subset Guide
 permalink: /docs/go-subset-guide/
 ---
 
-<!--- This page seems to be outdated; SGD's Slim shouldn't be listed under "archived", unless I'm reading this wrong (in which case the page should be cleaned up).
-Also not sure what the bottom bit is about- tools to make a Slim or to map slims (SGD has a working GO Slim Mapper).
-Unclear why the " GO subsets available" header exists--->
-# GO Subset Guide
-Table of Contents [hide]
-
-        What is a GO subset?
-        How are GO subsets used?
-        Who creates and maintains GO subsets?
-        GO subsets available
-        Maintained GO subsets
-        For internal checking purposes we also provide two "anti-slims"
-        Archived GO Slims
-        Map2Slim option in OWLTools
-        On the web
-
-## What is a GO subset?
-
 GO subsets (also known as GO slims) are cut-down versions of the GO ontologies containing a subset of the terms in GO. They give a broad overview of the ontology content without the detail of the specific fine-grained terms.
+
 ## How are GO subsets used?
 
 GO subsets are particularly useful for giving a summary of the results of GO annotation of a genome, microarray, or cDNA collection when broad classification of gene product function is required. Some groups annotate to GO subsets that are relevant to their domain of interest, rather than using the full GO.
