@@ -15,8 +15,11 @@
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/page/home/" | prepend: site.baseurl }}">Documentation</a></li>
                 <li><a>Downloads</a></li>
+                <li><a>Tools</a></li>
+                <li><a>About</a></li>
                 <li {% if page.sectionid=='faq' %} class="active" {% endif %}><a href="{{ "/faq/home/" | prepend: site.baseurl }}">FAQs</a></li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | prepend: site.baseurl }}">Blog</a></li>
+                <li><a>Contact us</a></li>
             </ul>
             <div class="navbar-right">
                 <form class="navbar-form navbar-left">
