@@ -36,8 +36,8 @@ defaults:
     path: _page
     type: docs
   values:
-    layout: docs
     sectionid: page
+    layout: docs
     seo:
       type: "WebPage"
 
@@ -45,8 +45,8 @@ defaults:
     path: _faq
     type: docs
   values:
-    layout: docs
     sectionid: faq
+    layout: docs
     seo:
       type: "WebPage"
 
@@ -54,15 +54,15 @@ defaults:
     path: _posts
     type: posts
   values:
-    layout: post
     sectionid: blog
+    layout: post
 
 collections:
   pages:
     permalink: /page/:path/
     output: true
   faq:
-    permalink: /:collection/:path/
+    permalink: /faq/:path/
     output: true
   posts:
     permalink: /blog/:year/:month/:day/:title/
