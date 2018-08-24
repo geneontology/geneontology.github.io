@@ -1,11 +1,33 @@
-- title: Documentation
+- title: Ontology
   docs:
-  - home
-  - downloads
-  - customization
+  - ontology-documentation
+  - ontology
+  - go-subset-guide.md
 
-- title: Downloads
+- title: Annotation
+  docs:
+  - go-annotations.md
+  - go-annotation-policies.md
+
+- title: Evidence
   docs:
   - cheatsheet
   - font-awesome
   - bootstrap
+
+- title: Formats
+  docs:
+  - go-rdfxml-file-format.md
+  - go-annotation-file-formats.md
+  - go-annotation-file-gaf-format-21.md
+
+- title: FAQs
+  docs:
+  - faq.md
+
+- title: About
+  docs:
+  - about.md
+  - contributors.md
+  - publications.md
+  - use-and-license.md
