@@ -1,5 +1,9 @@
-# Ontology Documentation
 ---
+title: Ontology Documentation
+permalink: /docs/ontology-documentation/
+---
+
+# Ontology Documentation
 
 The Gene Ontology defines the universe of concepts relating to gene functions (‘GO terms’), and how these functions are related to each other (‘relations’). It is constantly revised and expanded as biological knowledge accumulates. The GO describes function with respect to three aspects: *molecular function* (molecular-level activities performed by gene products), *cellular component* (the locations relative to cellular structures in which a gene product performs a function), and *biological process* (the larger processes, or ‘biological programs’ accomplished by multiple molecular activities).
 
@@ -43,4 +47,3 @@ A biological process is not equivalent to a pathway. At present, the GO does not
     * [Detection and Response to stimulus](http://wiki.geneontology.org/page/detection-and-response-stimulus)
     * [Sensory perception](http://wiki.geneontology.org/page/sensory-perception)
     * [Transport and transporters](http://wiki.geneontology.org/page/transport-and-transporters)
-

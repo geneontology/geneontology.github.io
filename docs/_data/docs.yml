@@ -1,8 +1,8 @@
 - title: Ontology
   docs:
-  - ontology-documentation
-  - ontology
-  - go-subset-guide
+    - ontology-documentation
+    - ontology
+    - go-subset-guide
 
 - title: Annotation
   docs:
@@ -12,9 +12,9 @@
 
 - title: Evidence
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+    - cheatsheet
+    - font-awesome
+    - bootstrap
 
 - title: Formats
   docs:
