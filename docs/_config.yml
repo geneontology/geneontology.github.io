@@ -45,7 +45,7 @@ defaults:
     path: _faq
     type: docs
   values:
-    layout: faq
+    layout: docs
     sectionid: faq
     seo:
       type: "WebPage"
@@ -60,7 +60,7 @@ defaults:
 - scope:
 
 collections:
-  docs:
+  pages:
     permalink: /:collection/:path/
     output: true
   faq:
