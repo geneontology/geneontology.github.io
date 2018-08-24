@@ -2,12 +2,12 @@
   docs:
   - ontology-documentation
   - ontology
-  - go-subset-guide.md
+  - go-subset-guide
 
 - title: Annotation
   docs:
-  - go-annotations.md
-  - go-annotation-policies.md
+  - go-annotations
+  - go-annotation-policies
 
 - title: Evidence
   docs:
@@ -17,17 +17,17 @@
 
 - title: Formats
   docs:
-  - go-rdfxml-file-format.md
-  - go-annotation-file-formats.md
-  - go-annotation-file-gaf-format-21.md
+  - go-rdfxml-file-format
+  - go-annotation-file-formats
+  - go-annotation-file-gaf-format-21
 
 - title: FAQs
   docs:
-  - faq.md
+  - faq
 
 - title: About
   docs:
-  - about.md
-  - contributors.md
-  - publications.md
-  - use-and-license.md
+  - about
+  - contributors
+  - publications
+  - use-and-license
