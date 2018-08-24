@@ -33,7 +33,7 @@ timezone: America/Los_Angeles
 defaults:
 
 - scope:
-    path: _docs
+    path: _pages
     type: docs
   values:
     layout: docs
