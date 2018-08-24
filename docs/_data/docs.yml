@@ -8,12 +8,7 @@
   docs:
   - go-annotations
   - go-annotation-policies
-
-- title: Evidence
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - guide-go-evidence-codes
 
 - title: Formats
   docs:
