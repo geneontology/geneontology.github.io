@@ -31,12 +31,6 @@ exclude:
   - README.md
 timezone: America/Los_Angeles
 defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
 
 - scope:
     path: _docs
@@ -56,8 +50,20 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+
 collections:
   docs:
+    permalink: /:collection/:path/
+    output: true
+  faq:
     permalink: /:collection/:path/
     output: true
   posts:
