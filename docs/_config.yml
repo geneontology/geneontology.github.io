@@ -58,7 +58,7 @@ defaults:
     layout: post
 
 collections:
-  page:
+  docs:
     permalink: /:collection/:path/
     output: true
   # faq:
