@@ -1,3 +1,7 @@
+---
+title: Ontology
+permalink: /docs/ontology
+---
 # Ontology Documentation
 
 The Gene Ontology defines the universe of concepts relating to gene functions (‘GO terms’), and how these functions are related to each other (‘relations’). It is constantly revised and expanded as biological knowledge accumulates. The GO describes function with respect to three aspects: **molecular function** (molecular-level activities performed by gene products), **cellular component** (the locations relative to cellular structures in which a gene product performs a function), and **biological process** (the larger processes, or ‘biological programs’ accomplished by multiple molecular activities).
