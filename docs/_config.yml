@@ -33,11 +33,11 @@ timezone: America/Los_Angeles
 defaults:
 
 - scope:
-    path: _pages
+    path: _page
     type: docs
   values:
     layout: docs
-    sectionid: docs
+    sectionid: page
     seo:
       type: "WebPage"
 
