@@ -3,44 +3,6 @@ title: FAQs
 permalink: /docs/faq/
 ---
 
-<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-
-<a href="/" class="logo navbar-btn pull-left" title="Home"><img src="http://geneontology.org/sites/default/files/go-logo-icon.mini__0.png" alt="Home" /></a> <a href="/" class="name navbar-brand" title="Home">Gene Ontology Consortium</a>
-<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-
--   [Home](/)
--   <a href="/page/introduction-go-resource" class="dropdown-toggle">Documentation <span class="caret"></span></a>
-    -   [Introduction to the GO resource](/page/introduction-go-resource)
-    -   [Ontology](/page/ontology-documentation)
-    -   [GO annotations](/page/go-annotations)
-    -   [GO MySQL database guide](/page/go-mysql-database-guide)
-    -   [GO Ontology file format guide](/page/go-file-format-guide)
-    -   [GO Annotation file formats guide](/page/go-annotation-file-formats)
-    -   [Contributing to GO](/page/contributing-go)
-    -   [FAQs](/faq-page)
--   <a href="/page/downloads" class="dropdown-toggle">Downloads <span class="caret"></span></a>
-    -   [Overview](/page/downloads)
-    -   [GO annotations](/page/download-go-annotations)
-    -   [Ontology](/page/download-ontology)
-    -   [Mappings](/page/download-mappings)
--   <a href="/page/go-tools-registry" class="dropdown-toggle">Tools <span class="caret"></span></a>
-    -   [AmiGO 2](http://amigo.geneontology.org/)
-    -   [GOOSE](http://amigo.geneontology.org/goose)
-    -   [GO enrichment analysis](/page/go-enrichment-analysis)
-    -   [Other GOC tools](http://amigo.geneontology.org/amigo/software_list "Other GOC tools offered in the AmiGO software suite.")
--   <a href="/page/about" class="dropdown-toggle">About <span class="caret"></span></a>
-    -   [Overview](/page/about)
-    -   [Publications](/page/publications)
-    -   [Citation policy](/page/go-citation-policy)
-    -   [Use and license](/page/use-and-license "Information on the use and license of GO data.")
-    -   [GO mailing list](/page/go-mailing-list)
-    -   [Contributors](/page/contributors)
--   [Contact us](/page/contact-go)
-
-<a href="" id="main-content"></a>
-All FAQs
-========
-
 [Does the GO ID have any meaning?](/faq/does-go-id-have-any-meaning)
 --------------------------------------------------------------------
 
@@ -1304,8 +1266,3 @@ IMEx will only call an interaction 'direct' when performed with 2 purified molec
 
 For more details, please see the [corresponding entry](http://www.ebi.ac.uk/intact/about/faq?conversationContext=5#8) on the the IntAct FAQ page.
 
-Copyright © 1999-2018 [the Gene Ontology](http://geneontology.org/ "The Gene Ontology project website") ([CC-BY 4.0](/page/use-and-license))
-[Helpdesk](/form/contact-go "Contact the GO helpdesk") • [Citation/attribution](/page/go-citation-policy "How to cite the GO project") • [Terms of use](/page/use-and-license "Terms of use for the GO project")
-Member of the [Open Biological and Biomedical Ontologies](http://www.obofoundry.org/ "Open Biological and Biomedical Ontologies")
-
-The Gene Ontology Consortium is supported by a P41 grant from the National Human Genome Research Institute (NHGRI) \[grant [2U41HG002273-17](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989 "National Human Genome Research Institute grant 2U41HG002273-17")\].
