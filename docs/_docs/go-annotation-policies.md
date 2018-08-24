@@ -1,3 +1,8 @@
+---
+title: GO Annotation Policies
+permalink: /docs/go-annotation-policies/
+---
+
 # GO Annotation Policy
 Annotation is the process of assigning GO terms to gene products. The annotation data in the GO database is contributed by members of the GO Consortium, and the Consortium is actively encouraging new groups to start contributing annotation. This GO annotation guide includes details about the annotation process.
 
@@ -18,4 +23,3 @@ For more information on annotation, please see the following resources:
  * GO annotation conventions
  * GO annotation standard operating procedures
  * Evidence codes used in GO annotation
-
