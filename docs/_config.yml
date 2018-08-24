@@ -61,7 +61,7 @@ defaults:
 
 collections:
   pages:
-    permalink: /:collection/:path/
+    permalink: /page/:path/
     output: true
   faq:
     permalink: /:collection/:path/
