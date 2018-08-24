@@ -59,10 +59,10 @@ defaults:
 
 collections:
   page:
-    permalink: /page/:path/
+    permalink: /:collection:/:path/
     output: true
   faq:
-    permalink: /faq/:path/
+    permalink: /:collection:/:path/
     output: true
   posts:
     permalink: /blog/:year/:month/:day/:title/
