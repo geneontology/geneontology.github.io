@@ -25,6 +25,13 @@
   docs:
   - faq
 
+- title: Downloads
+  # docs:
+  # - about
+  # - contributors
+  # - publications
+  # - use-and-license
+
 - title: About
   docs:
   - about
