@@ -39,8 +39,10 @@ body {
   }
 }
 
-/* Override something in this theme to get icons/menu a little more compact. */
+/* Override something in this theme to get icons/menu */
+/* a little more compact. -kltm */
 .navbar-nav li a {
+    /* margin: 12.5px 6px; */ /* <- compiled-in original from line 5 above */
     margin: 12.5px 1px;
 }
 
