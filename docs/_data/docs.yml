@@ -27,6 +27,7 @@
 
 - title: Downloads
   docs:
+  - downloads
   - download-ontology
   - download-go-annotations
   - download-mappings
