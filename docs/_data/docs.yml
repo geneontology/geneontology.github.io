@@ -26,11 +26,10 @@
   - faq
 
 - title: Downloads
-  # docs:
-  # - about
-  # - contributors
-  # - publications
-  # - use-and-license
+  docs:
+  - download-ontology
+  - download-go-annotations
+  - download-mappings
 
 - title: About
   docs:

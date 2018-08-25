@@ -1,6 +1,10 @@
-<!-- This had two tables.  I did not preserve the formatting --> 
+---
+title: Download Ontology
+permalink: /docs/download-ontology/
+---
 
-# Download Ontology
+<!-- This had two tables.  I did not preserve the formatting -->
+
 ## Currently available
 
 This page describes the various versions of Gene Ontology available for download. Note that there are some changes to download locations. You should be able to right-click (or ctrl-click on Mac) on the file link and then "save as" to your computer. OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor.
