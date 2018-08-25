@@ -1,4 +1,3 @@
-<-- This had a pretty table.  I didn't format it again -->
 # Download GO annotations
 ## Overview
 
