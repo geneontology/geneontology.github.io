@@ -1,8 +1,10 @@
 ---
 title: Welcome
-permalink: /docs/home/
-redirect_from: /docs/index.html
+permalink: /downloads/home/
+redirect_from: /downloads/index.html
 ---
+
+##
 
 ## Documentation
 

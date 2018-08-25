@@ -43,6 +43,15 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _downloads
+    type: docs
+  values:
+    sectionid: downloads
+    layout: docs
+    seo:
+      type: "WebPage"
+
 # - scope:
 #     path: _faq
 #     type: docs
@@ -61,6 +70,9 @@ defaults:
 
 collections:
   docs:
+    permalink: /:collection/:path/
+    output: true
+  downloads:
     permalink: /:collection/:path/
     output: true
   # faq:
