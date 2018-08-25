@@ -13,18 +13,6 @@
   {% endfor %}
 {% endfor %}
 
-{% for section in site.data.downloads %}
-  {% for item in section.downloads %}
-    {% assign item_url = item | prepend:"/downloads/" | append:"/" %}
-    {% assign p = site.downloads | where:"url", item_url | first %}
-    {
-      "title": "{{ p.title }}",
-      "url": "{{ p.url | prepend: site.baseurl }}"
-
-    },
-  {% endfor %}
-{% endfor %}
-
 {% for post in site.posts %}
   {
   "title": "{{ post.title | escape }}",

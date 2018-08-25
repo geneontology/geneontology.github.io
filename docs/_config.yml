@@ -44,24 +44,6 @@ defaults:
       type: "WebPage"
 
 - scope:
-    path: _downloads
-    type: docs
-  values:
-    sectionid: downloads
-    layout: docs
-    seo:
-      type: "WebPage"
-
-# - scope:
-#     path: _faq
-#     type: docs
-#   values:
-#     sectionid: faq
-#     layout: docs
-#     seo:
-#       type: "WebPage"
-
-- scope:
     path: _posts
     type: posts
   values:
@@ -75,9 +57,6 @@ collections:
   downloads:
     permalink: /:collection/:path/
     output: true
-  # faq:
-  #   permalink: /:collection/:path/
-  #   output: true
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
