@@ -11,8 +11,8 @@ These files can also be downloaded via FTP; we recommend this method for the lar
 These files are taxon-specific and reflect the work of specific projects, primarily the model organisms database groups, to provide comprehensive, non-redundant annotation files for their organism. All the files in this table have been filtered using the annotation file QC checks script. A major component to the filtering is the requirement that particular taxon IDs can only be included within the association files provided by specific projects; the current list of authoritative groups and major model organisms can be found below.
 ## Filtered Annotation File Downloads
 
-|Species/Database[Reorder] | Gene products annotated|	Annotations	| Submission date |README|File|
-|--------------------------|------------------------|-------------------|-----------------|------|----|
+|Species/Database  | Gene products annotated|	Annotations	| Submission date |README|File|
+|------------------|------------------------|-------------|-----------------|------|----|
 | **Leishmania major** Sanger GeneDB| 2781|6247 (6247 non-IEA)	|-|[README](http://geneontology.org/gene-associations/readme/GeneDB_Lmajor.README)|[gene_association.GeneDB_Lmajor.gz](http://geneontology.org/gene-associations/gene_association.GeneDB_Lmajor.gz) (197 kb)|
 | **Plasmodium falciparum** Sanger GeneDB| 2370|6250 (6250 non-IEA)	|-|[README](http://geneontology.org/gene-associations/readme/GeneDB_Pfalciparum.README)|[gene_association.GeneDB_Pfalciparum.gz](http://geneontology.org/gene-associations/http://geneontology.org/gene-associations/gene_association.GeneDB_Pfalciparum.gz) (180 kb)|
 | **Trypanosoma brucei** Sanger GeneDB| 6365|18912 (18912 non-IEA)	|-|[README](http://geneontology.org/gene-associations/readme/GeneDB_Tbrucei.README)|	[gene_association.GeneDB_Tbrucei.gz](http://geneontology.org/gene-associations/gene_association.GeneDB_Tbrucei.gz) (508 kb)|
