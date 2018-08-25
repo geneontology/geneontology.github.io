@@ -39,6 +39,10 @@ body {
   }
 }
 
+/* Override something in this theme to get icons/menu a little more compact. */
+.navbar-nav li a {
+    margin: 12.5px 1px;
+}
 
 .header-container {
   /* background-color: black; */
