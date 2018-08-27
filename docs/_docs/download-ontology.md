@@ -15,6 +15,7 @@ This page describes the various versions of Gene Ontology available for download
 |go.obo |	http://purl.obolibrary.org/obo/go.obo |	Core ontology (OBO Format)|
 |go.owl |	http://purl.obolibrary.org/obo/go.owl |	Core ontology (OWL RDF/XML)|
 |extensions/go-plus.owl |	http://purl.obolibrary.org/obo/go/extensions/go-plus.owl 	|Core plus additional axioms, vetted|
+
 ### go-basic.obo
 
 This is the basic version of the GO filtered such that the graph is guaranteed to be acyclic, and annotations can be propagated up the graph. The relations included are is_a, part_of, regulates, negatively_regulates and positively_regulates. This version excludes relationships that cross the 3 main GO hierarchies. This is the version that should be used with most GO-based annotation tools.
