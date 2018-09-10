@@ -1,0 +1,40 @@
+- title: Ontology
+  docs:
+    - ontology-documentation
+    - go-subset-guide
+
+- title: Annotation
+  docs:
+  - go-annotations
+  - go-annotation-policies
+  - guide-go-evidence-codes
+
+# - title: Evidence
+#   docs:
+#     - cheatsheet
+#     - font-awesome
+#     - bootstrap
+
+- title: Formats
+  docs:
+  - go-rdfxml-file-format
+  - go-annotation-file-formats
+  - go-annotation-file-gaf-format-21
+
+- title: FAQs
+  docs:
+  - faq
+
+- title: Downloads
+  docs:
+  - downloads
+  - download-ontology
+  - download-go-annotations
+  - download-mappings
+
+- title: About
+  docs:
+  - about
+  - contributors
+  - publications
+  - use-and-license
