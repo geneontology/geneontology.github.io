@@ -40,5 +40,4 @@ additional funding for those groups.
  * Helen Parkinson, Ontologies Team lead, European Bioinformatics Institute (ontology development)
  * Monte Westerfield, University of Oregon (zebrafish gene annotation)
 
-### The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health),
-grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989).
+### The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989).
