@@ -82,7 +82,7 @@ the PubMed ID must be included; if the model organism database has its own ident
 included.\
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
 #### Evidence Code
-One of the codes from the Evidence Code ontology, ECO\
+One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO\
 This field is mandatory, cardinality 1 
 #### With [or] From
 Also referred to as **With, From** or the **With/From** column\
