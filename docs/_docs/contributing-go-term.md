@@ -15,7 +15,7 @@ The GOC GitHub tracker captures suggestions for changes to the ontologies, from 
 
 Visit the GO ontology requests tracker. A list with all recently submitted requests is visible on the landing page. Clicking on any summary will bring up detailed information about that request. All requests whether completed ('Closed') or still in progress ('Open') remain in GitHub indefinitely; by default only 'Open' suggestions are displayed in this page.
 
-More details about contributing to the ontology are available in the 'GitHub Guidelines for Contributing Ontology tickets'. A brief description is included below.
+More details about contributing to the ontology are available in the [GitHub Guidelines for Contributing Ontology tickets](https://github.com/geneontology/go-ontology/blob/master/CONTRIBUTING.md). A brief description is included below.
  
 
 ### Steps to enter a suggestion or a term request:
