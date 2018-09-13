@@ -12,7 +12,7 @@ free to <a href="">contact us</a>.
 
 Versioned and browsable releases are available at<a href="http://release.geneontology.org">http://release.geneontology.org</a>.
 We make new versions available approximately every month.
-
+# Did we not decide NOT to put these links in public sites ?  
 The site <a href="http://current.geneontology.org">http://current.geneontology.org</a> is always the last official release made available at<a href="http://release.geneontology.org">http://release.geneontology.org</a>.
 
 We will soon add more documentation about the structure of these
