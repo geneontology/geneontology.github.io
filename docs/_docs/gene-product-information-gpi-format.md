@@ -1,5 +1,5 @@
 # Gene Product Information (GPI) Format
-Gene Product Information (GPI) format is used to submit gene and gene product information to the GO Consortium. Please note that the GPI companion file for annotation information uses the [GPAD file format](GeneProductAssociationDataFormat.md).
+Gene Product Information (GPI) format is used to submit gene and gene product information to the GO Consortium. Please note that the GPI companion file for annotation information uses the [GPAD file format](gene-product-association-data-gpad-format.md). 
 ## GPI format version
 All annotation files must start with a single line denoting the file format. For GPI it is as follows:
 
