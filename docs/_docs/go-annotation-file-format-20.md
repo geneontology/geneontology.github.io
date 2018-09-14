@@ -20,24 +20,27 @@ Other information, such as contact details for the submitter or database group, 
 ## Annotation File Fields
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
-Column 	Content 	Required? 	Cardinality 	Example
-1 	DB 	required 	1 	UniProtKB
-2 	DB Object ID 	required 	1 	P12345
-3 	DB Object Symbol 	required 	1 	PHO3
-4 	Qualifier 	optional 	0 or greater 	NOT
-5 	GO ID 	required 	1 	GO:0003993
-6 	DB:Reference (|DB:Reference) 	required 	1 or greater 	SGD_REF:S000047763|PMID:2676709
-7 	Evidence Code 	required 	1 	IMP
-8 	With (or) From 	optional 	0 or greater 	GO:0000346
-9 	Aspect 	required 	1 	F
-10 	DB Object Name 	optional 	0 or 1 	Toll-like receptor 4
-11 	DB Object Synonym (|Synonym) 	optional 	0 or greater 	hToll|Tollbooth
-12 	DB Object Type 	required 	1 	protein
-13 	Taxon(|taxon) 	required 	1 or 2 	taxon:9606
-14 	Date 	required 	1 	20090118
-15 	Assigned By 	required 	1 	SGD
-16 	Annotation Extension 	optional 	0 or greater 	part_of(CL:0000576)
-17 	Gene Product Form ID 	optional 	0 or 1 	UniProtKB:P12345-2
+
+
+Column 	| Content 	| Required? |	Cardinality |	Example
+--------|----------|-----------|-------------|---------
+1 |	DB |	required |	1 |	UniProtKB
+2 |	DB Object ID 	| required |	1 |	P12345
+3 |	DB Object Symbol |	required |	1 |	PHO3
+4 |	Qualifier |	optional |	0 or greater |	NOT
+5 |	GO ID |	required |	1 |	GO:0003993
+6 |	DB:Reference (|DB:Reference) |	required |	1 or greater |	SGD_REF:S000047763|PMID:2676709
+7 |	Evidence Code 	| required |	1 |	IMP
+8 |	With (or) From |	optional | 	0 or greater |	GO:0000346
+9 |	Aspect 	| required |	1 |	F
+10| 	DB Object Name |	optional |	0 or 1 |	Toll-like receptor 4
+11| 	DB Object Synonym (\|Synonym) |	optional |	0 or greater |	hToll|Tollbooth
+12| 	DB Object Type |	required |	1 |	protein
+13| 	Taxon(|taxon) |	required |	1 or 2 |	taxon:9606
+14| 	Date |	required |	1 |	20090118
+15| 	Assigned By |	required | 	1 |	SGD
+16| 	Annotation Extension |	optional | 	0 or greater |	part_of(CL:0000576)
+17| 	Gene Product Form ID |	optional |	0 or 1 |	UniProtKB:P12345-2
 
  
 ### Definitions and requirements for field contents
@@ -45,7 +48,8 @@ Column 	Content 	Required? 	Cardinality 	Example
 #### DB (column 1)
 refers to the database from which the identifier in DB object ID (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the DB object ID (column 2), DB (column 1) should be UniProtKB. 
 must be one of the values from the set of GO database cross-references
-this field is mandatory, cardinality 1
+
+This field is mandatory, cardinality 1
 
 #### DB Object ID (column 2)
 a unique identifier from the database in DB (column 1) for the item being annotated
@@ -62,21 +66,25 @@ The DB Object Symbol field should be a symbol that means something to a biologis
 #### Qualifier (column 4)
 flags that modify the interpretation of an annotation
 one (or more) of NOT, contributes_to, colocalizes_with
-this field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. NOT|contributes_to)
+
+This field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. NOT|contributes_to)
 See also the documentation on qualifiers in the GO annotation guide
 
 #### GO ID (column 5)
 the GO identifier for the term attributed to the DB object ID
-this field is mandatory, cardinality 1
+
+This field is mandatory, cardinality 1
 
 #### DB:Reference (column 6)
 one or more unique identifiers for a single source cited as an authority for the attribution of the GO ID to the DB object ID. This may be a literature reference or a database record. The syntax is DB:accession_number.
 Note that only one reference can be cited on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, we strongly recommend that the PubMed ID be included, as well as an identifier within a model organism database. Note that if the model organism database has an identifier for the reference, that identifier should always be included, even if a PubMed ID is also used.
-This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. SGD_REF:S000047763|PMID:2676709).
+
+This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g.SGD_REF:S000047763|PMID:2676709).
 
 #### Evidence Code (column 7)
 see the GO evidence code guide for the list of valid evidence codes for GO annotations
-this field is mandatory, cardinality 1
+
+This field is mandatory, cardinality 1
 
 #### With [or] From (column 8)
 Also referred to as with, from or the with/from column
@@ -90,7 +98,7 @@ one of:
         GO:GO_id
         CHEBI:CHEBI_id
 
-this field is not mandatory overall, but is required for some evidence codes (see below and the evidence code documentation for details); cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. CGSC:pabA|CGSC:pabB)
+This field is not mandatory overall, but is required for some evidence codes (see below and the evidence code documentation for details); cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. CGSC:pabA|CGSC:pabB)
 Note: This field is used to hold an additional identifier for annotations using certain evidence codes (IC, IEA, IGI, IPI, ISS). For example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). More information on the meaning of with or from column entries is available in the evidence code documentation entries for the relevant codes.
 Cardinality = 0 is not recommended, but is permitted because cases can be found in literature where no database identifier can be found (e.g. physical interaction or sequence similarity to a protein, but no ID provided). Cardinality = 0 is not allowed for ISS annotations made after October 1, 2006. Annotations where evidence is IGI, IPI, or ISS and with cardinality = 0 should link to an explanation of why there is no entry in with. Cardinality may be >1 for any of the evidence codes that use with; for IPI and IGI cardinality >1 has a special meaning (see evidence documentation for more information). For cardinality >1 use a pipe to separate entries (e.g. FB:FBgn1111111|FB:FBgn2222222).
 Note that a gene ID may be used in the with column for a IPI annotation, or for an ISS annotation based on amino acid sequence or protein structure similarity, if the database does not have identifiers for individual gene products. A gene ID may also be used if the cited reference provides enough information to determine which gene ID should be used, but not enough to establish which protein ID is correct.
@@ -100,21 +108,26 @@ The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.
 
 #### Aspect (column 9)
 refers to the namespace or ontology to which the GO ID (column 5) belongs; one of P (biological process), F (molecular function) or C (cellular component)
-this field is mandatory; cardinality 1
+
+This field is mandatory; cardinality 1
 
 #### DB Object Name (column 10)
 name of gene or gene product
-this field is not mandatory, cardinality 0, 1 [white space allowed]
+
+This field is not mandatory, cardinality 0, 1 [white space allowed]
 
 #### DB Object Synonym (column 11)
 Gene symbol [or other text] Note that we strongly recommend that gene synonyms are included in the gene association file, as this aids the searching of GO.
-this field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene)
+
+This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene)
  
 #### DB Object Type (column 12)
 A description of the type of gene product being annotated. If a gene product form ID (column 17) is supplied, the DB object type will refer to that entity; if no gene product form ID is present, it will refer to the entity that the DB object symbol (column 2) is believed to produce and which actively carries out the function or localization described. one of the following: protein_complex; protein; transcript; ncRNA; rRNA; tRNA; snRNA; snoRNA; any subtype of ncRNA in the Sequence Ontology. If the precise product type is unknown, gene_product should be used. 
-This field is mandatory, cardinality 1   
-The object type (gene_product, transcript, protein, protein_complex, etc.) listed in the DB object type field must match the database entry identified by the gene product form ID, or, if this is absent, the expected product of the DB object ID. Note that DB object type refers to the database entry (i.e. it represents a protein, functional RNA, etc.); this column does not reflect anything about the GO term or the evidence on which the annotation is based. For example, if your database entry represents a protein-encoding gene, then protein goes in the DB object type column. The text entered in the DB object name and DB object symbol should refer to the entity in DB object ID. For example, several alternative transcripts from one gene may be annotated separately, each with the same gene ID in DB object ID, and specific gene product identifiers in gene product form ID, but list the same gene symbol in the DB object symbol column.
  
+The object type (gene_product, transcript, protein, protein_complex, etc.) listed in the DB object type field must match the database entry identified by the gene product form ID, or, if this is absent, the expected product of the DB object ID. Note that DB object type refers to the database entry (i.e. it represents a protein, functional RNA, etc.); this column does not reflect anything about the GO term or the evidence on which the annotation is based. For example, if your database entry represents a protein-encoding gene, then protein goes in the DB object type column. The text entered in the DB object name and DB object symbol should refer to the entity in DB object ID. For example, several alternative transcripts from one gene may be annotated separately, each with the same gene ID in DB object ID, and specific gene product identifiers in gene product form ID, but list the same gene symbol in the DB object symbol column.
+
+This field is mandatory, cardinality 1  
+
 #### Taxon (column 13)
 taxonomic identifier(s) For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction. 
 
