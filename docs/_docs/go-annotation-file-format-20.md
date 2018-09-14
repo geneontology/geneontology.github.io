@@ -93,13 +93,13 @@ This field is mandatory, cardinality 1
 Also referred to as **with, from** or the **with/from** column
 one of:
 
-        DB:gene_symbol
-        DB:gene_symbol[allele_symbol]
-        DB:gene_id
-        DB:protein_name
-        DB:sequence_id
-        GO:GO_id
-        CHEBI:CHEBI_id
+* DB:gene_symbol
+* DB:gene_symbol[allele_symbol]
+* DB:gene_id
+* DB:protein_name
+* DB:sequence_id
+* GO:GO_id
+* CHEBI:CHEBI_id
 
 This field is not mandatory overall, but is required for some evidence codes (see below and the [evidence code documentation](http://geneontology.org/page/guide-go-evidence-codes) for details); cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. CGSC:pabA|CGSC:pabB)
 
