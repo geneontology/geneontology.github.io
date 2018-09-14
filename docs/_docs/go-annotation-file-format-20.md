@@ -4,7 +4,7 @@ Annotation data is submitted to the GO Consortium in the form of Gene Associatio
 
 Please see the information on the changes in GAF 2.0.
 
-General information about annotation can be found in the GO annotation guide.
+General information about annotation can be found in the [GO annotation guide](http://www.geneontology.org/page/go-annotation-policies).
 ## Changes in GAF 2.0
 
 GAF 2.0 has two additional columns compared to GAF 1.0: annotation extension (column 16) and gene product form ID (column 17).
@@ -16,7 +16,7 @@ All gene association files must start with a single line denoting the file forma
 
 >!gaf-version: 2.0
 
-Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
+Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (`!`); such lines will be ignored by parsers.
 ## Annotation File Fields
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
@@ -46,43 +46,46 @@ Column 	| Content 	| Required? |	Cardinality |	Example
 ### Definitions and requirements for field contents
 
 #### DB (column 1)
-refers to the database from which the identifier in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the **DB object ID** (column 2), DB (column 1) should be UniProtKB. 
+Refers to the database from which the identifier in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the **DB object ID** (column 2), DB (column 1) should be UniProtKB. 
 must be one of the values from the set of [GO database cross-references](http://amigo.geneontology.org/xrefs)
 
 This field is mandatory, cardinality 1
 
 #### DB Object ID (column 2)
-a unique identifier from the database in DB (column 1) for the item being annotated
-this field is mandatory, cardinality 1
+A unique identifier from the database in **DB** (column 1) for the item being annotated.
+
 In GAF 2.0 format, the identifier *must reference a top-level primary gene or gene product identifier*: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are *not* legal values in this field.
 The DB object ID (column 2) is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in DB object ID field) or annotations to a protein object (protein ID in DB object ID field).
 
+This field is mandatory, cardinality 1
+
 #### DB Object Symbol (column 3)
-a (unique and valid) symbol to which **DB object ID** is matched
-can use ORF name for otherwise unnamed gene or protein
-if gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol this field is mandatory, cardinality 1
+A (unique and valid) symbol to which **DB object ID** is matched. Can use ORF name for otherwise unnamed gene or protein.  If gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol 
+
 The **DB Object Symbol** field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB object symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
 
+This field is mandatory, cardinality 1
+
 #### Qualifier (column 4)
-flags that modify the interpretation of an annotation
+Flags that modify the interpretation of an annotation
 one (or more) of `NOT`, contributes_to, colocalizes_with
 
 This field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. `NOT`|contributes_to)
 See also the [documentation on qualifiers](http://geneontology.org/page/go-annotation-conventions#qual) in the GO annotation guide
 
 #### GO ID (column 5)
-the GO identifier for the term attributed to the **DB object ID**
+The GO identifier for the term attributed to the **DB object ID**
 
 This field is mandatory, cardinality 1
 
 #### DB:Reference (column 6)
-one or more unique identifiers for a single source cited as an authority for the attribution of the **GO ID** to the **DB object ID**. This may be a literature reference or a database record. The syntax is DB:accession_number.
+One or more unique identifiers for a single source cited as an authority for the attribution of the **GO ID** to the **DB object ID**. This may be a literature reference or a database record. The syntax is DB:accession_number.
 Note that only **one reference can be cited on a single line** in the gene association file. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, we strongly recommend that the PubMed ID be included, as well as an identifier within a model organism database. Note that if the model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used.
 
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g.SGD_REF:S000047763|PMID:2676709).
 
 #### Evidence Code (column 7)
-see the [GO evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations
+See the [GO evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations
 
 This field is mandatory, cardinality 1
 
@@ -108,12 +111,12 @@ The ID is usually an identifier for an individual entry in a database (such as a
 The **with** column may *not* be used with the evidence codes IDA, TAS, NAS, or ND.
 
 #### Aspect (column 9)
-refers to the namespace or ontology to which the **GO ID** (column 5) belongs; one of P (biological process), F (molecular function) or C (cellular component)
+Refers to the namespace or ontology to which the **GO ID** (column 5) belongs; one of P (biological process), F (molecular function) or C (cellular component)
 
 This field is mandatory; cardinality 1
 
 #### DB Object Name (column 10)
-name of gene or gene product
+Name of gene or gene product
 
 This field is not mandatory, cardinality 0, 1 [white space allowed]
 
@@ -139,7 +142,7 @@ The object type (gene_product, transcript, protein, protein_complex, etc.) liste
 This field is mandatory, cardinality 1  
 
 #### Taxon (column 13)
-taxonomic identifier(s) For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction. 
+Taxonomic identifier(s) For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction. 
 
 This field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries (e.g. taxon:1|taxon:1000) See the GO annotation conventions for more information on multi-organism terms.
  
@@ -157,7 +160,7 @@ Value will differ from column 1 for any annotation that is made by one database 
 This field is mandatory, cardinality 1
  
 #### Annotation Extension (column 16)
-one of:
+One of:
 
 * DB:gene_id
 * DB:sequence_id
