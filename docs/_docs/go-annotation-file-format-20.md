@@ -90,8 +90,7 @@ See the [GO evidence code guide](http://geneontology.org/page/guide-go-evidence-
 This field is mandatory, cardinality 1
 
 #### With [or] From (column 8)
-Also referred to as **with, from** or the **with/from** column
-one of:
+Also referred to as **with, from** or the **with/from** column.  One of:
 
 * DB:gene_symbol
 * DB:gene_symbol[allele_symbol]
