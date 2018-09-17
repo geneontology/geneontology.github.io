@@ -7,7 +7,7 @@ permalink: /docs/download-ontology/
 
 ## Currently available
 
-This page describes the various versions of Gene Ontology available for download. Note that there are some changes to download locations. You should be able to right-click (or ctrl-click on Mac) on the file link and then "save as" to your computer. OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor.
+This page describes the various versions of Gene Ontology available for download. To save, right-click (or ctrl-click on Mac) on the file link and then "save as" to your computer. OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. OWL files can be opened with [Protégé](https://protege.stanford.edu/)
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
