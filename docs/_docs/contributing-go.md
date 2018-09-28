@@ -10,7 +10,11 @@ If your research group has GO annotations for a species that is not currently in
 ### Reviewing GO annotations associated with a scientific article
 
 To start, check if there are existing annotations to the paper:  Open a Gene Ontology browser, (e.g. [AmiGO](http://amigo.geneontology.org/amigo), [QuickGO](https://www.ebi.ac.uk/QuickGO/)) and enter a PubMed identifier (PMID) for the paper of interest in the 'Search' field.
-   
+
+Literature annotation involves capturing published information about the exact function of a gene product as a GO annotations. To do this you must read the publications about the gene and write down all the information. This annotation is time-consuming but produces very high quality, species-specific annotation, and brings the information about the gene product into a format in which it can be used in high-throughput experiments. This is an extremely worthwhile process in the long term. It may be best carried out by people who know the function of the gene product, and the associated biology, in great detail; for example experimental scientists who are familiar with the published literature. If you are doing this, then you may like to write and suggest modifications to the ontology structure as well.
+
+Below is a schematic diagram giving an introduction to the steps involved in literature-based GO annotation. 
+http://geneontology.org/sites/default/files/public/diag-literature-annot.png
 
 #### If GO annotations are listed in the results:
 1. Check whether the paper has been annotated by GO curators.
