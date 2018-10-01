@@ -24,13 +24,9 @@ Mapping files are in the format:
 More details can be found in the [external mapping file format guide](http://geneontology.org/page/external-mapping-file-format).
 ## Mappings File Directory
 
-Direct access to the mappings file directory is available via the following routes:
+Direct access to the mappings file directory is available via [web browser](http://geneontology.org/external2go/)
 
-    by web browser
-    via the CVS web interface
-    by CVS, in the directory go/external2go/
-
-Back to top
+[Back to top](#mappings-of-external-classification-systems-to-go)
 ## The Mappings
 
 <!--Table starts here-->
