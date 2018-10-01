@@ -1,4 +1,6 @@
 # Cardiovascular Gene Annotation Initiative
+[![Cardiovascular Gene Annotation Initiative logo](http://www.ucl.ac.uk/functional-gene-annotation/images/logo_jsmall.JPG)](http://www.ucl.ac.uk/functional-gene-annotation/cardiovascular)
+
 http://www.ucl.ac.uk/functional-gene-annotation/cardiovascular
 Active project: 
 yes
