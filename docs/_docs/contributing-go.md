@@ -2,14 +2,19 @@
 Research groups may contribute to the Gene Ontology Consortium (GOC) by providing suggestions for updating the ontology (e.g. requesting new terms) or by providing GO annotations.
 ## How to contribute to the ontology
 
-[![New Terms, Synonyms, Clarify Definitions](http://geneontology.org/sites/default/files/u602/ontology-terms-icon.png)](http://geneontology.org/contributing-go-term)
+[<img src="http://geneontology.org/sites/default/files/u602/ontology-terms-icon.png" width="225" height="256" title="Add New Terms, Synonyms, or Clarify Definitions">](http://geneontology.org/contributing-go-term)
+
+[<img src="http://geneontology.org/sites/default/files/u602/annotating-papers-small.png" width="196" height="256" title="Annotating a paper">](#reviewing-go-annotations-associated-with-a-scientific-article)
+[<img src="http://geneontology.org/sites/default/files/u602/annotating-genes-proteins-small.png" width="256" height="256" title="Large sets of annotations">](#reviewing-go-annotations-for-a-gene-or-protein)
+[<img src="http://geneontology.org/sites/default/files/u602/large-datasets-curation-icon-mmt.png" width="256" height="256" title="Add New Terms, Synonyms, or Clarify Definitions">](#contribute-annotations-from-large-datasets)
 
 ## How to contribute GO annotations
 
 If your research group has GO annotations for a species that is not currently included in the GO, whether or not these annotations cover the entire genome, or if your research team has identified gaps or inaccuracies in the current set of GO annotations, this guide is for you. Choose the scenario that best describes your research group and follow the steps as indicated in the following pages.
 
+---
+[<img src="http://geneontology.org/sites/default/files/u602/annotating-papers-small.png" width="100" height="144" title="Annotating a paper">](#reviewing-go-annotations-associated-with-a-scientific-article)
 ### Reviewing GO annotations associated with a scientific article
-
 To start, check if there are existing annotations to the paper:  Open a Gene Ontology browser, (e.g. [AmiGO](http://amigo.geneontology.org/amigo), [QuickGO](https://www.ebi.ac.uk/QuickGO/)) and enter a PubMed identifier (PMID) for the paper of interest in the 'Search' field.
    
 
@@ -28,7 +33,9 @@ To start, check if there are existing annotations to the paper:  Open a Gene Ont
   - [ ] a PMID 
   - [ ] the name of the species investigated in the experiment that led to this publication
   - [ ] *Please state whether or not regular updates will be submitted about this annotation*.
-
+  
+---
+[<img src="http://geneontology.org/sites/default/files/u602/annotating-genes-proteins-small.png" width="144" height="144" title="Large sets of annotations">](#reviewing-go-annotations-for-a-gene-or-protein)
 ### Reviewing GO annotations for a gene or protein
 
 To start, check if there are existing annotations to the gene or protein of interest: open a Gene Ontology browser (e.g. AmiGO, QuickGO) and search for the gene or gene protein record of interest by entering it in the 'Search' field, then browse associated annotations and follow links to see the full list of annotations:
@@ -43,8 +50,9 @@ To start, check if there are existing annotations to the gene or protein of inte
   - [ ] a summary of the missing data
   - [ ] list of the wrong annotations
   - [ ] suggest GO annotations to replace them or be added (when applicable)
-
-
+  
+---
+[<img src="http://geneontology.org/sites/default/files/u602/large-datasets-curation-icon-mmt.png" width="144" height="144" title="Add New Terms, Synonyms, or Clarify Definitions">](#contribute-annotations-from-large-datasets)
 ### Contribute annotations from large datasets
 
 [Contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
