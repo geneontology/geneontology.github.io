@@ -2,9 +2,6 @@
 title: Download Mappings
 permalink: /docs/download-mappings/
 ---
-
-<!-- Again, most of this page was a table.  I did not preserve formatting.-->
-
 ## Mappings of External Classification Systems to GO
 
 The Gene Ontology is not the only attempt to build structured controlled vocabularies for genome annotation. To aid users, the GO Consortium provides mappings of its terms to those in a number of external vocabularies.
@@ -22,7 +19,7 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 Mapping files are in the format:
 
-external database:term identifier (id/name) > GO:GO term name ; GO:id
+` database:term identifier (id/name) > GO:GO term name ; GO:id`
 
 More details can be found in the [external mapping file format guide](http://geneontology.org/page/external-mapping-file-format).
 ## Mappings File Directory
