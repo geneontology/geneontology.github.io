@@ -3,7 +3,6 @@ title: Download Annotations
 permalink: /docs/download-go-annotations/
 ---
 
-<-- This had a pretty table.  I didn't format it again -->
 ## Overview
 
 The gene association files submitted by GO Consortium members are shown in the tables below. Files are in the GO annotation file format and are compressed using the UNIX gzip utility. Please see the appropriate README file for further details on the annotation set. Any errors or omissions in annotations should be reported by writing to the GO Helpdesk.
