@@ -26,6 +26,9 @@ The GO Consortium uses the OBO flat file format to store the ontology data. The 
 ### OBO-XML Format
 
 OBO-XML is a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc. Currently, only the ontology is available as OBO-XML.
+
+
+##Legacy file formats (no longer supported) 
 ### OWL RDF/XML Format
 
 OWL is a standard for ontology languages, produced by the W3C. Details of the translation used for GO is available on the official OboInOwl page.
