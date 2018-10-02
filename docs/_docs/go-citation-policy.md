@@ -1,16 +1,4 @@
 # GO Citation Policy
-Table of Contents [hide]
-
-    Cite GO
-    GO Data
-        Ontology files
-        Gene Association files
-        Database
-        Data from AmiGO
-    Zotero
-    GO Logo
-    Website Disclaimer
-
 ## Cite GO
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
