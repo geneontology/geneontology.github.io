@@ -8,11 +8,8 @@ The GO File Format Guide documents the structure and syntax of the files availab
 * [OBO 1.4 File Format Guide](http://owlcollab.github.io/oboformat/doc/obo-syntax.html): the ontology file format used and recommended by the GO Consortium
 * [OBO 1.2 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_2.html): previous iteration of the OBO format
 * [OBO 1.0 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_0.html): previous iteration of the OBO format
-* [GO RDF-XML format](go-rdfxml-file-format.md)
 * [GO annotation ("gene association") file format](GOAnnotationFileFormats.md)
 * External mapping file format
-
-~~The combined GO annotation and ontology data is stored as a MySQL database; see the GO database documentation for more information, including the database schema.~~
 
 OBO is fully supported via the OWL-API.
 
@@ -26,9 +23,6 @@ The GO Consortium uses the OBO flat file format to store the ontology data. The 
 ### OBO-XML Format
 
 OBO-XML is a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc. Currently, only the ontology is available as OBO-XML.
-### OWL RDF/XML Format
-
-OWL is a standard for ontology languages, produced by the W3C. Details of the translation used for GO is available on the official OboInOwl page.
 ### FASTA Format
 
 Sequence data for gene products in the GO database is available in standard FASTA format from the GO database archives.
