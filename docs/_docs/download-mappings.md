@@ -21,7 +21,7 @@ Mapping files are in the format:
 
 ` database:term identifier (id/name) > GO:GO term name ; GO:id`
 
-More details can be found in the [external mapping file format guide](http://geneontology.org/page/external-mapping-file-format).
+More details can be found in the [external mapping file format guide](external-mapping-file-format.md).
 ## Mappings File Directory
 
 Direct access to the mappings file directory is available via the following routes:
