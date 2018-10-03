@@ -32,30 +32,12 @@ Direct access to the mappings file directory is available via [web browser](http
 <!--Table starts here-->
 Mappings of external databases to GO Mapping 	Last update 	Download
 
-COG functional categories
-    Clusters of Orthologous Groups (COG)
-    Constructed by Michael Ashburner and Jane Lomax
-
-	June 2004 	txt
-
 Enzyme Commission (EC) enzyme numbers
     Enzyme Commission; contact: go-ontology@lists.stanford.edu (GO ontology editors)
     Constructed and maintained in the GO ontology file by GO editorial staff
     Citation: Hill DP, Davis AP, Richardson JE, Corradi JP, Ringwald M, Eppig JT, Blake JA. Program description: Strategies for biological annotation of mammalian systems: implementing gene ontologies in mouse genome informatics. Genomics. May 2001;74(1):121–8. [ PMID:11374909 | doi:10.1006/geno.2001.6513 ]
 
 	Monthly 	txt
-
-Expressed Gene Anatomy Database
-    Expressed Gene Anatomy Database (EGAD)
-    Constructed by Michael Ashburner
-
-	Oct 2000 	txt
-
-E. coli Genome and Proteome functional categories
-    E. coli Genome and Proteome (GenProtEC)
-    Constructed by Heather Butler and Michael Ashburner
-
-	Dec 2000 	txt
 
 HAMAP families
     High-Quality Automated and Manual Annotation of Microbial Proteomes (HAMAP); contact: goa@ebi.ac.uk (UniProtKB-GOA team)
@@ -70,30 +52,6 @@ InterPro protein families, domains and functional sites
 
 	Monthly 	txt
 
-KEGG pathways and reactions
-    Kyoto Encyclopaedia of Genes and Genomes
-    Constructed and maintained by Amelia Ireland and a script.
-
-	Daily 	txt
-
-MetaCyc pathways and reactions
-    MetaCyc; contact: go-ontology@lists.stanford.edu (GO ontology editors)
-    Constructed and maintained in the GO ontology file by GO editorial staff
-
-	Daily 	txt
-
-MIPS FunCat
-    MIPS Functional Catalogue (FunCat)
-    Constructed by Michael Ashburner and Midori Harris
-
-	Jan 2006 	txt
-
-MultiFun cell function assignment schema classifications
-    MultiFun
-    Constructed by Michael Ashburner, Jane Lomax and Margrethe Hauge Serres.
-
-	Dec 2005 	txt
-
 Pfam domains
     Pfam; contact: interhelp@ebi.ac.uk (InterPro team)
     This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
@@ -101,36 +59,6 @@ Pfam domains
 
 	Monthly 	txt
 
-PIRSF protein superfamilies
-    PIRSF; contact: interhelp@ebi.ac.uk (InterPro team)
-    This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
-    Citation: Hunter S, Apweiler R, Attwood TK, Bairoch A, Bateman A, Binns D, Bork P, Das U, Daugherty L, Duquenne L, Finn RD, Gough J, Haft D, Hulo N, Kahn D, Kelly E, Laugraud A, Letunic I, Lonsdale D, Lopez R, Madera M, Maslen J, McAnulla C, McDowall J, Mistry J, Mitchell A, Mulder N, Natale D, Orengo C, Quinn AF, Selengut JD, Sigrist CJ, Thimma M, Thomas PD, Valentin F, Wilson D, Wu CH, Yeats C. InterPro: the integrative protein signature database. Nucleic Acids Res.. Jan 2009;37(Database issue):D211–5. [ PMID:18940856 | doi:10.1093/nar/gkn785 ]
-
-	Monthly 	txt
-
-PRINTS domains
-    PRINTS; contact: interhelp@ebi.ac.uk (InterPro team)
-    This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
-    Citation: Hunter S, Apweiler R, Attwood TK, Bairoch A, Bateman A, Binns D, Bork P, Das U, Daugherty L, Duquenne L, Finn RD, Gough J, Haft D, Hulo N, Kahn D, Kelly E, Laugraud A, Letunic I, Lonsdale D, Lopez R, Madera M, Maslen J, McAnulla C, McDowall J, Mistry J, Mitchell A, Mulder N, Natale D, Orengo C, Quinn AF, Selengut JD, Sigrist CJ, Thimma M, Thomas PD, Valentin F, Wilson D, Wu CH, Yeats C. InterPro: the integrative protein signature database. Nucleic Acids Res.. Jan 2009;37(Database issue):D211–5. [ PMID:18940856 | doi:10.1093/nar/gkn785 ]
-
-
-	Monthly 	txt
-
-ProDom domains
-    ProDom; contact: interhelp@ebi.ac.uk (InterPro team)
-    This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
-    Citation: Hunter S, Apweiler R, Attwood TK, Bairoch A, Bateman A, Binns D, Bork P, Das U, Daugherty L, Duquenne L, Finn RD, Gough J, Haft D, Hulo N, Kahn D, Kelly E, Laugraud A, Letunic I, Lonsdale D, Lopez R, Madera M, Maslen J, McAnulla C, McDowall J, Mistry J, Mitchell A, Mulder N, Natale D, Orengo C, Quinn AF, Selengut JD, Sigrist CJ, Thimma M, Thomas PD, Valentin F, Wilson D, Wu CH, Yeats C. InterPro: the integrative protein signature database. Nucleic Acids Res.. Jan 2009;37(Database issue):D211–5. [ PMID:18940856 | doi:10.1093/nar/gkn785 ]
-
-
-	Monthly 	txt
-
-ProSite domains
-    ProSite; contact: interhelp@ebi.ac.uk (InterPro team)
-    This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
-    Citation: Hunter S, Apweiler R, Attwood TK, Bairoch A, Bateman A, Binns D, Bork P, Das U, Daugherty L, Duquenne L, Finn RD, Gough J, Haft D, Hulo N, Kahn D, Kelly E, Laugraud A, Letunic I, Lonsdale D, Lopez R, Madera M, Maslen J, McAnulla C, McDowall J, Mistry J, Mitchell A, Mulder N, Natale D, Orengo C, Quinn AF, Selengut JD, Sigrist CJ, Thimma M, Thomas PD, Valentin F, Wilson D, Wu CH, Yeats C. InterPro: the integrative protein signature database. Nucleic Acids Res.. Jan 2009;37(Database issue):D211–5. [ PMID:18940856 | doi:10.1093/nar/gkn785 ]
-
-
-	Monthly 	txt
 
 Reactome events and catalyst activities
     Reactome
@@ -150,26 +78,6 @@ Rhea Annotated Reactions Database
 
 	Daily 	txt
 
-SMART domains
-    SMART; contact: interhelp@ebi.ac.uk (InterPro team)
-    This mapping is generated from data supplied by InterPro for the InterPro2GO mapping.
-    Citation: Hunter S, Apweiler R, Attwood TK, Bairoch A, Bateman A, Binns D, Bork P, Das U, Daugherty L, Duquenne L, Finn RD, Gough J, Haft D, Hulo N, Kahn D, Kelly E, Laugraud A, Letunic I, Lonsdale D, Lopez R, Madera M, Maslen J, McAnulla C, McDowall J, Mistry J, Mitchell A, Mulder N, Natale D, Orengo C, Quinn AF, Selengut JD, Sigrist CJ, Thimma M, Thomas PD, Valentin F, Wilson D, Wu CH, Yeats C. InterPro: the integrative protein signature database. Nucleic Acids Res.. Jan 2009;37(Database issue):D211–5. [ PMID:18940856 | doi:10.1093/nar/gkn785 ]
-
-
-	Monthly 	txt
-
-JCVI (TIGRFAM) protein families
-    JCVI (TIGRFAM) protein families
-    Constructed by Michelle Gwinn and other TIGR staff.
-
-	Monthly 	txt
-
-JCVI roles
-    JCVI roles
-    Constructed by Michael Ashburner
-
-	Jan 2004 	txt
-
 UniProt Knowledgebase
     Mapping of GO terms to UniProt Knowledgebase keywords. This mapping is generated by the UniProtKB and UniProtKB-GOA teams. [was SwissProt keyword]
     UniProt; contact: goa@ebi.ac.uk (UniProtKB-GOA team)
@@ -177,25 +85,6 @@ UniProt Knowledgebase
 
 
 	Monthly 	txt
-
-UM-BBD enzyme IDs
-    University of Minnesota Biocatalysis/Biodegradation Database (UM-BBD); contact: ontology@lists.stanford.edu (GO ontology editors)
-    Maintained in the GO ontology file by GO editorial staff
-
-
-	Daily 	txt
-
-UM-BBD pathway IDs
-    University of Minnesota Biocatalysis/Biodegradation Database (UM-BBD); contact: go-ontology@lists.stanford.edu (GO ontology editors)
-    Maintained in the GO ontology file by GO editorial staff
-
-	Daily 	txt
-
-UM-BBD reaction IDs
-    University of Minnesota Biocatalysis/Biodegradation Database (UM-BBD); contact: go-ontology@lists.stanford.edu (GO ontology editors)
-    Maintained in the GO ontology file by GO editorial staff
-
-	Daily 	txt
 
 UniProt subcellular location
     UniProt; contact goa@ebi.ac.uk (UniProtKB-GOA team)
