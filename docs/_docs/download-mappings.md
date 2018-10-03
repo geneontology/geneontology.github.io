@@ -26,7 +26,6 @@ More details can be found in the [external mapping file format guide](http://gen
 
 Direct access to the mappings file directory is available via [web browser](http://geneontology.org/external2go/)
 
-[Back to top](#mappings-of-external-classification-systems-to-go)
 ## List of External2GO Mappings
 
 ### Enzyme Commission (EC) enzyme numbers
