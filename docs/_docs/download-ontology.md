@@ -46,4 +46,4 @@ The GO is also available in a number of other formats. These other formats are n
 
 ### Archives and previous versions
 
-An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website, or by downloading previous revisions of the ontology files via the GO web CVS interface, or from the directory go/ontology/ in the GO CVS repository.
+An archive of the ontology files (in both current and legacy formats) from the first of each month is [available on the GO website](ftp://ftp.geneontology.org/go/ontology-archive/).
