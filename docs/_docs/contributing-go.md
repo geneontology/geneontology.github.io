@@ -59,16 +59,32 @@ To start, check if there are existing annotations to the gene or protein of inte
 [<img src="http://geneontology.org/sites/default/files/u602/large-datasets-curation-icon-mmt.png" width="144" height="144" title="Add New Terms, Synonyms, or Clarify Definitions">](#contribute-annotations-from-large-datasets)
 ### Contribute annotations from large datasets
 
-[Contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
+If the below scenarios do not apply to your group, [contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
+
+#### Existing MODs/groups
+ * **Prepare**- GOC encourages use of [GAF 2.1](/docs/go-annotation-file-gaf-format-21/), although [GAF 2.0](/docs/go-annotation-file-gaf-format-20/) is still accepted.  If you're reading this, now is a great time to make the minor changes and upgrade to 2.1!
+ * **Submit**- GOC asks that all submitting groups provide a static address that always contains the group's most recent GAF.  This GAF will be retreived by GO on demand and ensure the group's most recent file is always used for the monthly production pipeline.
+ The address for a group's GAF should appear in the `source` line (approximately line 19) of the group's yaml file.  For example, MGI's file [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml) contains the line:
  
-#### Genome-scale annotations for Model Organism Databases (MODs) and/or non-model organisms:
-     
+ ` source: http://www.informatics.jax.org/downloads/reports/gene_association.mgi.gz`
+ 
+ MGI provides a  GAF, [GPAD](/docs/gene-product-association-data-gpad-format) and [GPI](/docs/gene-product-information-gpi-format) in their [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml); please see [zfin.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/zfin.yaml) for an example with only a GAF and a GPI.  Providing a GPI and GPAD in addition to the GAF is preferred.
+ 
+ GO is happy to modify your group's yaml if requested: please [contact the GOC](http://help.geneontology.org/).
+ 
+ * **Review**- Once annotations have been processed by GO, groups will be able to access error reports.  Please use the reports to make changes to the next month's GAF: 
+   * monthly error reports will be accessible through release.geneontology.org [for example, October 2018](http://release.geneontology.org/2018-10-01/reports/index.html)
+   * http://snapshot.geneontology.org/reports/index.html has reports that are updated thoughout the month, not just for the releases
+ 
+ #### New groups/Special interest research groups:  
+ If you represent a previously unannotated organism, or your research group has a specific focus for GO annotations, for example genes or gene products localized in ["synapse" (cellular component)](http://amigo.geneontology.org/amigo/term/GO:0045202), GO values your contributions. 
+ * [Contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations and to ensure you are the only group working on your organism.  If you would be interested in taking ownership for an organism with outdated annotations, we can help you find the right people to contact as well.
+ * A representative of your group will need to join GitHub in order to maintain your group's annotations.  Once a representative is designated, the GOC will also generate the yaml file needed to submit your annotations to GO.
+ * Training of new curators will be arranged, if needed, with an existing GOC mentor.
+
+#### Not enough annotations to justify joining GO?
 * Submitting manual annotations:
   - [ ] Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues). Each of your annotations should include at least one key literature references (PMIDs) in support of your assertions. Please state whether or not regular updates will be submitted about this annotation.
-         
-* Submitting Automated Annotations:
-   - [ ] Follow the [steps outlined in this guide](http://geneontology.org/page/submitting-go-annotations) to prepare multiple annotations for submission to the GOC.
-   - [ ] Submit the finalized annotation file(s) using SVN. Details about how to submit files to the GOC SVN repository are found in our [SVN Help Guide](http://geneontology.org/page/svn-help). When submitting your files, please state whether or not regular updates will be submitted about this annotation.
-     
-#### Special interest research groups:  
- If your research group has a specific focus for GO annotations, for example genes or gene products localized in ["synapse" (cellular component)](http://amigo.geneontology.org/amigo/term/GO:0045202), then you should first [contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations, and then follow the steps outlined on the guide to [Preparing GO Annotations](http://geneontology.org/page/submitting-go-annotations).
+
+#### Automated Annotations
+If your group is interested in generating a large number of automated/electronic annotations, please be aware that InterPro2GO is the only source of [IEAs, Inferred from Electronic Annotation](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)) recognized by the GOC.  Please submit your transcripts or other data to UniProt, and they will automatically generate IEAs from your data.
