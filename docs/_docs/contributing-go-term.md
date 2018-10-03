@@ -39,4 +39,3 @@ More details about contributing to the ontology are available in the [GitHub Gui
  
  To find your request again in the GOC tracker, while on the page listing all submitted issues, use the 'Filters' box and drop-down menu to restrict the types of request you may display.
 
-![Blank Ontology Diagram](http://geneontology.org/sites/default/files/u602/ontology-terms-notext-icon.png)
