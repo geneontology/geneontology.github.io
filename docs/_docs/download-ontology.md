@@ -2,9 +2,6 @@
 title: Download Ontology
 permalink: /docs/download-ontology/
 ---
-
-<!-- This had two tables.  I did not preserve the formatting -->
-
 ## Currently available
 
 This page describes the various versions of Gene Ontology available for download. To save, right-click (or ctrl-click on Mac) on the file link and then "save as" to your computer. OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. OWL files can be opened with [Protégé](https://protege.stanford.edu/)
@@ -46,4 +43,4 @@ The GO is also available in a number of other formats. These other formats are n
 
 ### Archives and previous versions
 
-An archive of the ontology files (in both current and legacy formats) from the first of each month is [available on the GO website](ftp://ftp.geneontology.org/go/ontology-archive/).
+An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website at ftp://ftp.geneontology.org/go/ontology-archive/.
