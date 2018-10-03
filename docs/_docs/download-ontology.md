@@ -34,8 +34,8 @@ The GO is also available in other formats. These other formats are not recommend
 
 |**XML format** Database tables ||||
 |----------------|---|---|---|
-|RDF-XML [format guide] |	Filtered ontology |	Daily |	rdf-xml.gz|
-|OWL (old mapping) [format guide] |	Filtered ontology |	Daily |	owl.gz|
+|RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	[rdf-xml.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz)|
+|OWL (old mapping) [format guide](http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page){:target="_blank"} |	Filtered ontology |	Daily |	[owl.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz)|
 
 ### Archives and previous versions
 
