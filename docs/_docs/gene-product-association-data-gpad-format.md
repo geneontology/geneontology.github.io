@@ -1,10 +1,9 @@
-
-
 ---
 title: Gene Product Association Data (GPAD) format
 permalink: /docs/gene-product-association-data-gpad-format
 
 ---
+
 
 <!-- DB object ID section refers to GPAD 1.0.  What about in 1.1?  
 Qualifiers section is confusing- says "the relationship between the gene product in the DB:DB object ID and the GO ID 
