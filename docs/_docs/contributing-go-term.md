@@ -43,3 +43,4 @@ More details about contributing to the ontology are available in the [GitHub Gui
  You may receive specific emails about a single request by choosing to 'Watch' an issue using the button with the 'eye' icon, found at the upper right corner of the issue page. Users may choose to watch, not watch, or ignore a GitHub issue by pressing this button. If you choose to 'Watch' an issue, an email will be sent every time comments are added to the issue, or its status changes.
  
  To find your request again in the GOC tracker, while on the page listing all submitted issues, use the 'Filters' box and drop-down menu to restrict the types of request you may display.
+
