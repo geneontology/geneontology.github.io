@@ -30,11 +30,7 @@ OBO-XML is a direct XML serialization of the OBO 1.2 format specification. The s
 
 =======
 
-## Legacy file formats (no longer supported) 
+## Deprecated file formats (no longer supported)
 
-### OWL RDF/XML Format
+OWL RDF/XML, OBO-XML and FASTA files were retired in 2018.
 
-OWL is a standard for ontology languages, produced by the W3C. Details of the translation used for GO is available on the official OboInOwl page.
-
-### Legacy Formats
-OBO-XML and FASTA files were retired in 2018.  
