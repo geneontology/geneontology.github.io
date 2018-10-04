@@ -1,3 +1,8 @@
+---
+title: GO File Format Guide
+permalink: /docs/go-file-format-guide/
+---
+
 <!-- Links/info on this page to SQL, needs to be replaced with current info.  Also maybe eliminate formats no longer supported/preferred?? (Old OBO, etc.)-->
 
 # GO File Format Guide

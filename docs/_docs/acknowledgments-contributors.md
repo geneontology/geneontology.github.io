@@ -1,3 +1,8 @@
+---
+title: Acknowledgments and Contributors
+permalink: /docs/acknowledgments/
+---
+
 # Acknowledgments-Contributors
 ## Contributors to the GO Knowledgebase
 

@@ -1,3 +1,8 @@
+---
+title: Cardiovascular Gene Annotation Initiative
+permalink: /docs/cardiovascular-gene-annotation-initiative/
+---
+
 # Cardiovascular Gene Annotation Initiative
 [![Cardiovascular Gene Annotation Initiative logo](http://www.ucl.ac.uk/functional-gene-annotation/images/logo_jsmall.JPG)](http://www.ucl.ac.uk/functional-gene-annotation/cardiovascular)
 

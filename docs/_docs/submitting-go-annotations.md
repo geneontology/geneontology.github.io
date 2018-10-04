@@ -1,3 +1,8 @@
+---
+title: Submitting GO Annotations
+permalink: /docs/submitting-go-annotations/
+---
+
 <!--2.0 of 2.1 for new groups making GAFs?-->
 
 # Preparing GO Annotations for Submission

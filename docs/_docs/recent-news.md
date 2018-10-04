@@ -1,3 +1,8 @@
+---
+title: Recent News
+permalink: /docs/recent-news/
+---
+
 [Neurological Gene Annotation Newsletter April 2018](http://www.geneontology.org/article/neurological-gene-annotation-newsletter-april-2018)
 Post date: 03/28/2018 - 16:40
 

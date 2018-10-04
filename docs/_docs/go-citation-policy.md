@@ -1,3 +1,8 @@
+---
+title: GO Citation Policy
+permalink: /docs/go-citation-policy/
+---
+
 # GO Citation Policy
 ## Cite GO
 

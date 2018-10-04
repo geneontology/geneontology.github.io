@@ -2,6 +2,7 @@
 title: Download Mappings
 permalink: /docs/download-mappings/
 ---
+
 ## Mappings of External Classification Systems to GO
 
 The Gene Ontology is not the only attempt to build structured controlled vocabularies for genome annotation. To aid users, the GO Consortium provides mappings of its terms to those in a number of external vocabularies.
