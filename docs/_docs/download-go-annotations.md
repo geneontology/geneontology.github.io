@@ -12,4 +12,4 @@ Filtered Files
 ## Filtered Annotation File Downloads
 These files are taxon-specific and reflect the work of specific projects, primarily the model organisms database groups, to provide comprehensive, non-redundant annotation files for their organism. All the files in this table have been filtered using the annotation file QC pipeline. A major component to the filtering is the requirement that particular taxon IDs can only be included within the association files provided by specific projects; the current list of authoritative groups and major model organisms can be found below.
 
-[http://current.geneontology.org/products/pages/downloads.html](GO annotations files)
+[http://current.geneontology.org/products/pages/downloads.html] (GO annotations files)
