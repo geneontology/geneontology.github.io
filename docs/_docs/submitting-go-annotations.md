@@ -2,8 +2,20 @@
 title: Submitting GO Annotations
 permalink: /docs/submitting-go-annotations/
 ---
-
-<!--2.0 of 2.1 for new groups making GAFs?-->
+# Overview
+ * **Prepare**- GOC encourages use of [GAF 2.1](/docs/go-annotation-file-gaf-format-21/), although [GAF 2.0](/docs/go-annotation-file-gaf-format-20/) is still accepted.  If you're reading this, now is a great time to make the minor changes and upgrade to 2.1!
+ * **Submit**- GOC asks that all submitting groups provide a static address that always contains the group's most recent GAF.  This GAF will be retreived by GO on demand and ensure the group's most recent file is always used for the monthly production pipeline.
+ The address for a group's GAF should appear in the `source` line (approximately line 19) of the group's yaml file.  For example, MGI's file [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml) contains the line:
+ 
+ ` source: http://www.informatics.jax.org/downloads/reports/gene_association.mgi.gz`
+ 
+ MGI provides a  GAF, [GPAD](/docs/gene-product-association-data-gpad-format) and [GPI](/docs/gene-product-information-gpi-format) in their [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml); please see [zfin.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/zfin.yaml) for an example with only a GAF and a GPI.  Providing a GPI and GPAD in addition to the GAF is preferred.
+ 
+ GO is happy to modify your group's yaml file if requested: please [contact the GOC](http://help.geneontology.org/).
+ 
+ * **Review**- Once annotations have been processed by GO, groups will be able to access error reports.  Please use the reports to make changes to the next month's GAF: 
+   * monthly error reports will be accessible through release.geneontology.org [for example, October 2018](http://release.geneontology.org/2018-10-01/reports/index.html)
+   * http://snapshot.geneontology.org/reports/index.html has reports that are updated thoughout the month, not just for the releases
 
 # Preparing GO Annotations for Submission
 
