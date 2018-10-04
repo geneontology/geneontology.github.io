@@ -34,7 +34,7 @@ Direct access to the mappings file directory is available here: http://geneontol
 |**UM-BBD reaction IDs**<br> [University of Minnesota Biocatalysis/Biodegradation Database (UM-BBD)](http://umbbd.msi.umn.edu/); contact: ontology@lists.stanford.edu (GO ontology editors)<br> *Maintained in the [GO ontology file](http://geneontology.org/GO.downloads.ontology.shtml) by GO editorial staff*|Daily	|[txt](http://geneontology.org/external2go/um-bbd_reactionid2go)|
 
 
-## Mappings files provided by external group
+## Mappings files provided by external groups
 
 <!--Table starts here-->
 |Mapping |Last update |	Download|
