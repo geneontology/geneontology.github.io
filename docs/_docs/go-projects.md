@@ -33,3 +33,4 @@ The following areas of biology are the focus of ontology development and annotat
 + ChEBI (Chemical Entities of Biological Interest) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23895341)
 + SAO (Subcellular Anatomy Ontology) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24093723)
 + Uberon [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/25937883)
++ Vertebrate Skeletal Anatomy Ontology (VSAO) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23251424)
