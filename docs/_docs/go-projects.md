@@ -16,13 +16,15 @@ The following areas of biology are the focus of ontology development and annotat
 + Cilia [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29177046)
 + Enzymes
 + Extracellular RNA and vesicles [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27076901)
++ Kidney development [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24941002)
++ Microbe-host interactions [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/21119014)
 + Heart development [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/21419760,24627794,19046747)
 + microRNAs [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29871895)
 + Neuronal cellular components [Publication available here](https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-20)
 + Non-symbiotic multi-organism processes [Publication available here](https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-015-0481-x)
 + Parkinson's Disease [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26825309)
-+ Signaling
-+ Transcription
++ Peroxisome [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23327938)
++ Transcription [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23981286)
 + Viral processes [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/28207819,25233094)
 
 ## Integrations wth other ontologies
