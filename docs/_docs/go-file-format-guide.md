@@ -13,7 +13,7 @@ The GO File Format Guide documents the structure and syntax of the files availab
 * [OBO 1.4 File Format Guide](http://owlcollab.github.io/oboformat/doc/obo-syntax.html): the ontology file format used and recommended by the GO Consortium
 * [OBO 1.2 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_2.html): previous iteration of the OBO format
 * [OBO 1.0 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_0.html): previous iteration of the OBO format
-* [GO annotation ("gene association") file format](GOAnnotationFileFormats.md)
+* [GO annotation file format (GAF: Gene Association File) ](GOAnnotationFileFormats.md)
 * External mapping file format
 
 OBO is fully supported via the OWL-API.
