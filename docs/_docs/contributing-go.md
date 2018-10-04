@@ -6,7 +6,7 @@ permalink: /docs/contributing-to-go/
 # Contributing GO Annotations
 Research groups may contribute to the Gene Ontology Consortium (GOC) by providing suggestions for updating the ontology (e.g. requesting new terms) or by providing GO annotations.
 
-[Contributing annotatons from lasge-scale datasets](#contribute-annotations-from-large-datasets "Contributing annotatons from lasge-scale datasets")
+[Contributing annotatons from lasge-scale datasets](#contribute-annotations-from-large-datasets "Contributing annotatons from large-scale datasets")
 
 [Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
 
@@ -21,11 +21,6 @@ If none of the following apply to your group, [contact the GOC](http://help.gene
 ---
 
 ### Contribute annotations from large-scale datasets
-#### Existing MODs/groups
-* Please refer to the documentation on the wiki, [here]()
-
-
-#### New groups/Special interest research groups
 
  If you represent a previously unannotated organism, or your research group has a specific focus for GO annotations, for example genes or gene products localized in ["synapse" (cellular component)](http://amigo.geneontology.org/amigo/term/GO:0045202), GO values your contributions. 
  * [Contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations and to ensure you are the only group working on your organism.  If you would be interested in taking ownership for an organism with outdated annotations, we can help you find the right people to contact as well.
@@ -39,7 +34,7 @@ If none of the following apply to your group, [contact the GOC](http://help.gene
 If your group is interested in generating a large number of automated/electronic annotations, please be aware that InterPro2GO is the only source of [IEAs, Inferred from Electronic Annotation](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)) recognized by the GOC.  Please submit your transcripts or other data to UniProt, and they will automatically generate IEAs from your data.  Once your organism is in UniProt, [contact the GOC](http://help.geneontology.org/) and we will gladly assist in curator training so your group can add manual annotations as well.
 
 ---
-[![Annotating a paper](/assets/annotating-papers-small.png?style=center){:width="144"}](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
+[Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
 
 ### Reviewing GO annotations associated with a scientific article
 To start, check if there are existing annotations to the paper:  Open a Gene Ontology browser, (e.g. [AmiGO](http://amigo.geneontology.org/amigo), [QuickGO](https://www.ebi.ac.uk/QuickGO/)) and enter a PubMed identifier (PMID) for the paper of interest in the 'Search' field.
@@ -67,7 +62,7 @@ http://geneontology.org/sites/default/files/public/diag-literature-annot.png
   
 ---
 
-[![Large sets of annotations](/assets/annotating-genes-proteins-small.png?style=center){:width="225"}](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
+[Large sets of annotations](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
 
 ### Reviewing GO annotations for a gene or protein
 
