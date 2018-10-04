@@ -60,3 +60,6 @@ collections:
   posts:
     permalink: /blog/:year/:month/:day/:title/
     output: true
+
+sass:
+  sass_dir: _sass
