@@ -32,9 +32,10 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 |Virus subset Developed by Jane Lomax and Rebecca Foulger |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_virus.obo)|
 |Chembl Drug Target subset developed by Prudence Mutowo and Jane Lomax |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_chembl.obo)|
 ## For internal checking purposes we also provide two "anti-slims"
-
-+ [Do not annotate](http://geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo) -- the set of high level terms that are useful for grouping, but should have no direct annotations
-+ [Do not manually annotate](http://geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.obo) -- as above, but it's permitted for automated tools to make direct annotations to these
+|Organism or Usage |	Download|
+|------------------|----------|
+|[Do not annotate](http://geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo)|the set of high level terms that are useful for grouping, but should have no direct annotations|
+|[Do not manually annotate](http://geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.obo)|the set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools|
 
 ## Archived GO Slims
 
