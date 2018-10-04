@@ -17,6 +17,11 @@ GO Annotation File Format 1.0 (http://geneontology.org/page/go-annotation-file-g
 LEAD database 
 GO MySQL database
 
+
+### Repositories 
+CVS repository: [http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/){:target="blank"}
+FTP site: [ftp://ftp.geneontology.org/pub/go/](ftp://ftp.geneontology.org/pub/go/){:target="blank"}
+
 ## Archived GO Slims
 
 There is also an [archive of deprecated GO slims](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/) that are no longer maintained or updated. These files have been deposited for two reasons; the first is to give easy access to the GO slim used in a particular publication or analysis; the second is for reuse by others in the community.
