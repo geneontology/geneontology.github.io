@@ -1,4 +1,11 @@
-# GO is no longer using the following products and formats: 
+---
+title: Deprecated Products and Formats
+permalink: /docs/deprecated-products-and-formats/
+---
+
+# Deprecated Products and Formats
+
+GO is no longer using the following products and formats: 
 
 ## Ontology
 OBO-XML and FASTA files were retired in 2018.  
