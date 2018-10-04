@@ -27,9 +27,3 @@ We also offer a complete archive of each release, with DOI, at <a href="https://
 For users interested in a smaller or more flexible DOI versioned bundles, we offer holey (reference) BDBag at <a href="https://zenodo.org/record/1343128">Zenodo</a>.
 
 These bundles are released in step with the above monthly releases.
-
-### Repositories no longer maintained 
-
-CVS repository: [http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/){:target="blank"}
-
-FTP site: [ftp://ftp.geneontology.org/pub/go/](ftp://ftp.geneontology.org/pub/go/){:target="blank"}
