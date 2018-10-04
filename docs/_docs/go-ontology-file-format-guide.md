@@ -1,11 +1,11 @@
 ---
-title: GO File Format Guide
+title: GO Ontology File Format Guide
 permalink: /docs/go-file-format-guide/
 ---
 
 <!-- Links/info on this page to SQL, needs to be replaced with current info.  Also maybe eliminate formats no longer supported/preferred?? (Old OBO, etc.)-->
 
-# GO File Format Guide
+# GO Ontology File Format Guide
 ## GO Formats
 
 The GO File Format Guide documents the structure and syntax of the files available on the GO website, to assist users who need to read, write parsers for, or create these files. The following file formats are documented separately:
