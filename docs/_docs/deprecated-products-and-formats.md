@@ -16,8 +16,7 @@ OBO-XML and FASTA files were retired in 2018.
 * GO Annotation File Format 1.0 was deprecated in June 2010. 
 
 ## Databases and schemas
-LEAD database 
-GO MySQL database
+MySQL database dumps
 
 
 ### Repositories 
@@ -45,4 +44,4 @@ Users should note that the majority of these GO slims are no longer maintained b
 |Yeast |	SGD curators Aug 2003 	|[old GO format](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/goslim_yeast.2003)|
 |Prokaryotic subset |	GO curators. Replaced by taxon constraints. |[old GO format](http://purl.obolibrary.org/obo/go/releases/2018-06-01/subsets/gosubset_prok.obo)|
 
-Please contact go-help if you have any questions. 
+Please contact the <a href="http://help.geneontology.org">GO Helpdesk</a> if you have any questions.
