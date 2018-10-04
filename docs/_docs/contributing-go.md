@@ -6,10 +6,6 @@ permalink: /docs/contributing-to-go/
 # Contributing GO Annotations
 Research groups may contribute to the Gene Ontology Consortium (GOC) by providing suggestions for updating the ontology (e.g. requesting new terms) or by providing GO annotations.
 
-
-## How to contribute to the ontology
-When you have suggestions for new ontology terms, first make sure the term doesn't exist, either as a primary term or a synonym term. To do this, search the ontology using the AmiGO browser. Requests for new synonyms or clarification of textual definitions are also welcomed.
-
 [Add New Terms, Synonyms, or Clarify Definitions](#contribute-annotations-from-large-datasets "Add New Terms, Synonyms, or Clarify Definitions")
 
 [Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
