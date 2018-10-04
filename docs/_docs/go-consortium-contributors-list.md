@@ -1,6 +1,12 @@
+---
+title: GO Consortium
+permalink: /docs/go-consortium/
+---
+
 # The GO Consortium
 
 The Gene Ontology Consortium (GOC) integrates resources from a variety of research groups, from model organisms to protein databases to the biological research communities actively involved in the development and implementation of the Gene Ontology. Below is a list of our collaborators.
+
 ## Current GO Consortium Contributing Groups
 
 In alphabetical order:

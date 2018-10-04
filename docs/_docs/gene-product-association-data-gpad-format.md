@@ -1,6 +1,6 @@
 ---
 title: Gene Product Association Data (GPAD) format
-permalink: /docs/gene-product-association-data-gpad-format
+permalink: /docs/gene-product-association-data-gpad-format/
 
 ---
 
