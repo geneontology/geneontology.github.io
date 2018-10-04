@@ -10,7 +10,8 @@ The GO Consortium makes ontology and gene association data available as RDF-XML,
 
 Here's a GO RDF-XML snapshot (with some lines wrapped for legibility):
 
-```<?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE go:go PUBLIC "-//Gene Ontology//Custom XML/RDF Version 2.0//EN" "http://www.geneontology.org/dtd/go.dtd">
 <go:go xmlns:go="http://www.geneontology.org/dtd/go.dtd#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -78,7 +79,8 @@ In RDF, URLs are used as IDs to make them universally unique. Now, note that ter
 ```
 This tag represents the relationship "GO:0000001 isa GO:0048308", i.e. GO:0000001 is a subtype of GO:0048308. Other types of relationship are also possible; in these cases, isa is substituted with the appropriate string; for example:
 
-```<go:part_of rdf:resource="http://www.geneontology.org/go#GO:0009530" />
+```
+<go:part_of rdf:resource="http://www.geneontology.org/go#GO:0009530" />
 <go:negatively_regulates rdf:resource="http://www.geneontology.org/go#GO:0006312" />
 ```
 These lines show the relationships GO:0000001 part of GO:0009530 and GO:0000001 negatively regulates GO:0006312 respectively. See the GO relations documentation for the different relations used in GO.
