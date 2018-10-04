@@ -10,13 +10,13 @@ Research groups may contribute to the Gene Ontology Consortium (GOC) by providin
 ## How to contribute to the ontology
 When you have suggestions for new ontology terms, first make sure the term doesn't exist, either as a primary term or a synonym term. To do this, search the ontology using the AmiGO browser. Requests for new synonyms or clarification of textual definitions are also welcomed.
 
-[![Add New Terms, Synonyms, or Clarify Definitions](/assets/ontology-terms-icon.png?style=center){:width="225"}](/docs/contributing-to-go-terms "Add New Terms, Synonyms, or Clarify Definitions")
+[Add New Terms, Synonyms, or Clarify Definitions](/docs/contributing-to-go-terms "Add New Terms, Synonyms, or Clarify Definitions")
 
-[![Add New Terms, Synonyms, or Clarify Definitions](/assets/large-datasets-curation-icon-mmt.png?style=center){:width="256"}](#contribute-annotations-from-large-datasets "Add New Terms, Synonyms, or Clarify Definitions")
+[Add New Terms, Synonyms, or Clarify Definitions](#contribute-annotations-from-large-datasets "Add New Terms, Synonyms, or Clarify Definitions")
 
-[![Annotating a paper](/assets/annotating-papers-small.png?style=center){:width="196"}](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
+[Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
 
-[![Large sets of annotations](/assets/annotating-genes-proteins-small.png?style=center){:width="256"}](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
+[Large sets of annotations](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
 
 ## How to contribute GO annotations
 
