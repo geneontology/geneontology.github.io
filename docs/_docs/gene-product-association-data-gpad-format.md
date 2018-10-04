@@ -1,9 +1,14 @@
-<!-- DB object ID section refers to GPAD 1.0.  What about in 1.1?  
+---
+title: Gene Product Association Data (GPAD) format
+permalink: /docs/gene-product-association-data-gpad-format/
 
+---
+
+
+<!-- DB object ID section refers to GPAD 1.0.  What about in 1.1?  
 Qualifiers section is confusing- says "the relationship between the gene product in the DB:DB object ID and the GO ID 
 composed of up to three parts: an operator (optional), a modifier (optional) and an atomic relation (required) 
 **this field is mandatory**, cardinality 1 or greater than 1, entries pipe-separated" and then "**qualifiers are optional**"
-
 CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to be helpful.-->
 
 

@@ -5,8 +5,10 @@ permalink: /docs/go-annotation-file-formats/
 
 <!-- Is 2.0 the primary format? Not 2.1? Deprecated file formats (definitely 1.0) should be on the wiki, e.g. "For the deprecated GAFs 1.0-2.0, please see the documentation on the wiki [HERE]"
 -->
+# GO Annotation File Formats
 
 This page documents the file formats used to store gene associations (annotations), data capturing the attributes of gene products using terms from the Gene Ontology. For more general information on annotation, please see the [Introduction to GO annotation page](go-annotations.md).
+
 ## Annotation File Format Guide
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited plain text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link.

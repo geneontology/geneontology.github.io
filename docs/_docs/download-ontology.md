@@ -3,11 +3,9 @@ title: Download Ontology
 permalink: /docs/download-ontology/
 ---
 
-<!-- This had two tables.  I did not preserve the formatting -->
-
 ## Currently available
 
-This page describes the various versions of Gene Ontology available for download. To save, right-click (or ctrl-click on Mac) on the file link and then "save as" to your computer. OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. OWL files can be opened with [Protégé](https://protege.stanford.edu/)
+This page describes the various versions of Gene Ontology available for download. To save, right-click (or ctrl-click on Mac) on the file link and then "save as" to your computer. OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. OWL files can be opened with [Protégé](https://protege.stanford.edu/).
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
@@ -33,17 +31,13 @@ GO slims are subsets of terms in the ontology. GO slims give a broad overview of
 GO classes have been mapped to a number of other, external, classification systems. [Click here](http://geneontology.org/page/download-mappings) to view and download these mappings.
 ## Legacy Downloads
 
-The GO is also available in a number of other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version (see above). For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see above).
+The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version (see above). For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see above).
 
-|Database tables |   | | |
+|**XML format** Database tables ||||
 |----------------|---|---|---|
-|MySQL database dump [database schema] |	Filtered ontology |	Daily |	MySQL database dump|
-|SQL database dump [database schema] |	Filtered ontology |	Daily |	SQL database dump|
-|**XML format**||||
-|RDF-XML [format guide] |	Filtered ontology |	Daily |	rdf-xml.gz|
-|OBO-XML [format guide; OBO-XML RNC; OBO-XML RNG] |	Filtered ontology |	Daily |	obo-xml.gz|
-|OWL (old mapping) [format guide] |	Filtered ontology |	Daily |	owl.gz|
+|RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	[rdf-xml.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz)|
+|OWL (old mapping) [format guide](http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page){:target="_blank"} |	Filtered ontology |	Daily |	[owl.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz)|
 
 ### Archives and previous versions
 
-An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website, or by downloading previous revisions of the ontology files via the GO web CVS interface, or from the directory go/ontology/ in the GO CVS repository.
+An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <ftp://ftp.geneontology.org/go/ontology-archive/>
