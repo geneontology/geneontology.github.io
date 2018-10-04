@@ -29,6 +29,11 @@ OBO is fully supported via the OWL-API.
 
 The GO Consortium uses the OBO flat file format to store the ontology data. The current version is OBO 1.4, although the ontology data is also available in the previous version, OBO 1.2. The GO Consortium no longer uses or supports files in the legacy GO format. Should you require a file in this format, the command-line script obo2flat can be used to interconvert between OBO format and the legacy GO format. obo2flat is a Java script and comes as part of the OBO-Edit package; instructions on usage are provided in the OBO-Edit User Guide.
 
+OBO-XML is a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc. Currently, only the ontology is available as OBO-XML.
+
+
+##Legacy file formats (no longer supported) 
+=======
 ### OWL RDF/XML Format
 
 OWL is a standard for ontology languages, produced by the W3C. Details of the translation used for GO is available on the official OboInOwl page.
