@@ -10,6 +10,7 @@ The following areas of biology are the focus of ontology development and annotat
     
 + Autophagy [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29455577)
 + Autism [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26047810)
++ Biochemical pathways [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27589964)
 + Biofuel production [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/25346727)
 + Cardiac conduction [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29440116)
 + Cell cycle
@@ -28,6 +29,7 @@ The following areas of biology are the focus of ontology development and annotat
 + Viral processes [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/28207819,25233094)
 
 ## Integrations wth other ontologies
++ Cell Ontology [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27377652)
 + ChEBI (Chemical Entities of Biological Interest) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23895341)
 + SAO (Subcellular Anatomy Ontology) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24093723)
-
++ Uberon [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/25937883)
