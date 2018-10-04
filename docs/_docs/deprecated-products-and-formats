@@ -1,7 +1,7 @@
 GO is no longer using the following products and formats: 
 
 ## Ontology
-<!--OWL RDF/XML-->
+!OWL RDF/XML
 OBO-XML and FASTA files were retired in 2018.
 
 ## Annotations
