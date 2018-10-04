@@ -6,7 +6,7 @@ permalink: /docs/contributing-to-go/
 # Contributing GO Annotations
 Research groups may contribute to the Gene Ontology Consortium (GOC) by providing suggestions for updating the ontology (e.g. requesting new terms) or by providing GO annotations.
 
-[Add New Terms, Synonyms, or Clarify Definitions](#contribute-annotations-from-large-datasets "Add New Terms, Synonyms, or Clarify Definitions")
+[Contributing annotatons from lasge-scale datasets](#contribute-annotations-from-large-datasets "Contributing annotatons from lasge-scale datasets")
 
 [Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
 
@@ -19,10 +19,8 @@ If your research group has GO annotations for a species that is not currently in
 If none of the following apply to your group, [contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
 
 ---
-[![Add New Terms, Synonyms, or Clarify Definitions](/assets/large-datasets-curation-icon-mmt.png?style=center){:width="144"}](#contribute-annotations-from-large-datasets "Add New Terms, Synonyms, or Clarify Definitions")
 
-
-### Contribute annotations from large datasets
+### Contribute annotations from large-scale datasets
 #### Existing MODs/groups
 * Please refer to the documentation on the wiki, [here]()
 
