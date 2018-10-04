@@ -10,11 +10,9 @@ Many Gene Ontology terms are cross-referenced to corresponding concepts from a n
 
 If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the GO citation guide for citing the GO project.
 
-## Mapping Format
+## Cross-references Format
 
-Mapping files are in the format:
-
-` database:term identifier (id/name) > GO:GO term name ; GO:id`
+Cross-references files are in the format: ` database:term identifier (id/name) > GO:GO term name ; GO:id`
 
 More details can be found in the [external mapping file format guide](external-mapping-file-format.md).
 ## Mappings File Directory
