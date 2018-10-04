@@ -1,3 +1,8 @@
+---
+title: External Mapping File Format
+permalink: /docs/external-mapping-file-format/
+---
+
 # External Mapping File Format
 
 Mappings of GO have been made to other many other classification systems; a full list is available on the Mappings to GO page. This page describes the format of these files.

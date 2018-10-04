@@ -1,3 +1,8 @@
+---
+title: GO Projects
+permalink: /docs/go-projects/
+---
+
 # GO Projects
 
 The following areas of biology are the focus of ontology development and annotation in the Gene Ontology Consortium (GOC). Some of these projects are currently underway and we welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/).

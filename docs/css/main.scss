@@ -94,3 +94,9 @@ body {
 .navbar-form .has-feedback .form-control-feedback{
   top:10px
 }
+
+
+img[src$="center"] {
+  display:block;
+  margin: 0 auto;
+}

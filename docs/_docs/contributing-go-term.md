@@ -1,3 +1,8 @@
+---
+title: Contributing to GO terms
+permalink: /docs/contributing-to-go-terms/
+---
+
 # Contributing to the Ontology
 
 When you have suggestions for new ontology terms, first make sure the term doesn't exist, either as a primary term or a synonym term. To do this, search the ontology using the AmiGO browser. Requests for new synonyms or clarification of textual definitions are also welcomed.
@@ -15,7 +20,7 @@ The GOC GitHub tracker captures suggestions for changes to the ontologies, from 
 
 Visit the GO ontology requests tracker. A list with all recently submitted requests is visible on the landing page. Clicking on any summary will bring up detailed information about that request. All requests whether completed ('Closed') or still in progress ('Open') remain in GitHub indefinitely; by default only 'Open' suggestions are displayed in this page.
 
-More details about contributing to the ontology are available in the [GitHub Guidelines for Contributing Ontology tickets](https://github.com/geneontology/go-ontology/blob/master/CONTRIBUTING.md). A brief description is included below.
+More details about contributing to the ontology are available in the [GitHub Guidelines for Contributing Ontology tickets](https://github.com/geneontology/go-ontology/blob/master/CONTRIBUTING.md){:target="_blank"}. A brief description is included below.
  
 
 ### Steps to enter a suggestion or a term request:
@@ -38,3 +43,4 @@ More details about contributing to the ontology are available in the [GitHub Gui
  You may receive specific emails about a single request by choosing to 'Watch' an issue using the button with the 'eye' icon, found at the upper right corner of the issue page. Users may choose to watch, not watch, or ignore a GitHub issue by pressing this button. If you choose to 'Watch' an issue, an email will be sent every time comments are added to the issue, or its status changes.
  
  To find your request again in the GOC tracker, while on the page listing all submitted issues, use the 'Filters' box and drop-down menu to restrict the types of request you may display.
+

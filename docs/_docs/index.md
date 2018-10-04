@@ -4,7 +4,7 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-Welcome to the Gene Ontology documentation.
+# Welcome to the Gene Ontology documentation
 
 You can read through this like a book by directly select chapter
 topics, selecting a chapter to start from on the left and clicking
@@ -16,12 +16,11 @@ bar in the navigation menu.
 We have newsletters too, that are accessible at feed.xml.
 
 If there is GO-specific new that you'd like us to cover, please
-<a href="http://help.geneontology.org">contact us</a>.
+[contact us](http://help.geneontology.org "contact us"){:target="blank"}.
 
 <!-- Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples. -->
 
 ### Internal Wiki for Consortium members
 
 For researchers and groups that are within the Consortium, we'd also
-like to remind you of the <a
-href="http://wiki.geneontology.org">internal wiki</a>.
+like to remind you of the [internal wiki](http://wiki.geneontology.org "internal wiki"){:target="blank"}

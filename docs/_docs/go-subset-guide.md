@@ -3,6 +3,8 @@ title: GO Subset Guide
 permalink: /docs/go-subset-guide/
 ---
 
+# GO Subset Guide
+
 GO subsets (also known as GO slims) are cut-down versions of the GO ontologies containing a subset of the terms in GO. They give a broad overview of the ontology content without the detail of the specific fine-grained terms.
 
 ## How are GO subsets used?
