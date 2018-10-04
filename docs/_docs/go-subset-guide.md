@@ -22,7 +22,7 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 |Organism or Usage |	OBO format | OWL format | json format |yaml format |
 |------------------|----------|----------|----------|----------|
 |GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl](http://current.geneontology.org/ontology/subsets/goslim_agr.owl) | [goslim_agr.json](http://current.geneontology.org/ontology/subsets/goslim_agr.json) | [goslim_agr.yaml](http://current.geneontology.org/ontology/subsets/goslim_agr.yaml)|
-|Generic GO subset Developed by GO Consortium |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_generic.obo)|
+|Generic GO subset Developed by GO Consortium |[goslim_generic.obo](http://current.geneontology.org/ontology/subsets/goslim_generic.obo)| [goslim_generic.owl](http://current.geneontology.org/ontology/subsets/goslim_generic.owl) | [goslim_generic.json](http://current.geneontology.org/ontology/subsets/goslim_generic.json) | [goslim_generic.yaml](http://current.geneontology.org/ontology/subsets/goslim_generic.yaml)|
 |Plant subset Developed by [The Arabidopsis Information Resource](https://www.arabidopsis.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_plant.obo)|
 |Candida albicans Developed by [Candida Genome Database](http://www.candidagenome.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_candida.obo)|
 |Protein Information Resource subset Developed by Darren Natale, [PIR](https://pir.georgetown.edu/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_pir.obo)|
