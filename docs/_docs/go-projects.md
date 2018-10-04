@@ -13,12 +13,11 @@ The following areas of biology are the focus of ontology development and annotat
 + Biochemical pathways [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27589964)
 + Biofuel production [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/25346727)
 + Cardiac conduction [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29440116)
-+ Cell cycle
 + Cilia [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29177046)
-+ Enzymes
 + Extracellular RNA and vesicles [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27076901)
 + Kidney development [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24941002)
 + Microbe-host interactions [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/21119014)
++ Muscular system [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/19178689)
 + Heart development [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/21419760,24627794,19046747)
 + microRNAs [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29871895)
 + Neuronal cellular components [Publication available here](https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-20)
