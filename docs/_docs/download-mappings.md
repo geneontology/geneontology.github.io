@@ -1,21 +1,15 @@
 ---
-title: Download Mappings
+title: Cross-references of External Classification Systems to GO
 permalink: /docs/download-mappings/
 ---
 
-## Mappings of External Classification Systems to GO
+# Cross-references of External Classification Systems to GO
+Many Gene Ontology terms are cross-referenced to corresponding concepts from a number of external vocabularies, including Enzyme Commission numbers, KEGG, Reactome Pathways, and Wikipedia. The cross-references (mappings) are typically made manually. Please report any errors or suggest alternatives to the GO helpdesk.
 
-The Gene Ontology is not the only attempt to build structured controlled vocabularies for genome annotation. To aid users, the GO Consortium provides mappings of its terms to those in a number of external vocabularies.
-## What is a mapping?
-
-These files contain classes or entities from external database systems, such as Enzyme Commission numbers, UniProt keywords, or ProSite domains, indexed to identical, similar or related GO terms. The mappings are typically made manually; details can be found in the file headers.
-
-## Mappings should be used as a guide only.
-
-Although we endeavour to make mappings as accurate as possible, we cannot guarantee that the mappings provided by the GO project are either complete or exact. This may be due to the absence of definitions from GO terms or from terms in some external systems; the GO ontologies and the external database may also have changed since the mapping was made. Please report any errors or suggest alternatives to the GO helpdesk.
 ## Using and citing a mapping
 
 If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the GO citation guide for citing the GO project.
+
 ## Mapping Format
 
 Mapping files are in the format:
