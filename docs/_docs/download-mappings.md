@@ -22,8 +22,6 @@ Direct access to the mappings file directory is available here: http://geneontol
 ## Links to Cross-references files
 
 <!--Table starts here-->
-Mappings of external databases to GO 
-
 |Mapping |Last update |	Download|
 |--------|------------|---------|
 |**COG functional categories** <br>[Clusters of Orthologous Groups (COG)](https://www.ncbi.nlm.nih.gov/COG/index.html)<br> *Constructed by Michael Ashburner and Jane Lomax* |June 2004 |	[txt](http://geneontology.org/external2go/cog2go)|
