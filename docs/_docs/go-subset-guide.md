@@ -21,6 +21,7 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 ### Maintained GO subsets for download
 |Organism or Usage |	Download|
 |------------------|----------|
+|GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[OBO format](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)|
 |Generic GO subset Developed by GO Consortium |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_generic.obo)|
 |Plant subset Developed by [The Arabidopsis Information Resource](https://www.arabidopsis.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_plant.obo)|
 |Candida albicans Developed by [Candida Genome Database](http://www.candidagenome.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_candida.obo)|
