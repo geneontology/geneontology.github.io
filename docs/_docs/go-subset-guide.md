@@ -36,10 +36,10 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 
 
 ## For internal checking purposes we also provide two "anti-slims"
-|Organism or Usage |	Download|
-|------------------|----------|
-|[Do not annotate](http://geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo)|the set of high level terms that are useful for grouping, but should have no direct annotations|
-|[Do not manually annotate](http://geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.obo)|the set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools|
+|Usage |	OBO format | OWL format | json format |yaml format |
+|------------------|----------|----------|----------|----------|
+|Do not annotate: the set of high level terms that are useful for grouping, but should have no direct annotations|[goslim_gocheck_do_not_annotate.obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.obo)| [goslim_gocheck_do_not_annotate.owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.owl) | [goslim_gocheck_do_not_annotate.json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.json) | [goslim_gocheck_do_not_annotate.yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.yaml)|
+|Do not manually annotate: the set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools|[goslim_gocheck_do_not_manually_annotate.obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.obo)| [goslim_gocheck_do_not_manually_annotate.owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.owl) | [goslim_gocheck_do_not_manually_annotate.json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.json) | [goslim_gocheck_do_not_manually_annotate.yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.yaml)|
 
 ## Map2Slim option in OWLTools
 
