@@ -1,9 +1,9 @@
 ---
-title: GO Citation Policy
+title: GO Citation Policy and License
 permalink: /docs/go-citation-policy/
 ---
 
-# GO Citation Policy
+# GO Citation Policy, Use and License
 ## Cite GO
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
@@ -20,16 +20,16 @@ If you used a specific software/analysis tool in your research, in addition to t
 If you wish to cite data provided by the Gene Ontology project, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data. Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
 ### Ontology files
 
-Metadata is stored at the top of the ontology file; please state the date of the file and the CVS revision number.
+Metadata is stored at the top of the ontology file; please state the date of the file.
 
 ### Gene Association files
 
-Please cite the GOC validation date and the CVS revision number, both of which can be found in the first few lines of a gene association file.
-### Database
+Please cite the GOC validation date , both of which can be found in the first few lines of a gene association file.
 
-Release information can be found in the instance_data table in the database. Please state both the release date and the release type.
 ### Data from AmiGO
+
 The database release can be found in the page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
+
 ## Zotero
 
 Both the Gene Ontology website and AmiGO are compatible with Zotero, the Firefox extension for collecting, managing, citing, and sharing research sources. Please contact the GO helpdesk if you would like to request support for an alternative reference collection system.
@@ -47,6 +47,15 @@ The GO logo is available in a number of sizes. Do not hotlink images--download t
     icon logo, small
     icon logo, mini
     favorites icon logo 
+    
+# License    
+Gene Ontology Consortium data and data products are licensed under the
+[Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/legalcode).
+A human-readable version and explanation is available at the [Creative Commons website](https://creativecommons.org/licenses/by/4.0/). For information about how to properly
+credit data use, please review the [Creative Commons FAQ](http://wiki.creativecommons.org/Frequently_Asked_Questions) or contact the GO Helpdesk.
+
+GOC software and tools are under their own licenses; please see their respective homepages for further details.
+
 
 ## Website Disclaimer
 
