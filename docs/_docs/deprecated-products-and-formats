@@ -1,8 +1,7 @@
 GO is no longer using the following products and formats: 
 
 ## Ontology
-<!--OWL RDF/XML-->
-OBO-XML and FASTA files were retired in 2018.
+OBO-XML and FASTA files were retired in 2018.  
 
 ## Annotations
 GO Annotation File Format 1.0 (http://geneontology.org/page/go-annotation-file-gaf-format-10)
