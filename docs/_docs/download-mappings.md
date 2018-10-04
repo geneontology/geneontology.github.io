@@ -17,14 +17,9 @@ Cross-references files are in the format: ` database:term identifier (id/name) >
 More details can be found in the [external mapping file format guide](external-mapping-file-format.md).
 ## Mappings File Directory
 
-Direct access to the mappings file directory is available via the following routes:
+Direct access to the mappings file directory is available here: http://geneontology.org/external2go/
 
-* by web browser
-* via the CVS web interface
-* by CVS, in the directory go/external2go/
-
-Back to top
-## The Mappings
+## Links to Cross-references files
 
 <!--Table starts here-->
 Mappings of external databases to GO 
