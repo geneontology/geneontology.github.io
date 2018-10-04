@@ -12,7 +12,7 @@ OBO-XML and FASTA files were retired in 2018.
 
 ## Annotations
 
-* [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-20/) is the primary format currently used by the GO Consortium.
+* [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-20/) 
 * [GO Annotation File Format 1.0](http://geneontology.org/page/go-annotation-file-gaf-format-10) is a deprecated format (as of June 2010), which captures slightly less information. The GO Consortium continues to provide files in this format for users who have not yet switched to GAF 2.0.
 
 ## Databases and schemas
