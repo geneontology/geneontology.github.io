@@ -1,3 +1,10 @@
+---
+title: File formats for mapping IDs
+permalink: /docs/file-formats-for-mapping/
+---
+
+# File formats for mapping IDs
+
 This page documents the file formats used to store the mapping between the Database object IDs to corresponding sequence IDs in UniProtKB or NCBI.
 
 * gp2protein file
