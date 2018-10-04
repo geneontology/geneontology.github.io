@@ -23,15 +23,11 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 |------------------|----------|----------|----------|----------|
 |GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl](http://current.geneontology.org/ontology/subsets/goslim_agr.owl) | [goslim_agr.json](http://current.geneontology.org/ontology/subsets/goslim_agr.json) | [goslim_agr.yaml](http://current.geneontology.org/ontology/subsets/goslim_agr.yaml)|
 |Generic GO subset Developed by GO Consortium |[goslim_generic.obo](http://current.geneontology.org/ontology/subsets/goslim_generic.obo)| [goslim_generic.owl](http://current.geneontology.org/ontology/subsets/goslim_generic.owl) | [goslim_generic.json](http://current.geneontology.org/ontology/subsets/goslim_generic.json) | [goslim_generic.yaml](http://current.geneontology.org/ontology/subsets/goslim_generic.yaml)|
-|Plant subset Developed by [The Arabidopsis Information Resource](https://www.arabidopsis.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_plant.obo)|
-|Candida albicans Developed by [Candida Genome Database](http://www.candidagenome.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_candida.obo)|
-|Protein Information Resource subset Developed by Darren Natale, [PIR](https://pir.georgetown.edu/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_pir.obo)|
-|Schizosaccharomyces pombe subset Developed by Val Wood, [PomBase](https://www.pombase.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_pombe.obo)|
-|Yeast subset Developed by [Saccharomyces Genome Database](https://www.yeastgenome.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_yeast.obo)|
-|Aspergillus subset Developed by [Aspergillus Genome Data](http://www.aspgd.org/) |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_aspergillus.obo)|
-|Metagenomics subset Developed by Jane Lomax and the [InterPro](http://www.ebi.ac.uk/interpro/) group |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_metagenomics.obo)|
-|Virus subset Developed by Jane Lomax and Rebecca Foulger |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_virus.obo)|
-|Chembl Drug Target subset developed by Prudence Mutowo and Jane Lomax |	[OBO format](http://www.geneontology.org/ontology/subsets/goslim_chembl.obo)|
+|GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_plant.obo](http://current.geneontology.org/ontology/subsets/goslim_plant.obo)| [goslim_plant.owl](http://current.geneontology.org/ontology/subsets/goslim_plant.owl) | [goslim_plant.json](http://current.geneontology.org/ontology/subsets/goslim_plant.json) | [goslim_plant.yaml](http://current.geneontology.org/ontology/subsets/goslim_plant.yaml)|
+|Candida albicans Developed by [Candida Genome Database](http://www.candidagenome.org/) |[goslim_candida.obo](http://current.geneontology.org/ontology/subsets/goslim_candida.obo)| [goslim_candida.owl](http://current.geneontology.org/ontology/subsets/goslim_candida.owl) | [goslim_candida.json](http://current.geneontology.org/ontology/subsets/goslim_candida.json) | [goslim_candida.yaml](http://current.geneontology.org/ontology/subsets/goslim_candida.yaml)|
+
+
+
 ## For internal checking purposes we also provide two "anti-slims"
 |Organism or Usage |	Download|
 |------------------|----------|
