@@ -19,6 +19,7 @@ The following areas of biology are the focus of ontology development and annotat
 + microRNAs [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29871895)
 + Neuronal cellular components [Publication available here](https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-20)
 + Non-symbiotic multi-organism processes [Publication available here](https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-015-0481-x)
++ Parkinson's Disease [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26825309)
 + Signaling
 + Transcription
 + Viral processes
