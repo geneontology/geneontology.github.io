@@ -1,0 +1,9 @@
+Archives of the GO database releases (in a number of formats, including XML and mySQL) are available from the GO Database archives. The archives are arranged by release type, and are split into ontology-only, ontology plus manual annotation, and full database (including electronic annotation) releases.
+
+Add description of the current releases
+
+http://archive.geneontology.org/lite/
+
+http://archive.geneontology.org/full/
+
+ftp://ftp.geneontology.org/go/ontology-archive/
