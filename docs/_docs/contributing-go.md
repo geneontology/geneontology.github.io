@@ -3,7 +3,7 @@ title: Contributing to GO
 permalink: /docs/contributing-to-go/
 ---
 
-# Contributing to GO 
+# Contributing GO Annotations
 Research groups may contribute to the Gene Ontology Consortium (GOC) by providing suggestions for updating the ontology (e.g. requesting new terms) or by providing GO annotations.
 
 
@@ -18,8 +18,6 @@ When you have suggestions for new ontology terms, first make sure the term doesn
 
 [![Large sets of annotations](/assets/annotating-genes-proteins-small.png?style=center){:width="256"}](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
 
-
-
 ## How to contribute GO annotations
 
 If your research group has GO annotations for a species that is not currently included in the GO, whether or not these annotations cover the entire genome, or if your research team has identified gaps or inaccuracies in the current set of GO annotations, this guide is for you. You can also review/improve existing annotations in your field of expertise. Choose the scenario that best describes your research group and follow the steps as indicated in the following pages.
@@ -32,19 +30,7 @@ If none of the following apply to your group, [contact the GOC](http://help.gene
 
 ### Contribute annotations from large datasets
 #### Existing MODs/groups
- * **Prepare**- GOC encourages use of [GAF 2.1](/docs/go-annotation-file-gaf-format-21/), although [GAF 2.0](/docs/go-annotation-file-gaf-format-20/) is still accepted.  If you're reading this, now is a great time to make the minor changes and upgrade to 2.1!
- * **Submit**- GOC asks that all submitting groups provide a static address that always contains the group's most recent GAF.  This GAF will be retreived by GO on demand and ensure the group's most recent file is always used for the monthly production pipeline.
- The address for a group's GAF should appear in the `source` line (approximately line 19) of the group's yaml file.  For example, MGI's file [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml) contains the line:
- 
- ` source: http://www.informatics.jax.org/downloads/reports/gene_association.mgi.gz`
- 
- MGI provides a  GAF, [GPAD](/docs/gene-product-association-data-gpad-format) and [GPI](/docs/gene-product-information-gpi-format) in their [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml); please see [zfin.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/zfin.yaml) for an example with only a GAF and a GPI.  Providing a GPI and GPAD in addition to the GAF is preferred.
- 
- GO is happy to modify your group's yaml file if requested: please [contact the GOC](http://help.geneontology.org/).
- 
- * **Review**- Once annotations have been processed by GO, groups will be able to access error reports.  Please use the reports to make changes to the next month's GAF: 
-   * monthly error reports will be accessible through release.geneontology.org [for example, October 2018](http://release.geneontology.org/2018-10-01/reports/index.html)
-   * http://snapshot.geneontology.org/reports/index.html has reports that are updated thoughout the month, not just for the releases
+* Please refer to the documentation on the wiki, [here]()
 
 
 #### New groups/Special interest research groups
