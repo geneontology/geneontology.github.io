@@ -1,8 +1,7 @@
 ---
-title: About
+title: The Gene Ontology Project
 permalink: /docs/about/
 ---
-
 
 <!--The links to many of the names are broken, so I did not link any.  All need to be reviewed.-->
 
@@ -13,15 +12,14 @@ evolving knowledge of how genes encode biological functions at the molecular, ce
 Biological systems are so complex that we need to rely on computers to represent this knowledge. The project has
 developed formal ontologies that represent over 40,000 biological concepts, and are constantly being revised to
 reflect new discoveries. To date, these concepts have been used to "annotate" gene functions based on experiments
-reported in over 140,000 peer-reviewed scientific papers. An overview of the GO resource [can be found here](IntroductiontoGOResource.md
-).
+reported in over 140,000 peer-reviewed scientific papers. An overview of the GO resource [can be found here](/docs/introduction-to-go-resource/).
 
 The GO resource plays an essential role in supporting biomedical research, including interpretation of large scale
 molecular experiments and computational analysis of biological knowledge. It has been used in tens of thousands of
 scientific studies.
 
 The Gene Ontology Consortium (GOC) includes groups from around the world that collaborate closely on the development
-of the Gene Ontology and creation of gene function annotations. [Read more about the GO Consortium member groups, and additional funding for those groups](http://geneontology.org/page/go-consortium-contributors-list).
+of the Gene Ontology and creation of gene function annotations. [GO Consortium member groups and their funding sources are listed here](/docs/contributors/).
 ### The GOC is co-directed by (in alphabetical order):
 
 * [Judith Blake](http://research.jax.org/faculty/judith_blake.html), Jackson Laboratory (mouse gene annotation, ontology development)
