@@ -15,7 +15,7 @@ Whenever you want to create a link to one of the above local page, use the `perm
 ## Reference a page and open it in a new tab
 `[link description](http://wiki.geneontology.org/index.php/Introduction_to_Annotation){:target="_blank"}`
 
-As a geeneral rule of thumb, all internal pages should open in the same tab and all external pages we reference should open in a new tab
+As a general rule, all internal pages should open in the same tab and all external pages we reference should open in a new tab
 
 ## Integrate an external image
 `![link description](https://wallpaperstudio10.com/wallpaper-download-197580-1024x640.jpg)`
