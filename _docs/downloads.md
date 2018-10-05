@@ -1,5 +1,5 @@
 ---
-title: Downloads overview
+title: Downloads Overview
 permalink: /docs/downloads/
 ---
 
