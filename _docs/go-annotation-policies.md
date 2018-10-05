@@ -17,7 +17,4 @@ Some model species research communities do not have an established database grou
 ## Sample annotation sets
 Sample annotation sets are available from a number of the databases in the Consortium; see the teaching resources page to download them. These sets comprise up to ten papers annotated by the database, with description of the GO terms and evidence codes used, along with reasons why these terms were chosen (where applicable).
 ## GO Annotation Resources
-For more information on annotation, please see the following resources:
 
- * [GO annotation conventions](http://wiki.geneontology.org/index.php/Annotation_conventions)
- * [Evidence codes used in GO annotation](/docs/guide-go-evidence-codes/)
