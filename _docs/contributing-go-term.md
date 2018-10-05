@@ -9,11 +9,11 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 
 ## Suggesting a new GO term
 
-1. **Before you submit a new term request, please check to see if the term already exists:** Before submitting suggestions for new ontology terms, check whether the term already exists, either as a primary term or a synonym. To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. 
+1. **Before you submit a new term request, please check to see if the term already exists:** 
++ Before submitting suggestions for new ontology terms, check whether the term already exists, either as a primary term or a synonym. To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. 
 
 2. **Gather all necessary information:** 
-
-Please provide suggestions for a name, definition, position in hierarchy, references (e.g. PMIDs), [cross-references](/docs/download-mappings/) (e.g., KEGG, EC), and synonyms, if applicable. For an example, see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). Please be specific in your request and include as many details as necessary, providing background information, and if possible, suggesting a solution. The ontology editors can more rapidly process requests when all the required information is provided. 
++  Please provide suggestions for a name, definition, position in hierarchy, references (e.g. PMIDs), [cross-references](/docs/download-mappings/) (e.g., KEGG, EC), and synonyms, if applicable. For an example, see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). Please be specific in your request and include as many details as necessary, providing background information, and if possible, suggesting a solution. The ontology editors can more rapidly process requests when all the required information is provided. 
 
 3. **Communicate with the GO ontology editors**
 
