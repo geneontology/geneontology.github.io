@@ -8,7 +8,11 @@ permalink: /docs/deprecated-products-and-formats/
 GO is no longer using the following products and formats: 
 
 ## Deprecated ontology formats
-+ The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version. For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see [Download ontology documentation](/docs/download-ontology/) for more information.
++ GO provides the Gene Ontology in the OBO 1.4 format. Ontology data is also available in the previous version, OBO 1.2. The GO Consortium no longer uses or supports files in older formats. Should you require a file in this format, the command-line script obo2flat can be used to interconvert between OBO format and the legacy GO format. obo2flat is a Java script and comes as part of the OBO-Edit package; instructions on usage are provided in the OBO-Edit User Guide.
+
+OBO-XML is a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc. Currently, only the ontology is available as OBO-XML.
+
+The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version. For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see [Download ontology documentation](/docs/download-ontology/) for more information.
 
 |**XML format** Database tables ||||
 |----------------|---|---|---|
