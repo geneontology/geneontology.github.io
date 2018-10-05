@@ -9,18 +9,18 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 
 ## Suggesting a new GO term
 
-### Before you submit a new term request, please check to see if the term already exists
-+ Before submitting suggestions for new ontology terms, check whether the term already exists, either as a primary term or a synonym. To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. 
+### Before you submit a new term request, check whether the term already exists
++ To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. Note that the term may exist as a primary term name or as a synonym.
 
-2. **Gather all necessary information:** 
+###  Gather all necessary information
 +  Please provide suggestions for a name, definition, position in hierarchy, references (e.g. PMIDs), [cross-references](/docs/download-mappings/) (e.g., KEGG, EC), and synonyms, if applicable. For an example, see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). Please be specific in your request and include as many details as necessary, providing background information, and if possible, suggesting a solution. The ontology editors can more rapidly process requests when all the required information is provided. 
 
-3. **Communicate with the GO ontology editors**
+### Communicate with the GO ontology editors
 
 + You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> ([/docs/how-to-submit-requests/](instructions for getting set up with GitHub are here)).
 + Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
 
-4. **Creating a GitHub ticket for a new term request**
+### Creating a GitHub ticket for a new term request
 
 + Go to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a>.
 + Click on the green 'New Issue' button.
@@ -32,9 +32,9 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 ++ Literature references (PMID:xxxx, ISBN:xxxx, DOI:xxxx)
 ++ Term synonyms if appropriate
 
-5. **Submiting the ticket**
+### Finalizing the ticket submission
 
-Press the 'Submit new issue' button at the bottom of the box.
++ Press the 'Submit new issue' button at the bottom of the box.
 
 ## Suggesting other improvements to the ontology
 Common requests to modify terms include: 
