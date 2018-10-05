@@ -23,6 +23,6 @@ We make new versions available approximately every month.-->
 + These bundles are released in step with the above monthly releases.
 
 ### Notifications
-To be notified of the exact release date, you can follow the <a href="https://github.com/geneontology/go-announcements>GitHub go-announcement repository>/a>.
+To be notified of the exact release date, you can follow the <a href="https://github.com/geneontology/go-announcements">GitHub go-announcement repository>/a>.
 
 If there is something that you need or think we might be reasonably missing, please [contact us](http://help.geneontology.org "contact us"){:target="blank"}.
