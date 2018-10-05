@@ -43,7 +43,7 @@ Common requests to modify terms include:
 + Taxon restrictions
 + etc
 
-Term improvements can be submitted to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> as dsecribed above. 
+Term improvements can be submitted to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> as described above. 
 
 ## When to create a new ticket
 Keep tickets simple; do not hesitate to create multiple tickets if necessary. Unless terms are related, submit a separate request for each new term.
