@@ -5,14 +5,14 @@ permalink: /docs/ontology-relations/
 
 # Relations in the Gene Ontology
 
-## Overview
+## Overview
 The following page documents the relations used in the filtered GO ontology. For information on how relations are represented in OBO format, see the OBO File Format Guide.
 Understanding relations in GO
 The ontologies of GO are structured as a graph, with terms as nodes in the graph and the relations (also know as object properties) between the terms as edges. Just as each term is defined, so the relations between GO terms are also categorized and defined. This document provides a description of some of the commonly used relationships in GO: is a (is a subtype of); part of; has part; regulates, negatively regulates and positively regulates.
 
 This set is not exhaustive and includes only a subset of relations used in the GO ontologies, logical definitions and annotations. For more technical information about relations and their properties used in GO and other ontologies see the OBO Relations Ontology (RO) and for relationships used in GO annotation extensions, see the GO annotation extension relations file (experimental).
 
-## Using relations to group related annotations
+## Using relations to group related annotations
 
 Relations are widely used by GO browsing tools such as AmiGO and QuickGO and in over-representation analysis to group related GO annotations. For example the annotations on the AmiGO page for kinase activity includes annotations made to 'tyrosine kinase activity', 'protein kinase activity' etc. Note that not all relations can be safely used to group annotations via the GO graph. Please see below for notes and examples illustrating when and why grouping of annotations via relationships can be done safely.
 
