@@ -25,7 +25,19 @@ GO is no longer using the following products and formats:
 
 ### Archived ontology files
 
-+ An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <a href="ftp://ftp.geneontology.org/go/ontology-archive/">ftp.geneontology.org/go/ontology-archive</a>
+An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO Database archive.  
+
+The archives are arranged by release type, and are split into ontology-only, ontology plus manual annotation, and full database (including electronic annotation) releases.
+
+<a href="ftp://ftp.geneontology.org/go/ontology-archive/">ftp.geneontology.org/go/ontology-archive</a>
+
+### Archived MySQL database files
+
+The legacy MySQL database dumps, from start to final generation, are available at:
+
+<a href="http://archive.geneontology.org/lite/">http://archive.geneontology.org/lite</a>
+
+<a href="http://archive.geneontology.org/full/">http://archive.geneontology.org/lite</a>
 
 ## Deprecated annotation formats
 
