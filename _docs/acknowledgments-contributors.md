@@ -138,7 +138,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Damien	Lieberherr
 -	Antonia	Lock
 -	Ruth C.	Lovering
--	Y.	Lussi
+-	Y.	Lussier
 -	A.	MacDougall
 -	Kevin A.	MacPherson
 -	Michele	Magrane
