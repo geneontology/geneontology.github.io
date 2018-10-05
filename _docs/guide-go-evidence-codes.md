@@ -32,7 +32,7 @@ High throughput (HTP) evidence codes are a type of experimental evidence that in
 - [Inferred from High Throughput Expression Pattern (HEP)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Expression_Pattern_(HEP)){:target="_blank"}
 
 ## Phylogenetically-inferred annotations
-Phylogenetic principles, reconstructing evolutionary events to infer relationships among genes, provide a powerful way to gain insight into gene function. The GOC has supported a dedicated Phylogenetic Annotation effort since [2008](https://www.ncbi.nlm.nih.gov/pubmed/21873635){:target="_blank"}. 
+Phylogenetic principles, reconstructing evolutionary events to infer relationships among genes, provide a powerful way to gain insight into gene function. The GOC has supported a dedicated [Phylogenetic Annotation effort](https://www.ncbi.nlm.nih.gov/pubmed/21873635){:target="_blank"} since 2008.
 
 Phylogenetically-based annotations are derived from an explicit model of gain and loss of gene function at specific branches in a phylogenetic tree. Each inferred annotation can be traced to the direct experimental annotations that were used as the basis for that assertion. The GO Phylogenetic Annotation project is now the largest source of manually reviewed annotations in the GO knowledgebase, and it has substantially increased the number of annotations even in organisms that have been well-studied experimentally.
 
