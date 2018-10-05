@@ -16,7 +16,7 @@ We make new versions available approximately every month.-->
 
 <!--We will soon add more documentation about the structure of these repositories.-->
 
-### DOI-versioned bundles
+#  Download <a href="https://zenodo.org/record/1343652">DOI-versioned bundles</a>
 
 We also offer a complete archive of each monthly release, citable with DOI, at <a href="https://zenodo.org/record/1343652">Zenodo</a>.
 
