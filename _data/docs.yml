@@ -9,7 +9,6 @@
 - title: Ontology
   docs:
     - ontology-documentation
-    - ontology-relations
     - go-subset-guide
     - download-mappings
 
