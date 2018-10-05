@@ -31,7 +31,7 @@ of the Gene Ontology and creation of gene function annotations. [GO Consortium m
 + <a href="http://www.ebi.ac.uk/about/people/alex-bateman">Alex Bateman</a>, UniProt, European Bioinformatics Institute (gene annotation)
 + <a href="https://www.pdn.cam.ac.uk/directory/nick-brown">Nick Brown</a>, FlyBase, University of Cambridge (Drosophila gene annotation)
 + <a href="http://fsmweb.northwestern.edu/faculty/facultyProfile.cfm?xid=10466">Rex Chisholm</a>, DictyBase, Northwestern University (Dictyostelium gene annotation)
-+ <a href="http://biochemistry.tamu.edu/faculty/hu-james-c-protein-interactionsmicrobial-genomics-and-annotation/">James Hu</a>, Texas A&M (gene annotation)
++ <a href="https://biochemistry.tamu.edu/people/hu-james-c/">James Hu</a>, Texas A&M (gene annotation)
 + <a href="https://www.arabidopsis.org/about/staff.jsp">Eva Huala</a>, The Arabidopsis Information Resource, Phoenix Bioinformatics (Arabidopsis gene annotation)
 + <a href="http://www.ebi.ac.uk/about/people/helen-parkinson">Helen Parkinson</a>, Ontologies Team lead, European Bioinformatics Institute (ontology development)
 + <a href="http://zfin.org/ZDB-PERS-960805-676">Monte Westerfield</a>, University of Oregon (zebrafish gene annotation)
