@@ -20,192 +20,213 @@ We want to acknowledge the contributions of the following individuals in the dev
 - Paul Thomas
 
 ### Current contributors
+-	V.	Acquaah
+-	S.H.	Ahmad
+-	Laurent-Philippe 	Albou
+-	Suzi	Aleksander
+-	Giulia	Antonazzo
+-	J.	Argasinska
+-	Ghislaine	Argoud-Puy
+-	Cecilia	Arighi
+-	Helen	Attrill
+-	Andrea	Auchincloss
+-	Kristian	Axelsen
+-	J.	Bahler
+-	E.	Bakker
+-	Richard	Baldarelli
+-	James P.	Balhoff
+-	Siddhartha	Basu
+-	Alex	Bateman
+-	B.	Bely
+-	Tanya	Berardini
+-	Gale	Binkley
+-	Ewan	Birney
+-	Marie-Claude	Blatter
+-	Elizabeth R	Bolton
+-	C.	Bonilla
+-	Emmanuel	Boutet
+-	Yvonne	Bradford
+-	Lionel	Breuza
+-	Alan	Bridge
+-	R.	Britto
+-	Nick	Brown
+-	H.	Bye-A-Bye
+-	Nancy H.	Campbell
+-	Seth	Carbon
+-	Cristina	Casals
+-	Juancarlos	Chan
+-	H.Y.	Chang
+-	H.	Chen
+	Marcus C.	Chibucos
+-	Rex	Chisholm
+-	J.	Cho
+-	Karen	Christie
+-	E.	Cibrian-Uhalte
+-	Lori	Corbani
+-	Elisabeth	Coudert
+-	Melanie	Courtot
+-	Peter	D'Eustachio
+-	N.	Del-Toro
+-	J.	DePons
+-	Alex	Diehl
+-	Robert J.	Dodson
+-	Mary E.	Dolan
+-	Eric	Douglass
+-	Harold	Drabkin
+-	H.J.	Drabkin
+-	Paula	Duek-Roggli
+-	Corina	Duenas
+-	M.J.	Duesbury
+-	N.	Dunn
+-	B.L.	Dunn
+-	M.R.	Dwinell
+-	Anne	Eagle
+-	Dustin	Ebert
+-	David B.	Emmert
+-	Stacia R.	Engel
+-	Anne	Estreicher
+-	Antonio	Fabregat
+-	Kathleen	Falls
+-	Livia	Famiglietti
+-	Marc	Feuermann
+-	S.	Fexova
+-	Petra	Fey
+-	Rob D.	Finn
+-	P.	Garapati
+-	Penelope	Garmiri
+-	Pascale	Gaudet
+-	George	Georghiou
+-	Michelle	Giglio
+-	F.	Gondwe
+-	Benjamin	Good
+-	Arnaud	Gos
+-	A.	Gos
+-	C.	Grove
+-	Nadine	Gruaz-Gumowski
+-	Midori	Harris
+-	Nomi L.	Harris
+-	M.C.	Harrison
+-	E.	Hartline
+-	E.	Hatton-Ellis
+-	David P.	Hill
+-	Ursula	Hinz
+-	A.	Holmes
+-	Doug	Howe
+-	Kevin	Howe
+-	James C.	Hu
+-	Eva	Huala
+-	Xiaosong	Huang
+-	Chantal	Hulo
+-	Rachael	Huntley
+-	H.	Hye-A-Bye
+-	Alexandr 	Ignatchenko
+-	T.E.M.	Jones
+-	Florence	Jungo
+-	K.	Karra
+-	Thomas	Kaufman
+-	G.	Keller
+-	Paul	Kersey
+-	Ingrid	Keseler
+-	M.	Koch
+-	Barbara	Kramarz
+-	S.A.	LaBonte
+-	Kati	Laiho
+-	Stanley J.F	Laulederkind
+-	R.	Lee
+-	Philippe	Lemercier
+-	Damien	Lieberherr
+-	Antonia	Lock
+-	Ruth C.	Lovering
+-	Y.	Lussi
+-	A.	MacDougall
+-	K.A.	MacPherson
+-	Michele	Magrane
+-	Maria J.	Martin
+-	Steven	Marygold
+-	Patrick	Masson
+-	Lisa	Matthews
+-	Bruce	May
+-	Birgit H.M. 	Meldal
+-	J.	Mendel
+-	Huaiyu	Mi
+-	Gillian H.	Millburn
+-	Alexander L.	Mitchell
+-	Stuart R.	Miyasato
+-	Hans-Michael	Muller
+-	Chistopher J.	Mungall
+-	Anushya	Muruganujan
+-	T.	Mushayahama
+-	S.	Nadendla
+-	Rob	Nash
+-	Darren A.	Natale
+-	P.C.	Ng
+-	Li	Ni
+-	Stephen G.	Oliver
+-	Sandra	Orchard
+-	David	Osumi-Sutherland
+-	Helen	Parkinson
+-	Ivo	Pedruzzi
+-	Livia	Perfetto
+-	Norbert	Perrimon
+-	Christian	Pich
+-	Klemens	Pichler
+-	D.	Poggioli
+-	Pablo	Porras
+-	S.	Potter
+-	S.	Poudel
+-	Sylvain	Poux
+-	D.	Raciti
+-	N.D.	Rawlings
+-	J.H.	Rawson
+-	Leonore	Reiser
+-	Alix J.	Rey
+-	Lorna	Richardson
+-	Catherine	Rivoire
+-	M.	Rodríguez-López
+-	Paola	Roncaglia
+-	Kim	Rutherford
+-	A.	Sangrador-Vegas
+-	Tony	Sawford
+-	Kevin	Schaper
+-	M.	Schneider
+-	T.K.	Sheppard
+-	Mary	Shimoyama
+-	A.	Shrivatsav VP
+-	Aleksandra	Shypitsyna
+-	Deborah A.	Siegele
+-	M.	Simison
+-	Dmitry	Sitnikov
+-	Marek S.	Skrzypek
+-	E.	Speretta
+-	E.	Speretta
+-	Lincoln	Stein
+-	S.	Subramaniam
+-	S.	Sundaram
+-	R.	Tauber
+-	Sabrina	Toro
+-	V.	Trovisco
+-	M.	Tutaj
+-	N.	Tyagi
+-	Kimberly	VanAuken
+-	S.J.	Wang
+-	K.	Warner
+-	Shuai	Weng
+-	Monte	Westerfield
+-	Edith D.	Wong
+-	Valerie	Wood
+-	Cathy	Wu
+-	Z.	Xie
+-	L.-S.	Yeh
+-	R.	Zaru
+-	P.	Zhou
 
-- Suzi Aleksander
-- Giulia Antonazzo
-- J. Argasinska
-- Ghislaine Argoud-Puy
-- Cecilia Arighi
-- Helen Attrill
-- Andrea Auchincloss
-- Kristian Axelsen
-- Richard Baldarelli
-- James P. Balhoff
-- Siddhartha Basu
-- Alex Bateman
-- B. Bely
-- Tanya Berardini
-- Gale Binkley
-- Ewan Birney
-- Marie-Claude Blatter
-- C. Bonilla
-- Emmanuel Boutet
-- Yvonne Bradford
-- Lionel Breuza
-- Alan Bridge
-- R. Britto
-- Nick Brown
-- N.H. Campbell
-- Seth Carbon
-- Cristina Casals
-- Juancarlos Chan
-- H.Y. Chang
-- Rex Chisholm
-- Karen Christie
-- E. Cibrian-Uhalte
-- Lori Corbani
-- Elisabeth Coudert
-- Melanie Courtot
-- Peter D'Eustachio
-- J. DePons
-- Alex Diehl
-- Robert Dodson
-- Mary Dolan
-- Harold Drabkin
-- Paula Duek-Roggli
-- Corina Duenas
-- M.J. Duesbury
-- M.R. Dwinell
-- Anne Eagle
-- David Emmert
-- Stacia Engel
-- Anne Estreicher
-- Antonio Fabregat
-- Kathleen Falls
-- Livia Famiglietti
-- David Fashena
-- Marc Feuermann
-- Petra Fey
-- Rob D. Finn
-- M. Fraser
-- P. Gane
-- Sibyl Gao
-- Penelope Garmiri
-- Pascale Gaudet
-- G. Georghiou
-- Marc Gillespie
-- Arnaud Gos
-- Nadine Gruaz-Gumowski
-- Midori Harris
-- E. Hatton-Ellis
-- Robin Haw
-- Jacqueline Hayles
-- G.T. Hayman
-- Henning Hermjakob
-- David Hill
-- Ursula Hinz
-- A. Holmes
-- Doug Howe
-- Kevin Howe
-- James C. Hu
-- Eva Huala
-- Xiaosong Huang
-- Chantal Hulo
-- Rachael Huntley
-- H. Hye-A-Bye
-- Bijay Jassal
-- Florence Jungo
-- Steve Jupe
-- James Kadin
-- Patrick Kalita
-- Peter Karp
-- Thomas Kaufman
-- Paul Kersey
-- Ingrid Keseler
-- M. Koch
-- Barbara Kramarz
-- Kati Laiho
-- Stanley Laulederkind
-- Philippe Lemercier
-- Qian Li
-- Damien Lieberherr
-- Antonia Lock
-- Ruth C. Lovering
-- A. MacDougall
-- Michele Magrane
-- Prita Mani
-- Maria J. Martin
-- Ryan Martin
-- Steven Marygold
-- Patrick Masson
-- Lisa Matthews
-- Bruce May
-- Birgit H.M. Meldal
-- A. Melidoni
-- Huaiyu Mi
-- Gillian Millburn
-- Alexander L. Mitchell
-- Sierra Moxon
-- Bob Muller
-- Michael Muller
-- Chistopher J. Mungall
-- Anushya Muruganujan
-- Rob Nash
-- Darren A. Natale
-- Li Ni
-- G. Nuka
-- Stephen Oliver
-- Sandra Orchard
-- Marija Orlic-Milacic
-- David Osumi-Sutherland
-- Holly Paddock
-- Helen Parkinson
-- Ivo Pedruzzi
-- Norbert Perrimon
-- Christian Pich
-- D. Poggioli
-- Pablo Porras
-- S. Potter
-- Sylvain Poux
-- Sridhar Ramachandran
-- N.D. Rawlings
-- Leonore Reiser
-- D.P. Renfro
-- Alix Rey
-- Lorna Richardson
-- Joel Richardson
-- Catherine Rivoire
-- Paola Roncaglia
-- Karen Rothfels
-- Kim Rutherford
-- Leyla Ruzicka
-- A. Sangrador-Vegas
-- Tony Sawford
-- Kevin Schaper
-- Veronica Shamovsky
-- Xiang Shao
-- Mary Shimoyama
-- Solomon Shorser
-- A. Shrivastava
-- Aleksandra Shypitsyna
-- Konstantinos Sidiropoulos
-- Deborah A. Siegele
-- Amy Singer
-- Dmitry Sitnikov
-- Marek Skrzypek
-- E. Speretta
-- Lincoln Stein
-- S. Sundaram
-- Sabrina Toro
-- M. Tutaj
-- Kimberly VanAuken
-- Ceri VanSlyke
-- Andrey Vetushko
-- S.J. Wang
-- Marissa Webber
-- Joel Weiser
-- Shuai Weng
-- Monte Westerfield
-- Edith Wong
-- Valerie Wood
-- Cathy Wu
-- Guanming Wu
-- L.-S. Yeh
-- S.Y. Young
-- Florent Yvon
-- R. Zaru
+## Domain-specific experts
+- Marcio L.	Acencio
+- Jacqueline	Hayles
+- Astrid Lægreid
+- Colin	Logie
 
-Contributors emeriti
+## Contributors emeriti
 
 - Debbie Alexander
 - Igor Antoshechkin
