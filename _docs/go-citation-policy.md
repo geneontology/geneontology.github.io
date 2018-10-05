@@ -43,7 +43,7 @@ The GO logo is available in a number of sizes. Do not hotlink images--download t
     icon logo, mini
     favorites icon logo 
 
-# License    
+## License    
 
 Gene Ontology Consortium data and data products are licensed under the [Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/legalcode). A human-readable version and explanation is available at the [Creative Commons website](https://creativecommons.org/licenses/by/4.0/). For information about how to properly credit data use, please review the [Creative Commons FAQ](http://wiki.creativecommons.org/Frequently_Asked_Questions) or contact the GO Helpdesk.
 
