@@ -28,7 +28,7 @@ A biological process term describes a series of events accomplished by one or mo
 A biological process is not equivalent to a pathway. At present, the GO does not try to represent the dynamics or dependencies that would be required to fully describe a pathway.
 
 ## Details about the ontologies
-* [Ontology Structure](http://geneontology.org/page/ontology-structure): information about the structure of GO terms and the ontology.
+* [Ontology Structure](/docs/ontology/): information about the structure of GO terms and the ontology.
 * [Ontology Relations](/docs/ontology-relations/): documentation on the inter-term relations used in GO
 
 
