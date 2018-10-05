@@ -14,7 +14,6 @@ We ask that whenever using the GO and/or annotations in a publication, please ci
 If you used a specific software/analysis tool in your research, in addition to the two publications above, please also cite the tool used according to the following list:
 + Enrichment analysis tool: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899595">Mi et al. (2017) Nucleic Acids Res.</a>.
 + AmiGO: <a href="http://bioinformatics.oxfordjournals.org/content/25/2/288.full.pdf+html">Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data.</a>
-+  OBO-Edit: Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. Aug 2007;23(16):2198-200. \[[abstract](http://bioinformatics.oxfordjournals.org/content/23/16/2198) | [full text](http://bioinformatics.oxfordjournals.org/content/23/16/2198.full)\]
 
 ## Citing Data from Downloads
 
