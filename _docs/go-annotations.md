@@ -15,7 +15,7 @@ Different pieces of knowledge regarding gene function may be established to diff
 <!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
 
 ## Semantics of a GO Annotation
-Association with a gene or gene product product to a term from these ontologies is a statement that means: 
+An association with a gene or gene product product and a GO term is a statement that means: 
 + Molecular Function: the molecular activities of gene products 
 + Cellular Component: where gene products are active
 + Biological Process: pathways and larger processes made up of the activities of molecular multiple gene products
