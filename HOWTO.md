@@ -43,6 +43,11 @@ Always add a clean line before and after the markdown table. Example:
 |------------------|-------------|------------|-------------|------------|
 |GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl]
 
+## Quote a line
+
+To quote a line, start with a \>
+> this is a quoted line
+
 
 ## Additional Comments
 * images from geneontology.org that you want to reuse should be stored here: [https://github.com/geneontology/geneontology.github.io/tree/master/assets](https://github.com/geneontology/geneontology.github.io/tree/master/assets)
