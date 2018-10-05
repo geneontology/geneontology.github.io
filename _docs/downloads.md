@@ -22,7 +22,7 @@ We make new versions available approximately every month.-->
 
 ### <a href="https://zenodo.org/record/1343652">Download DOI-versioned bundles</a>
 
-+ DOI-versioned bundles are complete archives of each monthly release, citable with DOI, and hosted at <a href="https://zenodo.org/record/1343652">Zenodo</a>.
++ DOI-versioned bundles are complete archives of each monthly release, citable with a DOI and hosted at <a href="https://zenodo.org/record/1343652">Zenodo</a>.
 + For users interested in a smaller or more flexible DOI versioned bundles, we offer holey (reference) BDBag at <a href="https://zenodo.org/record/1343128">Zenodo</a>.
 + These bundles are released in step with the above monthly releases.
 
