@@ -13,12 +13,12 @@ GO is no longer using the following products and formats:
 
 |**XML format** Database tables ||||
 |----------------|---|---|---|
-|RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	[rdf-xml.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz)|
-|OWL (old mapping) [format guide](http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page){:target="_blank"} |	Filtered ontology |	Daily |	[owl.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz)|
+|RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	<a href="http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz">rdf-xml.gz</a>|
+|OWL (old mapping) <a href="http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page">format guide</a>|	Filtered ontology |	Daily |	<a href="http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz">owl.gz</a>|
 
 ### Archives and previous versions
 
-An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <ftp://ftp.geneontology.org/go/ontology-archive/>
+An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <a href="ftp://ftp.geneontology.org/go/ontology-archive/>
 
 ## Annotations
 
