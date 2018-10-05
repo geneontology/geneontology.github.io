@@ -24,10 +24,6 @@ If you wish to cite data provided by the Gene Ontology project, either from AmiG
 
 The data release can be found in the page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
 
-## Citing from the Zotero Archive
-
-Both the Gene Ontology website and AmiGO are compatible with Zotero, the Firefox extension for collecting, managing, citing, and sharing research sources. Please contact the <a href="http://help.geneontology.org">GO Helpdesk</a> if you would like to request support for an alternative reference collection system.
-
 ## GO Logo
 
 If you intend to use the logo on your website, please include a link to the GO home page, http://geneontology.org. Please contact the GO Helpdesk if you need a larger or higher resolution version. The logo is subject to our use and license.
