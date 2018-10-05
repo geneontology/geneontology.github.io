@@ -1,4 +1,3 @@
-
 ---
 title: Download Annotations
 permalink: /docs/download-go-annotations/
