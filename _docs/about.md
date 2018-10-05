@@ -30,12 +30,12 @@ of the Gene Ontology and creation of gene function annotations. [GO Consortium m
 
 ### The GO Council consists of the heads of major participating groups (in alphabetical order):
 
-+ [Alex Bateman](http://www.ebi.ac.uk/about/people/alex-bateman), UniProt, European Bioinformatics Institute (gene annotation)
-+ [Nick Brown](http://fsmweb.northwestern.edu/faculty/facultyProfile.cfm?xid=10466), FlyBase, University of Cambridge (Drosophila gene annotation)
-+ [Rex Chisholm](http://fsmweb.northwestern.edu/faculty/facultyProfile.cfm?xid=10466), DictyBase, Northwestern University (Dictyostelium gene annotation)
-+ [James Hu](http://biochemistry.tamu.edu/faculty/hu-james-c-protein-interactionsmicrobial-genomics-and-annotation/), Texas A&M (gene annotation)
-+ [Eva Huala](http://dpb.carnegiescience.edu/labs/huala-lab), The Arabidopsis Information Resource, Phoenix Bioinformatics (Arabidopsis gene annotation)
-+ [Helen Parkinson](http://www.ebi.ac.uk/about/people/helen-parkinson), Ontologies Team lead, European Bioinformatics Institute (ontology development)
-+ [Monte Westerfield](http://zfin.org/ZDB-PERS-960805-676), University of Oregon (zebrafish gene annotation)
++ <a href="http://www.ebi.ac.uk/about/people/alex-bateman>Alex Bateman</a>, UniProt, European Bioinformatics Institute (gene annotation)
++ <a href="http://fsmweb.northwestern.edu/faculty/facultyProfile.cfm?xid=10466">Nick Brown</a>, FlyBase, University of Cambridge (Drosophila gene annotation)
++ <a href="http://fsmweb.northwestern.edu/faculty/facultyProfile.cfm?xid=10466">Rex Chisholm</a>, DictyBase, Northwestern University (Dictyostelium gene annotation)
++ <a href="http://biochemistry.tamu.edu/faculty/hu-james-c-protein-interactionsmicrobial-genomics-and-annotation/">James Hu</a>, Texas A&M (gene annotation)
++ <a href="http://dpb.carnegiescience.edu/labs/huala-lab">Eva Huala</a>, The Arabidopsis Information Resource, Phoenix Bioinformatics (Arabidopsis gene annotation)
++ <a href="http://www.ebi.ac.uk/about/people/helen-parkinson">Helen Parkinson</a>, Ontologies Team lead, European Bioinformatics Institute (ontology development)
++ <a href="http://zfin.org/ZDB-PERS-960805-676">Monte Westerfield]</a>, University of Oregon (zebrafish gene annotation)
 
 ### The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989).
