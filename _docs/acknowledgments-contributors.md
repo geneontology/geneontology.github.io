@@ -102,7 +102,6 @@ This list is based on the Gene Ontology NAR update 2019.
 -	F.	Gondwe
 -	Benjamin	Good
 -	Arnaud	Gos
--	A.	Gos
 -	C.	Grove
 -	Nadine	Gruaz-Gumowski
 -	Midori	Harris
