@@ -8,8 +8,6 @@ GO uses <a href="https://github.com/">GitHub</a> as a mechanism for tracking ont
 + The <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology tracker</a> captures suggestions for changes to the ontology, inclusing suggestions for new terms, changes to definitions or term position in the hierarchy, to addition of new subsets. 
 + The <a href="https://github.com/geneontology/go-annotation">GO-annotation tracker</a> is used to report incorrect annotations or to make suggestions for new annotations. 
  
-   <--!  -->
- 
 ## Creating a GitHub account
 
 + On the <a href="https://github.com/">GitHub website</a>, press the 'Sign up for GitHub' button at the top-right corner and follow  the instructions. Once registered, sign in using button in the upper right-hand corner. 
