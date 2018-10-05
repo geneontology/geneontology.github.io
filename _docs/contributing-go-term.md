@@ -27,7 +27,8 @@ For an example, see the entry for [recycling endosome](http://amigo.geneontology
 ### Communicate with the GO ontology editors
 
 You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> ([/docs/how-to-submit-requests/](instructions for getting set up with GitHub are here)).
-+ Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
+
+Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
 ### Creating a GitHub ticket for a new term request
 
 + Go to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a>.
