@@ -13,7 +13,7 @@
     - go-subset-guide
     - download-mappings
 
-- title: Annotation
+- title: Annotations
   docs:
   - go-annotations
   - guide-go-evidence-codes
