@@ -6,6 +6,14 @@ permalink: /docs/go-annotation-file-gaf-format-21/
 <!--Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.
 Suggestion: can we use "optional" instead of "not mandatory"?-->
 
+# GO Annotation File Formats
+The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
+
++ GO provides annotations in two formats: GAF Format 2.1 (described below) and [GPAD](/docs/gene-product-association-data-gpad-format/). 
+
++ For more general information on annotation, please see the [Introduction to GO annotation page](/docs/go-annotations/).
+
+
 # GO Annotation File (GAF) Format 2.1
 GO provides annotations in the GO Annotation File (GAF) Format 2.1, described below.
 
