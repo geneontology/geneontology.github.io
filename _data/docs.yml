@@ -1,3 +1,11 @@
+ 
+- title: About
+  docs:
+  - about
+  - contributors
+  - publications
+  - go-citation-policy
+
 - title: Ontology
   docs:
     - ontology-documentation
@@ -32,10 +40,3 @@
   - contributing-to-go
   - contributing-to-go-terms
   - faq
- 
-- title: About
-  docs:
-  - about
-  - contributors
-  - publications
-  - go-citation-policy
