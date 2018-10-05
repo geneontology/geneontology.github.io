@@ -33,8 +33,6 @@ You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-
 + Click on the green 'New Issue' button.
 + Enter the subject of your request in the 'Title' field, which will be your queue to find the issue from the list of requests.
 + Enter details of your request in the 'Leave a Comment' box. When requesting a new term for the ontology, please include all information (see 'Gather all necessary information' section above). 
-### Finalizing the ticket submission
-
 + Press the 'Submit new issue' button at the bottom of the box.
 ## Suggesting other improvements to the ontology
 Common requests to modify terms include: 
