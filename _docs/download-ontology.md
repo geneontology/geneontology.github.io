@@ -3,13 +3,14 @@ title: Download Ontology
 permalink: /docs/download-ontology/
 ---
 
-## Currently available
+## Gene Ontology formats
 
-This page describes the various versions of Gene Ontology available for download. To save, right-click (or ctrl-click on Mac) on the file link and then "save as" to your computer. OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. OWL files can be opened with [Protégé](https://protege.stanford.edu/).
++ OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. 
++ OWL files can be opened with [Protégé](https://protege.stanford.edu/).
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
-|go-basic.obo |	http://purl.obolibrary.org/obo/go/go-basic.obo |	Filtered, for use with legacy tools|
+|go-basic.obo |	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo) |	Filtered, for use with legacy tools|
 |go.obo |	http://purl.obolibrary.org/obo/go.obo |	Core ontology (OBO Format)|
 |go.owl |	http://purl.obolibrary.org/obo/go.owl |	Core ontology (OWL RDF/XML)|
 |extensions/go-plus.owl |	http://purl.obolibrary.org/obo/go/extensions/go-plus.owl 	|Core plus additional axioms, vetted|
