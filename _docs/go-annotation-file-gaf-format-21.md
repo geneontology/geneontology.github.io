@@ -1,5 +1,5 @@
 ---
-title: GO Annotation File (GAF) Format
+title: Annotation Files in GO Annotation File (GAF) Format
 permalink: /docs/go-annotation-file-gaf-format-21/
 ---
 
