@@ -14,6 +14,7 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 
 ###  Gather all necessary information
 Please provide suggestions for 
+
 + New term name
 + Definition
 + Position in the GO hierarchy
