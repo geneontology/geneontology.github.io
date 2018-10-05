@@ -1,3 +1,7 @@
+# Gene Ontology Website
+
+To contribute to this site content, please follow the [guidelines](/HOWTO.md)
+
 ## Installation
 
 You need Ruby and gem before starting, then:
@@ -23,6 +27,6 @@ bundle exec jekyll build
 ```
 The static files of the site will be stored in `_site`
 
-# Current Theme
+## Current Theme
 
 See [Jekyll Doc Theme](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
