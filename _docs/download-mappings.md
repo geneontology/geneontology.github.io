@@ -14,7 +14,8 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 Cross-references files are in the format: ` database:term identifier (id/name) > GO:GO term name ; GO:id`
 
-More details can be found in the [external mapping file format guide](external-mapping-file-format.md).
+More details can be found in the [external mapping file format guide](/docs/external-mapping-file-format/).
+
 ## Mappings File Directory
 
 Direct access to the mappings file directory is available here: http://geneontology.org/external2go/
