@@ -9,7 +9,7 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 
 ## Suggesting a new GO term
 
-1. **Before you submit a new term request, please check to see if the term already exists:** 
+### Before you submit a new term request, please check to see if the term already exists
 + Before submitting suggestions for new ontology terms, check whether the term already exists, either as a primary term or a synonym. To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. 
 
 2. **Gather all necessary information:** 
