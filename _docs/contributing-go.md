@@ -6,8 +6,17 @@ permalink: /docs/contributing-to-go/
 # Contributing GO Annotations
 While most GO annotations are produced by members of the [GO Consortium](/docs/go-consortium/), we welcome feedback as well as annotations from the research community. 
 
-## How to suggest revisions for existing annotations
-Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium, by either [contact the GO Helpdesk](http://help.geneontology.org/), or using the [GO-annotation GitHub site](https://github.com/geneontology/go-annotation/issues) to add suggestions. Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/).
+## Suggesting revisions for existing annotations
+Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium.
+
+###  Gather all necessary information
+- Paper citation (PMID if available)
+- A description of the issue
+- A suggestion for a solution, if possible. 
+ * Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues){:target="blank"} to request that our curators review each gene or protein. Include:
+
+### Communicate with the GO ontology editors
+You can use the [GO-annotation GitHub tracker](https://github.com/geneontology/go-annotation/issues) ([see instructions for getting set up with GitHub](/docs/how-to-submit-requests/)). Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
 
 ## How to contribute new GO annotations
 
@@ -59,9 +68,5 @@ To start, check if there are existing annotations to the gene or protein of inte
 ### If the gene or protein has comprehensive and correct annotations:
  * You are done!
      
-### If the gene or protein has missing or incorrect annotations.
- * Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues){:target="blank"} to request that our curators review each gene or protein. Include:
-  - [ ] key PMIDs
-  - [ ] a summary of the missing data
-  - [ ] list of the wrong annotations
-  - [ ] suggest GO annotations to replace them or be added (when applicable)
+
+
