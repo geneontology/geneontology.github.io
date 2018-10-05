@@ -14,11 +14,11 @@ GO uses <a href="https://github.com/">GitHub</a> as a mechanism for tracking ont
 
 + On the <a href="https://github.com/">GitHub website</a>, press the 'Sign up for GitHub' button at the top-right corner and follow  the instructions. Once registered, sign in using button in the upper right-hand corner. 
 + By signing up for a GitHub account, you can track your submissions online and via email. This tracker is visible to anyone (but only people with GitHub accounts can add issues and comments). 
-+ Note that the volume of messages on these repositories are significant; we recomment that you set your notifications to 'Not watching'; so that you will only get notified of tickets you have created or in which you have been mentioned. 
- 
++ Note that the volume of messages on these repositories are significant; we recomment that you set your notifications to 'Not watching' using the button with the 'eye' icon, found at the upper right corner of the page, so that you will only get notified of tickets you have created or in which you have been mentioned. If you choose to 'Watch' a repository, an email will be sent every time comments are added to the issue, or when its status changes.
+
 ## Submitting a new ticket to GO via GitHub
 
-+ Visit the appropriate GO ontology requests tracker. Click on the green 'New issue' button in th etop right corner.
++ Visit the appropriate GO ontology requests tracker. Click on the green 'New issue' button in the top right corner.
 
 More details about contributing to the ontology are available in the [GitHub Guidelines for Contributing Ontology tickets](https://github.com/geneontology/go-ontology/blob/master/CONTRIBUTING.md){:target="_blank"}. A brief description is included below.
  
@@ -29,7 +29,7 @@ More details about contributing to the ontology are available in the [GitHub Gui
 
 2. **Provide all necessary information:** Please always provide suggestions for a name, definition, position in hierarchy, references (e.g. PMIDs), [cross-references](/docs/download-mappings/) (e.g., KEGG, EC), and synonyms, if applicable.  The ontology editors can more easily process term requests when all of this information is provided.  For an example, please see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). Please be specific in your request and include as many details as necessary, providing background information, and if possible, suggesting a solution. 
 
-3. **Create the ticket***
+3. **Create the ticket**
  - Click on the green 'New Issue' button.
  - Enter the subject of your request in the 'Title' field, which will be your queue to find the issue from the list of requests.
  - Enter details of your request in the 'Leave a Comment' box. When requesting a new term for the ontology, please include the following details to the best of your ability:
@@ -49,9 +49,6 @@ Common requests to modify terms include:
  + Taxon restrictions
 
  
-## 3. Keep track of your requests
-
- You may receive specific emails about a single request by choosing to 'Watch' an issue using the button with the 'eye' icon, found at the upper right corner of the issue page. Users may choose to watch, not watch, or ignore a GitHub issue by pressing this button. If you choose to 'Watch' an issue, an email will be sent every time comments are added to the issue, or its status changes.
- 
- To find your request again in the GOC tracker, while on the page listing all submitted issues, use the 'Filters' box and drop-down menu to restrict the types of request you may display.
+## Keeping track of your requests
+To find your request again in the GOC tracker, while on the page listing all submitted issues, use the 'Filters' box and drop-down menu to restrict the types of request you may display.
 
