@@ -40,7 +40,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Alex	Bateman
 -	B.	Bely
 -	Tanya	Berardini
--	Gale	Binkley
+-	Gail	Binkley
 -	Ewan	Birney
 -	Marie-Claude	Blatter
 -	Elizabeth R	Bolton
@@ -79,7 +79,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Corina	Duenas
 -	M.J.	Duesbury
 -	N.	Dunn
--	B.L.	Dunn
+-	Barbara.L.	Dunn
 -	M.R.	Dwinell
 -	Anne	Eagle
 -	Dustin	Ebert
@@ -99,7 +99,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Pascale	Gaudet
 -	George	Georghiou
 -	Michelle	Giglio
--	F.	Gondwe
+-	Felix	Gondwe
 -	Benjamin	Good
 -	Arnaud	Gos
 -	C.	Grove
@@ -109,7 +109,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	M.C.	Harrison
 -	E.	Hartline
 -	E.	Hatton-Ellis
--       G.T.	Hayman
+- G.T.	Hayman
 -	David P.	Hill
 -	Ursula	Hinz
 -	A.	Holmes
@@ -124,7 +124,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Alexandr 	Ignatchenko
 -	T.E.M.	Jones
 -	Florence	Jungo
--	K.	Karra
+-	Kalpana	Karra
 -	Thomas	Kaufman
 -	Paul	Kersey
 -	Ingrid	Keseler
@@ -140,7 +140,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Ruth C.	Lovering
 -	Y.	Lussi
 -	A.	MacDougall
--	K.A.	MacPherson
+-	Kevin A.	MacPherson
 -	Michele	Magrane
 -	Maria J.	Martin
 -	Steven	Marygold
@@ -160,7 +160,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	S.	Nadendla
 -	Rob	Nash
 -	Darren A.	Natale
--	P.C.	Ng
+-	Patrick C.	Ng
 -	Li	Ni
 -	Stephen G.	Oliver
 -	Sandra	Orchard
@@ -191,13 +191,12 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Kevin	Schaper
 -	T.K.	Sheppard
 -	Mary	Shimoyama
--	A.	Shrivatsav VP
+-	Ajay	Shrivatsav VP
 -	Aleksandra	Shypitsyna
 -	Deborah A.	Siegele
--	M.	Simison
+-	Matt	Simison
 -	Dmitry	Sitnikov
 -	Marek S.	Skrzypek
--	E.	Speretta
 -	E.	Speretta
 -	Lincoln	Stein
 -	S.	Subramaniam
