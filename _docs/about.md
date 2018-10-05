@@ -19,7 +19,7 @@ scientific studies.
 The Gene Ontology Consortium (GOC) includes groups from around the world that collaborate closely on the development
 of the Gene Ontology and creation of gene function annotations. [Contributors to the project are listed here](/docs/contributors/).
 
-### GO Co-directors 
+### GO co-directors 
 GOC is co-directed by (in alphabetical order):
 
 + <a href="https://www.jax.org/research-and-faculty/faculty/judith-blake">Judith Blake</a>, Jackson Laboratory (mouse gene annotation, ontology development)
