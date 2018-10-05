@@ -45,7 +45,7 @@ Always add a clean line before and after the markdown table. Example:
 
 ## Quote a line
 
-To quote a line, start with a `\>
+To quote a line, start with a `\>`
 > this is a quoted line
 
 
