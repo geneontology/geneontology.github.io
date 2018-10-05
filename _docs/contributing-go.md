@@ -14,7 +14,7 @@ Researchers who notice either missing or inaccurate annotations for a gene or a 
 - A description of the issue: the gene product and the term combination that you suggest be reviewed, and why you believe this is incorrect.
 - A suggestion for a solution, if possible. 
 
-### 2. Communicate with the GO ontology editors
+### 2. Communicate with the GO annotation team
 You can use the [GO-annotation GitHub tracker](https://github.com/geneontology/go-annotation/issues). Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
 
 ### 3. Creating a GitHub ticket
