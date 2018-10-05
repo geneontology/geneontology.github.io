@@ -26,7 +26,7 @@ You can use the [GO-annotation GitHub tracker](https://github.com/geneontology/g
 + Press the 'Submit new issue' button at the bottom of the box.
 
 
-## How to contribute new GO annotations
+## Contributing New GO Annotations
 
 Research groups who wish to generate GO annotations, for instance new annotations for genes of a species that is not currently annotated in  GO, annotating specific genes for a given biological research domain, can contribute these annotations to the GO database. 
 
