@@ -1,11 +1,11 @@
 ---
-title: GO Citation Policy, Use, and License
+title: GO Citation Policy and License
 permalink: /docs/go-citation-policy/
 ---
 
-# GO Citation Policy, Use, and License
+# GO Citation Policy and License
 
-## Cite GO
+## Citing GO
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
    * Ashburner et al. Gene ontology: tool for the unification of biology (2000) Nat Genet 25(1):25-9. [Online at Nature Genetics](https://www.ncbi.nlm.nih.gov/pubmed/10802651).
