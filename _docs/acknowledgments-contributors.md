@@ -79,6 +79,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Corina	Duenas
 -	M.J.	Duesbury
 -	Barbara.L.	Dunn
+-	Nathan	Dunn
 -	M.R.	Dwinell
 -	Anne	Eagle
 -	Dustin	Ebert
@@ -263,7 +264,6 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Aisling	Doyle
 -	Kate	Dreher
 -	Rachel	Drysdale
--	Nathan	Dunn
 -	Selina	Dwight
 -	Ruihua	Fang
 -	David	Fashena
