@@ -19,13 +19,6 @@
 #     - font-awesome
 #     - bootstrap
 
-- title: Help
-  docs:
-  - contributing-to-go
-  - contributing-to-go-terms
-  - faq
- 
-
 - title: Downloads
   docs:
   - downloads
@@ -33,6 +26,12 @@
   - download-ontology
   
 
+- title: Help
+  docs:
+  - contributing-to-go
+  - contributing-to-go-terms
+  - faq
+ 
 - title: About
   docs:
   - about
