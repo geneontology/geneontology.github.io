@@ -7,7 +7,7 @@ permalink: /docs/contributing-to-go/
 Most GO annotations are produced by members of the [GO Consortium](/docs/go-consortium/), but we also welcome annotations by research groups and researchers. 
 
 ## How to suggest revisions for existing annotations
-Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium, by either [contacting the GOC](http://help.geneontology.org/), or using the [GO-annotation GitHub repository](https://github.com/geneontology/go-annotation/issues) to add suggestions. Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/).
+Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium, by either [contacting the GO helpdesk](http://help.geneontology.org/), or using the [GO-annotation GitHub repository](https://github.com/geneontology/go-annotation/issues) to add suggestions. Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/).
 
 
 ## How to contribute new GO annotations
