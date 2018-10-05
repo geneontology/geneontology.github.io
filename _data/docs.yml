@@ -9,6 +9,7 @@
 - title: Ontology
   docs:
     - ontology-documentation
+    - contributing-to-go-terms
     - go-subset-guide
     - download-mappings
 
@@ -16,12 +17,8 @@
   docs:
   - go-annotations
   - guide-go-evidence-codes
+  - contributing-to-go
 
-# - title: Evidence
-#   docs:
-#     - cheatsheet
-#     - font-awesome
-#     - bootstrap
 
 - title: Downloads
   docs:
@@ -33,6 +30,4 @@
 
 - title: Help
   docs:
-  - contributing-to-go
-  - contributing-to-go-terms
   - faq
