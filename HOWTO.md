@@ -37,9 +37,7 @@ python biolink/app.py
 ```
 
 ## Create table
-* Always add a clean line before and after the markdown table
-
-Example:
+Always add a clean line before and after the markdown table. Example:
 
 |Organism or Usage |	OBO format | OWL format | json format |yaml format |
 |------------------|-------------|------------|-------------|------------|
