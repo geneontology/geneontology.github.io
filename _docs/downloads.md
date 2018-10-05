@@ -2,12 +2,16 @@
 title: Downloads
 permalink: /docs/downloads/
 ---
-# GO data release cycle
-The Gene Ontology and associated annotations are released monthly. 
 
 ### [Download the Ontology](/docs/download-ontology/)
++ Released monthly.
++ Available in [OBO and OWL formats](/docs/go-file-format-guide/).
++ Also includes [GO subsets](/docs/go-subset-guide/) (slims).
 
 ### [Download the Annotations](/docs/download-go-annotations/) 
++ Released monthly
++ Taxon-specific
++ Available in [GAF format](/docs/go-annotation-file-gaf-format-21/).
 
 <!--Versioned and browsable releases are available at <a href="http://release.geneontology.org">http://release.geneontology.org</a>.
 We make new versions available approximately every month.-->
