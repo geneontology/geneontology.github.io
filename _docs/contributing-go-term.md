@@ -1,5 +1,5 @@
 ---
-title: Contributing to GO terms
+title: Contributing GO terms
 permalink: /docs/contributing-to-go-terms/
 ---
 
