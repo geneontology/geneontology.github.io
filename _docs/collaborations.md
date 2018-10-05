@@ -2,11 +2,12 @@
 title: Collaborations
 permalink: /docs/collaborations/
 ---
+
 The GO Consortium collaborates with other groups on a wide variety of topics, including groups with expertise in specific areas of biology and other ontology projects. We welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/){:target="blank"}.
 
 # Current collaborations
-+ [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley") 
-+ Gene Regulation Consortium (GRECO)
++ [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley"){:target="blank"}
++ [Gene Regulation Consortium (GRECO)](http://thegreco.org/){:target="blank"}
 
 ## Integration with other ontologies
 + Cell Ontology [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27377652){:target="blank"}
