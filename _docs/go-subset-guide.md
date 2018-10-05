@@ -45,7 +45,7 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 
 Given a GO subset file, and a current ontology (in one or more files), the Map2Slim script will map a gene association file (containing annotations to the full GO) to the terms in the GO subset. This script is an option of OWLTools, and it can be used to either create a new gene association file, which contains the most pertinent GO slim accessions, or in count-mode, in which case it will give distinct gene product counts for each subset term.
 
-Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the OWLTools Wiki at https://github.com/owlcollab/owltools/wiki/Map2Slim.
+Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the <a href="https://github.com/owlcollab/owltools/wiki/Map2Slim">OWLTools Wiki</a>.
 ## On the web
 
 Similarly, there are a couple of online tools that may be of use. The first is the [Princeton slimming tool](http://go.princeton.edu/), the second is the legacy [AmiGO slimmer](http://amigo1.geneontology.org/cgi-bin/amigo/slimmer). It should be noted that online tools do often contain limitations and timeouts.
