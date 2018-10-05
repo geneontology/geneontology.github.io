@@ -10,6 +10,8 @@
   - go-annotations
   - go-annotation-policies
   - guide-go-evidence-codes
+  - go-annotation-file-formats
+  - go-annotation-file-gaf-format-21
 
 # - title: Evidence
 #   docs:
@@ -19,8 +21,6 @@
 
 - title: Formats
   docs:
-  - go-annotation-file-formats
-  - go-annotation-file-gaf-format-21
 
 - title: FAQs
   docs:
