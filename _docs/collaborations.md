@@ -2,13 +2,13 @@
 title: Collaborations
 permalink: /docs/collaborations/
 ---
-The GO Consortium collaborates with other groups on a wide variety of topics, incuding groups with expertise in specific areas of biology and other ontology projects. We welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/){:target="blank"}.
+The GO Consortium collaborates with other groups on a wide variety of topics, including groups with expertise in specific areas of biology and other ontology projects. We welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/){:target="blank"}.
 
-## Current collaborations
+# Current collaborations
 + [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley") 
 
 
-## Past collaborations
+# Past collaborations
 + Autophagy [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29455577){:target="blank"}
 + Autism [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26047810){:target="blank"}
 + Biochemical pathways [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27589964){:target="blank"}
@@ -29,7 +29,7 @@ The GO Consortium collaborates with other groups on a wide variety of topics, in
 + Transcription [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23981286){:target="blank"}
 + Viral processes [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/28207819,25233094){:target="blank"}
 
-## Integrations with other ontologies
+## Integration with other ontologies
 + Cell Ontology [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27377652){:target="blank"}
 + ChEBI (Chemical Entities of Biological Interest) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23895341){:target="blank"}
 + SAO (Subcellular Anatomy Ontology) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24093723){:target="blank"}
