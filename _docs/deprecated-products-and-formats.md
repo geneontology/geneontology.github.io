@@ -14,7 +14,7 @@ GO is no longer using the following products and formats:
 
 + The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version. For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation. See [Download ontology documentation](/docs/download-ontology/) for more information about current file formats.
 
-|**XML format** Database tables | Filtered| Release | File |
+| **XML format** Database tables | Filtered| Release | File |
 |----------------|---|---|---|
 |RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	<a href="http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz">rdf-xml.gz</a>|
 |OWL (old mapping) <a href="http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page">format guide</a>|	Filtered ontology |	Daily |	<a href="http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz">owl.gz</a>|
