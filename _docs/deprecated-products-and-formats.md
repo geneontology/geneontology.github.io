@@ -18,7 +18,7 @@ GO is no longer using the following products and formats:
 
 ### Archived ontology files
 
-An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <a href="ftp.geneontology.org/go/ontology-archive/">ftp.geneontology.org/go/ontology-archive</a>
+An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <a href="ftp://ftp.geneontology.org/go/ontology-archive/">ftp.geneontology.org/go/ontology-archive</a>
 
 ## Deprecated annotation formats
 
@@ -31,7 +31,7 @@ MySQL database dumps
 
 ### Repositories 
 + <a href="http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/">CVS repository</a>
-+ <a href="ftp://geneontology.org/pub/go/">FTP site</a>
++ <a href="ftp://ftp.geneontology.org/pub/go/">FTP site</a>
 
 ## Archived GO Subsets
 
