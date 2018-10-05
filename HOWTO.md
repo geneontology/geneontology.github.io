@@ -23,10 +23,10 @@ As a geeneral rule of thumb, all internal pages should open in the same tab and 
 ## Integrate a local image
 `![link description](/assets/my_image_name.jpg)`
 
-## Hihghlight a text
+## Highlight text
 Use simple [backquote](https://www.computerhope.com/jargon/b/backquot.htm) as `here`
 
-## Highlight a code
+## Highlight code
 Use triple backquote for the start line, without anything else, and an identical triple backquote for the endline (also with nothing else on the line)
 ``` 
 pyvenv venv
