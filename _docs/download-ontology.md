@@ -30,15 +30,4 @@ GO slims are subsets of terms in the ontology. GO slims give a broad overview of
 ## Cross-references of GO to other classification systems
 
 Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [Cross-references of External Classification Systems to GO](/docs/download-mappings/) page contains more information and links to the Cross-reference2GO files.
-## Legacy Downloads
 
-The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version (see above). For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see above).
-
-|**XML format** Database tables ||||
-|----------------|---|---|---|
-|RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	[rdf-xml.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz)|
-|OWL (old mapping) [format guide](http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page){:target="_blank"} |	Filtered ontology |	Daily |	[owl.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz)|
-
-### Archives and previous versions
-
-An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <ftp://ftp.geneontology.org/go/ontology-archive/>
