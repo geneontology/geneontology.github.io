@@ -4,7 +4,7 @@ permalink: /docs/how-to-submit-requests/
 ---
 
 # How to Submit Requests for Ontology and Annotations
-GO uses <a href="https://github.com/">GitHub</a> as a mechanism for tracking ontology and annotation issues.
+GO uses [GitHub](https://github.com/){:target="blank"} as a mechanism for tracking ontology and annotation issues.
 + The [GO-ontology tracker](https://github.com/geneontology/go-ontology/issues){:target="blank"} captures suggestions for changes to the ontology, inclusing suggestions for new terms, changes to definitions or term position in the hierarchy, to addition of new subsets. 
 + The [GO-annotation tracker](https://github.com/geneontology/go-annotation){:target="blank"} is used to report incorrect annotations or to make suggestions for new annotations. 
  
