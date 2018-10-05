@@ -4,35 +4,14 @@ permalink: /docs/contributing-to-go/
 ---
 
 # Contributing GO Annotations
-While most GO annotations are produced by members of the [GO Consortium](/docs/go-consortium/), we welcome feedback as well as annotations from the research community. 
+Most GO annotations are produced by members of the [GO Consortium](/docs/go-consortium/), but we also welcome annotations by research groups and researchers. 
 
-## Suggesting revisions for existing annotations
-Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium.
+## How to contribute new GO annotations
+Research groups who wish to generate GO annotations for any project (annotating a species that is not currently included in the GO, or annotating genes for a specific field of expertise) can contribute these annotations to the GO database. 
 
-###  Gather all necessary information
-- Paper citation (PMID if available)
-- A description of the issue
-- A suggestion for a solution, if possible. 
- * Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues){:target="blank"} to request that our curators review each gene or protein. Include:
-
-### Communicate with the GO ontology editors
-You can use the [GO-annotation GitHub tracker](https://github.com/geneontology/go-annotation/issues). Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
-
-### Creating a GitHub ticket
-+ Go to the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues){:target="blank"}.
-+ Click on the green 'New Issue' button.
-+ Enter the subject of your request in the 'Title' field, which will be your queue to find the issue from the list of requests.
-+ Enter details of your request in the 'Leave a Comment' box (see 'Gather all necessary information' section above). 
-+ Press the 'Submit new issue' button at the bottom of the box.
-
-
-## Contributing New GO Annotations
-
-Research groups who wish to generate GO annotations, for instance new annotations for genes of a species that is not currently annotated in  GO, annotating specific genes for a given biological research domain, can contribute these annotations to the GO database. 
-
+If none of the following apply to your group, [contact the GO Helpdesk](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
 
 ### Contribute annotations from large-scale datasets
-
  If you work on a previously unannotated organism, or your research group has a specific research expertise that could be used to produce GO annotations:
  
  * [Contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations and to ensure you are the only group working on your organism.  If you would be interested in taking ownership for an organism with outdated annotations, we can help you find the right people to contact as well.
@@ -44,6 +23,9 @@ Research groups who wish to generate GO annotations, for instance new annotation
 
 #### Automated Annotations
 If your group is interested in generating a large number of automated/electronic annotations, please be aware that InterPro2GO is the only source of [IEAs, Inferred from Electronic Annotation](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)) recognized by the GOC.  Submit your transcripts or other data to UniProt, and they will automatically generate IEAs from your data.  Once your organism is in UniProt, [contact the GOC](http://help.geneontology.org/) and we will gladly assist in curator training so your group can add manual annotations as well.
+
+## How to suggest revisions for existing annotations
+Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium, by either [contacting the GO helpdesk](http://help.geneontology.org/), or using the [GO-annotation GitHub site](https://github.com/geneontology/go-annotation/issues) to add suggestions. Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/).
 
 ### Reviewing GO annotations associated with a scientific article
 Literature annotation involves capturing published information about the exact function of a gene product as a GO annotations. This curation process is time-consuming but produces very high quality, species-specific annotation; the accuracy and uniform format of annotations allows the information to be used in high-throughput experiments. GO curation may be best carried out by people who know the function of the gene product and the associated biology in great detail- for example, experimental scientists who are familiar with the published literature. If you are an expert in a gene product or a particular field, then you may like to [suggest modifications to the ontology structure](/docs/contributing-to-go-terms/) as well.
@@ -57,16 +39,19 @@ To begin, check if there are existing annotations to the paper:  open a Gene Ont
 1. Check whether the paper has been annotated by GO curators.
 2. Click on the PMID and browse annotations associated with the paper.
    * If you agree that the annotations accurately represent the data, you are done!
-   * If you think the annotations could be improved: Write a new issue on the 'GOC GitHub Annotation Tracker', indicating that these annotations should be reviewed. Include:
-   - [ ]  a PMID 
-   - [ ] the name of the species investigated in the experiment that led to this publication
+   * If you think the annotations could be improved: Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues) indicating that these annotations should be reviewed. Include:
+   - [ ] a PMID 
+   - [ ] the species & gene product the annotation is about
+   - [ ] a summary of missing/inaccurate data
    - [ ] *Please state whether or not regular updates will be submitted about this annotation*.
      
 #### If no results are listed using this PMID:
  This means the paper has not been annotated by GO curators.
-  * Write a new issue on the 'GOC GitHub Annotation Tracker', indicating that this is a new annotation. Include:
-  - [ ] a PMID 
-  - [ ] the name of the species investigated in the experiment that led to this publication
+  * Write a new issue on the ['GOC GitHub Annotation Tracker']((https://github.com/geneontology/go-annotation/issues)), indicating that this is a new annotation. Include:
+  - [ ] the PMID 
+  - [ ] species investigated in the experiment that led to this publication
+  - [ ] the gene product(s) involved in experiment(s) of interest
+  - [ ] if known, a suggested GO Term, or the general function/process/location the gene product(s) *should* be annotated to
   - [ ] *Please state whether or not regular updates will be submitted about this annotation*.
   
 ### Reviewing GO annotations for a gene or protein
@@ -76,5 +61,9 @@ To start, check if there are existing annotations to the gene or protein of inte
 ### If the gene or protein has comprehensive and correct annotations:
  * You are done!
      
-
-
+### If the gene or protein has missing or incorrect annotations.
+ * Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues){:target="blank"} to request that our curators review each gene or protein. Include:
+  - [ ] PMID
+  - [ ] the species & gene product the annotation is about
+  - [ ] a list of the missing/inaccurate data
+  - [ ] if known, suggested GO Term(s), or the general function/process/location the gene product(s) *should* be annotated to
