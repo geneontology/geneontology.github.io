@@ -22,7 +22,7 @@
 - title: Help
   docs:
  - contributing-go
- - contributing-go-term
+ - contributing-to-go-term
  - faq
  
 
@@ -31,7 +31,7 @@
   - downloads
   - download-go-annotations
   - download-ontology
-  - download-mappings
+  
 
 - title: About
   docs:
