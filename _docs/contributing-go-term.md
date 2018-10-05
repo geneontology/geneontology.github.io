@@ -17,7 +17,7 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 
 3. **Communicate with the GO ontology editors**
 
-+ You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> ([/docs/how-to-submit-requests/](instructions for cgetting set up with GitHub are here)).
++ You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> ([/docs/how-to-submit-requests/](instructions for getting set up with GitHub are here)).
 + Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
 
 4. **Creating a GitHub ticket for a new term request**
@@ -36,7 +36,7 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 
 Press the 'Submit new issue' button at the bottom of the box.
 
-## Other term requests
+## Suggesting other improvements to the ontology
 Common requests to modify terms include: 
 + Missing synonyms or incorrect synonym types
 + Changes to the position of the term in the hierarchy
