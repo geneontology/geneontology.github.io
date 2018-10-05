@@ -3,12 +3,14 @@ title: Download Ontology
 permalink: /docs/download-ontology/
 ---
 
-# Ontology files
+# Download Ontology
+
+## Ontology files
 + Released monthly.
 + Available in [OBO and OWL formats](/docs/go-file-format-guide/).
 + Also includes [GO subsets](/docs/go-subset-guide/) (slims).
 
-# Gene Ontology formats
+## Gene Ontology formats
 
 + OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. 
 + OWL files can be opened with [Protégé](https://protege.stanford.edu/).
