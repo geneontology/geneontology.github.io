@@ -1,5 +1,5 @@
 ---
-title: Contributing to GO
+title: Contributing GO Annotations
 permalink: /docs/contributing-to-go/
 ---
 
