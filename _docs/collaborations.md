@@ -6,7 +6,7 @@ The GO Consortium collaborates with other groups on a wide variety of topics, in
 
 # Current collaborations
 + [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley") 
-+ GREEKC consortium
++ Gene Regulation Consortium (GRECO)
 
 ## Integration with other ontologies
 + Cell Ontology [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27377652){:target="blank"}
