@@ -21,9 +21,9 @@
 
 - title: Help
   docs:
- - contributing-go
- - contributing-to-go-term
- - faq
+  - contributing-go
+  - contributing-to-go-term
+  - faq
  
 
 - title: Downloads
