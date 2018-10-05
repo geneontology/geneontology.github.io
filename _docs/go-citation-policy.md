@@ -9,7 +9,7 @@ permalink: /docs/go-citation-policy/
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
    * Ashburner et al. (2000) Gene ontology: tool for the unification of biology  <a href="https://www.ncbi.nlm.nih.gov/pubmed/10802651">Nat Genet 25(1):25-9</a>.
-   * GO Consortium. (2017) Expansion of the Gene Ontology knowledgebase and resource <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899567">Nucleic Acids Res. 2017 Jan 4;45(D1):D331-D338]</a>.
+   * GO Consortium. (2017) Expansion of the Gene Ontology knowledgebase and resource <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899567">Nucleic Acids Res. 45(D1):D331-D338]</a>.
 
 If you used a specific software/analysis tool in your research, in addition to the two publications above, please also cite the tool used according to the following list:
    * Enrichment analysis tool: [Mi et al., Nucleic Acids Res., 2017](https://www.ncbi.nlm.nih.gov/pubmed/27899595)
