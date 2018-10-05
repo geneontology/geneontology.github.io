@@ -22,7 +22,6 @@ Direct access to the mappings file directory is available here: http://geneontol
 
 ## Links to cross-references files derived the Gene Ontology 
 
-<!--Table starts here-->
 |Mapping |Last update |	Download|
 |--------|------------|---------|
 |**Enzyme Commission (EC) enzyme numbers** <br>[Enzyme Commission](http://www.chem.qmul.ac.uk/iubmb/enzyme/); contact: go-ontology@lists.stanford.edu (GO ontology editors) <br> *Constructed and maintained in the [GO ontology file](http://geneontology.org/GO.downloads.ontology.shtml) by GO editorial staff* <br>Citation: Hill DP, Davis AP, Richardson JE, Corradi JP, Ringwald M, Eppig JT, Blake JA. Program description: Strategies for biological annotation of mammalian systems: implementing gene ontologies in mouse genome informatics. Genomics. May 2001;74(1):121–8. <br>[ [PMID:11374909](http://www.ncbi.nlm.nih.gov/pubmed/11374909) \| [doi:10.1006/geno.2001.6513](http://dx.doi.org/10.1006/geno.2001.6513) ]|Monthly |	[txt](http://geneontology.org/external2go/ec2go)|
@@ -37,7 +36,6 @@ Direct access to the mappings file directory is available here: http://geneontol
 
 ## Mappings files provided by external groups
 
-<!--Table starts here-->
 |Mapping |Last update |	Download|
 |--------|------------|---------|
 |**COG functional categories** <br>[Clusters of Orthologous Groups (COG)](https://www.ncbi.nlm.nih.gov/COG/index.html)<br> *Constructed by Michael Ashburner and Jane Lomax* |June 2004 |	[txt](http://geneontology.org/external2go/cog2go)|
