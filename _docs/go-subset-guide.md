@@ -38,6 +38,7 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 
 
 ## For internal checking purposes we also provide two "anti-slims"
+
 |Usage |	OBO format | OWL format | json format |yaml format |
 |------------------|----------|----------|----------|----------|
 |Do not annotate: the set of high level terms that are useful for grouping, but should have no direct annotations|[goslim_gocheck_do_not_annotate.obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.obo)| [goslim_gocheck_do_not_annotate.owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.owl) | [goslim_gocheck_do_not_annotate.json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.json) | [goslim_gocheck_do_not_annotate.yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.yaml)|
