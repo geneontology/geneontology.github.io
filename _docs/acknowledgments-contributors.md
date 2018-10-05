@@ -3,8 +3,7 @@ title: Acknowledgments and Contributors
 permalink: /docs/acknowledgments/
 ---
 
-# Acknowledgments-Contributors
-## Contributors to the GO Knowledgebase
+# Individual Contributors to the GO Knowledgebase
 
 We want to acknowledge the contributions of the following individuals in the development of the GO knowledgebase.
 ### The founder
