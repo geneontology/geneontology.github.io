@@ -1,3 +1,8 @@
+---
+title: Relations in the Gene Ontology
+permalink: /docs/ontology-relations/
+---
+
 # Relations in the Gene Ontology
 
 ## Overview
