@@ -30,7 +30,5 @@ A biological process is not equivalent to a pathway. At present, the GO does not
 ## Details about the ontologies
 * [Ontology Structure](http://geneontology.org/page/ontology-structure): information about the structure of GO terms and the ontology.
 * [Ontology Relations](/docs/ontology-relations/): documentation on the inter-term relations used in GO
-* [Cellular Component Ontology](http://geneontology.org/page/cellular-component-ontology-guidelines): Rules governing content and stylistic aspects of GO terms in the cellular component ontology.
-* [Molecular Function Ontology](http://geneontology.org/page/molecular-function-ontology-guidelines): Rules governing content and stylistic aspects of GO terms, standard definitions and term relationships in the molecular function ontology.
-* [Biological Process Ontology](http://geneontology.org/page/biological-process-ontology-guidelines): Rules governing content and stylistic aspects of GO terms, standard definitions and term relationships in the biological process ontology.
+
 
