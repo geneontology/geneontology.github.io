@@ -26,9 +26,9 @@ For an example, see the entry for [recycling endosome](http://amigo.geneontology
 
 + The ontology editors can process requests more rapidly when all the required information is provided. 
 
-### Communicate with the GO ontology editors
-
-You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a>.  Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
+### 3. Communicate with the GO ontology editors
+* The easiest way is to contact the [GO helpdesk](http://help.geneontology.org/) with your request. 
+* We encourage users to create tickets in the [GO-ontology tracking system](https://github.com/geneontology/go-ontology/issues). This allows you to monitor the progress on work on the issue, and participate in the discussion among GO annotation team members. Instructions about how to create an account and use the GitHub repository can be found [here](/docs/how-to-submit-requests/). 
 
 ### Creating a GitHub ticket for a new term request
 
