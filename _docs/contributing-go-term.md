@@ -33,12 +33,13 @@ For an example, see the entry for [recycling endosome](http://amigo.geneontology
 
 ## Suggesting other improvements to the ontology
 Common requests to modify terms include: 
++ Suggestions for clarifying term definitions
 + Adding synonyms or or changing synonym types
 + Changing the position of the term in the GO hierarchy
-+ Providing taxonomical restrictions for making annotations to the term
++ Providing taxon restrictions for annotations to the term
 + etc
 
-! , providing background information, and if possible, suggesting a solution
+For each request, please provide as much background information as possible. 
 
 Term improvements can be submitted to the [GO-ontology tracking system](https://github.com/geneontology/go-ontology/issues){:target="blank"} as described above. 
 
