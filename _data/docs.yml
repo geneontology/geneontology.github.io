@@ -19,15 +19,19 @@
 #     - font-awesome
 #     - bootstrap
 
-- title: FAQs
+- title: Help
   docs:
-  - faq
+ - contributing-go
+ - contributing-go-term
+ - faq
+ 
 
 - title: Downloads
   docs:
   - downloads
   - download-go-annotations
   - download-ontology
+  - download-mappings
 
 - title: About
   docs:
