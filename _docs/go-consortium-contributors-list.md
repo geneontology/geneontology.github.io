@@ -59,6 +59,7 @@ In alphabetical order:
 |[Renal Gene Ontology Annotation Initiative](https://www.ebi.ac.uk/GOA/kidney) | European Bioinformatics Institute | Kidney Research UK| UniProt-GOA|
 
 ## Ontologies imported by the GO Consortium
+
 |Name |	Description |	Contact|
 |-----|-------------|--------|
 |Cell Type Ontology (CL) |	The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. |	CL SourceForge tracker|
