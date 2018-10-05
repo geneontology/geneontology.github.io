@@ -11,7 +11,7 @@ permalink: /docs/downloads/
 ### [Download the Annotations](/docs/download-go-annotations/) 
 + Released monthly
 + Taxon-specific
-+ Available in [GAF format](/docs/go-annotation-file-gaf-format-21/).
++ Available in [GAF format](/docs/go-annotation-file-gaf-format-21/) and [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) files. 
 
 <!--Versioned and browsable releases are available at <a href="http://release.geneontology.org">http://release.geneontology.org</a>.
 We make new versions available approximately every month.-->
