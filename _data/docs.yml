@@ -27,9 +27,10 @@
 - title: Downloads
   docs:
   - downloads
-  - download-ontology
   - download-go-annotations
+  - download-ontology
   - download-mappings
+  - go-subset-guide.md
 
 - title: About
   docs:
