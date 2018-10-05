@@ -20,8 +20,21 @@ As a geeneral rule of thumb, all internal pages should open in the same tab and 
 ## Integrate an external image
 `![link description](https://wallpaperstudio10.com/wallpaper-download-197580-1024x640.jpg)`
 
-## Integrate a local image:
+## Integrate a local image
 `![link description](/assets/my_image_name.jpg)`
+
+## Hihghlight a text
+Use simple [backquote](https://www.computerhope.com/jargon/b/backquot.htm) as `here`
+
+## Highlight a code
+Use triple backquote for the start line, without anything else, and an identical triple backquote for the endline (also with nothing else on the line)
+``` 
+pyvenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+export PYTHONPATH=.:$PYTHONPATH
+python biolink/app.py
+```
 
 ## Additional Comments
 * images from geneontology.org that you want to reuse should be stored here: [https://github.com/geneontology/geneontology.github.io/tree/master/assets](https://github.com/geneontology/geneontology.github.io/tree/master/assets)
