@@ -16,11 +16,11 @@ GO is no longer using the following products and formats:
 |RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	<a href="http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz">rdf-xml.gz</a>|
 |OWL (old mapping) <a href="http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page">format guide</a>|	Filtered ontology |	Daily |	<a href="http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz">owl.gz</a>|
 
-### Archives and previous versions
+### Archived ontology files
 
-An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <a href="ftp://ftp.geneontology.org/go/ontology-archive/>
+An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <a href="ftp://ftp.geneontology.org/go/ontology-archive/">ftp://ftp.geneontology.org/go/ontology-archive</a>
 
-## Annotations
+## Deprecated annotation formats
 
 * [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-20/) 
 * GO Annotation File Format 1.0 was deprecated in June 2010. 
@@ -30,8 +30,8 @@ MySQL database dumps
 
 
 ### Repositories 
-CVS repository: <a href="http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/"/>
-FTP site: <a href="ftp://ftp.geneontology.org/pub/go/"/>
++ <a href="http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/">CVS repository</a>
++ <a href="ftp://ftp.geneontology.org/pub/go/">FTP site</a>
 
 ## Archived GO Subsets
 
