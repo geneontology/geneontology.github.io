@@ -10,5 +10,4 @@ The work of the Gene Ontology Consortium (GOC) is only possible through collabor
 * [Collaborations](/docs/collaborations)
 * [GOC Contributing groups](/docs/go-consortium)
 * [Contributing individuals](/docs/acknowledgments/)
-* [GO projects](/docs/go-projects)
 * [The scientists whose publications have been used to create the GO knowledgebase](https://www.ncbi.nlm.nih.gov/pubmed/?term=loprovGeneOntol[SB]){:target="blank"}
