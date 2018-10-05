@@ -13,7 +13,6 @@
   {% endif %}
 
   "bootstrap",
-  "table",
 
   {% if site.bootwatch %}
     "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
