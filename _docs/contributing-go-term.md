@@ -5,25 +5,27 @@ permalink: /docs/contributing-to-go-terms/
 
 # Contributing to the Ontology
 
-We strive to make the GO as complete and accurate as possible, so suggestions for new terms and improvements to existing terms are welcome. 
+We strive to make GO as complete and accurate as possible, so suggestions for new terms and improvements to existing terms are welcome. 
 
 ## Suggesting a new GO term
 
-### Check whether the term already exists
+### 1. Check whether the term already exists
 Before you submit a new term request, confirm that the term is not already in the ontology. To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. Note that the term may exist as a primary term name or as a synonym.
 
-###  Gather all necessary information
+### 2. Gather as much necessary information as possible
 Please provide suggestions for:
 
-+ New term name
-+ Definition
-+ Position in the GO hierarchy
-+ Literature references (PMID:xxxx, ISBN:xxxx, DOI:xxxx)
-+ Term synonyms if appropriate
++ New term name (required)
++ Definition (required)
++ Position in the GO hierarchy or the parent class (required)
++ Literature references (PMID:xxxx, ISBN:xxxx, DOI:xxxx) (required)
++ Synonyms
 + [Cross-references](/docs/download-mappings/) (e.g., KEGG, EC)
-+ Synonyms if applicable
 
-For an example, see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). Please be specific in your request and include as many details as necessary, providing background information, and if possible, suggesting a solution. The ontology editors can more rapidly process requests when all the required information is provided. 
+For an example, see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). 
+
++ The ontology editors can process requests more rapidly when all the required information is provided. 
+
 ### Communicate with the GO ontology editors
 
 You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a>.  Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
@@ -49,3 +51,4 @@ Term improvements can be submitted to the <a href="https://github.com/geneontolo
 ## When to create a new ticket
 Keep tickets simple; do not hesitate to create multiple tickets if necessary. Unless terms are related, submit a separate request for each new term.
  
+! , providing background information, and if possible, suggesting a solution
