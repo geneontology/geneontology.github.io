@@ -12,8 +12,7 @@ A GO annotation is a statement about the function of a particular gene. Each GO 
 <!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
 
 ## Semantics of a GO Annotation
-+ GO annotations are associations between a gene or gene product and a GO term, supported by evidence and a reference.
-+ GO annotations represent the normal, in vivo biological role of genes or gene products. 
++ GO annotations are associations between a gene or gene product and a GO term, supported by evidence and a reference. Note that GO annotations intend to capture the normal, in vivo biological role of genes or gene products. 
 
 Association with a gene or gene product product to a term from these ontologies is a statement that means: 
 + Molecular Function: the molecular activities of gene products 
@@ -24,7 +23,7 @@ Association with a gene or gene product product to a term from these ontologies 
 ## General Principles of GO Annotations
 +  A gene product can be annotated to zero or more terms from each ontology.
 +  Gene products are annotated to the most detailed (i.e. granular) level in the ontology that is supported by the experimental evidence in the cited reference.
-+  Annotation to a GO term implies annotation to its parents.
++  By the transitivity principle, an annotation to a GO term implies annotation to all its parents.
 +  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.  
 +  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
 
