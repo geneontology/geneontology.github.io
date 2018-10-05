@@ -14,7 +14,7 @@ CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to 
 # GO Annotation File Formats
 + The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
 + GO provides annotations in two formats: [GAF Format 2.1](/docs/go-annotation-file-gaf-format-21/) and GPAD 1.1 (described below). 
-+ **Note that the GPAD files must be used together with [GPI files](/docs/gene-product-information-gpi-format/)**
++ **Note that the GPAD files must be used together with [GPI files](/docs/gene-product-information-gpi-format/).**
 + For more general information on annotation, please see the [Introduction to GO annotation page](/docs/go-annotations/).
 
 
