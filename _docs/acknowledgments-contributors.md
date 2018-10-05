@@ -223,10 +223,17 @@ This list is based on the Gene Ontology NAR update 2019.
 -	P.	Zhou
 
 ## Domain-specific experts
-- Marcio L.	Acencio
-- Jacqueline	Hayles
-- Astrid Lægreid
-- Colin	Logie
+- Marcio L.Acencio, Transcription
+- Jacqueline	Hayles, S. pombe annotations
+- Astrid Lægreid, Transcription
+- Colin	Logie, Transcription
+- Rachel Lennon, Extracellular matrix 
+- Geoff Meyer, Extracellular matrix 
+- Jeff Miner, Extracellular matrix 
+- Sylvie Ricard-Blum, Extracellular matrix 
+- David Sherwood, Extracellular matrix 
+- Peter Yurchenco, Extracellular matrix 
+
 
 ## Contributors emeriti
 
