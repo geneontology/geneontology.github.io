@@ -31,12 +31,15 @@ High throughput (HTP) evidence codes are a type of experimental evidence that in
 - [Inferred from High Throughput Genetic Interaction (HGI)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Genetic_Interaction_(HGI)){:target="_blank"}
 - [Inferred from High Throughput Expression Pattern (HEP)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Expression_Pattern_(HEP)){:target="_blank"}
 
-**Phylogenetically-inferred annotations**. Phylogenetic principles, reconstructing evolutionary events to infer relationships among genes, provide a powerful way to gain insight into gene function. The GOC has supported a dedicated Phylogenetic Annotation effort since 2008, which has been expanded in the past couple of years. The Phylogenetic Annotation method has been <a href="https://www.ncbi.nlm.nih.gov/pubmed/21873635">published</a>). Briefly, we have developed software (PAINT, Phylogenetic Annotation Inference Tool) with which a biocurator can view all experimental annotations for genes in a gene family, and use this information to infer annotations for uncharacterized members of the family. The biocurator creates an explicit model of gain and loss of gene function at specific branches in a phylogenetic tree of the family. This model is used to infer new annotations (i.e. not overlapping with experimental annotations) for genes in the family. Phylogenetically based annotations are denoted by the IBA (Inferred from Biological Ancestry) evidence codes. Each inferred annotation can be traced to the direct experimental annotations that were used as the basis for that assertion. The GO Phylogenetic Annotation project is now the largest source of manually reviewed annotations in the GO knowledgebase, and it has substantially increased the number of annotations even in organisms that have been well-studied experimentally.
+## Phylogenetically-inferred annotations
+Phylogenetic principles, reconstructing evolutionary events to infer relationships among genes, provide a powerful way to gain insight into gene function. The GOC has supported a dedicated Phylogenetic Annotation effort since [2008](https://www.ncbi.nlm.nih.gov/pubmed/21873635){:target="_blank"}. 
 
-**Computationally-inferred annotations**. Finally, those furthest removed from direct experimental findings, are the ‘electronic’ (IEA) evidence codes, which are not individually reviewed (although an extensive manual review of a sample is generally involved). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to the experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899635">InterPro2GO</a>, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (mostly Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
+Phylogenetically-based annotations are derived from an explicit model of gain and loss of gene function at specific branches in a phylogenetic tree. Each inferred annotation can be traced to the direct experimental annotations that were used as the basis for that assertion. The GO Phylogenetic Annotation project is now the largest source of manually reviewed annotations in the GO knowledgebase, and it has substantially increased the number of annotations even in organisms that have been well-studied experimentally.
 
-
-
+- [Inferred from Biological aspect of Ancestor (IBA)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Ancestor_(IBA)){:target="_blank"}
+- [Inferred from Biological aspect of Descendant (IBD)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Descendant_(IBD)){:target="_blank"}
+- [Inferred from Key Residues (IKR)](http://wiki.geneontology.org/index.php/Inferred_from_Key_Residues_(IKR)){:target="_blank"}
+- [Inferred from Rapid Divergence (IRD)](http://wiki.geneontology.org/index.php/Inferred_from_Rapid_Divergence(IRD)){:target="_blank"}
 
 ## Computational Analysis evidence codes
 
@@ -47,10 +50,6 @@ Use of the computational analysis evidence codes indicates that the annotation i
 - [Inferred from Sequence Alignment (ISA)](http://wiki.geneontology.org/index.php/Inferred_from_Sequence_Alignment_(ISA)){:target="_blank"}
 - [Inferred from Sequence Model (ISM)](http://wiki.geneontology.org/index.php/Inferred_from_Sequence_Model_(ISM)){:target="_blank"}
 - [Inferred from Genomic Context (IGC)](http://wiki.geneontology.org/index.php/Inferred_from_Genomic_Context_(IGC)){:target="_blank"}
-- [Inferred from Biological aspect of Ancestor (IBA)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Ancestor_(IBA)){:target="_blank"}
-- [Inferred from Biological aspect of Descendant (IBD)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Descendant_(IBD)){:target="_blank"}
-- [Inferred from Key Residues (IKR)](http://wiki.geneontology.org/index.php/Inferred_from_Key_Residues_(IKR)){:target="_blank"}
-- [Inferred from Rapid Divergence (IRD)](http://wiki.geneontology.org/index.php/Inferred_from_Rapid_Divergence(IRD)){:target="_blank"}
 - [Inferred from Reviewed Computational Analysis (RCA)](http://wiki.geneontology.org/index.php/Inferred_from_Reviewed_Computational_Analysis_(RCA)){:target="_blank"}
 
 ## Author statement evidence codes
@@ -68,8 +67,7 @@ Use of the curatorial statement evidence codes indicates an annotation made on t
 - [No biological Data available (ND)](http://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code){:target="_blank"}
 
 ## Electronic Annotation evidence code
-
-All of the above evidence codes are assigned by curators. However, GO also uses one evidence code that is assigned by automated methods, without curatorial judgement. The Automatically-Assigned evidence code is
+‘Electronic’ (IEA) annotation are not individually reviewed (although the method itself is usually subjected to various quality assessments). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to an experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is [InterPro2GO](https://www.ncbi.nlm.nih.gov/pubmed/27899635){:target="_blank"}, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (including Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
 
 - [Inferred from Electronic Annotation (IEA)](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)){:target="_blank"}
 
