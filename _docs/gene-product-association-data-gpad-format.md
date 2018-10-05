@@ -1,5 +1,5 @@
 ---
-title: Gene Product Association Data (GPAD) format
+title: Gene Product Association Data (GPAD) Files
 permalink: /docs/gene-product-association-data-gpad-format/
 
 ---
