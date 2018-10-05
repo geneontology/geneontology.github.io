@@ -16,10 +16,13 @@ GO uses [GitHub](https://github.com/){:target="blank"} as a mechanism for tracki
 
 ## Submitting a new ticket to GO via GitHub
 
-+ Visit the appropriate GO ontology requests tracker. Click on the green 'New issue' button in the top right corner.
++ Visit the appropriate GO ontology requests tracker. 
++ Click on the green 'New Issue' button.
++ Enter the subject of your request in the 'Title' field, which will be your queue to find the issue from the list of requests.
++ Enter details of your request in the 'Leave a Comment' box. 
++ Press the 'Submit new issue' button at the bottom of the box.
+More details about contributing to the ontology are available in the [GitHub Guidelines for Contributing Ontology tickets](https://github.com/geneontology/go-ontology/blob/master/CONTRIBUTING.md){:target="blank"}. 
 
-More details about contributing to the ontology are available in the [GitHub Guidelines for Contributing Ontology tickets](https://github.com/geneontology/go-ontology/blob/master/CONTRIBUTING.md){:target="blank"}. A brief description is included below.
- 
 ## Keeping track of your requests
 To find your request again in the GOC tracker, while on the page listing all submitted issues, use the 'Filters' box and drop-down menu to restrict the types of request you may display.
 
