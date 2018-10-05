@@ -58,7 +58,7 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Juancarlos	Chan
 -	H.Y.	Chang
 -	H.	Chen
--       Marcus C.	Chibucos
+- Marcus C.	Chibucos
 -	Rex	Chisholm
 -	J.	Cho
 -	Karen	Christie
@@ -78,7 +78,6 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Paula	Duek-Roggli
 -	Corina	Duenas
 -	M.J.	Duesbury
--	N.	Dunn
 -	Barbara.L.	Dunn
 -	M.R.	Dwinell
 -	Anne	Eagle
@@ -173,7 +172,6 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Klemens	Pichler
 -	D.	Poggioli
 -	Pablo	Porras
--	S.	Potter
 -	S.	Poudel
 -	Sylvain	Poux
 -	D.	Raciti
