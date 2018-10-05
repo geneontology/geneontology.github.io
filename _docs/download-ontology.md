@@ -13,7 +13,7 @@ permalink: /docs/download-ontology/
 |go-basic.obo |	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo) |	Filtered, for use with legacy tools|
 |go.obo |		[http://purl.obolibrary.org/obo/go.obo](http://purl.obolibrary.org/obo/go.obo) |	Core ontology (OBO Format)|
 |go.owl |		[http://purl.obolibrary.org/obo/go.owl](http://purl.obolibrary.org/obo/go.owl) |	Core ontology (OWL RDF/XML)|
-|extensions/go-plus.owl |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl) 	|Core plus additional axioms, vetted|
+|go-plus.owl |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl) 	|Core plus additional axioms, vetted|
 
 ### go-basic.obo
 
