@@ -5,9 +5,9 @@ permalink: /docs/downloads/
 # GO data release cycle
 The Gene Ontology and associated annotations are released monthly. 
 
-# [Download the Ontology](/docs/download-ontology/)
+### [Download the Ontology](/docs/download-ontology/)
 
-# [Download the Annotations](/docs/download-go-annotations/) 
+### [Download the Annotations](/docs/download-go-annotations/) 
 
 <!--Versioned and browsable releases are available at <a href="http://release.geneontology.org">http://release.geneontology.org</a>.
 We make new versions available approximately every month.-->
@@ -16,7 +16,7 @@ We make new versions available approximately every month.-->
 
 <!--We will soon add more documentation about the structure of these repositories.-->
 
-#  Download <a href="https://zenodo.org/record/1343652">DOI-versioned bundles</a>
+### <a href="https://zenodo.org/record/1343652">Download DOI-versioned bundles</a>
 
 We also offer a complete archive of each monthly release, citable with DOI, at <a href="https://zenodo.org/record/1343652">Zenodo</a>.
 
