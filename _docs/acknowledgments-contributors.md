@@ -189,7 +189,6 @@ This list is based on the Gene Ontology NAR update 2019.
 -	A.	Sangrador-Vegas
 -	Tony	Sawford
 -	Kevin	Schaper
--	M.	Schneider
 -	T.K.	Sheppard
 -	Mary	Shimoyama
 -	A.	Shrivatsav VP
