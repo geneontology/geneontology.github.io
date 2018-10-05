@@ -3,21 +3,37 @@ title: Introduction to GO Annotations
 permalink: /docs/go-annotations/
 ---
 
----
 # GO Annotations
 
 <!-- GO annotations: the model of biology. Annotations are statements describing the functions of specific genes, using concepts in the Gene Ontology. The simplest and most common annotation links one gene to one function, e.g. FZD4 + Wnt signaling pathway. Each statement is based on a specified piece of evidence. -->
-A GO annotation is a statement about the function of a particular gene. Each GO annotation consists of an association between a gene and a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. Evidence is presented in the form of a GO ‘evidence code’ and either a published reference or description of the methodology used to create the annotation.
 
-All GO annotations, however, are ultimately supported by the scientific literature, either directly or indirectly. The [GO evidence codes](/docs/guide-go-evidence-codes/) describe the evidence and roughly reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
+A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, what biological processes (pathways, programs) it      helps to carry out. 
 
-**Experimentally-supported annotations**. The EXPerimental (EXP) evidence codes indicate that there is evidence from an experiment directly supporting the annotation of the gene. For example, an association between a gene product and its subcellular localization as determined by immunofluorescence would be supported by the Inferred from Direct Assay (IDA) evidence code, a subtype of EXP evidence. Annotations with direct experimental evidence are created by biocurators, PhD-level experts trained in computational knowledge representation, who read peer-reviewed literature and create GO annotations as justified by the evidence presented in those articles.
+Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. All GO annotations are ultimately supported by the scientific literature, either directly or indirectly. In GO, the supporting evidence is presented in the form of a [GO evidence codes](/docs/guide-go-evidence-codes/) and either a published reference or description of the methodology used to create the annotation. The GO evidence codes describe the type of evidence and reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
 
-**Phylogenetically-inferred annotations**. Phylogenetic principles, reconstructing evolutionary events to infer relationships among genes, provide a powerful way to gain insight into gene function. The GOC has supported a dedicated Phylogenetic Annotation effort since 2008, which has been expanded in the past couple of years. The Phylogenetic Annotation method has been <a href="https://www.ncbi.nlm.nih.gov/pubmed/21873635">published</a>). Briefly, we have developed software (PAINT, Phylogenetic Annotation Inference Tool) with which a biocurator can view all experimental annotations for genes in a gene family, and use this information to infer annotations for uncharacterized members of the family. The biocurator creates an explicit model of gain and loss of gene function at specific branches in a phylogenetic tree of the family. This model is used to infer new annotations (i.e. not overlapping with experimental annotations) for genes in the family. Phylogenetically based annotations are denoted by the IBA (Inferred from Biological Ancestry) evidence codes. Each inferred annotation can be traced to the direct experimental annotations that were used as the basis for that assertion. The GO Phylogenetic Annotation project is now the largest source of manually reviewed annotations in the GO knowledgebase, and it has substantially increased the number of annotations even in organisms that have been well-studied experimentally.
 
-**Computationally-inferred annotations**. Finally, those furthest removed from direct experimental findings, are the ‘electronic’ (IEA) evidence codes, which are not individually reviewed (although an extensive manual review of a sample is generally involved). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to the experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899635">InterPro2GO</a>, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (mostly Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
+<!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
 
+## Semantics of a GO Annotation
+An association with a gene or gene product product and a GO term is a statement that means
++ Molecular Function: the molecular activities of gene products 
++ Cellular Component: where gene products are active
++ Biological Process: pathways and larger processes made up of the activities of molecular multiple gene products
+
++ **Note that GO annotations intend to capture the normal, in vivo biological role of genes or gene products**. 
+
+<!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
+## General Principles of GO Annotations
++  A gene product can be annotated to zero or more terms from each ontology.
++  Gene products are annotated to the most detailed (i.e. granular) level in the ontology that is supported by the experimental evidence in the cited reference.
++  By the transitivity principle, an annotation to a GO term implies annotation to all its parents.
++  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.  
++  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
+
+
+<!-- ????-->
 **Annotation extensions**. Annotation extensions provide additional information about a GO annotation that cannot be captured in a single GO term. Please see publications describing annotation extensions: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27812947">Huntley & Lovering 2017</a> and <a href="https://www.ncbi.nlm.nih.gov/pubmed/24885854">Huntley et al 2014</a>.
 
+<!-- ????-->
 ## Annotation quality control
 The GO Consortium implements a number of automated queries to check the quality of the annotations submitted to the GO database.

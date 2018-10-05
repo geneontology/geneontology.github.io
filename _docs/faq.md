@@ -335,6 +335,22 @@ FAQ tags: 
 
 A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. There are two versions of the file format, the most recent is [GAF version 2.0](http://geneontology.org/page/go-annotation-file-gaf-format-20) An explanation of the differences between versions 1.0 and 2.0 is [available](http://geneontology.org/page/go-annotation-file-gaf-format-20) and the 1.0 specification is described [here](http://geneontology.org/page/go-annotation-file-gaf-format-10)
 
+
+[How are GAF 2.0 and GAF 2.1 different?](/faq/what-gaf21)
+-------------------------------------------
+
+<span class="rdf-meta element-hidden" property="dc:title" content="How are GAF 2.0 and GAF 2.1 different??"></span>
+FAQ tags: 
+
+[format](/faq-tags/format)
+
+[software](/faq-tags/software)
+
+**GAF 2.1 allows the use of pipes** (**|**) **and comma** (**,**) **in column 8 (with/from column)** compared to GAF 2.0 which allows the use of pipes only. **Pipe will indicate 'OR' and comma will indicate 'AND'.**
+
+In GAF 2.0, multiple values are separated by pipes where the pipe has been used to mean 'AND'. However, in the annotation extension field (column 16) pipe is used to indicate 'OR' and a comma to indicate 'AND'. This change to column 8 will allow consistent use of pipes and commas in the GO annotations. Please see the descriptions below for full details.
+
+
 [Can a single gene product be annotated with more than one GO term?](/faq/can-single-gene-product-be-annotated-more-one-go-term)
 --------------------------------------------------------------------------------------------------------------------------------
 

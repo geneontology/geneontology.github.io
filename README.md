@@ -1,8 +1,4 @@
-# Jekyll Doc Theme
-
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
-
-## Running locally
+## Installation
 
 You need Ruby and gem before starting, then:
 
@@ -11,13 +7,22 @@ You need Ruby and gem before starting, then:
 gem install bundler
 
 # clone the project
-git clone https://github.com/aksakalli/jekyll-doc-theme.git
-cd jekyll-doc-theme
+git clone https://github.com/geneontology/geneontology.github.io.git
+cd geneontology.github.io
+bundle install
+```
 
-# run jekyll with dependencies
+## Running locally
+```
 bundle exec jekyll serve
 ```
 
-## License
+## Building the site
+```
+bundle exec jekyll build
+```
+The static files of the site will be stored in `_site`
 
-Released under [the MIT license](LICENSE).
+# Current Theme
+
+See [Jekyll Doc Theme](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
