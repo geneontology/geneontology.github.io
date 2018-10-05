@@ -7,9 +7,9 @@ permalink: /docs/deprecated-products-and-formats/
 
 GO is no longer using the following products and formats: 
 
-## Ontology
+## Deprecated ontology formats
 + OBO-XML and FASTA files were retired in 2018.  
-+ The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version (see above). For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see above).
++ The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version. For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see [Download ontology documentation](/docs/download-ontology/) for more information.
 
 |**XML format** Database tables ||||
 |----------------|---|---|---|
@@ -26,10 +26,10 @@ An archive of the ontology files (in both current and legacy formats) from the f
 * GO Annotation File Format 1.0 was deprecated in June 2010. 
 
 ## Databases and schemas
-MySQL database dumps
+MySQL database dumps are no longer being produced. 
 
 
-### Repositories 
+## Repositories 
 + <a href="http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/">CVS repository</a>
 + <a href="ftp://ftp.geneontology.org/pub/go/">FTP site</a>
 
