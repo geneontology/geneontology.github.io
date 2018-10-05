@@ -29,7 +29,9 @@ If none of the following apply to your group, [contact the GOC](http://help.gene
 
 ### Contribute annotations from large-scale datasets
 
- If you represent a previously unannotated organism, or your research group has a specific focus for GO annotations, for example genes or gene products localized in ["synapse" (cellular component)](http://amigo.geneontology.org/amigo/term/GO:0045202), GO values your contributions. 
+ If you work on a previously unannotated organism, or your research group has a specific research expertise that could be used to produce GO annotations. 
+ 
+ 
  * [Contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations and to ensure you are the only group working on your organism.  If you would be interested in taking ownership for an organism with outdated annotations, we can help you find the right people to contact as well.
  * Training of new curators will be arranged, if needed, with an existing GOC mentor. 
  * A representative of your group will need to join GitHub in order to maintain your group's annotations.  Once a representative is designated, the GOC will also generate the yaml file needed to submit your annotations to GO.
