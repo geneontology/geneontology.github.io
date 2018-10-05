@@ -5,8 +5,7 @@ permalink: /docs/contributing-to-go-terms/
 
 # Contributing to the Ontology
 
-If you have suggestions for new ontology terms, first make sure the term doesn't exist, either as a primary term or a synonym term. To do this, search the ontology using the AmiGO browser. Requests for new synonyms or clarification of textual definitions are also welcomed.
-
+We strive to make the GO as complete and accurate as possible, so suggestions for new terms and improvements to existing terms are welcome. 
 
 ## Suggesting a new GO term:
 
@@ -36,7 +35,10 @@ Press the 'Submit new issue' button at the bottom of the box.
 Common requests to modify terms include: 
 + Missing synonyms or incorrect synonym types
 + Changes to the position of the term in the hierarchy
- + Taxon restrictions
++ Taxon restrictions
++ etc
+
+Term improvements can be submitted to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> as dsecribed above. 
 
 ## When to create a new ticket
 Keep tickets simple; do not hesitate to create multiple tickets if necessary. Unless terms are related, submit a separate request for each new term.
