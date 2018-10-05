@@ -16,7 +16,6 @@
 - title: Annotation
   docs:
   - go-annotations
-  - go-annotation-policies
   - guide-go-evidence-codes
   - go-annotation-file-gaf-format-21
   - gene-product-association-data-gpad-format
