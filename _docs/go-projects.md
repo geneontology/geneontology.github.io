@@ -6,7 +6,7 @@ permalink: /docs/go-projects/
 # GO Projects
 
 The following areas of biology are the focus of ontology development and annotation in the Gene Ontology Consortium (GOC). Some of these projects are currently underway and we welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/){:target="blank"}.
-    29455577
+
     
 + Autophagy [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29455577){:target="blank"}
 + Autism [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26047810){:target="blank"}
