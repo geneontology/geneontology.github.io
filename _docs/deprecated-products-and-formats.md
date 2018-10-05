@@ -8,7 +8,17 @@ permalink: /docs/deprecated-products-and-formats/
 GO is no longer using the following products and formats: 
 
 ## Ontology
-OBO-XML and FASTA files were retired in 2018.  
++ OBO-XML and FASTA files were retired in 2018.  
++ The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version (see above). For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see above).
+
+|**XML format** Database tables ||||
+|----------------|---|---|---|
+|RDF-XML [format guide](go-rdfxml-file-format.md) |	Filtered ontology |	Daily |	[rdf-xml.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.rdf-xml.gz)|
+|OWL (old mapping) [format guide](http://www.bioontology.org/wiki/index.php/OboInOwl:Main_Page){:target="_blank"} |	Filtered ontology |	Daily |	[owl.gz](http://archive.geneontology.org/latest-termdb/go_daily-termdb.owl.gz)|
+
+### Archives and previous versions
+
+An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO website: <ftp://ftp.geneontology.org/go/ontology-archive/>
 
 ## Annotations
 
@@ -23,9 +33,9 @@ MySQL database dumps
 CVS repository: [http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/){:target="blank"}
 FTP site: [ftp://ftp.geneontology.org/pub/go/](ftp://ftp.geneontology.org/pub/go/){:target="blank"}
 
-## Archived GO Slims
+## Archived GO Subsets
 
-There is also an [archive of deprecated GO slims](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/) that are no longer maintained or updated. These files have been deposited for two reasons; the first is to give easy access to the GO slim used in a particular publication or analysis; the second is for reuse by others in the community.
+There is also an [archive of deprecated GO subsets](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/) that are no longer maintained or updated. These files have been deposited for two reasons; the first is to give easy access to the GO slim used in a particular publication or analysis; the second is for reuse by others in the community.
 
 Users should note that the majority of these GO slims are no longer maintained by the authors, and they may contain GO terms which are now obsolete. All archival GO slims are in the deprecated GO flat file format.
 ### Archived GO slims for download
