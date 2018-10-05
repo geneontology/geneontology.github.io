@@ -3,8 +3,6 @@ title: The Gene Ontology Project
 permalink: /docs/about/
 ---
 
-<!--The links to many of the names are broken, so I did not link any.  All need to be reviewed.-->
-
 ## The Gene Ontology Project
 
 The Gene Ontology (GO) project is a major bioinformatics initiative to develop a computational representation of our
@@ -36,6 +34,6 @@ of the Gene Ontology and creation of gene function annotations. [GO Consortium m
 + <a href="http://biochemistry.tamu.edu/faculty/hu-james-c-protein-interactionsmicrobial-genomics-and-annotation/">James Hu</a>, Texas A&M (gene annotation)
 + <a href="http://dpb.carnegiescience.edu/labs/huala-lab">Eva Huala</a>, The Arabidopsis Information Resource, Phoenix Bioinformatics (Arabidopsis gene annotation)
 + <a href="http://www.ebi.ac.uk/about/people/helen-parkinson">Helen Parkinson</a>, Ontologies Team lead, European Bioinformatics Institute (ontology development)
-+ <a href="http://zfin.org/ZDB-PERS-960805-676">Monte Westerfield]</a>, University of Oregon (zebrafish gene annotation)
++ <a href="http://zfin.org/ZDB-PERS-960805-676">Monte Westerfield</a>, University of Oregon (zebrafish gene annotation)
 
-### The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989).
+### The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number <a href="https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989">[HG002273]</a>.
