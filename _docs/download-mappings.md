@@ -6,15 +6,21 @@ permalink: /docs/download-mappings/
 # Cross-references of External Classification Systems to GO
 Many Gene Ontology terms are cross-referenced to corresponding concepts from a number of external vocabularies, including Enzyme Commission numbers, KEGG, Reactome Pathways, and Wikipedia. The cross-references (mappings) are typically made manually. Please report any errors or suggest alternatives to the GO helpdesk.
 
-## Using and citing a mapping
+## Using and citing cross-references and mappings
 
 If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the GO citation guide for citing the GO project.
 
 ## Cross-references Format
 
-Cross-references files are in the format: ` database:term identifier (id/name) > GO:GO term name ; GO:id`
++ Cross-references files are simple text files that start with a comment line describing the date generated and the GO release used, for example: 
 
-More details can be found in the [external mapping file format guide](/docs/external-mapping-file-format/).
+ `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/2017-03-31' `
+
++ Each cross-reference is on a different line, in the format: ` database:term identifier (id/name) > GO:GO term name ; GO:id`. For example: 
+
+ `  EC:1.1.1.1 > GO:alcohol dehydrogenase (NAD) activity ; GO:0004022`
+ 
+ + Cross-references to GO mappings can be many-to-many. Each cross-reference is on a separate line of the file.
 
 ## Mappings File Directory
 
