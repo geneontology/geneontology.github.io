@@ -12,7 +12,7 @@ Researchers who notice either missing or inaccurate annotations for a gene or a 
 
 ## How to contribute new GO annotations
 
-Research group who wish to generate GO annotations for any project (annotating a species that is not currently included in the GO, or annotating genes for a specific field of expertise) can contribute these annotations to the GO database. 
+Research groups who wish to generate GO annotations for any project (annotating a species that is not currently included in the GO, or annotating genes for a specific field of expertise) can contribute these annotations to the GO database. 
 
 
 If none of the following apply to your group, [contact the GO Helpdesk](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
