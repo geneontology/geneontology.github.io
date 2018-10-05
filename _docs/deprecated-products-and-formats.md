@@ -30,8 +30,8 @@ MySQL database dumps
 
 
 ### Repositories 
-CVS repository: [http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/){:target="blank"}
-FTP site: [ftp://ftp.geneontology.org/pub/go/](ftp://ftp.geneontology.org/pub/go/){:target="blank"}
+CVS repository: <a href="http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/"/>
+FTP site: <a href="ftp://ftp.geneontology.org/pub/go/"/>
 
 ## Archived GO Subsets
 
