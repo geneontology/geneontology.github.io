@@ -15,14 +15,6 @@ Research groups who wish to generate GO annotations for any project (annotating 
 
 If none of the following apply to your group, [contact the GO Helpdesk](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
 
-[Contributing annotatons from large-scale datasets](#contribute-annotations-from-large-datasets "Contributing annotatons from large-scale datasets")
-
-[Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
-
-[Large sets of annotations](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
-
----
-
 ### Contribute annotations from large-scale datasets
 
  If you work on a previously unannotated organism, or your research group has a specific research expertise that could be used to produce GO annotations:
@@ -36,9 +28,6 @@ If none of the following apply to your group, [contact the GO Helpdesk](http://h
 
 #### Automated Annotations
 If your group is interested in generating a large number of automated/electronic annotations, please be aware that InterPro2GO is the only source of [IEAs, Inferred from Electronic Annotation](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)) recognized by the GOC.  Submit your transcripts or other data to UniProt, and they will automatically generate IEAs from your data.  Once your organism is in UniProt, [contact the GOC](http://help.geneontology.org/) and we will gladly assist in curator training so your group can add manual annotations as well.
-
----
-[Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
 
 ### Reviewing GO annotations associated with a scientific article
 Literature annotation involves capturing published information about the exact function of a gene product as a GO annotations. This curation process is time-consuming but produces very high quality, species-specific annotation; the accuracy and uniform format of annotations allows the information to be used in high-throughput experiments. GO curation may be best carried out by people who know the function of the gene product and the associated biology in great detail- for example, experimental scientists who are familiar with the published literature. If you are an expert in a gene product or a particular field, then you may like to [suggest modifications to the ontology structure](/docs/contributing-to-go-terms/) as well.
@@ -64,14 +53,9 @@ To begin, check if there are existing annotations to the paper:  open a Gene Ont
   - [ ] the name of the species investigated in the experiment that led to this publication
   - [ ] *Please state whether or not regular updates will be submitted about this annotation*.
   
----
-
-[Large sets of annotations](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
-
 ### Reviewing GO annotations for a gene or protein
 
 To start, check if there are existing annotations to the gene or protein of interest: open a Gene Ontology browser (e.g. AmiGO, QuickGO) and search for the gene or gene protein record of interest by entering it in the 'Search' field, then browse associated annotations and follow links to see the full list of annotations:
- 
 
 ### If the gene or protein has comprehensive and correct annotations:
  * You are done!
@@ -82,4 +66,3 @@ To start, check if there are existing annotations to the gene or protein of inte
   - [ ] a summary of the missing data
   - [ ] list of the wrong annotations
   - [ ] suggest GO annotations to replace them or be added (when applicable)
-  
