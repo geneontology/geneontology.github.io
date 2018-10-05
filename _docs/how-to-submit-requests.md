@@ -4,8 +4,11 @@ permalink: /docs/how-to-submit-requests/
 ---
 
 # How to Submit Requests for Ontology and Annotations
-
-The GOC GitHub tracker captures suggestions for changes to the ontologies, from suggestions to new terms to correcting typos in the documentation. By signing up for GitHub account, users are able to track their submissions online and via email. This tracker also opens the discussion to include the wider community.
+GO uses <a href="https://github.com/">GitHub</a> as a mechanism for tracking ontology and annotation issues.
++ The <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology tracker</a> captures suggestions for changes to the ontology, inclusing suggestions for new terms, changes to definitions or term position in the hierarchy, to addition of new subsets. 
++ The <a href="https://github.com/geneontology/go-annotation">GO-annotation tracker</a> is used to report incorrect annotations or to make suggestions for new annotations. 
+ 
+   <--! By signing up for GitHub account, users are able to track their submissions online and via email. This tracker also opens the discussion to include the wider community. -->
  
 ## 1. Set up a GitHub account
 
