@@ -44,7 +44,6 @@ Always add a clean line before and after the markdown table. Example:
 |GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl]
 
 ## Quote a line
-
 To quote a line, start the line with a `>`
 > this is a quoted line
 
@@ -59,3 +58,5 @@ To quote a line, start the line with a `>`
 All changes made on the master branch of this repository should reflect after a few seconds on [https://geneontology.github.io](https://geneontology.github.io).
 
 When this site is deployed in production, it will also be accessible through the usual [https://geneontology.org](https://geneontology.org)
+
+
