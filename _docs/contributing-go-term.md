@@ -26,7 +26,7 @@ Please provide suggestions for:
 For an example, see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). Please be specific in your request and include as many details as necessary, providing background information, and if possible, suggesting a solution. The ontology editors can more rapidly process requests when all the required information is provided. 
 ### Communicate with the GO ontology editors
 
-You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> ([instructions for getting set up with GitHub are here](/docs/how-to-submit-requests/)). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
+You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> ([see instructions for getting set up with GitHub](/docs/how-to-submit-requests/)). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
 ### Creating a GitHub ticket for a new term request
 
 + Go to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a>.
