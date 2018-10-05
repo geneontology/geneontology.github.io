@@ -8,6 +8,13 @@ The GO Consortium collaborates with other groups on a wide variety of topics, in
 + [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley") 
 
 
+## Integration with other ontologies
++ Cell Ontology [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27377652){:target="blank"}
++ ChEBI (Chemical Entities of Biological Interest) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23895341){:target="blank"}
++ SAO (Subcellular Anatomy Ontology) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24093723){:target="blank"}
++ Uberon [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/25937883){:target="blank"}
++ Vertebrate Skeletal Anatomy Ontology (VSAO) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23251424){:target="blank"}
+
 # Past collaborations
 + Autophagy [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29455577){:target="blank"}
 + Autism [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26047810){:target="blank"}
@@ -29,9 +36,3 @@ The GO Consortium collaborates with other groups on a wide variety of topics, in
 + Transcription [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23981286){:target="blank"}
 + Viral processes [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/28207819,25233094){:target="blank"}
 
-## Integration with other ontologies
-+ Cell Ontology [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27377652){:target="blank"}
-+ ChEBI (Chemical Entities of Biological Interest) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23895341){:target="blank"}
-+ SAO (Subcellular Anatomy Ontology) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24093723){:target="blank"}
-+ Uberon [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/25937883){:target="blank"}
-+ Vertebrate Skeletal Anatomy Ontology (VSAO) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23251424){:target="blank"}
