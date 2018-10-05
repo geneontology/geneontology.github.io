@@ -33,17 +33,4 @@ A biological process is not equivalent to a pathway. At present, the GO does not
 * [Cellular Component Ontology](http://geneontology.org/page/cellular-component-ontology-guidelines): Rules governing content and stylistic aspects of GO terms in the cellular component ontology.
 * [Molecular Function Ontology](http://geneontology.org/page/molecular-function-ontology-guidelines): Rules governing content and stylistic aspects of GO terms, standard definitions and term relationships in the molecular function ontology.
 * [Biological Process Ontology](http://geneontology.org/page/biological-process-ontology-guidelines): Rules governing content and stylistic aspects of GO terms, standard definitions and term relationships in the biological process ontology.
-* [GO Slim Guide](/docs/go-subset-guide/): information about GO slims, cut-down versions of the ontologies useful for providing an overview of GO
-* [Species-Specific Terms](http://geneontology.org/page/species-specific-terms): How the Gene Ontology deals with words or phrases where the meaning varies depending on the organism.
-* Documentation on specific areas of the ontology:
-    * [Membrane proteins](http://wiki.geneontology.org/index.php/Membrane_proteins)
-    * [Membranes and envelopes](http://wiki.geneontology.org/page/membranes-and-envelopes)
-    * [Protein complexes](http://wiki.geneontology.org/page/protein-complexes)
-    * [Cell Cycle](http://wiki.geneontology.org/page/cell-cycle)
-    * [Development](http://wiki.geneontology.org/page/development)
-    * [Metabolic processes](http://wiki.geneontology.org/page/metabolic-process)
-    * [Other organisms and viruses](http://wiki.geneontology.org/page/other-organisms-and-viruses)
-    * [Regulation](http://wiki.geneontology.org/page/regulation)
-    * [Detection and Response to stimulus](http://wiki.geneontology.org/page/detection-and-response-stimulus)
-    * [Sensory perception](http://wiki.geneontology.org/page/sensory-perception)
-    * [Transport and transporters](http://wiki.geneontology.org/page/transport-and-transporters)
+
