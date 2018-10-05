@@ -2,15 +2,13 @@
 title: Collaborations
 permalink: /docs/collaborations/
 ---
+The GO Consortium collaborates with other groups on a wide variety of topics, incuding groups with expertise in specific areas of biology and other ontology projects. We welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/){:target="blank"}.
 
-#  Current collaborations
+## Current collaborations
 + [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley") 
 
 
-
-The following areas of biology are the focus of ontology development and annotation in the Gene Ontology Consortium (GOC). Some of these projects are currently underway and we welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/){:target="blank"}.
-
-#  Past collaborations
+## Past collaborations
 + Autophagy [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29455577){:target="blank"}
 + Autism [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26047810){:target="blank"}
 + Biochemical pathways [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27589964){:target="blank"}
