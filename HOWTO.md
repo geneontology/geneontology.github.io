@@ -36,6 +36,16 @@ export PYTHONPATH=.:$PYTHONPATH
 python biolink/app.py
 ```
 
+## Create table
+* Always add a clean line before and after the markdown table
+
+Example:
+
+|Organism or Usage |	OBO format | OWL format | json format |yaml format |
+|------------------|-------------|------------|-------------|------------|
+|GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl]
+
+
 ## Additional Comments
 * images from geneontology.org that you want to reuse should be stored here: [https://github.com/geneontology/geneontology.github.io/tree/master/assets](https://github.com/geneontology/geneontology.github.io/tree/master/assets)
 * we want to lower the data transfer as much as possible (faster site & soft github limit of 100GB / month). To achieve that:
