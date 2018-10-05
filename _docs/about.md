@@ -19,7 +19,8 @@ scientific studies.
 The Gene Ontology Consortium (GOC) includes groups from around the world that collaborate closely on the development
 of the Gene Ontology and creation of gene function annotations. [Contributors to the project are listed here](/docs/contributors/).
 
-## The GOC is co-directed by (in alphabetical order):
+### GO Co-directors 
+GOC is co-directed by (in alphabetical order):
 
 + <a href="https://www.jax.org/research-and-faculty/faculty/judith-blake">Judith Blake</a>, Jackson Laboratory (mouse gene annotation, ontology development)
 + <a href="https://med.stanford.edu/profiles/j-michael-cherry">J. Michael Cherry</a>, Stanford University (yeast gene annotation, data production processes)
@@ -27,7 +28,8 @@ of the Gene Ontology and creation of gene function annotations. [Contributors to
 + <a href="http://wormlab.caltech.edu/">Paul Sternberg</a>, Caltech (C. elegans gene annotation, Common Annotation Framework development)
 + <a href="https://sites.google.com/usc.edu/thomaslab">Paul Thomas</a>, University of Southern California (phylogenetic annotation, ontology development)
 
-## The GO Council consists of the heads of major participating groups (in alphabetical order):
+### The GO Council 
+The GO Council consists of the heads of major participating groups (in alphabetical order):
 
 + <a href="http://www.ebi.ac.uk/about/people/alex-bateman">Alex Bateman</a>, UniProt, European Bioinformatics Institute (gene annotation)
 + <a href="https://www.pdn.cam.ac.uk/directory/nick-brown">Nick Brown</a>, FlyBase, University of Cambridge (Drosophila gene annotation)
@@ -37,4 +39,5 @@ of the Gene Ontology and creation of gene function annotations. [Contributors to
 + <a href="http://www.ebi.ac.uk/about/people/helen-parkinson">Helen Parkinson</a>, Ontologies Team lead, European Bioinformatics Institute (ontology development)
 + <a href="http://zfin.org/ZDB-PERS-960805-676">Monte Westerfield</a>, University of Oregon (zebrafish gene annotation)
 
-## The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number <a href="https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989">[HG002273]</a>.
+### Funding
+The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number <a href="https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989">[HG002273]</a>.
