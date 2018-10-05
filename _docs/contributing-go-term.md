@@ -38,9 +38,9 @@ You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-
 
 ## Suggesting other improvements to the ontology
 Common requests to modify terms include: 
-+ Missing synonyms or incorrect synonym types
-+ Changes to the position of the term in the hierarchy
-+ Taxon restrictions
++ Adding synonyms or or changing synonym types
++ Changing the position of the term in the GO hierarchy
++ Providing taxonomical restrictions for making annotations to the term
 + etc
 
 Term improvements can be submitted to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> as described above. 
