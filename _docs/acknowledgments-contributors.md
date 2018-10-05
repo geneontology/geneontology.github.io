@@ -73,7 +73,6 @@ This list is based on the Gene Ontology NAR update 2019.
 -	Mary E.	Dolan
 -	Eric	Douglass
 -	Harold	Drabkin
--	H.J.	Drabkin
 -	Paula	Duek-Roggli
 -	Corina	Duenas
 -	M.J.	Duesbury
