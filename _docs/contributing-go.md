@@ -16,7 +16,15 @@ Researchers who notice either missing or inaccurate annotations for a gene or a 
  * Write a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues){:target="blank"} to request that our curators review each gene or protein. Include:
 
 ### Communicate with the GO ontology editors
-You can use the [GO-annotation GitHub tracker](https://github.com/geneontology/go-annotation/issues) ([see instructions for getting set up with GitHub](/docs/how-to-submit-requests/)). Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
+You can use the [GO-annotation GitHub tracker](https://github.com/geneontology/go-annotation/issues). Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/). Alternatively, you can [contact the GO helpdesk](http://help.geneontology.org/) with your request. 
+
+### Creating a GitHub ticket
++ Go to the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues){:target="blank"}.
++ Click on the green 'New Issue' button.
++ Enter the subject of your request in the 'Title' field, which will be your queue to find the issue from the list of requests.
++ Enter details of your request in the 'Leave a Comment' box (see 'Gather all necessary information' section above). 
++ Press the 'Submit new issue' button at the bottom of the box.
+
 
 ## How to contribute new GO annotations
 
