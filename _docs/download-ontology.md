@@ -27,9 +27,9 @@ This is the fully axiomatised of the GO. It includes cross-ontology relationship
 ## Subsets
 
 GO slims are subsets of terms in the ontology. GO slims give a broad overview of the ontology content without the detail of the specific fine grained terms. More information in the [GO slim guide](http://geneontology.org/page/go-slim-and-subset-guide/).
-## Mappings of GO to other classification systems
+## Cross-references of GO to other classification systems
 
-GO classes have been mapped to a number of other, external, classification systems. [Click here](http://geneontology.org/page/download-mappings) to view and download these mappings.
+Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [Cross-references of External Classification Systems to GO](/docs/download-mappings/) page contains more information and links to the Cross-reference2GO files.
 ## Legacy Downloads
 
 The GO is also available in other formats. These other formats are not recommended for new applications, but as many existing applications rely on these downloads we will continue to support them. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version (see above). For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation (see above).
