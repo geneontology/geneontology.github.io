@@ -15,7 +15,7 @@ Researchers who notice either missing or inaccurate annotations for a gene or a 
 Research group who wish to generate GO annotations for any project (annotating a species that is not currently included in the GO, or annotating genes for a specific field of expertise) can contribute these annotations to the GO database. 
 
 
-If none of the following apply to your group, [contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
+If none of the following apply to your group, [contact the GO Helpdesk](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
 
 [Contributing annotatons from large-scale datasets](#contribute-annotations-from-large-datasets "Contributing annotatons from large-scale datasets")
 
