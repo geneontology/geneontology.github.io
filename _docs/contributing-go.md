@@ -4,16 +4,15 @@ permalink: /docs/contributing-to-go/
 ---
 
 # Contributing GO Annotations
-Most GO annotations are produced by members of the [GO Consortium](/docs/go-consortium/), but we also welcome annotations by research groups and researchers. 
+Most GO annotations are produced by members of the [GO Consortium](/docs/go-consortium/), but we also welcome annotations from the research community. 
 
 ## How to suggest revisions for existing annotations
-Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium, by either [contacting the GO helpdesk](http://help.geneontology.org/), or using the [GO-annotation GitHub site](https://github.com/geneontology/go-annotation/issues) to add suggestions. Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/).
+Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium, by either [contact the GO Helpdesk](http://help.geneontology.org/), or using the [GO-annotation GitHub site](https://github.com/geneontology/go-annotation/issues) to add suggestions. Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/).
 
 ## How to contribute new GO annotations
 
-Research groups who wish to generate GO annotations for any project (annotating a species that is not currently included in the GO, or annotating genes for a specific field of expertise) can contribute these annotations to the GO database. 
+Research groups who wish to generate GO annotations, for instance new annotations for genes of a species that is not currently annotated in  GO, annotating specific genes for a given biological research domain, can contribute these annotations to the GO database. 
 
-If none of the following apply to your group, [contact the GO Helpdesk](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
 
 ### Contribute annotations from large-scale datasets
 
