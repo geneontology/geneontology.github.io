@@ -34,6 +34,8 @@ You can use the <a href="https://github.com/geneontology/go-ontology/issues">GO-
 + Enter the subject of your request in the 'Title' field, which will be your queue to find the issue from the list of requests.
 + Enter details of your request in the 'Leave a Comment' box. When requesting a new term for the ontology, please include all information (see 'Gather all necessary information' section above). 
 + Press the 'Submit new issue' button at the bottom of the box.
+
+
 ## Suggesting other improvements to the ontology
 Common requests to modify terms include: 
 + Missing synonyms or incorrect synonym types
@@ -42,6 +44,7 @@ Common requests to modify terms include:
 + etc
 
 Term improvements can be submitted to the <a href="https://github.com/geneontology/go-ontology/issues">GO-ontology GitHub tracker</a> as dsecribed above. 
+
 ## When to create a new ticket
 Keep tickets simple; do not hesitate to create multiple tickets if necessary. Unless terms are related, submit a separate request for each new term.
  
