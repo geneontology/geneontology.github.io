@@ -20,7 +20,7 @@ If you used a specific software/analysis tool in your research, in addition to t
 
 If you wish to cite data provided by the Gene Ontology project, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data, preferably both; e.g. "2018-10-01" or "10.5281/zenodo.1442498". Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
 
-### Citing Data from AmiGO
+## Citing Data from AmiGO
 
 The data release can be found in the page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
 
