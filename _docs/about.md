@@ -16,16 +16,19 @@ The GO resource plays an essential role in supporting biomedical research, inclu
 molecular experiments and computational analysis of biological knowledge. It has been used in tens of thousands of
 scientific studies.
 
-The Gene Ontology Consortium (GOC) includes groups from around the world that collaborate closely on the development
-of the Gene Ontology and creation of gene function annotations. [Contributors to the project are listed here](/docs/contributors/).
 
-### GO co-directors 
+### Principal investigators
 
 + <a href="https://www.jax.org/research-and-faculty/faculty/judith-blake">Judith Blake</a>, Jackson Laboratory (mouse gene annotation, ontology development)
 + <a href="https://med.stanford.edu/profiles/j-michael-cherry">J. Michael Cherry</a>, Stanford University (yeast gene annotation, data production processes)
 + <a href="http://www.berkeleybop.org/people/suzanna-lewis/">Suzanna Lewis</a>, Lawrence Berkeley National Laboratory (GOC software development, ontology development)
 + <a href="http://wormlab.caltech.edu/">Paul Sternberg</a>, Caltech (C. elegans gene annotation, Common Annotation Framework development)
 + <a href="https://sites.google.com/usc.edu/thomaslab">Paul Thomas</a>, University of Southern California (phylogenetic annotation, ontology development)
+
+### GO Consortium
+The Gene Ontology Consortium (GOC) includes groups from around the world that collaborate closely on the development
+of the Gene Ontology and creation of gene function annotations. [Contributors to the project are listed here](/docs/contributors/).
+
 
 ### Funding
 The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number <a href="https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989">[HG002273]</a>.
