@@ -9,8 +9,8 @@ We strive to make the GO as complete and accurate as possible, so suggestions fo
 
 ## Suggesting a new GO term
 
-### Before you submit a new term request, check whether the term already exists
-To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. Note that the term may exist as a primary term name or as a synonym.
+### Check whether the term already exists
+Before you submit a new term request, confirm that the term is not already in the ontology. To do this, search the ontology using the <a href="http://amigo.geneontology.org/amigo">AmiGO</a> browser. Note that the term may exist as a primary term name or as a synonym.
 
 ###  Gather all necessary information
 Please provide suggestions for:
