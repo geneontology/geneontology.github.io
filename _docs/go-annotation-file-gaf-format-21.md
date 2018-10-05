@@ -13,16 +13,17 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 + GO also also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) files. 
 + For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
-# GO Annotation File (GAF) Format 2.1
+## GO Annotation File (GAF) Format 2.1
 
-## File Header
+### File Header
 
 All gene association files must start with a single line denoting the file format, as follows:
 
     !gaf-version: 2.1
 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
-## Annotation File Fields
+
+### Annotation File Fields
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
 
@@ -108,6 +109,7 @@ Multiple entries are allowed in the **With/From** field of certain evidence code
    Annotations made using the following evidence codes may only use the pipe operator in the **With/From** field: ISS, ISA, ISO, ISM, IBA, IKR, RCA, IEA. It is not mandatory to use pipes, however, and some groups may prefer to make separate annotations.\
    Annotations made using the following evidence codes may use the pipe or comma operators in the **With/From** field: IPI, IMP, IGI, IC, IGC.\
    The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.
+   
 ##### Examples
 1. Recording gene IDs for allelic variations in the With/from column for IMP evidence code: Multiple pipe-separated values in the **With/From** field indicate that the process is inferred from each perturbation independently. If more than one variation within the same locus resulted in a phenotype, those variations should be comma-separated (implying AND).\
  For e.g. Two different deletion mutations and one RNAi inactivation support the same GO annotation for a Worm gene. The alleles are Pipe-separated in the **With/From** for this annotation: WB:WBVariation00091989|WB:WBVar00249869|WB:WBRNAi00084583
