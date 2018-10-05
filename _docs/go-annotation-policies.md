@@ -19,6 +19,5 @@ Sample annotation sets are available from a number of the databases in the Conso
 ## GO Annotation Resources
 For more information on annotation, please see the following resources:
 
- * [GO annotation standard operating procedures](http://wiki.geneontology.org/index.php/Introduction_to_Annotation)
  * [GO annotation conventions](http://wiki.geneontology.org/index.php/Annotation_conventions)
  * [Evidence codes used in GO annotation](/docs/guide-go-evidence-codes/)
