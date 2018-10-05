@@ -20,6 +20,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 - Paul Thomas
 
 ### Current contributors
+This list is based on the Gene Ontology NAR update 2019. 
 -	V.	Acquaah
 -	S.H.	Ahmad
 -	Laurent-Philippe 	Albou
