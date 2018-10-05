@@ -29,29 +29,28 @@ If none of the following apply to your group, [contact the GO Helpdesk](http://h
 
 ### Contribute annotations from large-scale datasets
 
- If you work on a previously unannotated organism, or your research group has a specific research expertise that could be used to produce GO annotations. 
- 
+ If you work on a previously unannotated organism, or your research group has a specific research expertise that could be used to produce GO annotations:
  
  * [Contact the GOC](http://help.geneontology.org/) to discuss the best approach for your annotations and to ensure you are the only group working on your organism.  If you would be interested in taking ownership for an organism with outdated annotations, we can help you find the right people to contact as well.
  * Training of new curators will be arranged, if needed, with an existing GOC mentor. 
- * A representative of your group will need to join GitHub in order to maintain your group's annotations.  Once a representative is designated, the GOC will also generate the yaml file needed to submit your annotations to GO.
+ * A representative of your group will need to [join GitHub](/docs/how-to-submit-requests/) in order to maintain your group's annotations.  Once a representative is designated, the GOC will also generate internal files needed to submit your annotations to GO.
 
 #### Not enough annotations to justify joining GO?
-* Submit one or just a few manual annotations by adding a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues). Each of your annotations should include at least one key literature references (PMIDs) in support of your assertions. Please state whether or not regular updates will be submitted about this annotation.
+* Submit one or just a few manual annotations by adding a new issue on the [GOC GitHub Annotation Tracker](https://github.com/geneontology/go-annotation/issues). Each of your annotations should include at least one key literature reference (PMID) in support of your assertions. Please state whether or not regular updates will be submitted about this annotation.
 
 #### Automated Annotations
-If your group is interested in generating a large number of automated/electronic annotations, please be aware that InterPro2GO is the only source of [IEAs, Inferred from Electronic Annotation](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)) recognized by the GOC.  Please submit your transcripts or other data to UniProt, and they will automatically generate IEAs from your data.  Once your organism is in UniProt, [contact the GOC](http://help.geneontology.org/) and we will gladly assist in curator training so your group can add manual annotations as well.
+If your group is interested in generating a large number of automated/electronic annotations, please be aware that InterPro2GO is the only source of [IEAs, Inferred from Electronic Annotation](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)) recognized by the GOC.  Submit your transcripts or other data to UniProt, and they will automatically generate IEAs from your data.  Once your organism is in UniProt, [contact the GOC](http://help.geneontology.org/) and we will gladly assist in curator training so your group can add manual annotations as well.
 
 ---
 [Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
 
 ### Reviewing GO annotations associated with a scientific article
-To start, check if there are existing annotations to the paper:  Open a Gene Ontology browser, (e.g. [AmiGO](http://amigo.geneontology.org/amigo), [QuickGO](https://www.ebi.ac.uk/QuickGO/)) and enter a PubMed identifier (PMID) for the paper of interest in the 'Search' field.
-
-Literature annotation involves capturing published information about the exact function of a gene product as a GO annotations. To do this you must read the publications about the gene and write down all the information. This annotation is time-consuming but produces very high quality, species-specific annotation, and brings the information about the gene product into a format in which it can be used in high-throughput experiments. This is an extremely worthwhile process in the long term. It may be best carried out by people who know the function of the gene product, and the associated biology, in great detail; for example experimental scientists who are familiar with the published literature. If you are doing this, then you may like to write and suggest modifications to the ontology structure as well.
+Literature annotation involves capturing published information about the exact function of a gene product as a GO annotations. This curation process is time-consuming but produces very high quality, species-specific annotation; the accuracy and uniform format of annotations allows the information to be used in high-throughput experiments. GO curation may be best carried out by people who know the function of the gene product and the associated biology in great detail- for example, experimental scientists who are familiar with the published literature. If you are an expert in a gene product or a particular field, then you may like to [suggest modifications to the ontology structure](/docs/contributing-to-go-terms/) as well.
 
 Below is a schematic diagram giving an introduction to the steps involved in literature-based GO annotation. 
 http://geneontology.org/sites/default/files/public/diag-literature-annot.png
+
+To begin, check if there are existing annotations to the paper:  open a Gene Ontology browser, (e.g. [AmiGO](http://amigo.geneontology.org/amigo), [QuickGO](https://www.ebi.ac.uk/QuickGO/)) and enter a PubMed identifier (PMID) for the paper of interest in the 'Search' field.
 
 #### If GO annotations are listed in the results:
 1. Check whether the paper has been annotated by GO curators.
