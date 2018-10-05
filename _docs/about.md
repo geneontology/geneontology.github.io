@@ -22,7 +22,7 @@ The Gene Ontology Consortium (GOC) includes groups from around the world that co
 of the Gene Ontology and creation of gene function annotations. [GO Consortium member groups and their funding sources are listed here](/docs/contributors/).
 ### The GOC is co-directed by (in alphabetical order):
 
-* [Judith Blake](http://research.jax.org/faculty/judith_blake.html), Jackson Laboratory (mouse gene annotation, ontology development)
+* <a href="http://research.jax.org/faculty/judith_blake.html">Judith Blake</a>, Jackson Laboratory (mouse gene annotation, ontology development)
 * [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry), Stanford University (yeast gene annotation, data production processes)
 * [Suzanna Lewis](http://berkeleybop.org/person/suzanna-lewis), Lawrence Berkeley National Laboratory (GOC software development, ontology development)
 * [Paul Sternberg](http://wormlab.caltech.edu/members/paul.html), Caltech (C. elegans gene annotation, Common Annotation Framework development)
