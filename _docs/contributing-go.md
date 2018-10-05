@@ -4,19 +4,26 @@ permalink: /docs/contributing-to-go/
 ---
 
 # Contributing GO Annotations
-Research groups may contribute to the Gene Ontology Consortium (GOC) by providing suggestions for updating the ontology (e.g. requesting new terms) or by providing GO annotations.
+Most GO annotations are produced by members of the [GO Consortium](/docs/go-consortium/), but we also welcome annotations by research groups and researchers. 
 
-[Contributing annotatons from lasge-scale datasets](#contribute-annotations-from-large-datasets "Contributing annotatons from large-scale datasets")
+## How to suggest revisions for existing annotations
+Researchers who notice either missing or inaccurate annotations for a gene or a GO term can send this information to the GO ontology consortium, by either [contacting the GOC](http://help.geneontology.org/), or using the [GO-annotation GitHub repository](https://github.com/geneontology/go-annotation/issues) to add suggestions. Information about how to create an account and use the GitHub repository can  be found [here](/docs/how-to-submit-requests/).
+
+
+## How to contribute new GO annotations
+
+Research group who wish to generate GO annotations for any project (annotating a species that is not currently included in the GO, or annotating genes for a specific field of expertise) can contribute these annotations to the GO database. 
+
+
+If none of the following apply to your group, [contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
+
+[Contributing annotatons from large-scale datasets](#contribute-annotations-from-large-datasets "Contributing annotatons from large-scale datasets")
 
 [Annotating a paper](#reviewing-go-annotations-associated-with-a-scientific-article "Annotating a paper")
 
 [Large sets of annotations](#reviewing-go-annotations-for-a-gene-or-protein "Large sets of annotations")
 
-## How to contribute GO annotations
 
-If your research group has GO annotations for a species that is not currently included in the GO, whether or not these annotations cover the entire genome, or if your research team has identified gaps or inaccuracies in the current set of GO annotations, this guide is for you. You can also review/improve existing annotations in your field of expertise. Choose the scenario that best describes your research group and follow the steps as indicated in the following pages.
-
-If none of the following apply to your group, [contact the GOC](http://help.geneontology.org/) to discuss the best approach for preparing your annotations.
 
 ---
 
