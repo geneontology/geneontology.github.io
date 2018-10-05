@@ -169,7 +169,7 @@ This removes a large amount of redundancy and significantly decreases the size o
 
 Contains cross references to other ontologies that can be used to qualify or enhance the annotation. The cross-reference is prefaced by an appropriate GO relationship; references to multiple ontologies can be entered. For example, if a gene product is localized to the mitochondria of lymphocytes, the **GO ID** (column 5) would be mitochondrion ; GO:0005439, and the annotation extension column would contain a cross-reference to the term lymphocyte from the Cell Type Ontology.\
     Targets of certain processes or functions can also be included in this field to indicate the gene, gene product, or chemical involved; for example, if a gene product is annotated to protein kinase activity, the annotation extension column would contain the UniProtKB protein ID for the protein phosphorylated in the reaction.\
-    See the documentation on using the **Annotation Extension** column for details of practical usage; a wider discussion of the annotation extension column can be found on the GO wiki.\
+    See the documentation on using the **Annotation Extension** column for details of practical usage; a wider discussion of the annotation extension column can be found on the <a href="http://wiki.geneontology.org/index.php/Annotation_Extension">GO internal documentation site</a>.
     This field is optional, cardinality 0 or greater.
 
 
@@ -179,5 +179,5 @@ As the **DB Object ID** (column 2) entry must be a canonical entity—a gene OR 
 * When the **Gene Product Form ID** is filled with a protein identifier, the value in **DB Object Type** (column 12) must be protein. Protein identifiers can include UniProtKB accession numbers, NCBI NP identifiers or Protein Ontology (PRO) identifiers.
 * When the **Gene Product Form ID** is filled with a functional RNA identifier, the **DB Object Type** (column 12) must be either ncRNA, rRNA, tRNA, snRNA, or snoRNA.\
 This column may be left blank; if so, the value in **DB Object Type** (column 12) will provide a description of the expected gene product.
-    More information and examples are available from the [GO wiki page on column 17](http://wiki.geneontology.org/index.php/GAF_Col17_GeneProducts).\
+    More information and examples are available from the <a href="http://wiki.geneontology.org/index.php/GAF_Col17_GeneProducts">GO internal documentation on column 17</a>.
 Note that several fields contain database cross-reference (dbxrefs) in the format dbname:dbaccession. The fields are: **GO ID** [column 5], where dbname is always GO; **DB:Reference** (column 6); **With or From** (column 8); and **Taxon** (column 13), where dbname is always taxon. For **GO ID**s, do not repeat the 'GO:' prefix (i.e. always use GO:0000000, not GO:GO:0000000)
