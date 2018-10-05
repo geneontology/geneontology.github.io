@@ -1,5 +1,5 @@
 ---
-title: GO Annotation File (GAF) Format 2.1
+title: GO Annotation File (GAF) Format
 permalink: /docs/go-annotation-file-gaf-format-21/
 ---
 
@@ -7,14 +7,7 @@ permalink: /docs/go-annotation-file-gaf-format-21/
 Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 # GO Annotation File (GAF) Format 2.1
-
-Annotation data is submitted to the GO Consortium in the form of gene association files, or GAFs. This guide lays out the format specifications for GAF 2.1; for the previous GAF file syntax, please see the GAF 2.0 file format guide or the GAF 1.0 file format guide.
-
-## Changes in GAF 2.1
-
-**GAF 2.1 allows the use of pipes** (**|**) **and comma** (**,**) **in column 8 (with/from column)** compared to GAF 2.0 which allows the use of pipes only. **Pipe will indicate 'OR' and comma will indicate 'AND'.**
-
-In GAF 2.0, multiple values are separated by pipes where the pipe has been used to mean 'AND'. However, in the annotation extension field (column 16) pipe is used to indicate 'OR' and a comma to indicate 'AND'. This change to column 8 will allow consistent use of pipes and commas in the GO annotations. Please see the descriptions below for full details.
+GO provides annotations in the GO Annotation File (GAF) Format 2.1, described below.
 
 ## File Header
 
@@ -51,7 +44,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 ### Definitions and requirements for field contents
 
 #### DB (column 1)
- Refers to the database from which the identifier in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the **DB object ID** (column 2), **DB** (column 1) should be UniProtKB.\
+Refers to the database from which the identifier in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the **DB object ID** (column 2), **DB** (column 1) should be UniProtKB.\
 Must be one of the values from the set of [GO database cross-references](http://amigo.geneontology.org/xrefs).\
 This field is mandatory, cardinality 1.
 
