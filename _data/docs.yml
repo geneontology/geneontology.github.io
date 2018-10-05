@@ -1,7 +1,9 @@
 - title: Ontology
   docs:
     - ontology-documentation
+    - ontology-relations
     - go-subset-guide
+    - download-mappings
 
 - title: Annotation
   docs:
@@ -29,8 +31,6 @@
   - downloads
   - download-go-annotations
   - download-ontology
-  - download-mappings
-  - go-subset-guide
 
 - title: About
   docs:
