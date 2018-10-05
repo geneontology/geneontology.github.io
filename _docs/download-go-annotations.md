@@ -3,7 +3,7 @@ title: Download Annotations
 permalink: /docs/download-go-annotations/
 ---
 
-# Download GO Annotations 
+# Download Annotations 
 ## GO annotation files
 + Released monthly.
 + Taxon-specific.
