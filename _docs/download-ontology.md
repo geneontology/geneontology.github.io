@@ -26,7 +26,7 @@ These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. Th
 This is the fully axiomatised of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including ChEBI, cell ontology and Uberon. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in OWL.
 ## Subsets
 
-GO slims are subsets of terms in the ontology. GO slims give a broad overview of the ontology content without the detail of the specific fine grained terms. More information in the [GO slim guide](http://geneontology.org/page/go-slim-and-subset-guide/).
+GO slims are subsets of terms in the ontology. GO subsets give a broad overview of the ontology content without the detail of the specific fine grained terms. More information in the [GO subset guide](http://geneontology.org/page/go-slim-and-subset-guide/).
 ## Cross-references of GO to other classification systems
 
 Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [Cross-references of External Classification Systems to GO](/docs/download-mappings/) page contains more information and links to the Cross-reference2GO files.
