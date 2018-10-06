@@ -60,9 +60,9 @@ In alphabetical order:
 
 |Name |	Description |	Contact|
 |-----|-------------|--------|
-|Cell Type Ontology (CL) |	The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. |	[CL SourceForge tracker](https://sourceforge.net/p/obo/cell-ontology-cl-requests/)|
-|Chemical Entities of Biological Interest (ChEBI) |	Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds. |	[ChEBI web submission form](http://www.ebi.ac.uk/chebi/emailChebiForward.do)|
-|Evidence Ontology (ECO) 	The Evidence Ontology (ECO)| is an ontology for describing biological research evidence that is used to support assertions. 	 |[ECO GitHub](https://github.com/evidenceontology/evidenceontology/issues/new)|
-|Plant Ontology (PO)| 	Plant Ontology project is a major international bioinformatics effort on standardizing the nomenclature, definitions, synonyms and relations of various terms/keywords/vocabularies that describe anatomical entities as well as the growth and developmental stages of plants. |	[PO web submission form](http://www.plantontology.org/contact)|
-|Uber Anatomy Ontology (Uberon) |	Uberon is an integrated cross-species ontology covering anatomical structures in animals. 	| [Uberon help](cjmungall@lbl.gov)|
+|[Cell Type Ontology (CL)](http://cellontology.org/) |	The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. |	[CL SourceForge tracker](https://sourceforge.net/p/obo/cell-ontology-cl-requests/)|
+|[Chemical Entities of Biological Interest (ChEBI)](http://www.ebi.ac.uk/chebi/) |	Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds. |	[ChEBI web submission form](http://www.ebi.ac.uk/chebi/emailChebiForward.do)|
+|[Evidence Ontology (ECO)](http://www.evidenceontology.org/)| The Evidence Ontology (ECO) is an ontology for describing biological research evidence that is used to support assertions. 	 |[ECO GitHub](https://github.com/evidenceontology/evidenceontology/issues/new)|
+|[Plant Ontology (PO)](http://www.plantontology.org/)| 	Plant Ontology project is a major international bioinformatics effort on standardizing the nomenclature, definitions, synonyms and relations of various terms/keywords/vocabularies that describe anatomical entities as well as the growth and developmental stages of plants. |	[PO web submission form](http://www.plantontology.org/contact)|
+|[Uber Anatomy Ontology (Uberon)](http://uberon.github.io/) |	Uberon is an integrated cross-species ontology covering anatomical structures in animals. 	| [Uberon help](cjmungall@lbl.gov)|
 
