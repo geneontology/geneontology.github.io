@@ -41,7 +41,7 @@ Use a simple `---`
 
 ## Adding references and foonotes
 You can reference a footnote by:
-* adding a `[^1]` in the text where you want the reference [^1] to be displayed
+* adding a `[^1]` in the text where you want the reference to be displayed
 * adding at the end of your markdown file the actual footnote e.g. `[^1]: My awesome footnote`
 
 ## Create table
@@ -80,4 +80,3 @@ When this site is deployed in production, it will also be accessible through the
 * [Jekyll cheatsheet](https://devhints.io/jekyll)
 * [GitHub Jekyll basics](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
 
-[^1]: My awesome footnote
