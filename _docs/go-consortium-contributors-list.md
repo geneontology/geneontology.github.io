@@ -50,9 +50,9 @@ In alphabetical order:
 
 | Name 	| Description |	Funding |	Contact |
 |-------|-------------|---------|---------|
-|AstraZeneca| 	  | || 	
+|[AstraZeneca](https://www.astrazeneca.com/)| 	  | || 	
 |J Craig Venter Institute| 	Databases on several bacterial species. Formerly known as The Institute for Genomic Research (TIGR). 	 || |
-|Microbial ENergy processes Gene Ontology Project (MENGO)| 	The MENGO project is a multi-institutional collaborative effort that aims to develop new Gene Ontology terms to describe microbial bioenergy related processes. |	Office of Science (BER), U.S. Department of Energy. |	|
+|[Microbial ENergy processes Gene Ontology Project (MENGO)](http://mengo.vbi.vt.edu/)| 	The MENGO project is a multi-institutional collaborative effort that aims to develop new Gene Ontology terms to describe microbial bioenergy related processes. |	Office of Science (BER), U.S. Department of Energy. |	|
 |Plant-Associated Microbe Gene Ontology (PAMGO)| Consortium 	A multi-institutional collaborative effort involving scientists working on plant pathogenic genomes: the bacteria Dickeya dadantii, Pseudomonas syringae pv tomato and Agrobacterium tumefaciens, the fungus Magnaporthe grisea, the oomycetes Phytophthora sojae and Phytophthora ramorum and the nematode Meloidogyne hapla. 	 | ||
 |[Renal Gene Ontology Annotation Initiative](https://www.ebi.ac.uk/GOA/kidney) | European Bioinformatics Institute | Kidney Research UK| |
 
