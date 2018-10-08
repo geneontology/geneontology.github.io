@@ -50,11 +50,11 @@ Every term has a human-readable term name—e.g. mitochondrion, glucose transpor
 
 #### Aspect
 
-Denotes which of the three sub-ontologies—cellular component, biological process or molecular function—the term belongs to.
+Denotes which of the three sub-ontologies (cellular component, biological process or molecular function) the term belongs to.
 
 #### Definition
 
-A textual description of what the term represents, plus reference(s) to the source of the information. All new terms added to the ontology must have a definition.
+A textual description of what the term represents, plus reference(s) to the source of the information. 
 
 #### Relationships to other terms
 
@@ -80,7 +80,7 @@ Alternative words or phrases closely related in meaning to the term name, with i
 
 Custom synonym types are also used in the ontology. For example, a number of synonyms are designated as systematic synonyms; synonyms of this type are exact synonyms of the term name.
 
-### Database cross-references
+#### Database cross-references
 
 Database cross-references, or dbxrefs, refer to identical or very similar objects in other databases. For instance, the molecular function term retinal isomerase activity is cross-referenced with the Enzyme Commission entry EC:5.2.1.3; the biological process term sulfate assimilation has the cross-reference MetaCyc:PWY-781.
 
@@ -94,8 +94,4 @@ Indicates that the term belongs to a designated subset of terms, e.g. one of the
 
 #### Obsolete tag
 
-Indicates that the term has been deprecated and should not be used.
-
-### Obsolete Terms
-
-Occasionally, a term is added to GO that is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term, detailing the reason for the obsoletion and tags are also added that specify replacement terms. See the OBO file format specification for more information.
+Indicates that the term has been deprecated and should not be used. GO terms get obsoleted when it is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term, detailing the reason for the obsoletion and tags are also adding possible replacement terms, if possible. See the OBO file format specification for more information.
