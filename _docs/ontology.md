@@ -69,18 +69,14 @@ Alternate IDs that refer to a term. Secondary IDs come about when two or more te
 #### Synonyms
 
 Alternative words or phrases closely related in meaning to the term name, with indication of the relationship between the name and synonym given by the synonym scope. The scopes for GO synonyms are:
-* exact
- * an exact equivalent; interchangeable with the term name 
++ **Exact**: an exact equivalent; interchangeable with the term name 
     e.g. ornithine cycle is an exact synonym of urea cycle 
-* broad
- * the synonym is broader than the term name 
++ **Broad**: rhe synonym is broader than the term name 
     e.g. cell division is a broad synonym of cytokinesis 
-* narrow
- * the synonym is narrower or more precise than the term name 
- * e.g. pyrimidine-dimer repair by photolyase is a narrow synonym of photoreactive repair 
-* related
- * the terms are related in some way not covered above 
-    e.g. cytochrome bc1 complex is a related synonym of ubiquinol-cytochrome-c reductase activity virulence is a related synonym of pathogenesis 
+* **Narrow**: the synonym is narrower or more precise than the term name 
++  e.g. pyrimidine-dimer repair by photolyase is a narrow synonym of photoreactive repair 
+* **Related**: the terms are related in some way not covered above 
++  e.g. cytochrome bc1 complex is a related synonym of ubiquinol-cytochrome-c reductase activity virulence is a related synonym of pathogenesis 
 
 Custom synonym types are also used in the ontology. For example, a number of synonyms are designated as systematic synonyms; synonyms of this type are exact synonyms of the term name.
 
