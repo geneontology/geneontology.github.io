@@ -3,27 +3,6 @@ title: Ontology
 permalink: /docs/ontology/
 ---
 
-# About the Gene Ontology: structure and terms
-
-## What is an ontology?
-
-An ontology is a formal representation of a body of knowledge, within a given domain. Ontologies usually consist of a set of classes or terms with relations that operate between them. The domains that GO represents are biological processes, functions and cellular components.
-
-## What is the Gene Ontology?
-
-The Gene Ontology defines the universe of concepts relating to gene functions (‘GO terms’), and how these functions are related to each other (‘relations’). It is constantly revised and expanded as biological knowledge accumulates. The GO describes function with respect to three aspects:
-* **Molecular Function**: molecular-level activities performed by gene products
-* **Cellular Component**: the locations relative to cellular structures in which a gene product performs a function
-* **Biological Process**: the larger processes, or ‘biological programs’ accomplished by multiple molecular activities
-
-The GO ontology is structured as a directed acyclic graph where each term has defined relationships to one or more other terms in the same domain, and sometimes to other domains. The GO vocabulary is designed to be species-agnostic, and includes terms applicable to prokaryotes and eukaryotes, and single and multicellular organisms.
-
-In an example of GO annotation, the gene product "cytochrome c" can be described by the **Molecular Function** term "oxidoreductase activity", the **Biological Process** term "oxidative phosphorylation", and the **Cellular Component** terms "mitochondrial matrix" and "mitochondrial inner membrane".
-
-## Maintenance of the Gene Ontology
-
-Ongoing revisions to the ontology are managed by a team of senior ontology editors with extensive experience in both biology and computational knowledge representation. Ontology updates are made collaboratively between the GOC ontology team and scientists who request the updates. Most requests come from scientists making GO annotations (these typically impact only a few terms each), and from domain experts in particular areas of biology (these typically revise an entire ‘branch’ of the ontology comprising many terms and relations). We invite researchers and computational scientists to [submit requests for either new terms or new relations](/docs/contributing-to-go-terms/) in the ontology.
-
 ## GO as a graph
 
 The structure of GO can be described in terms of a graph, where each GO term is a node, and the relationships between the terms are edges between the nodes. GO is loosely hierarchical, with 'child' terms being more specialized than their 'parent' terms, but unlike a strict hierarchy, a term may have more than one parent term (note that the parent/child model does not hold true for all types of relations, see the relations documentation). For example, the biological process term hexose biosynthetic process has two parents, hexose metabolic process and monosaccharide biosynthetic process. This is because biosynthetic process is a subtype of metabolic process and a hexose is a subtype of monosaccharide.
