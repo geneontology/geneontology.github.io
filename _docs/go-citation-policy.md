@@ -33,8 +33,7 @@ The GO logo is available in four sizes. For reuse, please do not hotlink images,
 | Mini (and favicon) | Small | Regular | Large |
 |------|-------|---------|-------|
 | [![mini logo](/assets/go-logo.mini.png){:width="100"}](/assets/go-logo.mini.png){:target="blank"} | [![small logo](/assets/go-logo.small.png){:width="100"}](/assets/go-logo.small.png){:target="blank"} | [![regular logo](/assets/go-logo.png){:width="100"}](/assets/go-logo.png){:target="blank"} | [![full logo](/assets/go-logo.large.png){:width="100"}](/assets/go-logo.large.png){:target="blank"} | 
-| [![fav icon](/assets/go-logo-favicon.ico){:width="50"}](/assets/go-logo-favicon.ico){:target="blank"}
-| [![mini icon](/assets/go-logo-icon.mini.png){:width="50"}](/assets/go-logo-icon.mini.png){:target="blank"} | [![small icon](/assets/go-logo-icon.small.png){:width="50"}](/assets/go-logo-icon.small.png){:target="blank"} | [![regular icon](/assets/go-logo-icon.png){:width="50"}](/assets/go-logo-icon.png){:target="blank"} | | |
+| [![fav icon](/assets/go-logo-favicon.ico){:width="50"}](/assets/go-logo-favicon.ico){:target="blank"} | [![mini icon](/assets/go-logo-icon.mini.png){:width="50"}](/assets/go-logo-icon.mini.png){:target="blank"} | [![small icon](/assets/go-logo-icon.small.png){:width="50"}](/assets/go-logo-icon.small.png){:target="blank"} | [![regular icon](/assets/go-logo-icon.png){:width="50"}](/assets/go-logo-icon.png){:target="blank"} | 
 
 
 ## License    
