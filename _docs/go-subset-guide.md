@@ -41,10 +41,10 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 
 ## For internal checking purposes, the Gene Ontology also maintains two "anti-slims"
 
-|**Subset name** |	**Usage** | **OBO format** | **OWL format** | **json format** |**yaml format** |
-|------------------|----------|----------|----------|----------|----------|
-|**Do not annotate** | The set of high level terms that are useful for grouping, but should have no direct annotations|[obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.obo)| [owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.owl) | [json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.json) | [yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.yaml)|
-|**Do not manually annotate**  |  The set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools|[obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.obo)| [owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.owl) | [json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.json) | [yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.yaml)|
+|**Subset name** |	**Usage** | **File name** |  **OBO format** | **OWL format** | **json format** |**yaml format** |
+|------------------|----------|----------|----------|----------|----------|----------|
+|**Do not annotate** | The set of high level terms that are useful for grouping, but should have no direct annotations| gocheck_do_not_annotate | [obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.obo)| [owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.owl) | [json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.json) | [yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.yaml)|
+|**Do not manually annotate**  |  The set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools| gocheck_do_not_manually_annotate| [obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.obo)| [owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.owl) | [json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.json) | [yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.yaml)|
 
 ## Map2Slim option in OWLTools
 
