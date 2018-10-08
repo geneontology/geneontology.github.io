@@ -15,7 +15,7 @@ GO subsets are particularly useful for giving a summary of the results of GO ann
 
 ## Who creates and maintains GO subsets?
 
-GO subsets are created by [GO consortium menbers](/docs/go-consortium/) and users according to their needs. GO provides a generic GO subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. Alternatively, users can create their own GO subsets or use one of the model organism-specific subsets integrated into GO. Please email the [GO helpdesk](/docs/downloads/) for more information about creating and submitting your GO subsets.
+GO subsets are created by [GO consortium members](/docs/go-consortium/) and users according to their needs. GO provides a generic GO subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. Alternatively, users can create their own GO subsets or use one of the model organism-specific subsets integrated into GO. Please email the [GO helpdesk](/docs/downloads/) for more information about creating and submitting your GO subsets.
 
 ## GO subsets download
 
