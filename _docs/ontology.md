@@ -4,7 +4,7 @@ permalink: /docs/ontology/
 ---
 
 
-# GO Term Elements
+# GO term elements
 
 ## Essential elements
 
