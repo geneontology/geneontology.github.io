@@ -23,7 +23,7 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 
 ### Maintained GO subsets for download
 
-|**Subset name |  Organism or Usage |	OBO format | OWL format | json format |yaml format** |
+|**Subset name** |  **Organism or Usage** |	**OBO format** | **OWL format** | **json format** |**yaml format** |
 |------------------|-------------|-------------|------------|-------------|------------|
 |**GO slim AGR** Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl](http://current.geneontology.org/ontology/subsets/goslim_agr.owl) | [goslim_agr.json](http://current.geneontology.org/ontology/subsets/goslim_agr.json) | [goslim_agr.yaml](http://current.geneontology.org/ontology/subsets/goslim_agr.yaml)|
 |**Generic GO subset** Developed by GO Consortium |[goslim_generic.obo](http://current.geneontology.org/ontology/subsets/goslim_generic.obo)| [goslim_generic.owl](http://current.geneontology.org/ontology/subsets/goslim_generic.owl) | [goslim_generic.json](http://current.geneontology.org/ontology/subsets/goslim_generic.json) | [goslim_generic.yaml](http://current.geneontology.org/ontology/subsets/goslim_generic.yaml)|
