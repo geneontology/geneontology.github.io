@@ -31,4 +31,4 @@ We make new versions available approximately every month.-->
 ## Notifications
 To be notified of the exact release date, you can follow the <a href="https://github.com/geneontology/go-announcements">GitHub go-announcement repository</a>.
 
-If there is something that you need or think we might be reasonably missing, please [contact us](http://help.geneontology.org "contact us"){:target="blank"}.
+If there is something that you need or think we might be reasonably missing, please contact the [GO Helpdesk](http://help.geneontology.org "contact us"){:target="blank"}.
