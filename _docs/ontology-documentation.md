@@ -8,9 +8,10 @@ An ontology is a formal representation of a body of knowledge, within a given do
 
 The Gene Ontology (GO) is an ontology describing our knowledge of the biological domain. The Gene Ontology defines the universe of concepts relating to gene functions (*GO terms*), and how these functions are related to each other (*relations*). The GO describes function with respect to three aspects:
 
-+ **Molecular Function**: molecular-level activities performed by gene products
-+ **Cellular Component**: the locations relative to cellular structures in which a gene product performs a function
-+ **Biological Process**: the larger processes, or ‘biological programs’ accomplished by multiple molecular activities
+|------------------|-------------|
+| **Molecular Function** | Molecular-level activities performed by gene products
+| **Cellular Component** | The locations relative to cellular structures in which a gene product performs a function
+| **Biological Process** | The larger processes, or ‘biological programs’ accomplished by multiple molecular activities
 
 The GO vocabulary is designed to be species-agnostic, and includes terms applicable to prokaryotes and eukaryotes, as well as single and multicellular organisms.
 
