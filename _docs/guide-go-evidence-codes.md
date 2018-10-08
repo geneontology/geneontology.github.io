@@ -7,7 +7,13 @@ permalink: /docs/guide-go-evidence-codes/
 
 A [GO annotation](/docs/go-annotations/) is a statement about the function of a particular gene. Each annotation includes an evidence code to indicate how the annotation to a particular term is supported. 
 
-Manually-assigned evidence codes fall into four general categories: experimental (and experimental from high throughput experiments), computational analysis, author statements, and curatorial statements.
+Manually-assigned evidence codes fall into six general categories: 
+* experimental evidence 
+* phylogenetic evidence
+* computational evidence
+* author statements
+* curatorial statements
+* automatically generated annotations 
 
 
 ## Experimental Evidence codes
@@ -21,10 +27,7 @@ The EXPerimental (EXP) evidence codes indicate that there is evidence from an ex
 - [Inferred from Genetic Interaction (IGI)](http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)){:target="_blank"}
 - [Inferred from Expression Pattern (IEP)](http://wiki.geneontology.org/index.php/Inferred_from_Expression_Pattern_(IEP)){:target="_blank"}
 
-
-## High Throughput (HTP) evidence codes
-
-High throughput (HTP) evidence codes are a type of experimental evidence that indicate that the annotation is supported by high throughput methodologies. Use of HTP evidence codes should be carefully considered and follow the GOC's guidelines for their use. The High Throughput Evidence Codes are:
+Each of the experimental evidence code have a corresponding 'high throughput' evidence code (HTP). HTP are a type of experimental evidence that indicate that the annotation is supported by high throughput methodologies. The High Throughput Evidence Codes are:
 
 - [Inferred from High Throughput Experiment (HTP)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Experiment_(HTP)){:target="_blank"}
 - [Inferred from High Throughput Direct Assay (HDA)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Direct_Assay_(HDA)){:target="_blank"}
