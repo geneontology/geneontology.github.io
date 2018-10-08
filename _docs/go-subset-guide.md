@@ -5,7 +5,9 @@ permalink: /docs/go-subset-guide/
 
 # GO Subset Guide
 
-GO subsets (also known as GO slims) are cut-down versions of the GO ontologies containing a subset of the terms in GO. They give a broad overview of the ontology content without the detail of the specific fine-grained terms.
+## What are GO subsets?
+
+GO subsets (also known as GO slims) are cut-down versions of the GO containing a subset of the terms in GO. They give a broad overview of the ontology content without the detail of the specific fine-grained terms. GO subsets meet specific needs, for example they may be specific to a specific species or to particular areas of biology.
 
 ## How are GO subsets used?
 
@@ -13,7 +15,7 @@ GO subsets are particularly useful for giving a summary of the results of GO ann
 
 ## Who creates and maintains GO subsets?
 
-GO subsets are created by users according to their needs, and may be specific to species or to particular areas of the ontologies. GO provides a generic GO subsets which, like the GO itself, is not species-specific, and which should be suitable for most purposes. Alternatively, users can create their own GO subsets or use one of the model organism-specific subsets integrated into GO. Please email the GO helpdesk for more information about creating and submitting your GO subsets.
+GO subsets are created by [GO consortium menbers](/docs/go-consortium/) and users according to their needs. GO provides a generic GO subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. Alternatively, users can create their own GO subsets or use one of the model organism-specific subsets integrated into GO. Please email the [GO helpdesk](/docs/downloads/) for more information about creating and submitting your GO subsets.
 
 ## GO subsets download
 
