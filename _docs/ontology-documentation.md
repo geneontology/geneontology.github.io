@@ -34,8 +34,7 @@ GO aims to represent the current state of knowledge in biology, hence it is cons
 
 
 ## Details about the ontology
-* [GO Term Elements](/docs/go-term-elements/): the format of GO terms
-* [Ontology Structure](/docs/ontology/): information about the structure of GO terms and the ontology.
-* [Ontology Relations](/docs/ontology-relations/): documentation on the inter-term relations used in GO
+* [GO term elements](/docs/ontology/): Description of the format of GO terms.
+* [Ontology Relations](/docs/ontology-relations/): Documentation on the inter-term relations used in GO.
 
 
