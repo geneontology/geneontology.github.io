@@ -7,7 +7,7 @@ permalink: /docs/guide-go-evidence-codes/
 
 A [GO annotation](/docs/go-annotations/) is a statement about the function of a particular gene. Each annotation includes an evidence code to indicate how the annotation to a particular term is supported. 
 
-Manually-assigned evidence codes fall into six general categories: 
+Evidence codes fall into six general categories: 
 * experimental evidence 
 * phylogenetic evidence
 * computational evidence
