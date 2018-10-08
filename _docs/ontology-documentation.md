@@ -4,10 +4,15 @@ permalink: /docs/ontology-documentation/
 ---
 
 # Gene Ontology Overview
+An ontology is a formal representation of a body of knowledge, within a given domain. Ontologies usually consist of a set of classes or terms with relations that operate between them. 
 
-The Gene Ontology defines the universe of concepts relating to gene functions (‘GO terms’), and how these functions are related to each other (‘relations’). It is constantly revised and expanded as biological knowledge accumulates. The GO describes function with respect to three aspects: **Molecular Function** (molecular-level activities performed by gene products), **Cellular Component** (the locations relative to cellular structures in which a gene product performs a function), and **Biological Process** (the larger processes, or ‘biological programs’ accomplished by multiple molecular activities).
+The Gene Ontology (GO) is an ontology describing our knowledge of the biological domain. The Gene Ontology defines the universe of concepts relating to gene functions (*GO terms*), and how these functions are related to each other (*relations*). The GO describes function with respect to three aspects:
 
-The GO vocabulary is designed to be species-agnostic, and includes terms applicable to prokaryotes and eukaryotes, and single and multicellular organisms.
++ **Molecular Function**: molecular-level activities performed by gene products
++ **Cellular Component**: the locations relative to cellular structures in which a gene product performs a function
++ **Biological Process**: the larger processes, or ‘biological programs’ accomplished by multiple molecular activities
+
+The GO vocabulary is designed to be species-agnostic, and includes terms applicable to prokaryotes and eukaryotes, as well as single and multicellular organisms.
 
 ## Ontologies
 ### Molecular Function
@@ -29,7 +34,7 @@ Note that a biological process is not equivalent to a pathway. At present, the G
 The GO ontology is structured as a directed acyclic graph where each term has defined relationships to one or more other terms in the same domain, and sometimes to other domains. 
 
 ## GO as a dynamic ontology 
-GO aims to represent the current state of knowledge in biology, hence changes are made on a weekly basis (most relatively minor). Revisions to the ontology are managed by a team of ontology editors with extensive experience in both biology and computational knowledge representation. These updates are made collaboratively between the GOC ontology team and scientists who request the updates. Most requests come from scientists making GO annotations (these typically impact only a few terms each), and from domain experts in particular areas of biology (these typically revise an entire ‘branch’ of the ontology comprising many terms and relations). We invite researchers and computational scientists to [submit requests for either new terms, new relations, or any other improvements to the ontology](/docs/contributing-to-go-terms/).
+GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates. Changes are made on a weekly basis (most relatively minor). Revisions to the ontology are managed by a team of ontology editors with extensive experience in both biology and computational knowledge representation. These updates are made collaboratively between the GOC ontology team and scientists who request the updates. Most requests come from scientists making GO annotations (these typically impact only a few terms each), and from domain experts in particular areas of biology (these typically revise an entire ‘branch’ of the ontology comprising many terms and relations). We invite researchers and computational scientists to [submit requests for either new terms, new relations, or any other improvements to the ontology](/docs/contributing-to-go-terms/).
 
 ## Details about the ontologies
 * [Ontology Structure](/docs/ontology/): information about the structure of GO terms and the ontology.
