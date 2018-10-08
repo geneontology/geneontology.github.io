@@ -10,9 +10,11 @@ GO subsets (also known as GO slims) are cut-down versions of the GO ontologies c
 ## How are GO subsets used?
 
 GO subsets are particularly useful for giving a summary of the results of GO annotation of a genome, microarray, or cDNA collection when broad classification of gene product function is required. Some groups annotate to GO subsets that are relevant to their domain of interest, rather than using the full GO.
+
 ## Who creates and maintains GO subsets?
 
 GO subsets are created by users according to their needs, and may be specific to species or to particular areas of the ontologies. GO provides a generic GO subsets which, like the GO itself, is not species-specific, and which should be suitable for most purposes. Alternatively, users can create their own GO subsets or use one of the model organism-specific subsets integrated into GO. Please email the GO helpdesk for more information about creating and submitting your GO subsets.
+
 ## GO subsets available
 
 ## Maintained GO subsets
@@ -41,8 +43,8 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 
 |Usage |	OBO format | OWL format | json format |yaml format |
 |------------------|----------|----------|----------|----------|
-|Do not annotate: the set of high level terms that are useful for grouping, but should have no direct annotations|[goslim_gocheck_do_not_annotate.obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.obo)| [goslim_gocheck_do_not_annotate.owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.owl) | [goslim_gocheck_do_not_annotate.json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.json) | [goslim_gocheck_do_not_annotate.yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.yaml)|
-|Do not manually annotate: the set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools|[goslim_gocheck_do_not_manually_annotate.obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.obo)| [goslim_gocheck_do_not_manually_annotate.owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.owl) | [goslim_gocheck_do_not_manually_annotate.json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.json) | [goslim_gocheck_do_not_manually_annotate.yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.yaml)|
+|**Do not annotate**: the set of high level terms that are useful for grouping, but should have no direct annotations|[goslim.obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.obo)| [goslim.owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.owl) | [goslim.json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.json) | [goslim.yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_annotate.yaml)|
+|**Do not manually annotate**: the set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools|[goslim.obo](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.obo)| [goslim.owl](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.owl) | [goslim.json](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.json) | [goslim.yaml](http://current.geneontology.org/ontology/subsets/goslim_gocheck_do_not_manually_annotate.yaml)|
 
 ## Map2Slim option in OWLTools
 
