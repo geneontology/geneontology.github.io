@@ -22,7 +22,7 @@ A textual description of what the term represents, plus reference(s) to the sour
 
 ### Relationships to other terms
 
-How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an is a sub-class relationship to another term; for example, [GO:1904659:glucose transport](http://amigo.geneontology.org/amigo/term/GO:0015758) is a [GO:0015749:monosaccharide transport](http://amigo.geneontology.org/amigo/term/GO:0015749). The Gene Ontology employs a number of other relations; the [relations documentation](/docs/ontology-relations/) has more information on the relations used in the ontology.
+How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an is a sub-class relationship to another term; for example, [GO:1904659:glucose transport](http://amigo.geneontology.org/amigo/term/GO:0015758) is a [GO:0015749:monosaccharide transport](http://amigo.geneontology.org/amigo/term/GO:0015749). The Gene Ontology employs a number of other relations; the [relations documentation page](/docs/ontology-relations/) describes the relations used in the ontology.
 
 ## Optional elements
 
