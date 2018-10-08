@@ -6,9 +6,19 @@ permalink: /docs/ontology-relations/
 # Relations in the Gene Ontology
 
 ## Overview
-The ontologies of GO are structured as a graph, with *terms* as *nodes* in the graph and the *relations* (also know as *object properties)* between the terms as *edges* (see also the [Gene Ontology Overview](/docs/ontology-documentation/). Just as each GO term is defined, so the relations between GO terms are also categorized and defined. This document provides a description of some of the commonly used relationships in GO: *is a* (is a subtype of); *part of*; has part; *regulates*, *negatively regulates* and *positively regulates*.
 
-All terms (except from the root terms representing each aspect) have an *is a* sub-class relationship to another term; for example, [GO:1904659:glucose transport](http://amigo.geneontology.org/amigo/term/GO:1904659) *is a* [GO:0015749:monosaccharide transport](http://amigo.geneontology.org/amigo/term/GO:0015749). The Gene Ontology employs a number of other relations, including *part of*: for e.g. [GO:0031966:mitochondrial membrane](http://amigo.geneontology.org/amigo/term/GO:0031966) is *part of* [GO:0005740:mitochondrial envelope](http://amigo.geneontology.org/amigo/term/GO:0005740) and *regulates*: for e.g.[GO:0006916:anti-apoptosis](http://amigo.geneontology.org/amigo/term/GO:0006916) *regulates* [GO:0012501:programmed cell death](http://amigo.geneontology.org/amigo/term/GO:0012501).
+The ontologies of GO are structured as a graph, with *terms* as *nodes* in the graph and the *relations* (also known as *object properties)* between the terms as *edges* (more ontology information at [Gene Ontology Overview](/docs/ontology-documentation/)). Just as each GO term is defined, the relations between GO terms are also categorized and defined. This document provides a description of some of the commonly used relationships in GO: *is a* (is a subtype of); *part of*; has part; *regulates*, *negatively regulates* and *positively regulates*.
+
+All terms (except from the root terms representing each aspect) have an *is a* sub-class relationship to another term; for example, 
+>[GO:1904659:glucose transport](http://amigo.geneontology.org/amigo/term/GO:1904659) *is a* [GO:0015749:monosaccharide transport](http://amigo.geneontology.org/amigo/term/GO:0015749).
+
+The Gene Ontology employs a number of other relations, including *part of*, e.g. 
+
+ >[GO:0031966:mitochondrial membrane](http://amigo.geneontology.org/amigo/term/GO:0031966) is *part of* [GO:0005740:mitochondrial envelope](http://amigo.geneontology.org/amigo/term/GO:0005740)
+ 
+ and *regulates*, e.g: 
+ 
+ >[GO:0006916:anti-apoptosis](http://amigo.geneontology.org/amigo/term/GO:0006916) *regulates* [GO:0012501:programmed cell death](http://amigo.geneontology.org/amigo/term/GO:0012501)
 
 This set is not exhaustive and includes only a subset of relations used in the GO ontologies, logical definitions and annotations. For more technical information about relations and their properties used in GO and other ontologies see the [OBO Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="_blank"}.
 
@@ -16,7 +26,7 @@ This set is not exhaustive and includes only a subset of relations used in the G
 
 Relations are widely used by GO browsing tools such as [AmiGO](http://amigo.geneontology.org/amigo){:target="_blank"} and [QuickGO](https://www.ebi.ac.uk/QuickGO){:target="_blank"} and in over-representation analysis to group related GO annotations. For example, the annotations on the [AmiGO page for kinase activity](http://amigo.geneontology.org/amigo/term/GO:0016301){:target="_blank"} include annotations made to '[fucokinase activity](http://amigo.geneontology.org/amigo/term/GO:0050201){:target="_blank"}', '[protein kinase activity](http://amigo.geneontology.org/amigo/term/GO:0004672){:target="_blank"}' etc. Note that not all relations can be safely used to group annotations via the GO graph. Please see below for notes and examples illustrating when and why grouping of annotations via relationships can be done safely.
 
-## Conventions used in the documentation
+## Conventions used to describe relations
 There are a number of ways of referring to and representing logical relations. The GO relations documentation uses the following conventions (in keeping with the graph-based terminology):
 
 +  A **node** refers to a GO term
