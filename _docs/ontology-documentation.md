@@ -9,27 +9,14 @@ An ontology is a formal representation of a body of knowledge, within a given do
 The Gene Ontology (GO) is an ontology describing our knowledge of the biological domain. The Gene Ontology defines the universe of concepts relating to gene functions (*GO terms*), and how these functions are related to each other (*relations*). The GO describes function with respect to three aspects:
 
 |------------------|-------------|
-| **Molecular Function** | Molecular-level activities performed by gene products
-| **Cellular Component** | The locations relative to cellular structures in which a gene product performs a function
-| **Biological Process** | The larger processes, or ‘biological programs’ accomplished by multiple molecular activities
-
-The GO vocabulary is designed to be species-agnostic, and includes terms applicable to prokaryotes and eukaryotes, as well as single and multicellular organisms.
-
-## Ontologies
-### Molecular Function
-Molecular function terms describes activities that occur at the molecular level, such as "catalytic activity" or "binding". GO molecular function terms represent activities rather than the entities (molecules or complexes) that perform the actions, and do not specify where, when, or in what context the action takes place. Molecular functions generally correspond to activities that can be performed by individual gene products, but some activities are performed by complexes of gene products. Examples of broad functional terms are "catalytic activity" and "transporter activity"; examples of narrower functional terms are "adenylate cyclase activity" or "Toll-like receptor binding".
-
-To avoid confusion between gene product names and their molecular functions, GO molecular functions are often appended with the word "activity" (a *protein kinase* would have the GO molecular function *protein kinase activity*).
-
-### Cellular Component
-Cellular Component terms describe a location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which biologists describe locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome). Unlike the other aspects of GO, cellular component concepts refer not to processes but rather a cellular anatomy.
-
-### Biological Process
-A biological process term describes a series of events accomplished by one or more organized assemblies of molecular functions. Examples of broad biological process terms are "DNA repair" or "signal transduction". Examples of more specific terms are "pyrimidine metabolic process" or "alpha-glucoside transport". The general rule to assist in distinguishing between a biological process and a molecular function is that a process usually has more than one distinct steps.
+| **Molecular Function** | Molecular-level activities performed by gene products. Molecular function terms describes activities that occur at the molecular level, such as "catalytic activity" or "binding". GO molecular function terms represent activities rather than the entities (molecules or complexes) that perform the actions, and do not specify where, when, or in what context the action takes place. Molecular functions generally correspond to activities that can be performed by individual gene products, but some activities are performed by complexes of gene products. Examples of broad functional terms are "[catalytic activity](http://amigo.geneontology.org/amigo/term/GO:0003824)" and "[transporter activity](http://amigo.geneontology.org/amigo/term/GO:0005215)"; examples of narrower functional terms are "[adenylate cyclase activity](http://amigo.geneontology.org/amigo/term/GO:0004016)" or "[Toll-like receptor binding](http://amigo.geneontology.org/amigo/term/GO:0035325)". To avoid confusion between gene product names and their molecular functions, GO molecular functions are often appended with the word "activity" (a *protein kinase* would have the GO molecular function *protein kinase activity*).
+| **Cellular Component** | The locations relative to cellular structures in which a gene product performs a function, either cellular compartments (e.g., [mitochondrion](http://amigo.geneontology.org/amigo/term/GO:0005739)), or  stable macromolecular complexes of which they are parts (e.g., the [ribosome](http://amigo.geneontology.org/amigo/term/GO:0005840)). Unlike the other aspects of GO, cellular component concepts refer not to processes but rather a cellular anatomy.
+| **Biological Process** | The larger processes, or ‘biological programs’ accomplished by multiple molecular activities. Examples of broad biological process terms are "[DNA repair](http://amigo.geneontology.org/amigo/term/GO:0006281)" or "[signal transduction](http://amigo.geneontology.org/amigo/term/GO:0007165)". Examples of more specific terms are "pyrimidine nucleobase biosynthetic process(http://amigo.geneontology.org/amigo/term/GO:0019856)" or "[glucose transmembrane transport](http://amigo.geneontology.org/amigo/term/GO:1904659)". Note that a biological process is not equivalent to a pathway. At present, the GO does not try to represent the dynamics or dependencies that would be required to fully describe a pathway.
 
 In an example of GO annotation, the gene product "cytochrome c" can be described by the *molecular function* "oxidoreductase activity", the *biological process* term "oxidative phosphorylation", and the *cellular component* "mitochondrial matrix".
 
-Note that a biological process is not equivalent to a pathway. At present, the GO does not try to represent the dynamics or dependencies that would be required to fully describe a pathway.
+The GO vocabulary is designed to be species-agnostic, and includes terms applicable to prokaryotes and eukaryotes, as well as single and multicellular organisms.
+
 
 ## The GO hierarchy
 The GO ontology is structured as a directed acyclic graph where each term has defined relationships to one or more other terms in the same domain, and sometimes to other domains. 
