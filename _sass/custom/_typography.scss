@@ -1,0 +1,61 @@
+h1 {
+    color: royalblue;
+}
+
+a {
+  border: none !important;
+}
+
+a:not(.btn):not(.list-group-item) {
+    color: $color-primary;
+    text-decoration: none !important;
+    display: inline-block;
+    position: relative;
+}
+
+a:not(.btn):not(.list-group-item):after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: $color-primary;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:not(.btn):not(.list-group-item):hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.btn {
+  border-radius: calc(8px + 1.5vw) calc(.5vw);
+  outline: none !important;
+  transition: all 0.3s;
+
+  &:hover {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px);
+  }
+
+  &:focus {
+    border: none;
+  }
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+}
+
+.tt-input {
+  border-radius: 25px;
+}
+
+// .panel-heading {
+//     background: linear-gradient(150deg, #9ba4d8, rgba(16, 122, 222, 0.5) 100%);
+//     border-radius: 5px;
+// }
+

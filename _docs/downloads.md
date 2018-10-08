@@ -2,6 +2,7 @@
 title: Downloads Overview
 permalink: /docs/downloads/
 ---
+
 # Downloads Overview
 GO releases official versions on a monthly basis.  The links below provide the latest version of files in the format specified.
 

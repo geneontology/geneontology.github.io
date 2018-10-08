@@ -1,0 +1,61 @@
+.u-vertical-bar-left {
+    border-left: 5px solid royalblue;
+    margin-right: 1rem;
+}
+
+.u-background-gradient-primary {
+    background: linear-gradient(150deg, #00158c, rgba(16, 122, 222, 0.5) 100%) !important;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+
+    &:hover {
+        color:white;
+    }
+
+    &:focus {
+        color:white;
+    }
+        
+}
+
+.u-background-gradient-secondary {
+    background: linear-gradient(150deg, #ca113b, rgba(189, 50, 80, 0.5) 100%) !important;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+
+    &:hover {
+        color:white;
+    }
+
+    &:focus {
+        color:white;
+    }
+
+}
+
+.u-background-gradient-tertiary {
+    background: linear-gradient(150deg, #21A179, rgba(09, 200, 0, 0.5) 100%) !important;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+
+    &:hover {
+        color:white;
+    }
+
+    &:focus {
+        color:white;
+    }
+
+}
+
+.u-background-gradient-quaternary {
+    background: linear-gradient(150deg, #dab61a, rgba(253, 253, 131, 0.5) 100%) !important;
+    color: black !important;
+    text-shadow: 1px 1px 1px rgba(13, 216, 57, 0.5);
+
+//    text-shadow: none !important;
+}
+
+.u-no-transform:hover {
+    transform: none !important;
+}
