@@ -11,6 +11,7 @@ Manually-assigned evidence codes fall into four general categories: experimental
 
 
 ## Experimental Evidence codes
+
 The EXPerimental (EXP) evidence codes indicate that there is evidence from an experiment directly supporting the annotation of the gene. For example, an association between a gene product and its subcellular localization as determined by immunofluorescence would be supported by the Inferred from Direct Assay (IDA) evidence code, a subtype of EXP evidence. Use of an experimental evidence code in a GO annotation indicates that the cited paper displayed results from a physical characterization of a gene or gene product that has supported the association of a GO term. The Experimental Evidence codes are:
 
 - [Inferred from Experiment (EXP)](http://wiki.geneontology.org/index.php/Inferred_from_Experiment_(EXP)){:target="_blank"}
@@ -32,6 +33,7 @@ High throughput (HTP) evidence codes are a type of experimental evidence that in
 - [Inferred from High Throughput Expression Pattern (HEP)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Expression_Pattern_(HEP)){:target="_blank"}
 
 ## Phylogenetically-inferred annotations
+
 Phylogenetic principles, reconstructing evolutionary events to infer relationships among genes, provide a powerful way to gain insight into gene function. The GOC has supported a dedicated [Phylogenetic Annotation effort](https://www.ncbi.nlm.nih.gov/pubmed/21873635){:target="_blank"} since 2008.
 
 Phylogenetically-based annotations are derived from an explicit model of gain and loss of gene function at specific branches in a phylogenetic tree. Each inferred annotation can be traced to the direct experimental annotations that were used as the basis for that assertion. The GO Phylogenetic Annotation project is now the largest source of manually reviewed annotations in the GO knowledgebase, and it has substantially increased the number of annotations even in organisms that have been well-studied experimentally.
@@ -67,8 +69,8 @@ Use of the curatorial statement evidence codes indicates an annotation made on t
 - [No biological Data available (ND)](http://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code){:target="_blank"}
 
 ## Electronic Annotation evidence code
-‘Electronic’ (IEA) annotation are not individually reviewed (although the method itself is usually subjected to various quality assessments). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to an experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is [InterPro2GO](https://www.ncbi.nlm.nih.gov/pubmed/27899635){:target="_blank"}, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (including Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
-+ Out of all the evidence codes available, only Inferred from Electronic Annotation (IEA) is not assigned by a curator. 
+
+‘Electronic’ (IEA) annotation are not manually reviewed (although the method itself is usually subjected to various quality assessments). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to an experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is [InterPro2GO](https://www.ncbi.nlm.nih.gov/pubmed/27899635){:target="_blank"}, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (including Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
 
 - [Inferred from Electronic Annotation (IEA)](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)){:target="_blank"}
 
