@@ -20,13 +20,13 @@ Manually-assigned evidence codes fall into six general categories:
 
 The EXPerimental (EXP) evidence codes indicate that there is evidence from an experiment directly supporting the annotation of the gene. For example, an association between a gene product and its subcellular localization as determined by immunofluorescence would be supported by the Inferred from Direct Assay (IDA) evidence code, a subtype of EXP evidence. Use of an experimental evidence code in a GO annotation indicates that the cited paper displayed results from a physical characterization of a gene or gene product that has supported the association of a GO term. The Experimental Evidence codes are:
 
-|------------------|
-|[Inferred from Experiment (EXP)](http://wiki.geneontology.org/index.php/Inferred_from_Experiment_(EXP)){:target="_blank"}|
-|[Inferred from Direct Assay (IDA)](http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)){:target="_blank"}|
-|[Inferred from Physical Interaction (IPI)](http://wiki.geneontology.org/index.php/Inferred_from_Physical_Interaction_(IPI)){:target="_blank"}|
-|[Inferred from Mutant Phenotype (IMP)](http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)){:target="_blank"}|
-|[Inferred from Genetic Interaction (IGI)](http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)){:target="_blank"}|
-|[Inferred from Expression Pattern (IEP)](http://wiki.geneontology.org/index.php/Inferred_from_Expression_Pattern_(IEP)){:target="_blank"}|
+
+* [Inferred from Experiment (EXP)](http://wiki.geneontology.org/index.php/Inferred_from_Experiment_(EXP)){:target="_blank"}
+* [Inferred from Direct Assay (IDA)](http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)){:target="_blank"}
+* [Inferred from Physical Interaction (IPI)](http://wiki.geneontology.org/index.php/Inferred_from_Physical_Interaction_(IPI)){:target="_blank"}
+* [Inferred from Mutant Phenotype (IMP)](http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)){:target="_blank"}
+* [Inferred from Genetic Interaction (IGI)](http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)){:target="_blank"}
+* [Inferred from Expression Pattern (IEP)](http://wiki.geneontology.org/index.php/Inferred_from_Expression_Pattern_(IEP)){:target="_blank"}
 
 Each of the experimental evidence code have a corresponding 'high throughput' evidence code (HTP). HTP are a type of experimental evidence that indicate that the annotation is supported by high throughput methodologies. The High Throughput Evidence Codes are:
 
