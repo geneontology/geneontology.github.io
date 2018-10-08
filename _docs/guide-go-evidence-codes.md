@@ -68,10 +68,8 @@ Use of the curatorial statement evidence codes indicates an annotation made on t
 
 ## Electronic Annotation evidence code
 ‘Electronic’ (IEA) annotation are not individually reviewed (although the method itself is usually subjected to various quality assessments). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to an experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is [InterPro2GO](https://www.ncbi.nlm.nih.gov/pubmed/27899635){:target="_blank"}, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (including Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
++ Out of all the evidence codes available, only Inferred from Electronic Annotation (IEA) is not assigned by a curator. 
 
 - [Inferred from Electronic Annotation (IEA)](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)){:target="_blank"}
 
 
-## Evidence code usage
-+ A single evidence code is allowed per annotation line in the [annotation files](/docs/go-annotation-file-gaf-format-21/). If a reference describes multiple methods that each provide evidence to make a GO annotation to a particular term, then multiple annotations with identical GO identifiers and reference identifiers but different evidence codes may be made.
-+ Out of all the evidence codes available, only Inferred from Electronic Annotation (IEA) is not assigned by a curator. 
