@@ -17,12 +17,13 @@ This set is not exhaustive and includes only a subset of relations used in the G
 Relations are widely used by GO browsing tools such as [AmiGO](http://amigo.geneontology.org/amigo){:target="_blank"} and [QuickGO](https://www.ebi.ac.uk/QuickGO){:target="_blank"} and in over-representation analysis to group related GO annotations. For example, the annotations on the [AmiGO page for kinase activity](http://amigo.geneontology.org/amigo/term/GO:0016301){:target="_blank"} include annotations made to '[fucokinase activity](http://amigo.geneontology.org/amigo/term/GO:0050201){:target="_blank"}', '[protein kinase activity](http://amigo.geneontology.org/amigo/term/GO:0004672){:target="_blank"}' etc. Note that not all relations can be safely used to group annotations via the GO graph. Please see below for notes and examples illustrating when and why grouping of annotations via relationships can be done safely.
 
 ## Conventions used in the documentation
-There are a number of ways of referring to and representing logical relations. The GO relations documentation uses the following conventions:
+There are a number of ways of referring to and representing logical relations. The GO relations documentation uses the following conventions (in keeping with the graph-based terminology):
 
-+ in keeping with the graph-based terminology, node is used to refer to GO terms
-+ where it is appropriate to talk about a parent-child relationship between nodes, parent refers to the node closer to the root(s) of the graph, and child to that closer to the leaf nodes; for the relations is_a and part_of the parent would be a broader GO term, and the child would be a more specific term;
-+ the arrowhead indicates the direction of the relationship;
-+ dotted lines represent an inferred relationship, i.e. one that has not been expressly stated.
++  A **node** refers to a GO term
++  A **parent** refers to the node closer to the root(s) of the graph, and a **child** to that closer to the leaf nodes; for the relations *is_a* and *part_of*, the parent would be a broader GO term, and the child would be a more specific term
++ The **arrowhead** indicates the direction of the relationship
++ **Dotted lines** represent an inferred relationship, i.e. one that has not been expressly stated in the ontology.
+<!-- do people ever see these ? -->
 
 This diagram would be interpreted as follows:
 
