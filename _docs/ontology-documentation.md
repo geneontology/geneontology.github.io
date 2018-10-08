@@ -4,7 +4,7 @@ permalink: /docs/ontology-documentation/
 ---
 
 # Gene Ontology Overview
-An ontology is a formal representation of a body of knowledg, within a given domain. Ontologies usually consist of a set of classes (or terms or concepts) with [relations](/docs/ontology-relations/) that operate between them. The Gene Ontology (GO) is an ontology describing our knowledge of the biological domain. The GO describes function with respect to three aspects:
+An ontology is a formal representation of a body of knowledge within a given domain. Ontologies usually consist of a set of classes (or terms or concepts) with [relations](/docs/ontology-relations/) that operate between them. The Gene Ontology (GO) is an ontology describing our knowledge of the biological domain. The GO describes function with respect to three aspects:
 
 
 |------------------|-------------|
