@@ -31,18 +31,18 @@ The legacy MySQL database dumps, from start to final generation, are available a
 
 <a href="http://archive.geneontology.org/lite/">http://archive.geneontology.org/lite</a>
 
-<a href="http://archive.geneontology.org/full/">http://archive.geneontology.org/lite</a>
-
 ## Deprecated annotation formats
 
 +  [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-20/) 
 +  GO Annotation File Format 1.0 was deprecated in June 2010. 
 
 ## Databases and schemas
+
 + MySQL database dumps are no longer being produced. 
 
 
 ## Repositories 
+
 + <a href="http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/">CVS repository</a>
 + <a href="ftp://ftp.geneontology.org/pub/go/">FTP site</a>
 
