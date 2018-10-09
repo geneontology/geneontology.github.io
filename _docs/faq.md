@@ -11,7 +11,7 @@ FAQ tags: 
 
 [ontology](/faq-tags/ontology)
 
-GO IDs are unique identifiers, however, they do not encode any information about a term or its position relative to other terms in the tree.
+GO IDs are unique identifiers, however, they do not encode any information about a term or its position relative to other terms in the tree. See [more about GO terms](/docs/ontology/).
 
 [How do I use GO's Term Enrichment tool?](/faq/how-do-i-use-gos-term-enrichment-tool)
 -------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ FAQ tags: 
 
 One of the main uses of the GO is to perform enrichment analysis on gene sets. For example, given a set of genes that are up-regulated under certain conditions, an enrichment analysis will find which GO terms are over-represented (or under-represented) using annotations for that gene set.
 
-Users can perform enrichment analyses directly from the [home page of the GOC website](http://geneontology.org/). Details about the tool, how to use it, and how to interpret the results are available from the [GO Enrichment Analysis page](http://geneontology.org/page/go-enrichment-analysis).
+Users can perform enrichment analyses directly from the [home page of the GOC website](http://geneontology.org/). Details about the tool, how to use it, and how to interpret the results are available from the [GO Enrichment Analysis page](/docs/go-enrichment-analysis/).
 
 [How do I find the annotations (mappings) for Entrez, NCBI or other IDs?](/faq/how-do-i-find-annotations-mappings-entrez-ncbi-or-other-ids)
 -------------------------------------------------------------------------------------------------------------------------------------------
@@ -41,8 +41,6 @@ UniProt and PIR have similar ID mapping tools to help with the conversion:
 -   <http://pir.georgetown.edu/pirwww/search/idmapping.shtml>
 
 GO annotations from QuickGO can be filtered for many parameters and provide mappings to several ID, e.g NCBI or Ensembl gene IDs: <http://www.ebi.ac.uk/QuickGO/GAnnotation>
-
-The GO website has a list of taxa and authoritative database groups: <http://www.geneontology.org/GO.annotation.species_db.shtml>
 
 [How can I calculate the "level" of a GO term?](/faq/how-can-i-calculate-level-go-term)
 ---------------------------------------------------------------------------------------
