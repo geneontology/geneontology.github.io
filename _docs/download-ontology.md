@@ -13,7 +13,7 @@ permalink: /docs/download-ontology/
 ## Gene Ontology formats
 
 + OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. 
-+ OWL files can be opened with [Protégé](https://protege.stanford.edu/).
++ OWL files can be opened with [Protégé](https://protege.stanford.edu/){:target="blank"}.
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
