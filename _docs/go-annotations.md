@@ -19,7 +19,6 @@ An association with a gene or gene product product and a GO term is a statement 
 + Molecular Function: the molecular activities of gene products 
 + Cellular Component: where gene products are active
 + Biological Process: pathways and larger processes made up of the activities of molecular multiple gene products
-
 + **Note that GO annotations intend to capture the normal, in vivo biological role of genes or gene products**. 
 
 <!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
