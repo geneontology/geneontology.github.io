@@ -24,11 +24,11 @@ permalink: /docs/download-ontology/
 
 ## go-basic.obo
 
-This is the basic version of the GO filtered such that the graph is guaranteed to be acyclic, and annotations can be propagated up the graph. The relations included are is_a, part_of, regulates, negatively_regulates and positively_regulates. This version excludes relationships that cross the 3 GO hierarchies. This is the version that should be used with most GO-based annotation tools.
+This is the basic version of the GO filtered such that the graph is guaranteed to be acyclic, and annotations can be propagated up the graph. The relations included are *is_a*, *part_of*, *regulates*, *negatively_regulates* and *positively_regulates*. This version excludes relationships that cross the 3 GO hierarchies. This is the version that should be used with most GO-based annotation tools.
 
 ## go.obo and go.owl
 
-These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. This view includes relationships not in the filtered version of GO including has_part and occurs_in. Many of these relationships may not be safe for propagating annotations across, so this version should not be used with legacy GO tools. This version excludes relationships to external ontologies.
+These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. This view includes relationships not in the filtered version of GO including *has_part* and *occurs_in*. Many of these relationships may not be safe for propagating annotations across, so this version should not be used with legacy GO tools. This version excludes relationships to external ontologies.
 
 ## go-plus.owl
 
