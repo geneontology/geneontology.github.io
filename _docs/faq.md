@@ -28,19 +28,20 @@ Users can perform enrichment analyses directly from the [home page of the GOC we
 [How do I find the annotations (mappings) for Entrez, NCBI or other IDs?](/faq/how-do-i-find-annotations-mappings-entrez-ncbi-or-other-ids)
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I find the annotations (mappings) for Entrez, NCBI or other IDs?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I find the annotations (mappings) if I have a list of Entrez, NCBI or other IDs?"></span>
 FAQ tags: 
 
 [mappings](/faq-tags/mappings)
+[analysis](/faq-tags/analysis)
 
-The list of e.g. Entrez IDs, NCBI IDs, should be converted to UniProtKB or model organism database IDs, and those IDs used to search the GO database.
+In order to search the GO database, a list of Entrez IDs, NCBI IDs, etc. needs to be converted to UniProtKB or model organism database IDs.
 
-UniProt and PIR have similar ID mapping tools to help with the conversion:
+UniProt and the [Protein Information Resource (PIR)](https://pir.georgetown.edu/pirwww/index.shtml){:target="blank"} have similar ID mapping tools to help with the conversion:
 
 -   <http://www.uniprot.org/uploadlists/>
 -   <http://pir.georgetown.edu/pirwww/search/idmapping.shtml>
 
-GO annotations from QuickGO can be filtered for many parameters and provide mappings to several ID, e.g NCBI or Ensembl gene IDs: <http://www.ebi.ac.uk/QuickGO/GAnnotation>
+GO annotations from QuickGO can be filtered for many parameters and provide mappings to several IDs, e.g NCBI or Ensembl gene IDs: <http://www.ebi.ac.uk/QuickGO/GAnnotation>
 
 [How can I calculate the "level" of a GO term?](/faq/how-can-i-calculate-level-go-term)
 ---------------------------------------------------------------------------------------
@@ -50,13 +51,9 @@ FAQ tags: 
 
 [ontology](/faq-tags/ontology)
 
-GO terms do not occupy strict fixed levels in the hierarchy. Because GO is structured as a graph, terms would appear at different 'levels' if different paths were followed through the graph. This is especially true if one mixes the different relations used to connect terms. Thus it is more proper to ask: "what is the maximum depth of such and such a term" (or minimum, average, etc.).
+GO terms do not occupy strict fixed levels in the hierarchy. Because GO is structured as a graph, terms would appear at different 'levels' if different paths were followed through the graph. This is especially true if one mixes the different relations used to connect terms. 
 
-We do not pre-generate reports showing this. If you genuinely want this information you can perform [SQL queries](http://amigo.geneontology.org/goose)on our database to get it. See [this example](http://wiki.geneontology.org/index.php/Example_Queries#Query_by_distance_to_root).
-
-But you may want to reconsider whether you want this information at all! The (maximum) depth of a term may not be as informative as you think.
-
-A more informative metric would be the information content of the node based on annotations. See, for example, the work of [Alterovitz et al.](http://nar.oxfordjournals.org/content/35/suppl_1/D322.abstract).
+A more informative metric would be the information content of the node based on annotations. See, for example, the work of [Alterovitz et al.](http://nar.oxfordjournals.org/content/35/suppl_1/D322.abstract){:target="blank"}.
 
 [What is an OWL file?](/faq/what-owl-file)
 ------------------------------------------
@@ -68,12 +65,12 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-OWL is the acronym for Web Ontology Language, a standard produced by the W3C. GO in OWL is based on a translation from OBO to OWL and is available for download [here.](http://www.geneontology.org/ontology/go.owl) OWL files can be opened in an editing tool such as [Protege](http://protege.stanford.edu/).
+OWL is the acronym for Web Ontology Language, a standard produced by the W3C. GO in OWL is based on a translation from OBO to OWL and is available for download [here.](/docs/download-ontology/) OWL files can be opened in an editing tool such as [Protege](http://protege.stanford.edu/){:target="blank"}.
 
 [What is the best way to obtain the GO annotations for a list of UniProt Accession Numbers in batch?](/faq/what-best-way-obtain-go-annotations-list-uniprot-accession-numbers-batch)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span class="rdf-meta element-hidden" property="dc:title" content="What is the best way to obtain the GO annotations for a list of UniProt Accession Numbers in batch?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="What is the best way to obtain the GO annotations for a list of UniProt accessions in batch?"></span>
 FAQ tags: 
 
 [annotation](/faq-tags/annotation)
@@ -90,14 +87,14 @@ The GOA project offers users a number of different files; for example:
 -   [human proteins](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/gene_association.goa_human.gz)
 -   if you were only interested in proteins from a particular species, we also provide non-redundant, species-specific files for human, mouse, rat, zebrafish, chicken, cow and Arabidopsis proteins (these files are created using the International Protein Index (IPI) - which provides a top level guide to the main databases that describe the proteomes of higher eukaryotic organisms)
 
-Further information on the content and format of our gene association files can be found in the [ReadMe](http://www.ebi.ac.uk/GOA/goaHelp.html).
+Further information on the content and format of our gene association files can be found in the [ReadMe](http://www.ebi.ac.uk/GOA/goaHelp.html){:target="blank"}.
 
 Please contact [GOA help](mailto:goa@ebi.ac.uk) for further assistance.
 
 [How do I map a set of annotations to high level GO terms (GO slim)?](/faq/how-do-i-map-set-annotations-high-level-go-terms-go-slim)
 ------------------------------------------------------------------------------------------------------------------------------------
 
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I  map a set of annotations to high level GO terms (GO slim)?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I  map a set of gene products or annotations to high level GO terms (GO slim)?"></span>
 FAQ tags: 
 
 [analysis](/faq-tags/analysis)
@@ -108,15 +105,15 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-To map a set of annotations to high level GO terms (GO slim) you use the [Map2Slim](https://github.com/owlcollab/owltools/wiki/Map2Slim) option in OWLTools.
+[go_slim](/faq-tags/go_slim)
 
-Given a GO slim file, and a current ontology (in one or more files), the Map2Slim script will map a gene association file (containing annotations to the full GO) to the terms in the GO slim. This script is an option of OWLTools, and it can be used to either create a new gene association file, which contains the most pertinent GO slim accessions, or in count-mode, in which case it will give distinct gene product counts for each slim term.
+* One way to map your list of accessions to high level GO terms (a GO slim) is to use [GO Term Mapper]https://go.princeton.edu/cgi-bin/GOTermMapper.  You can select the aspect (Molecular Function, Biological Process, or Cellular Component) as well as if you want to map to a generic slim, or one curated for your organism (for example, the *S. cerevisiae* slim omits terms applicable only to plants or bacteria).
+
+* In order to map  your annotations to a GO slim, use the [Map2Slim](https://github.com/owlcollab/owltools/wiki/Map2Slim){:target="blank"} option in OWLTools. Given a GO slim file, and a current ontology (in one or more files), the Map2Slim script will map a gene association file (containing annotations to the full GO) to the terms in the GO slim. This script is an option of OWLTools, and it can be used to either create a new gene association file, which contains the most pertinent GO slim accessions, or in count-mode, in which case it will give distinct gene product counts for each slim term.
 
 Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the OWLTools Wiki at <https://github.com/owlcollab/owltools/wiki/Map2Slim>.
 
-Details on the [GO Slim and the GO Prokaryotic Subset](http://geneontology.org/page/go-slim-and-subset-guide) are available from our documentation pages.
-
-Additional details about the GO database and how to query it are available from our documentation pages at the [legacy database guide](http://geneontology.org/page/lead-database-guide).
+Read more or download the [GO slims here](/docs/go-subset-guide/).
 
 [What is OBO file format?](/faq/what-obo-file-format)
 -----------------------------------------------------
@@ -128,7 +125,7 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-The OBO file format is one of the formats that the Gene Ontology is made available in. The most recent version is [OBO 1.2](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_2.html). The OBO format is designed to be more human readable than XML based formats. GO can be accessed in this format [here](http://geneontology.org/page/download-ontology).
+The OBO file format is one of the formats that the Gene Ontology is made available in. The most recent version is [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"}. The OBO format is designed to be more human readable than XML based formats. GO can be accessed in this format [here](/docs/download-ontology/).
 
 [What are the advantages and disadvantages of manual annotation?](/faq/what-are-advantages-and-disadvantages-manual-annotation)
 -------------------------------------------------------------------------------------------------------------------------------
@@ -138,7 +135,8 @@ FAQ tags: 
 
 [annotation](/faq-tags/annotation)
 
-The most reliable annotations are those made manually by database curators based on primary and review literature. Manual annotations often cite experimental evidence that provides strong support for the association of a GO term with a gene product, and can be done at a very detailed level. The chief disadvantage of manual annotation is that it is labor-intensive, requiring a lot of time and effort from trained biologists.
+The most reliable annotations are those made manually by database curators based on primary and occasionally on review literature. Manual annotations usually cite experimental evidence that provides strong support for the association of a GO term with a gene product, and can be done at a very detailed level. 
+The chief disadvantage of manual annotation is that it is labor-intensive, requiring a lot of time and effort from trained biologists.
 
 [What is the best way to obtain the GO annotations for a list of Ensembl IDs in batch?](/faq/what-best-way-obtain-go-annotations-list-ensembl-ids-batch)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -150,7 +148,7 @@ FAQ tags: 
 
 [downloads](/faq-tags/downloads)
 
-You can do this using QuickGO ([www.ebi.ac.uk/QuickGO](http://www.ebi.ac.uk/QuickGO)).
+You can do this using QuickGO ([www.ebi.ac.uk/QuickGO](http://www.ebi.ac.uk/QuickGO){:target="blank"}).
 1.  Click on the 'Search and filter GO annotation sets' link, which will take you to a table of all annotations in the GOA database. You now have to filter this set on your gene IDs.
 2.  Click on 'Filter' in the top right toolbar, select the 'Gene Product ID' tab and then paste your Ensembl gene IDs into the text box, line separated.
 3.  Then click on submit. It takes a while but the result is a table of annotations for your gene IDs. However, they will have been mapped back to UniProt accessions.
@@ -171,7 +169,9 @@ FAQ tags: 
 
 [third-party tools](/faq-tags/third-party-tools)
 
-You can annotate the coding sequences in your transcripts using InterProScan. You can do this using WebServices or by downloading the tool and running it locally. Details can be found at: <http://www.ebi.ac.uk/interpro/search/sequence-search/>
+- UniProt automatically processes all accepted coding sequences through the InterPro2GO pipeline.  We recommend waiting for these annotations (IEA, Inferred from Electronic Annotation) for novel proteins unless manual annotations will be made by your group.
+
+- You can annotate the coding sequences in your transcripts using InterProScan. You can do this using WebServices or by downloading the tool and running it locally. Details can be found at: <http://www.ebi.ac.uk/interpro/search/sequence-search/>
 
 This will predict GO terms based on domains detected using the mapping file here: <http://geneontology.org/page/download-mappings>
 
