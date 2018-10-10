@@ -24,7 +24,7 @@ permalink: /docs/download-ontology/
 
 ## go-basic.obo
 
-This is the basic version of the GO filtered such that the graph is guaranteed to be acyclic, and annotations can be propagated up the graph. The relations included are *is_a*, *part_of*, *regulates*, *negatively_regulates* and *positively_regulates*. This version excludes relationships that cross the 3 GO hierarchies. This is the version that should be used with most GO-based annotation tools.
+This is the basic version of the GO filtered such that the graph is guaranteed to be acyclic, and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This is the version that should be used with most GO-based annotation tools.
 
 ## go.obo and go.owl
 
@@ -32,7 +32,7 @@ These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. Th
 
 ## go-plus.owl
 
-This is the fully axiomatised of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [cell ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/).
+This is the fully axiomatised of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [cell ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/) format.
 
 ## Subsets
 
