@@ -41,7 +41,7 @@ An association with a gene or gene product product and a GO term is a statement 
 
 ### The *colocalizes with* qualifier
 
-*Colocalizes with* appears in a GO annotation to indicate a transient or peripheral association of the protein with an organelle or complex. This qualifier may also be used in cases where the resolution of an assay is not accurate enough to say that the gene product is a bona fide component member. Example (from *Schizosaccharomyces pombe*): Clp1p relocalizes from the nucleolus to the spindle and site of cell division; i.e. it is associated transiently with the spindle pole body and the contractile ring (evidence from GFP fusion). Clp1p is annotated to spindle pole body ; GO:0005816 and contractile ring ; GO:0005826, using the *colocalizes with* qualifier in both cases. 
+*Colocalizes with* appears in a GO annotation to indicate a transient or peripheral association of the protein with an organelle or complex. This qualifier may also be used in cases where the resolution of an assay is not accurate enough to say that the gene product is a bona fide component member. Example (from *Schizosaccharomyces pombe*): Clp1p relocalizes from the nucleolus to the spindle and site of cell division; i.e. it is associated transiently with the spindle pole body and the contractile ring (evidence from GFP fusion). Clp1p is annotated to [GO:0005816:spindle pole body](http://amigo.geneontology.org/amigo/term/GO:0005816) and [GO:0005826:contractile ring](http://amigo.geneontology.org/amigo/term/GO:0005826), using the *colocalizes with* qualifier in both cases. 
 
 <!-- ????-->
 ## Annotation extensions
