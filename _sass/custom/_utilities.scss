@@ -7,6 +7,7 @@
     background: linear-gradient(150deg, #00158c, rgba(16, 122, 222, 0.5) 100%) !important;
     color: white;
     text-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 9px black;
 
     &:hover {
         color:white;
@@ -14,6 +15,10 @@
 
     &:focus {
         color:white;
+    }
+
+    &:active {
+        transform: translateY(-5px);
     }
         
 }
@@ -22,6 +27,7 @@
     background: linear-gradient(150deg, #ca113b, rgba(189, 50, 80, 0.5) 100%) !important;
     color: white;
     text-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 9px black;
 
     &:hover {
         color:white;
@@ -29,6 +35,10 @@
 
     &:focus {
         color:white;
+    }
+
+    &:active {
+        transform: translateY(-5px);
     }
 
 }
@@ -37,6 +47,7 @@
     background: linear-gradient(150deg, #21A179, rgba(09, 200, 0, 0.5) 100%) !important;
     color: white;
     text-shadow: 1px 1px 1px #000;
+    box-shadow: 1px 1px 9px black;
 
     &:hover {
         color:white;
@@ -46,16 +57,176 @@
         color:white;
     }
 
+    &:active {
+        transform: translateY(-5px);
+    }
+
 }
 
 .u-background-gradient-quaternary {
     background: linear-gradient(150deg, #dab61a, rgba(253, 253, 131, 0.5) 100%) !important;
     color: black !important;
     text-shadow: 1px 1px 1px rgba(13, 216, 57, 0.5);
+    box-shadow: 1px 1px 9px black;
+
+    &:active {
+        transform: translateY(-5px);
+    }
 
 //    text-shadow: none !important;
 }
 
 .u-no-transform:hover {
     transform: none !important;
+}
+
+
+
+.u-margin-xxsmall {
+    margin: $value-xxsmall;
+}
+
+.u-margin-xsmall {
+    margin: $value-xsmall;
+}
+
+.u-margin-small {
+    margin: $value-small;
+}
+
+.u-margin-medium {
+    margin: $value-medium;
+}
+
+.u-margin-large {
+    margin: $value-large;
+}
+
+.u-margin-xlarge {
+    margin: $value-xlarge;
+}
+
+.u-margin-xxlarge {
+    margin: $value-xxlarge;
+}
+
+
+.u-margin-vertical-xxsmall {
+    margin-top: $value-xxsmall;
+    margin-bottom: $value-xxsmall;
+}
+
+.u-margin-vertical-xsmall {
+    margin-top: $value-xsmall;
+    margin-bottom: $value-xsmall;
+}
+
+.u-margin-vertical-small {
+    margin-top: $value-small;
+    margin-bottom: $value-small;
+}
+
+.u-margin-vertical-medium {
+    margin-top: $value-medium;
+    margin-bottom: $value-medium;
+}
+
+.u-margin-vertical-large {
+    margin-top: $value-large;
+    margin-bottom: $value-large;
+}
+
+.u-margin-vertical-xlarge {
+    margin-top: $value-xlarge;
+    margin-bottom: $value-xlarge;
+}
+
+.u-margin-vertical-xxlarge {
+    margin-top: $value-xxlarge;
+    margin-bottom: $value-xxlarge;
+}
+
+
+.u-margin-vertical-responsive {
+    margin-top: calc(2px + 3vw);
+    margin-bottom: calc(2px + 3vw);
+}
+
+
+
+
+
+
+.u-margin-bottom-xxsmall {
+    margin-bottom: $value-xxsmall;
+}
+
+.u-margin-bottom-xsmall {
+    margin-bottom: $value-xsmall;
+}
+
+.u-margin-bottom-small {
+    margin-bottom: $value-small;
+}
+
+.u-margin-bottom-medium {
+    margin-bottom: $value-medium;
+}
+
+.u-margin-bottom-large {
+    margin-bottom: $value-large;
+}
+
+.u-margin-bottom-xlarge {
+    margin-bottom: $value-xlarge;
+}
+
+.u-margin-bottom-xxlarge {
+    margin-bottom: $value-xxlarge;
+}
+
+
+.u-margin-bottom-responsive {
+    margin-bottom: calc(2px + 3vw);
+}
+
+
+
+.u-margin-top-xxsmall {
+    margin-top: $value-xxsmall;
+}
+
+.u-margin-top-xsmall {
+    margin-top: $value-xsmall;
+}
+
+.u-margin-top-small {
+    margin-top: $value-small;
+}
+
+.u-margin-top-medium {
+    margin-top: $value-medium;
+}
+
+.u-margin-top-large {
+    margin-top: $value-large;
+}
+
+.u-margin-top-xlarge {
+    margin-top: $value-xlarge;
+}
+
+.u-margin-top-xxlarge {
+    margin-top: $value-xxlarge;
+}
+
+.u-margin-top-responsive {
+    margin-top: calc(2px + 3vw);
+}
+
+
+.u-no-decoration,
+.u-no-decoration:after,
+.u-no-decorationa:hover:after  {
+    text-decoration: none !important;
 }

@@ -1,0 +1,92 @@
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+
+// Instanciating InstantSearch.js with Algolia credentials
+// var search = instantsearch({
+//   appId: '{{ site.algolia.application_id }}',
+//   indexName: '{{ site.algolia.index_name }}',
+//   apiKey: '{{ site.algolia.search_only_api_key }}'
+// });
+
+var search = instantsearch({
+  appId: 'Q641OOGVUG',
+  indexName: 'index_go',
+  apiKey: '6bdeab83f499a2c57732057d1f30dd6c'
+});
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: '',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: function(hit) {
+        return `
+          <div class="container">
+            <h2><a class="post-link" href="{{ site.baseurl }}${hit.url}">${hit._highlightResult.title.value}</a></h2>
+            <div class="post-snippet">${hit.html}</div>
+          </div>
+        `;
+      }
+    }
+  })
+);
+
+// Starting the search
+search.start();
+</script>
+
+
+<style>
+    .ais-search-box {
+      max-width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .ais-search-box--input {
+      border-radius: 25px;
+    }    
+
+    .post-item {
+      margin-bottom: 30px;
+    }
+    .post-link .ais-Highlight {
+      /* color: #111; */
+      font-style: normal;
+      /* text-decoration: underline; */
+      /* background-color: yellow;       */
+      color: red;
+      font-weight: 900;
+    }
+    .post-breadcrumbs {
+      color: #424242;
+      display: block;
+    }
+    .post-breadcrumb {
+      font-size: 18px;
+      color: #424242;
+    }
+    .post-breadcrumb .ais-Highlight {
+      font-weight: bold;
+      font-style: normal;
+    }
+    .post-snippet .ais-Highlight {
+      color: #2a7ae2;
+      font-style: normal;
+      font-weight: bold;
+    }
+    .post-snippet img {
+      display: none;
+    }
+    </style>
