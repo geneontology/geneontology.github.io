@@ -8,9 +8,8 @@ description: >
   and tissue system levels.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://geneontology.github.io/go-docs # the base hostname & protocol for your site
-git_address: https://github.com/geneontology/go-docs
-git_edit_address: https://github.com/geneontology/go-docs/blob/master/docs
+url: https://geneontology.github.io # the base hostname & protocol for your site
+git_address: https://github.com/geneontology/geneontology.github.io
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
@@ -63,3 +62,10 @@ collections:
 
 sass:
   sass_dir: _sass
+
+algolia:
+  application_id: Q641OOGVUG
+  index_name: index_go
+  search_only_api_key: 6bdeab83f499a2c57732057d1f30dd6c
+  files_to_exclude: []
+  nodes_to_index: 'article' # elements to be indexed

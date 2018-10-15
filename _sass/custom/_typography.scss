@@ -4,16 +4,21 @@ h1 {
 
 a {
   border: none !important;
+  color: navy;
 }
 
-a:not(.btn):not(.list-group-item) {
+.basic-link {
+  text-decoration: none;
+}
+
+a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link) {
     color: $color-primary;
     text-decoration: none !important;
     display: inline-block;
     position: relative;
 }
 
-a:not(.btn):not(.list-group-item):after {    
+a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -26,7 +31,7 @@ a:not(.btn):not(.list-group-item):after {
     width: 0;
 }
 
-a:not(.btn):not(.list-group-item):hover:after { 
+a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):hover:after { 
     width: 100%; 
     left: 0; 
 }
@@ -54,8 +59,107 @@ a:not(.btn):not(.list-group-item):hover:after {
   border-radius: 25px;
 }
 
-// .panel-heading {
-//     background: linear-gradient(150deg, #9ba4d8, rgba(16, 122, 222, 0.5) 100%);
-//     border-radius: 5px;
-// }
 
+.dropdown-menu {
+  width: 300px !important;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: -5px 10px 29px black;
+  // padding: 5px !important; 
+  border: none;
+  box-shadow: -5px 15px 29px;      
+  padding: 10px 20px !important;
+
+  animation-name: moveInUp;
+  animation-duration: .3s;
+  animation-timing-function: ease-out;
+}
+
+.dropdown-menu__item {
+  padding: 0px;
+  margin: 0px;
+  transition: all 0.2s;
+
+  &__link {
+      display: block;
+      padding: 8px 6px;
+      text-decoration: none;
+      font-weight: 400 !important;
+      width: 100%;
+      // transition: all 0.2s;
+
+      &:hover {
+          text-decoration: none;
+          font-weight: 400 !important;
+          background-color: lightgrey;
+          background-color: navy;
+          color: white;        
+          border-radius: 5px;
+      }
+  }
+}
+
+
+
+.go-link {
+  font-weight: 900;
+  color: rgb(66, 82, 175) !important;
+}
+
+.go-main-logo {
+  filter: drop-shadow(8px 8px 10px white);
+  filter: blur(5px);  
+}
+
+.site {
+
+  &__title {
+    animation-name: moveInUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &__statement {
+    padding-top: 15px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+}
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
