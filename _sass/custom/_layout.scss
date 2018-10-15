@@ -36,16 +36,7 @@
     padding-bottom: 30px;
 }
 
-.footer {
-    background-color: $gray-lighter;
-    color: $gray-dark;
 
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 56px;
-    padding: 10px;
-}
   
 .post-list-container {
     li a.active {
@@ -341,8 +332,10 @@ input[type=search]:focus {
 
 .go-navbar {
     box-shadow: 1px 1px 29px rgba(0, 0, 0, 0.25);
-    border-radius: 0px 0px 20px 20px;
+    // border-radius: 0px 0px 20px 20px;
+    border-radius: 0px;
     padding-right: 10px;    
+    margin-top: 4px;
     border: none;
     border-color: none;
 }
@@ -355,14 +348,22 @@ input[type=search]:focus {
 
 
 
+
 .footer {
     // background-color: $color-grey-dark-3;
     // color: $color-grey-light-1;
     // background-color: lightgrey;
     // background: linear-gradient(white, #4252af);
+
+    background-color: $gray-lighter;
+    color: $gray-dark;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
     background-color: transparent;
     color: black;
-    padding: 15rem 0;
     font-size: 1.8rem;
 
     &__link {
