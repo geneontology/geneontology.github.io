@@ -68,4 +68,4 @@ algolia:
   index_name: index_go
   search_only_api_key: 6bdeab83f499a2c57732057d1f30dd6c
   files_to_exclude: []
-  nodes_to_index: 'article' # elements to be indexed
+  # nodes_to_index: 'article' # elements to be indexed

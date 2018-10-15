@@ -35,7 +35,8 @@ search.addWidget(
         return `
           <div class="container">
             <h2><a class="post-link" href="{{ site.baseurl }}${hit.url}">${hit._highlightResult.title.value}</a></h2>
-            <div class="post-snippet">${hit.html}</div>
+            
+            <div class="post-snippet">${hit._snippetResult.content.value}</div>
           </div>
         `;
       }
@@ -61,12 +62,14 @@ search.start();
     .post-item {
       margin-bottom: 30px;
     }
-    .post-link .ais-Highlight {
+    .post-link .ais-Highlight,
+    em {
       /* color: #111; */
       font-style: normal;
       /* text-decoration: underline; */
-      /* background-color: yellow;       */
-      color: red;
+      background-color: yellow;      
+      /* color: red; */
+      font-style: italic;
       font-weight: 900;
     }
     .post-breadcrumbs {
