@@ -334,9 +334,12 @@ input[type=search]:focus {
     // border-radius: 0px 0px 20px 20px;
     border-radius: 0px;
     padding-right: 10px;    
-    margin-top: 4px;
+    margin-top: 0px;
     border: none;
     border-color: none;
+    border-top-style: inset;
+    border-top-color: lightgray;
+    border-top-width: 3px;
 }
 
 .go-search-bar {
