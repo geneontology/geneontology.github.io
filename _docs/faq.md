@@ -34,7 +34,7 @@ FAQ tags: 
 [mappings](/faq-tags/mappings)
 [analysis](/faq-tags/analysis)
 
-In order to search the GO database, a list of Entrez IDs, NCBI IDs, etc. needs to be converted to UniProtKB or model organism database IDs.
+To search the GO database, a list of Entrez IDs, NCBI IDs, etc. needs to be converted to UniProtKB or model organism database IDs.
 
 UniProt and the [Protein Information Resource (PIR)](https://pir.georgetown.edu/pirwww/index.shtml){:target="blank"} have similar ID mapping tools to help with the conversion:
 
