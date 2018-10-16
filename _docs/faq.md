@@ -65,7 +65,7 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-OWL is the acronym for Web Ontology Language, a standard produced by the W3C. GO in OWL is based on a translation from OBO to OWL and is available for download [here.](/docs/download-ontology/) OWL files can be opened in an editing tool such as [Protege](http://protege.stanford.edu/){:target="blank"}.
+OWL is the acronym for Web Ontology Language, a standard produced by the W3C. GO in OWL is based on a translation from OBO to OWL and is available for download [here](/docs/download-ontology/). OWL files can be opened in an editing tool such as [Protege](http://protege.stanford.edu/){:target="blank"}.
 
 [What is the best way to obtain the GO annotations for a list of UniProt Accession Numbers in batch?](/faq/what-best-way-obtain-go-annotations-list-uniprot-accession-numbers-batch)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
