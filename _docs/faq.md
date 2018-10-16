@@ -223,6 +223,16 @@ The most important criterion for GO Consortium membership is that the members co
 
 Anyone with a more general interest in the GO may join the gofriends@geneontology.org mailing list or subscribe to the [Twitter feed](https://twitter.com/news4go){:target="_blank"} (@news4go) to receive updates about the GO.
 
+[How do I cite the GO?](/faq/how-do-i-cite-go-0)
+------------------------------------------------
+
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I cite the GO?"></span>
+FAQ tags: 
+
+[general](/faq-tags/general)
+
+Citation information for the Gene Ontology can be found on the [GO Citation Policy](/page/go-citation-policy) page.
+
 [What is the minimum information to include in a functional analysis paper?](/faq/what-minimum-information-include-functional-analysis-paper)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -290,22 +300,6 @@ FAQ tags: 
 
 A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. See more information [here](/docs/go-annotation-file-gaf-format-21/).
 
-
-[How are GAF 2.0 and GAF 2.1 different?](/faq/what-gaf21)
--------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="How are GAF 2.0 and GAF 2.1 different??"></span>
-FAQ tags: 
-
-[format](/faq-tags/format)
-
-[software](/faq-tags/software)
-
-**GAF 2.1 allows the use of pipes** (**|**) **and commas** (**,**) **in column 8 (with/from column)** compared to GAF 2.0 which allowed the use of pipes only. **Pipe will indicate 'OR' and comma now indicates 'AND'.**
-
-In GAF 2.0, multiple values were separated by pipes where the pipe has been used to mean 'AND'. However, in the annotation extension field (column 16) pipe is used to indicate 'OR' and a comma to indicate 'AND'. This change to column 8 allows consistent use of pipes and commas in the GO annotations. 
-
-
 [Can a single gene product be annotated with more than one GO term?](/faq/can-single-gene-product-be-annotated-more-one-go-term)
 --------------------------------------------------------------------------------------------------------------------------------
 
@@ -325,7 +319,7 @@ It is **possible and usually expected** for a single gene/gene product to be ass
 The Gene Ontology allows users to describe a gene/gene product in detail, considering three main aspects: its molecular function, the biological process in which it participates, and its cellular location:
 
     For example, this gene product from zebrafish has numerous GO terms associated with it: <http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121>
--   In this example, each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of selectively interacting with DNA (DNA binding) – (<http://amigo.geneontology.org/amigo/term/GO:0003677>), while a different GO term explains that this gene product is found in the nucleus of the cell (<http://amigo.geneontology.org/amigo/term/GO:0005634>).
+    -   In this example, each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of selectively interacting with DNA (DNA binding) – (<http://amigo.geneontology.org/amigo/term/GO:0003677>), while a different GO term explains that this gene product is found in the nucleus of the cell (<http://amigo.geneontology.org/amigo/term/GO:0005634>).
 
 Trying to write one single term that describes in detail everything about a gene/gene product in a single statement would require the existence of as many terms as genes there are - for all species - in the planet. This would be very unpractical and not easily scalable. Instead, the use of ontologies help us organize information in a way that allows researchers to use the same term to describe a characteristic that is shared by more than one gene product (e.g. all the genes involved in the process 'translation'), and more than one term to describe all the characteristics of each gene product, as in the example above. **This is a reason why you would see more than one GO term associated to a single gene / gene product**.
 
@@ -339,37 +333,6 @@ FAQ tags: 
 
 GO uses the term 'gene product' to refer collectively to genes and any entities encoded by the gene, e.g. proteins and functional RNAs.
 
-[Why do the IDs in the database not match the GO IDs?](/faq/why-do-ids-database-not-match-go-ids)
--------------------------------------------------------------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="Why do the IDs in the database not match the GO IDs?"></span>
-FAQ tags: 
-
-[database](/faq-tags/database)
-
-[software](/faq-tags/software)
-
-The GO SQL database employs the common practice of using surrogate IDs for primary keys. These are intended to be internal to the database, and not exposed to the casual user. In addition, they are not stable and will change with each release. For example, the term table has columns including:
-
--   id -- internal numeric identifier
--   acc -- public GO ID
--   name -- term label
-
-The id column is the primary key for the term table used as a foreign key in tables that link here, such as term2term.
-
-The acc column contains the GO identifier - eg GO:0008150.
-
-See also additional notes on the [schema](/page/lead-database-schema).
-
-[How do I cite the GO?](/faq/how-do-i-cite-go-0)
-------------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I cite the GO?"></span>
-FAQ tags: 
-
-[general](/faq-tags/general)
-
-Citation information for the Gene Ontology can be found on the [GO Citation Policy](/page/go-citation-policy) page.
 
 [What are the advantages and disadvantages of automatic annotation?](/faq/what-are-advantages-and-disadvantages-automatic-annotation)
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -380,33 +343,6 @@ FAQ tags: 
 [annotation](/faq-tags/annotation)
 
 One advantage of automatic annotation is speed: wholly or partially automated methods facilitate the annotation of much larger sets of known or predicted gene products than can be produced manually. Automated annotation methods generally yields more broad (less detailed) annotations compared to manual annotation.
-
-[How do I annotate ESTs?](/faq/how-do-i-annotate-ests)
-------------------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I annotate ESTs?"></span>
-FAQ tags: 
-
-[annotation](/faq-tags/annotation)
-
-To make electronic GO annotation to ESTs, it is usual to BLAST the EST sequences against sequences that have been manually annotated and transfer the annotations from similar sequences, adding evidence code IEA.
-
-Some useful tools for EST annotation:
-
--   The previous version of AmiGO browser has a [BLAST query feature](http://amigo1.geneontology.org/cgi-bin/amigo/blast.cgi) built in, which you can still use to query annotated gene products in the GO database. For large batch queries, you may want to download the file of annotated sequences and use it to run BLAST locally. The file is available from the GO ftp site (<ftp://ftp.geneontology.org/pub/go>) and is updated regularly.
-
-    Another option might be to install the AmiGO code and GO database locally.
-
-    The underlying data are in flat files that can be found in these directories on the GO FTP site:
-
-    > <ftp://ftp.geneontology.org/pub/go/gene_associations> (annotated gene products)
-
-    > <ftp://ftp.geneontology.org/pub/go/gp2protein> (Uniprot IDs for annotated protein sequences)
-
-    There is a README for the gp2protein directory. The format of the files in the /gene\_associations directory is described in the [GO annotation guide](http://geneontology.org/page/go-annotation-policies). Please let us know if you have questions about these files.
-
--   You could also try using [InterProScan](http://www.ebi.ac.uk/Tools/pfa/iprscan5/) to find protein domains/motifs encoded by the ESTs, and transfer GO terms that have been associated with InterPro entries. See [InterPro](http://www.ebi.ac.uk/interpro/index.html) for more information. This related FAQ may be useful: [How do I annotate a de novo assembled transcriptome against the GO database?](http://geneontology.org/faq/how-do-i-annotate-de-novo-assembled-transcriptome-against-go-database)
--   Several other groups have done automated assignment of GO terms to genes or proteins, including ESTs, and many of them would probably be willing to share their methods and software.
 
 [I want to use GO, but I don't know where to begin](/faq/i-want-use-go-i-dont-know-where-begin)
 -----------------------------------------------------------------------------------------------
@@ -455,29 +391,6 @@ The Gene Ontology (GO) project is a collaborative effort to address the need for
 Ontologies provide a vocabulary for representing and communicating knowledge about a topic, and a set of relationships that hold among the terms of the vocabulary. They can be structurally very complex, or relatively simple. Most importantly, ontologies capture domain knowledge in a way that can easily be dealt with by a computer . Because the terms in an ontology and the relationships between the terms are carefully defined, the use of ontologies facilitates making standard annotations, improves computational queries, and can support the construction of inference statements from the information at hand.
 
 Genomic sequencing projects and microarray experiments alike produce electronically-generated data flows that require computer accessible systems to work with the information. As systems that make domain knowledge available to both humans and computers, bio-ontologies such as GO and the many other bio-ontologies being created (see the OBO web page for some examples) for are essential to the process of extracting biological insight from enormous sets of data.
-
-[Where can I find GO annotations of proteins and ESTs?](/faq/where-can-i-find-go-annotations-proteins-and-ests)
----------------------------------------------------------------------------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="Where can I find GO annotations of proteins and ESTs?"></span>
-FAQ tags: 
-
-[annotation](/faq-tags/annotation)
-
-[general](/faq-tags/general)
-
-Gene objects in model organism databases typically have multiple nucleotide sequences from the public databases associated with them, including expressed sequence tags (ESTs) and one or more protein sequences. There are two ways to obtain sets of sequences with GO annotations:
-
--   from the model organism databases
--   from the annotation sets for transcripts and proteins contributed to the GO by Compugen and UniProt
-
-##### Obtaining GO annotations for model organism sequence sets
-
-In the gene association files, the GO terms are associated with an accession ID for a gene or gene product from the contributing data resource. Usually, the association files of the gene to sequence IDs are also available from the contributing model organism database. For example, the Mouse Genome Informatics FTP site includes the gene association files contributed to the GO, and other reports that include official mouse gene symbols and names and all curated gene : sequence ID associations.
-
-##### Obtaining GO annotations for transcript and proteins in general
-
-Large transcript and protein sequence data sets are annotated to the GO by Compugen and UniProt, respectively. These files can be downloaded direct from the GO web site. Species of origin for the sequence is included in the association files.
 
 [Can I download the ontologies as an Excel spreadsheet?](/faq/can-i-download-ontologies-excel-spreadsheet)
 ----------------------------------------------------------------------------------------------------------
@@ -702,17 +615,6 @@ The [list of authoritative database groups](/page/authoritative-database-groups)
 
 We maintain a list of [suggested resources](http://geneontology.org/page/download-mappings) for mapping gene and protein IDs.
 
-[How do I query, access, install/mirror the GO database?](/faq/how-do-i-query-access-installmirror-go-database)
----------------------------------------------------------------------------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I query, access, install/mirror the GO database?"></span>
-FAQ tags: 
-
-[database](/faq-tags/database)
-
-[software](/faq-tags/software)
-
-To avoid repeating ourselves and leaving the possibility of letting our documentation get out of sync, we're pretty sure that all questions can be answered by the the [database overview](/page/lead-database) and [database guide](/page/lead-database-guide) pages.
 
 [What are the recommended data access policies for your services?](/faq/what-are-recommended-data-access-policies-your-services)
 --------------------------------------------------------------------------------------------------------------------------------
