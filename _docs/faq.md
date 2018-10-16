@@ -70,7 +70,7 @@ OWL is the acronym for Web Ontology Language, a standard produced by the W3C. GO
 [What is the best way to obtain the GO annotations for a list of UniProt Accession Numbers in batch?](/faq/what-best-way-obtain-go-annotations-list-uniprot-accession-numbers-batch)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<span class="rdf-meta element-hidden" property="dc:title" content="What is the best way to obtain the GO annotations for a list of UniProt accessions in batch?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="What is the best way to obtain the GO annotations for a list of UniProt accessions?"></span>
 FAQ tags: 
 
 [annotation](/faq-tags/annotation)
