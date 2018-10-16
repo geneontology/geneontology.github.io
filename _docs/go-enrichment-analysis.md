@@ -8,7 +8,7 @@ permalink: /docs/go-enrichment-analysis/
 One of the main uses of the GO is to perform enrichment analysis on gene sets. For example, given a set of genes that are up-regulated under certain conditions, an enrichment analysis will find which GO terms are over-represented (or under-represented) using annotations for that gene set.
 ## Enrichment analysis tool
 
-Users can perform enrichment analyses directly from the [home page of the GOC website](http://geneontology.org/). This service connects to the analysis tool from the [PANTHER Classification System](http://pantherdb.org/), which is maintained up to date with GO annotations. The PANTHER classification system is explained in great detail in [Mi H et al, PMID: 23868073](https://www.ncbi.nlm.nih.gov/pubmed/23868073). The [list of supported gene IDs](http://www.pantherdb.org/tips/tips_batchIdSearch_supportedId.jsp) is available from the PANTHER website.
+Users can perform enrichment analyses directly from the [home page of the GOC website](http://geneontology.org/). This service connects to the analysis tool from the [PANTHER Classification System](http://pantherdb.org/){:target="_blank"}, which is maintained up to date with GO annotations. The PANTHER classification system is explained in great detail in [Mi H et al, PMID: 23868073](https://www.ncbi.nlm.nih.gov/pubmed/23868073){:target="_blank"}. The [list of supported gene IDs](http://www.pantherdb.org/tips/tips_batchIdSearch_supportedId.jsp){:target="_blank"} is available from the PANTHER website.
 
 ### Using the GO enrichment analysis tools
 
