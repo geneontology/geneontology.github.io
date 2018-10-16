@@ -233,16 +233,16 @@ FAQ tags: 
 
 [general](/faq-tags/general)
 
-Most journals require authors to submit high-throughput data to public repository as a pre-requisite for publication. As part of this process, the methods used to analyse data need to be reported in detail; this applies to both statistical and functional analysis. For papers describing enrichment analysis using GO, this means that the methods section should include the following information, to ensure the analysis is reproducible (an important criteria for reviewers' approval):
+Most journals require authors to submit high-throughput data to public repository as a prerequisite for publication. As part of this process, the methods used to analyse data need to be reported in detail; this applies to both statistical and functional analysis. For papers describing enrichment analysis using GO, this means that the methods section should include the following information, to ensure the analysis is reproducible (an important criteria for reviewers' approval):
 1.  What analysis tool was used and what version
 2.  What statistical analysis method was applied, and what correction factors were applied if any
-3.  Date or release version of both the GO ontology file and the GO annotation file used
-4.  Background genome/proteome/dataset used in the analysis
+3.  Date/release version of both the GO ontology file and the GO annotation file used
+4.  Background genome/proteome/dataset used in the analysis, including strain if applicable
 5.  Whether any enriched terms were excluded from the results due to low numbers of query genes associated with the term (e.g., if you only included GO terms in the results which have more than 3 query genes)
-6.  Please cite: The Gene Ontology Consortium. Gene ontology: tool for the unification of biology. Nat Genet. May 2000;25(1):25-9. Online at Nature Genetics <http://www.nature.com/ng/journal/v25/n1/abs/ng0500_25.html>
+6.  [Please cite the appropriate GO papers](/docs/go-citation-policy/)
 
 The supplemental data files should include:
-1.  List of the IDs used, and also the IDs which were rejected by the analysis tool if any
+1.  List of the IDs used and the IDs which were rejected by the analysis tool, if any
 2.  Full list of enriched terms
 
 When undertaking the functional analysis and interpreting the results, consider:
@@ -260,11 +260,11 @@ FAQ tags: 
 
 [ontology](/faq-tags/ontology)
 
-You can use the YeastMine tool available at SGD to retrieve the GO term names for each ID. Here is how-
-1.  Go to - <http://yeastmine.yeastgenome.org/yeastmine/bag.do>
-2.  In the Select Type pull down, scroll down and select GO term
-3.  Enter your GO ids or upload a list in the full format (GO:0016020, GO:0016301..)
-4.  Click on Create List and you should be able to create a list of GO IDs, Term name, Definition, aspect. The tool offers several options to download the list.
+You can use the YeastMine Analyze tool available at SGD to retrieve the GO term names for each ID. Here is how-
+1.  Go to the Analyze tool on YeastMine - <http://yeastmine.yeastgenome.org/yeastmine/bag.do>
+2.  In the Select Type pull down, select `GO Term`
+3.  Enter your GO ids or upload a list in the full format (GO:0016020, GO:0016301...)
+4.  Click on `Create List`. The tool offers several options to download the list.
 
 [Where can I view or download the complete sets of GO annotations?](/faq/where-can-i-view-or-download-complete-sets-go-annotations)
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -276,16 +276,7 @@ FAQ tags: 
 
 [general](/faq-tags/general)
 
-Annotations can be either downloaded as part of the [GO database](/page/lead-database-downloads) or as [tab-delimited flat files](/page/download-annotations).
-
-As with the vocabularies, the gene product sets from contributing groups are freely available; you can download them from the [annotation downloads](http://geneontology.org/page/download-annotations) section of the GO website. Those files contain all evidence pertinent to the annotation, including database IDs and gene product names, as well as citation and evidence data. The format of these tab-delimited files is described in the [GO annotation file formats guide](http://geneontology.org/page/go-annotation-file-formats).
-
-Currently, we support up to 10,000 download items at a time using [AmiGO](http://amigo.geneontology.org/), but we are working on expanding that number. When results require a download of more than 10,000 items, it is more appropriate to use GO's SQL environment (remote and locally):
-
--   [GO Database](http://geneontology.org/page/lead-database-guide)
--   [GO Online SQL Environment](http://amigo.geneontology.org/goose)
-
-Alternatively, depending on the exact nature of your query, you may consider using command line functionality on the raw data files, available from the [Download Annotations page](http://geneontology.org/page/download-annotations).
+Annotations can be [downloaded here](http://current.geneontology.org/products/pages/downloads.html).  
 
 [What is a GAF file?](/faq/what-gaf-file)
 -----------------------------------------
@@ -297,7 +288,7 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. There are two versions of the file format, the most recent is [GAF version 2.0](http://geneontology.org/page/go-annotation-file-gaf-format-20) An explanation of the differences between versions 1.0 and 2.0 is [available](http://geneontology.org/page/go-annotation-file-gaf-format-20) and the 1.0 specification is described [here](http://geneontology.org/page/go-annotation-file-gaf-format-10)
+A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. See more information [here](/docs/go-annotation-file-gaf-format-21/).
 
 
 [How are GAF 2.0 and GAF 2.1 different?](/faq/what-gaf21)
@@ -310,9 +301,9 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-**GAF 2.1 allows the use of pipes** (**|**) **and comma** (**,**) **in column 8 (with/from column)** compared to GAF 2.0 which allows the use of pipes only. **Pipe will indicate 'OR' and comma will indicate 'AND'.**
+**GAF 2.1 allows the use of pipes** (**|**) **and commas** (**,**) **in column 8 (with/from column)** compared to GAF 2.0 which allowed the use of pipes only. **Pipe will indicate 'OR' and comma now indicates 'AND'.**
 
-In GAF 2.0, multiple values are separated by pipes where the pipe has been used to mean 'AND'. However, in the annotation extension field (column 16) pipe is used to indicate 'OR' and a comma to indicate 'AND'. This change to column 8 will allow consistent use of pipes and commas in the GO annotations. Please see the descriptions below for full details.
+In GAF 2.0, multiple values were separated by pipes where the pipe has been used to mean 'AND'. However, in the annotation extension field (column 16) pipe is used to indicate 'OR' and a comma to indicate 'AND'. This change to column 8 allows consistent use of pipes and commas in the GO annotations. 
 
 
 [Can a single gene product be annotated with more than one GO term?](/faq/can-single-gene-product-be-annotated-more-one-go-term)
@@ -329,11 +320,11 @@ FAQ tags: 
 
 ### Yes!
 
-It is **possible and usually expected** for a single gene / gene product to be associated with more than one GO term. The fact that you may have found that there are two or more different GO terms associated with a single gene / gene product in your results should not be a cause for concern.
+It is **possible and usually expected** for a single gene/gene product to be associated with more than one GO term. The fact that you may have found that there are two or more different GO terms associated with a single gene/gene product in your results should not be a cause for concern.
 
-The Gene Ontology allows users to describe a gene / gene product in detail, considering three main aspects: its molecular function, the biological process in which it participates, and its cellular location:
+The Gene Ontology allows users to describe a gene/gene product in detail, considering three main aspects: its molecular function, the biological process in which it participates, and its cellular location:
 
--   For example, this gene product from zebrafish has numerous GO terms associated with it: <http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121>
+    For example, this gene product from zebrafish has numerous GO terms associated with it: <http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121>
 -   In this example, each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of selectively interacting with DNA (DNA binding) – (<http://amigo.geneontology.org/amigo/term/GO:0003677>), while a different GO term explains that this gene product is found in the nucleus of the cell (<http://amigo.geneontology.org/amigo/term/GO:0005634>).
 
 Trying to write one single term that describes in detail everything about a gene/gene product in a single statement would require the existence of as many terms as genes there are - for all species - in the planet. This would be very unpractical and not easily scalable. Instead, the use of ontologies help us organize information in a way that allows researchers to use the same term to describe a characteristic that is shared by more than one gene product (e.g. all the genes involved in the process 'translation'), and more than one term to describe all the characteristics of each gene product, as in the example above. **This is a reason why you would see more than one GO term associated to a single gene / gene product**.
