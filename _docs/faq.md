@@ -138,24 +138,7 @@ FAQ tags: 
 The most reliable annotations are those made manually by database curators based on primary and occasionally on review literature. Manual annotations usually cite experimental evidence that provides strong support for the association of a GO term with a gene product, and can be done at a very detailed level. 
 The chief disadvantage of manual annotation is that it is labor-intensive, requiring a lot of time and effort from trained biologists.
 
-[What is the best way to obtain the GO annotations for a list of Ensembl IDs in batch?](/faq/what-best-way-obtain-go-annotations-list-ensembl-ids-batch)
---------------------------------------------------------------------------------------------------------------------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="What is the best way to obtain the GO annotations for a list of Ensembl IDs in batch?"></span>
-FAQ tags: 
-
-[annotation](/faq-tags/annotation)
-
-[downloads](/faq-tags/downloads)
-
-You can do this using QuickGO ([www.ebi.ac.uk/QuickGO](http://www.ebi.ac.uk/QuickGO){:target="blank"}).
-1.  Click on the 'Search and filter GO annotation sets' link, which will take you to a table of all annotations in the GOA database. You now have to filter this set on your gene IDs.
-2.  Click on 'Filter' in the top right toolbar, select the 'Gene Product ID' tab and then paste your Ensembl gene IDs into the text box, line separated.
-3.  Then click on submit. It takes a while but the result is a table of annotations for your gene IDs. However, they will have been mapped back to UniProt accessions.
-4.  To get the annotations with the Ensembl IDs displayed, click on the 'ID mapping' icon in the top right toolbar and select 'Ensembl gene IDs' and submit. The annotations will now be displayed with the Ensembl IDs.
-5.  From the top right toolbar you can download the annotations or look at the statistics of the annotation set.
-
-[How do I annotate a de novo assembled transcriptome against the GO database?](/faq/how-do-i-annotate-de-novo-assembled-transcriptome-against-go-database)
+[How do I annotate a novel genome with GO annotations?](/faq/how-do-i-annotate-de-novo-assembled-transcriptome-against-go-database)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span class="rdf-meta element-hidden" property="dc:title" content="How do I annotate a de novo assembled transcriptome against the GO database?"></span>
@@ -169,19 +152,10 @@ FAQ tags: 
 
 [third-party tools](/faq-tags/third-party-tools)
 
-- UniProt automatically processes all accepted coding sequences through the InterPro2GO pipeline.  We recommend waiting for these annotations (IEA, Inferred from Electronic Annotation) for novel proteins unless manual annotations will be made by your group.
+Currently, GO recommends groups submit their transcriptomes to [NCBI](https://www.ncbi.nlm.nih.gov/).  These submissions will reach [UniProt](https://www.uniprot.org/){:target="blank"}, where [InterPro2GO](https://www.ebi.ac.uk/GOA/InterPro2GO){:target="blank"} automatically creates GO annotations.  These annotations, made with the IEA evidence codes ([Inferred from Electronic Annotation](guide-go-evidence-codes.md
+)), will available in a future GO release.
 
-- You can annotate the coding sequences in your transcripts using InterProScan. You can do this using WebServices or by downloading the tool and running it locally. Details can be found at: <http://www.ebi.ac.uk/interpro/search/sequence-search/>
-
-This will predict GO terms based on domains detected using the mapping file here: <http://geneontology.org/page/download-mappings>
-
-At this time this will give you a relatively high level set of GO annotations, but we are working with the Interpro group to incorporate Panther families and detailed GO annotations on Panther trees.
-
-There are other tools that are not endorsed by GO, but may be of interest:
-
-<https://www.blast2go.com/> – but beware, many of the annotations propagated may be incorrect, depending in part on the phylogenetic distance to the nearest well-annotated genome
-
-<http://jamps.sourceforge.net/>
+GO does not recommend groups create their own IEAs with internal tools due to reproducability and accuracy concerns.
 
 [How do I browse the GO?](/faq/how-do-i-browse-go)
 --------------------------------------------------
@@ -193,9 +167,9 @@ FAQ tags: 
 
 [general](/faq-tags/general)
 
-The GO Consortium has developed [AmiGO](http://amigo.geneontology.org) for searching and browsing the Gene Ontology and the gene products that member databases have annotated using GO terms. Entering a search term into the quick search menu and choosing an auto-completed choice from the drop-down will return the summary page for that gene product or term. Alternatively terms can be entered by free text and the user will be allowed to choose whether the search will return genes, terms or annotations. For more information on using AmiGO, see the [AmiGO help](http://wiki.geneontology.org/index.php/AmiGO_2_Manual) documentation.
++ The GO Consortium has developed [AmiGO](http://amigo.geneontology.org){:target="blank"} for searching and browsing the Gene Ontology and the gene products that member databases have annotated using GO terms. The quick search field autocompletes gene products and GO Terms.  Choosing an auto-completed choice from the drop-down will return the summary page for that gene product or term. + + + Alternatively terms can be entered by free text and the user will be allowed to choose whether the search will return genes, terms or annotations. For more information on using AmiGO, see the [AmiGO help](http://wiki.geneontology.org/index.php/AmiGO_2_Manual){:target="blank"} documentation.
 
-Learn more about Retrieving GO Data Using AmiGO, API, Files, and Tools from [our chapter in the Gene Ontology Handbook](https://link.springer.com/protocol/10.1007%2F978-1-4939-3743-1_11).
+Learn more about Retrieving GO Data Using AmiGO, API, Files, and Tools from [our chapter in the Gene Ontology Handbook](https://link.springer.com/protocol/10.1007%2F978-1-4939-3743-1_11){:target="blank"}.
 
 [How can I do term enrichment analysis for a species that is not present in the list from AmiGO?](/faq/how-can-i-do-term-enrichment-analysis-species-not-present-list-amigo)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -211,25 +185,15 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-[third-party tools](/faq-tags/third-party-tools)
 
-The Term Enrichment tool on the [GO](http://geneontology.org) and [AmiGO](http://amigo.geneontology.org) websites center only on data from the genomes available on the PANTHER Classification System Database (<http://go.pantherdb.org>). Details about how to use the tools available on AmiGO and how to interpret the results is available on our website at <http://geneontology.org/page/go-enrichment-analysis>.
+PANTHER, which supports the backend of the GO enrichment, provides the list of the species found in the left side of GO website. Besides the 110+ genomes listed there, PANTHER supports another 800+ genomes from the reference proteome project for users to generate GO annotations (ftp://ftp.pantherdb.org/generic_mapping/). 
 
-**Below we have listed a few alternatives for organisms not included in the data available from the PANTHER Classification System Database:**
+If your organism is not one of the nearly 1000 genomes supported in PANTHER, there are two options:
 
-If your organism of interest is not listed on the PANTHER data, you can still use the enrichment analysis tool available at **PANTHER** to do enrichment on proteins from your organism of interest, but you need to do some preparatory work beforehand. This paper tells you how to prepare input file for organisms not included in the PANTHER set. <http://www.nature.com/nprot/journal/v8/n8/full/nprot.2013.092.html>
-1.  Open pantherdb.org on your browser and select a file or copy and paste your data into the text box in step \#1
-2.  Select an organism for step \#2
-3.  Select statistical over-representation test for step \#3 and de-select the 'use default settings' checkbox.
-4.  The system will prompt with a selection summary page. There is a 'change' button for reference list. You can press this button and update the reference list. You can either choose a different organism or upload your own reference list.
++ The first option is to contact the reference proteome project (https://www.ebi.ac.uk/reference_proteomes) and work with them to incorporate the genome in their project. Once that is done, you can use the regular process to generate the GO annotation file. 
 
-**InterProScan:** You may also annotate the coding sequences from your transcripts using the tools from InterProScan. This can be done either using WebServices or by downloading the tool and running it locally. Details are available at: <http://www.ebi.ac.uk/interpro/search/sequence-search> This will predict GO terms based on domains detected using the mapping file available from: [GO mappings](/page/download-mappings). At this time this will give you a relatively high level set of GO annotations, but we are working with the InterPro group to incorporate PANTHER families and detailed GO annotations on Panther trees.
-**Alternatively, you may also try conducting term enrichment analyses using a third-party tool, that is, one not maintained by the GO Consortium. We have listed a few of them below:**
++ The second option is to score your genomes against the PANTHER HMM library. Read our Nature protocol paper (https://www.nature.com/articles/nprot.2013.092), and find the details in Box 2 of the paper.
 
--   **g:Profiler** (<http://biit.cs.ut.ee/gprofiler/>)
--   **Just Annotate My Proteins:** Info available at <http://jamps.sourceforge.net/> Download available from <https://github.com/genomecuration/JAMp>
--   **Ontologizer** (<http://compbio.charite.de/contao/index.php/ontologizer2.html>): you can use any annotation file. If available for your species of interest, use the complete UniProt association file, gene\_association.goa\_uniprot.gz, available at <ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/> However, if you have questions about how to use this tool, you would need to contact the Ontologizer developers directly as this is not maintained by the GO Consortium.
--   **blast2go** <https://www.blast2go.com/> – but beware, many of the annotations propagated may be incorrect, depending in part on the phylogenetic distance to the nearest well-annotated genome.
 
 [How can I programmatically get a list of GO terms associated with a gene identifier?](/faq/how-can-i-programmatically-get-list-go-terms-associated-gene-identifier)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -245,7 +209,7 @@ FAQ tags: 
 
 [third-party tools](/faq-tags/third-party-tools)
 
-This very useful BIOSTARS thread clarifies "How Do I Do Simple GO Term Lookup Given A Gene (Or mRNA) Identifier?" You might find these responses useful when trying to simply create a list of GO terms associated with a given ID- and when you are not looking to conduct enrichment analyses - using a programatic approach. <https://www.biostars.org/p/1226/>
+**Need an answer- Chris?
 
 [How do I become a member of the GO Consortium?](/faq/how-do-i-become-member-go-consortium)
 -------------------------------------------------------------------------------------------
@@ -255,7 +219,9 @@ FAQ tags: 
 
 [consortium](/faq-tags/consortium)
 
-The most important criterion for GO Consortium membership is that the members contribute something to the collection of resources that we make available to the public (almost all member contribute annotations; several contribute to the ontologies; a few contribute software). The scientists involved in working with GO in these member groups communicate via the GO mailing list to discuss development issues in the ontologies. If you represent a database that wishes to join the GO Consortium please write to the mailing list to inquire about the criteria for joining. The current consortium member groups must all agree to inclusion of a new member group, and so writing to the mailing list is a good way to reach all the groups and begin the process. Anyone with a more general interest in the GO may join the gofriends@geneontology.org mailing list or subscribe to the Twitter feed (@news4go) to receive updates about the GO.
+The most important criterion for GO Consortium membership is that the members contribute something to the collection of resources that we make available to the public (almost all members contribute annotations; several contribute to the ontologies; a few contribute software). The scientists involved in working with GO in these member groups communicate via the GO mailing lists and [GitHub](https://github.com/geneontology/){:target="_blank"} to discuss development issues in the ontologies. If you represent a database that wishes to join the GO Consortium please [contact the GOC](http://help.geneontology.org/). 
+
+Anyone with a more general interest in the GO may join the gofriends@geneontology.org mailing list or subscribe to the [Twitter feed](https://twitter.com/news4go){:target="_blank"} (@news4go) to receive updates about the GO.
 
 [What is the minimum information to include in a functional analysis paper?](/faq/what-minimum-information-include-functional-analysis-paper)
 ---------------------------------------------------------------------------------------------------------------------------------------------
