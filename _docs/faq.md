@@ -190,9 +190,9 @@ PANTHER, which supports the backend of the GO enrichment, provides the list of t
 
 If your organism is not one of the nearly 1000 genomes supported in PANTHER, there are two options:
 
-+ The first option is to contact the reference proteome project (https://www.ebi.ac.uk/reference_proteomes) and work with them to incorporate the genome in their project. Once that is done, you can use the regular process to generate the GO annotation file. 
+* The first option is to contact the reference proteome project (https://www.ebi.ac.uk/reference_proteomes) and work with them to incorporate the genome in their project. Once that is done, you can use the regular process to generate the GO annotation file. 
 
-+ The second option is to score your genomes against the PANTHER HMM library. Read our Nature protocol paper (https://www.nature.com/articles/nprot.2013.092), and find the details in Box 2 of the paper.
+* The second option is to score your genomes against the PANTHER HMM library. Read our Nature protocol paper (https://www.nature.com/articles/nprot.2013.092), and find the details in Box 2 of the paper.
 
 
 [How can I programmatically get a list of GO terms associated with a gene identifier?](/faq/how-can-i-programmatically-get-list-go-terms-associated-gene-identifier)
