@@ -107,9 +107,9 @@ FAQ tags: 
 
 [go_slim](/faq-tags/go_slim)
 
-* One way to map your list of accessions to high level GO terms (a GO slim) is to use [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"}.  You can select the aspect (Molecular Function, Biological Process, or Cellular Component) as well as if you want to map to a generic slim, or one curated for your organism (for example, the *S. cerevisiae* slim omits terms applicable only to plants or bacteria).
+* One method is to use [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"}.  Choose the aspect (Molecular Function, Biological Process, or Cellular Component) and indicate if you want to map to a generic slim or one curated for your organism (for example, the *S. cerevisiae* slim omits terms applicable only to plants or bacteria).
 
-* In order to map  your annotations to a GO slim, use the [Map2Slim](https://github.com/owlcollab/owltools/wiki/Map2Slim){:target="blank"} option in OWLTools. Given a GO slim file, and a current ontology (in one or more files), the Map2Slim script will map a gene association file (containing annotations to the full GO) to the terms in the GO slim. This script is an option of OWLTools, and it can be used to either create a new gene association file, which contains the most pertinent GO slim accessions, or in count-mode, in which case it will give distinct gene product counts for each slim term.
+* In order to map your annotations to a GO slim, use the [Map2Slim](https://github.com/owlcollab/owltools/wiki/Map2Slim){:target="blank"} option in OWLTools. Given a GO slim file, and a current ontology (in one or more files), the Map2Slim script will map a gene association file (containing annotations to the full GO) to the terms in the GO slim. This script is an option of OWLTools, and it can be used to either create a new gene association file, which contains the most pertinent GO slim accessions, or in count-mode, in which case it will give distinct gene product counts for each slim term.
 
 Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the OWLTools Wiki at <https://github.com/owlcollab/owltools/wiki/Map2Slim>.
 
