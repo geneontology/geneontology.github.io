@@ -434,7 +434,7 @@ FAQ tags: 
 
 [annotation](/faq-tags/annotation)
 
-What does it mean to do GO annotation of genes or proteins? Terms from the Gene Ontology are applied in the annotation of [gene products](http://geneontology.org/faq/what-gene-product) or protein complexes in biological databases. GO annotations are associations made between gene products or protein complexes and the GO terms that describe them. Because a single gene may encode different products with very different attributes, GO recommends associating GO terms with database objects representing gene products rather than genes. If identifiers are not available to distinguish individual gene products, GO terms may be associated with an identifier for a gene; a gene object is associated with all GO terms applicable to any of its products. An annotation also includes an evidence code and a reference that supports the gene product/term association.
+What does it mean to do GO annotation of genes or proteins? Terms from the Gene Ontology are applied in the annotation of [gene products](http://geneontology.org/faq/what-gene-product) or protein complexes in biological databases. GO annotations are associations made between gene products or protein complexes and the GO terms that describe them.  An annotation also includes an evidence code and a reference that supports the gene product/term association.
 
 [How is the GO used in genome analysis?](/faq/how-go-used-genome-analysis)
 --------------------------------------------------------------------------
@@ -446,9 +446,9 @@ FAQ tags: 
 
 [general](/faq-tags/general)
 
-*Functional annotation of newly sequenced genomes*:Genome and full-length cDNA sequence projects often include computational (putative) assignments of molecular function based on sequence similarity to annotated genes or sequences. A common tactic now is to use a computational approach to establish some threshold sequence similarity to a SWISS-PROT sequence. Then the GO associations to the SWISS-PROT sequence can be retrieved and associated with the gene model. Under the GO guidelines, the evidence code for this event would be 'inferred from electronic annotation' (IEA).
+*Functional annotation of newly sequenced genomes*: Genome and full-length cDNA sequence projects often include computational (putative) assignments of molecular function based on sequence similarity to annotated genes or sequences. A common tactic now is to use a computational approach to establish some threshold sequence similarity to a SWISS-PROT sequence. Then the GO associations to the SWISS-PROT sequence can be retrieved and associated with the gene model. Under the GO guidelines, the evidence code for this event would be 'inferred from electronic annotation' (IEA).
 
-*Functional groupings of gene products*:One aspect of the use of the GO for annotation of large data sets is the ability to group gene products to some high level term. For example, while gene products may be precisely annotated as having role in a particular function in carbohydrate metabolism (i.e., glucose catabolism), in the summary documentation of the data set, all gene products functioning in carbohydrate metabolism could be grouped together as being involved in the more general phenomena 'carbohydrate metabolism'. Various sets of GO terms have been used to summarize experimental data sets in this way. The expectation is that published sets of high-level GO terms used in genome annotations and publications will be archived at the GO site. Some of these 'GO slims' are already available.
+*Functional groupings of gene products*: One aspect of the use of the GO for annotation of large data sets is the ability to group gene products to some high level term. For example, while gene products may be precisely annotated as having role in a particular function in carbohydrate metabolism (i.e., glucose catabolism), in the summary documentation of the data set, all gene products functioning in carbohydrate metabolism could be grouped together as being involved in the more general phenomena 'carbohydrate metabolism'. Various sets of GO terms have been used to summarize experimental data sets in this way. The expectation is that published sets of high-level GO terms used in genome annotations and publications will be archived at the GO site. Some of these 'GO slims' are already available.
 
 [How do I install AmiGO locally?](/faq/how-do-i-install-amigo-locally)
 ----------------------------------------------------------------------
@@ -460,7 +460,7 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-Full documentation for downloading and installing AmiGO is available [here](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Installation).
+Full documentation for downloading and installing AmiGO is available [here](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Installation_(2.4.x)).
 
 [What is the best way to link into AmiGO?](/faq/what-best-way-link-amigo)
 -------------------------------------------------------------------------
@@ -472,7 +472,7 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-AmiGO is under constant development and our suggestion is that you frequently check back for the most recent information (and code, accordingly). The most recent proposal for a stable API is available from the [AmiGO 2 wiki manual](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Linking).
+Please refer to the [AmiGO 2 wiki manual](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Linking).
 
 [Where have the 'unknown' terms gone?](/faq/where-have-unknown-terms-gone)
 --------------------------------------------------------------------------
@@ -482,7 +482,9 @@ FAQ tags: 
 
 [ontology](/faq-tags/ontology)
 
-Good principles of ontological design state that terms should represent biological entities that actually exist, e.g., functional activities that are catalyzed by enzymes, biological processes that are carried out in cells, specific locations or complexes in cells, etc. To adhere to these principles the Gene Ontology Consortium has removed the terms, "biological process unknown" (GO:0000004), "molecular function unknown" (GO:0005554) and "cellular component unknown" (GO:0008372) from the ontology. The "unknown" terms violated this principle of sound ontological design because they did not represent actual biological entities but instead represented annotation status. Annotations to "unknown" terms distinguished between genes that were curated when no information was available and genes that were not yet curated (i.e., not annotated). Annotation status is now indicated by annotating to the root nodes, i.e. "biological\_process" (GO:0008150), "molecular\_function" (GO:0003674), or "cellular\_component" (GO:0005575). These annotations continue to signify that a given gene product is expected to have a molecular function, biological process, or cellular component, but that no information was available as of the date of annotation. Adhering to principles of correct ontology design should allow GO users to take advantage of existing tools and reasoning methods developed by the ontological community.
+Good principles of ontological design state that terms should represent biological entities that actually exist, e.g., functional activities that are catalyzed by enzymes, biological processes that are carried out in cells, specific locations or complexes in cells, etc. To adhere to these principles the Gene Ontology Consortium has removed the terms, "biological process unknown" (GO:0000004), "molecular function unknown" (GO:0005554) and "cellular component unknown" (GO:0008372) from the ontology. The "unknown" terms violated this principle of sound ontological design because they did not represent actual biological entities but instead represented annotation status. Annotations to "unknown" terms distinguished between genes that were curated when no information was available and genes that were not yet curated (i.e., not annotated). 
+
+Annotation status is now indicated by annotating to the root nodes, i.e. "biological\_process" (GO:0008150), "molecular\_function" (GO:0003674), or "cellular\_component" (GO:0005575). These annotations continue to signify that a given gene product is expected to have a molecular function, biological process, or cellular component, but that no information was available as of the date of annotation. Adhering to principles of correct ontology design should allow GO users to take advantage of existing tools and reasoning methods developed by the ontological community.
 
 [What is an evidence code?](/faq/what-evidence-code)
 ----------------------------------------------------
@@ -514,7 +516,7 @@ FAQ tags: 
 
 [annotation](/faq-tags/annotation)
 
-A gene product can be annotated to zero or more nodes of each ontology, at any level within each ontology; annotation of a gene product to one ontology is independent of its annotation to other ontologies. Annotations should reflect the normal function, process, or localization (component) of the gene product; an activity or location observed only in a mutant or disease state is therefore not usually included. The member databases of the GO Consortium use manual and automated methods to annotate genes or gene products using GO terms. Both manual and automated annotations are made according to two principles: first, every annotation must be attributed to a source, which may be a literature reference, another database or a computational analysis; second, the annotation must indicate what kind of evidence is found in the cited source to support the association between the gene product and the GO term. GO uses a simple controlled vocabulary to indicate the type of evidence found in the cited reference to support the annotation. See the [GO annotation guide](http://geneontology.org/page/go-annotation-policies) and [evidence code documentation](http://geneontology.org/page/guide-go-evidence-codes) for more information.
+A gene product can be annotated to zero or more nodes of each ontology, at any level within each ontology; annotation of a gene product to one ontology is independent of its annotation to other ontologies. Annotations should reflect the normal function, process, or localization (component) of the gene product; an activity or location observed only in a mutant or disease state is therefore not usually included. The member databases of the GO Consortium use manual and automated methods to annotate genes or gene products using GO terms. Both manual and automated annotations are made according to two principles: first, every annotation must be attributed to a source, which may be a literature reference, another database or a computational analysis; second, the annotation must indicate what kind of evidence is found in the cited source to support the association between the gene product and the GO term. GO uses a simple controlled vocabulary to indicate the type of evidence found in the cited reference to support the annotation.
 
 [I have a question about gene or protein nomenclature](/faq/i-have-question-about-gene-or-protein-nomenclature)
 ---------------------------------------------------------------------------------------------------------------
