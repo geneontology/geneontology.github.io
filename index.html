@@ -41,7 +41,7 @@ layout: default
 				<br>
 
 				<p>
-					<form action="http://amigo.geneontology.org/amigo/medial_search" class="" method="GET" target="_blank">
+					<form action="http://amigo.geneontology.org/amigo/medial_search" class="" method="GET" target="_blank"  name="form-search">
 						<div class="center-block" style="padding-bottom: 1em;">
 							<div class="input-group">
 								<input id="gsf-query" class="form-control input-lg go-search-bar" style="width: 100%; border-radius:25px 0px 0px 25px;height: 50px;" name="q"
@@ -52,6 +52,11 @@ layout: default
 										<i class="fa fa-search"></i>
 									</button>
 								</span>
+							</div>
+							<div style="color:black; margin-top: 5px; margin-left:10px; font-size: 18px">
+								<input type="radio" name="searchtype" value="all" checked="checked"> Any &nbsp;														
+								<input type="radio" name="searchtype" value="ontology"> Ontology &nbsp;
+								<input type="radio" name="searchtype" value="geneproduct"> Gene Product 
 							</div>
 						</div>
 					</form>
@@ -291,3 +296,5 @@ layout: default
 	<br>
 	<br>
 	<hr>
+
+

@@ -31,4 +31,25 @@ $(function() {
     $('#markdown-content-container img').addClass('img-responsive');
 
 
+
+    var form = $('form[name="form-search"]'),
+        radio = $('input[name="searchtype"]'),
+        choice = '';
+
+    radio.change(function(e) {
+		choice = this.value;
+		
+        console.log("receive input: ", e);
+        console.log("form: ", form);
+
+        if (choice === 'ontology') {
+			form.attr('action', 'http://amigo.geneontology.org/amigo/search/ontology');
+		} else if(choice == 'geneproduct') {
+			form.attr('action', 'http://amigo.geneontology.org/amigo/search/bioentity');			
+        } else {
+            form.attr('action', 'http://amigo.geneontology.org/amigo/medial_search');
+        }
+    });    
+
+
 });
