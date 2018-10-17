@@ -10,9 +10,9 @@
 - title: Ontology
   docs:
     - ontology-documentation
-    - contributing-to-go-terms
     - go-subset-guide
     - download-mappings
+    - contributing-to-go-terms
 
 - title: Annotations
   docs:
@@ -23,8 +23,8 @@
 - title: Downloads
   docs:
   - downloads
-  - download-go-annotations
   - download-ontology
+  - download-go-annotations
   - deprecated-products-and-formats
   
 
