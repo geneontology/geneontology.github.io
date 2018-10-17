@@ -10,8 +10,8 @@
 - title: Ontology
   docs:
     - ontology-documentation
-    - go-subset-guide
     - download-mappings
+    - go-subset-guide
     - contributing-to-go-terms
 
 - title: Annotations
