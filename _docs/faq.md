@@ -496,18 +496,6 @@ FAQ tags: 
 
 Every annotation must be attributed to a source, which may be a literature reference, another database or a computational analysis. The annotation must indicate what kind of evidence is found in the cited source to support the association between the gene product and the GO term. A simple controlled vocabulary is used to record evidence; and the evidence codes are simply the three-letter codes used to signify the type of evidence cited. More information on the meaning and use of the evidence codes can be found in the [GO evidence codes documentation](/page/guide-go-evidence-codes).
 
-[Can I reason over GO?](/faq/can-i-reason-over-go)
---------------------------------------------------
-
-<span class="rdf-meta element-hidden" property="dc:title" content="Can I reason over GO?"></span>
-FAQ tags: 
-
-[general](/faq-tags/general)
-
-[ontology](/faq-tags/ontology)
-
-It is possible to do some reasoning over GO now, and we expect to do much more in the future. We provide logical definitions or 'cross-products' for some terms as part of the [extended GO file](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl), which can be reasoned over. The OWL version of GO is described in a conference paper [Use of OWL within the Gene Ontology](http://geneontology.org/article/how-go-uses-owl-conference-paper-owled2014). To understand how the OWL version of GO relates to the OBO version, see the [OBO Format documentation](http://oboformat.org)
-
 [How are gene products associated with GO terms?](/faq/how-are-gene-products-associated-go-terms)
 -------------------------------------------------------------------------------------------------
 
