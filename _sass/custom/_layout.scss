@@ -32,7 +32,8 @@
 }
 
 .page-content {
-    padding-bottom: 220px;
+//    padding-bottom: 220px;
+    padding-bottom: 130px;
 }
 
 
@@ -445,4 +446,14 @@ $gutter-horizontal: 6rem;
 .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
     
+}
+
+
+.curvy-card {
+    display: inline-block;
+    box-shadow: -3px 3px 18px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    border-radius: calc(8px + 1.5vw) calc(.5vw);
+    outline: none !important;
+    padding: 15px;    
 }

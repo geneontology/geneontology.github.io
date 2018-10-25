@@ -2,18 +2,39 @@
 layout: default 
 ---
 
-<div class="header-container jumbotron" style="    padding-bottom: 0px;">
-	<div class="container" style="width: 90%;">
-		<h1 class="site__title" style="font-size: 45px">The Gene Ontology Resource</h1>
+<div class="header-container jumbotron" style="
+padding-bottom: 0px;
+background-image: linear-gradient(to right, rgba(0, 0, 128, 1), rgba(0, 0, 128, 1), rgba(55, 55, 55, 0.5)), url(./assets/gene.jpeg);
+background-blend-mode: initial;
+background-size: cover;
+background-position: top;
+margin-top: -70px !important;
+">
+	<div class="container" style="width: 98%;">
+			<div class="container" style="width: 98%; padding-top: 50px;">
+					<p style="    color: white;
+					font-size: 16px;
+					text-align: right;
+					padding: 0px;
+					margin-bottom: 10px;
+					transform: translateY(-25px);
+					transform: translate(50px, -25px);
+					/* background-color: white; */
+					text-shadow: 1px 1px black;"><b>Current release</b>: 2018-10-01 | 45 042 GO terms | 6 278 639 annotations | 3 200 species</p>
+		
+
+		<h1 class="site__title" style="    
+			font-size: 45px;
+			letter-spacing: 0.35rem;
+			text-transform: uppercase;
+			font-weight: 400;">The Gene Ontology Resource</h1>
 
 		<div class="row">
 
-			<div class="col-md-9">
+			<div class="col-md-8">
 
-				<p class="site__statement" style="font-size: 20px">
-					The mission of the GO Consortium is to develop a comprehensive,
-					<b>computational model of biological systems</b>, from the molecular level to larger pathways, cellular and organism-level
-					systems.
+				<p class="site__statement" style="font-size: 20px; max-width: 900px">
+					The mission of the GO Consortium is to develop a comprehensive, <b></b>computational model of biological systems</b>, covering pathways from the molecular to the organism level, across the multiplicity of species in the tree of life.
 				</p>
 
 				<!-- style="text-align: center;" -->
@@ -41,7 +62,7 @@ layout: default
 				<br>
 
 				<p>
-					<form action="http://amigo.geneontology.org/amigo/medial_search" class="" method="GET"  name="form-search"  target="_blank">
+					<form action="http://amigo.geneontology.org/amigo/medial_search" class="" method="GET"  name="form-search"  target="_blank" style="max-width: 800px;">
 						<div class="center-block" style="padding-bottom: 1em;">
 							<div class="input-group">
 								<input id="gsf-query" class="form-control input-lg go-search-bar" style="width: 100%; border-radius:25px 0px 0px 25px;height: 50px;" name="q"
@@ -53,7 +74,7 @@ layout: default
 									</button>
 								</span>
 							</div>
-							<div style="color:black; margin-top: 5px; margin-left:10px; font-size: 18px">
+							<div style="color:white; margin-top: 5px; margin-left:10px; font-size: 18px">
 								<input type="radio" name="searchtype" value="all" checked="checked"> Any &nbsp;														
 								<input type="radio" name="searchtype" value="ontology"> Ontology &nbsp;
 								<input type="radio" name="searchtype" value="geneproduct"> Gene Product 
@@ -63,10 +84,146 @@ layout: default
 				</p>
 			</div>
 
-			<div class="col-md-3">
-				<div class="hidden-xs hidden-sm">
+			<div class="col-md-4">
+
+					<h3 class="display: block; margin-left: auto; margin-right: auto;">
+							<a href="/docs/go-enrichment-analysis/" style="color:white;">GO Enrichment Analysis <i class="fa fa-question-circle"></i></a>
+							</h5>
+			
+							<form action="http://pantherdb.org/webservices/go/overrep.jsp" class="form-inline" role="form" method="POST" target="_blank">
+								<input name="correction" value="bonferroni" type="hidden">
+								<input name="format" value="html" type="hidden">
+								<input name="resource" value="PANTHER" type="hidden">
+								<textarea id="landing_gene_input" class="form-control" rows="5" name="input" placeholder="Your gene IDs here..." style="width:100%; resize: none; margin-bottom: 5px;"></textarea>
+			
+								<div class="form-group" style="width:100%;margin-bottom: 5px;">
+									<select id="rte_ontology" class="form-control" name="ontology" style="width:100%">
+										<option value="biological_process">biological process</option>
+										<option value="molecular_function">molecular function</option>
+										<option value="cellular_component">cellular component</option>
+									</select>
+								</div>
+			
+			
+								<div class="input-group">
+									<div class="form-group">
+										<select id="rte_species" class="form-control" name="species" style="width: 100%;">
+											<option value="HUMAN">Homo sapiens</option>
+											<option value="MOUSE">Mus musculus</option>
+											<option value="RAT">Rattus norvegicus</option>
+											<option value="CHICK">Gallus gallus</option>
+											<option value="DANRE">Danio rerio</option>
+											<option value="DROME">Drosophila melanogaster</option>
+											<option value="CAEEL">Caenorhabditis elegans</option>
+											<option value="YEAST">Saccharomyces cerevisiae</option>
+											<option value="SCHPO">Schizosaccharomyces pombe</option>
+											<option value="DICDI">Dictyostelium discoideum</option>
+											<option value="ARATH">Arabidopsis thaliana</option>
+											<option value="ECOLI">Escherichia coli</option>
+											<option value="EMENI">Emericella nidulans</option>
+											<option value="ANOCA">Anolis carolinensis</option>
+											<option value="ANOGA">Anopheles gambiae</option>
+											<option value="AQUAE">Aquifex aeolicus</option>
+											<option value="ASHGO">Ashbya gossypii</option>
+											<option value="BACCR">Bacillus cereus</option>
+											<option value="BACSU">Bacillus subtilis</option>
+											<option value="BACTN">Bacteroides thetaiotaomicron</option>
+											<option value="BATDJ">Batrachochytrium dendrobatidis</option>
+											<option value="BOVIN">Bos taurus</option>
+											<option value="BRADI">Brachypodium distachyon</option>
+											<option value="BRAJA">Bradyrhizobium japonicum</option>
+											<option value="BRAFL">Branchiostoma floridae</option>
+											<option value="CAEBR">Caenorhabditis briggsae</option>
+											<option value="CANAL">Candida albicans</option>
+											<option value="CANFA">Canis familiaris</option>
+											<option value="CHLTR">Chlamydia trachomatis</option>
+											<option value="CHLRE">Chlamydomonas reinhardtii</option>
+											<option value="CHLAA">Chloroflexus aurantiacus</option>
+											<option value="CIOIN">Ciona intestinalis</option>
+											<option value="CLOBH">Clostridium botulinum</option>
+											<option value="COXBU">Coxiella burnetii</option>
+											<option value="CRYNJ">Cryptococcus neoformans</option>
+											<option value="DAPPU">Daphnia pulex</option>
+											<option value="DEIRA">Deinococcus radiodurans</option>
+											<option value="DICTD">Dictyoglomus turgidum</option>
+											<option value="DICPU">Dictyostelium purpureum</option>
+											<option value="ENTHI">Entamoeba histolytica</option>
+											<option value="HORSE">Equus caballus</option>
+											<option value="FELCA">Felis catus</option>
+											<option value="FUSNN">Fusobacterium nucleatum</option>
+											<option value="GEOSL">Geobacter sulfurreducens</option>
+											<option value="GIAIC">Giardia intestinalis</option>
+											<option value="GLOVI">Gloeobacter violaceus</option>
+											<option value="SOYBN">Glycine max</option>
+											<option value="HAEIN">Haemophilus influenzae</option>
+											<option value="HALSA">Halobacterium salinarum</option>
+											<option value="IXOSC">Ixodes scapularis</option>
+											<option value="KORCO">Korarchaeum cryptofilum</option>
+											<option value="LEIMA">Leishmania major</option>
+											<option value="LEPIN">Leptospira interrogans</option>
+											<option value="LISMO">Listeria monocytogenes</option>
+											<option value="MACMU">Macaca mulatta</option>
+											<option value="METJA">Methanocaldococcus jannaschii</option>
+											<option value="METAC">Methanosarcina acetivorans</option>
+											<option value="MONDO">Monodelphis domestica</option>
+											<option value="MONBE">Monosiga brevicollis</option>
+											<option value="MYCTU">Mycobacterium tuberculosis</option>
+											<option value="NEMVE">Nematostella vectensis</option>
+											<option value="NEUCR">Neurospora crassa</option>
+											<option value="ORNAN">Ornithorhynchus anatinus</option>
+											<option value="ORYSJ">Oryza sativa</option>
+											<option value="PANTR">Pan troglodytes</option>
+											<option value="PHANO">Phaeosphaeria nodorum</option>
+											<option value="PHYPA">Physcomitrella patens</option>
+											<option value="PHYIT">Phytophthora infestans</option>
+											<option value="PLAF7">Plasmodium falciparum</option>
+											<option value="POPTR">Populus trichocarpa</option>
+											<option value="PRIPA">Pristionchus pacificus</option>
+											<option value="PSEAE">Pseudomonas aeruginosa</option>
+											<option value="PUCGT">Puccinia graminis</option>
+											<option value="PYRAE">Pyrobaculum aerophilum</option>
+											<option value="PYRKO">Pyrococcus kodakaraensis</option>
+											<option value="RHOBA">Rhodopirellula baltica</option>
+											<option value="SALTY">Salmonella typhimurium</option>
+											<option value="SCHMA">Schistosoma mansoni</option>
+											<option value="SCLS1">Sclerotinia sclerotiorum</option>
+											<option value="SHEON">Shewanella oneidensis</option>
+											<option value="SOLLC">Solanum lycopersicum</option>
+											<option value="SORBI">Sorghum bicolor</option>
+											<option value="STAA8">Staphylococcus aureus</option>
+											<option value="STRR6">Streptococcus pneumoniae</option>
+											<option value="STRCO">Streptomyces coelicolor</option>
+											<option value="STRPU">Strongylocentrotus purpuratus</option>
+											<option value="SULSO">Sulfolobus solfataricus</option>
+											<option value="PIG">Sus scrofa</option>
+											<option value="SYNY3">Synechocystis</option>
+											<option value="TAKRU">Takifugu rubripes</option>
+											<option value="TETTS">Tetrahymena thermophila</option>
+											<option value="THAPS">Thalassiosira pseudonana</option>
+											<option value="THEYD">Thermodesulfovibrio yellowstonii</option>
+											<option value="THEMA">Thermotoga maritima</option>
+											<option value="TRIVA">Trichomonas vaginalis</option>
+											<option value="TRIAD">Trichoplax adhaerens</option>
+											<option value="brucei">TRYB2 Trypanosoma brucei</option>
+											<option value="USTMA">Ustilago maydis</option>
+											<option value="VIBCH">Vibrio cholerae</option>
+											<option value="VITVI">Vitis vinifera</option>
+											<option value="XANCP">Xanthomonas campestris</option>
+											<option value="XENTR">Xenopus tropicalis</option>
+											<option value="YARLI">Yarrowia lipolytica</option>
+											<option value="YERPE">Yersinia pestis</option>
+										</select>
+									</div>
+			
+									<span class="input-group-btn">
+										<button type="submit" class="btn btn-primary u-no-transform">Submit</button>
+									</span>
+								</div>
+							</form>
+					</div>				
+				<!-- <div class="hidden-xs hidden-sm">
 					<img src="img/go-logo-icon.png" alt="Gene Ontology Logo" class="img-responsive go-main-logo" style="margin: auto;">
-				</div>
+				</div> -->
 				<div style="
 				border-radius: 35px 10px 35px 10px;
 				padding: 20px;
@@ -76,12 +233,12 @@ layout: default
 				color: black;				
 				">
 
-					<h3 style="font-size: 25px;margin-bottom: 0px;">
+					<!-- <h3 style="font-size: 25px;margin-bottom: 0px;">
 						<a href="/docs/downloads/">Current Release: 2018-10-08 <i class="fa fa-question-circle"></i></a>
 					</h3>
 					<li>45 042 GO terms</li>
 					<li>6 278 639 annotations</li>
-					<li>3 200 species</li>
+					<li>3 200 species</li> -->
 				</div>
 			</div>
 
@@ -100,156 +257,22 @@ layout: default
 	<div class="row">
 
 		<!-- LEFT PANEL -->
-		<div class="col-md-4">
+		<!-- <div class="col-md-4">
 
-			<h3 class="display: block; margin-left: auto; margin-right: auto;">
-				<a href="/docs/go-enrichment-analysis/">GO Enrichment Analysis <i class="fa fa-question-circle"></i></a>
-				</h5>
-
-				<form action="http://pantherdb.org/webservices/go/overrep.jsp" class="form-inline" role="form" method="POST" target="_blank">
-					<input name="correction" value="bonferroni" type="hidden">
-					<input name="format" value="html" type="hidden">
-					<input name="resource" value="PANTHER" type="hidden">
-					<textarea id="landing_gene_input" class="form-control" rows="5" name="input" placeholder="Your gene IDs here..." style="width:100%; resize: none;"></textarea>
-
-					<div class="form-group" style="width:100%">
-						<select id="rte_ontology" class="form-control" name="ontology" style="width:100%">
-							<option value="biological_process">biological process</option>
-							<option value="molecular_function">molecular function</option>
-							<option value="cellular_component">cellular component</option>
-						</select>
-					</div>
-
-
-					<div class="input-group">
-						<div class="form-group">
-							<select id="rte_species" class="form-control" name="species" style="width: 100%;">
-								<option value="HUMAN">Homo sapiens</option>
-								<option value="MOUSE">Mus musculus</option>
-								<option value="RAT">Rattus norvegicus</option>
-								<option value="CHICK">Gallus gallus</option>
-								<option value="DANRE">Danio rerio</option>
-								<option value="DROME">Drosophila melanogaster</option>
-								<option value="CAEEL">Caenorhabditis elegans</option>
-								<option value="YEAST">Saccharomyces cerevisiae</option>
-								<option value="SCHPO">Schizosaccharomyces pombe</option>
-								<option value="DICDI">Dictyostelium discoideum</option>
-								<option value="ARATH">Arabidopsis thaliana</option>
-								<option value="ECOLI">Escherichia coli</option>
-								<option value="EMENI">Emericella nidulans</option>
-								<option value="ANOCA">Anolis carolinensis</option>
-								<option value="ANOGA">Anopheles gambiae</option>
-								<option value="AQUAE">Aquifex aeolicus</option>
-								<option value="ASHGO">Ashbya gossypii</option>
-								<option value="BACCR">Bacillus cereus</option>
-								<option value="BACSU">Bacillus subtilis</option>
-								<option value="BACTN">Bacteroides thetaiotaomicron</option>
-								<option value="BATDJ">Batrachochytrium dendrobatidis</option>
-								<option value="BOVIN">Bos taurus</option>
-								<option value="BRADI">Brachypodium distachyon</option>
-								<option value="BRAJA">Bradyrhizobium japonicum</option>
-								<option value="BRAFL">Branchiostoma floridae</option>
-								<option value="CAEBR">Caenorhabditis briggsae</option>
-								<option value="CANAL">Candida albicans</option>
-								<option value="CANFA">Canis familiaris</option>
-								<option value="CHLTR">Chlamydia trachomatis</option>
-								<option value="CHLRE">Chlamydomonas reinhardtii</option>
-								<option value="CHLAA">Chloroflexus aurantiacus</option>
-								<option value="CIOIN">Ciona intestinalis</option>
-								<option value="CLOBH">Clostridium botulinum</option>
-								<option value="COXBU">Coxiella burnetii</option>
-								<option value="CRYNJ">Cryptococcus neoformans</option>
-								<option value="DAPPU">Daphnia pulex</option>
-								<option value="DEIRA">Deinococcus radiodurans</option>
-								<option value="DICTD">Dictyoglomus turgidum</option>
-								<option value="DICPU">Dictyostelium purpureum</option>
-								<option value="ENTHI">Entamoeba histolytica</option>
-								<option value="HORSE">Equus caballus</option>
-								<option value="FELCA">Felis catus</option>
-								<option value="FUSNN">Fusobacterium nucleatum</option>
-								<option value="GEOSL">Geobacter sulfurreducens</option>
-								<option value="GIAIC">Giardia intestinalis</option>
-								<option value="GLOVI">Gloeobacter violaceus</option>
-								<option value="SOYBN">Glycine max</option>
-								<option value="HAEIN">Haemophilus influenzae</option>
-								<option value="HALSA">Halobacterium salinarum</option>
-								<option value="IXOSC">Ixodes scapularis</option>
-								<option value="KORCO">Korarchaeum cryptofilum</option>
-								<option value="LEIMA">Leishmania major</option>
-								<option value="LEPIN">Leptospira interrogans</option>
-								<option value="LISMO">Listeria monocytogenes</option>
-								<option value="MACMU">Macaca mulatta</option>
-								<option value="METJA">Methanocaldococcus jannaschii</option>
-								<option value="METAC">Methanosarcina acetivorans</option>
-								<option value="MONDO">Monodelphis domestica</option>
-								<option value="MONBE">Monosiga brevicollis</option>
-								<option value="MYCTU">Mycobacterium tuberculosis</option>
-								<option value="NEMVE">Nematostella vectensis</option>
-								<option value="NEUCR">Neurospora crassa</option>
-								<option value="ORNAN">Ornithorhynchus anatinus</option>
-								<option value="ORYSJ">Oryza sativa</option>
-								<option value="PANTR">Pan troglodytes</option>
-								<option value="PHANO">Phaeosphaeria nodorum</option>
-								<option value="PHYPA">Physcomitrella patens</option>
-								<option value="PHYIT">Phytophthora infestans</option>
-								<option value="PLAF7">Plasmodium falciparum</option>
-								<option value="POPTR">Populus trichocarpa</option>
-								<option value="PRIPA">Pristionchus pacificus</option>
-								<option value="PSEAE">Pseudomonas aeruginosa</option>
-								<option value="PUCGT">Puccinia graminis</option>
-								<option value="PYRAE">Pyrobaculum aerophilum</option>
-								<option value="PYRKO">Pyrococcus kodakaraensis</option>
-								<option value="RHOBA">Rhodopirellula baltica</option>
-								<option value="SALTY">Salmonella typhimurium</option>
-								<option value="SCHMA">Schistosoma mansoni</option>
-								<option value="SCLS1">Sclerotinia sclerotiorum</option>
-								<option value="SHEON">Shewanella oneidensis</option>
-								<option value="SOLLC">Solanum lycopersicum</option>
-								<option value="SORBI">Sorghum bicolor</option>
-								<option value="STAA8">Staphylococcus aureus</option>
-								<option value="STRR6">Streptococcus pneumoniae</option>
-								<option value="STRCO">Streptomyces coelicolor</option>
-								<option value="STRPU">Strongylocentrotus purpuratus</option>
-								<option value="SULSO">Sulfolobus solfataricus</option>
-								<option value="PIG">Sus scrofa</option>
-								<option value="SYNY3">Synechocystis</option>
-								<option value="TAKRU">Takifugu rubripes</option>
-								<option value="TETTS">Tetrahymena thermophila</option>
-								<option value="THAPS">Thalassiosira pseudonana</option>
-								<option value="THEYD">Thermodesulfovibrio yellowstonii</option>
-								<option value="THEMA">Thermotoga maritima</option>
-								<option value="TRIVA">Trichomonas vaginalis</option>
-								<option value="TRIAD">Trichoplax adhaerens</option>
-								<option value="brucei">TRYB2 Trypanosoma brucei</option>
-								<option value="USTMA">Ustilago maydis</option>
-								<option value="VIBCH">Vibrio cholerae</option>
-								<option value="VITVI">Vitis vinifera</option>
-								<option value="XANCP">Xanthomonas campestris</option>
-								<option value="XENTR">Xenopus tropicalis</option>
-								<option value="YARLI">Yarrowia lipolytica</option>
-								<option value="YERPE">Yersinia pestis</option>
-							</select>
-						</div>
-
-						<span class="input-group-btn">
-							<button type="submit" class="btn btn-primary u-no-transform">Submit</button>
-						</span>
-					</div>
-				</form>
-		</div>
+			</div> -->
 
 		<!-- MIDDLE PANEL -->
-		<div class="col-md-8">
-			<blockquote>
+		<div class="col-md-12 container" style="font-size: 20px; margin-top: 50px !important">
+			<div style="text-transform: uppercase; font-weight: 900;">
 				GO: a shared vocabulary of biology across species
-			</blockquote>
+			</div>
 
 			<p>
 				The Gene Ontology (GO) resource is the world’s largest source of knowledge about the functions of genes. This knowledge is both human-readable and machine-readable, and is a foundation for computational analysis of large-scale molecular biology and genetics experiments in biomedical research.
 
 				The GO knowledgebase is composed of two primary components: 
-				<li> <a href="/docs/ontology-documentation/">GO ontology</a>, which provides the logical structure of the “universe” of biological functions (“terms”) and their relationships to one another. </li>
-				<li> <a href="/docs/go-annotations/">GO annotations</a>, statements relating a specific gene to a function (GO term). Each annotation is based on specific scientific evidence.</li>
+				<li class="curvy-card u-background-gradient-secondary"> <a href="/docs/ontology-documentation/">GO ontology</a>, which provides the logical structure of the “universe” of biological functions (“terms”) and their relationships to one another. </li>
+				<li class="curvy-card u-background-gradient-tertiary" style="margin-left: 25px"> <a href="/docs/go-annotations/">GO annotations</a>, statements relating a specific gene to a function (GO term). Each annotation is based on specific scientific evidence.</li>
 			</p>
 
 		</div>
