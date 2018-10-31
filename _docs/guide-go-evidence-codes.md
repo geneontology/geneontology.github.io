@@ -5,15 +5,15 @@ permalink: /docs/guide-go-evidence-codes/
 
 # Guide to GO Evidence Codes
 
-A [GO annotation](/docs/go-annotations/) is a statement about the function of a particular gene. Each annotation includes an evidence code to indicate how the annotation to a particular term is supported. 
+A [GO annotation](/docs/go-annotations/) is a statement about the function of a particular gene. Each annotation includes an evidence code to indicate how the annotation to a particular term is supported.
 
-Evidence codes fall into six general categories: 
-* experimental evidence 
+Evidence codes fall into six general categories:
+* experimental evidence
 * phylogenetic evidence
 * computational evidence
 * author statements
 * curatorial statements
-* automatically generated annotations 
+* automatically generated annotations
 
 
 ## Experimental Evidence codes
@@ -42,10 +42,10 @@ Phylogenetic principles, reconstructing evolutionary events to infer relationshi
 
 Phylogenetically-based annotations are derived from an explicit model of gain and loss of gene function at specific branches in a phylogenetic tree. Each inferred annotation can be traced to the direct experimental annotations that were used as the basis for that assertion. The GO Phylogenetic Annotation project is now the largest source of manually reviewed annotations in the GO knowledgebase, and it has substantially increased the number of annotations even in organisms that have been well-studied experimentally.
 
-- [Inferred from Biological aspect of Ancestor (IBA)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Ancestor_(IBA)){:target="_blank"}
-- [Inferred from Biological aspect of Descendant (IBD)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Descendant_(IBD)){:target="_blank"}
-- [Inferred from Key Residues (IKR)](http://wiki.geneontology.org/index.php/Inferred_from_Key_Residues_(IKR)){:target="_blank"}
-- [Inferred from Rapid Divergence (IRD)](http://wiki.geneontology.org/index.php/Inferred_from_Rapid_Divergence(IRD)){:target="_blank"}
+- [Inferred from Biological characteristic of Ancestor (IBA)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Ancestor_(IBA)){:target="_blank"}
+- [Inferred from Biological characteristic of Descendant (IBD)](http://wiki.geneontology.org/index.php/Inferred_from_Biological_aspect_of_Descendant_(IBD)){:target="_blank"}
+- [Inferred loss due to absence of Key Residues (IKR)](http://wiki.geneontology.org/index.php/Inferred_from_Key_Residues_(IKR)){:target="_blank"}
+- [Inferred loss after Rapid Divergence (IRD)](http://wiki.geneontology.org/index.php/Inferred_from_Rapid_Divergence(IRD)){:target="_blank"}
 
 ## Computational Analysis evidence codes
 
@@ -77,5 +77,3 @@ Use of the curatorial statement evidence codes indicates an annotation made on t
 ‘Electronic’ (IEA) annotation are not manually reviewed (although the method itself is usually subjected to various quality assessments). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to an experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is [InterPro2GO](https://www.ncbi.nlm.nih.gov/pubmed/27899635){:target="_blank"}, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (including Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
 
 - [Inferred from Electronic Annotation (IEA)](http://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA)){:target="_blank"}
-
-

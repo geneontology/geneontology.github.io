@@ -3,20 +3,30 @@ title: Collaborations
 permalink: /docs/collaborations/
 ---
 
-The GO Consortium collaborates with other groups on a wide variety of topics, including groups with expertise in specific areas of biology and other ontology projects. We welcome your feedback and contributions. Please reach the GOC using our ["Contact us" form](http://help.geneontology.org/){:target="blank"}.
+# Collaborations
+The GO Consortium collaborates with many other groups on a wide variety of topics, particularly with groups whose expertise in specific areas of biology, or a complementary ontology project, would help to improve the usefulness of the GO resource. We welcome your feedback and contributions. Please reach us using our ["Contact us" form](http://help.geneontology.org/){:target="blank"} if you are interested in a possible collaboration.
 
-# Current collaborations
+## Annotation/Ontology development projects
 + [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley"){:target="blank"}
 + [Gene Regulation Consortium (GRECO)](http://thegreco.org/){:target="blank"}
 
-## Integration with other ontologies
-+ Cell Ontology [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27377652){:target="blank"}
-+ ChEBI (Chemical Entities of Biological Interest) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23895341){:target="blank"}
-+ SAO (Subcellular Anatomy Ontology) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/24093723){:target="blank"}
-+ Uberon [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/25937883){:target="blank"}
-+ Vertebrate Skeletal Anatomy Ontology (VSAO) [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23251424){:target="blank"}
+## Domain-specific expertise
+- __Transcription__: Marcio L. Acencio, Astrid Lægreid, Colin	Logie,
+- *__S. pombe__* __annotations__: Jacqueline	Hayles
+- __Extracellular matrix__: Rachel Lennon, Geoff Meyer, Jeff Miner, Sylvie Ricard-Blum, David Sherwood, Peter Yurchenco
 
-# Past collaborations
+## Integration with other ontologies
+
+|__Name__ |	__Description__ |	__Contact__|
+|-----|-------------|--------|
+|[Cell Type Ontology (CL)](http://cellontology.org/){:target="blank"} |	[The Cell Ontology (CL) is an OBO Foundry ontology for the representation of cell types.](https://www.ncbi.nlm.nih.gov/pubmed/27377652){:target="blank"} |	[CL SourceForge tracker](https://sourceforge.net/p/obo/cell-ontology-cl-requests/){:target="blank"}|
+|[Chemical Entities of Biological Interest (ChEBI)](http://www.ebi.ac.uk/chebi/) |	[Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds.](https://www.ncbi.nlm.nih.gov/pubmed/23895341){:target="blank"} |	[ChEBI web submission form](http://www.ebi.ac.uk/chebi/emailChebiForward.do){:target="blank"}|
+|[Evidence Ontology (ECO)](http://www.evidenceontology.org/){:target="blank"}| The Evidence Ontology (ECO) is an ontology for describing biological research evidence that is used to support assertions. 	 |[ECO GitHub](https://github.com/evidenceontology/evidenceontology/issues/new){:target="blank"}|
+|[Plant Ontology (PO)](http://www.plantontology.org/){:target="blank"}| 	Plant Ontology project is a major international bioinformatics effort on standardizing the nomenclature, definitions, synonyms and relations of various terms/keywords/vocabularies that describe anatomical entities as well as the growth and developmental stages of plants. |	[PO web submission form](http://www.plantontology.org/contact){:target="blank"}|
+|[Uber Anatomy Ontology (Uberon)](http://uberon.github.io/){:target="blank"} |	[Uberon is an integrated cross-species ontology covering anatomical structures in animals.](https://www.ncbi.nlm.nih.gov/pubmed/25009735){:target="blank"} 	| [Uberon help](cjmungall@lbl.gov)|
+
+
+## Past collaborations
 + Autophagy [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29455577){:target="blank"}
 + Autism [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26047810){:target="blank"}
 + Biochemical pathways [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27589964){:target="blank"}
@@ -36,4 +46,3 @@ The GO Consortium collaborates with other groups on a wide variety of topics, in
 + Peroxisome [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23327938){:target="blank"}
 + Transcription [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/23981286){:target="blank"}
 + Viral processes [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/28207819,25233094){:target="blank"}
-
