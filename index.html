@@ -3,24 +3,28 @@ layout: default
 ---
 
 <div class="header-container jumbotron" style="
-padding-bottom: 0px;
-background-image: linear-gradient(to right, rgba(0, 0, 128, 1), rgba(0, 0, 128, 1), rgba(55, 55, 55, 0.5)), url(./assets/gene.jpeg);
-background-blend-mode: initial;
-background-size: cover;
-background-position: top;
-margin-top: -70px !important;
+	padding-bottom: 0px;
+	background-image: linear-gradient(to right, rgba(0, 23, 79, 1), rgba(0, 23, 79, 0.8), rgba(0, 23, 79, 0.5)), url(./assets/gene.jpeg); */
+	background-blend-mode: initial;
+	background-size: cover;
+	background-position: top;
+	margin-top: -70px !important;
 ">
 	<div class="container" style="width: 98%;">
 			<div class="container" style="width: 98%; padding-top: 50px;">
-					<p style="    color: white;
-					font-size: 16px;
-					text-align: right;
-					padding: 0px;
-					margin-bottom: 10px;
-					transform: translateY(-25px);
-					transform: translate(50px, -25px);
-					/* background-color: white; */
-					text-shadow: 1px 1px black;">Current release—<b>2018-10-01</b>: 45,042 GO terms | 6,278,639 annotations | 3,200 species</p>
+					<p style="color: #f2be54;
+						font-size: 13px;
+						text-align: right;
+						letter-spacing: 0.35rem;
+						padding: 0px;
+						padding-right: 1em;
+						margin-bottom: 10px;
+						/* transform: translateY(-25px); */
+						transform: translate(50px, -25px);
+						/* background-color: white; */
+						/* text-shadow: 1px 1px black;*/"
+					>
+						Current release 2018-10-01: 45,042 GO terms | 6,278,639 annotations | 3,200 species</p>
 
 
 		<h1 class="site__title" style="
@@ -33,11 +37,14 @@ margin-top: -70px !important;
 
 			<div class="col-md-8">
 
-				<p class="site__statement" style="font-size: 20px; max-width: 900px">
+				<p class="site__statement" style="font-size: 16px; max-width: 900px">
 					The mission of the GO Consortium is to develop a comprehensive, <b>computational model of biological systems</b>, ranging from the molecular to the organism level, across the multiplicity of species in the tree of life.
+					<br>
+					<br>
+					The Gene Ontology (GO) knowledgebase is the world’s largest source of information on the functions of genes. This knowledge is both human-readable and machine-readable, and is a foundation for computational analysis of large-scale molecular biology and genetics experiments in biomedical research.
 				</p>
 
-				<!-- style="text-align: center;" -->
+				<!-- style="text-align: center;"
 				<p class="u-margin-top-medium">
 
 					<a class="btn u-background-gradient-primary btn-lg" href="{{ " /docs/introduction-to-go-resource/
@@ -47,7 +54,6 @@ margin-top: -70px !important;
 					<a class="btn u-background-gradient-secondary btn-lg" href="http://amigo.geneontology.org/amigo/dd_browse" target="blank"
 					 role="button" style="font-size: 18px; margin: 5px">
 						<i class="fa fa-share-alt"></i> Browse Ontology</a>
-					<!-- <i class="fa fa-code-fork"></i> Ontology</a> -->
 
 					<a class="btn u-background-gradient-tertiary btn-lg" href="http://amigo.geneontology.org/amigo/search/annotation" target="blank"
 					 role="button" style="font-size: 18px; margin: 5px">
@@ -58,7 +64,7 @@ margin-top: -70px !important;
 						<i class="fa fa-download"></i> Downloads</a>
 
 				</p>
-
+				 -->
 				<br>
 
 				<p>
@@ -69,12 +75,12 @@ margin-top: -70px !important;
 								 placeholder="Search GO term or Gene Product in AmiGO ..." title="Hint: add a space after completing a word to narrow the search."
 								 type="text">
 								<span class="input-group-btn">
-									<button class="btn btn-primary u-no-transform go-search-bar" type="submit" style="padding-left: 15px; padding-right: 15px; border-radius:0px 25px 25px 0px; height: 50px;">
+									<button class="btn btn-primary u-no-transform go-search-bar" type="submit" style="padding-left: 15px; padding-right: 15px; border-radius:0px 25px 25px 0px; height: 50px; background-color: #22612C; border-color: #22612C;">
 										<i class="fa fa-search"></i>
 									</button>
 								</span>
 							</div>
-							<div style="color:white; margin-top: 5px; margin-left:10px; font-size: 18px">
+							<div style="color:white; margin-top: 5px; margin-left:10px; font-size: 16px">
 								<input type="radio" name="searchtype" value="all" checked="checked"> Any &nbsp;
 								<input type="radio" name="searchtype" value="ontology"> Ontology &nbsp;
 								<input type="radio" name="searchtype" value="geneproduct"> Gene Product
@@ -86,7 +92,9 @@ margin-top: -70px !important;
 
 			<div class="col-md-4">
 
-					<h3 class="display: block; margin-left: auto; margin-right: auto;">
+					<h3 class="display: block; margin-left: auto; margin-right: auto;"
+							style="font-size: 24px; letter-spacing: 0.18rem;"
+					>
 							<a href="/docs/go-enrichment-analysis/" style="color:white;">GO Enrichment Analysis <i class="fa fa-question-circle"></i></a>
 							</h5>
 
@@ -94,7 +102,7 @@ margin-top: -70px !important;
 								<input name="correction" value="bonferroni" type="hidden">
 								<input name="format" value="html" type="hidden">
 								<input name="resource" value="PANTHER" type="hidden">
-								<textarea id="landing_gene_input" class="form-control" rows="5" name="input" placeholder="Your gene IDs here..." style="width:100%; resize: none; margin-bottom: 5px;"></textarea>
+								<textarea id="landing_gene_input" class="form-control" rows="8" name="input" placeholder="Your gene IDs here..." style="width:100%; resize: none; margin-bottom: 5px;"></textarea>
 
 								<div class="form-group" style="width:100%;margin-bottom: 5px;">
 									<select id="rte_ontology" class="form-control" name="ontology" style="width:100%">
@@ -216,7 +224,7 @@ margin-top: -70px !important;
 									</div>
 
 									<span class="input-group-btn">
-										<button type="submit" class="btn btn-primary u-no-transform">Submit</button>
+										<button type="submit" class="btn btn-primary u-no-transform" style="background-color: #22612C; border-color: #22612C;">Submit</button>
 									</span>
 								</div>
 							</form>
@@ -252,8 +260,8 @@ margin-top: -70px !important;
 </div>
 
 
-<div class="container" style="width: 90%;">
-
+<div class="container" style="width: 100%;">
+	<!-- MIDDLE PANEL -->
 	<div class="row">
 
 		<!-- LEFT PANEL -->
@@ -261,20 +269,23 @@ margin-top: -70px !important;
 
 			</div> -->
 
-		<!-- MIDDLE PANEL -->
-		<div class="col-md-12 container" style="font-size: 20px; margin-top: 50px !important">
-			<div style="text-transform: uppercase; font-weight: 900;">
-				GO: a shared vocabulary of biology across species
+		<div style="font-size: 16px; display: flex; flex-direction: row;">
+			<div class="card">
+			  <div class="card__container" style="background-color: #f2be54;">
+			    <h4><b>Ontology</b></h4>
+			    <p>The network of biological classes describing the current best representation of the “universe” of
+						biology. The molecular functions, cellular locations, and processes gene products may carry out.
+					</p>
+			  </div>
 			</div>
-
-			<p>
-				The Gene Ontology (GO) resource is the world’s largest source of knowledge about the functions of genes. This knowledge is both human-readable and machine-readable, and is a foundation for computational analysis of large-scale molecular biology and genetics experiments in biomedical research.
-
-				The GO knowledgebase is composed of two primary components:
-				<li class="curvy-card u-background-gradient-secondary"> <a href="/docs/ontology-documentation/">GO ontology</a>, which provides the logical structure of the “universe” of biological functions (“terms”) and their relationships to one another. </li>
-				<li class="curvy-card u-background-gradient-tertiary" style="margin-left: 25px"> <a href="/docs/go-annotations/">GO annotations</a>, statements relating a specific gene to a function (GO term). Each annotation is based on specific scientific evidence.</li>
-			</p>
-
+			<div class="card">
+			  <div class="card__container" style="background-color: #87AEB4;">
+			    <h4><b>Annotations</b></h4>
+			    <p>Statements, based on specific, traceble scientific evidence,
+						asserting that a specific gene product is an real exemplar of a particular GO class.
+					</p>
+			  </div>
+			</div>
 		</div>
 
 	</div>

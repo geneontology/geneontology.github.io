@@ -1,5 +1,5 @@
 h1 {
-  color: #4252af !important;
+  color: #002379 !important;
 }
 
 a {
@@ -18,7 +18,7 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
   position: relative;
 }
 
-a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):after {    
+a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -31,9 +31,9 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
   width: 0;
 }
 
-a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):hover:after { 
-  width: 100%; 
-  left: 0; 
+a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .btn {
@@ -64,9 +64,10 @@ border-radius: 25px;
 width: 300px !important;
 border-radius: 0px 20px 20px 0px;
 box-shadow: -5px 10px 29px black;
-// padding: 5px !important; 
+// padding: 5px !important;
+background-color: #f7fff3;
 border: none;
-box-shadow: -5px 15px 29px;      
+box-shadow: -5px 15px 29px;
 padding: 10px 20px !important;
 
 animation-name: moveInUp;
@@ -92,7 +93,7 @@ transition: all 0.2s;
         font-weight: 400 !important;
         background-color: lightgrey;
         background-color: navy;
-        color: white;        
+        color: white;
         border-radius: 5px;
     }
 }
@@ -107,7 +108,7 @@ color: rgb(66, 82, 175) !important;
 
 .go-main-logo {
 filter: drop-shadow(8px 8px 10px white);
-// filter: blur(5px);  
+// filter: blur(5px);
 }
 
 .site {

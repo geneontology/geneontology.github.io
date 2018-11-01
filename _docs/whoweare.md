@@ -23,7 +23,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 + [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"}, Lawrence Berkeley National Laboratory - Architecture
 + David Hill, Jackson Laboratory - Ontology
 + Kimberly van Auken, Caltech - Annotation
-+ [Huaiyu Mi](https://orcid.org/0000-0001-8721-202X){:target="blank"}, University of Southern California - Phylogenetics
++ [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetics
 + [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Outreach
 + Suzi Alexander, Stanford University - User Support
 
@@ -34,9 +34,9 @@ We want to acknowledge the contributions of the following individuals in the dev
 - __UniProt__
   - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, [Maria J.	Martin](https://www.ebi.ac.uk/about/people/maria-jesus-martin){:target="blank"}, [Sylvain	Poux](https://orcid.org/0000-0001-7299-6685){:target="blank"}
 - __Reactome__
-  - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"} and [Lincoln Stein](https://orcid.org/0000-0002-5494-626X){:target="blank"}
+  - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"} and [Lincoln Stein](https://oicr.on.ca/investigators/lincoln-stein/){:target="blank"}
 - [__Alliance for Genome Resources__](https://www.alliancegenome.org/)
-  - *__Drosophila__*: Nick	Brown and Steven	Marygold, Cambridge University
+  - *__Drosophila__*: [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"} and [Steven	Marygold](https://www.pdn.cam.ac.uk/research/groups/flybase){:target="blank"}, Cambridge University
     - Thomas	Kaufman, Indiana University
     - Norbert	Perrimon, Harvard University
   - __Rat__: Mary	Shimoyama, Milwaukee College of Medicine
