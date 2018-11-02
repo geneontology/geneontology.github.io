@@ -4,29 +4,29 @@ permalink: /docs/download-mappings/
 ---
 
 # Cross-references of External Classification Systems to GO
-Many Gene Ontology terms are cross-referenced to corresponding concepts from a number of external vocabularies, including Enzyme Commission numbers, KEGG, Reactome Pathways, and Wikipedia. The cross-references (mappings) are typically made manually. Please report any errors or suggest alternatives to the GO helpdesk.
+Many Gene Ontology terms are cross-referenced to corresponding concepts from a number of external vocabularies, including Enzyme Commission numbers, KEGG, Reactome Pathways, and Wikipedia. The cross-references (mappings) are typically made manually. Please report any errors or suggest alternatives to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}.
 
 ## Using and citing cross-references and mappings
 
-If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the GO citation guide for citing the GO project.
+If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the [GO citation guide](/docs/go-citation-policy/) for citing the GO project.
 
 ## Cross-references Format
 
-+ Cross-references files are simple text files that start with a comment line describing the date generated and the GO release used, for example: 
++ Cross-references files are simple text files that start with a comment line describing the date generated and the GO release used, for example:
 
  `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/2017-03-31' `
 
-+ Each cross-reference is on a different line, in the format: ` database:term identifier (id/name) > GO:GO term name ; GO:id`. For example: 
++ Each cross-reference is on a different line, in the format: ` database:term identifier (id/name) > GO:GO term name ; GO:id`. For example:
 
  `  EC:1.1.1.1 > GO:alcohol dehydrogenase (NAD) activity ; GO:0004022`
- 
+
  + Cross-references to GO mappings can be many-to-many. Each cross-reference is on a separate line of the file.
 
 ## Mappings File Directory
 
 Direct access to the mappings file directory is available here: http://geneontology.org/external2go/
 
-## Links to cross-references files derived the Gene Ontology 
+## Links to cross-references files derived the Gene Ontology
 
 |Mapping |Last update |	Download|
 |--------|------------|---------|
@@ -64,4 +64,4 @@ Direct access to the mappings file directory is available here: http://geneontol
 |**UniProt subcellular location**<br> [UniProt](http://www.uniprot.org/); contact goa@ebi.ac.uk (UniProtKB-GOA team)<br>Citation: Huntley RP, Sawford T, Mutowo-Meullenet P, Shypitsyna A, Bonilla C, Martin MJ, O’Donovan C. The GOA database: gene Ontology annotation updates for 2015.  Nucleic Acids Res.. Jan 2015;43(Database issue):D1057–1063. <br>[ [PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336) \| [doi:10.1093/nar/gku1113](http://dx.doi.org/10.1093/nar/gku1113) ]|	Monthly |	[txt](http://geneontology.org/external2go/uniprotkb_sl2go)|
 
 
-N.B. Files listed as being updated monthly are completely regenerated during the monthly UniProtKB-GOA release. Minor corrections to files are not mentioned here, and only comprehensive updates are listed.
+*Nota Bene*. Files listed as being updated monthly are completely regenerated during the monthly UniProtKB-GOA release. Minor corrections to files are not mentioned here, and only comprehensive updates are listed.

@@ -6,17 +6,17 @@
       padding: 10px 0;
     }
 }
-  
+
 .navbar-nav li a {
       margin: 0px;
 }
-  
+
 .header-container {
     /* background-color: black; */
     /* background: url('../img/bg.jpg') no-repeat 50% 0; */
     /* color: #fff; */
     color: #333;
-  
+
     h1 {
       /* color: #fff; */
       color: #333;
@@ -28,21 +28,22 @@
 }
 
 .navbar-container {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .page-content {
-    padding-bottom: 220px;
+//    padding-bottom: 220px;
+    // padding-bottom: 130px;
 }
 
 
-  
+
 .post-list-container {
     li a.active {
       font-weight: bold;
     }
 }
-  
+
 *[id]:before {
     display: block;
     content: " ";
@@ -54,7 +55,7 @@
 .navbar-form .has-feedback .form-control-feedback{
     top:10px
 }
-    
+
 img[src$="center"] {
     display:block;
     margin: 0 auto;
@@ -73,7 +74,7 @@ td, th {
         float:left;
         height:100vh;
     }
-    
+
 .left {
         background: #337ab7;
         display: inline-block;
@@ -91,22 +92,22 @@ td, th {
         border-style:solid;
         border-color:#ccc;
         border-width:1px;
-    }    
+    }
 
 .left:hover {
         width: 250px;
-    }    
-    
+    }
+
 .item:hover {
         background-color:#ccc;
         }
-        
+
 .left .glyphicon {
         margin:15px;
         width:20px;
         color:#fff;
     }
-    
+
 .right .glyphicon {
         color:#a9a9a9;
     }
@@ -114,7 +115,7 @@ span.glyphicon.glyphicon-refresh{
     font-size:17px;
     vertical-align: middle !important;
     }
-    
+
 .item {
         height:50px;
         overflow:hidden;
@@ -166,12 +167,12 @@ input[type=search]:focus {
     color: #aaa !important;
     font-size: 12px;
     }
-        
-    
-    
-   
 
-    
+
+
+
+
+
 
 
 
@@ -325,59 +326,58 @@ input[type=search]:focus {
 }
 
 .jumbotron h1 {
-    color: white !important;    
+    color: white !important;
     text-shadow: 1px 1px black;
 }
 
 .go-navbar {
     box-shadow: 1px 1px 29px rgba(0, 0, 0, 0.25);
-    // border-radius: 0px 0px 20px 20px;
+    background-color: $navbar-color;
     border-radius: 0px;
-    padding-right: 10px;    
+    padding-right: 10px;
     margin-top: 0px;
     border: none;
     border-color: none;
     border-top-style: inset;
-    border-top-color: lightgray;
-    border-top-width: 3px;
+    border-top-color: #002379;
+    border-top-width: 1px;
 }
 
 .go-search-bar {
     box-shadow: 1px 1px 9px navy;
 }
 
-
-
-
-
-
 .footer {
     // background-color: $color-grey-dark-3;
     // color: $color-grey-light-1;
     // background-color: lightgrey;
     // background: linear-gradient(white, #4252af);
-
-    background-color: $gray-lighter;
-    color: $gray-dark;
-
+    color: white !important;
+    background-color: rgba(0, 23, 79, 1);
+    // background-color: #f7fff3;
+    border-top: 1px solid #002379;
+    color: #002379;
     position: absolute;
-    bottom: 0;
+    // bottom: 0;
     width: 100%;
-    
-    background-color: transparent;
-    color: black;
-    font-size: 1.8rem;
+
+    /* background-color: transparent; */
+    /* color: black; */
+    /* Needs to match the header in color, font, size, etc. */
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -0.5rem 4rem;
+
 
     &__link {
-        color: white !important;
-        text-shadow: 1px 1px 9px black;
+        /* color: black !important; */
+        /* text-shadow: 1px 1px 9px black; */
     }
 
     &__text {
-        color: white !important;
-        text-shadow: 1px 1px 9px black;
+        /* color: #002379 !important; */
+        /* text-shadow: 1px 1px 9px black; */
     }
-    
+
     &__logo-box {
         text-align: center;
         margin-bottom: 8rem;
@@ -389,8 +389,7 @@ input[type=search]:focus {
     }
 
     &__navigation {
-        border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;
+        letter-spacing: 0.35rem;
         display: inline-block;
     }
 
@@ -426,9 +425,7 @@ input[type=search]:focus {
     // }
 
     &__copyright {
-        border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;
-        width: 80%;
+        width: 85%;
         float: right;
     }
 }
@@ -444,5 +441,89 @@ $gutter-horizontal: 6rem;
 
 .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
-    
+
+}
+
+
+.curvy-card {
+    display: inline-block;
+    box-shadow: -3px 3px 18px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    border-radius: calc(8px + 1.5vw) calc(.5vw);
+    outline: none !important;
+    padding: 15px;
+}
+
+.card {
+    position: relative;
+    min-height: 420px;
+
+    &__picture {
+        background-size: cover;
+        height: 17rem;
+        background-blend-mode: color;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        margin-bottom: 1rem;
+
+        &__dna--red {
+//            background-image: linear-gradient(to right bottom, #ff0000, #6b2081), url(../assets/abstract-network-graph.png);            
+            background-image: linear-gradient(to right bottom, rgba(255, 0, 0, 0.1), rgb(129, 32, 32)), url(../assets/abstract-network-graph.png);
+            background-position: center;
+        }
+
+        &__dna--blue {
+            background-image: linear-gradient(to right bottom, rgba(0, 68, 255, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/NEDD4-noctua.png);
+            background-blend-mode: hard-light;        
+        }
+
+        &__dna--green {
+            background-image: linear-gradient(to right bottom, #11a92a, #000000), url(../assets/gene.jpeg);        
+        }
+
+
+    }
+
+    &__heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 9rem;
+        right: 3rem;
+        background-image: linear-gradient(to right bottom, rgba(0, 23, 79, 1), rgba(43, 65, 138, 0.25));
+        border-radius: 15px;
+        padding: 5px 12px;
+    }
+
+    &__container {
+        min-height: 400px;
+        padding: 10px;
+        margin: 10px 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5rem 4rem;
+        border-radius: 3px !important;
+        background-color: rgb(255, 255, 255) !important;
+        color: black !important;
+    }
+
+    &__description {
+        padding: 5px;
+    }
+
+    &__link {
+        // display: block;
+        // width: 100%;
+    }
+
+    &__bottom {
+        position: absolute;
+        bottom: 15px;
+        text-align: end;
+        right: 30px;
+    }
+
 }

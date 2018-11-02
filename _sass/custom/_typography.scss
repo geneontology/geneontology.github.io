@@ -1,14 +1,18 @@
 h1 {
-    color: #4252af !important;
+    color: #002379 !important;
 }
 
 a {
-  border: none !important;
-  color: navy;
+    border: none !important;
+    color: navy;
+}
+
+.link-extended {
+  letter-spacing: 3px;
 }
 
 .basic-link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link) {
@@ -18,7 +22,7 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
     position: relative;
 }
 
-a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):after {    
+a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -31,135 +35,136 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
     width: 0;
 }
 
-a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):hover:after { 
-    width: 100%; 
-    left: 0; 
+a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):hover:after {
+    width: 100%;
+    left: 0;
 }
 
 .btn {
-  border-radius: calc(8px + 1.5vw) calc(.5vw);
-  outline: none !important;
-  transition: all 0.3s;
-
-  &:hover {
-    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
-    transform: translateY(-3px);
-  }
-
-  &:focus {
-    border: none;
-  }
+    border-radius: calc(8px + 1.5vw) calc(.5vw);
+    outline: none !important;
+    transition: all 0.3s;
+    &:hover {
+        box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
+        transform: translateY(-3px);
+    }
+    &:focus {
+        border: none;
+    }
 }
 
 .btn-lg {
-  padding: 1rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .tt-input {
-  border-radius: 25px;
+    border-radius: 25px;
 }
 
-
 .dropdown-menu {
-  width: 300px !important;
-  border-radius: 0px 20px 20px 0px;
-  box-shadow: -5px 10px 29px black;
-  // padding: 5px !important; 
-  border: none;
-  box-shadow: -5px 15px 29px;      
-  padding: 10px 20px !important;
-
-  animation-name: moveInUp;
-  animation-duration: .3s;
-  animation-timing-function: ease-out;
+    width: 300px !important;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: -5px 10px 29px black;
+    // padding: 5px !important;
+    background-color: $navbar-color;
+    border: none;
+    box-shadow: -5px 15px 29px;
+    padding: 10px 10px !important;
+    animation-name: moveInUp;
+    animation-duration: .3s;
+    animation-timing-function: ease-out;
 }
 
 .dropdown-menu__item {
-  padding: 0px;
-  margin: 0px;
-  transition: all 0.2s;
-
-  &__link {
-      display: block;
-      padding: 8px 6px;
-      text-decoration: none;
-      font-weight: 400 !important;
-      width: 100%;
-      // transition: all 0.2s;
-
-      &:hover {
-          text-decoration: none;
-          font-weight: 400 !important;
-          background-color: lightgrey;
-          background-color: navy;
-          color: white;        
-          border-radius: 5px;
-      }
-  }
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.2s;
+    &__link {
+        display: block;
+        padding: 8px 6px;
+        text-decoration: none;
+        font-weight: 400 !important;
+        width: 100%; // transition: all 0.2s;
+        &:hover {
+            text-decoration: none;
+            font-weight: 400 !important;
+            background-color: lightgrey;
+            background-color: navy;
+            color: white;
+            border-radius: 5px;
+        }
+    }
 }
 
-
-
 .go-link {
-  font-weight: 900;
-  color: rgb(66, 82, 175) !important;
+    font-weight: 900;
+    color: rgb(66, 82, 175) !important;
 }
 
 .go-main-logo {
-  filter: drop-shadow(8px 8px 10px white);
-  // filter: blur(5px);  
+    filter: drop-shadow(8px 8px 10px white);
+    // filter: blur(5px);
 }
 
 .site {
-
-  &__title {
-    animation-name: moveInUp;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-  }
-
-  &__statement {
-    padding-top: 15px;
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-  }
+    &__title {
+        // animation-name: moveInUp;
+        // animation-duration: 1s;
+        // animation-timing-function: ease-out;
+    }
+    &__statement {
+        padding-top: 15px; // animation-name: moveInLeft;
+        // animation-duration: 1s;
+        // animation-timing-function: ease-out;
+    }
 }
 
-
 @keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem); }
-  80% {
-    transform: translateX(1rem); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 
 @keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem); }
-  80% {
-    transform: translateX(-1rem); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 
 @keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(3rem); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
-
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 
 @keyframes moveInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(-3rem); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
+    0% {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
