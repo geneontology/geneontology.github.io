@@ -501,13 +501,13 @@ $gutter-horizontal: 6rem;
     }
 
     &__container {
+        min-height: 400px;
         padding: 10px;
         margin: 10px 5px;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5rem 4rem;
         border-radius: 3px !important;
         background-color: rgb(255, 255, 255) !important;
         color: black !important;
-        min-height: 420px;
     }
 
     &__description {
@@ -521,7 +521,7 @@ $gutter-horizontal: 6rem;
 
     &__bottom {
         position: absolute;
-        bottom: 10px;
+        bottom: 15px;
         text-align: end;
         right: 30px;
     }
