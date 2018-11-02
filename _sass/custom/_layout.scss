@@ -33,7 +33,7 @@
 
 .page-content {
 //    padding-bottom: 220px;
-    padding-bottom: 130px;
+    // padding-bottom: 130px;
 }
 
 
@@ -332,7 +332,7 @@ input[type=search]:focus {
 
 .go-navbar {
     box-shadow: 1px 1px 29px rgba(0, 0, 0, 0.25);
-    background-color: #f7fff3;
+    background-color: white;
     border-radius: 0px;
     padding-right: 10px;
     margin-top: 0px;
@@ -352,8 +352,9 @@ input[type=search]:focus {
     // color: $color-grey-light-1;
     // background-color: lightgrey;
     // background: linear-gradient(white, #4252af);
-
-    background-color: #f7fff3;
+    color: white !important;
+    background-color: rgba(0, 23, 79, 1);
+    // background-color: #f7fff3;
     border-top: 1px solid #002379;
     color: #002379;
     position: absolute;
@@ -422,7 +423,7 @@ input[type=search]:focus {
     // }
 
     &__copyright {
-        width: 80%;
+        width: 85%;
         float: right;
     }
 }
@@ -452,18 +453,74 @@ $gutter-horizontal: 6rem;
 }
 
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  /* box-shadow: 1px 1px 3px #888; */
-  transition: 0.3s;
-  width: 25%;
-  /* border: 1px solid gray; */
-  /* border-top: 10px solid green; */
-  min-height: 250px;
-  padding: 10px;
-  margin: 10px;
-  
-  &__container {
-    padding: 2px 16px;
-  }
+    position: relative;
+    min-height: 420px;
+
+    &__picture {
+        background-size: cover;
+        height: 17rem;
+        background-blend-mode: color;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        margin-bottom: 1rem;
+
+        &__dna--red {
+//            background-image: linear-gradient(to right bottom, #ff0000, #6b2081), url(../assets/abstract-network-graph.png);            
+            background-image: linear-gradient(to right bottom, rgba(255, 0, 0, 0.1), rgb(129, 32, 32)), url(../assets/abstract-network-graph.png);
+            background-position: center;
+        }
+
+        &__dna--blue {
+            background-image: linear-gradient(to right bottom, rgba(0, 68, 255, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/NEDD4-noctua.png);
+            background-blend-mode: hard-light;        
+        }
+
+        &__dna--green {
+            background-image: linear-gradient(to right bottom, #11a92a, #000000), url(../assets/gene.jpeg);        
+        }
+
+
+    }
+
+    &__heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 9rem;
+        right: 3rem;
+        background-image: linear-gradient(to right bottom, rgba(0, 23, 79, 1), rgba(43, 65, 138, 0.25));
+        border-radius: 15px;
+        padding: 5px 12px;
+    }
+
+    &__container {
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5rem 4rem;
+        border-radius: 3px !important;
+        background-color: rgb(255, 255, 255) !important;
+        color: black !important;
+        min-height: 420px;
+    }
+
+    &__description {
+        padding: 5px;
+    }
+
+    &__link {
+        // display: block;
+        // width: 100%;
+    }
+
+    &__bottom {
+        position: absolute;
+        bottom: 10px;
+        text-align: end;
+        right: 30px;
+    }
+
 }
