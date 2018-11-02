@@ -1,5 +1,5 @@
 ---
-title: Gene Ontology Overview
+title: GO Overview
 permalink: /docs/ontology-documentation/
 ---
 
