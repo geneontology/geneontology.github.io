@@ -42,7 +42,7 @@ Associations of gene products to GO terms are statements that describe
 
 ### The *colocalizes with* qualifier
 
-*Colocalizes with* appears in a GO annotation to indicate a transient or peripheral association of the protein with an organelle or complex. This qualifier may also be used in cases where the resolution of an assay is not accurate enough to say that the gene product is a bona fide component member. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139) ia annotated to [GO:0000922:spindle pole](http://amigo.geneontology.org/amigo/term/GGO:0000776) using the *colocalizes with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309).
+*Colocalizes with* appears in a GO annotation to indicate a transient or peripheral association of the protein with an organelle or complex. This qualifier may also be used in cases where the resolution of an assay is not accurate enough to say that the gene product is a bona fide component member. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139) ia annotated to [GO:0000922:spindle pole](http://amigo.geneontology.org/amigo/term/GO:0000776) using the *colocalizes with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309).
 
 <!-- ????-->
 ## Annotation extensions
