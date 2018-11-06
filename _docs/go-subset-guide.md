@@ -1,9 +1,9 @@
 ---
-title: GO Subset Guide
+title: Guide to GO Subsets
 permalink: /docs/go-subset-guide/
 ---
 
-# GO Subset Guide
+# Guide to GO Subsets
 ## About subsets
 ##### What are GO subsets?
 
