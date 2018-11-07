@@ -22,7 +22,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 + [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Quality Assurance
 + [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"}, Lawrence Berkeley National Laboratory - Architecture
 + David Hill, Jackson Laboratory - Ontology
-+ Kimberly van Auken, Caltech - Annotation
++ [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"}, Caltech - Annotation
 + [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetics
 + [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Outreach
 + Suzi Alexander, Stanford University - User Support
