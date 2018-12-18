@@ -60,6 +60,9 @@ collections:
     permalink: /blog/:year/:month/:day/:title/
     output: true
 
+plugins_dir:
+- jekyll-redirect-from
+
 sass:
   sass_dir: _sass
 

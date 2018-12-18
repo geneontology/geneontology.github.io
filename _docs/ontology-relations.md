@@ -1,6 +1,9 @@
 ---
 title: Relations in the Gene Ontology
 permalink: /docs/ontology-relations/
+redirect_from: 
+- /page/ontology-relations
+- /book/ontology-content-topics/ontology-relations
 ---
 
 # Relations in the Gene Ontology

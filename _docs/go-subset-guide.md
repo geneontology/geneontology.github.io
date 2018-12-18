@@ -1,6 +1,7 @@
 ---
 title: Guide to GO Subsets
 permalink: /docs/go-subset-guide/
+redirect_from: /page/go-subset-guide
 ---
 
 # Guide to GO Subsets

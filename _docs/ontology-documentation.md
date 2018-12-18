@@ -1,6 +1,13 @@
 ---
 title: GO Overview
 permalink: /docs/ontology-documentation/
+redirect_from: 
+- /page/ontology-documentation
+- /durable-content-tags/analysis
+- /page/biological-process-ontology-guidelines
+- /page/molecular-function-ontology-guidelines
+- /page/cellular-component-ontology-guidelines
+- /page/go-annotation-conventions
 ---
 
 # Gene Ontology Overview

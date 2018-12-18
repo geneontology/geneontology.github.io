@@ -1,6 +1,36 @@
 ---
 title: FAQs
 permalink: /docs/faq/
+redirect_from: 
+- /faq-page
+- /faq-tags/database
+- /faq/what-obo-file-format
+- /faq/how-do-i-use-gos-term-enrichment-tool
+- /faq/how-can-i-programmatically-get-list-go-terms-associated-gene-identifier
+- /faq/what-best-way-obtain-go-annotations-list-ensembl-ids-batch
+- /faq/how-can-i-do-term-enrichment-analysis-species-not-present-list-amigo
+- /faq/how-do-i-annotate-de-novo-assembled-transcriptome-against-go-database
+- /faq/how-can-i-calculate-level-go-term
+- /faq/what-owl-file
+- /faq/how-do-i-find-annotations-mappings-entrez-ncbi-or-other-ids
+- /faq/what-best-way-obtain-go-annotations-list-uniprot-accession-numbers-batch
+- /faq/how-do-i-get-term-names-my-list-go-ids
+- /faq/how-do-i-map-set-annotations-high-level-go-terms-go-slim
+- /faq/where-can-i-view-or-download-complete-sets-go-annotations
+- /faq/what-gaf-file
+- /faq-tags/amigo
+- /faq/where-can-i-find-number-terms-each-ontologies
+- /faq-tags/annotation
+- /faq/can-single-gene-product-be-annotated-more-one-go-term
+- /faq/what-are-advantages-and-disadvantages-manual-annotation
+- /faq-tags/ontology
+- /faq/where-can-i-find-go-annotations-proteins-and-ests
+- /faq/does-go-id-have-any-meaning
+- /faq/what-annotation
+- /faq-tags/downloads
+- /faq-tags/format
+- /faq/what-are-all-possible-uses-go
+- /faq/what-gene-product
 ---
 
 [Does the GO ID have any meaning?](/faq/does-go-id-have-any-meaning)

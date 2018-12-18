@@ -1,6 +1,7 @@
 ---
 title: Guide to GO Evidence Codes
 permalink: /docs/guide-go-evidence-codes/
+redirect_from: /page/guide-go-evidence-codes
 ---
 
 # Guide to GO Evidence Codes

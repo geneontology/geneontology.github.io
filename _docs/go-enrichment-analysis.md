@@ -1,6 +1,7 @@
 ---
 title: GO Enrichment Analysis
 permalink: /docs/go-enrichment-analysis/
+redirect_from: /page/go-enrichment-analysis/
 ---
 
 # GO Enrichment Analysis

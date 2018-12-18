@@ -1,6 +1,11 @@
 ---
 title: Introduction to GO Annotations
 permalink: /docs/go-annotations/
+redirect_from: 
+- /page/go-annotations
+- /page/annotation
+- /page/go-annotation-policies
+- /page/go-annotation-standard-operating-procedures
 ---
 
 # GO Annotations

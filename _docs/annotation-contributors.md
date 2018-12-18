@@ -1,6 +1,7 @@
 ---
 title: Annotation Contributors
 permalink: /docs/annotation-contributors/
+redirect_from: /page/go-consortium-contributors-list
 ---
 
 # Current Groups Contributing GO Annotations  

@@ -1,6 +1,10 @@
 ---
 title: Annotation Files in GO Annotation File (GAF) Format
 permalink: /docs/go-annotation-file-gaf-format-21/
+redirect_from: 
+- /page/go-annotation-file-gaf-format-21
+- /page/go-annotation-file-formats
+
 ---
 
 <!--Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.

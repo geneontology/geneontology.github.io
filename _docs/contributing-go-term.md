@@ -1,6 +1,7 @@
 ---
 title: Contributing GO Terms
 permalink: /docs/contributing-to-go-terms/
+redirect_from: /page/contributing-go
 ---
 
 # Contributing to the Ontology
