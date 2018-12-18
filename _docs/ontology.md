@@ -1,6 +1,9 @@
 ---
 title: GO term elements
 permalink: /docs/ontology/
+redirect_from: 
+- /page/ontology-structure
+- /page/species-specific-terms
 ---
 
 

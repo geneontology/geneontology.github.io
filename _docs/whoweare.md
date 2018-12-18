@@ -1,6 +1,7 @@
 ---
 title: Who we are
 permalink: /docs/whoweare/
+redirect_from: /page/about
 ---
 
 # Who we are

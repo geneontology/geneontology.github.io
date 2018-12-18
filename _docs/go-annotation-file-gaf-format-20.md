@@ -1,6 +1,7 @@
 ---
 title: GO Annotation File (GAF) Format 2.0
 permalink: /docs/go-annotation-file-gaf-format-20/
+redirect_from: /page/go-annotation-file-format-20
 ---
 
 

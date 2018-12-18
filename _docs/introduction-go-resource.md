@@ -1,6 +1,7 @@
 ---
 title: Introduction
 permalink: /docs/introduction-to-go-resource/
+redirect_from: /page/introduction-go-resource
 ---
 
 # About the GO

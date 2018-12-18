@@ -1,6 +1,9 @@
 ---
 title: Downloads Overview
 permalink: /docs/downloads/
+redirect_from: 
+- /page/downloads
+- /page/lead-database-downloads
 ---
 
 # Downloads Overview

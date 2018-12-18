@@ -1,6 +1,10 @@
 ---
 title: GO Citation Policy and License
 permalink: /docs/go-citation-policy/
+redirect_from: 
+- /page/go-citation-policy
+- /page/use-and-license
+- /faq/how-do-i-cite-go-0
 ---
 
 # GO Citation Policy and License

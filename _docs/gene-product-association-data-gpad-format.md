@@ -1,7 +1,7 @@
 ---
 title: Annotation Files in Gene Product Association Data (GPAD) Format
 permalink: /docs/gene-product-association-data-gpad-format/
-
+redirect_from: /page/gene-product-association-data-gpad-format
 ---
 
 <!-- DB object ID section refers to GPAD 1.0.  What about in 1.1?  

@@ -1,6 +1,9 @@
 ---
 title: Download Ontology
 permalink: /docs/download-ontology/
+redirect_from: 
+- /page/download-ontology
+- /page/go-file-format-guide
 ---
 
 # Download Ontology

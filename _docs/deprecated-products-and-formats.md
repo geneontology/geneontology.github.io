@@ -1,6 +1,12 @@
 ---
 title: Deprecated Products and Formats
 permalink: /docs/deprecated-products-and-formats/
+redirect_from: 
+- /page/go-mysql-database-guide
+- /page/go-mysql-database-schema
+- /page/ftp-and-cvs-downloads
+- /page/go-annotation-file-gaf-format-10
+- /page/go-rdfxml-file-format
 ---
 
 # Deprecated Products and Formats

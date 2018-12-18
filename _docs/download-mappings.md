@@ -1,6 +1,7 @@
 ---
 title: Cross-references of External Classification Systems to GO
 permalink: /docs/download-mappings/
+redirect_from: /page/download-mappings
 ---
 
 # Cross-references of External Classification Systems to GO

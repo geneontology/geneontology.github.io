@@ -1,6 +1,7 @@
 ---
 title: Collaborations
 permalink: /docs/collaborations/
+redirect_from: /page/syngo-synapse-biology
 ---
 
 # Collaborations

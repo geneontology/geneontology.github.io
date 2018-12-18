@@ -1,7 +1,8 @@
 ---
 title: Welcome
 permalink: /docs/home/
-redirect_from: /docs/index.html
+redirect_from: 
+- /docs/index.html
 ---
 
 # Welcome to the Gene Ontology documentation
