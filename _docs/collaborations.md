@@ -12,7 +12,7 @@ The GO Consortium collaborates with many other groups on a wide variety of topic
 + [Gene Regulation Consortium (GRECO)](http://thegreco.org/){:target="blank"}
 
 ## Domain-specific expertise
-- __Transcription__: Marcio L. Acencio, Astrid Lægreid, Colin	Logie,
+- __Transcription__: Marcio L. Acencio, Astrid Lægreid, Colin	Logie
 - *__S. pombe__* __annotations__: Jacqueline	Hayles
 - __Extracellular matrix__: Rachel Lennon, Geoff Meyer, Jeff Miner, Sylvie Ricard-Blum, David Sherwood, Peter Yurchenco
 
