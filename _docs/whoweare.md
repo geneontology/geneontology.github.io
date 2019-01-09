@@ -26,7 +26,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 + [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"}, Caltech - Annotation
 + [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetics
 + [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Outreach
-+ Suzi Alexander, Stanford University - User Support
++ Suzi Aleksander, Stanford University - User Support
 
 ## GO Council
 - __European Bioinformatics Institute__ (EBI):
