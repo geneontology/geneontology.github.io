@@ -36,7 +36,7 @@ We want to acknowledge the contributions of the following individuals in the dev
   - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, [Maria J.	Martin](https://www.ebi.ac.uk/about/people/maria-jesus-martin){:target="blank"}, [Sylvain	Poux](https://orcid.org/0000-0001-7299-6685){:target="blank"}
 - __Reactome__
   - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"} and [Lincoln Stein](https://oicr.on.ca/investigators/lincoln-stein/){:target="blank"}
-- [__Alliance for Genome Resources__](https://www.alliancegenome.org/)
+- [__Alliance for Genome Resources__](https://www.alliancegenome.org/){:target="blank"}
   - *__Drosophila__*: [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"} and [Steven	Marygold](https://www.pdn.cam.ac.uk/research/groups/flybase){:target="blank"}, Cambridge University
     - Thomas	Kaufman, Indiana University
     - Norbert	Perrimon, Harvard University
