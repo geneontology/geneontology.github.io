@@ -11,7 +11,7 @@ The GO Consortium integrates resources from a variety of research groups, from m
 
 | Name 	| Description |	Funding |	Contact |
 |-------|-------------|---------|---------|
-|[AgBase](http://agbase.arizona.edu)| 	A curated, open-source, web-accessible resource for functional analysis of agricultural plant and animal gene products 	  	||[AgBase](mailto:agbase@email.arizona.edu)|
+|[AgBase](http://agbase.arizona.edu){:target="blank"}| 	A curated, open-source, web-accessible resource for functional analysis of agricultural plant and animal gene products 	  	||[AgBase](mailto:agbase@email.arizona.edu)|
 |[Alzheimer's Project at the University of Toronto](http://wiki.geneontology.org/index.php/Alzheimer%27s_Disease_Annotation_Project)| 	Curation of genes associated with Alzheimer’s disease that have been significant in previous genome wide association studies ||[Alzheimer's Project](mailto:sejalr.patel@mail.utoronto.ca)|
 |[The Arabidopsis Information Resource (TAIR)](https://www.arabidopsis.org/)| 	Database of genetic and molecular biology data for the model higher plant *Arabidopsis thaliana*. 	The TAIR project is funded by academic institutional, corporate, and individual subscriptions.| TAIR is administered by the 501(c)(3) non-profit [Phoenix Bioinformatics](http://www.phoenixbioinformatics.org/). |[TAIR](mailto:curator@arabidopsis.org)|
 |[Aspergillus Genome Database (AspGD)](http://www.aspergillusgenome.org)| 	AspGD is an organized collection of genetic and molecular biological information about the filamentous fungi of the genus *Aspergillus* 	|  |[AspGD web submission form](http://www.aspergillusgenome.org/cgi-bin/suggestion)|  	 
