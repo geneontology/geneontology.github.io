@@ -13,12 +13,12 @@ redirect_from:
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
 + <a href="https://www.ncbi.nlm.nih.gov/pubmed/10802651">Ashburner et al. (2000) Gene ontology: tool for the unification of biology. Nat Genet 25(1):25-9</a>{:target="blank"}.
-+ <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899567">GO Consortium. (2017) Expansion of the Gene Ontology knowledgebase and resource. Nucleic Acids Res. 45(D1):D331-D338]</a>.
++ <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899567">GO Consortium. (2017) Expansion of the Gene Ontology knowledgebase and resource. Nucleic Acids Res. 45(D1):D331-D338]</a>{:target="blank"}.
 
 If you used a specific software/analysis tool in your research, in addition to the two publications above, please also cite the tool used according to the following list:
-+ Enrichment analysis tool: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899595">Mi et al. (2017) Nucleic Acids Res.</a>.
-+ AmiGO: <a href="http://bioinformatics.oxfordjournals.org/content/25/2/288.full.pdf+html">Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data.</a>
-+ OBO-Edit: Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. Aug 2007;23(16):2198-200. \[[abstract](http://bioinformatics.oxfordjournals.org/content/23/16/2198) \| [full text](http://bioinformatics.oxfordjournals.org/content/23/16/2198.full)\]
++ GO Enrichment Analysis tool: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899595">Mi et al. (2017) Nucleic Acids Res.</a>{:target="blank"}.
++ AmiGO: <a href="http://bioinformatics.oxfordjournals.org/content/25/2/288.full.pdf+html">Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data.</a>{:target="blank"}
++ OBO-Edit: Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. Aug 2007;23(16):2198-200. \[[abstract](http://bioinformatics.oxfordjournals.org/content/23/16/2198) \| [full text](http://bioinformatics.oxfordjournals.org/content/23/16/2198.full)\]{:target="blank"}
 
 ## Citing Data from Downloads
 
@@ -30,7 +30,7 @@ The data release can be found in the page footer on the right-hand side. To cite
 
 ## GO Logo
 
-If you intend to use the logo on your website, please include a link to the GO home page, http://geneontology.org. Please [contact the GO Helpdesk](http://help.geneontology.org){:target="blank"} if you need a larger or higher resolution version. The logo is subject to our use and license.
+If you intend to use the logo on your website, please include a link to the GO home page, http://geneontology.org. Please [contact the GO Helpdesk](http://help.geneontology.org) if you need a larger or higher resolution version. The logo is subject to our use and license.
 
 The GO logo is available in four sizes. For reuse, please do not hotlink images, but download them instead (e.g. right click the appropriate image and size, then select "Save Link As"):
 
@@ -42,7 +42,7 @@ The GO logo is available in four sizes. For reuse, please do not hotlink images,
 
 ## License    
 
-Gene Ontology Consortium data and data products are licensed under the [Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/legalcode). A human-readable version and explanation is available at the [Creative Commons website](https://creativecommons.org/licenses/by/4.0/). For information about how to properly credit data use, please review the [Creative Commons FAQ](http://wiki.creativecommons.org/Frequently_Asked_Questions) or contact the GO Helpdesk.
+Gene Ontology Consortium data and data products are licensed under the [Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/legalcode){:target="blank"}. A human-readable version and explanation is available at the [Creative Commons website](https://creativecommons.org/licenses/by/4.0/){:target="blank"}. For information about how to properly credit data use, please review the [Creative Commons FAQ](http://wiki.creativecommons.org/Frequently_Asked_Questions){:target="blank"} or contact the GO Helpdesk.
 
 GOC software and tools are under their own licenses; please see their respective homepages for further details.
 
