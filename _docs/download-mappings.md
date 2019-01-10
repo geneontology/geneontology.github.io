@@ -1,17 +1,17 @@
 ---
-title: Cross-references of External Classification Systems to GO
+title: Cross-references of external classification systems to GO
 permalink: /docs/download-mappings/
 redirect_from: /page/download-mappings
 ---
 
-# Cross-references of External Classification Systems to GO
+# Cross-references of external classification systems to GO
 Many Gene Ontology terms are cross-referenced to corresponding concepts from a number of external vocabularies, including Enzyme Commission numbers, KEGG, Reactome Pathways, and Wikipedia. The cross-references (mappings) are typically made manually. Please report any errors or suggest alternatives to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}.
 
 ## Using and citing cross-references and mappings
 
 If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the [GO citation guide](/docs/go-citation-policy/) for citing the GO project.
 
-## Cross-references Format
+## Cross-references format
 
 + Cross-references files are simple text files that start with a comment line describing the date generated and the GO release used, for example:
 
@@ -23,7 +23,7 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
  + Cross-references to GO mappings can be many-to-many. Each cross-reference is on a separate line of the file.
 
-## Mappings File Directory
+## Mappings file directory
 
 Direct access to the mappings file directory is available here: http://geneontology.org/external2go/
 
