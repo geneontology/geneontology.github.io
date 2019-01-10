@@ -10,7 +10,7 @@ redirect_from:
 - /page/go-annotation-conventions
 ---
 
-# Gene Ontology Overview
+# Gene Ontology overview
 An ontology is a formal representation of a body of knowledge within a given domain. Ontologies usually consist of a set of classes (or terms or concepts) with [relations](/docs/ontology-relations/) that operate between them. The Gene Ontology (GO) describes our knowledge of the biological domain with respect to three aspects:
 
 
@@ -31,7 +31,6 @@ The structure of GO can be described in terms of a graph, where each GO term is 
 
 ![link description](/assets/hexose-biosynthetic-process.png){:width="650"}
 
-
 ## One ontology... or three?
 
 As the diagram above suggests, the three GO domains (cellular component, biological process, and molecular function) are each represented by a separate root ontology term. All terms in a domain can trace their parentage to a root term, although there may be numerous different paths via varying numbers of intermediary terms to a ontology root. The three root nodes are unrelated and do not have a common parent node, and hence GO is three ontologies. Some graph-based software may require a single root node; in these cases, a "fake" term can be added as a parent of the three existing root nodes.
@@ -40,8 +39,6 @@ The three GO ontologies are *is a disjoint*, meaning that no *is a* relations op
 
 ## GO as a dynamic ontology
 GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates. Changes are made on a weekly basis (most relatively minor). Revisions to the ontology are managed by a team of ontology editors with extensive experience in both biology and computational knowledge representation. These updates are made collaboratively between the GOC ontology team and scientists who request the updates. Most requests come from scientists making GO annotations (these typically impact only a few terms each), and from domain experts in particular areas of biology (these typically revise an entire ‘branch’ of the ontology comprising many terms and relations). We invite researchers and computational scientists to [submit requests for either new terms, new relations, or any other improvements to the ontology](/docs/contributing-to-go-terms/).
-
-
 
 ## Details about the ontology
 * [GO term elements](/docs/ontology/): Description of the format of GO terms.
