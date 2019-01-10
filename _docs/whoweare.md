@@ -88,7 +88,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 | N.	Tyagi | S.J.	Wang | K.	Warner | Shuai	Weng | Edith D.	Wong |
 | Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru | P.	Zhou |
 
-## GO Contributors *emeriti*
+## GO contributors *emeriti*
 
 | --- | --- | --- | --- |
 | Debbie	Alexander | Igor	Antoshechkin | Rama	Balakrishnan | Carol	Bastiani | Lydie	Bougueleret |
