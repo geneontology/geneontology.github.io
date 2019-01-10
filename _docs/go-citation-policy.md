@@ -7,7 +7,7 @@ redirect_from:
 - /faq/how-do-i-cite-go-0
 ---
 
-# GO Citation Policy and License
+# GO citation policy and license
 
 ## Citing GO
 
@@ -21,15 +21,15 @@ If you used a specific software/analysis tool in your research, in addition to t
 + **AmiGO**: Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data. Bioinformatics. Jan 2009;25(2):288-289. \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/19033274){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/25/2/288.full.pdf+html){:target="blank"}\]  
 + **OBO-Edit**: Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. Aug 2007;23(16):2198-200. \[[abstract](http://bioinformatics.oxfordjournals.org/content/23/16/2198){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/23/16/2198.full){:target="blank"}\]
 
-## Citing Data from Downloads
+## Citing data from downloads
 
 If you wish to cite data provided by the Gene Ontology project, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data, preferably both; e.g. "2018-10-01" or "10.5281/zenodo.1442498". Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
 
-## Citing Data from AmiGO
+## Citing data from AmiGO
 
 The data release can be found in the page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
 
-## GO Logo
+## GO logo
 
 If you intend to use the logo on your website, please include a link to the GO home page, http://geneontology.org. Please [contact the GO Helpdesk](http://help.geneontology.org) if you need a larger or higher resolution version. The logo is subject to our use and license.
 
@@ -47,6 +47,6 @@ Gene Ontology Consortium data and data products are licensed under the [Creative
 
 GOC software and tools are under their own licenses; please see their respective homepages for further details.
 
-## Website Disclaimer
+## Website disclaimer
 
 All information on this website is copyright © 1999–2018 Gene Ontology Consortium. Permission to use the information contained in this database was given by the researchers and institutes who contributed or published the information. Users of the data are solely responsible for compliance with any copyright restrictions. Documents from this server are provided "AS-IS" without any warranty, expressed or implied.
