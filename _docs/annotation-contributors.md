@@ -4,7 +4,7 @@ permalink: /docs/annotation-contributors/
 redirect_from: /page/go-consortium-contributors-list
 ---
 
-# Current Groups Contributing GO Annotations  
+# Current groups contributing GO annotations  
 
 The GO Consortium integrates resources from a variety of research groups, from model organisms to protein databases to biological research communities actively involved in the development and implementation of the Gene Ontology. Below is an alphabetical list of our collaborators.
 
@@ -44,7 +44,7 @@ The GO Consortium integrates resources from a variety of research groups, from m
 |[WormBase](http://www.wormbase.org/){:target="blank"}| 	WormBase is an international consortium of biologists and computer scientists dedicated to providing the research community with accurate, current, accessible information concerning the genetics, genomics and biology of *Caenorhabditis elegans* and related nematodes |	WormBase is supported by grant #U41 HG002223 from the National Human Genome Research Institute at the US National Institutes of Health, the UK Medical Research Council, and the UK Biotechnology and Biological Sciences Research Council.| [WormBase](http://www.wormbase.org/tools/support){:target="blank"}|
 |[The Zebrafish Model Organism Database (ZFIN)](http://zfin.org/){:target="blank"}| 	Reference datasets and information on *Danio rerio* |	|  	[ZFIN](mailto:curators@zfin.org)|
 
-## Past GO Consortium Contributing Groups
+## Past GO Consortium contributing groups
 
 In alphabetical order:
 
