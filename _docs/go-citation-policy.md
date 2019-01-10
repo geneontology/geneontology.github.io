@@ -12,7 +12,7 @@ redirect_from:
 ## Citing GO
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
-+ <a href="https://www.ncbi.nlm.nih.gov/pubmed/10802651">Ashburner et al. (2000) Gene ontology: tool for the unification of biology. Nat Genet 25(1):25-9</a>.
++ <a href="https://www.ncbi.nlm.nih.gov/pubmed/10802651">Ashburner et al. (2000) Gene ontology: tool for the unification of biology. Nat Genet 25(1):25-9</a>{:target="blank"}.
 + <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899567">GO Consortium. (2017) Expansion of the Gene Ontology knowledgebase and resource. Nucleic Acids Res. 45(D1):D331-D338]</a>.
 
 If you used a specific software/analysis tool in your research, in addition to the two publications above, please also cite the tool used according to the following list:
