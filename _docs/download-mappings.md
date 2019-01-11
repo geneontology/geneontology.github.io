@@ -18,9 +18,9 @@ If you have used a mapping in a publication or presentation, please ensure that 
  `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/2017-03-31' `
 
 + Each cross-reference is on a different line, in the format: 
- ` database:term identifier (id/name) > GO:GO term name ; GO:id`
- For example:
- `  EC:1.1.1.1 > GO:alcohol dehydrogenase (NAD) activity ; GO:0004022`
+ `database:term identifier (id/name) > GO:GO term name ; GO:id`
+  For example:
+ `EC:1.1.1.1 > GO:alcohol dehydrogenase (NAD) activity ; GO:0004022`
 
  + Cross-references to GO mappings can be many-to-many. Each cross-reference is on a separate line of the file.
 
