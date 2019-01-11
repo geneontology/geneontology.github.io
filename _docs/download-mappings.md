@@ -15,7 +15,7 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 + Cross-references files are simple text files that start with a comment line describing the date generated and the GO release used, for example:
 
- `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/2017-03-31' `
+     `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/2017-03-31' `
 
 + Each cross-reference is on a different line, in the format: 
 
