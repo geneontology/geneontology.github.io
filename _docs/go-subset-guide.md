@@ -4,7 +4,7 @@ permalink: /docs/go-subset-guide/
 redirect_from: /page/go-subset-guide
 ---
 
-# Guide to GO Subsets
+# Guide to GO subsets
 ## About subsets
 ##### What are GO subsets?
 
