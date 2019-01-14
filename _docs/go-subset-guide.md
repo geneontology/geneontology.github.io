@@ -28,7 +28,7 @@ redirect_from: /page/go-subset-guide
 
 - __On the web__ Similarly, there are a couple of online tools that may be of use. The first is the [Princeton slimming tool](http://go.princeton.edu/), the second is the legacy [AmiGO slimmer](http://amigo1.geneontology.org/cgi-bin/amigo/slimmer). It should be noted that online tools do often contain limitations and timeouts.
 
-##### GO "*__Anti-slims__*"
+##### GO "*__anti-slims__*"
 
 For internal checking purposes, GO maintains two "anti-slims", terms to which annotations should not be made. "Anti-slim" terms should never be used when creating a subset.
 
