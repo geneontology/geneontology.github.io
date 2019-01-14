@@ -4,7 +4,7 @@ permalink: /docs/guide-go-evidence-codes/
 redirect_from: /page/guide-go-evidence-codes
 ---
 
-# Guide to GO Evidence Codes
+# Guide to GO evidence codes
 
 A [GO annotation](/docs/go-annotations/) is a statement about the function of a particular gene. Each annotation includes an evidence code to indicate how the annotation to a particular term is supported.
 
@@ -17,9 +17,9 @@ Evidence codes fall into six general categories:
 * automatically generated annotations
 
 
-## Experimental Evidence codes
+## Experimental evidence codes
 
-The EXPerimental (EXP) evidence codes indicate that there is evidence from an experiment directly supporting the annotation of the gene. For example, an association between a gene product and its subcellular localization as determined by immunofluorescence would be supported by the Inferred from Direct Assay (IDA) evidence code, a subtype of EXP evidence. Use of an experimental evidence code in a GO annotation indicates that the cited paper displayed results from a physical characterization of a gene or gene product that has supported the association of a GO term. The Experimental Evidence codes are:
+The EXPerimental (EXP) evidence codes indicate that there is evidence from an experiment directly supporting the annotation of the gene. For example, an association between a gene product and its subcellular localization as determined by immunofluorescence would be supported by the Inferred from Direct Assay (IDA) evidence code, a subtype of EXP evidence. Use of an experimental evidence code in a GO annotation indicates that the cited paper displayed results from a physical characterization of a gene or gene product that has supported the association of a GO term. The experimental evidence codes are:
 
 
 * [Inferred from Experiment (EXP)](http://wiki.geneontology.org/index.php/Inferred_from_Experiment_(EXP)){:target="_blank"}
@@ -29,7 +29,7 @@ The EXPerimental (EXP) evidence codes indicate that there is evidence from an ex
 * [Inferred from Genetic Interaction (IGI)](http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)){:target="_blank"}
 * [Inferred from Expression Pattern (IEP)](http://wiki.geneontology.org/index.php/Inferred_from_Expression_Pattern_(IEP)){:target="_blank"}
 
-Each of the experimental evidence code have a corresponding 'high throughput' evidence code (HTP). HTP are a type of experimental evidence that indicate that the annotation is supported by high throughput methodologies. The High Throughput Evidence Codes are:
+Each of the experimental evidence code have a corresponding 'high throughput' evidence code (HTP). HTP are a type of experimental evidence that indicate that the annotation is supported by high throughput methodologies. The high throughput evidence codes are:
 
 - [Inferred from High Throughput Experiment (HTP)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Experiment_(HTP)){:target="_blank"}
 - [Inferred from High Throughput Direct Assay (HDA)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Direct_Assay_(HDA)){:target="_blank"}
@@ -48,9 +48,9 @@ Phylogenetically-based annotations are derived from an explicit model of gain an
 - [Inferred loss due to absence of Key Residues (IKR)](http://wiki.geneontology.org/index.php/Inferred_from_Key_Residues_(IKR)){:target="_blank"}
 - [Inferred loss after Rapid Divergence (IRD)](http://wiki.geneontology.org/index.php/Inferred_from_Rapid_Divergence(IRD)){:target="_blank"}
 
-## Computational Analysis evidence codes
+## Computational analysis evidence codes
 
-Use of the computational analysis evidence codes indicates that the annotation is based on an in silico analysis of the gene sequence and/or other data as described in the cited reference. The evidence codes in this category also indicate a varying degree of curatorial input. The Computational Analysis evidence codes are:
+Use of the computational analysis evidence codes indicates that the annotation is based on an in silico analysis of the gene sequence and/or other data as described in the cited reference. The evidence codes in this category also indicate a varying degree of curatorial input. The computational analysis evidence codes are:
 
 - [Inferred from Sequence or structural Similarity (ISS)](http://wiki.geneontology.org/index.php/Inferred_from_Sequence_or_structural_Similarity_(ISS)){:target="_blank"}
 - [Inferred from Sequence Orthology (ISO)](http://wiki.geneontology.org/index.php/Inferred_from_Sequence_Orthology_(ISO)){:target="_blank"}
@@ -61,19 +61,19 @@ Use of the computational analysis evidence codes indicates that the annotation i
 
 ## Author statement evidence codes
 
-Author statement codes indicate that the annotation was made on the basis of a statement made by the author(s) in the reference cited. The Author Statement evidence codes are:
+Author statement codes indicate that the annotation was made on the basis of a statement made by the author(s) in the reference cited. The author statement evidence codes are:
 
 - [Traceable Author Statement (TAS)](http://wiki.geneontology.org/index.php/Traceable_Author_Statement_(TAS)){:target="_blank"}
 - [Non-traceable Author Statement (NAS)](http://wiki.geneontology.org/index.php/Non-traceable_Author_Statement_(NAS)){:target="_blank"}
 
 ## Curator statement evidence codes
 
-Use of the curatorial statement evidence codes indicates an annotation made on the basis of a curatorial judgement that does not fit into one of the other evidence code classifications. The Curatorial Statement codes:
+Use of the curatorial statement evidence codes indicates an annotation made on the basis of a curatorial judgement that does not fit into one of the other evidence code classifications. The curatorial statement codes are:
 
 - [Inferred by Curator (IC)](http://wiki.geneontology.org/index.php/Inferred_by_Curator_(IC)){:target="_blank"}
 - [No biological Data available (ND)](http://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code){:target="_blank"}
 
-## Electronic Annotation evidence code
+## Electronic annotation evidence code
 
 ‘Electronic’ (IEA) annotation are not manually reviewed (although the method itself is usually subjected to various quality assessments). IEA-supported annotations are ultimately based on either homology and/or other experimental or sequence information, but cannot generally be traced to an experimental source. Three methods make up the bulk of these annotations. The first, and most comprehensive, method is [InterPro2GO](https://www.ncbi.nlm.nih.gov/pubmed/27899635){:target="_blank"}, which is based on the curated association of a GO term with a generalized sequence model (‘signature’) of a group of homologous proteins. Protein sequences with a statistically significant match to a signature are assigned the GO terms associated with the signature, a form of homology inference. A second method is the computational conversion of UniProt controlled vocabulary terms (including Enzyme Commission numbers describing enzymatic activities, and UniProt keywords describing subcellular locations), to associated GO terms. Lastly, annotations are made based on 1:1 orthologs inferred from Ensembl gene trees, an approach which automatically transfers annotations found experimentally in one gene, to its 1:1 orthologs in the same taxonomic clade (e.g. those within the vertebrate clade, and separately, those within the plant clade).
 
