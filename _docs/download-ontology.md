@@ -20,10 +20,10 @@ redirect_from:
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
-|[go-basic.obo](#gobasicobo) |	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo)|	Filtered, for use with legacy tools|
+|go-basic.obo|	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo)|	Filtered, for use with legacy tools|
 |go.obo |		[http://purl.obolibrary.org/obo/go.obo](http://purl.obolibrary.org/obo/go.obo)|	Core ontology (OBO Format)|
 |go.owl |		[http://purl.obolibrary.org/obo/go.owl](http://purl.obolibrary.org/obo/go.owl){:target="blank"} |	Core ontology (OWL RDF/XML)|
-|go-plus.owl |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
+|[go-plus.owl](#go_plus_owl) |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
 
 ## go-basic.obo
 
