@@ -33,7 +33,7 @@ This is the basic version of the GO filtered such that the graph is guaranteed t
 
 These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. This view includes relationships not in the filtered version of GO including *has_part* and *occurs_in*. Many of these relationships may not be safe for propagating annotations across, so this version should not be used with legacy GO tools. This version excludes relationships to external ontologies.
 
-## go-plus.owl
+## go-plus.owl {#go_plus_owl}
 
 This is the fully axiomatised of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [cell ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format.
 
