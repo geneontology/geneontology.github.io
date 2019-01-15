@@ -3,7 +3,7 @@ title: Contributing GO Annotations
 permalink: /docs/contributing-to-go/
 ---
 
-# Contributing GO Annotations
+# Contributing GO annotations
 While most GO annotations are produced by [members of the GO Consortium](/docs/go-consortium/), we welcome feedback as well as annotations from the research community.
 
 ## Suggesting revisions for existing annotations
