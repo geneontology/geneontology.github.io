@@ -4,11 +4,11 @@ permalink: /docs/download-go-annotations/
 redirect_from: /page/download-go-annotations
 ---
 
-# Download Annotations 
+# Download annotations 
 ## GO annotation files
 + Released monthly.
 + Taxon-specific.
 + Available in [GAF format](/docs/go-annotation-file-gaf-format-21/) and [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) files. 
-+ Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](/docs/downloads/).
++ Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](help.geneontology.org/).
 
 ### Download annotations here: [GO annotation files](http://current.geneontology.org/products/pages/downloads.html)
