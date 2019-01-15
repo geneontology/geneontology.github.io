@@ -43,5 +43,5 @@ GO slims are subsets of terms in the ontology. GO subsets give a broad overview 
 
 ## Cross-references of GO to other classification systems
 
-Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [Cross-references of External Classification Systems to GO](/docs/download-mappings/) page contains more information and links to the Cross-reference2GO files.
+Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [cross-references of external classification systems to GO](/docs/download-mappings/) page contains more information and links to the Cross-reference2GO files.
 
