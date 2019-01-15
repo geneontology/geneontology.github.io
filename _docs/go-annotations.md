@@ -8,7 +8,7 @@ redirect_from:
 - /page/go-annotation-standard-operating-procedures
 ---
 
-# GO Annotations
+# GO annotations
 
 <!-- GO annotations: the model of biology. Annotations are statements describing the functions of specific genes, using concepts in the Gene Ontology. The simplest and most common annotation links one gene to one function, e.g. FZD4 + Wnt signaling pathway. Each statement is based on a specified piece of evidence. -->
 
@@ -36,6 +36,8 @@ Associations of gene products to GO terms are statements that describe
 +  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
 
 ## Annotation qualifiers
+
+Some annotations are modified by qualifiers, which have specific usage rules and meanings within GO.
 
 ### The *NOT* qualifier
 
