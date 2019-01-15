@@ -20,10 +20,10 @@ redirect_from:
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
-|go-basic.obo |	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo) |	Filtered, for use with legacy tools|
-|go.obo |		[http://purl.obolibrary.org/obo/go.obo](http://purl.obolibrary.org/obo/go.obo) |	Core ontology (OBO Format)|
-|go.owl |		[http://purl.obolibrary.org/obo/go.owl](http://purl.obolibrary.org/obo/go.owl) |	Core ontology (OWL RDF/XML)|
-|go-plus.owl |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl) 	|Core plus additional axioms, vetted|
+|go-basic.obo |	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo){:target="blank"} |	Filtered, for use with legacy tools|
+|go.obo |		[http://purl.obolibrary.org/obo/go.obo](http://purl.obolibrary.org/obo/go.obo){:target="blank"} |	Core ontology (OBO Format)|
+|go.owl |		[http://purl.obolibrary.org/obo/go.owl](http://purl.obolibrary.org/obo/go.owl){:target="blank"} |	Core ontology (OWL RDF/XML)|
+|go-plus.owl |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
 
 ## go-basic.obo
 
@@ -35,7 +35,7 @@ These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. Th
 
 ## go-plus.owl
 
-This is the fully axiomatised of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [cell ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/) format.
+This is the fully axiomatised of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [cell ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format.
 
 ## Subsets
 
