@@ -19,7 +19,7 @@ Are you interested in contributing to annotations or the ontology?
 * Please visit the guides on [contributing go annotations](/docs/contributing-to-go/) and [contributing GO terms](/docs/contributing-to-go-terms/).
 
 Join our mailing lists and stay informed! [Subscribe to the mailing list](https://mailman.stanford.edu/mailman/listinfo/go-friends){:target="_blank"} to follow general developments, discussions within the GOC, or to post a message to the GO community.
-Of course, please [Follow @news4go](https://twitter.com/news4go)
+Also, please [follow @news4go](https://twitter.com/news4go){:target="_blank"}!
 
 
 
@@ -29,6 +29,5 @@ Best wishes,
 -The GO Helpdesk Team
 
 
-zzbjjkghjk
 
-![Follow GO on Twitter](/img/Twitter_Logo_Blue.png)
+![Follow GO on Twitter](/img/logonav.png)
