@@ -4,7 +4,7 @@ permalink: /docs/contributing-to-go-terms/
 redirect_from: /page/contributing-go
 ---
 
-# Contributing to the Ontology
+# Contributing to the ontology
 
 We strive to make GO as complete and accurate as possible, so suggestions for new terms and improvements to existing terms are very welcome.
 
