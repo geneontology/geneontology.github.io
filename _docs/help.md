@@ -30,4 +30,5 @@ Best wishes,
 
 
 
-![Follow GO on Twitter](/img/logonav.png)
+![Follow GO on Twitter](/img/logonav.png =250x250)
+h
