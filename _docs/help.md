@@ -29,6 +29,6 @@ Best wishes,
 -The GO Helpdesk Team
 
 
-zzbjjk
+zzbjjkghjk
 
-![Follow GO on Twitter](img/Twitter_Logo_Blue.png)
+![Follow GO on Twitter](/img/Twitter_Logo_Blue.png)
