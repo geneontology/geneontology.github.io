@@ -12,5 +12,3 @@ permalink: /docs/go-file-format-guide/
 ## Related Tools 
 + [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools){:target="blank"}: a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
 * [OWL API in Github](https://github.com/owlcs/owlapi){:target="blank"}: a Java API for creating, manipulating and serialising OWL Ontologies.
-
-
