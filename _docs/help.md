@@ -29,20 +29,6 @@ Best wishes,
 -The GO Helpdesk Team
 
 
-zzb
+zzbjjk
 
-![Follow GO on Twitter](/img/Twitter_Logo_WhiteOnBlue.png)
-
-
-<a href="https://twitter.com/news4go" target="_blank"> <img src=https://github.com/geneontology/geneontology.github.io/img/Twitter_Logo_WhiteOnBlue.png alt="Follow GO on Twitter" />
-
-
-<iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=news4go"  style="width:300px; height:20px;"></iframe>
-
-
-<a href="https://twitter.com/news4go?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @news4go</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-
-
-
+![Follow GO on Twitter](img/Twitter_Logo_Blue.png)
