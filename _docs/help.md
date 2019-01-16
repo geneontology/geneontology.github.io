@@ -27,14 +27,3 @@ Also, please [follow @news4go](https://twitter.com/news4go){:target="_blank"}!
 Best wishes,
 
 -The GO Helpdesk Team
-
-
-
-![Follow GO on Twitter](/img/logonav.png=250x250)
-
-<i class="fab fa-twitter"></i>
-
-### <i class="fab fa-twitter" aria-hidden="true"></i> teeeest
-{: #tweet}
-
-hcfghcvbn
