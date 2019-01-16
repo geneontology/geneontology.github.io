@@ -19,13 +19,20 @@ Are you interested in contributing to annotations or the ontology?
 * Please visit the guides on [contributing go annotations](/docs/contributing-to-go/) and [contributing GO terms](/docs/contributing-to-go-terms/).
 
 Join our mailing lists and stay informed! [Subscribe to the mailing list](https://mailman.stanford.edu/mailman/listinfo/go-friends){:target="_blank"} to follow general developments, discussions within the GOC, or to post a message to the GO community.
-Of course, please 
+Of course, please [Follow @news4go](https://twitter.com/news4go)
 
-</a>  
-    <a href="https://twitter.com/perfectlysoft" target="_blank">
-        <img src="http://www.perfect.org/github/Perfect_GH_button_3_twit.jpg" alt="Follow Perfect on Twitter" />
 
-[Follow @news4go](https://twitter.com/news4go)
+
+
+Best wishes,
+
+-The GO Helpdesk Team
+
+
+
+<a href="https://twitter.com/news4go" target="_blank">
+        <img src=/img/Twitter_Logo_WhiteOnBlue.png alt="Follow GO on Twitter" />
+
 
 <iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=news4go"  style="width:300px; height:20px;"></iframe>
 
@@ -36,9 +43,3 @@ Of course, please
 
 
 
-
-
-
-Best wishes,
-
--The GO Helpdesk Team
