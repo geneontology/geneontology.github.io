@@ -29,8 +29,12 @@ Best wishes,
 -The GO Helpdesk Team
 
 
-z
-<a href="https://twitter.com/news4go" target="_blank"><img src=https://github.com/geneontology/geneontology.github.io//img/Twitter_Logo_WhiteOnBlue.png alt="Follow GO on Twitter" />
+zz
+
+![Follow GO on Twitter](/img/Twitter_Logo_WhiteOnBlue.png?raw=true "Follow GO on Twitter")
+
+
+<a href="https://twitter.com/news4go" target="_blank"> <img src=https://github.com/geneontology/geneontology.github.io/img/Twitter_Logo_WhiteOnBlue.png alt="Follow GO on Twitter" />
 
 
 <iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=news4go"  style="width:300px; height:20px;"></iframe>
