@@ -25,7 +25,10 @@ Of course, please
     <a href="https://twitter.com/perfectlysoft" target="_blank">
         <img src="http://www.perfect.org/github/Perfect_GH_button_3_twit.jpg" alt="Follow Perfect on Twitter" />
 
-[Follow @news4go](https://twitter.com/news4go?ref_src=twsrc%5Etfw)
+[Follow @news4go](https://twitter.com/news4go)
+
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?screen_name=news4go"  style="width:300px; height:20px;"></iframe>
+
 
 <a href="https://twitter.com/news4go?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @news4go</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
