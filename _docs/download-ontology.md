@@ -10,7 +10,7 @@ redirect_from:
 
 ## Ontology files
 + Released monthly.
-+ Available in [OBO, OWL and JSON formats](/docs/go-file-format-guide/).
++ Available in [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html), [OWL](https://github.com/owlcs/owlapi) and [JSON](https://github.com/geneontology/obographs/) formats.
 + Also includes [GO subsets](/docs/go-subset-guide/) (slims).
 
 ## Gene Ontology formats
@@ -27,7 +27,7 @@ redirect_from:
 
 ### go-basic.obo {#go_basic}
 
-This is the basic version of the GO filtered such that the graph is guaranteed to be acyclic, and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This is the version that should be used with most GO-based annotation tools.
+This is the basic version of the GO, filtered such that the graph is guaranteed to be acyclic and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This version should be used with most GO-based annotation tools.
 
 ### go.obo and go.owl {#go_obo_and_owl}
 
@@ -45,3 +45,6 @@ GO slims are subsets of terms in the ontology. GO subsets give a broad overview 
 
 Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [cross-references of external classification systems to GO page](/docs/download-mappings/) contains more information and links to the cross-reference2GO files.
 
+# Related Tools 
++ [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools){:target="blank"}: a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
+* [OWL API in Github](https://github.com/owlcs/owlapi){:target="blank"}: a Java API for creating, manipulating and serialising OWL Ontologies.
