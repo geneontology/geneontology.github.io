@@ -29,9 +29,9 @@ Best wishes,
 -The GO Helpdesk Team
 
 
-zz
+zzb
 
-![Follow GO on Twitter](/img/Twitter_Logo_WhiteOnBlue.png?raw=true "Follow GO on Twitter")
+![Follow GO on Twitter](/img/Twitter_Logo_WhiteOnBlue.png)
 
 
 <a href="https://twitter.com/news4go" target="_blank"> <img src=https://github.com/geneontology/geneontology.github.io/img/Twitter_Logo_WhiteOnBlue.png alt="Follow GO on Twitter" />
