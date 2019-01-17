@@ -4,7 +4,7 @@ permalink: /docs/help/
 ---
 # The GO helpdesk
 
-## Welcome to the Gene Ontology helpdesk.
+## Welcome to the Gene Ontology helpdesk
 
 Do you have general questions about GO? 
 * Check our [frequently asked questions](/docs/faq/), as your query may have already been answered.
