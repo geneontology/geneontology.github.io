@@ -1,11 +1,11 @@
 ---
-title: GO Annotation File (GAF) Format 2.0
+title: GO Annotation File (GAF) format 2.0
 permalink: /docs/go-annotation-file-gaf-format-20/
 redirect_from: /page/go-annotation-file-format-20
 ---
 
 
-# GO Annotation File Format 2.0
+# GO Annotation File format 2.0
 
 Annotation data is submitted to the GO Consortium in the form of Gene Association Format, or GAFs. This guide lays out the format specifications for GAF 2.0; for the older GAF 1.0 file syntax, please see the GAF 1.0 file format guide.
 
@@ -17,14 +17,14 @@ General information about annotation can be found in the [GO annotation guide](h
 GAF 2.0 has two additional columns compared to GAF 1.0: annotation extension (column 16) and gene product form ID (column 17).
 
 The addition of gene product form ID (column 17) means that the usage of the DB object ID (column 2) and DB object type (column 12) fields differs from that in GAF 1.0. Please see the descriptions below for full details.
-## File Header
+## GAF header
 
 All gene association files must start with a single line denoting the file format, as follows:
 
 >!gaf-version: 2.0
 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (`!`); such lines will be ignored by parsers.
-## Annotation File Fields
+## GAF Fields
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
 
