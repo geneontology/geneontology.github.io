@@ -7,7 +7,7 @@ redirect_from: /page/about
 # Who we are
 
 We want to acknowledge the contributions of the following individuals in the development of the GO knowledgebase.
-## The Founder
+## Founder
 
 - [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
 
@@ -19,7 +19,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 + [Judith Blake](https://www.jax.org/research-and-faculty/faculty/judith-blake){:target="blank"}, Jackson Laboratory
 
 
-## Project Leads
+## Project leads
 + [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Quality Assurance
 + [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"}, Lawrence Berkeley National Laboratory - Architecture
 + David Hill, Jackson Laboratory - Ontology
