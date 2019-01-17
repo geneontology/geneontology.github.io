@@ -9,12 +9,14 @@ redirect_from:
 # Downloads overview
 GO releases official versions on a monthly basis.  The links below provide the latest version of files in the format specified.
 
-## Download [the ontology](/docs/download-ontology/ "Download Ontology")
+## Ontology
+[*__Download the ontology here__*](/docs/download-ontology/ "Download ontology")
 + Released monthly
 + Available in [OBO and OWL formats](/docs/go-file-format-guide/ "OBO and OWL formats")
 + Also includes [GO subsets](/docs/go-subset-guide/ "GO subsets") (slims)
 
-## Download [annotations](/docs/download-go-annotations/ "Download GO annotations")
+## Annotations
+[*__Download annotations here__*](/docs/download-go-annotations/ "Download GO annotations")
 + Released monthly
 + Taxon-specific
 + Available in either [GAF format](/docs/go-annotation-file-gaf-format-21/ "GAF format") or [GPAD](/docs/gene-product-association-data-gpad-format/ "GPAD format")+[GPI](/docs/gene-product-information-gpi-format/ "GPI files") files
@@ -26,7 +28,8 @@ We make new versions available approximately every month.-->
 
 <!--We will soon add more documentation about the structure of these repositories.-->
 
-## Download [DOI-versioned bundles](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
+## DOI-versioned bundles
+[*__Download DOI-versioned bundles here__*](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
 
 + DOI-versioned bundles are complete archives of each monthly release. Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}.
 + For users interested in a smaller or more flexible DOI versioned bundles, we offer holey (reference) BDBag at [Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159 "DOI versioned holey BDBag"){:target="_blank"}.
