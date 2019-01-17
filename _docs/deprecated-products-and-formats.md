@@ -1,5 +1,5 @@
 ---
-title: Deprecated Products and Formats
+title: Deprecated products and formats
 permalink: /docs/deprecated-products-and-formats/
 redirect_from: 
 - /page/go-mysql-database-guide
