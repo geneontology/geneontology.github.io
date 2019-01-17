@@ -1,5 +1,5 @@
 ---
-title: Contributing GO Terms
+title: Contributing GO terms
 permalink: /docs/contributing-to-go-terms/
 redirect_from: /page/contributing-go
 ---
