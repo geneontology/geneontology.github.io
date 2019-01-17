@@ -31,8 +31,11 @@ We make new versions available approximately every month.-->
 ## DOI-versioned bundles
 [*__Download DOI-versioned bundles here__*](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
 
-+ DOI-versioned bundles are complete archives of each monthly release. Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}.
-+ For users interested in a smaller or more flexible DOI versioned bundles, we offer holey (reference) BDBag at [Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159 "DOI versioned holey BDBag"){:target="_blank"}.
++ Complete archives of each monthly release
++ Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}.
+
++ For users interested in a smaller or more flexible DOI versioned bundles: holey (reference) BDBag at [Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159 "DOI versioned holey BDBag"){:target="_blank"}
+
 
 ## Notifications
 To be notified of the exact release date, you can follow the [GitHub go-announcement repository](https://github.com/geneontology/go-announcements "GO announcements"){:target="blank"}.
