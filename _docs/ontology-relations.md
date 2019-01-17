@@ -48,7 +48,7 @@ This diagram would be interpreted as follows:
 
 The formal mathematical / logical representation of the inference made in the graph above is: *is a* ∘ *part of* → *part of* 
 
-## GO Basics
+## GO basics
 Nodes in the GO graph can have any number and type of relationships to other nodes. Like hierarchies—for example, a family tree or a taxonomy of species—a node may have connections to more than one child (more specific) node, but unlike them, it can also have more than one parent (broader) node, and different relations to its different parents; for example, a node may have a part of relationship to one node, and an is a relationship to another. The following diagram illustrates this point:
 
 ![part-of](/assets/diag-dag-example.gif)
