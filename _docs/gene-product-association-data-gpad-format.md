@@ -1,5 +1,5 @@
 ---
-title: Annotation Files in Gene Product Association Data (GPAD) Format
+title: Annotation files in Gene Product Association Data (GPAD) Format
 permalink: /docs/gene-product-association-data-gpad-format/
 redirect_from: /page/gene-product-association-data-gpad-format
 ---
@@ -27,7 +27,7 @@ All annotation files must start with a single line denoting the file format. For
     
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an 
 association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
-### Annotation File Fields
+### Annotation file fields
 The GPAD format comprises 12 tab-delimited fields, fields with multiple values (for example, gene product synonyms) 
 should have these values separated by pipes.
 
@@ -96,7 +96,7 @@ the PubMed ID must be included; if the model organism database has its own ident
 included.\
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
 
-#### Evidence Code
+#### Evidence code
 One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO\
 This field is mandatory, cardinality 1 
 
