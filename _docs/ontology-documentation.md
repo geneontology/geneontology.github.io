@@ -1,5 +1,5 @@
 ---
-title: GO Overview
+title: GO overview
 permalink: /docs/ontology-documentation/
 redirect_from: 
 - /page/ontology-documentation
