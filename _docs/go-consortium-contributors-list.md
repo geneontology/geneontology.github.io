@@ -7,7 +7,7 @@ permalink: /docs/go-consortium/
 
 The Gene Ontology Consortium (GOC) integrates resources from a variety of research groups, from model organisms to protein databases to the biological research communities actively involved in the development and implementation of the Gene Ontology. Below is a list of our collaborators.
 
-## Current GO Consortium Contributing Groups
+## Current GO Consortium contributing groups
 
 | Name 	| Description |	Funding |	Contact |
 |-------|-------------|---------|---------|
@@ -44,7 +44,7 @@ The Gene Ontology Consortium (GOC) integrates resources from a variety of resear
 |[WormBase](http://www.wormbase.org/)| 	WormBase is an international consortium of biologists and computer scientists dedicated to providing the research community with accurate, current, accessible information concerning the genetics, genomics and biology of Caenorhabditis elegans and related nematodes. |	WormBase is supported by grant #U41 HG002223 from the National Human Genome Research Institute at the US National Institutes of Health, the UK Medical Research Council, and the UK Biotechnology and Biological Sciences Research Council.| [	WormBase](http://www.wormbase.org/tools/support)|
 |[The Zebrafish Model Organism Database (ZFIN)](http://zfin.org/)| 	Reference datasets and information on Danio rerio |	|  	[ZFIN](curators@zfin.org)|
 
-## Former GO Consortium Contributing Groups
+## Former GO Consortium contributing groups
 
 In alphabetical order:
 
