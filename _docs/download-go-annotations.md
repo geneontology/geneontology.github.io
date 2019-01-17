@@ -1,5 +1,5 @@
 ---
-title: Download Annotations
+title: Download annotations
 permalink: /docs/download-go-annotations/
 redirect_from: /page/download-go-annotations
 ---
