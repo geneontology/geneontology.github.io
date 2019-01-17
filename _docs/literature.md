@@ -1,5 +1,5 @@
 ---
-title: Scientific Literature
+title: Scientific literature
 permalink: /docs/literature/
 redirect_from: /page/publications
 ---
