@@ -24,7 +24,7 @@ All gene association files must start with a single line denoting the file forma
 >!gaf-version: 2.0
 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (`!`); such lines will be ignored by parsers.
-## GAF Fields
+## GAF fields
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
 
