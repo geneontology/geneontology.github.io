@@ -1,5 +1,5 @@
 ---
-title: Annotation Contributors
+title: Annotation contributors
 permalink: /docs/annotation-contributors/
 redirect_from: /page/go-consortium-contributors-list
 ---
