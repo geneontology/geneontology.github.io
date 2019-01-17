@@ -1,5 +1,5 @@
 ---
-title: GO Citation Policy and License
+title: GO citation policy and license
 permalink: /docs/go-citation-policy/
 redirect_from: 
 - /page/go-citation-policy
