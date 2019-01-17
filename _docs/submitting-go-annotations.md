@@ -2,7 +2,7 @@
 title: Submitting GO Annotations
 permalink: /docs/submitting-go-annotations/
 ---
-# Overview
+# Submitting GO Annotations: overview
  * **Prepare**- GOC encourages use of [GAF 2.1](/docs/go-annotation-file-gaf-format-21/), although [GAF 2.0](/docs/go-annotation-file-gaf-format-20/) is still accepted.  If you're reading this, now is a great time to make the minor changes and upgrade to 2.1!
  * **Submit**- GOC asks that all submitting groups provide a static address that always contains the group's most recent GAF.  This GAF will be retreived by GO on demand and ensure the group's most recent file is always used for the monthly production pipeline.
  The address for a group's GAF should appear in the `source` line (approximately line 19) of the group's yaml file.  For example, MGI's file [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml) contains the line:
