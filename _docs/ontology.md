@@ -31,7 +31,7 @@ How the term relates to other terms in the ontology. All terms (other than the r
 
 ### Secondary IDs (also known as Alternate ID)
 
-Alternate IDs that refer to a term. Secondary IDs come about when two or more terms are identical in meaning, and are merged into a single term. All terms IDs are preserved so that no information (for example, annotations to the merged IDs) is lost.
+Secondary IDs come about when two or more terms are identical in meaning, and are merged into a single term. All terms IDs are preserved so that no information (for example, annotations to the merged IDs) is lost.
 
 ### Synonyms
 
@@ -57,6 +57,6 @@ Indicates that the term belongs to a designated subset of terms, e.g. one of the
 
 ### Obsolete tag
 
-Indicates that the term has been deprecated and should not be used. GO terms get obsoleted when it is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term, detailing the reason for the obsoletion and tags are also adding possible replacement terms, if possible. 
+Indicates that the term has been deprecated and should not be used. A GO term is obsoleted when it is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term detailing the reason for the obsoletion and   replacement terms are suggested, if possible. 
 
 
