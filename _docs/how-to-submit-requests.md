@@ -1,9 +1,9 @@
 ---
-title: How to Submit Requests for Ontology and Annotations
+title: How to submit requests for ontology and annotations
 permalink: /docs/how-to-submit-requests/
 ---
 
-# How to Submit Requests for Ontology and Annotations
+# How to submit requests for ontology and annotations
 
 GO uses [GitHub](https://github.com/){:target="blank"} as a mechanism for tracking ontology and annotation issues.
 + The [GO-ontology tracker](https://github.com/geneontology/go-ontology/issues){:target="blank"} captures suggestions for changes to the ontology, inclusing suggestions for new terms, changes to definitions or term position in the hierarchy, to addition of new subsets. 
