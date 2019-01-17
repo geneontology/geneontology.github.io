@@ -1,5 +1,5 @@
 ---
-title: Annotation Files in GO Annotation File (GAF) Format
+title: GO Annotation File (GAF) format
 permalink: /docs/go-annotation-file-gaf-format-21/
 redirect_from: 
 - /page/go-annotation-file-gaf-format-21
@@ -17,9 +17,9 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 + GO also also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) files. 
 + For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
-## GO Annotation File (GAF) Format 2.1
+## GO Annotation File (GAF) format 2.1
 
-### File Header
+### GAF Header
 
 All gene association files must start with a single line denoting the file format, as follows:
 
@@ -27,7 +27,7 @@ All gene association files must start with a single line denoting the file forma
 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
 
-### Annotation File Fields
+### GAF fields
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
 
