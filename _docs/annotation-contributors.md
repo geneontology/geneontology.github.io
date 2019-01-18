@@ -4,7 +4,9 @@ permalink: /docs/annotation-contributors/
 redirect_from: /page/go-consortium-contributors-list
 ---
 
-# Current groups contributing GO annotations  
+# Annotation contributors
+
+## Current groups contributing GO annotations  
 
 The GO Consortium integrates resources from a variety of research groups, from model organisms to protein databases to biological research communities actively involved in the development and implementation of the Gene Ontology. Below is an alphabetical list of our collaborators.
 
