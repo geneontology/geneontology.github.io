@@ -45,6 +45,6 @@ GO slims are subsets of terms in the ontology. GO subsets give a broad overview 
 
 Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [cross-references of external classification systems to GO page](/docs/download-mappings/) contains more information and links to the cross-reference2GO files.
 
-# Related Tools 
+## Related Tools 
 + [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools){:target="blank"}: a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
 * [OWL API in Github](https://github.com/owlcs/owlapi){:target="blank"}: a Java API for creating, manipulating and serialising OWL Ontologies.
