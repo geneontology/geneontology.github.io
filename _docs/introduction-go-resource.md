@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: About the GO
 permalink: /docs/introduction-to-go-resource/
 redirect_from: /page/introduction-go-resource
 ---
@@ -8,7 +8,7 @@ redirect_from: /page/introduction-go-resource
 ---
 <!-- Mission Statement: The mission of the GO Consortium is to develop an up-to-date, comprehensive, computational model of biological systems, from the molecular level to larger pathways, cellular and organism-level systems. -->
 
-Understanding gene function—how individual genes contribute to the biology of an organism at the molecular, cellular and organism levels—is one of the primary aims of biomedical research. Moreover, it has been a longstanding tenet of biological research that experimental knowledge obtained in one organism is often applicable to other organisms, particularly if the organisms share the relevant genes because they inherited them from their common ancestor. The GO, as a consortium, began in 1998 when researchers studying the genome of three model organisms: *Drosophila melanogaster* (fruit fly), *Mus musculus* (mouse), and *Saccharomyces cerevisiae* (brewer's or baker's yeast) agreed to work collaboratively on a common classification scheme for gene function, and today the number of different organisms represented in GO is in the thousands. GO makes it possible, in a flexible and dynamic way, to provide comparable descriptions of homologous gene and protein sequences across the phylogenetic spectrum.
+Understanding gene function—how individual genes contribute to the biology of an organism at the molecular, cellular and organism levels—is one of the primary aims of biomedical research. Moreover, it has been a longstanding tenet of biological research that experimental knowledge obtained in one organism is often applicable to other organisms, particularly if the organisms share the relevant genes because they inherited them from their common ancestor. The Gene Ontology (GO), as a consortium, began in 1998 when researchers studying the genome of three model organisms: *Drosophila melanogaster* (fruit fly), *Mus musculus* (mouse), and *Saccharomyces cerevisiae* (brewer's or baker's yeast) agreed to work collaboratively on a common classification scheme for gene function, and today the number of different organisms represented in GO is in the thousands. GO makes it possible, in a flexible and dynamic way, to provide comparable descriptions of homologous gene and protein sequences across the phylogenetic spectrum.
 
 GO is also at the hub of a major effort to represent the vast amount of biomedical knowledge in a computable form. It provides the most comprehensive resource currently available for computable knowledge regarding the functions of genes and gene products. By capturing our collective knowledge in a computable form researchers have gained the ability to query and retrieve genes and proteins based on their shared biology, even as our knowledge of protein, RNA, and macromolecule roles in cells is accumulating and changing. GO is linked to many other biomedical ontologies, and is a foundation for research applying computer science in biology and medicine.
 
