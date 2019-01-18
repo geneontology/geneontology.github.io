@@ -1,5 +1,5 @@
 ---
-title: Introduction to GO Annotations
+title: Introduction to GO annotations
 permalink: /docs/go-annotations/
 redirect_from: 
 - /page/go-annotations
@@ -8,7 +8,7 @@ redirect_from:
 - /page/go-annotation-standard-operating-procedures
 ---
 
-# GO annotations
+# Introduction to GO annotations
 
 <!-- GO annotations: the model of biology. Annotations are statements describing the functions of specific genes, using concepts in the Gene Ontology. The simplest and most common annotation links one gene to one function, e.g. FZD4 + Wnt signaling pathway. Each statement is based on a specified piece of evidence. -->
 
