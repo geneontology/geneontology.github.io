@@ -1,5 +1,5 @@
 ---
-title: Download ontology
+title: Download the ontology
 permalink: /docs/download-ontology/
 redirect_from: 
 - /page/download-ontology
