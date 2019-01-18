@@ -1,5 +1,5 @@
 ---
-title: Downloads Overview
+title: Downloads overview
 permalink: /docs/downloads/
 redirect_from: 
 - /page/downloads
