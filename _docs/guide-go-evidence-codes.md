@@ -1,5 +1,5 @@
 ---
-title: Guide to GO Evidence Codes
+title: Guide to GO evidence codes
 permalink: /docs/guide-go-evidence-codes/
 redirect_from: /page/guide-go-evidence-codes
 ---
