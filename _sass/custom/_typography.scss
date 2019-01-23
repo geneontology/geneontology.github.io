@@ -123,6 +123,11 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
     }
 }
 
+.header_stat {
+    display: inline-block;
+    color: white;
+}
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;
