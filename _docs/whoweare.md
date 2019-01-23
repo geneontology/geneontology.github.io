@@ -7,6 +7,7 @@ redirect_from: /page/about
 # Who we are
 
 We want to acknowledge the contributions of the following individuals in the development of the GO knowledgebase.
+
 ## Founder
 
 - [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
