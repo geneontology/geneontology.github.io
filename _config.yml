@@ -70,5 +70,13 @@ algolia:
   application_id: Q641OOGVUG
   index_name: index_go
   search_only_api_key: 6bdeab83f499a2c57732057d1f30dd6c
-  files_to_exclude: []
-  # nodes_to_index: 'article' # elements to be indexed
+#  record_css_selector: 'p,ul,li,div,h1,h2,h3,h4,span'
+  extensions_to_index:
+    - html
+    - md
+  files_to_exclude: 
+    - search.html
+    - index.html
+    - allposts.html
+#   nodes_to_index: 'article' # elements to be indexed
+  nodes_to_index: 'p,blockquote,li,div,paragraph,span'
