@@ -18,7 +18,7 @@ redirect_from: /page/go-subset-guide
 
 ##### Who can create a subset?
 - GO provides a generic subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. In addition, many model organism-specific subsets have been created by [GO consortium members](/docs/go-consortium/) and are available for download as listed below.
-- Alternatively, users and user communities can create their own GO subsets. Please contact the [GO helpdesk](/docs/help/) for more information about creating and submitting your GO subsets.
+- Alternatively, users and user communities can create their own GO subsets. Please contact the [GO helpdesk](http://help.geneontology.org/){:target="blank"} for more information about creating and submitting your GO subsets.
 
 ##### How are GO subsets maintained?
 - It is up to the people who have created a GO subset to maintain it or not maintain it, if they intend to keep it for reasons of reproducibility. If the developers of a GO subset want to keep it current with the GO they will need to periodically review GO for new terms and other changes.
