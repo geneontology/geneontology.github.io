@@ -24,7 +24,7 @@ In addition to this core knowledgebase, GO resources also include software to ed
 ### Uses of the GO and annotations
 The GO resource plays an essential role in supporting biomedical research and has been used in tens of thousands of scientific studies. The most common use of GO annotations is for interpretation of large-scale molecular biology experiments, sometimes called "omics" experiments. Whether, genomics, transcriptomics, proteomics, or metabolomics, these experiments pool biological molecules to gain insight into the structure, function, and dynamics of an organism. ["Gene Ontology enrichment analysis"](/docs/go-enrichment-analysis) are used to discover statistically significant similarities or differences under alternate controlled experimental conditions.
 
-You can [explore the scientific publications](/docs/publications/) that have used the Gene Ontology resource.
+You can [explore the scientific publications](/docs/literature/) that have used the Gene Ontology resource.
 
 ### Funding
 The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989){:target="blank"}.
