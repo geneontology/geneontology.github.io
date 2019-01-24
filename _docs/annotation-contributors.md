@@ -48,7 +48,7 @@ The GO Consortium integrates resources from a variety of research groups, from m
 
 ## Past GO Consortium contributing groups
 
-In alphabetical order:
+These groups have contributed to the GO Consortium in the past:
 
 | Name 	| Description |	Funding |	Contact |
 |-------|-------------|---------|---------|
@@ -57,3 +57,17 @@ In alphabetical order:
 |[Microbial ENergy processes Gene Ontology Project (MENGO)](http://mengo.vbi.vt.edu/){:target="blank"}| 	The MENGO project is a multi-institutional collaborative effort that aims to develop new Gene Ontology terms to describe microbial bioenergy related processes |	Office of Science (BER), U.S. Department of Energy. |	|
 |Plant-Associated Microbe Gene Ontology (PAMGO)| Consortium 	A multi-institutional collaborative effort involving scientists working on plant pathogenic genomes: the bacteria *Dickeya dadantii*, *Pseudomonas syringae* pv *tomato* and *Agrobacterium tumefaciens*, the fungus *Magnaporthe grisea*, the oomycetes *Phytophthora sojae* and *Phytophthora ramorum* and the nematode *Meloidogyne hapla*	 | ||
 |[Renal Gene Ontology Annotation Initiative](https://www.ebi.ac.uk/GOA/kidney){:target="blank"} | European Bioinformatics Institute | Kidney Research UK| |
+
+
+
+## Ontologies imported by the GO Consortium
+
+The following ontologies are imported into GO:
+
+|Name |	Description |	Contact|
+|-----|-------------|--------|
+|[Cell Type Ontology (CL)](http://cellontology.org/){:target="blank"} |	The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. |	[CL SourceForge tracker](https://sourceforge.net/p/obo/cell-ontology-cl-requests/){:target="blank"}|
+|[Chemical Entities of Biological Interest (ChEBI)](http://www.ebi.ac.uk/chebi/){:target="blank"} |	Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds. |	[ChEBI web submission form](http://www.ebi.ac.uk/chebi/emailChebiForward.do){:target="blank"}|
+|[Evidence Ontology (ECO)](http://www.evidenceontology.org/){:target="blank"}| The Evidence Ontology (ECO) is an ontology for describing biological research evidence that is used to support assertions. 	 |[ECO GitHub](https://github.com/evidenceontology/evidenceontology/issues/new){:target="blank"}|
+|[Plant Ontology (PO)](http://www.plantontology.org/){:target="blank"}| 	Plant Ontology project is a major international bioinformatics effort on standardizing the nomenclature, definitions, synonyms and relations of various terms/keywords/vocabularies that describe anatomical entities as well as the growth and developmental stages of plants. |	[PO web submission form](http://www.plantontology.org/contact){:target="blank"}|
+|[Uber Anatomy Ontology (Uberon)](http://uberon.github.io/){:target="blank"} |	Uberon is an integrated cross-species ontology covering anatomical structures in animals. 	| [Uberon help](mailto:cjmungall@lbl.gov)|
