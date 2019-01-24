@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand go-link" href="{{ site.baseurl }}/">
+            <a class="navbar-brand go-link" href="{{ site.baseurl }}/" style="margin-right: 40px;">
                 <span>
                     <img src="/assets/go-logo.large.png">
                 </span>
@@ -22,7 +22,7 @@
 
                 {% for doc in site.data.docs %}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle link-extended" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="nav-link dropdown-toggle link-extended u-letter-spacing-xsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                             style="padding: 8px 3px;" aria-expanded="false">
                             {{ doc.title }}
                         </a>
@@ -45,23 +45,23 @@
                 {% endfor %}
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    <a class="nav-link dropdown-toggle u-letter-spacing-xsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                         style="padding: 8px 3px;" aria-expanded="false">
                         Help
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width:248px; margin-bottom: 0px;">
-
-                        <a href="{{ " /docs/faq/ " | prepend: site.baseurl }}"  class="dropdown-menu__item__link">
-                            <i class="fa fa-question-circle"></i>
-                            FAQs</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width: 280px; margin-bottom: 0px;">
 
                         <a href="{{" /search "}}" title="Search GO Documentation"   class="dropdown-menu__item__link">
                             <i class="fa fa-search"></i>
-                            Search Documentation</a>
+                            &nbsp; Search Documentation</a>
+    
+                        <a href="{{ " /docs/faq/ " | prepend: site.baseurl }}"  class="dropdown-menu__item__link">
+                            <i class="fa fa-question" style="margin-right: 4px; margin-left: 2px;"></i>
+                            &nbsp; Frequently Asked Questions</a>
 
                         <a href="http://help.geneontology.org" target="blank" title="Contact the GO helpdesk"   class="dropdown-menu__item__link">
                             <i class="fa fa-comments-o"></i>
-                            Contact us</a>
+                            &nbsp; Contact us</a>
 
 
                         <!-- <nav class="navbar navbar-light bg-light" style="margin-bottom: 0px; padding: 0px 5px; min-height: 30px;">

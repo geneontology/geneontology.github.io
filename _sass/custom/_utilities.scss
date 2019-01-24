@@ -252,3 +252,33 @@
 .u-padding-bottom-xlarge {
     padding-bottom: $value-xlarge;
 }
+
+.u-letter-spacing-xsmall {
+    letter-spacing: 2.5px !important; 
+}
+
+.u-line-height-single,
+.u-line-height-single:before{
+    line-height: 1 !important;
+}
+
+.u-anim-move-right {
+    transition: all 0.2s !important;
+}
+.u-anim-move-right:hover {
+    transform: translateX(3px) !important;
+}
+
+.u-anim-move-up {
+    transition: all 0.2s !important;
+}
+.u-anim-move-up:hover {
+    transform: translateY(-3px) !important;
+}
+
+.u-anim-zoom-in {
+    transition: all 0.2s !important;
+}
+.u-anim-zoom-in:hover {
+    transform: scale(1.05) !important;
+}
