@@ -372,11 +372,13 @@ input[type=search]:focus {
     &__link {
         /* color: black !important; */
         /* text-shadow: 1px 1px 9px black; */
+        color: cornflowerblue !important;
     }
 
     &__text {
         /* color: #002379 !important; */
         /* text-shadow: 1px 1px 9px black; */
+        letter-spacing: 2px;
     }
 
     &__logo-box {
@@ -468,6 +470,8 @@ $gutter-horizontal: 6rem;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
         margin-bottom: 1rem;
+        // round picture effect on top
+        border-radius: 15px 15px 0px 0px;
 
         &__dna--red {
 //            background-image: linear-gradient(to right bottom, #ff0000, #6b2081), url(../assets/abstract-network-graph.png);            
@@ -509,6 +513,7 @@ $gutter-horizontal: 6rem;
         border-radius: 3px !important;
         background-color: rgb(255, 255, 255) !important;
         color: black !important;
+        border-radius: 15px !important;
     }
 
     &__description {
@@ -526,7 +531,7 @@ $gutter-horizontal: 6rem;
         position: absolute;
         bottom: 20px;
         text-align: end;
-        right: 30px;
+        right: 35px;
     }
 
 }
