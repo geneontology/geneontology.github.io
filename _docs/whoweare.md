@@ -11,6 +11,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 ## Founder
 
 - [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
+- [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"}
 
 ## Principal Investigators
 + [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, University of Southern California
