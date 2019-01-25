@@ -1,6 +1,8 @@
 ---
 title: Tools to curate, browse, search and visualize GO
 permalink: /docs/tools-overview/
+redirect_from:
+- /durable-content-tags/software
 ---
 
 # Tools to curate, browse, search and visualize GO

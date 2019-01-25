@@ -7,6 +7,8 @@ redirect_from:
 - /page/ftp-and-cvs-downloads
 - /page/go-annotation-file-gaf-format-10
 - /page/go-rdfxml-file-format
+- /page/lead-database-guide
+- /page/go-tools-registry
 ---
 
 # Deprecated products and formats

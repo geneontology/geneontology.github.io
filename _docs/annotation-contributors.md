@@ -1,7 +1,10 @@
 ---
 title: Annotation contributors
 permalink: /docs/annotation-contributors/
-redirect_from: /page/go-consortium-contributors-list
+redirect_from: 
+- /page/go-consortium-contributors-list
+- /page/authoritative-database-groups
+- /page/reference-genome-annotation-project
 ---
 
 # Annotation contributors
