@@ -1,8 +1,6 @@
 ---
 title: Tools to curate, browse, search and visualize GO
 permalink: /docs/tools-overview/
-redirect_from:
-- /durable-content-tags/software
 ---
 
 # Tools to curate, browse, search and visualize GO
@@ -25,18 +23,18 @@ A drill-down browsing of the GO ontology is provided in the form of an [interact
 
 ![Browse GO ontology example](/assets/ontology-browse-tree.jpg)
 
-A general browsing of both the curated and inferred GO annotations is available through [Amigo](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}.
+A general browsing of both the curated and inferred GO annotations is available through [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}.
 
 
 ## Search
 
 ### Ontology and standard GO Annotations
 
-[Amigo](http://amigo.geneontology.org/){:target="blank"} can be used to search both the GO ontology, the GO annotations and details about Gene Products described in our Knowledgebase.
+[AmiGO](http://amigo.geneontology.org/){:target="blank"} can be used to search both the GO ontology, the GO annotations and details about Gene Products described in our Knowledgebase.
 
-Powered by the [Solr search engine](http://lucene.apache.org/solr/){:target="blank"}, [Amigo](http://amigo.geneontology.org/){:target="blank"} allows for advanced faceted search to refine your query, by restricting for instance to a specific species, a specific [aspect](/docs/ontology-documentation/) (Biological Process, Molecular Function or Cellular Component), a [specific evidence](/docs/guide-go-evidence-codes/) (e.g. only curated annotations), etc.
+Powered by the [Solr search engine](http://lucene.apache.org/solr/){:target="blank"}, [AmiGO](http://amigo.geneontology.org/){:target="blank"} allows for advanced faceted search to refine your query, by restricting for instance to a specific species, a specific [aspect](/docs/ontology-documentation/) (Biological Process, Molecular Function or Cellular Component), a [specific evidence](/docs/guide-go-evidence-codes/) (e.g. only curated annotations), etc.
 
-[![Amigo faceted search example](/assets/amigo-faceted-search.jpg)](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}
+[!AmiGO faceted search example](/assets/amigo-faceted-search.jpg)](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}
 
 ### GO-CAM
 

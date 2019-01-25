@@ -19,7 +19,7 @@ The following is a query example to retrieve all [meta data about the GO term GO
 http://golr-aux.geneontology.io/solr/select?fq=document_category:%22ontology_class%22&q=*:*&fq=id:%22GO:0030182%22&wt=json
 ````
 
-[GOlr](http://golr-aux.geneontology.io/solr) is powering the faceted search of [Amigo](http://amigo.geneontology.org/){:target="blank"}.
+[GOlr](http://golr-aux.geneontology.io/solr) is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
 
 #### BioLink: a gateway to access GO and other linked data
 The purpose of the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated.
