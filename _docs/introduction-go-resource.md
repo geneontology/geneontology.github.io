@@ -1,7 +1,9 @@
 ---
 title: About the GO
 permalink: /docs/introduction-to-go-resource/
-redirect_from: /page/introduction-go-resource
+redirect_from: 
+- /page/introduction-go-resource
+- /book/documentation/file-format-guide
 ---
 
 # About the GO

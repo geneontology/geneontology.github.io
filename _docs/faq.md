@@ -117,7 +117,7 @@ The GOA project offers users a number of different files; for example:
 -   [human proteins](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/HUMAN/gene_association.goa_human.gz)
 -   if you were only interested in proteins from a particular species, we also provide non-redundant, species-specific files for human, mouse, rat, zebrafish, chicken, cow and Arabidopsis proteins (these files are created using the International Protein Index (IPI) - which provides a top level guide to the main databases that describe the proteomes of higher eukaryotic organisms)
 
-Further information on the content and format of our gene association files can be found in the [ReadMe](http://www.ebi.ac.uk/GOA/goaHelp.html){:target="blank"}.
+Further information on the content and format of our gene association files can be found in the [ReadMe](https://www.ebi.ac.uk/GOA/newto){:target="blank"}.
 
 Please contact [GOA help](mailto:goa@ebi.ac.uk) for further assistance.
 
@@ -182,8 +182,7 @@ FAQ tags: 
 
 [third-party tools](/faq-tags/third-party-tools)
 
-Currently, GO recommends groups submit their transcriptomes to [NCBI](https://www.ncbi.nlm.nih.gov/).  These submissions will reach [UniProt](https://www.uniprot.org/){:target="blank"}, where [InterPro2GO](https://www.ebi.ac.uk/GOA/InterPro2GO){:target="blank"} automatically creates GO annotations.  These annotations, made with the IEA evidence codes ([Inferred from Electronic Annotation](guide-go-evidence-codes.md
-)), will available in a future GO release.
+Currently, GO recommends groups submit their transcriptomes to [NCBI](https://www.ncbi.nlm.nih.gov/).  These submissions will reach [UniProt](https://www.uniprot.org/){:target="blank"}, where [InterPro2GO](https://www.ebi.ac.uk/GOA/InterPro2GO){:target="blank"} automatically creates GO annotations.  These annotations, made with the IEA evidence codes ([Inferred from Electronic Annotation](/docs/guide-go-evidence-codes/)), will available in a future GO release.
 
 GO does not recommend groups create their own IEAs with internal tools due to reproducability and accuracy concerns.
 
@@ -619,7 +618,7 @@ The GO project is constantly evolving, and we welcome feedback from all users. R
 
 To learn more about the best approach to contributing GO annotations or sharing your suggestions for updates to the ontology please visit our documentation on [Contributing to GO](http://geneontology.org/page/contributing-go).
 
-Please be sure to [contact the GOC](http://geneontology.org/form/contact-go) before carrying out any annotation work you intend to submit; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
+Please be sure to [contact the GOC](http://help.geneontology.org) before carrying out any annotation work you intend to submit; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
 [What gene or protein IDs should I use?](/faq/what-gene-or-protein-ids-should-i-use)
 ------------------------------------------------------------------------------------
@@ -935,7 +934,7 @@ We welcome contributions to the Gene Ontology project, both in terms of annotati
 
 Before making contributions, we recommend that y contact the Gene Ontology Consortium (GOC) *before* annotation work is carried out; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
-To learn more details, visit the page on [http://geneontology.org/page/contributing-go](http://geneontology.org/contribute-annotations).
+To learn more details, visit the page on [http://geneontology.org/docs/contributing-to-go/](/docs/contributing-to-go/).
 
 [Why won't the RDF-XML file parse using RDF parsers?](/faq/why-wont-rdf-xml-file-parse-using-rdf-parsers)
 ---------------------------------------------------------------------------------------------------------
