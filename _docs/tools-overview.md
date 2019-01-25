@@ -34,7 +34,7 @@ A general browsing of both the curated and inferred GO annotations is available 
 
 Powered by the [Solr search engine](http://lucene.apache.org/solr/){:target="blank"}, [AmiGO](http://amigo.geneontology.org/){:target="blank"} allows for advanced faceted search to refine your query, by restricting for instance to a specific species, a specific [aspect](/docs/ontology-documentation/) (Biological Process, Molecular Function or Cellular Component), a [specific evidence](/docs/guide-go-evidence-codes/) (e.g. only curated annotations), etc.
 
-![AmiGO faceted search example](/assets/amigo-faceted-search.jpg)](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}
+[![AmiGO faceted search example](/assets/amigo-faceted-search.jpg)](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}
 
 ### GO-CAM
 
