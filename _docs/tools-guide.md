@@ -5,8 +5,6 @@ permalink: /docs/tools-guide/
 
 # Guide to query and download GO
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aut vel nisi dolor repellat inventore molestiae mollitia, quisquam ipsum tempora iste. Nisi praesentium sapiente nihil voluptates qui, culpa accusantium velit?
-
 ## Query
 
 ### Ontology and standard GO Annotations
