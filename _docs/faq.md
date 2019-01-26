@@ -388,10 +388,9 @@ It is **possible and usually expected** for a single gene/gene product to be ass
 
 The Gene Ontology allows users to describe a gene/gene product in detail, considering three main aspects: its molecular function, the biological process in which it participates, and its cellular location.
 
- For example, the [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"} gene product from zebrafish has numerous GO terms associated with it.
-    - For [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"}, each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of selectively interacting with DNA (DNA binding) – (<http://amigo.geneontology.org/amigo/term/GO:0003677>), while a different GO term explains that this gene product is found in the nucleus of the cell (<http://amigo.geneontology.org/amigo/term/GO:0005634>).
+For example, the [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"} gene product from zebrafish has numerous GO terms associated with it.  Each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of [selectively interacting with DNA (DNA binding)](http://amigo.geneontology.org/amigo/term/GO:0003677), while a different GO term explains that this gene product is [found in the nucleus of the cell](http://amigo.geneontology.org/amigo/term/GO:0005634).
 
-Trying to write one single term that describes in detail everything about a gene/gene product in a single statement would require the existence of as many terms as genes there are - for all species - in the planet. This would be very unpractical and not easily scalable. Instead, the use of ontologies help us organize information in a way that allows researchers to use the same term to describe a characteristic that is shared by more than one gene product (e.g. all the genes involved in the process 'translation'), and more than one term to describe all the characteristics of each gene product, as in the example above. **This is a reason why you would see more than one GO term associated to a single gene / gene product**.
+Trying to write one single term that describes in detail everything about a gene/gene product in a single statement would require the existence of as many terms as genes there are - for all species - in the planet. This would be very unpractical and not easily scalable. Instead, the use of ontologies help us organize information in a way that allows researchers to use the same term to describe a characteristic that is shared by more than one gene product (e.g. all the genes involved in the process 'translation'), and more than one term to describe all the characteristics of each gene product, as in the example above. **This is a reason why you would see more than one GO term associated to a single gene/gene product**.
 
 [What is a 'gene product'?](/faq/what-gene-product)
 ---------------------------------------------------
@@ -430,7 +429,7 @@ FAQ tags: 
 
 There are a number of possibilities for how researchers can make use the GO.
 
-The Gene Ontology website (<http://geneontology.org/>) is a very good place to begin learning about our resources, how they are produced, and how we maintain them. It also illustrates how the research community most commonly makes use of these resources and how they can contribute. Exploring the items under the **"Documentation"** menu will provide you with a very informative overview.
+The Gene Ontology website (<http://geneontology.org/>) is a very good place to begin learning about our resources, how they are produced, and how we maintain them. It also illustrates how the research community most commonly makes use of these resources and how they can contribute. Exploring the items under the **"Ontology"** and **"Annotations"** on the menu will provide you with a very informative overview.
 
 [What are all the possible uses of GO?](/faq/what-are-all-possible-uses-go)
 ---------------------------------------------------------------------------
@@ -452,7 +451,7 @@ It would be impossible to list all the potential applications of GO, but applica
 -   developing automated ways of deriving information about gene function from the literature;
 -   verifying models of genetic, metabolic and product interaction networks.
 
-For references to these and other studies that have used GO, see the [GO and the scientific literature](docs/literature/) page.
+For references to these and other studies that have used GO, see the [GO and the scientific literature](/docs/literature/) page.
 
 [Why do we need GO?](/faq/why-do-we-need-go)
 --------------------------------------------
