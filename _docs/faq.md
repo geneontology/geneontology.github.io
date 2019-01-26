@@ -334,8 +334,8 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-You can use the YeastMine Analyze tool available at SGD to retrieve the GO term names for each ID. Here is how-
-1.  Go to the Analyze tool on YeastMine - <http://yeastmine.yeastgenome.org/yeastmine/bag.do>{:target="blank"}
+You can use the YeastMine Analyze tool available at SGD to retrieve the GO term names for each ID. 
+1.  Go to the [Analyze tool on YeastMine](http://yeastmine.yeastgenome.org/yeastmine/bag.do){:target="blank"}
 2.  In the Select Type pull down, select `GO Term`
 3.  Enter your GO ids or upload a list in the full format (GO:0016020, GO:0016301...)
 4.  Click on `Create List`. The tool offers several options to download the list.
@@ -388,7 +388,7 @@ It is **possible and usually expected** for a single gene/gene product to be ass
 
 The Gene Ontology allows users to describe a gene/gene product in detail, considering three main aspects: its molecular function, the biological process in which it participates, and its cellular location.
 
-For example, the [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"} gene product from zebrafish has numerous GO terms associated with it.  Each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of [selectively interacting with DNA (DNA binding)](http://amigo.geneontology.org/amigo/term/GO:0003677), while a different GO term explains that this gene product is [found in the nucleus of the cell](http://amigo.geneontology.org/amigo/term/GO:0005634).
+For example, the [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"} gene product from zebrafish has numerous GO terms associated with it.  Each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of [selectively interacting with DNA (DNA binding)](http://amigo.geneontology.org/amigo/term/GO:0003677){:target="blank"}, while a different GO term explains that this gene product is [found in the nucleus of the cell](http://amigo.geneontology.org/amigo/term/GO:0005634){:target="blank"}.
 
 Trying to write one single term that describes in detail everything about a gene/gene product in a single statement would require the existence of as many terms as genes there are - for all species - in the planet. This would be very unpractical and not easily scalable. Instead, the use of ontologies help us organize information in a way that allows researchers to use the same term to describe a characteristic that is shared by more than one gene product (e.g. all the genes involved in the process 'translation'), and more than one term to describe all the characteristics of each gene product, as in the example above. **This is a reason why you would see more than one GO term associated to a single gene/gene product**.
 
@@ -507,9 +507,9 @@ FAQ tags: 
 [amigo](/faq-tags/amigo)
 {:/comment}
 
-AmiGO is reloaded approximately once a week. The files currently loaded into the public AmiGO instance can always be seen on the [load details page](http://amigo.geneontology.org/amigo/load_details).
+AmiGO is reloaded approximately once a week. The files currently loaded into the public AmiGO instance can always be seen on the [load details page](http://amigo.geneontology.org/amigo/load_details){:target="blank"}.
 
-AmiGO does currently load full Inferred from Electronic Annotations (IEAs) from UniProt, although this is [in development](https://github.com/geneontology/amigo/issues/48). For a more full discussion of the data loaded into AmiGO, please see [the FAQ](faq/what-are-differences-between-data-available-amigo-and-those-quickgo).
+AmiGO does currently load full Inferred from Electronic Annotations (IEAs) from UniProt, although this is in development. For a more full discussion of the data loaded into AmiGO, please see [the FAQ](faq/what-are-differences-between-data-available-amigo-and-those-quickgo).
 
 [What is annotation?](/faq/what-annotation)
 -------------------------------------------
@@ -551,7 +551,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-Full documentation for downloading and installing AmiGO is available [here](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Installation_(2.4.x)).
+Full documentation for downloading and installing AmiGO is [available on the GO wiki](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Installation_(2.4.x)){:target="blank"}.
 
 [What is the best way to link into AmiGO?](/faq/what-best-way-link-amigo)
 -------------------------------------------------------------------------
@@ -565,7 +565,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-Please refer to the [AmiGO 2 wiki manual](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Linking).
+Please refer to the [AmiGO 2 wiki manual](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Linking){:target="blank"}.
 
 [Where have the 'unknown' terms gone?](/faq/where-have-unknown-terms-gone)
 --------------------------------------------------------------------------
@@ -577,9 +577,9 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-Good principles of ontological design state that terms should represent biological entities that actually exist, e.g., functional activities that are catalyzed by enzymes, biological processes that are carried out in cells, specific locations or complexes in cells, etc. To adhere to these principles the Gene Ontology Consortium has removed the terms, "biological process unknown" (GO:0000004), "molecular function unknown" (GO:0005554) and "cellular component unknown" (GO:0008372) from the ontology. The "unknown" terms violated this principle of sound ontological design because they did not represent actual biological entities but instead represented annotation status. Annotations to "unknown" terms distinguished between genes that were curated when no information was available and genes that were not yet curated (i.e., not annotated). 
+Good principles of ontological design state that terms should represent biological entities that actually exist, e.g., functional activities that are catalyzed by enzymes, biological processes that are carried out in cells, specific locations or complexes in cells, etc. To adhere to these principles the Gene Ontology Consortium has removed the terms 'GO:0000004 biological process unknown', 'GO:0005554 molecular function unknown' and 'GO:0008372 cellular component unknown' from the ontology. The "unknown" terms violated this principle of sound ontological design because they did not represent actual biological entities but instead represented annotation status. Annotations to "unknown" terms distinguished between genes that were curated when no information was available and genes that were not yet curated (i.e., not annotated). 
 
-Annotation status is now indicated by annotating to the root nodes, i.e. "biological\_process" (GO:0008150), "molecular\_function" (GO:0003674), or "cellular\_component" (GO:0005575). These annotations continue to signify that a given gene product is expected to have a molecular function, biological process, or cellular component, but that no information was available as of the date of annotation. Adhering to principles of correct ontology design should allow GO users to take advantage of existing tools and reasoning methods developed by the ontological community.
+Annotation status is now indicated by annotating to the root nodes, i.e. ['GO:0008150 biological_process'](http://amigo.geneontology.org/amigo/term/GO:0008150){:target="blank"}, ['GO:0003674 molecular_function'](http://amigo.geneontology.org/amigo/term/GO:0003674){:target="blank"}, or ['GO:0005575 cellular_component'](http://amigo.geneontology.org/amigo/term/GO:0005575){:target="blank"}. These annotations continue to signify that a given gene product is expected to have a molecular function, biological process, or cellular component, but that no information was available as of the date of annotation. Adhering to principles of correct ontology design should allow GO users to take advantage of existing tools and reasoning methods developed by the ontological community.
 
 [What is an evidence code?](/faq/what-evidence-code)
 ----------------------------------------------------
@@ -591,7 +591,7 @@ FAQ tags: 
 [annotation](/faq-tags/annotation)
 {:/comment}
 
-Every annotation must be attributed to a source, which may be a literature reference, another database or a computational analysis. The annotation must indicate what kind of evidence is found in the cited source to support the association between the gene product and the GO term. A simple controlled vocabulary is used to record evidence; and the evidence codes are simply the three-letter codes used to signify the type of evidence cited. More information on the meaning and use of the evidence codes can be found in the [GO evidence codes documentation](/page/guide-go-evidence-codes).
+Every annotation must be attributed to a source, which may be a literature reference, another database or a computational analysis. The annotation must indicate what kind of evidence is found in the cited source to support the association between the gene product and the GO term. A simple controlled vocabulary is used to record evidence; and the evidence codes are simply the three-letter codes used to signify the type of evidence cited. More information on the meaning and use of the evidence codes can be found in the [GO evidence codes documentation](/docs/guide-go-evidence-codes/).
 
 [How are gene products associated with GO terms?](/faq/how-are-gene-products-associated-go-terms)
 -------------------------------------------------------------------------------------------------
@@ -654,7 +654,7 @@ FAQ tags: 
 [amigo](/faq-tags/amigo)
 {:/comment}
 
-Search results can be filtered using the filter menu on the left-hand side of the results page of an AmiGO search. Using the drop-down menu a variety of evidence codes or evidence code combinations can be added or removed to filter the set.
+Search results can be filtered using the filter menu on the left-hand side of the results page of an [AmiGO search](http://amigo.geneontology.org/amigo). Using the drop-down menu a variety of evidence codes or evidence code combinations can be added or removed to filter the set.
 
 [Where can I find software to allow me to browse the GO terms and annotations?](/faq/where-can-i-find-software-allow-me-browse-go-terms-and-annotations)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -670,11 +670,11 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-GO terms and annotations are browsed using various tools. The GO Consortium supports both [AmiGO](http://amigo.geneontology.org/amigo) and [QuickGO](http://www.ebi.ac.uk/QuickGO/).
+GO terms and annotations are browsed using various tools. The GO Consortium supports both [AmiGO](http://amigo.geneontology.org/amigo){:target="blank"} and [QuickGO](http://www.ebi.ac.uk/QuickGO/){:target="blank"}.
 
-[AmiGO](http://amigo.geneontology.org) was developed for searching and browsing the Gene Ontology and the gene products that member databases have annotated using GO terms. Entering a search term into the quick search menu and choosing an auto-completed choice from the drop-down will return the summary page for that gene product or term. Alternatively terms can be entered by free text and the user will be allowed to choose whether the search will return genes, terms or annotations. For more information on using AmiGO, see the [AmiGO help](http://wiki.geneontology.org/index.php/AmiGO_2_Manual) documentation.
+[AmiGO](http://amigo.geneontology.org){:target="blank"} was developed for searching and browsing the Gene Ontology and the gene products that member databases have annotated using GO terms. Entering a search term into the quick search menu and choosing an auto-completed choice from the drop-down will return the summary page for that gene product or term. Alternatively terms can be entered by free text and the user will be allowed to choose whether the search will return genes, terms or annotations. For more information on using AmiGO, see the [AmiGO help](http://wiki.geneontology.org/index.php/AmiGO_2_Manual){:target="blank"} documentation.
 
-Learn more about Retrieving GO Data Using AmiGO, QuickGO, API, Files, and Tools from [our chapter in the Gene Ontology Handbook](https://link.springer.com/protocol/10.1007%2F978-1-4939-3743-1_11).
+Learn more about Retrieving GO Data Using AmiGO, QuickGO, API, Files, and Tools from [our chapter in the Gene Ontology Handbook](https://link.springer.com/protocol/10.1007%2F978-1-4939-3743-1_11){:target="blank"}.
 
 [How can I contribute to GO?](/faq/how-can-i-contribute-go)
 -----------------------------------------------------------
@@ -749,15 +749,9 @@ FAQ tags: 
 [errors and bugs](/faq-tags/errors-and-bugs)
 {:/comment}
 
-Yes, there is a limit.
+Our Term Enrichment tool on the homepage of the Gene Ontology Website cannot handle very large gene lists. The root of the problem is that at a certain number, the input (gene list) is too large for the form; however there is not an exact number at which it fails. One way to solve the problem, should you come across this situation, is to reduce the size of the input file by reducing the number of genes.
 
-We're aware that our Term Enrichment tool on the homepage of the Gene Ontology Website cannot handle very large gene lists. The root of the problem is that at a certain number, the input (gene list) is too large for the form; however there is not an exact number at which it fails. One way to solve the problem, should you come across this situation, is to reduce the size of the input file by reducing the number of genes.
-
-Alternatively, annotators can use the PANTHER Term Enrichment tool directly, without AmiGO as an intermediary; this would still be the exact same analysis with the GO data. To perform term enrichment analysis directly from the PANTHER website, visit [http://pantherdb.org](http://pantherdb.org/). Once you upload or paste your gene list, select the 'Statistical overrepresentation test' option (in Step3) to perform the term enrichment.
-
-Although we would like to correct this as quickly as possible, we may not be able to immediately address the matter. You can keep track of our progress on this particular issue following this entry in our bug tracker on GitHub: <https://github.com/geneontology/amigo/issues/198>
-
-We will try to have a fix prepared and put into production as soon as possible.
+Alternatively, annotators can use the PANTHER Term Enrichment tool directly, without AmiGO as an intermediary; this would still be the exact same analysis with the GO data. To perform term enrichment analysis directly from the PANTHER website, visit [http://pantherdb.org](http://pantherdb.org/){:target="blank"}. Once you upload or paste your gene list, select the 'Statistical overrepresentation test' option (in Step3) to perform the term enrichment.
 
 [What is the status of the GO MySQL database?](/faq/what-status-go-mysql-database)
 ----------------------------------------------------------------------------------
@@ -811,15 +805,15 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-You can find the number of terms on each of the ontologies by going to [AmiGO](http://amigo.geneontology.org/):
+You can find the number of terms on each of the ontologies by going to [AmiGO](http://amigo.geneontology.org/){:target="blank"}:
 
 Under the 'Advanced Search' section in the middle of the page, use the drop-down menu to choose "Ontology". You don't need to type anything on the 'Quick search' box.
-This action will send you to the ['Information about Ontology search'](http://amigo.geneontology.org/amigo/search/ontology) page. There, open the 'Ontology source' filter menu on the left. You will see that as of October-27-2015 the number of terms on per ontology were:
--   28,912 Biological process
--   10,900 Molecular Function
--   4,016 Celular component
+This action will send you to the ['Information about Ontology search'](http://amigo.geneontology.org/amigo/search/ontology){:target="blank"} page. There, open the 'Ontology source' filter menu on the left. As of January 2019, the number of terms on per ontology were:
+-   29,687 Biological process
+-   11,110 Molecular Function
+-   4,206 Celular component
 
-If you need a reference for this information, you can cite the use of AmiGO according to information found at [http://geneontology.org/page/go-citation-policy\#GO\_Data](). You can find additional general information about these and other topics on the GOC's 2015 publication in Oxford's NAR at [http://nar.oxfordjournals.org/content/43/D1/D1049]()
+If you need a reference for this information, refer to our [citation policy and license](/docs/go-citation-policy/). 
 
 [How often does automatic annotation give results that are consistent with manual annotation?](/faq/how-often-does-automatic-annotation-give-results-are-consistent-manual-annotation)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -835,9 +829,9 @@ In general, electronic annotations are rarely incorrect, as they are annotations
 
 Usually manual annotation simply provides deeper-level terms in GO. In 93% of cases GOA's electronic annotation is in the same GO lineage as the manual annotation. Some users have used our manual annotation to assess the quality of their automatic GO annotation techniques. They have found a few manual annotation errors by Proteome Inc. but no errors (so far) of manual annotation by Swiss-Prot staff have been reported to GOA. A few InterPro2GO errors have been reported but not very many. So, in general, our electronic techniques are very accurate, and are sometimes based on manual annotation. For example, Swiss-Prot keywords are usually manually annotated to Swiss-Prot entries; by using a mapping of Swiss-Prot keywords to GO, GOA inherits the high quality of Swiss-Prot manual annotation.
 
-Text from [Clark, et al., 2005](http://www.ncbi.nlm.nih.gov/pubmed/16010001?dopt=Abstract)
+Text from [Clark, et al., 2005](http://www.ncbi.nlm.nih.gov/pubmed/16010001?dopt=Abstract){:target="blank"}
 
-"The quality of electronic annotation has recently been assessed in some detail (Camon et al., 2005). This research found that in the worst case scenario, the generation of electronic annotations using the interpro2go, spkw2go, and ec2go mapping files precisely predicted the correct GO term 60% to 70% of the time, with the remainder of the predictions being to insufficiently specific GO terms. The high precision was found to be due to the basing of electronic annotations on manually curated mapping files. Curators noted that it was more important for database curation to be accurate than to have complete coverage, and the figures above demonstrate that this is the tendency with electronic annotation."
+>"The quality of electronic annotation has recently been assessed in some detail (Camon et al., 2005). This research found that in the worst case scenario, the generation of electronic annotations using the interpro2go, spkw2go, and ec2go mapping files precisely predicted the correct GO term 60% to 70% of the time, with the remainder of the predictions being to insufficiently specific GO terms. The high precision was found to be due to the basing of electronic annotations on manually curated mapping files. Curators noted that it was more important for database curation to be accurate than to have complete coverage, and the figures above demonstrate that this is the tendency with electronic annotation."
 
 [I want to use the database files but...](/faq/i-want-use-database-files)
 -------------------------------------------------------------------------
@@ -894,7 +888,7 @@ FAQ tags: 
 [downloads](/faq-tags/downloads)
 {:/comment}
 
-The filtered version available on the GO Download's site (gene\_association.goa\_uniprot\_noiea ) does not contain annotations for those species where a different Consortium group is primarily responsible for providing GO annotations and also excludes annotations made using automated methods. For example, SGD is responsible for annotations for S. cerevisiae and GO annotations for S. cerevisiae are not part of the filtered version of the gene\_association.goa\_uniprot\_noiea file. Filtered version of the UniProt gene\_associations file is available on the GO website (<http://geneontology.org/page/download-annotations>). The unfiltered version of the file is available on GOA's FTP site- [ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene\_association.goa\_un...](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene_association.goa_uniprot.gz)
+The filtered version available on the GO Download's site (gene\_association.goa\_uniprot\_noiea ) does not contain annotations for those species where a different Consortium group is primarily responsible for providing GO annotations and also excludes annotations made using automated methods. For example, SGD is responsible for annotations for *S. cerevisiae* ; GO annotations for *S. cerevisiae* are not part of the filtered version of the gene\_association.goa\_uniprot\_noiea file. Filtered version of the UniProt GAF is available on the GO website (<http://geneontology.org/page/download-annotations>). The unfiltered version of the file is available on GOA's FTP site- [ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene\_association.goa\_un...](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene_association.goa_uniprot.gz)
 
 [How do I find terms, annotations, or gene products in the database?](/faq/how-do-i-find-terms-annotations-or-gene-products-database)
 -------------------------------------------------------------------------------------------------------------------------------------
@@ -908,7 +902,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-We maintain a set of [examples](http://wiki.geneontology.org/index.php/Example_Queries) that cover, or can be used as a base to cover, most common queries. This is also the set used with [GOOSE](http://amigo.geneontology.org/goose).
+We maintain a set of [examples](http://wiki.geneontology.org/index.php/Example_Queries){:target="blank"} that cover, or can be used as a base to cover, most common queries. This is also the set used with [GOOSE](http://amigo.geneontology.org/goose){:target="blank"}.
 
 [Who makes up the GO Consortium?](/faq/who-makes-go-consortium)
 ---------------------------------------------------------------
@@ -936,10 +930,10 @@ FAQ tags: 
 
 Most annotations in association files are electronically inferred (IEA). As with all types of annotations, IEAs change over time, with an overall increasing trend. However, in the specific case of IEAs, significant fluctuations in numbers may sometimes be observed over a short period of time. Nearly always, these are not due to bugs, but rather to the following reasons and/or to a combination thereof:
 -   All IEA annotations that are over one year old are removed from association files. This is part of quality control procedures. Another procedure the GO started implementing in mid-2014 are taxonomic checks. A technical summary of annotation QC checks may be found here: <http://geneontology.org/page/annotation-quality-control>
--   Electronic annotations are provided to UniProt-GOA by various groups, including Ensembl, InterPro and UniProt. UniProt-GOA then includes these in their annotation files that they submit to the GO Consortium. There are numerous reasons why electronic annotations can fluctuate; e.g., InterPro may have changed a mapping that affected a large number of annotations; a mapping between a GO term and a UniProt keyword may have been added or removed; Ensembl may have changed their orthology sets; new quality checking procedures may have been introduced; a supplying group may have had a problem providing the annotations. Since electronic annotations tend to hit a large number of proteins, it is more likely to observe larger fluctuations than one would in a manual annotation set. UniProt-GOA aims to record all the known changes to the datasets they provide in the release notes here: <http://www.ebi.ac.uk/GOA/news>
+-   Electronic annotations are provided to UniProt-GOA by various groups, including Ensembl, InterPro and UniProt. UniProt-GOA then includes these in their annotation files that they submit to the GO Consortium. There are numerous reasons why electronic annotations can fluctuate; e.g., InterPro may have changed a mapping that affected a large number of annotations; a mapping between a GO term and a UniProt keyword may have been added or removed; Ensembl may have changed their orthology sets; new quality checking procedures may have been introduced; a supplying group may have had a problem providing the annotations. Since electronic annotations tend to hit a large number of proteins, it is more likely to observe larger fluctuations than one would in a manual annotation set. UniProt-GOA aims to record all the known changes to the datasets they provide in the release notes here: <http://www.ebi.ac.uk/GOA/news>{:target="blank"}
 -   New genome assemblies for various species are periodically released, and that may contribute to changes in gene annotations.
 -   Changes are good. Our knowledge foundation is growing and increasing and information is continuing to be added based on existing, older literature.
--   Relevant paper: [Understanding how and why the Gene Ontology and its annotations evolve: the GO within UniProt.](http://www.ncbi.nlm.nih.gov/pubmed/24641996)
+-   Relevant paper: [Understanding how and why the Gene Ontology and its annotations evolve: the GO within UniProt.](http://www.ncbi.nlm.nih.gov/pubmed/24641996){:target="blank"}
 
 However, if you think that an observed change in the size of an annotation file cannot be explained by any of the above, and suspect a bug, please contact us using our [Contact Form](http://geneontology.org/form/contact-go).
 
