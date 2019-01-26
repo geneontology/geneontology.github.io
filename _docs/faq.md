@@ -33,7 +33,7 @@ redirect_from:
 - /faq/what-gene-product
 ---
 
-[Does the GO ID have any meaning?](/faq/does-go-id-have-any-meaning)
+## Does the GO ID have any meaning?
 --------------------------------------------------------------------
 {::comment}
 
@@ -54,6 +54,7 @@ FAQ tags: 
 
 [analysis](/faq-tags/analysis)
 {:/comment}
+[link to meaning of go](#does-the-go-id-have-any-meaning)
 
 One of the main uses of the GO is to perform enrichment analysis on gene sets. For example, given a set of genes that are up-regulated under certain conditions, an enrichment analysis will find which GO terms are over-represented (or under-represented) using annotations for that gene set.
 
