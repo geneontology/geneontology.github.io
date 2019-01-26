@@ -32,6 +32,8 @@ redirect_from:
 - /faq/what-are-all-possible-uses-go
 - /faq/what-gene-product
 ---
+# GO FAQs
+These are our most frequently asked questions.  If you don't find your answer below, please [contact us](http://help.geneontology.org/).
 
 ## Does the GO ID have any meaning?
 --------------------------------------------------------------------
