@@ -1013,7 +1013,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-The GPAD - Gene Product Association File Format - is an alternative means of exchanging annotations from the [Gene Association File (GAF)](http://geneontology.org/page/go-annotation-file-gaf-format-20). The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information. The GPAD specification is defined in detail [here](http://geneontology.org/page/gene-product-association-data-gpad-format)
+The GPAD - Gene Product Association File Format - is an alternative means of exchanging annotations from the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-21/). The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information. For details, see the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
 
 ## What is GO "content"? 
 ---------------------------------------------
@@ -1057,9 +1057,9 @@ FAQ tags: 
 
 We welcome contributions to the Gene Ontology project, both in terms of annotations and for feedback and additions to the ontology.
 
-Before making contributions, we recommend that y contact the Gene Ontology Consortium (GOC) *before* annotation work is carried out; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
+Before making contributions, we recommend that you [contact the Gene Ontology Consortium (GOC)](http://help.geneontology.org/) *before* annotation work is carried out; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
-To learn more details, visit the page on [http://geneontology.org/docs/contributing-to-go/](/docs/contributing-to-go/).
+To learn more details, visit the page on [contributing to GO](/docs/contributing-to-go/).
 
 ## Why won't the RDF-XML file parse using RDF parsers? 
 ---------------------------------------------------------------------------------------------------------
@@ -1087,9 +1087,9 @@ FAQ tags: 
 
 This is done when there is explicit evidence to support separate annotations; usually it means that there is strong evidence for a more general annotation (parent term) and weaker evidence supporting a more specific annotation (child term).
 
-From the [GO annotation guide]():
+From the [GO annotation guide](http://wiki.geneontology.org/index.php/Annotation_conventions#General_recommendations){:target="blank"}:
 
-Uncertain knowledge of where a gene product operates should be denoted by annotating it to two nodes, one of which can be a parent of the other. For instance, a yeast gene product known to be in the nucleolus, but also experimentally observed in the nucleus generally, can be annotated to both nucleolus and nucleus in the cell component ontology. Even though annotation to nucleolus alone implies that a gene product is also in the nucleus, annotate to both so as to explicitly indicate that it has been reported in the two locations. The two annotations may have the same or different supporting evidence.
+> Uncertain knowledge of where a gene product operates should be denoted by annotating it to two nodes, one of which can be a parent of the other. For instance, a yeast gene product known to be in the nucleolus, but also experimentally observed in the nucleus generally, can be annotated to both nucleolus and nucleus in the cell component ontology. Even though annotation to nucleolus alone implies that a gene product is also in the nucleus, annotate to both so as to explicitly indicate that it has been reported in the two locations. The two annotations may have the same or different supporting evidence.
 
 ## How can I generate files in the old GO flat file format? 
 -----------------------------------------------------------------------------------------------------------------
@@ -1105,7 +1105,7 @@ FAQ tags: 
 
 As of August 1, 2009, the original GO flat file format was deprecated and is no longer be provided by the GO Consortium.
 
-The OBO-Edit project, which used to generate the flat file format, has been [*mothballed*](http://oboedit.org/).
+The OBO-Edit project, which used to generate the flat file format, has been [*mothballed*](http://oboedit.org/){:target="blank"}.
 
 ## Where can I find software to allow me to edit the GO terms? 
 --------------------------------------------------------------------------------------------------------------------
@@ -1119,8 +1119,8 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
--   [Protege](http://protege.stanford.edu/): Protege is a free, open-source ontology editor and framework for building intelligent systems. At this time, all ontology editors for GO use this program.
--   [OBO-Edit - **now deprecated**](http://oboedit.org/): OBO-Edit was developed by the software group at the Berkeley Drosophila Genome Project (BDGP), specifically for ontology editing; it ensured that file syntax remained correct. Until recently, it was also used for editing GO, but its use has been deprecated.
+-   [Protege](http://protege.stanford.edu/){:target="blank"}: Protege is a free, open-source ontology editor and framework for building intelligent systems. At this time, all ontology editors for GO use this program.
+-   [OBO-Edit - **now deprecated**](http://oboedit.org/){:target="blank"}: OBO-Edit was developed by the software group at the Berkeley Drosophila Genome Project (BDGP), specifically for ontology editing; it ensured that file syntax remained correct. In the past, it was also used for editing GO, but its use has been deprecated.
 
 ## What is an ontology? 
 ------------------------------------------
@@ -1164,9 +1164,7 @@ GO Central recommends that GAF annotations are made to genes, that is 1:1 equiva
 
 This is a very important difference, one that users can see when comparing UIs, but more importantly, it is about the underlying datasets and whether a gene-centric or protein-centric worldview is chosen.
 
-Additionally, GO Central omits the majority of the sequences and IEA \[electronic\] annotations from UniProtKB from the weekly database builds due to the large size of the data set. For those species with a dedicated authoritative database group, such as Drosophila, mouse or Saccharomyces, UniProtKB annotations are collected and submitted by the dedicated group, and hence the UniProtKB IEA annotations for these species do appear in the GO database. As an NHGRI funded resource, GO Central focuses on annotations that elucidate human genes or genes of relevance to human health in some way. GO Central also includes plants, as well as the 200 genomes of the "Quest for Orthologs" project. More datasets will be supported depending on available resources.
-
-You can learn more about this subject at <http://geneontology.org/page/lead-database-guide#why> and at <http://geneontology.org/page/download-annotations>
+Additionally, GO Central omits the majority of the sequences and IEA \[electronic\] annotations from UniProtKB from the weekly database builds due to the large size of the data set. For those species with a dedicated authoritative database group, such as *Drosophila*, mouse or *Saccharomyces*, UniProtKB annotations are collected and submitted by the dedicated group, and hence the UniProtKB IEA annotations for these species do appear in the GO database. As an NHGRI funded resource, GO Central focuses on annotations that elucidate human genes or genes of relevance to human health in some way. GO Central also includes plants, as well as the 200 genomes of the "Quest for Orthologs" project. More datasets will be supported depending on available resources.
 
 ## What is a GPI file? 
 -----------------------------------------
@@ -1180,7 +1178,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-A GPI - Gene Product Information file is used to submit gene and gene product information to the GO Consortium. The specification is [here](http://geneontology.org/page/gene-product-information-gpi-format). Please note that annotation information relationships between GO terms and annotations made to them uses [GPAD](http://geneontology.org/page/gene-product-information-gpi-format) format files
+A GPI - Gene Product Information file is used to submit gene and gene product information to the GO Consortium. The specification is [here](http://geneontology.org/page/gene-product-information-gpi-format). Please note that annotation information relationships between GO terms and annotations made to them uses GPAD; see details on the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
 
 ## How can I suggest new GO terms? 
 ----------------------------------------------------------------------
@@ -1192,7 +1190,7 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-The GO vocabularies are updated on a regular basis, and suggestions from the community for additional terms or for other improvements are very welcome. Please visit the page ["Contributing to the Ontology"](http://geneontology.org/contributing-go-term) for details on how to submit your contributions.
+The GO vocabularies are updated on a regular basis, and suggestions from the community for additional terms or for other improvements are very welcome. Please visit the page on [contributing to GO](/docs/contributing-to-go/) for details on how to submit your contributions.
 
 ## What are mappings? 
 --------------------------------------------
@@ -1230,7 +1228,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-A general introduction to the project's file formats is [available](http://geneontology.org/page/file-format-guide). This page provides information about the file formats relevant to the ontology and the files used to express ontology-gene product annotations.
+Refer to the [ontology downloads page](/docs/download-ontology/) for information on ontology files.  For general introduction to the project's annotation file formats, see the guides on [GAF 2.1](/docs/go-annotation-file-gaf-format-21/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/). 
 
 ## Where can I find software to allow me to make or edit GO annotations? 
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -1243,8 +1241,9 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 {:/comment}
+GO's [Noctua tool](/docs/tools-overview#curate) is a curation platform that can be used to make GO annotations as well as GO Causal Activity Models (GO-CAMs).
 
-GO annotations can be made and edited using various database-specific tools. Please contact the relevant database to find out how their GO annotation is done. The GMOD online tool, [Canto](http://gmod.org/wiki/Canto), supports functional gene annotation by community researchers as well as by professional curators.
+GO annotations can also be made and edited using various database-specific tools. Please contact the relevant database to find out how their GO annotation is done. The GMOD online tool, [Canto](http://gmod.org/wiki/Canto), supports functional gene annotation by community researchers as well as by professional curators.
 
 ## How do I access older versions of gene association files? 
 -----------------------------------------------------------------------------------------------------------------------
@@ -1281,7 +1280,7 @@ FAQ tags: 
 [third-party tools](/faq-tags/third-party-tools)
 {:/comment}
 
-Open the QuickGO web-page <http://www.ebi.ac.uk/QuickGO/>
+Open the [QuickGO web-page](http://www.ebi.ac.uk/QuickGO/){:target="blank"}
 Click on the Search and Filter GO annotation sets link located beneath the search box
 This will lead you to an Annotation download page where you can click the filter icon (Located to the right hand side of the page)
 The filter annotations page you will see has a list of filter options located at the top of the page. Click on taxon to input the taxon identifier of the species you would like to get GO annotations for (Example: Taxon identifier 6279 for Brugia malayi)
@@ -1313,5 +1312,5 @@ These criteria ensure that:
 
 IMEx will only call an interaction 'direct' when performed with 2 purified molecules in vitro so any method using whole cells or cell lysates would not be regarded as direct. The described methodology will give you binary i.e. either direct or involved in the same small complex.
 
-For more details, please see the [corresponding entry](http://www.ebi.ac.uk/intact/about/faq?conversationContext=5#8) on the the IntAct FAQ page.
+For more details, please see the [corresponding entry](http://www.ebi.ac.uk/intact/about/faq?conversationContext=5#8){:target="blank"} on the the IntAct FAQ page.
 
