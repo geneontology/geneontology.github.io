@@ -1,6 +1,6 @@
 ---
 title: Deprecated products and formats
-permalink: /docs/deprecated-products-and-formats/
+permalink: /docs/deprecated-formats/
 redirect_from: 
 - /page/go-mysql-database-guide
 - /page/go-mysql-database-schema
