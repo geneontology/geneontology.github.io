@@ -14,7 +14,7 @@ redirect_from: /page/go-subset-guide
 
 - GO subsets are particularly useful for providing an overview of the range of functions and processes found in a given clade or organism's genome. Given a coarse grained view of the ontology content without the detail of the specific fine-grained terms, these slims can offer an overall sense of the key biological functions that are vital to an organism. For example, the limited number of opsin genes in bedbugs, or the abundance of kinins in ticks.
 - GO subsets are also useful for addressing specific research needs in particular areas of biology. For instance, if a researcher is only interested in a particular branch of biology, perhaps aging or fruit ripening, they have no need for terms from other branches and can focus solely on those terms under one branch of the ontology.
-- GO subsets can also be useful for simplifying searches or annotation processes. By reducing the number of choices a user is presented with the overall process can be  expedited.
+- GO subsets can also be useful for simplifying searches or annotation operations. By reducing the number of choices a user is presented with their overall efficiency can be improved.
 
 ##### Who can create a subset?
 - GO provides a generic subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. In addition, many model organism-specific subsets have been created by [GO consortium members](/docs/go-consortium/) and are available for download as listed below.
