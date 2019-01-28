@@ -11,9 +11,9 @@ redirect_from:
 - /page/go-tools-registry
 ---
 
-# Deprecated products and formats
+# Deprecated formats
 
-GO is no longer using or supporting the following products and formats.
+GO is no longer using or supporting the formats.
 
 ## Deprecated ontology formats
 
