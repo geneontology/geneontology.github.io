@@ -21,7 +21,7 @@ GO is also at the hub of a major effort to represent the vast amount of biomedic
 
 Together, the ontology and annotations provide a comprehensive model of biological systems. Currently, the GO includes experimental findings from over [140,000 published papers](https://www.ncbi.nlm.nih.gov/pubmed/?term=loprovGeneOntol[SB]){:target="blank"}, represented as over 600,000 experimentally-supported annotations. These provide the core dataset for additional inference of over 6 million functional annotations for a diverse set of organisms spanning the tree of life.
 
-In addition to this core knowledgebase, GO resources also include software to edit and perform logical reasoning over the ontologies, web access to the ontology and annotations, and analytical tools that use the GO to support biomedical research.
+In addition to this core knowledgebase, GO resources also include software to edit and perform logical reasoning over the ontologies, web access to the ontology and annotations, and analytical tools that use GO to support biomedical research.
 
 ### Uses of the GO and annotations
 The GO resource plays an essential role in supporting biomedical research and has been used in tens of thousands of scientific studies. The most common use of GO annotations is for interpretation of large-scale molecular biology experiments, sometimes called "omics" experiments. Whether, genomics, transcriptomics, proteomics, or metabolomics, these experiments pool biological molecules to gain insight into the structure, function, and dynamics of an organism. ["Gene Ontology enrichment analysis"](/docs/go-enrichment-analysis) are used to discover statistically significant similarities or differences under alternate controlled experimental conditions.
