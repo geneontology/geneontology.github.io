@@ -34,8 +34,6 @@ The legacy MySQL database dumps, from start to final generation, are available a
 
 + There is an [archive of GO subsets](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/){:target="blank"} that were used in the past, but that are no longer maintained or updated. These files have been deposited for two reasons; the first is to give easy access to the GO slim used in a particular publication or analysis; the second is for reuse by others in the community. Because these GO slims are no longer maintained by the authors they may contain GO terms which are now obsolete. All archival GO slims are in the deprecated GO flat file format.
 
-### Archived GO slims for download
-
 |Topic / Usage |	Information |	Download|
 |--------------|--------------|---------|
 |Generic GO slim |	Suparna Mundodi and Amelia Ireland Aug 2002 |	[old GO format](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/generic.0208){:target="blank"}|
