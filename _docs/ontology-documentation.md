@@ -23,8 +23,8 @@ In an example of GO annotation, the gene product "cytochrome c" can be described
 
 The GO vocabulary is designed to be species-agnostic, and includes terms applicable to prokaryotes and eukaryotes, as well as single and multicellular organisms.
 
-## GO terms (also known as classes)
-GO terms are composed of a term label, a unique identifier, a definition, and several other elements. [Elements of GO terms are described here](/docs/ontology/).
+## GO classes (also known as terms)
+GO classes are composed of a definition, a label, a unique identifier, and several other elements. [Elements of GO terms are described here](/docs/ontology/).
 
 ## The GO graph
 The structure of GO can be described in terms of a graph, where each GO term is a node, and the relationships between the terms are edges between the nodes. GO is loosely hierarchical, with 'child' terms being more specialized than their 'parent' terms, but unlike a strict hierarchy, a term may have more than one parent term (note that the parent/child model does not hold true for all types of relations, see the [relations documentation](/docs/ontology-relations/)). For example, the biological process term [hexose biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0019319) has two parents, [hexose metabolic process](http://amigo.geneontology.org/amigo/term/GO:0019318) and [monosaccharide biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0046364). This reflect the fact that *biosynthetic process* is a subtype of *metabolic process* and a *hexose* is a subtype of *monosaccharide*.
