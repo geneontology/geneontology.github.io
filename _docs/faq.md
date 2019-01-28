@@ -949,7 +949,7 @@ FAQ tags: 
 [consortium](/faq-tags/consortium)
 {:/comment}
 
-Direct support for the Gene Ontology Consortium is provided by an R01 grant from the National Human Genome Research Institute (NHGRI) \[grant HG02273\]. Funding for the GO member organizations is detailed [here](http://geneontology.org/page/go-consortium-contributors-list).
+Direct support for the Gene Ontology Consortium is provided by an R01 grant from the National Human Genome Research Institute (NHGRI) \[grant HG02273\]. Funding for the GO member organizations is detailed [on our annotation contributors page](/docs/annotation-contributors/).
 
 ## Why are the ontologies initially produced in OBO flat file format instead of XML? 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -963,7 +963,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-The ontologies are initially produced in the specially designed [OBO flat file format](http://www.geneontology.org/GO.format.obo-1_2.shtml). They are converted to XML once a month for the convenience of users who require this facility. Both formats and many others are available in the [GO downloads section](http://geneontology.org/page/downloads). We use the OBO flat file format because it is human-readable, and also because the file is much smaller without the XML tags. This means that it is much quicker and easier for the curators to handle the file on a day-to-basis.
+The ontologies are initially produced in the specially designed [OBO flat file format](/docs/go-file-format-guide/). They are converted to XML once a month for the convenience of users who require this facility. Both formats and many others are available in the [GO downloads section](/docs/downloads/). We use the OBO flat file format because it is human-readable, and also because the file is much smaller without the XML tags. This means that it is much quicker and easier for the curators to handle the file on a day-to-basis.
 
 ## Can a term in one ontology have parents in one of the other two ontologies? 
 -----------------------------------------------------------------------------------------------------------------------------------------------
@@ -987,7 +987,7 @@ FAQ tags: 
 [general](/faq-tags/general)
 {:/comment}
 
-The current ontologies of the GO project are molecular function, biological process, and cellular component. The ontologies are developed to include all terms falling into these domains without consideration of whether the biological attribute is restricted to certain taxonomic groups. Therefore, biological processes that occur only in plants (e.g. photosynthesis) or mammals (e.g. lactation) are included. Other biological ontologies are discussed in the [OBO web site](http://www.obofoundry.org/).
+The current ontologies of the GO project are molecular function, biological process, and cellular component. The ontologies are developed to include all terms falling into these domains without consideration of whether the biological attribute is restricted to certain taxonomic groups. Therefore, biological processes that occur only in plants (e.g. photosynthesis) or mammals (e.g. lactation) are included. Other biological ontologies are discussed in the [OBO web site](http://www.obofoundry.org/){:target="blank"}.
 
 ## What is "GO slimming" ? 
 ------------------------------------------------
@@ -999,7 +999,7 @@ FAQ tags: 
 [other](/faq-tags/other)
 {:/comment}
 
-Mapping granular annotations of a set of genes to one or more high-level, broader parent terms is referred to as "GO slimming". GO slimming is commonly used to report an overview of a genome or to a set of summarize experimental results. GO hosts a number of predefined Slim sets, a generic GO slim, and a number of slims tailored to give good coverage for some well studied/annotated model species. GO slimming will only be successful if the organism of interest has a body of GO annotation in the GO database (either electronic or manual). If your organism of interest has no publicly available GO data refer to the FAQ to annotate a gene set &lt;&gt;
+Mapping granular annotations of a set of genes to one or more high-level, broader parent terms is referred to as "GO slimming". GO slimming is commonly used to report an overview of a genome or to a set of summarize experimental results. GO hosts a number of predefined slim sets, a generic GO slim, and a number of slims tailored to give good coverage for some well studied/annotated model species. GO slimming will only be successful if the organism of interest has a body of GO annotation in the GO database (either electronic or manual). If your organism of interest has no publicly available GO data refer to the [FAQ on annotating a gene set](#how-do-i-annotate-a-novel-genome-with-go-annotations).
 
 ## What is a GPAD file? 
 -------------------------------------------
