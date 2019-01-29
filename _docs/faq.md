@@ -644,7 +644,7 @@ FAQ tags: 
 {:/comment}
 
 Yes, a gene product can be annotated to zero or more nodes of each ontology, at any level within each ontology.
-See [the GO annotation guide](http://geneontology.org/page/go-annotation-policies) for more information.
+See [the introduction to GO annotations](/docs/go-annotations/) for more information.
 
 ## How do I find manually annotated gene products only, i.e. how do I sort by evidence code? 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
