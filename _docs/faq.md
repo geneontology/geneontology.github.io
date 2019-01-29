@@ -1105,7 +1105,7 @@ FAQ tags: 
 
 As of August 1, 2009, the original GO flat file format was deprecated and is no longer be provided by the GO Consortium.
 
-The OBO-Edit project, which used to generate the flat file format, has been [*mothballed*](http://oboedit.org/){:target="blank"}.
+The OBO-Edit project, which used to generate the flat file format, [has been *mothballed*](http://oboedit.org/){:target="blank"}.
 
 ## Where can I find software to allow me to edit the GO terms? 
 --------------------------------------------------------------------------------------------------------------------
@@ -1120,7 +1120,6 @@ FAQ tags: 
 {:/comment}
 
 -   [Protege](http://protege.stanford.edu/){:target="blank"}: Protege is a free, open-source ontology editor and framework for building intelligent systems. At this time, all ontology editors for GO use this program.
--   [OBO-Edit - **now deprecated**](http://oboedit.org/){:target="blank"}: OBO-Edit was developed by the software group at the Berkeley Drosophila Genome Project (BDGP), specifically for ontology editing; it ensured that file syntax remained correct. In the past, it was also used for editing GO, but its use has been deprecated.
 
 ## What is an ontology? 
 ------------------------------------------
@@ -1158,13 +1157,13 @@ FAQ tags: 
 [annotation](/faq-tags/annotation)
 {:/comment}
 
-These are some of the differences between EBI-GOA (QuickGO) and GO Central (AmiGO) when it comes to entities.
+These are some of the differences between EBI-GOA ([QuickGO](https://www.ebi.ac.uk/QuickGO/)) and GO Central ([AmiGO](http://amigo.geneontology.org/amigo)) when it comes to entities.
 
 GO Central recommends that GAF annotations are made to genes, that is 1:1 equivalents. In GOA (and consequently in QuickGO) annotations are made to proteins, and there may be multiple proteins per gene, sometimes representing different isoforms. You will see this reflected in different numbers for mouse annotations for example.
 
 This is a very important difference, one that users can see when comparing UIs, but more importantly, it is about the underlying datasets and whether a gene-centric or protein-centric worldview is chosen.
 
-Additionally, GO Central omits the majority of the sequences and IEA \[electronic\] annotations from UniProtKB from the weekly database builds due to the large size of the data set. For those species with a dedicated authoritative database group, such as *Drosophila*, mouse or *Saccharomyces*, UniProtKB annotations are collected and submitted by the dedicated group, and hence the UniProtKB IEA annotations for these species do appear in the GO database. As an NHGRI funded resource, GO Central focuses on annotations that elucidate human genes or genes of relevance to human health in some way. GO Central also includes plants, as well as the 200 genomes of the "Quest for Orthologs" project. More datasets will be supported depending on available resources.
+Additionally, GO Central omits the majority of the sequences and IEA \[electronic\] annotations from UniProtKB from the weekly database builds due to the large size of the data set. For those species with a dedicated authoritative database group, such as *Drosophila*, mouse or *Saccharomyces*, UniProtKB annotations are collected and submitted by the dedicated group, and hence the UniProtKB IEA annotations for these species do appear in the GO database. As an NHGRI funded resource, GO Central focuses on annotations that elucidate human genes or genes of relevance to human health in some way. GO Central also includes plants, as well as the 200 genomes of the [Quest for Orthologs](https://questfororthologs.org/) project. More datasets will be supported depending on available resources.
 
 ## What is a GPI file? 
 -----------------------------------------
@@ -1178,7 +1177,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-A GPI - Gene Product Information file is used to submit gene and gene product information to the GO Consortium. The specification is [here](http://geneontology.org/page/gene-product-information-gpi-format). Please note that annotation information relationships between GO terms and annotations made to them uses GPAD; see details on the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
+A GPI - Gene Product Information file is used to submit gene and gene product information to the GO Consortium. The [GPI specification is here](http://geneontology.org/page/gene-product-information-gpi-format). Please note that annotation information relationships between GO terms and annotations made to them uses GPAD; see details on the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
 
 ## How can I suggest new GO terms? 
 ----------------------------------------------------------------------
@@ -1202,7 +1201,7 @@ FAQ tags: 
 [mappings](/faq-tags/mappings)
 {:/comment}
 
-The files contain concepts from systems external to GO e.g. Enzyme Commission numbers, SWISS-PROT keywords and TIGR roles, indexed to equivalent GO terms. The mappings are typically made manually; details can be found in the file header. See the [Mappings to GO](/page/download-mappings) for files available.
+The files contain concepts from systems external to GO e.g. Enzyme Commission numbers, SWISS-PROT keywords and TIGR roles, indexed to equivalent GO terms. The mappings are typically made manually; details can be found in the file header. See [Mappings to GO](/page/download-mappings) for available files.
 
 ## Why are Interpro2go mappings not updated with GOA releases? 
 -------------------------------------------------------------------------------------------------------------------------
@@ -1241,9 +1240,9 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 {:/comment}
-GO's [Noctua tool](/docs/tools-overview#curate) is a curation platform that can be used to make GO annotations as well as GO Causal Activity Models (GO-CAMs).
+GO's [Noctua tool](http://noctua.geneontology.org/) is a curation platform that can be used to make GO annotations as well as GO Causal Activity Models (GO-CAMs). See an overview [on the Tools page](/docs/tools-overview#curate).
 
-GO annotations can also be made and edited using various database-specific tools. Please contact the relevant database to find out how their GO annotation is done. The GMOD online tool, [Canto](http://gmod.org/wiki/Canto), supports functional gene annotation by community researchers as well as by professional curators.
+GO annotations can also be made and edited using various database-specific tools. Please contact the relevant database to find out how their GO annotation is done. The GMOD online tool, [Canto](https://curation.pombase.org/), supports functional gene annotation by community researchers as well as by professional curators.
 
 ## How do I access older versions of gene association files? 
 -----------------------------------------------------------------------------------------------------------------------
@@ -1280,10 +1279,12 @@ FAQ tags: 
 [third-party tools](/faq-tags/third-party-tools)
 {:/comment}
 
-Open the [QuickGO web-page](http://www.ebi.ac.uk/QuickGO/){:target="blank"}
-Click on the Search and Filter GO annotation sets link located beneath the search box
-This will lead you to an Annotation download page where you can click the filter icon (Located to the right hand side of the page)
-The filter annotations page you will see has a list of filter options located at the top of the page. Click on taxon to input the taxon identifier of the species you would like to get GO annotations for (Example: Taxon identifier 6279 for Brugia malayi)
+[Open QuickGO](http://www.ebi.ac.uk/QuickGO/){:target="blank"}
+
+Click on the Search and Filter GO annotation sets link located beneath the search box. This will lead you to an Annotation download page where you can click the filter icon (Located to the right hand side of the page).
+
+The filter annotations page you will see has a list of filter options located at the top of the page. Click on taxon to input the taxon identifier of the species you would like to get GO annotations for (Example: Taxon identifier 6279 for Brugia malayi).
+
 Click submit to get your results. If you click on the Statistics icon and then through the different tabs on the page that pop up, you can see the breakdown of the different annotations.
 -   Number of annotations 37380 (example)
 -   Number of distinct proteins 8357 (example)
