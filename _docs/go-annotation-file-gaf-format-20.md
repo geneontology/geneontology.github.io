@@ -7,7 +7,7 @@ redirect_from: /page/go-annotation-file-format-20
 
 # GO Annotation file format: Gene Association File 2.0
 
-Annotation data is submitted to the GO Consortium in the form of *__G__*ene *__A__*ssociation *__F__*ormat (GAF). This guide lays out the format specifications for GAF 2.0; for the older GAF 1.0 file syntax, please see the GAF 1.0 file format guide.
+Annotation data is submitted to the GO Consortium in the form of *G*ene *A*ssociation *F*ormat (GAF). This guide lays out the format specifications for GAF 2.0; for the older GAF 1.0 file syntax, please see the GAF 1.0 file format guide.
 
 Please see the information on the changes in GAF 2.0.
 
