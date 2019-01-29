@@ -36,7 +36,7 @@ Column 	| Content 	| Required? |	Cardinality |	Example
 3 |	DB Object Symbol |	required |	1 |	PHO3
 4 |	Qualifier |	optional |	0 or greater |	NOT
 5 |	GO ID |	required |	1 |	GO:0003993
-6 |	DB:Reference (|DB:Reference) |	required |	1 or greater |	SGD_REF:S000047763|PMID:2676709
+6 |	DB:Reference (\|DB:Reference) |	required |	1 or greater |	SGD_REF:S000047763|PMID:2676709
 7 |	Evidence Code 	| required |	1 |	IMP
 8 |	With (or) From |	optional | 	0 or greater |	GO:0000346
 9 |	Aspect 	| required |	1 |	F
