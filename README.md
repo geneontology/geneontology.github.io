@@ -20,6 +20,7 @@ bundle install
 ```
 bundle exec jekyll serve
 ```
+This will run a local instance of the jekyll server
 
 ## Building the site
 ```
@@ -27,6 +28,9 @@ bundle exec jekyll build
 ```
 The static files of the site will be stored in `_site`
 
-## Current Theme
+## Indexing the pages
+```
+ALGOLIA_API_KEY=admin_key bundle exec jekyll algolia
+```
+This will index all markdown pages using [algolia](https://www.algolia.com). The pages to be indexed (or not indexed) as well as the tag elements can be configured in `_config.yml`
 
-See [Jekyll Doc Theme](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
