@@ -43,7 +43,7 @@ Column 	| Content 	| Required? |	Cardinality |	Example
 10| 	DB Object Name |	optional |	0 or 1 |	Toll-like receptor 4
 11| 	DB Object Synonym (\|Synonym) |	optional |	0 or greater |	hToll|Tollbooth
 12| 	DB Object Type |	required |	1 |	protein
-13| 	Taxon(|taxon) |	required |	1 or 2 |	taxon:9606
+13| 	Taxon(\|taxon) |	required |	1 or 2 |	taxon:9606
 14| 	Date |	required |	1 |	20090118
 15| 	Assigned By |	required | 	1 |	SGD
 16| 	Annotation Extension |	optional | 	0 or greater |	part_of(CL:0000576)
