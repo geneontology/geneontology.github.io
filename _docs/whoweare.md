@@ -31,7 +31,7 @@ Leaders of key contributing resources.
 - __EcoliWiki__
   - James C. Hu, Texas A&M
 - __EBI Ontologies team__
-  -[Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}
+  - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}
 - __FlyBase__
   - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, Cambridge University
 - __Functional Gene Annotation Initiative__
@@ -47,7 +47,8 @@ Leaders of key contributing resources.
 - __TAIR__
   - Eva Huala, Phoenix Bioinformatics
 - __UniProt__
-  - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}
+  - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
+  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, Swiss Institute of Bioinformatics
 - __ZFIN__
   - Monte	Westerfield, University of Oregon
   
