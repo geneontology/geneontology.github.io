@@ -1,5 +1,5 @@
 ---
-title: GO Annotation file format: GAF 2.0
+title: "GO Annotation file format: GAF 2.0"
 permalink: /docs/go-annotation-file-gaf-format-20/
 redirect_from: /page/go-annotation-file-format-20
 ---
