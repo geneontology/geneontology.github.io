@@ -29,9 +29,9 @@ Leaders of key contributing resources.
 - __Dictybase__
   - Rex	Chisholm, Northwestern University
 - __EcoliWiki__
-  - James C. Hu, Texas A&M
+  - James C. Hu, Texas A&M University
 - __EBI Ontologies team__
-  - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}
+  - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
 - __FlyBase__
   - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, Cambridge University
 - __Functional Gene Annotation Initiative__
