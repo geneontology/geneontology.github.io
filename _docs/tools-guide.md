@@ -22,7 +22,7 @@ http://golr-aux.geneontology.io/solr/select?fq=document_category:%22ontology_cla
 #### BioLink: a gateway to access GO and other linked data
 The purpose of the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated.
 
-### GO-CAMs
+### GO-CAMs (Experimental)
 GO also provides an [API](https://api.geneontology.cloud/models){:target="blank"} to query data about GO-CAMs as well as a [swagger documentation](https://app.swaggerhub.com/apis-docs/geneontology/gosparql){:target="blank"} to familiarize with the routes and parameters. The API is used to power the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site.
 
 The following is a query example to retrieve all [GO terms contained in the GO-CAM 59a6110e00000067](https://api.geneontology.cloud/models/go?gocams=59a6110e00000067){:target="blank"}:
