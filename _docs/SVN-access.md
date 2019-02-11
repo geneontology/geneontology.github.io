@@ -67,4 +67,4 @@ Commit changed files in the ontology directory without changing directory:
 
      `  user% svn commit /Users/me/work/go-files/ontology `
 
-More detailed instructions on using Subversion can be found in the free book [Version Control with Subversion](http://svnbook.red-bean.com/). 
+More detailed instructions on using Subversion can be found in the free book [Version Control with Subversion](http://svnbook.red-bean.com/){:target="blank"}. 
