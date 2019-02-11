@@ -33,7 +33,7 @@ Check out the trunk directory into your current working directory (creates a go 
 
 `  user% svn --non-interactive --trust-server-cert --ignore-externals co svn+ssh://go_user@ext.geneontology.org/share/go/svn/trunk go `
 
-Check out the directory trunk to a directory called go-files on your computer (go-files will be created if it does not already exist; does not create a directory called trunk):
+Check out the directory trunk to a directory called go-files on your computer (go-files will be created if it does not already exist; **does not** create a directory called trunk):
 
 `  user% svn --ignore-externals co svn+ssh://go_user@ext.geneontology.org/share/go/svn/trunk /Users/me/work/go-files `
 
