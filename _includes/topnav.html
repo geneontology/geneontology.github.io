@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand go-link" href="{{ site.baseurl }}/" style="margin-right: 40px;">
+            <a class="navbar-brand go-link" href="{{ site.baseurl }}/" style="margin-right: 20px;">
                 <span>
                     <img src="/assets/go-logo.large.png">
                 </span>
@@ -22,7 +22,7 @@
 
                 {% for doc in site.data.docs %}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle link-extended u-letter-spacing-xsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="nav-link dropdown-toggle link-extended u-letter-spacing-xxsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                             style="padding: 8px 3px;" aria-expanded="false">
                             {{ doc.title }}
                         </a>
@@ -97,6 +97,7 @@
 
             </ul>
 
+            <!-- SOCIAL LINKS -->
             <div class="navbar-right">
                 <ul class="nav navbar-nav">
                     <li>
@@ -109,47 +110,24 @@
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li>
+                    <li style="margin-right: 5px">
                         <a href="https://www.facebook.com/pages/Gene-Ontology/305908656519" target="blank" style="padding: 8px 3px; font-size: 15px;">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
+
+                <a href="https://www.alliancegenome.org" target="blank" alt="Alliance of Genome Resources" >
+                    <img src="/assets/ALLIANCE-logo-nobackground_foundingmember.png" alt="Alliance of Genome Resources" style="height: 60px; margin-right: 10px;"/>
+                </a>
+    
             </div>
+
+    
         </div>
 
 
     </div>
-<!-- 
-    {% for doc in site.data.docs %}
-    <ul>
-        {{ doc.title }} 
-        {% for subdoc in doc.docs %}
 
-            {% for doc in site.docs %}
-            <ul>
-                {% assign filename = doc.url | replace: '/docs/', '' %}
-                {% assign filename = filename | replace: '/', '' %}
-                
-                {%if filename == subdoc %}
-                    <li>{{ doc.title }}</li>
-                {% endif %}
-            </ul>
-            {% endfor %}
-    
-
-        {% endfor %}
-        </li>
-    </ul>
-    {% endfor %}
-     -->
-
-
-
-    <!-- {% for doc in site.docs %}
-    <ul>
-        {{ doc.id | replace: '/docs/', '' }}
-    </ul>
-    {% endfor %} -->
 
 </nav>
