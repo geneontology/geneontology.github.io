@@ -1,6 +1,6 @@
 ---
 title: Access to the GO Subversion Repository
-permalink: /docs/SVN_access/
+permalink: /docs/SVN-access/
 redirect_from: /page/svn-help
 ---
 
