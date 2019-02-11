@@ -12,6 +12,7 @@ redirect_from:
 + Released monthly.
 + Available in [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html), [OWL](https://github.com/owlcs/owlapi) and [JSON](https://github.com/geneontology/obographs/) formats.
 + Also includes [GO subsets](/docs/go-subset-guide/) (slims).
++ [SVN access](/docs/SVN-access/) is available
 
 ## Ontology formats
 
