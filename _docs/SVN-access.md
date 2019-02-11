@@ -1,10 +1,10 @@
 ---
-title: Access to the GO Subversion Repository
+title: Access the GO subversion repository
 permalink: /docs/SVN-access/
 redirect_from: /page/svn-help
 ---
 
-# Access to the GO Subversion Repository
+# Access the GO subversion repository
 
 Subversion is a version control system; the software can be downloaded from [Apache Subversion](https://web.archive.org/web/20171108025348/http://subversion.apache.org/){:target="blank"} if it is not installed on your computer.
 
