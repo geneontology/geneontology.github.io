@@ -33,13 +33,13 @@ Leaders of key contributing resources.
 - __EBI Ontologies team__
   - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
 - __FlyBase__
-  - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, Cambridge University
+  - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
 - __Functional Gene Annotation Initiative__
   - Ruth C.	Lovering, University College London
 - __InterPro__
   - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
 - __PomBase__
-  - Valerie	Wood, Cambridge University
+  - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
 - __RGD__
   - Mary Shimoyama, Milwaukee College of Medicine
 - __Reactome__
