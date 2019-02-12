@@ -28,6 +28,7 @@ Associations of gene products to GO terms are statements that describe
 **Note that GO annotations intend to capture the normal, in vivo biological role of genes or gene products**.
 
 <!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
+
 ## General Principles of GO Annotations
 +  A gene product can be annotated to zero or more terms from each ontology.
 +  Gene products are annotated to the most detailed (i.e. granular) level in the ontology that is supported by the experimental evidence in the cited reference.
@@ -41,8 +42,6 @@ Associations of gene products to GO terms are statements that describe
 Some annotations are modified by qualifiers, which have specific usage rules and meanings within GO.
 
 ### The *NOT* qualifier
-
-
 
 *NOT* is used to make an explicit note that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have had a loss of function (e.g. loss of an active site or rapid divergence after a duplication event) over the course of evolution. This is particularly important in cases where associating a GO term with a gene product should be avoided (but might otherwise be made, especially by an automated method). For example, if a protein has sequence similarity to an enzyme (whose activity is GO:nnnnnnn), but has been shown experimentally **not** to have the enzymatic activity, it is annotated as *NOT* GO:nnnnnnn. *NOT* is also used when a cited reference explicitly says (e.g. "our favorite protein is not found in the nucleus"). Qualifying an annotation with the qualifier *NOT* allows annotators to state that a particular gene product is **not** associated with a particular GO term. It is used when a GO term might otherwise be expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. (It is not generally used for negative or inconclusive experimental results.)
 
@@ -61,3 +60,15 @@ Annotation extensions provide additional information about a GO annotation that 
 <!-- ????-->
 ## Annotation quality control
 The GO Consortium implements a number of automated queries to check the quality of the annotations submitted to the GO database.
+
+## GO-Causal Activity Models
+GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple standard GO annotations into larger models of biological function (such as “pathways”) in a semantically structured manner. Minimally, a GO-CAM model must connect at least two standard GO annotations ([GO-CAM example](http://noctua.geneontology.org/editor/graph/gomodel:5323da1800000002){:target="blank"}).
+
+The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.
+
+GO-CAMs can be browse and visualized at [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"}
+
+
+## Downloads
+* Download [GO annotations by species](/docs/download-go-annotations/)
+* Download [GO-CAM models](http://geneontology.org/go-cam){:target="blank"}
