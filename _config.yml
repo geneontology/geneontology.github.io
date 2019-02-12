@@ -8,7 +8,7 @@ description: >
   and tissue system levels.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://geneontology.github.io # the base hostname & protocol for your site
+url: http://geneontology.org # the base hostname & protocol for your site
 git_address: https://github.com/geneontology/geneontology.github.io
 
 # theme options from https://bootswatch.com/
