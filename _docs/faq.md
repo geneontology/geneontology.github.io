@@ -853,7 +853,7 @@ FAQ tags: 
 
 [software](/faq-tags/software)
 
-The ontologies are initially produced in the specially designed [OBO flat file format](http://www.geneontology.org/GO.format.obo-1_2.shtml). They are converted to XML once a month for the convenience of users who require this facility. Both formats and many others are available in the [GO downloads section](http://geneontology.org/page/downloads). We use the OBO flat file format because it is human-readable, and also because the file is much smaller without the XML tags. This means that it is much quicker and easier for the curators to handle the file on a day-to-basis.
+The ontologies are initially produced in the specially designed [OBO flat file format](/docs/download-ontology/). They are converted to XML once a month for the convenience of users who require this facility. Both formats and many others are available in the [GO downloads section](/docs/download-ontology/). We use the OBO flat file format because it is human-readable, and also because the file is much smaller without the XML tags. This means that it is much quicker and easier for the curators to handle the file on a day-to-basis.
 
 [Can a term in one ontology have parents in one of the other two ontologies?](/faq/can-term-one-ontology-have-parents-one-other-two-ontologies)
 -----------------------------------------------------------------------------------------------------------------------------------------------

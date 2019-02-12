@@ -9,8 +9,8 @@ redirect_from:
 # Download Ontology
 
 ## Ontology files
-+ Released monthly.
-+ Available in [OBO, OWL and JSON formats](/docs/go-file-format-guide/).
++ Released monthly and accessible from [http://current.geneontology.org/ontology/](http://current.geneontology.org/ontology/){:target="blank"} as well as Permanent URLs (PURL) (see below)
++ Available in [OBO](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"}, [OWL](https://www.w3.org/OWL/){:target="blank"} and [JSON](https://www.w3schools.com/js/js_json_intro.asp){:target="blank"} formats.
 + Also includes [GO subsets](/docs/go-subset-guide/) (slims).
 
 ## Gene Ontology formats

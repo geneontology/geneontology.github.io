@@ -11,7 +11,7 @@ GO releases official versions on a monthly basis.  The links below provide the l
 
 ## Download [the ontology](/docs/download-ontology/ "Download Ontology")
 + Released monthly
-+ Available in [OBO and OWL formats](/docs/go-file-format-guide/ "OBO and OWL formats")
++ Available in [OBO and OWL formats](/docs/download-ontology/ "OBO and OWL formats")
 + Also includes [GO subsets](/docs/go-subset-guide/ "GO subsets") (slims)
 
 ## Download [annotations](/docs/download-go-annotations/ "Download GO annotations")
