@@ -9,7 +9,7 @@ redirect_from:
 # Download the ontology
 
 ## Ontology files
-+ Released monthly.
++ Released monthly and accessible from [http://current.geneontology.org/ontology/](http://current.geneontology.org/ontology/){:target="blank"} as well as PURLs (see below)
 + Available in [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html), [OWL](https://github.com/owlcs/owlapi) and [JSON](https://github.com/geneontology/obographs/) formats.
 + Also includes [GO subsets](/docs/go-subset-guide/) (slims).
 + [SVN access](/docs/SVN-access/) is available
