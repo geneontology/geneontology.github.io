@@ -5,7 +5,7 @@ redirect_from: /page/syngo-synapse-biology
 ---
 
 # Collaborations
-The GO Consortium collaborates with many other groups on a wide variety of topics, particularly with groups whose expertise in specific areas of biology, or a complementary ontology project, would help to improve the usefulness of the GO resource. We welcome your feedback and contributions. Please reach us using our ["Contact us" form](http://help.geneontology.org/){:target="blank"} if you are interested in a possible collaboration.
+The GO Consortium collaborates with many other groups on a wide variety of topics, particularly with groups whose expertise in specific areas of biology, or a complementary ontology project, would help to improve the usefulness of the GO resource. We welcome your feedback and contributions. Please [let us know](http://help.geneontology.org/){:target="blank"} if you are interested in a possible collaboration.
 
 ## Annotation/Ontology development projects
 + [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley){:target="blank"}
@@ -28,6 +28,7 @@ The GO Consortium collaborates with many other groups on a wide variety of topic
 
 
 ## Past collaborations
++ Alzheimer’s Disease [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/30501127)
 + Autophagy [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29455577){:target="blank"}
 + Autism [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26047810){:target="blank"}
 + Biochemical pathways [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/27589964){:target="blank"}
@@ -40,7 +41,7 @@ The GO Consortium collaborates with many other groups on a wide variety of topic
 + Microbe-host interactions [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/21119014){:target="blank"}
 + Muscular system [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/19178689){:target="blank"}
 + Heart development [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/21419760,24627794,19046747){:target="blank"}
-+ microRNAs [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/29871895){:target="blank"}
++ microRNAs [Publications available here](https://www.ncbi.nlm.nih.gov/pubmed/29871895,26917558){:target="blank"}
 + Neuronal cellular components [Publication available here](https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-20){:target="blank"}
 + Non-symbiotic multi-organism processes [Publication available here](https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-015-0481-x){:target="blank"}
 + Parkinson's Disease [Publication available here](https://www.ncbi.nlm.nih.gov/pubmed/26825309){:target="blank"}
