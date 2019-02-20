@@ -1,7 +1,9 @@
 ---
 title: Scientific literature
 permalink: /docs/literature/
-redirect_from: /page/publications
+redirect_from: 
+- /page/publications
+- /docs/publications
 ---
 
 # The Gene Ontology and the scientific literature
