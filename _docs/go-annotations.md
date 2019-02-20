@@ -66,7 +66,7 @@ GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking mult
 
 The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.
 
-GO-CAMs can be browse and visualized at [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"}
+GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"}
 
 
 ## Downloads
