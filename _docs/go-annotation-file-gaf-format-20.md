@@ -6,13 +6,11 @@ redirect_from: /page/go-annotation-file-format-20
 
 
 # GO Annotation file format: Gene Association File 2.0
+This guide lays out the format specifications for GAF 2.0; for the newer format please see the [GAF 2.1 page](/docs/go-annotation-file-gaf-format-21/).
 
-Annotation data is submitted to the GO Consortium via a *G*ene *A*ssociation *F*ile (GAF). This guide lays out the format specifications for GAF 2.0; for the older GAF 1.0 file syntax, please see the GAF 1.0 file format guide.
+The annotation process captures the activities and localization of a gene product using GO terms, providing a reference, and indicating the type of evidence used to assign each term to the gene product. Currently, the main format for annotation information in the GO is the standardized *G*ene *A*ssociation *F*ile. GAFs are tab-delimited plain text files, where each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/), the reference to support the link between them, and other information. General information about annotation can be found in the [GO annotation introduction](/docs/go-annotations/).
 
-Please see the information on the changes in GAF 2.0.
-
-General information about annotation can be found in the [GO annotation guide](http://www.geneontology.org/page/go-annotation-policies).
-## Changes in GAF 2.0
+### Changes in GAF 2.0
 
 GAF 2.0 has two additional columns compared to GAF 1.0: annotation extension (column 16) and gene product form ID (column 17).
 
