@@ -13,9 +13,12 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 
 # GO Annotation File (GAF) files
-+ The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. This page describes the Gene Product Association Data (GAF) 2.1 format. 
-+ GO also also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) files. 
-+ For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
+
+This guide lays out the format specifications for *G*ene *A*ssociation *F*ile (GAF) 2.1; for the older format please see the [GAF 2.0 guide](/docs/go-annotation-file-gaf-format-20/).
+
+The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in standardized tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/) and the reference to support the link. 
++ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files) 
++ For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/)
 
 ## GO Annotation File (GAF) format 2.1
 
