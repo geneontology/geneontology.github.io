@@ -33,7 +33,8 @@ The legacy MySQL database dumps, from start to final generation, are available a
 ## Archived GO Subsets
 
 + There is an [archive of GO subsets](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/){:target="blank"} that were used in the past, but that are no longer maintained or updated. These files have been deposited for two reasons; the first is to give easy access to the GO slim used in a particular publication or analysis; the second is for reuse by others in the community. Because these GO slims are no longer maintained by the authors they may contain GO terms which are now obsolete. All archival GO slims are in the deprecated GO flat file format in which the parentage and relationships were indicated by indentation and punctuation characters (e.g. '%' to indicate an is_a relationship).
-+ If you are looking for current, actively maintained GO slims, please [see the guide to GO subsets](/docs/go-subset-guide/#download-go-subsets)
+
+_If you are looking for current, actively maintained GO slims, please [see the guide to GO subsets](/docs/go-subset-guide/#download-go-subsets)_
 
 |Topic / Usage |	Information |	Download|
 |--------------|--------------|---------|
