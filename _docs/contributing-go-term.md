@@ -1,5 +1,5 @@
 ---
-title: Contributing GO terms
+title: Contributing to the ontology
 permalink: /docs/contributing-to-go-terms/
 redirect_from: /page/contributing-go
 ---
