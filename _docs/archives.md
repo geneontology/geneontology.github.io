@@ -10,6 +10,8 @@ redirect_from:
 - /page/lead-database-guide
 - /page/go-tools-registry
 ---
+
+# Archived data
 ## Archived ontology files
 
 An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO Database archive.  
