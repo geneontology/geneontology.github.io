@@ -29,7 +29,7 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 ## Mappings file directory
 
-Direct access to the mappings file directory is available here: http://geneontology.org/external2go/
+Direct access to the mappings file directory is available here: [http://snapshot.geneontology.org/ontology/external2go/](http://snapshot.geneontology.org/ontology/external2go/)
 
 ## Links to cross-references files derived the Gene Ontology
 
