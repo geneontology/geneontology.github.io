@@ -29,7 +29,7 @@ Associations of gene products to GO terms are statements that describe
 
 <!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
 
-## General Principles of GO Annotations
+## General principles of GO annotations
 +  A gene product can be annotated to zero or more terms from each ontology.
 +  Gene products are annotated to the most detailed (i.e. granular) level in the ontology that is supported by the experimental evidence in the cited reference.
 +  By the transitivity principle, an annotation to a GO term implies annotation to all its parents.
