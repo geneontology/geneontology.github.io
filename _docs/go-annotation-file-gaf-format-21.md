@@ -111,7 +111,7 @@ Note that **only one reference can be cited on a single line** in the gene assoc
 #### Evidence Code (column 7)
 See the [GO evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations
 
-   This field is mandatory, cardinality 1.
+    This field is mandatory, cardinality 1.
 
 
 #### With [or] From (column 8)
@@ -198,7 +198,7 @@ See the [GO annotation conventions for more information on multi-organism terms]
 
 
 #### Date (column 14)
-Date on which the annotation was made; format is YYYYMMDD
+Date on which the annotation was made; format is YYYYMMDD.
  
     This field is mandatory, cardinality 1.
 
