@@ -58,12 +58,14 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 
 ### Definitions and requirements for field contents
 
+
 #### DB (column 1)
 Refers to the database from which the identifier in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the **DB object ID** (column 2), **DB** (column 1) should be UniProtKB.
 
 Must be one of the values from the set of [GO database cross-references](http://amigo.geneontology.org/xrefs).
 
     This field is mandatory, cardinality 1.
+
 
 #### DB Object ID (column 2)
 A unique identifier from the database in DB (column 1) for the item being annotated.
@@ -74,12 +76,14 @@ In GAF 2.1 format, the identifier **must reference a top-level primary gene or g
 
 The **DB object ID** is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in **DB object ID** field) or annotations to a protein object (protein ID in **DB object ID** field).
 
+
 #### DB Object Symbol (column 3)
 A (unique and valid) symbol to which **DB object ID** is matched.
 Can use ORF name for otherwise unnamed gene or protein.
 If gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol this field is mandatory, cardinality 1.
 
 The **DB Object Symbol** field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB Object Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
+
 
 #### Qualifier (column 4)
 Flags that modify the interpretation of an annotation.
@@ -88,22 +92,26 @@ This field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe
 
 *See also the [documentation on qualifiers](http://geneontology.org/page/go-annotation-conventions#qual) in the GO annotation guide*
 
+
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**.
 
     This field is mandatory, cardinality 1.
+
 
 #### DB:Reference (column 6)
 One or more unique identifiers for a single source cited as an authority for the attribution of the **GO ID** to the **DB Object ID**. This may be a literature reference or a database record. The syntax is DB:accession_number.
 
 Note that **only one reference can be cited on a single line** in the gene association file. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, we strongly recommend that the PubMed ID be included, as well as an identifier within a model organism database. Note that if the model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used
 
-   This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. SGD_REF:S000047763|PMID:2676709).
+    This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. SGD_REF:S000047763|PMID:2676709).
+
 
 #### Evidence Code (column 7)
 See the [GO evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations
 
    This field is mandatory, cardinality 1.
+
 
 #### With [or] From (column 8)
 Also referred to as **With, From** or the **With/From** column.
@@ -135,19 +143,12 @@ Annotations made using the following evidence codes may only use the pipe operat
 Annotations made using the following evidence codes may use the pipe or comma operators in the **With/From** field: IPI, IMP, IGI, IC, IGC.
 
 The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.
-   
+
+
 ##### Examples
-1. Recording gene IDs for allelic variations in the With/from column for IMP evidence code: Multiple pipe-separated values in the **With/From** field indicate that the process is inferred from each perturbation independently. If more than one variation within the same locus resulted in a phenotype, those variations should be comma-separated (implying AND).
-
-For e.g. Two different deletion mutations and one RNAi inactivation support the same GO annotation for a Worm gene. The alleles are Pipe-separated in the **With/From** for this annotation: WB:WBVariation00091989|WB:WBVar00249869|WB:WBRNAi00084583.
- 
-2. Recording gene IDs for mutants in the **With/From** column for IGI evidence code: Pipe-separated (OR) values should be used to indicate individual genetic interactions that result in the same inference for a process. Multiple values indicating triple mutants, for example, should be comma-separated (AND).
-
-For e.g. A triple mutant in C. elegans supports annotation to a specific process using IGI evidence. The gene identifiers are comma-separated in the **With/From** for this annotation indicating that the process is inferred from all three genes together: WBGene00000035,WBGene00000036.
- 
-3. Recording IDs in the **With/From** column for IEA evidence code: Multiple, pipe-separated InterPro accessions are used for IEA-based annotations in the UniProt files and indicate individual (unconnected) inferences.
-
-For e.g. annotations to cell redox homeostasis (GO:0045454) that are inferred from three InterPro domains: InterPro:IPR005746|InterPro:IPR013766|InterPro:IPR017937.
+1. Recording gene IDs for allelic variations in the With/from column for IMP evidence code: Multiple pipe-separated values in the **With/From** field indicate that the process is inferred from each perturbation independently. If more than one variation within the same locus resulted in a phenotype, those variations should be comma-separated (implying AND). For e.g. Two different deletion mutations and one RNAi inactivation support the same GO annotation for a Worm gene. The alleles are Pipe-separated in the **With/From** for this annotation: WB:WBVariation00091989|WB:WBVar00249869|WB:WBRNAi00084583.
+2. Recording gene IDs for mutants in the **With/From** column for IGI evidence code: Pipe-separated (OR) values should be used to indicate individual genetic interactions that result in the same inference for a process. Multiple values indicating triple mutants, for example, should be comma-separated (AND). For e.g. A triple mutant in C. elegans supports annotation to a specific process using IGI evidence. The gene identifiers are comma-separated in the **With/From** for this annotation indicating that the process is inferred from all three genes together: WBGene00000035,WBGene00000036.
+3. Recording IDs in the **With/From** column for IEA evidence code: Multiple, pipe-separated InterPro accessions are used for IEA-based annotations in the UniProt files and indicate individual (unconnected) inferences. For e.g. annotations to cell redox homeostasis (GO:0045454) that are inferred from three InterPro domains: InterPro:IPR005746|InterPro:IPR013766|InterPro:IPR017937.
  
 This removes a large amount of redundancy and significantly decreases the size of UniProt files.
 
@@ -157,20 +158,24 @@ Note that a gene ID may be used in the **With/From** column for a IPI annotation
 
 The ID used in the **With/From** field should be an identifier for an individual entry in a database (such as a sequence ID, gene ID, GO ID, etc.). Identifiers from the Center for Biological Sequence Analysis (CBS), however, represent tools used to find homology or sequence similarity; these identifiers should not be used in the **With/From** column.
 
+
 #### Aspect (column 9)
 Refers to the namespace or ontology to which the **GO ID** (column 5) belongs; one of P (biological process), F (molecular function) or C (cellular component).
 
     This field is mandatory; cardinality 1.
+
 
 #### DB Object Name (column 10)
 Name of gene or gene product.
 
     This field is not mandatory, cardinality 0, 1 [white space allowed].
 
+
 #### DB Object Synonym (column 11)
 Gene symbol [or other text] Note that we strongly recommend that gene synonyms are included in the gene association file, as this aids the searching of GO.
 
     This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene).
+
 
 #### DB Object Type (column 12)
 A description of the type of gene product being annotated.  If a **Gene Product Form ID** (column 17) is supplied, the **DB Object Type** will refer to that entity; if no **Gene Product Form ID** is present, it will refer to the entity that the **DB Object Symbol** (column 2) is believed to produce and which actively carries out the function or localization described.  **DB Object Type** will be one of the following: protein_complex; protein; transcript; ncRNA; rRNA; tRNA; snRNA; snoRNA; any subtype of ncRNA in the Sequence Ontology.  If the precise product type is unknown, gene_product should be used.
@@ -178,6 +183,7 @@ A description of the type of gene product being annotated.  If a **Gene Product 
     This field is mandatory, cardinality 1.
 
 The object type (gene_product, transcript, protein, protein_complex, etc.) listed in the **DB Object Type** field must match the database entry identified by the **Gene Product Form ID**, or, if this is absent, the expected product of the **DB Object ID**. Note that **DB Object Type** refers to the database entry (i.e. it represents a protein, functional RNA, etc.); this column does not reflect anything about the GO term or the evidence on which the annotation is based. For example, if your database entry represents a protein-encoding gene, then protein goes in the **DB Object Type** column. The text entered in the **DB Object Name** and **DB Object Symbol** should refer to the entity in **DB Object ID**. For example, several alternative transcripts from one gene may be annotated separately, each with the same gene ID in **DB Object ID**, and specific gene product identifiers in **Gene Product Form ID**, but list the same gene symbol in the **DB Object Symbol** column.
+
 
 #### Taxon (column 13)
 Taxonomic identifier(s).
@@ -187,6 +193,7 @@ For cardinality 1, the ID of the species encoding the gene product. For cardinal
     This field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries (e.g. taxon:1|taxon:1000).
 
 See the [GO annotation conventions for more information on multi-organism terms](http://geneontology.org/page/go-annotation-conventions#interactions).
+
 
 #### Date (column 14)
 Date on which the annotation was made; format is YYYYMMDD
