@@ -209,7 +209,7 @@ The database which made the annotation.
 One of the values from the set of GO database cross-references.
     
 Used for tracking the source of an individual annotation. Default value is value entered as the **DB**(column 1).
-Value will differ from column 1 for any annotation that is made by one database and incorporated into another
+Value will differ from column 1 for any annotation that is made by one database and incorporated into another.
 
     This field is mandatory, cardinality 1.
 
