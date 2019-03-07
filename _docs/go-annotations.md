@@ -14,7 +14,7 @@ redirect_from:
 
 A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, and what biological processes (pathways, programs) it helps to carry out.
 
-Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. All GO annotations are ultimately supported by the scientific literature, either directly or indirectly. In GO, the supporting evidence is presented in the form of a [GO evidence codes](/docs/guide-go-evidence-codes/) and either a published reference or description of the methodology used to create the annotation. The GO evidence codes describe the type of evidence and reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
+Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. All GO annotations are ultimately supported by the scientific literature, either directly or indirectly. In GO, the supporting evidence is presented in the form of a [GO Evidence Codes](/docs/guide-go-evidence-codes/) and either a published reference or description of the methodology used to create the annotation. The GO evidence codes describe the type of evidence and reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
 
 
 <!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
@@ -25,17 +25,15 @@ Associations of gene products to GO terms are statements that describe
 + Cellular Component: where the gene products are active
 + Biological Process: the pathways and larger processes to which that gene product's activity contributes
 
-**Note that GO annotations intend to capture the normal, in vivo biological role of genes or gene products**.
-
-<!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
-
 ## General principles of GO annotations
++  Annotations represent the normal functions of gene products. 
 +  A gene product can be annotated to zero or more terms from each ontology.
-+  Gene products are annotated to the most detailed (i.e. granular) level in the ontology that is supported by the experimental evidence in the cited reference.
++  Each annotation is supported by an [GO Evidence Codes](/docs/guide-go-evidence-codes/) from the [Evidence and Conclusions Ontology](http://www.evidenceontology.org/) and a reference. 
++  Gene products are annotated to the most granular term in the ontology that is supported by the available evidence.
 +  By the transitivity principle, an annotation to a GO term implies annotation to all its parents.
 +  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.  
-+  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown
 +  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
++  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown.
 
 ## Annotation qualifiers
 
