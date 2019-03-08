@@ -5,7 +5,6 @@ redirect_from:
 - /page/go-citation-policy
 - /page/use-and-license
 - /faq/how-do-i-cite-go-0
-- /page/acknowledgments-contributors
 ---
 
 # GO citation policy and license

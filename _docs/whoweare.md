@@ -1,7 +1,9 @@
 ---
 title: Who we are
 permalink: /docs/whoweare/
-redirect_from: /page/about
+redirect_from: 
+- /page/about
+- /page/acknowledgments-contributors
 ---
 
 # Who we are
