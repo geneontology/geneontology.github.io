@@ -80,7 +80,9 @@ The **DB object ID** is the identifier for the database object, which may or may
 #### DB Object Symbol (column 3)
 A (unique and valid) symbol to which **DB object ID** is matched.
 Can use ORF name for otherwise unnamed gene or protein.
-If gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol this field is mandatory, cardinality 1.
+If gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol. 
+
+    This field is mandatory, cardinality 1.
 
 The **DB Object Symbol** field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB Object Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
 
