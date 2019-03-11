@@ -1315,3 +1315,52 @@ IMEx will only call an interaction 'direct' when performed with 2 purified molec
 
 For more details, please see the [corresponding entry](http://www.ebi.ac.uk/intact/about/faq?conversationContext=5#8){:target="blank"} on the the IntAct FAQ page.
 
+## What is a GO-CAM?
+
+GO-CAM stands for Gene Ontology Causal Activity Model. GO-CAMs link
+multiple GO annotations into an integrated model of a biological
+system. More information can be found on the [GO-CAM site](http://geneontology.org/cam).
+
+## What exchange format is used for GO-CAMs?
+
+GO-CAMs include more information than classic GO annotations, so
+cannot be effectively exchanged using the simple tabular formats used
+by the GO.
+
+The native representation for GO-CAMs is the Web Ontology Language
+(OWL). Standard RDF exchange formats such as RDF/XML and Turtle can be
+used for GO-CAMs.
+
+Downloads can be found on the [GO-CAM site](http://geneontology.org/cam).
+
+## How does the information in GO-CAMs compare to existing pathway databases?
+
+GO-CAMs are causally connected GO annotations. Existing pathway
+databases are not explicitly geared for performing GO annotation,
+although some such as Reactome include GO terms.
+
+GO-CAMs differ from databases such as BioModels because the
+information in a GO-CAM is qualitative, whereas the information in
+BioModels in quantitative.
+
+GO-CAMs have a different model from many pathway databases, which is shown below:
+
+[GO CAM Datamodel](/assets/go-cam-datamodel.png)
+
+The GO-CAM model is *activity-centric*, in that the molecular activity
+(i.e. GO molecular function) is the central unit of annotation.
+
+The model allows for classic GO annotations (with no causal
+connection), or for causally connected annotations. This allows for
+the capture of partial information in an incremental fashion.
+
+The GO-CAM model is simpler than that used by databases such as
+Reactome: in a GO-CAM we do not typically capture all the participants
+in a reaction, together with their stoichiometry. Instead this
+information is included in the GO term.
+
+We are currently investigation translations between pathway formats
+such as BioPAX and OpenBEL to GO-CAM. See the
+[Pathways2GO](https://github.com/geneontology/pathways2GO) repository
+for more information.
+
