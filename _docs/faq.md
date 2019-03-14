@@ -700,7 +700,7 @@ FAQ tags: 
 
 The GO project is constantly evolving, and we welcome feedback from all users. Research groups may contribute to the GOC by either providing suggestions for updating the ontology (e.g. requests for new terms) or by providing annotations, that is, associations between genes or gene products and ontology terms. Suggested edits are reviewed by the ontology editors and implemented where appropriate.
 
-To learn more about the best approach to contributing GO annotations or sharing your suggestions for updates to the ontology please visit our documentation on [Contributing to GO](http://geneontology.org/page/contributing-go).
+To learn more about the best approach to contributing GO annotations, please visit our documentation on [Contributing annotations](http://geneontology.org/page/contributing-go). To suggest updates to the ontology please visit our documentation on [Contributing to GO](http://geneontology.org/page/contributing-to-go-terms).
 
 Please be sure to [contact the GOC](http://help.geneontology.org) before carrying out any annotation work you intend to submit; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
@@ -780,20 +780,6 @@ FAQ tags: 
 {:/comment}
 
 The use and license of all GO data, software, and materials are covered on the [Use and license](/page/use-and-license) page.
-
-## What is beyond the scope of the GO project? 
---------------------------------------------------------------------------------
-{::comment}
-
-<span class="rdf-meta element-hidden" property="dc:title" content="What is beyond the scope of the GO project?"></span>
-FAQ tags: 
-
-[general](/faq-tags/general)
-
-[ontology](/faq-tags/ontology)
-{:/comment}
-
-Almost as important as understanding the scope of the GO project is understanding what the GO project is not. The most common misapprehensions are (1) that the GO is a system for naming genes and proteins and (2) that the GO attempts to describe all of biology. The GO neither names genes or gene products, nor does it attempt to provide structured vocabularies beyond its three domains: molecular function, biological process and cellular component. GO is not a nomenclature for genes or gene products. The vocabularies describe molecular phenomena (e.g. programmed cell death), not biological objects (e.g. proteins or genes). Sharing gene product names would entail tracking evolutionary histories and reflecting both orthologous and paralogous relationships between gene products. Different research communities have different naming conventions. Different organisms have different numbers of members in gene families. The GO project focuses on the development of vocabularies to describe attributes of biological objects, not on the naming of the objects themselves. This point is particularly important to understand because many genes and gene products are named for their function.
 
 ## Where can I find the number of terms in each of the ontologies? 
 ---------------------------------------------------------------------------------------------------------------------
