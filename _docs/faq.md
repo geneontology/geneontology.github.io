@@ -241,7 +241,7 @@ FAQ tags: 
 {:/comment}
 
 
-[PANTHER](http://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found in the left side of GO website. Besides the 110+ genomes listed there, [PANTHER supports another 800+ genomes](ftp://ftp.pantherdb.org/generic_mapping/){:target="blank"} from the Reference Proteome project for users to generate GO annotations. 
+[PANTHER](http://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found on the right side of GO website. Besides the 110+ genomes listed there, [PANTHER supports another 800+ genomes](ftp://ftp.pantherdb.org/generic_mapping/){:target="blank"} from the Reference Proteome project for users to generate GO annotations. 
 
 If your organism is not one of the nearly 1000 genomes supported in PANTHER, there are two options:
 
@@ -700,7 +700,7 @@ FAQ tags: 
 
 The GO project is constantly evolving, and we welcome feedback from all users. Research groups may contribute to the GOC by either providing suggestions for updating the ontology (e.g. requests for new terms) or by providing annotations, that is, associations between genes or gene products and ontology terms. Suggested edits are reviewed by the ontology editors and implemented where appropriate.
 
-To learn more about the best approach to contributing GO annotations or sharing your suggestions for updates to the ontology please visit our documentation on [Contributing to GO](http://geneontology.org/page/contributing-go).
+To learn more about the best approach to contributing GO annotations, please visit our documentation on [Contributing annotations](http://geneontology.org/page/contributing-go). To suggest updates to the ontology please visit our documentation on [Contributing to GO](http://geneontology.org/page/contributing-to-go-terms).
 
 Please be sure to [contact the GOC](http://help.geneontology.org) before carrying out any annotation work you intend to submit; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
@@ -780,20 +780,6 @@ FAQ tags: 
 {:/comment}
 
 The use and license of all GO data, software, and materials are covered on the [Use and license](/page/use-and-license) page.
-
-## What is beyond the scope of the GO project? 
---------------------------------------------------------------------------------
-{::comment}
-
-<span class="rdf-meta element-hidden" property="dc:title" content="What is beyond the scope of the GO project?"></span>
-FAQ tags: 
-
-[general](/faq-tags/general)
-
-[ontology](/faq-tags/ontology)
-{:/comment}
-
-Almost as important as understanding the scope of the GO project is understanding what the GO project is not. The most common misapprehensions are (1) that the GO is a system for naming genes and proteins and (2) that the GO attempts to describe all of biology. The GO neither names genes or gene products, nor does it attempt to provide structured vocabularies beyond its three domains: molecular function, biological process and cellular component. GO is not a nomenclature for genes or gene products. The vocabularies describe molecular phenomena (e.g. programmed cell death), not biological objects (e.g. proteins or genes). Sharing gene product names would entail tracking evolutionary histories and reflecting both orthologous and paralogous relationships between gene products. Different research communities have different naming conventions. Different organisms have different numbers of members in gene families. The GO project focuses on the development of vocabularies to describe attributes of biological objects, not on the naming of the objects themselves. This point is particularly important to understand because many genes and gene products are named for their function.
 
 ## Where can I find the number of terms in each of the ontologies? 
 ---------------------------------------------------------------------------------------------------------------------
@@ -1215,6 +1201,7 @@ FAQ tags: 
 
 GOA is updated in accordance with the latest data released by its core databases (SWISS-PROT, TrEMBL, InterPro, Ensembl) as well as mappings of SWISS-PROT Keywords, InterPro and Enzyme Commission (EC) terms to GO. Each of GOA's core databases produces its own releases; for example, InterPro has dependencies on the member databases of InterPro. InterPro2GO is updated at regular intervals but not always in keeping with monthly schedule of GOA releases.
 
+Keep in mind that the Gene Ontology Annotation (GOA) resource (http://www.ebi.ac.uk/GOA) provides evidence-based Gene Ontology (GO) annotations to proteins in the UniProt Knowledgebase (UniProtKB), and is not the same as GOC (the entire GO Consortium, including groups like GOA). 
 ## What are the file formats used by the Gene Ontology? 
 -----------------------------------------------------------------------------------------------------
 {::comment}
@@ -1359,4 +1346,21 @@ in a reaction, together with their stoichiometry. Instead this
 information is included in the GO term.
 
 We are currently investigating translations between pathway formats such as [BioPAX](http://www.biopax.org){:target="blank"} and [OpenBEL](http://openbel.org){:target="blank"} to GO-CAM. See the [Pathways2GO](https://github.com/geneontology/pathways2GO) repository for more information.
+
+## Why does AmiGO display annotations to term X but these annotations aren't in the GAF file? 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="Why does AmiGO display annotations to term X but these annotations aren't in the GAF file? "></span>
+FAQ tags: 
+
+[annotation](/faq-tags/annotation)
+[amigo](/faq-tags/amigo)
+{:/comment}
+
+Simply put, AmiGO displays annotations made to subclasses by default, while the GAF only contains direct annotations.  So an AmiGO search for [GO:0004672 protein kinase activity](http://amigo.geneontology.org/amigo/term/GO:0004672) will also list annotations to terms like [cAMP-dependent protein kinase regulator activity](http://amigo.geneontology.org/amigo/term/GO:0008603) and even [positive regulation of epidermal growth factor-activated receptor activity](http://amigo.geneontology.org/amigo/term/GO:0045741).
+
+More specifically, AmiGO doesn't just display subclasses, it uses closure over multiple edge types- part_of, is_a, occurs_in and regulates - to group annotations. This is why you'll see the Process term [positive regulation of epidermal growth factor-activated receptor activity](http://amigo.geneontology.org/amigo/term/GO:0045741) in your results after using AmiGO to look for annotations to the Function term [GO:0004672 protein kinase activity](http://amigo.geneontology.org/amigo/term/GO:0004672).
+
+In order to modify the results in an AmiGO search, use the "GO class (direct)" filter.  This will limit the results to only what is annotated directly to your GO term.
 

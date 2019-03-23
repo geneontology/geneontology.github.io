@@ -13,7 +13,7 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 ## Principal Investigators
 + [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, University of Southern California
 + [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech
-+ [Christopher Mungall](https://orcid.org/0000-0002-6601-2165){:target="blank"}, Lawrence Berkeley National Laboratory
++ [Christopher Mungall](http://www.berkeleybop.org/people/chris-mungall){:target="blank"}, Lawrence Berkeley National Laboratory
 + [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"}, Stanford University
 + [Judith Blake](https://www.jax.org/research-and-faculty/faculty/judith-blake){:target="blank"}, Jackson Laboratory
 
