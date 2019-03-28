@@ -124,3 +124,18 @@ identifiers that should correspond with each other may not always display the sa
     of obsolete or secondary UniProtKB accessions in a group's gp2protein, or in the case NCBI identifiers are made obsolete). 
  * For groups who provide authoritative files for a species, or who are funded by the GO NIH grant, please consult the 
     description of GO annotation activities by central GO Consortium members.
+
+# Submit
+
+# Review
+
+Both new and established groups that commit to be species owners will need to review annotations after submission.  Annotations need to be checked periodically to ensure ontology changes, curation best practices, and biological knowledge are accurately reflected in the annotations. 
+
+Any annotations that violate the GO_rules constraints will be listed in http://snapshot.geneontology.org/reports/index.html.  This report contains the rule number, a description of the rule, severity of the violation, and the full annotation line from the GAF. A less detailed graphical view can be found at http://current.geneontology.org/reports/gorule-report.html; click any link in your group's column to be taken to the detailed HTML report.
+
+* WARNING= these are typically minor infractions or ones that have been fixed automatically by the pipeline.  It is strongly recommended these are manually fixed for the next submission/release.
+* ERROR= these are removed from the release.  These must be manually fixed in order to appear in any subsequent release.
+
+If you feel like your annotation is correct, but the rule is overly restrictive, please contact us to review the GORULE.
+
+
