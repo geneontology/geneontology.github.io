@@ -127,6 +127,8 @@ identifiers that should correspond with each other may not always display the sa
 
 # Submit
 
+Annotations will need to be available at a stable, permanent URL accessible by GO. This must be added to the group's yaml in the GO Github repo: /go-site/metadata/datasets/nameofgroup.yaml
+
 # Review
 
 Both new and established groups that commit to be species owners will need to review annotations after submission.  Annotations need to be checked periodically to ensure ontology changes, curation best practices, and biological knowledge are accurately reflected in the annotations. 
