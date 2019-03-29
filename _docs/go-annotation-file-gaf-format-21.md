@@ -137,7 +137,8 @@ Cardinality = 0 is not allowed for ISS annotations made after October 1, 2006.
 
 Multiple entries are allowed in the **With/From** field of certain evidence codes (see below) and they must be separated with a pipe or a comma. The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **With/From** field.
 
-This field is not mandatory overall, but is required for some evidence codes (see below and the evidence code documentation for details); cardinality 0, 1, >1; for cardinality >1 use a pipe or comma to separate entries depending on the data as shown in the examples below.
+    This field is not mandatory overall, but is required for some evidence codes (see below or evidence code documentation);
+    cardinality 0, 1, >1; for cardinality >1 use a pipe or comma to separate entries depending on the data (examples below).
 
 The **With/From** field may be populated with multiple identifiers when making annotations using the following evidence codes: IMP, IGI, IPI, IC, ISS, ISA, ISO, ISM, IGC, IBA, IKR, RCA, IPI, IEA.
 
