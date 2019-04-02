@@ -320,68 +320,81 @@ layout: default
 
 		<div class="card col-md-4">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
-				<div class="card__picture card__picture__dna--red">
-					<h4 class="card__heading">Ontology</h4>
+				<div onclick="location.href = '/docs/ontology-documentation/'" class="card__picture card__picture__dna--red">
+					<h4 class="card__heading"><i class="fa fa-share-alt"></i> Ontology</h4>
 				</div>
 				<p class="card__description">
 					The network of biological classes describing the current best representation of the “universe” of biology. The molecular
 					functions, cellular locations, and processes gene products may carry out.
 				</p>
+
 				<div class="card__bottom">
-				<div>
-					<a href="http://amigo.geneontology.org/amigo/dd_browse" class="card__link" target="blank">
-						<i class="fa fa-share-alt"></i> &nbsp; Browse Ontology</a>
+					<div>
+						<a href="/docs/ontology-documentation/" class="card__link">
+							<i class="fa fa-info"></i> &nbsp; GO Ontology Overview</a>
+					</div>
+					<div>
+						<a href="http://amigo.geneontology.org/amigo/dd_browse" class="card__link" target="blank">
+							<i class="fa fa-clone"></i> &nbsp; Browse</a>
+					</div>
+					<div>
+						<a href="/docs/download-ontology/" class="card__link">
+							<i class="fa fa-download"></i> &nbsp; Download</a>
+					</div>
 				</div>
-				<div>
-					<a href="/docs/download-ontology/" class="card__link">
-						<i class="fa fa-download"></i> &nbsp; Download Ontology</a>
-				</div>
-			</div>
 			</div>
 		</div>
 
 		<div class="card col-md-4">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
-				<div class="card__picture card__picture__dna--blue">
-					<h4 class="card__heading">Annotations</h4>
+				<div onclick="location.href = '/docs/go-annotations/'" class="card__picture card__picture__dna--blue">
+					<h4 class="card__heading"><i class="fa fa-edit"></i> Annotations</h4>
 				</div>
 				<p class="card__description">
 					Statements, based on specific, traceable scientific evidence, asserting that a specific gene product is a real exemplar of
 					a particular GO class.
 				</p>
-				<div class="card__bottom">
-						<div>
-					<a href="http://amigo.geneontology.org/amigo/search/annotation" class="card__link" target="blank">
-						<i class="fa fa-clone"></i> &nbsp; Browse Annotations</a>
-				</div>
-				<div>
 
-					<a href="/docs/download-go-annotations/" class="card__link" target="blank">
-						<i class="fa fa-download"></i> &nbsp; Download Annotations</a>
+				<div class="card__bottom">
+					<div>
+						<a href="/docs/go-annotations/" class="card__link">
+							<i class="fa fa-info"></i> &nbsp; GO Annotations Overview</a>
+					</div>
+					<div>
+						<a href="http://amigo.geneontology.org/amigo/search/annotation" class="card__link" target="blank">
+							<i class="fa fa-clone"></i> &nbsp; Browse</a>
+					</div>
+					<div>
+						<a href="/docs/download-go-annotations/" class="card__link" target="blank">
+							<i class="fa fa-download"></i> &nbsp; Download</a>
+					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 
 		<div class="card col-md-4">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
-				<div class="card__picture card__picture__dna--green">
-					<h4 class="card__heading">Tools & Guides</h4>
+				<div onclick="location.href = '/docs/tools-guide/'" class="card__picture card__picture__dna--green">
+					<h4 class="card__heading"><i class="fa fa-cog"></i> Tools & Guides</h4>
 				</div>
 				<p class="card__description">
 					Tools to curate, browse, search, visualize and download both the ontology and annotations. Bioinformatic Guides (Notebooks) and simple API access to integrate GO into your research.
 				</p>
 
 				<div class="card__bottom">
-						<div>
-					<a href="/docs/tools-overview/" class="card__link">
-						<i class="fa fa-cog"></i> &nbsp; Browse Tools</a>
+					<div>
+						<a href="/docs/tools-guide/" class="card__link">
+							<i class="fa fa-info"></i> &nbsp; GO Programmatic Access</a>
+					</div>
+					<div>
+						<a href="/docs/tools-overview/" class="card__link">
+							<i class="fa fa-clone"></i> &nbsp; Browse</a>
+					</div>
+					<div>
+						<a href="https://github.com/geneontology/" class="card__link" target="blank">
+							<i class="fa fa-github"></i> &nbsp; GO GitHub</a>
+					</div>
 				</div>
-				<div>
-					<a href="/docs/tools-guide/" class="card__link">
-						<i class="fa fa-info"></i> &nbsp; Browse Tool Guides</a>
-				</div>
-			</div>
 			</div>
 		</div>
 
