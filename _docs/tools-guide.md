@@ -27,15 +27,13 @@ http://golr-aux.geneontology.io/solr/select?fq=document_category:"annotation"&q=
 Note: [GOlr](http://golr-aux.geneontology.io/solr) is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
 
 #### BioLink: a gateway to access GO and other linked data
-The purpose of the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated.
+The purpose of the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated. The GO BioLink API implementation is available at [http://api.geneontology.org/api](http://api.geneontology.org/api).
 
-The GO BioLink API implementation is available at [http://api.geneontology.org/api](http://api.geneontology.org/api).
-
-In the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"}, any GO term is referred as to "function", hence the query
+In the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"}, any GO term is referred as to "function", hence the following query returns meta data about the GO term {id}: 
 ```
 /bioentity/function/{id}
 ```
-returns meta data about the GO term {id}
+
 
 Example: [annotations for the apoptotic process term](http://api.geneontology.org/api/bioentity/function/GO:0006915){:target="blank"}
 ```
