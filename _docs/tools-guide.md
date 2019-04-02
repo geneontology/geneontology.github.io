@@ -19,9 +19,9 @@ The following is a query example to retrieve all [meta data about the GO term GO
 http://golr-aux.geneontology.io/solr/select?fq=document_category:"ontology_class"&q=*:*&fq=id:"GO:0030182"&wt=json
 ````
 
-While the following is a query example to retrieve all [annotations of the TP53 gene in rats](http://golr-aux.geneontology.io/solr/select?fq=document_category:%22annotation%22&q=*:*&fq=bioentity:%22RGD:3889%22&wt=json){:target="blank"}:
+While the following is a query example to retrieve all [annotations of the TP53 gene in rats](http://golr-aux.geneontology.io/solr/select?fq=document_category:"annotation"&q=*:*&fq=bioentity:"RGD:3889"&wt=json){:target="blank"}:
 ```
-http://golr-aux.geneontology.io/solr/select?fq=document_category:%22annotation%22&q=*:*&fq=bioentity:%22RGD:3889%22&wt=json
+http://golr-aux.geneontology.io/solr/select?fq=document_category:"annotation"&q=*:*&fq=bioentity:"RGD:3889"&wt=json
 ````
 
 Note: [GOlr](http://golr-aux.geneontology.io/solr) is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
