@@ -241,7 +241,7 @@ FAQ tags: 
 {:/comment}
 
 
-[PANTHER](http://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found on the right side of GO website. Besides the 110+ genomes listed there, [PANTHER supports another 800+ genomes](ftp://ftp.pantherdb.org/generic_mapping/){:target="blank"} from the Reference Proteome project for users to generate GO annotations. 
+[PANTHER](http://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found on the right side of GO website. Besides the 130+ genomes listed there, [PANTHER supports another 770+ genomes](ftp://ftp.pantherdb.org/generic_mapping/){:target="blank"} from the Reference Proteome project for users to generate GO annotations. 
 
 If your organism is not one of the nearly 1000 genomes supported in PANTHER, there are two options:
 
