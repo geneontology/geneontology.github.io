@@ -9,7 +9,7 @@ permalink: /docs/tools-guide/
 
 ## Query
 
-### Ontology and standard GO Annotations
+### GO Ontology and Annotations
 
 #### GOlr: GO Solr search engine
 The ontology and GO annotations can easily be searched and retrieved via the GO Solr search engine API called [GOlr](http://golr-aux.geneontology.io/solr).
@@ -46,7 +46,7 @@ http://api.geneontology.org/api/bioentity/function/GO:0006915?start=0&rows=2
 ```
 
 
-### GO-CAMs (Experimental)
+### GO Causal Activity Models (Experimental)
 GO also provides an [API](https://api.geneontology.cloud/models){:target="blank"} to query data about GO-CAMs as well as a [swagger documentation](https://app.swaggerhub.com/apis-docs/geneontology/gosparql){:target="blank"} to familiarize with the routes and parameters. The API is used to power the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site.
 
 Query example to retrieve all [GO terms contained in the GO-CAM 59a6110e00000067](https://api.geneontology.cloud/models/go?gocams=59a6110e00000067){:target="blank"}:
