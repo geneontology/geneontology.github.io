@@ -368,7 +368,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. See more information [on the GAF file format guide](/docs/go-annotation-file-gaf-format-21/).
+A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. See more information [on the GAF file format guide](/docs/go-annotation-file-gaf-format-2.1/).
 
 ## Can a single gene product be annotated with more than one GO term?
 --------------------------------------------------------------------------------------------------------------------------------
@@ -999,7 +999,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-The GPAD - Gene Product Association File Format - is an alternative means of exchanging annotations from the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-21/). The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information. For details, see the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
+The GPAD - Gene Product Association File Format - is an alternative means of exchanging annotations from the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.1/). The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information. For details, see the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
 
 ## What is GO "content"? 
 ---------------------------------------------
@@ -1214,7 +1214,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-Refer to the [ontology downloads page](/docs/download-ontology/) for information on ontology files.  For general introduction to the project's annotation file formats, see the guides on [GAF 2.1](/docs/go-annotation-file-gaf-format-21/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/). 
+Refer to the [ontology downloads page](/docs/download-ontology/) for information on ontology files.  For general introduction to the project's annotation file formats, see the guides on [GAF 2.1](/docs/go-annotation-file-gaf-format-2.1/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/). 
 
 ## Where can I find software to allow me to make or edit GO annotations? 
 --------------------------------------------------------------------------------------------------------------------------------------------
