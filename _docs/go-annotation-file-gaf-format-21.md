@@ -118,9 +118,9 @@ See the [GO evidence code guide](http://geneontology.org/page/guide-go-evidence-
 
 #### With [or] From (column 8)
 Also referred to as **With, From** or the **With/From** column.
-This field is used to hold an additional identifier for annotations, for example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). An entry in the **With/From** field is *not* allowed for annotations made using the following evidence codes; EXP, IDA, IEP, TAS, NAS, ND. However, population of the **With/From** is mandatory for certain evidence codes, see the documentation for the individual evidence codes for more information.
+This field is used to hold an additional identifier for annotations, for example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). An entry in the **With/From** field is *not* allowed for annotations made using the following evidence codes: EXP, IDA, IEP, TAS, NAS, ND. However, population of the **With/From** is mandatory for certain evidence codes, see the documentation for the individual evidence codes for more information.
 
-Some examples are:
+Some permitted values are:
 
         DB:gene_symbol
         DB:gene_symbol[allele_symbol]
@@ -140,14 +140,11 @@ Multiple entries are allowed in the **With/From** field of certain evidence code
     This field is not mandatory overall, but is required for some evidence codes (see below or evidence code documentation);
     cardinality 0, 1, >1; for cardinality >1 use a pipe or comma to separate entries depending on the data (examples below).
 
-The **With/From** field may be populated with multiple identifiers when making annotations using the following evidence codes: IMP, IGI, IPI, IC, ISS, ISA, ISO, ISM, IGC, IBA, IKR, RCA, IPI, IEA.
+The **With/From** field may be populated with multiple identifiers when making annotations using the following evidence codes: IMP, IGI, IPI, IC, ISS, ISA, ISO, ISM, IGC, IBA, IKR, RCA, IEA.
 
 Annotations made using the following evidence codes may only use the pipe operator in the **With/From** field: ISS, ISA, ISO, ISM, IBA, IKR, RCA, IEA. It is not mandatory to use pipes, however, and some groups may prefer to make separate annotations.
 
-Annotations made using the following evidence codes may use the pipe or comma operators in the **With/From** field: IPI, IMP, IGI, IC, IGC.
-
-The with column may not be used with the evidence codes IDA, TAS, NAS, or ND.
-
+Annotations made using the following evidence codes may use the pipe or comma operators in the **With/From** field: IMP, IGI, IPI, IC, IGC.
 
 ##### Examples
 
