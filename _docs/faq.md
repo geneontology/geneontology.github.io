@@ -45,7 +45,7 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-GO IDs are unique identifiers, however, they do not encode any information about a term or its position relative to other terms in the tree. See [more about GO terms](/docs/ontology/).
+GO IDs are unique identifiers, however, they do not encode any information about a term or its position relative to other terms in the tree. See [more about GO terms](/docs/GO-term-elements).
 
 ## How do I use GO's Term Enrichment tool?
 -------------------------------------------------------------------------------------
