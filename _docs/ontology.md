@@ -1,7 +1,8 @@
 ---
 title: GO term elements
-permalink: /docs/ontology/
+permalink: /docs/GO-term-elements
 redirect_from: 
+- /docs/ontology/
 - /page/ontology-structure
 - /page/species-specific-terms
 ---
@@ -25,7 +26,7 @@ A textual description of what the term represents, plus reference(s) to the sour
 
 ### Relationships to other terms
 
-How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an is a sub-class relationship to another term; for example, [GO:1904659:glucose transport](http://amigo.geneontology.org/amigo/term/GO:0015758){:target="blank"}{:target="blank"} is a [GO:0015749:monosaccharide transport](http://amigo.geneontology.org/amigo/term/GO:0015749){:target="blank"}. The Gene Ontology employs a number of other relations; the [relations documentation page](/docs/ontology-relations/) describes the relations used in the ontology.
+How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an is a sub-class relationship to another term; for example, [glucose transport (GO:1904659)](http://amigo.geneontology.org/amigo/term/GO:0015758){:target="blank"}{:target="blank"} is a [monosaccharide transport (GO:0015749)](http://amigo.geneontology.org/amigo/term/GO:0015749){:target="blank"}. The Gene Ontology employs a number of other relations; the [relations documentation page](/docs/ontology-relations/) describes the relations used in the ontology.
 
 ## Optional elements
 
