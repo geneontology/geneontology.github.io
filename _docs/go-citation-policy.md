@@ -21,6 +21,9 @@ If you used a specific software/analysis tool in your research, in addition to t
 + **AmiGO**: Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data. Bioinformatics. Jan 2009;25(2):288-289. \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/19033274){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/25/2/288.full.pdf+html){:target="blank"}\]  
 + **OBO-Edit**: Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. Aug 2007;23(16):2198-200. \[[abstract](http://bioinformatics.oxfordjournals.org/content/23/16/2198){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/23/16/2198.full){:target="blank"}\]
 
+
+If you produce tools and/or services that use GO data, the user should be provided the GO release date and DOI with the results (e.g. "2019-01-01" or "[10.5281/zenodo.2529950](https://zenodo.org/record/2529950){:target="blank"}").
+
 ## Citing data from downloads
 
 If you wish to cite data provided by the Gene Ontology project, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data, preferably both; e.g. "2019-01-01" or "[10.5281/zenodo.2529950](https://zenodo.org/record/2529950){:target="blank"}". Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
