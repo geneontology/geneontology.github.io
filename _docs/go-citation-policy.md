@@ -22,7 +22,7 @@ If you used a specific software/analysis tool in your research, in addition to t
 + **OBO-Edit**: Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. Aug 2007;23(16):2198-200. \[[abstract](http://bioinformatics.oxfordjournals.org/content/23/16/2198){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/23/16/2198.full){:target="blank"}\]
 
 
-If you produce tools and/or services that use GO data, the user should be provided the GO release date and DOI with the results (e.g. "2019-01-01" and "```doi:```[10.5281/zenodo.2529950](https://zenodo.org/record/2529950){:target="blank"}").
+If you produce tools and/or services that use GO data, the user should be provided the GO release date and DOI with the results (e.g. "2019-01-01" and "doi:[10.5281/zenodo.2529950](https://zenodo.org/record/2529950){:target="blank"}").
 
 ## Citing data from downloads
 
