@@ -14,7 +14,7 @@ redirect_from:
 
 ### Unique identifier and term name 
 
-Every term has a human-readable term name—e.g. mitochondrion, glucose transmembrane transport, amino acid binding—and a GO ID, a unique seven digit identifier prefixed by GO:, e.g. GO:0005739 or GO:1904659. 
+Every term has a human-readable term name — e.g. [mitochondrion](http://amigo.geneontology.org/amigo/term/GO:0005739), [glucose transmembrane transport](http://amigo.geneontology.org/amigo/term/GO:1904659), or [amino acid binding](http://amigo.geneontology.org/amigo/term/GO:0016597) — and a GO ID, a unique seven digit identifier prefixed by GO:, e.g. [GO:0005739](http://amigo.geneontology.org/amigo/term/GO:0005739), [GO:1904659](http://amigo.geneontology.org/amigo/term/GO:1904659), or [GO:0016597](http://amigo.geneontology.org/amigo/term/GO:0016597). 
 
 ### Aspect
 
@@ -46,7 +46,7 @@ Custom synonym types are also used in the ontology. For example, a number of syn
 
 ### Database cross-references
 
-Database cross-references, or dbxrefs, refer to identical or very similar objects in other databases. For instance, the molecular function term [retinal isomerase activity](http://amigo.geneontology.org/amigo/term/GO:0004744) is cross-referenced with [RHEA:24124](https://www.rhea-db.org/reaction.xhtml?id=24124); the biological process term sulfate assimilation has the [InterPro](https://www.ebi.ac.uk/interpro/) cross-reference [Sulphate adenylyltransferase (IPR002650)](https://www.ebi.ac.uk/interpro/entry/IPR002650).
+Database cross-references, or dbxrefs, refer to identical or very similar objects in other databases. For instance, the molecular function term [retinal isomerase activity (GO:0004744)](http://amigo.geneontology.org/amigo/term/GO:0004744) is cross-referenced with [RHEA:24124](https://www.rhea-db.org/reaction.xhtml?id=24124); the biological process term [ulfate assimilation (GO:0000103)](http://amigo.geneontology.org/amigo/term/GO:0000103) has the [InterPro](https://www.ebi.ac.uk/interpro/) cross-reference [Sulphate adenylyltransferase (IPR002650)](https://www.ebi.ac.uk/interpro/entry/IPR002650).
 
 ### Comment
 
