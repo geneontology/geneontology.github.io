@@ -14,7 +14,7 @@ redirect_from:
 
 ### Unique identifier and term name 
 
-Every term has a human-readable term name—e.g. mitochondrion, glucose transport, amino acid binding—and a GO ID, a unique seven digit identifier prefixed by GO:, e.g. GO:0005125 or GO:0060092. 
+Every term has a human-readable term name—e.g. mitochondrion, glucose transmembrane transport, amino acid binding—and a GO ID, a unique seven digit identifier prefixed by GO:, e.g. GO:0005739 or GO:1904659. 
 
 ### Aspect
 
@@ -26,7 +26,7 @@ A textual description of what the term represents, plus reference(s) to the sour
 
 ### Relationships to other terms
 
-How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an is a sub-class relationship to another term; for example, [glucose transport (GO:1904659)](http://amigo.geneontology.org/amigo/term/GO:0015758){:target="blank"}{:target="blank"} is a [monosaccharide transport (GO:0015749)](http://amigo.geneontology.org/amigo/term/GO:0015749){:target="blank"}. The Gene Ontology employs a number of other relations; the [relations documentation page](/docs/ontology-relations/) describes the relations used in the ontology.
+How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an is a sub-class relationship to another term; for example, [glucose transmembrane transport (GO:1904659)](http://amigo.geneontology.org/amigo/term/GO:1904659){:target="blank"}{:target="blank"} is a [monosaccharide transport (GO:0015749)](http://amigo.geneontology.org/amigo/term/GO:0015749){:target="blank"}. The Gene Ontology employs a number of other relations; the [relations documentation page](/docs/ontology-relations/) describes the relations used in the ontology.
 
 ## Optional elements
 
@@ -46,7 +46,7 @@ Custom synonym types are also used in the ontology. For example, a number of syn
 
 ### Database cross-references
 
-Database cross-references, or dbxrefs, refer to identical or very similar objects in other databases. For instance, the molecular function term retinal isomerase activity is cross-referenced with the Enzyme Commission entry EC:5.2.1.3; the biological process term sulfate assimilation has the cross-reference MetaCyc:PWY-781.
+Database cross-references, or dbxrefs, refer to identical or very similar objects in other databases. For instance, the molecular function term [retinal isomerase activity](http://amigo.geneontology.org/amigo/term/GO:0004744) is cross-referenced with [RHEA:24124](https://www.rhea-db.org/reaction.xhtml?id=24124); the biological process term sulfate assimilation has the [InterPro](https://www.ebi.ac.uk/interpro/) cross-reference [Sulphate adenylyltransferase (IPR002650)](https://www.ebi.ac.uk/interpro/entry/IPR002650).
 
 ### Comment
 
