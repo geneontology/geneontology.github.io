@@ -8,7 +8,7 @@ redirect_from: /page/syngo-synapse-biology
 The GO Consortium collaborates with many other groups on a wide variety of topics, particularly with groups whose expertise in specific areas of biology, or a complementary ontology project, would help to improve the usefulness of the GO resource. We welcome your feedback and contributions. Please [let us know](http://help.geneontology.org/){:target="blank"} if you are interested in a possible collaboration.
 
 ## Annotation/Ontology development projects
-+ [SynGO](http://geneontology.org/page/syngo-synapse-biology), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley){:target="blank"}
++ [SynGO](https://www.syngoportal.org/), capturing synaptic processes and cellular components [Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley){:target="blank"}
 + [Gene Regulation Consortium (GRECO)](http://thegreco.org/){:target="blank"}
 
 ## Domain-specific expertise
