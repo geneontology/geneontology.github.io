@@ -8,6 +8,8 @@ permalink: /docs/tools-overview/
 Gene Ontology provides a variety of tools to help users curate, browse, search, visualize and download both the [GO ontology](/docs/ontology-documentation/) and [GO annotations](/docs/go-annotations/).
 
 
+---
+
 ## Curate
 
 [Noctua](http://noctua.berkeleybop.org/){:target="blank"} is the curation platform developed by the Gene Ontology Consortium and allows to create both GO annotations and GO Causal Activity Models or GO-CAMs. The Noctua curation platform includes both a simple form editor and a more advanced and expressive graph editor for finer details on knowledge modeling.
@@ -16,15 +18,17 @@ Gene Ontology provides a variety of tools to help users curate, browse, search, 
 
 Documentation and guidelines for curators are available at [wiki.geneontology.org](http://wiki.geneontology.org/index.php/Noctua){:target="blank"}.
 
+---
 
 ## Browse
 
-Drill-down browsing of the GO ontology is pissible via an [interactive tree](http://amigo.geneontology.org/amigo/dd_browse){:target="blank"}.
+Drill-down browsing of the GO ontology is possible via an [interactive tree](http://amigo.geneontology.org/amigo/dd_browse){:target="blank"}.
 
 ![Browse GO ontology example](/assets/ontology-browse-tree.jpg)
 
 To browse curated and inferred GO annotations, visit [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}.
 
+---
 
 ## Search
 
@@ -36,6 +40,8 @@ Powered by the [Solr search engine](http://lucene.apache.org/solr/){:target="bla
 
 [![AmiGO faceted search example](/assets/amigo-faceted-search.jpg)](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}
 
+---
+
 ### GO-CAM
 
 GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple [standard GO annotations](/docs/go-annotations/) into larger models of biological function (such as “pathways”) in a semantically structured manner. GO-CAMs are created by expert biocurators from the [GO Consortium](/docs/annotation-contributors/), using the [Noctua Curation Platform](http://noctua.geneontology.org){:target="blank"}.
@@ -44,7 +50,7 @@ GO-CAMs can be browsed and searched in the [http://geneontology.org/go-cam](http
 
 [![GO-CAM example](/assets/GO-CAM-site-illustration.jpg)](https://geneontology.cloud/browse){:target="blank"}
 
-
+---
 
 ## Visualize
 
