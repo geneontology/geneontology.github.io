@@ -10,17 +10,7 @@ Gene Ontology provides a variety of tools to help users curate, browse, search, 
 
 ---
 
-## Curate
-
-[Noctua](http://noctua.berkeleybop.org/){:target="blank"} is the curation platform developed by the Gene Ontology Consortium and allows to create both GO annotations and GO Causal Activity Models or GO-CAMs. The Noctua curation platform includes both a simple form editor and a more advanced and expressive graph editor for finer details on knowledge modeling.
-
-![Noctua Curation Platform](/assets/NoctuaPlatform.jpg)
-
-Documentation and guidelines for curators are available at [wiki.geneontology.org](http://wiki.geneontology.org/index.php/Noctua){:target="blank"}.
-
----
-
-## Browse
+## Browse the ontology
 
 Drill-down browsing of the GO ontology is possible via an [interactive tree](http://amigo.geneontology.org/amigo/dd_browse){:target="blank"}.
 
@@ -30,19 +20,17 @@ To browse curated and inferred GO annotations, visit [AmiGO](http://amigo.geneon
 
 ---
 
-## Search
-
-### Ontology and standard GO Annotations
+## Search the ontology and GO annotations
 
 [AmiGO](http://amigo.geneontology.org/){:target="blank"} can be used to search both the GO ontology, the GO annotations and details about Gene Products described in our Knowledgebase.
 
-Powered by the [Solr search engine](http://lucene.apache.org/solr/){:target="blank"}, [AmiGO](http://amigo.geneontology.org/){:target="blank"} allows for advanced faceted searching to refine your query by restricting, for instance, to a specific species, a specific [aspect](/docs/ontology-documentation/) (Biological Process, Molecular Function or Cellular Component), a [specific evidence](/docs/guide-go-evidence-codes/) (e.g. only curated annotations), etc.
+AmiGO supports faceted search to refine queries by restricting specific parameters, such as a species, an [ontology aspect](/docs/ontology-documentation/) (Biological Process, Molecular Function or Cellular Component), an [evidence](/docs/guide-go-evidence-codes/) (e.g. only curated annotations), etc.
 
 [![AmiGO faceted search example](/assets/amigo-faceted-search.jpg)](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}
 
 ---
 
-### GO-CAM
+## Search GO Causal Activity Models (GO-CAMs)
 
 GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple [standard GO annotations](/docs/go-annotations/) into larger models of biological function (such as “pathways”) in a semantically structured manner. GO-CAMs are created by expert biocurators from the [GO Consortium](/docs/annotation-contributors/), using the [Noctua Curation Platform](http://noctua.geneontology.org){:target="blank"}.
 
@@ -52,13 +40,20 @@ GO-CAMs can be browsed and searched in the [http://geneontology.org/go-cam](http
 
 ---
 
-## Visualize
-
-### GO ribbon: a configurable tool for visualizing GO annotations
+## Visualize annotations with the GO Ribbon
 Many genes have large numbers of annotations, making it difficult to get a quick overview of a gene function, or the functions of gene sets. The GO ribbon is specifically designed to help users visualize and explore the functions of a gene and was developed as a lightweight, reusable widget that can be embedded in any website, and retrieves data directly from the GO resource via API.
  
 ![GO Ribbon example of SOX9](/assets/Ribbon-sox9-example.jpg)
 
 The GO Ribbon is currently integrated in the [Alliance of Genome Resources](https://www.alliancegenome.org/gene/RGD:620474#function---go-annotations){:target="blank"} and work is underway for further integration in several projects.
 
+---
+
+## Create annotations
+
+[Noctua](http://noctua.berkeleybop.org/){:target="blank"} is the curation platform developed by the Gene Ontology Consortium and allows to create both GO annotations and GO Causal Activity Models or GO-CAMs. The Noctua curation platform includes both a simple form editor and a more advanced and expressive graph editor for finer details on knowledge modeling.
+
+![Noctua Curation Platform](/assets/NoctuaPlatform.jpg)
+
+Documentation and guidelines for curators are available at [wiki.geneontology.org](http://wiki.geneontology.org/index.php/Noctua){:target="blank"}.
 
