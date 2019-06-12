@@ -3,9 +3,9 @@ title: Tools to curate, browse, search and visualize GO
 permalink: /docs/tools-overview/
 ---
 
-# Tools to curate, browse, search and visualize GO
+# Tools to browse, search, visualize and curate GO
 
-Gene Ontology provides a variety of tools to help users curate, browse, search, visualize and download both the [GO ontology](/docs/ontology-documentation/) and [GO annotations](/docs/go-annotations/).
+The Gene Ontology provides a variety of tools to help users browse, search, visualize, download both the [GO ontology](/docs/ontology-documentation/) and [GO annotations](/docs/go-annotations/). In addition, GO develops the [Noctua Curation Platform](http://noctua.geneontology.org){:target="blank"} for curators to create GO annotations.
 
 
 ---
@@ -22,7 +22,7 @@ To browse curated and inferred GO annotations, visit [AmiGO](http://amigo.geneon
 
 ## Search the ontology and GO annotations
 
-[AmiGO](http://amigo.geneontology.org/){:target="blank"} can be used to search both the GO ontology, the GO annotations and details about Gene Products described in our Knowledgebase.
+[AmiGO](http://amigo.geneontology.org/){:target="blank"} can be used to search both the GO ontology, the GO annotations and details about gene products described in the GO knowledgebase.
 
 AmiGO supports faceted search to refine queries by restricting specific parameters, such as a species, an [ontology aspect](/docs/ontology-documentation/) (Biological Process, Molecular Function or Cellular Component), an [evidence](/docs/guide-go-evidence-codes/) (e.g. only curated annotations), etc.
 
