@@ -7,7 +7,7 @@ permalink: /docs/tools-guide/
 
 ---
 
-> This page is intended to enable users to query the ontology and annotations using the GO APIs
+> This page documents various ways to query the ontology and annotations using the GO APIs
 
 ---
 
