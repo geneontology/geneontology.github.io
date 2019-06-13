@@ -9,11 +9,8 @@ permalink: /docs/tools-guide/
 
 ---
 
-## Query
+## Query GO ontology and annotations
 
-### GO Ontology and Annotations
-
-#### GOlr: GO Solr search engine
 The ontology and GO annotations can easily be searched and retrieved via the GO Solr search engine API called [GOlr](http://golr-aux.geneontology.io/solr).
 
 The following is a query example to retrieve all [meta data about the GO term GO:0030182](http://golr-aux.geneontology.io/solr/select?fq=document_category:"ontology_class"&q=*:*&fq=id:"GO:0030182"&wt=json){:target="blank"}:
@@ -47,8 +44,10 @@ Note: pagination can be achieved by using the start & rows parameter. [Example](
 http://api.geneontology.org/api/bioentity/function/GO:0006915?start=0&rows=2
 ```
 
+---
 
-### GO Causal Activity Models (Experimental)
+## Query GO Causal Activity Models (Experimental)
+
 GO also provides an [API](https://api.geneontology.cloud/models){:target="blank"} to query data about GO-CAMs as well as a [swagger documentation](https://app.swaggerhub.com/apis-docs/geneontology/gosparql){:target="blank"} to familiarize with the routes and parameters. The API is used to power the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site.
 
 Query example to retrieve all [GO terms contained in the GO-CAM 59a6110e00000067](https://api.geneontology.cloud/models/go?gocams=59a6110e00000067){:target="blank"}:
@@ -75,12 +74,7 @@ More information available on the [swagger documentation of the API](https://app
 
 ---
 
-## Download
-
-### General Download
-GO provides different ways to download both its [ontology](/docs/download-ontology/) and its [annotations](/docs/download-go-annotations/). Among them, GO provides a programmatic way to access full or holey BD bags.
-
-### Programmatic Download: BDBag
+## Programmatic Download: BDBag
 The following example requires both [python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/) to be installed. Once this is done, you can install the [BDBag cli](https://github.com/fair-research/bdbag) by following those steps:
 
 ```
