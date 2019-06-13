@@ -5,7 +5,9 @@ permalink: /docs/tools-guide/
 
 # Programmatic Access to Gene Ontology
 
-> This page is under construction and will be refined in the next few months
+> This page is intended to enable users to query the ontology and annotations using the GO APIs
+
+---
 
 ## Query
 
@@ -71,6 +73,7 @@ https://api.geneontology.cloud/gp/http%3A%2F%2Fidentifiers.org%2Fmgi%2FMGI%3A358
 
 More information available on the [swagger documentation of the API](https://app.swaggerhub.com/apis-docs/geneontology/gosparql){:target="blank"}
 
+---
 
 ## Download
 
