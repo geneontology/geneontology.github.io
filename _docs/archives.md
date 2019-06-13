@@ -12,6 +12,11 @@ redirect_from:
 ---
 
 # Archived data
+
+## General GO archive
+The general GO archive which includes both the ontology and annotations under different formats (including deprecated ones) is available at:
+[http://archive.geneontology.org/](http://archive.geneontology.org/){:target="blank"}
+
 ## Archived ontology files
 
 An archive of the ontology files (in both current and legacy formats) from the first of each month is available on the GO Database archive.  
