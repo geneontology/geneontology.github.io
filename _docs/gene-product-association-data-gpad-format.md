@@ -12,8 +12,9 @@ CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to 
 
 # Gene Product Association Data (GPAD) files
 
+GPAD files contain annotations for gene products which are further detailed in [GPI files](/docs/gene-product-information-gpi-format/).
+
 This page describes the *G*ene *P*roduct *A*ssociation *D*ata (GPAD) 1.1 format. 
-**Note that the GPAD files must be used together with [GPI files](/docs/gene-product-information-gpi-format/).**
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
 
