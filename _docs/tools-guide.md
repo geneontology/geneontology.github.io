@@ -5,6 +5,8 @@ permalink: /docs/tools-guide/
 
 # Programmatic Access to Gene Ontology
 
+---
+
 > This page is intended to enable users to query the ontology and annotations using the GO APIs
 
 ---
