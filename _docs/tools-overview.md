@@ -49,6 +49,14 @@ The GO Ribbon is currently integrated in the [Alliance of Genome Resources](http
 
 ---
 
+## Explore co-annotations with the GO Term Matrix
+[The GO Term Matrix](http://amigo.geneontology.org/matrix#order){:target="blank"} represents co-annotations of pairs of GO terms. It allows to compare multiple pairs of terms simultaneously.
+
+![GO term matrix](/assets/go-term-matrix.png)
+
+
+---
+
 ## Create annotations
 
 [Noctua](http://noctua.berkeleybop.org/){:target="blank"} is the curation platform developed by the Gene Ontology Consortium and allows to create both GO annotations and GO Causal Activity Models or GO-CAMs. The Noctua curation platform includes both a simple form editor and a more advanced and expressive graph editor for finer details on knowledge modeling.
