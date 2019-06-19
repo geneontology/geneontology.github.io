@@ -1,0 +1,92 @@
+--- 
+layout: default 
+---
+
+
+<!-- Google Analytics: Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-440742-2"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!-- <script type=module src="https://unpkg.com/@google-web-components/google-chart@3.0.0/google-chart.js?module"></script> -->
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="stats.js"></script>
+
+<script type="text/javascript">
+  google.charts.load('current', {packages: ['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+</script>
+
+
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+	gtag('config', 'UA-440742-2');
+</script>
+
+
+<google-chart id="chart" data='[["a", "b"], [1, 2], [2, 3]]' style='display:none'></google-chart>
+
+<div class="container">
+	<div class="row">
+
+        This page gathers some useful statistics related to both the GO ontology and the GO annotations. The first section informs on the current release while the second section details the evolution over time from monthly release to release.
+
+        <!-- CURRENT RELEASE STATS -->
+        <h2>Current release statistics</h2>
+        <hr>    
+
+        <h3> Ontology</h3>
+        <h4>Distribution of GO terms by aspect</h4>
+        <div id="graph-terms-aspect"></div>
+
+        <h3> Annotations</h3>
+        <hr>
+
+        <h4>Most annotated species</h4>
+        <div id="graph-annotations-species"></div>
+
+        <h4>Most evidence used</h4>
+        <div id="graph-annotations-evidence"></div>        
+        
+
+        <!-- RELEASES STATISTICS over time -->
+        <h2>Releases statistics over time</h2>
+        <hr>    
+        
+        <h3> Ontology</h3>
+        <hr>
+
+        <h4>GO terms by aspect</h4>
+        <div id="graph-terms-aspect-ot"></div>
+        
+        <h4>Changes in GO terms</h4>
+        <div id="graph-terms-changes-ot"></div>
+
+        <h3> Annotations</h3>
+        <hr>
+
+        <h4>GO annotations by species</h4>
+        <div>
+            <span>Species:</span>
+            <span>
+                <select onchange="changeSpecies()" id="select-species">
+                </select>
+            </span>
+        </div>        
+        <div id="graph-species-ot"></div>
+
+        <h4>Articles curated by species</h4>
+
+        <h4>Genes annotated by species and aspect</h4>
+        
+
+
+        
+    </div>
+</div>
+
+
+<br>
+<br>
