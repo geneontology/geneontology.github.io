@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand go-link" href="{{ site.baseurl }}/">
+            <a class="navbar-brand go-link" href="{{ site.baseurl }}/" style="margin-right: 20px;">
                 <span>
                     <img src="/assets/go-logo.large.png">
                 </span>
@@ -22,7 +22,7 @@
 
                 {% for doc in site.data.docs %}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle link-extended" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="nav-link dropdown-toggle link-extended u-letter-spacing-xxsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                             style="padding: 8px 3px;" aria-expanded="false">
                             {{ doc.title }}
                         </a>
@@ -45,23 +45,27 @@
                 {% endfor %}
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    <a class="nav-link dropdown-toggle u-letter-spacing-xsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                         style="padding: 8px 3px;" aria-expanded="false">
                         Help
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width:248px; margin-bottom: 0px;">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width: 280px; margin-bottom: 0px;">
 
-                        <a href="{{ " /docs/faq/ " | prepend: site.baseurl }}"  class="dropdown-menu__item__link">
-                            <i class="fa fa-question-circle"></i>
-                            FAQs</a>
-
-                        <a href="{{" /search "}}" title="Search GO Documentation"   class="dropdown-menu__item__link">
+                        <a href="/search.html" title="Search GO Documentation"   class="dropdown-menu__item__link">
                             <i class="fa fa-search"></i>
-                            Search Documentation</a>
-
+                            &nbsp; Search Documentation</a>
+    
+                        <a href="{{ " /docs/faq/ " | prepend: site.baseurl }}"  class="dropdown-menu__item__link">
+                            <i class="fa fa-question" style="margin-right: 4px; margin-left: 2px;"></i>
+                            &nbsp; Frequently Asked Questions</a>
+    
+                        <a href="{{ " /docs/go-citation-policy/ " | prepend: site.baseurl }}"  class="dropdown-menu__item__link">
+                            <i class="fa fa-pencil" style="margin-right: 4px; margin-left: 2px;"></i>
+                            &nbsp; Citation and Terms</a>
+    
                         <a href="http://help.geneontology.org" target="blank" title="Contact the GO helpdesk"   class="dropdown-menu__item__link">
                             <i class="fa fa-comments-o"></i>
-                            Contact us</a>
+                            &nbsp; Contact us</a>
 
 
                         <!-- <nav class="navbar navbar-light bg-light" style="margin-bottom: 0px; padding: 0px 5px; min-height: 30px;">
@@ -93,59 +97,37 @@
 
             </ul>
 
+            <!-- SOCIAL LINKS -->
             <div class="navbar-right">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="https://github.com/geneontology" target="blank" style="padding: 8px 3px;">
+                        <a href="https://github.com/geneontology" target="blank" style="padding: 8px 3px; font-size: 15px;">
                             <i class="fa fa-github" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/news4go" target="blank" style="padding: 8px 3px;">
+                        <a href="https://twitter.com/news4go" target="blank" style="padding: 8px 3px; font-size: 15px;">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.facebook.com/pages/Gene-Ontology/305908656519" target="blank" style="padding: 8px 3px;">
+                    <li style="margin-right: 5px">
+                        <a href="https://www.facebook.com/pages/Gene-Ontology/305908656519" target="blank" style="padding: 8px 3px; font-size: 15px;">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
+
+                <a href="https://www.alliancegenome.org" target="blank" alt="Alliance of Genome Resources" >
+                    <img src="/assets/ALLIANCE-logo-nobackground_foundingmember.png" alt="Alliance of Genome Resources" style="height: 60px; margin-right: 10px;"/>
+                </a>
+    
             </div>
+
+    
         </div>
 
 
     </div>
-<!-- 
-    {% for doc in site.data.docs %}
-    <ul>
-        {{ doc.title }} 
-        {% for subdoc in doc.docs %}
 
-            {% for doc in site.docs %}
-            <ul>
-                {% assign filename = doc.url | replace: '/docs/', '' %}
-                {% assign filename = filename | replace: '/', '' %}
-                
-                {%if filename == subdoc %}
-                    <li>{{ doc.title }}</li>
-                {% endif %}
-            </ul>
-            {% endfor %}
-    
-
-        {% endfor %}
-        </li>
-    </ul>
-    {% endfor %}
-     -->
-
-
-
-    <!-- {% for doc in site.docs %}
-    <ul>
-        {{ doc.id | replace: '/docs/', '' }}
-    </ul>
-    {% endfor %} -->
 
 </nav>

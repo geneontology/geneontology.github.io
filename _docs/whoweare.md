@@ -1,56 +1,63 @@
 ---
 title: Who we are
 permalink: /docs/whoweare/
-redirect_from: /page/about
+redirect_from: 
+- /page/about
+- /page/acknowledgments-contributors
 ---
 
 # Who we are
 
-We want to acknowledge the contributions of the following individuals in the development of the GO knowledgebase.
-## The Founder
-
-- [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
+The Gene Ontology Consortium is a large, international group of scientists in the disciplines of biology and computer science.
 
 ## Principal Investigators
 + [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, University of Southern California
 + [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech
-+ [Christopher Mungall](https://orcid.org/0000-0002-6601-2165){:target="blank"}, Lawrence Berkeley National Laboratory
++ [Christopher Mungall](http://www.berkeleybop.org/people/chris-mungall){:target="blank"}, Lawrence Berkeley National Laboratory
 + [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"}, Stanford University
 + [Judith Blake](https://www.jax.org/research-and-faculty/faculty/judith-blake){:target="blank"}, Jackson Laboratory
 
-
-## Project Leads
-+ [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Quality Assurance
+## Project leads
++ [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Overall Project Management
 + [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"}, Lawrence Berkeley National Laboratory - Architecture
 + David Hill, Jackson Laboratory - Ontology
 + [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"}, Caltech - Annotation
-+ [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetics
-+ [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Outreach
++ [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetic Annotation
++ [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Bioinformatics Outreach
 + Suzi Aleksander, Stanford University - User Support
 
 ## GO Council
-- __European Bioinformatics Institute__ (EBI):
-  - [Sandra	Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"} and [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}
-  - as well as: [Rolf	Apweiler](https://www.ebi.ac.uk/about/people/rolf-apweiler){:target="blank"}, [Ewan Birney](https://www.ebi.ac.uk/about/people/ewan-birney){:target="blank"}, [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, and [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}
-- __UniProt__
-  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, [Maria J.	Martin](https://www.ebi.ac.uk/about/people/maria-jesus-martin){:target="blank"}, [Sylvain	Poux](https://orcid.org/0000-0001-7299-6685){:target="blank"}
+Leaders of key contributing resources.
+- __Dictybase__
+  - Rex	Chisholm, Northwestern University
+- __EcoliWiki__
+  - James C. Hu, Texas A&M University
+- __EBI Ontologies team__
+  - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
+- __FlyBase__
+  - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
+- __Functional Gene Annotation Initiative__
+  - Ruth C.	Lovering, University College London
+- __InterPro__
+  - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
+- __PomBase__
+  - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
+- __RGD__
+  - Mary Shimoyama, Milwaukee College of Medicine
 - __Reactome__
-  - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"} and [Lincoln Stein](https://oicr.on.ca/investigators/lincoln-stein/){:target="blank"}
-- [__Alliance for Genome Resources__](https://www.alliancegenome.org/){:target="blank"}
-  - *__Drosophila__*: [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"} and [Steven	Marygold](https://www.pdn.cam.ac.uk/research/groups/flybase){:target="blank"}, Cambridge University
-    - Thomas	Kaufman, Indiana University
-    - Norbert	Perrimon, Harvard University
-  - __Rat__: Mary	Shimoyama, Milwaukee College of Medicine
-  - *__Saccharomyces__*: Stacia R.	Engel
-  - __WormBase__: Kevin	Howe, EBI and  *emeritus* Paul Kersey, Kew Gardens
-  - __Zebrafish__: Monte	Westerfield, University of Oregon
-- __Additional Contributing Resources__
-  - __Evidence Code Ontology__: Marcus C.	Chibucos, University of Maryland
-  - __DictyBase__: Rex	Chisholm, Northwestern University
-  - *__E. coli__*: James C. Hu, Texas A&M
-  - *__Arabidopsis thaliana__*: Eva Huala, Phoenix Bioinformatics
-  - __Human focus__: Ruth C.	Lovering, University College London
-  - __PomBase__: Valerie	Wood, Cambridge University
+  - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
+- __TAIR__
+  - Eva Huala, Phoenix Bioinformatics
+- __UniProt__
+  - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
+  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, Swiss Institute of Bioinformatics
+- __ZFIN__
+  - Monte	Westerfield, University of Oregon
+  
+## Founders
+
+- [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
+- [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"}
 
 ## Current GO contributors
 
@@ -88,7 +95,7 @@ We want to acknowledge the contributions of the following individuals in the dev
 | N.	Tyagi | S.J.	Wang | K.	Warner | Shuai	Weng | Edith D.	Wong |
 | Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru | P.	Zhou |
 
-## GO Contributors *emeriti*
+## GO contributors *emeriti*
 
 | --- | --- | --- | --- |
 | Debbie	Alexander | Igor	Antoshechkin | Rama	Balakrishnan | Carol	Bastiani | Lydie	Bougueleret |

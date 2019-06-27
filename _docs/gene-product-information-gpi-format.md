@@ -1,23 +1,26 @@
 ---
-title: Gene Product Information (GPI) Format
+title: Gene Product Information (GPI) format
 permalink: /docs/gene-product-information-gpi-format/
 
 ---
 
-# Gene Product Information (GPI) Files
-+ The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. This page describes the Gene Product Information (GPI) 1.2 format. 
-+ **Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).**
-+ GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-21/).
-+ For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
+# Gene Product Information (GPI) files
+
+This guide lays out the format specifications for the *G*ene *P*roduct *I*nformation (GPI) 1.2 format.
+**Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).**
+
+The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link.
+
+GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.1/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
 # Gene Product Information (GPI) 1.2 format
 
-## GPI format version
+## GPI version
 All annotation files must start with a single line denoting the file format. For GPI it is as follows:
 
     !gpi-version: 1.2
 Other information, such as contact details for the submitter or database group, useful links, etc., can be included in an association file by prefixing the line with an exclamation mark (**!**); such lines will be ignored by parsers.
-## Annotation File Fields
+## GPI fields
 
 The file format comprises 10 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
 

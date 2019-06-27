@@ -7,7 +7,7 @@ permalink: /docs/go-consortium/
 
 The Gene Ontology Consortium (GOC) integrates resources from a variety of research groups, from model organisms to protein databases to the biological research communities actively involved in the development and implementation of the Gene Ontology. Below is a list of our collaborators.
 
-## Current GO Consortium Contributing Groups
+## Current GO Consortium contributing groups
 
 | Name 	| Description |	Funding |	Contact |
 |-------|-------------|---------|---------|
@@ -23,7 +23,7 @@ The Gene Ontology Consortium (GOC) integrates resources from a variety of resear
 |[EnsemblFungi](http://fungi.ensembl.org/index.html)| 	Predicted annotation for fungi based on orthology 	 ||[EnsemblFungi contact](http://fungi.ensembl.org/Help/Contact)|
 |[EnsemblPlants/Gramene](http://plants.ensembl.org/info/website/index.html)| 	Predicted annotation for plants based on orthology 	 | |[EnsemblPlants contact](http://plants.ensembl.org/Help/Contact)|
 |[FlyBase](http://flybase.org/)| 	A Database of Drosophila Genes & Genomes. |	National Human Genome Research Institute at the U.S. National Institutes of Health P41 HG000739 and Medical Research Council, UK grant G1000968 |	[FlyBase contact](http://flybase.org/contact/email)|
-|[GeneDB ](http://www.genedb.org/Homepage)|	Curation for the whole range of organisms sequenced by the Sanger Institute's Pathogen Genomics group 	||	[GeneDB](genedb-help@sanger.ac.uk)||
+|[GeneDB ](http://www.genedb.org/Homepage)|	Curation for the whole range of organisms sequenced by the Sanger Institute's Pathogen Genomics group 	||	[GeneDB](mailto:genedb-help@sanger.ac.uk)||
 |[Gramene](http://www.gramene.org/) |	A comparative plant genomics resource for model and reference genomes of more than 30 plant genomes. It provides information for genomes, gene models, gene annotations, genome and gene tree alignments, synteny, genetic variation, gene expression, and a knowledgebase for plant pathways (Plant Reactome). 	| The National Science Foundation (NSF) supported this work through NSF Plant Genome Initiative grant award #0321685 during the years 2004-2007, NSF award #0851652 (REU Bioinformatics and Computational Biology Summer Undergraduate Program) in 2009-2012, and since 2007, through NSF Plant Genome Research Resource grant award #0703908. Current work is being supported by NSF Improving Plant Genome Annotation grant award #1127112 (Gramene - Exploring Function through Comparative Genomics and Network Analysis). [More information](http://gramene.org/funding) |[	Gramene web submission form](http://tools.gramene.org/feedback)|
 |[IntAct molecular interaction database](http://www.ebi.ac.uk/intact/) |	High-quality, manually annotated binary protein interactions and curated complexes. 	|NHLBI Proteomics Center Award (HHSN268201000035C), European Commission grant Affinomics (FP7-241481), The Michael J. Fox Foundation for Parkinson's Research LRRK2 Biology LEAPS, BBSRC MIDAS (BB/L024179/1)| [IntAct](intact-help@ebi.ac.uk)|
 |[Institute for Genome Sciences, University of Maryland](http://www.igs.umaryland.edu/)| 	Data and tools for genomics research in a variety of systems. Development of ECO, an ontology for describing evidence to support biological assertions. Development of an Ontology of Microbial Phenotypes. |	ECO is funded by the National Science Foundation under Award Number 1458400 |[IGS](mgiglio@igs.umaryland.edu)|
@@ -44,7 +44,7 @@ The Gene Ontology Consortium (GOC) integrates resources from a variety of resear
 |[WormBase](http://www.wormbase.org/)| 	WormBase is an international consortium of biologists and computer scientists dedicated to providing the research community with accurate, current, accessible information concerning the genetics, genomics and biology of Caenorhabditis elegans and related nematodes. |	WormBase is supported by grant #U41 HG002223 from the National Human Genome Research Institute at the US National Institutes of Health, the UK Medical Research Council, and the UK Biotechnology and Biological Sciences Research Council.| [	WormBase](http://www.wormbase.org/tools/support)|
 |[The Zebrafish Model Organism Database (ZFIN)](http://zfin.org/)| 	Reference datasets and information on Danio rerio |	|  	[ZFIN](curators@zfin.org)|
 
-## Former GO Consortium Contributing Groups
+## Former GO Consortium contributing groups
 
 In alphabetical order:
 

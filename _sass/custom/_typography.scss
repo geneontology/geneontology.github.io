@@ -2,6 +2,24 @@ h1 {
     color: #002379 !important;
 }
 
+h2 {
+    color: #002379 !important;
+    margin-top: 40px 0px;
+}
+
+h3 {
+    margin: 20px 0px
+}
+
+h4 {
+    margin: 20px 0px
+}
+
+hr {
+    margin-top: 32px;
+    border-top: 1px solid lightsteelblue;
+}
+
 b, strong {
     font-weight: 800 !important;
 }
@@ -66,7 +84,7 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
 }
 
 .dropdown-menu {
-    width: 300px !important;
+    width: 250px;
     border-radius: 0px 20px 20px 0px;
     box-shadow: -5px 10px 29px black;
     // padding: 5px !important;
@@ -83,12 +101,16 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
     padding: 0px;
     margin: 0px;
     transition: all 0.2s;
+
     &__link {
         display: block;
         padding: 8px 6px;
         text-decoration: none;
         font-weight: 400 !important;
-        width: 100%; // transition: all 0.2s;
+        width: 100%; 
+        transition: padding 0.2s;
+        // transition:  0.15s text-align ease;
+        
         &:hover {
             text-decoration: none;
             font-weight: 400 !important;
@@ -96,6 +118,7 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
             background-color: navy;
             color: white;
             border-radius: 5px;
+            padding-left: 10px;
         }
     }
 }
@@ -121,6 +144,11 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
         // animation-duration: 1s;
         // animation-timing-function: ease-out;
     }
+}
+
+.header_stat {
+    display: inline-block;
+    color: white;
 }
 
 @keyframes moveInLeft {
@@ -171,4 +199,19 @@ a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):
         opacity: 1;
         transform: translate(0);
     }
+}
+
+
+.nav > li {
+    margin-right: 15px;
+}
+
+.fa {
+    text-shadow: rgba(0, 0, 0, 0.25) 1.5px 1.5px 5px;    
+}
+
+.input_hint {
+    font-size: $value-xmsmall;
+    font-style: italic;
+    margin-top: 0.3rem;
 }
