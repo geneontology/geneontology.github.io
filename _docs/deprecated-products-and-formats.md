@@ -25,7 +25,7 @@ redirect_from:
 
 ## Annotation formats
 
-+  [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-20/) 
++  [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-2.0/) 
 +  GO Annotation File Format 1.0 was deprecated in June 2010. 
 
 Please contact the <a href="http://help.geneontology.org">GO Helpdesk</a> if you have any questions.

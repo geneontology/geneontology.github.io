@@ -3,7 +3,7 @@ title: Submitting GO Annotations
 permalink: /docs/submitting-go-annotations/
 ---
 # Overview
- * **Prepare**- GOC encourages use of [GAF 2.1](/docs/go-annotation-file-gaf-format-21/), although [GAF 2.0](/docs/go-annotation-file-gaf-format-20/) is still accepted.  If you're reading this, now is a great time to make the minor changes and upgrade to 2.1!
+ * **Prepare**- GOC encourages use of [GAF 2.1](/docs/go-annotation-file-gaf-format-2.1/), although [GAF 2.0](/docs/go-annotation-file-gaf-format-2.0/) is still accepted.  If you're reading this, now is a great time to make the minor changes and upgrade to 2.1!
  * **Submit**- GOC asks that all submitting groups provide a static address that always contains the group's most recent GAF.  This GAF will be retreived by GO on demand and ensure the group's most recent file is always used for the monthly production pipeline.
  The address for a group's GAF should appear in the `source` line (approximately line 19) of the group's yaml file.  For example, MGI's file [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml) contains the line:
  
@@ -124,3 +124,20 @@ identifiers that should correspond with each other may not always display the sa
     of obsolete or secondary UniProtKB accessions in a group's gp2protein, or in the case NCBI identifiers are made obsolete). 
  * For groups who provide authoritative files for a species, or who are funded by the GO NIH grant, please consult the 
     description of GO annotation activities by central GO Consortium members.
+
+# Submit
+
+Annotations will need to be available at a stable, permanent URL accessible by GO. This must be added to the group's yaml in the GO Github repo: /go-site/metadata/datasets/nameofgroup.yaml
+
+# Review
+
+Both new and established groups that commit to be species owners will need to review annotations after submission.  Annotations need to be checked periodically to ensure ontology changes, curation best practices, and biological knowledge are accurately reflected in the annotations. 
+
+Any annotations that violate the GO_rules constraints will be listed in http://snapshot.geneontology.org/reports/index.html.  This report contains the rule number, a description of the rule, severity of the violation, and the full annotation line from the GAF. A less detailed graphical view can be found at http://current.geneontology.org/reports/gorule-report.html; click any link in your group's column to be taken to the detailed HTML report.
+
+* WARNING= these are typically minor infractions or ones that have been fixed automatically by the pipeline.  It is strongly recommended these are manually fixed for the next submission/release.
+* ERROR= these are removed from the release.  These must be manually fixed in order to appear in any subsequent release.
+
+If you feel like your annotation is correct, but the rule is overly restrictive, please contact us to review the GORULE.
+
+

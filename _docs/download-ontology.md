@@ -1,5 +1,5 @@
 ---
-title: Download the ontology
+title: Download ontology
 permalink: /docs/download-ontology/
 redirect_from: 
 - /page/download-ontology
@@ -38,7 +38,7 @@ These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. Th
 
 ### go-plus.owl {#go_plus_owl}
 
-This is the fully axiomatised of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [cell ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format.
+This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format.
 
 ## Subsets
 
@@ -78,6 +78,14 @@ For internal checking purposes, GO maintains two "anti-slims", terms to which an
 
 Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [cross-references of external classification systems to GO page](/docs/download-mappings/) contains more information and links to the cross-reference2GO files.
 
-## Related Tools 
+## Snapshot Editions
+
+As of April 2019, the standard PURLs for GO will resolve to the monthly (release) version. If you have need to access the snapshot (daily) version, use `/snapshot/` in the URL. For example:
+
+ * http://purl.obolibrary.org/obo/go/snapshot/go.obo
+ * http://purl.obolibrary.org/obo/go/snapshot/go.owl
+ * http://purl.obolibrary.org/obo/go/snapshot/extensions/go-plus.owl
+
+## Related tools 
 + [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools){:target="blank"}: a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
 * [OWL API in Github](https://github.com/owlcs/owlapi){:target="blank"}: a Java API for creating, manipulating and serialising OWL Ontologies

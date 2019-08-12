@@ -14,7 +14,7 @@ redirect_from:
 
 A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, and what biological processes (pathways, programs) it helps to carry out.
 
-Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. All GO annotations are ultimately supported by the scientific literature, either directly or indirectly. In GO, the supporting evidence is presented in the form of a [GO evidence codes](/docs/guide-go-evidence-codes/) and either a published reference or description of the methodology used to create the annotation. The GO evidence codes describe the type of evidence and reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
+Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. All GO annotations are ultimately supported by the scientific literature, either directly or indirectly. In GO, the supporting evidence is presented in the form of a [GO Evidence Codes](/docs/guide-go-evidence-codes/) and either a published reference or description of the methodology used to create the annotation. The GO evidence codes describe the type of evidence and reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
 
 
 <!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
@@ -25,17 +25,15 @@ Associations of gene products to GO terms are statements that describe
 + Cellular Component: where the gene products are active
 + Biological Process: the pathways and larger processes to which that gene product's activity contributes
 
-**Note that GO annotations intend to capture the normal, in vivo biological role of genes or gene products**.
-
-<!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
-
-## General Principles of GO Annotations
+## General principles of GO annotations
++  Annotations represent the normal functions of gene products. 
 +  A gene product can be annotated to zero or more terms from each ontology.
-+  Gene products are annotated to the most detailed (i.e. granular) level in the ontology that is supported by the experimental evidence in the cited reference.
++  Each annotation is supported by an [GO Evidence Codes](/docs/guide-go-evidence-codes/) from the [Evidence and Conclusions Ontology](http://www.evidenceontology.org/) and a reference. 
++  Gene products are annotated to the most granular term in the ontology that is supported by the available evidence.
 +  By the transitivity principle, an annotation to a GO term implies annotation to all its parents.
 +  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.  
-+  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown
 +  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
++  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown.
 
 ## Annotation qualifiers
 
@@ -55,7 +53,7 @@ Some annotations are modified by qualifiers, which have specific usage rules and
 
 <!-- ????-->
 ## Annotation extensions
-Annotation extensions provide additional information about a GO annotation that cannot be captured in a single GO term. Please see publications describing annotation extensions: [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}. Annotation extensions are available in both the [GAF File Format](/docs/go-annotation-file-gaf-format-21/#annotation-extension-column-16) and the [GPAD File Format](/docs/gene-product-association-data-gpad-format/#annotation-extension).
+Annotation extensions provide additional information about a GO annotation that cannot be captured in a single GO term. Please see publications describing annotation extensions: [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}. Annotation extensions are available in both the [GAF File Format](/docs/go-annotation-file-gaf-format-2.1/#annotation-extension-column-16) and the [GPAD File Format](/docs/gene-product-association-data-gpad-format/#annotation-extension).
 
 <!-- ????-->
 ## Annotation quality control
@@ -67,6 +65,11 @@ GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking mult
 The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.
 
 GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"}
+
+## Types of GO annotation files
+* [Gene Product Association Data (GPAD) files](/docs/gene-product-association-data-gpad-format/) + [Gene Product Information (GPI) files](/docs/gene-product-information-gpi-format/): these are companion files
+* [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
+* [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
 
 
 ## Downloads

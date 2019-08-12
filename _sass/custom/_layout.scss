@@ -473,6 +473,10 @@ $gutter-horizontal: 6rem;
         // round picture effect on top
         border-radius: 15px 15px 0px 0px;
 
+        &:hover {
+            cursor: pointer;
+        }
+
         &__dna--red {
 //            background-image: linear-gradient(to right bottom, #ff0000, #6b2081), url(../assets/abstract-network-graph.png);            
             background-image: linear-gradient(to right bottom, rgba(255, 0, 0, 0.1), rgb(129, 32, 32)), url(../assets/abstract-network-graph.png);
@@ -519,7 +523,7 @@ $gutter-horizontal: 6rem;
     &__description {
         padding: 5px;
         margin-bottom: 50px;
-        min-height: 170px;
+        min-height: 175px;
     }
 
     &__link {

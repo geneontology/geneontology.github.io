@@ -53,7 +53,7 @@ layout: default
 
 				<div class="col-md-8">
 
-					<p class="site__statement" style="font-size: 16px; max-width: 900px; margin-bottom: 0px;">
+					<p class="site__statement" style="font-size: 16px; max-width: 820px; margin-bottom: 0px; text-align: justify;">
 						The mission of the GO Consortium is to develop a comprehensive,
 						<b>computational model of biological systems</b>, ranging from the molecular to the organism level, across the multiplicity
 						of species in the tree of life.
@@ -88,7 +88,7 @@ layout: default
 
 					<p>
 						<form action="http://amigo.geneontology.org/amigo/medial_search" class="" method="GET" name="form-search" target="_blank"
-						 style="max-width: 800px;">
+						 style="max-width: 810px;">
 							<div class="center-block" style="padding-bottom: 1em;">
 								<div class="input-group">
 									<input id="gsf-query" class="form-control input-lg go-search-bar" style="width: 100%; border-radius:25px 0px 0px 25px;height: 50px; font-size: 16px;"
@@ -112,14 +112,18 @@ layout: default
 
 				<div class="col-md-4" style="transform: translateY(-15px);">
 
-					<h3 class="display: block; margin-left: auto; margin-right: auto;" style="font-size: 24px; letter-spacing: 0.18rem; margin-top: 0px;">
+					<h3 style="display: block; margin-left: auto; margin-right: auto; font-size: 24px; letter-spacing: 0.18rem; margin-top: 0px; margin-bottom: 0px; ">
 						<a href="/docs/go-enrichment-analysis/" style="color:white; font-size: 22px;">GO Enrichment Analysis
 							<i class="fa fa-question-circle"></i>
 						</a>
-						</h5>
+					</h3>
+					<i style="	
+								width: 100%;
+								display: block;
+								font-size: 14px;">Powered by <a href="http://pantherdb.org" style="color: white" target="blank">PANTHER</a></i>
 
 						<form action="http://pantherdb.org/webservices/go/overrep.jsp" class="form-inline" role="form" method="POST" target="_blank">
-							<input name="correction" value="bonferroni" type="hidden">
+							<input name="correction" value="fdr" type="hidden">
 							<input name="format" value="html" type="hidden">
 							<input name="resource" value="PANTHER" type="hidden">
 							<textarea id="landing_gene_input" class="form-control" rows="6" name="input" placeholder="Your gene IDs here..." style="width:100%; resize: none; margin-bottom: 5px; font-size: 14px;"></textarea>
@@ -149,6 +153,7 @@ layout: default
 										<option value="ARATH">Arabidopsis thaliana</option>
 										<option value="ECOLI">Escherichia coli</option>
 										<option value="EMENI">Emericella nidulans</option>
+										<option value="AMBTC">Amborella trichopoda</option>
 										<option value="ANOCA">Anolis carolinensis</option>
 										<option value="ANOGA">Anopheles gambiae</option>
 										<option value="AQUAE">Aquifex aeolicus</option>
@@ -159,62 +164,82 @@ layout: default
 										<option value="BATDJ">Batrachochytrium dendrobatidis</option>
 										<option value="BOVIN">Bos taurus</option>
 										<option value="BRADI">Brachypodium distachyon</option>
-										<option value="BRAJA">Bradyrhizobium japonicum</option>
+										<option value="BRADU">Bradyrhizobium diazoefficiens</option>
 										<option value="BRAFL">Branchiostoma floridae</option>
+										<option value="BRARP">Brassica rapa subsp. pekinensis</option>
 										<option value="CAEBR">Caenorhabditis briggsae</option>
 										<option value="CANAL">Candida albicans</option>
-										<option value="CANFA">Canis familiaris</option>
+										<option value="CANLF">Canis lupus familiaris</option>
 										<option value="CHLTR">Chlamydia trachomatis</option>
 										<option value="CHLRE">Chlamydomonas reinhardtii</option>
 										<option value="CHLAA">Chloroflexus aurantiacus</option>
 										<option value="CIOIN">Ciona intestinalis</option>
+										<option value="CITSI">Citrus sinensis</option>
 										<option value="CLOBH">Clostridium botulinum</option>
 										<option value="COXBU">Coxiella burnetii</option>
 										<option value="CRYNJ">Cryptococcus neoformans</option>
+										<option value="CUCSA">Cucumis sativus</option>
 										<option value="DAPPU">Daphnia pulex</option>
 										<option value="DEIRA">Deinococcus radiodurans</option>
 										<option value="DICTD">Dictyoglomus turgidum</option>
 										<option value="DICPU">Dictyostelium purpureum</option>
 										<option value="ENTHI">Entamoeba histolytica</option>
 										<option value="HORSE">Equus caballus</option>
+										<option value="ERYGU">Erythranthe guttata</option>
 										<option value="FELCA">Felis catus</option>
 										<option value="FUSNN">Fusobacterium nucleatum</option>
 										<option value="GEOSL">Geobacter sulfurreducens</option>
 										<option value="GIAIC">Giardia intestinalis</option>
 										<option value="GLOVI">Gloeobacter violaceus</option>
 										<option value="SOYBN">Glycine max</option>
+										<option value="GORGO">Gorilla gorilla gorilla</option>
+										<option value="GOSHI">Gossypium hirsutum</option>
 										<option value="HAEIN">Haemophilus influenzae</option>
 										<option value="HALSA">Halobacterium salinarum</option>
+										<option value="HELAN">Helianthus annuus</option>
+										<option value="HELPY">Helicobacter pylori</option>
+										<option value="HORVV">Hordeum vulgare subsp. vulgare</option>
 										<option value="IXOSC">Ixodes scapularis</option>
 										<option value="KORCO">Korarchaeum cryptofilum</option>
 										<option value="LEIMA">Leishmania major</option>
 										<option value="LEPIN">Leptospira interrogans</option>
 										<option value="LISMO">Listeria monocytogenes</option>
 										<option value="MACMU">Macaca mulatta</option>
+										<option value="MEDTR">Medicago truncatula</option>
 										<option value="METJA">Methanocaldococcus jannaschii</option>
 										<option value="METAC">Methanosarcina acetivorans</option>
 										<option value="MONDO">Monodelphis domestica</option>
 										<option value="MONBE">Monosiga brevicollis</option>
+										<option value="MUSAM">Musa acuminata subsp. malaccensis</option>
 										<option value="MYCTU">Mycobacterium tuberculosis</option>
+										<option value="NEIMB">Neisseria meningitidis serogroup b</option>
 										<option value="NEMVE">Nematostella vectensis</option>
+										<option value="ASPFU">Neosartorya fumigata</option>
 										<option value="NEUCR">Neurospora crassa</option>
+										<option value="TOBAC">Nicotiana tabacum</option>
+										<option value="NITMS">Nitrosopumilus maritimus</option>
 										<option value="ORNAN">Ornithorhynchus anatinus</option>
 										<option value="ORYSJ">Oryza sativa</option>
+										<option value="ORYLA">Oryzias latipes</option>
+										<option value="OSTTA">Ostreococcus tauri</option>
 										<option value="PANTR">Pan troglodytes</option>
+										<option value="PARTE">Paramecium tetraurelia</option>
 										<option value="PHANO">Phaeosphaeria nodorum</option>
+										<option value="PHODC">Phoenix dactylifera</option>
 										<option value="PHYPA">Physcomitrella patens</option>
-										<option value="PHYIT">Phytophthora infestans</option>
+										<option value="PHYRM">Phytophthora ramorum</option>
 										<option value="PLAF7">Plasmodium falciparum</option>
 										<option value="POPTR">Populus trichocarpa</option>
 										<option value="PRIPA">Pristionchus pacificus</option>
+										<option value="PRUPE">Prunus persica</option>
 										<option value="PSEAE">Pseudomonas aeruginosa</option>
 										<option value="PUCGT">Puccinia graminis</option>
 										<option value="PYRAE">Pyrobaculum aerophilum</option>
-										<option value="PYRKO">Pyrococcus kodakaraensis</option>
 										<option value="RHOBA">Rhodopirellula baltica</option>
+										<option value="RICCO">Ricinus communis</option>
 										<option value="SALTY">Salmonella typhimurium</option>
-										<option value="SCHMA">Schistosoma mansoni</option>
 										<option value="SCLS1">Sclerotinia sclerotiorum</option>
+										<option value="SETIT">Setaria italica</option>
 										<option value="SHEON">Shewanella oneidensis</option>
 										<option value="SOLLC">Solanum lycopersicum</option>
 										<option value="SORBI">Sorghum bicolor</option>
@@ -225,14 +250,16 @@ layout: default
 										<option value="SULSO">Sulfolobus solfataricus</option>
 										<option value="PIG">Sus scrofa</option>
 										<option value="SYNY3">Synechocystis</option>
-										<option value="TAKRU">Takifugu rubripes</option>
-										<option value="TETTS">Tetrahymena thermophila</option>
 										<option value="THAPS">Thalassiosira pseudonana</option>
+										<option value="THECC">Theobroma cacao</option>
+										<option value="THEKO">Thermococcus kodakaraensis</option>
 										<option value="THEYD">Thermodesulfovibrio yellowstonii</option>
 										<option value="THEMA">Thermotoga maritima</option>
+										<option value="TRICA">Tribolium castaneum</option>
 										<option value="TRIVA">Trichomonas vaginalis</option>
 										<option value="TRIAD">Trichoplax adhaerens</option>
-										<option value="brucei">TRYB2 Trypanosoma brucei</option>
+										<option value="WHEAT">Triticum aestivum</option>
+										<option value="TRYB2">Trypanosoma brucei</option>
 										<option value="USTMA">Ustilago maydis</option>
 										<option value="VIBCH">Vibrio cholerae</option>
 										<option value="VITVI">Vitis vinifera</option>
@@ -240,12 +267,16 @@ layout: default
 										<option value="XENTR">Xenopus tropicalis</option>
 										<option value="YARLI">Yarrowia lipolytica</option>
 										<option value="YERPE">Yersinia pestis</option>
+										<option value="MAIZE">Zea mays</option>
+										<option value="HELRO">helobdella robusta</option>
+										<option value="LEPOC">lepisosteus oculatus</option>
+										<option value="MYCGE">mycoplasma genitalium</option>
 									</select>
 								</div>
 
 								<span class="input-group-btn">
 									<button type="button" class="btn btn-primary u-no-transform u-anim-zoom-in" style="background-color: #22612C; border-color: #22612C; margin-left: 4px;" onclick="setExample()" title="Cycle through different Gene Set examples">
-										Examples <i class="fa fa-bars u-line-height-single"></i>
+										Examples
 									</button>
 
 									<button type="submit" class="btn btn-primary u-no-transform u-anim-move-right" style="background-color: #22612C; border-color: #22612C; margin-left: 4px;" title="Launch GO Enrichment Analysis">
@@ -253,7 +284,7 @@ layout: default
 									</button>
 								</span>
 							</div>
-							<div id="input_hint" class="input_hint">Hint: can use Uniprot ID/AC, Gene Name, Gene Symbols, MOD IDs</div>
+							<div id="input_hint" class="input_hint">Hint: can use UniProt ID/AC, Gene Name, Gene Symbols, MOD IDs</div>
 						</form>
 				</div>
 				<!-- <div class="hidden-xs hidden-sm">
@@ -289,68 +320,81 @@ layout: default
 
 		<div class="card col-md-4">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
-				<div class="card__picture card__picture__dna--red">
-					<h4 class="card__heading">Ontology</h4>
+				<div onclick="location.href = '/docs/ontology-documentation/'" class="card__picture card__picture__dna--red">
+					<h4 class="card__heading"><i class="fa fa-share-alt"></i> Ontology</h4>
 				</div>
 				<p class="card__description">
 					The network of biological classes describing the current best representation of the “universe” of biology. The molecular
 					functions, cellular locations, and processes gene products may carry out.
 				</p>
+
 				<div class="card__bottom">
-				<div>
-					<a href="http://amigo.geneontology.org/amigo/dd_browse" class="card__link" target="blank">
-						<i class="fa fa-share-alt"></i> &nbsp; Browse Ontology</a>
+					<div>
+						<a href="/docs/ontology-documentation/" class="card__link">
+							<i class="fa fa-info"></i> &nbsp; GO Ontology Overview</a>
+					</div>
+					<div>
+						<a href="http://amigo.geneontology.org/amigo/dd_browse" class="card__link" target="blank">
+							<i class="fa fa-clone"></i> &nbsp; Browse in AmiGO</a>
+					</div>
+					<div>
+						<a href="/docs/download-ontology/" class="card__link">
+							<i class="fa fa-download"></i> &nbsp; Download</a>
+					</div>
 				</div>
-				<div>
-					<a href="/docs/download-ontology/" class="card__link">
-						<i class="fa fa-download"></i> &nbsp; Download Ontology</a>
-				</div>
-			</div>
 			</div>
 		</div>
 
 		<div class="card col-md-4">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
-				<div class="card__picture card__picture__dna--blue">
-					<h4 class="card__heading">Annotations</h4>
+				<div onclick="location.href = '/docs/go-annotations/'" class="card__picture card__picture__dna--blue">
+					<h4 class="card__heading"><i class="fa fa-edit"></i> Annotations</h4>
 				</div>
 				<p class="card__description">
 					Statements, based on specific, traceable scientific evidence, asserting that a specific gene product is a real exemplar of
 					a particular GO class.
 				</p>
-				<div class="card__bottom">
-						<div>
-					<a href="http://amigo.geneontology.org/amigo/search/annotation" class="card__link" target="blank">
-						<i class="fa fa-clone"></i> &nbsp; Browse Annotations</a>
-				</div>
-				<div>
 
-					<a href="/docs/download-go-annotations/" class="card__link" target="blank">
-						<i class="fa fa-download"></i> &nbsp; Download Annotations</a>
+				<div class="card__bottom">
+					<div>
+						<a href="/docs/go-annotations/" class="card__link">
+							<i class="fa fa-info"></i> &nbsp; GO Annotations Overview</a>
+					</div>
+					<div>
+						<a href="http://amigo.geneontology.org/amigo/search/annotation" class="card__link" target="blank">
+							<i class="fa fa-clone"></i> &nbsp; View in AmiGO</a>
+					</div>
+					<div>
+						<a href="/docs/download-go-annotations/" class="card__link" target="blank">
+							<i class="fa fa-download"></i> &nbsp; Download</a>
+					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 
 		<div class="card col-md-4">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
-				<div class="card__picture card__picture__dna--green">
-					<h4 class="card__heading">Tools & Guides</h4>
+				<div onclick="location.href = '/docs/tools-overview/'" class="card__picture card__picture__dna--green">
+					<h4 class="card__heading"><i class="fa fa-cog"></i> Tools & Guides</h4>
 				</div>
 				<p class="card__description">
 					Tools to curate, browse, search, visualize and download both the ontology and annotations. Bioinformatic Guides (Notebooks) and simple API access to integrate GO into your research.
 				</p>
 
 				<div class="card__bottom">
-						<div>
-					<a href="/docs/tools-overview/" class="card__link">
-						<i class="fa fa-cog"></i> &nbsp; Browse Tools</a>
+					<div>
+						<a href="/docs/tools-overview/" class="card__link">
+							<i class="fa fa-info"></i> &nbsp; GO Tools Overview</a>
+					</div>
+					<div>
+						<a href="/docs/tools-guide/" class="card__link">
+							<i class="fa fa-clone"></i> &nbsp; GO APIs Guide</a>
+					</div>
+					<div>
+						<a href="https://github.com/geneontology/" class="card__link" target="blank">
+							<i class="fa fa-github"></i> &nbsp; GO GitHub</a>
+					</div>
 				</div>
-				<div>
-					<a href="/docs/tools-guide/" class="card__link">
-						<i class="fa fa-info"></i> &nbsp; Browse Tool Guides</a>
-				</div>
-			</div>
 			</div>
 		</div>
 

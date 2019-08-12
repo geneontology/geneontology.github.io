@@ -1,42 +1,85 @@
 ---
-title: Guide to query and download GO
+title: Programmatic Access to Gene Ontology
 permalink: /docs/tools-guide/
 ---
 
-# Guide to query and download GO
+# Programmatic Access to Gene Ontology
 
-## Query
+---
 
-### Ontology and standard GO Annotations
+> This page documents various ways to query the ontology and annotations using the GO APIs
 
-#### GOlr: GO Solr search engine
+---
+
+## Query GO ontology and annotations with GOlr
+
 The ontology and GO annotations can easily be searched and retrieved via the GO Solr search engine API called [GOlr](http://golr-aux.geneontology.io/solr).
 
-The following is a query example to retrieve all [meta data about the GO term GO:0030182](http://golr-aux.geneontology.io/solr/select?fq=document_category:%22ontology_class%22&q=*:*&fq=id:%22GO:0030182%22&wt=json){:target="blank"}:
+The following is a query example to retrieve all [meta data about the GO term GO:0030182](http://golr-aux.geneontology.io/solr/select?fq=document_category:"ontology_class"&q=*:*&fq=id:"GO:0030182"&wt=json){:target="blank"}:
 ```
-http://golr-aux.geneontology.io/solr/select?fq=document_category:%22ontology_class%22&q=*:*&fq=id:%22GO:0030182%22&wt=json
+http://golr-aux.geneontology.io/solr/select?fq=document_category:"ontology_class"&q=*:*&fq=id:"GO:0030182"&wt=json
 ````
 
-[GOlr](http://golr-aux.geneontology.io/solr) is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
+While the following is a query example to retrieve all [annotations of the TP53 gene in rats](http://golr-aux.geneontology.io/solr/select?fq=document_category:"annotation"&q=*:*&fq=bioentity:"RGD:3889"&wt=json){:target="blank"}:
+```
+http://golr-aux.geneontology.io/solr/select?fq=document_category:"annotation"&q=*:*&fq=bioentity:"RGD:3889"&wt=json
+````
 
-#### BioLink: a gateway to access GO and other linked data
-The purpose of the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated.
+Note: [GOlr](http://golr-aux.geneontology.io/solr) is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
 
-### GO-CAMs (Experimental)
+---
+
+## Query GO ontology and annotations with BioLink
+
+The purpose of the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated. The GO BioLink API implementation and its associated swagger documentation are available at [http://api.geneontology.org/api](http://api.geneontology.org/api){:target="blank"}.
+
+In the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"}, any GO term is referred to as "function", hence the following query returns meta data about the GO term {id}: 
+```
+/bioentity/function/{id}
+```
+
+
+Example: [annotations for the apoptotic process term](http://api.geneontology.org/api/bioentity/function/GO:0006915){:target="blank"}
+```
+http://api.geneontology.org/api/bioentity/function/GO:0006915
+```
+
+Note: pagination can be achieved by using the start & rows parameter. [Example](http://api.geneontology.org/api/bioentity/function/GO:0006915?start=0&rows=2){:target="blank"} :
+```
+http://api.geneontology.org/api/bioentity/function/GO:0006915?start=0&rows=2
+```
+
+---
+
+## Query GO Causal Activity Models (Experimental)
+
 GO also provides an [API](https://api.geneontology.cloud/models){:target="blank"} to query data about GO-CAMs as well as a [swagger documentation](https://app.swaggerhub.com/apis-docs/geneontology/gosparql){:target="blank"} to familiarize with the routes and parameters. The API is used to power the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site.
 
-The following is a query example to retrieve all [GO terms contained in the GO-CAM 59a6110e00000067](https://api.geneontology.cloud/models/go?gocams=59a6110e00000067){:target="blank"}:
+Query example to retrieve all [GO terms contained in the GO-CAM 59a6110e00000067](https://api.geneontology.cloud/models/go?gocams=59a6110e00000067){:target="blank"}:
 ```
 https://api.geneontology.cloud/models/go?gocams=59a6110e00000067
 ```
 
+Query example to retrieve all [gene products used in the GO-CAM 59a6110e00000067](https://api.geneontology.cloud/models/gp?gocams=59a6110e00000067){:target="blank"}:
+```
+https://api.geneontology.cloud/models/gp?gocams=59a6110e00000067
+```
 
-## Download
+Query example to retrieve all [PMIDs cited in the GO-CAM 59a6110e00000067](https://api.geneontology.cloud/models/pmid?gocams=59a6110e00000067){:target="blank"}:
+```
+https://api.geneontology.cloud/models/pmid?gocams=59a6110e00000067
+```
 
-### General Download
-GO provides different ways to download both its [ontology](/docs/download-ontology/) and its [annotations](/docs/download-go-annotations/). Among them, GO provides a programmatic way to access full or holey BD bags.
+Query example to retrieve all [GO-CAMs implicating the mouse Rtl4 gene](https://api.geneontology.cloud/gp/http%3A%2F%2Fidentifiers.org%2Fmgi%2FMGI%3A3588192/models){:target="blank"}:
+```
+https://api.geneontology.cloud/gp/http%3A%2F%2Fidentifiers.org%2Fmgi%2FMGI%3A3588192/models
+```
 
-### Programmatic Download: BDBag
+More information available on the [swagger documentation of the API](https://app.swaggerhub.com/apis-docs/geneontology/gosparql){:target="blank"}
+
+---
+
+## Programmatic Download: BDBag
 The following example requires both [python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/) to be installed. Once this is done, you can install the [BDBag cli](https://github.com/fair-research/bdbag) by following those steps:
 
 ```
