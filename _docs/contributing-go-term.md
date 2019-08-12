@@ -47,7 +47,7 @@ Term improvements can be submitted to the [GO-ontology tracking system](https://
 ## When to create a new ticket
 Keep tickets simple; do not hesitate to create multiple tickets if necessary. Unless terms are related, submit a separate request for each new term.
 
-# Contributing your expertise
-The Gene Ontology Consortium welcomes contributions from experts in any area of biology to help us improve the ontology. <a href="mailto:help@geneontology.org">Contact us</a> to start contributing to the ontology. 
+## Contributing your expertise
+The Gene Ontology Consortium welcomes contributions from experts in any area of biology to help us improve the ontology. [Contact us](mailto:help@geneontology.org) to start contributing to the ontology. 
 
 
