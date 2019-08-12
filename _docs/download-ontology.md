@@ -10,14 +10,16 @@ redirect_from:
 
 ## Ontology files
 + Released monthly 
-+ Available in [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html), [OWL](https://github.com/owlcs/owlapi) and [JSON](https://github.com/geneontology/obographs/) formats; see PURLs below or access [http://current.geneontology.org/ontology/](http://current.geneontology.org/ontology/){:target="blank"}
+    + Current release: [http://current.geneontology.org/ontology/](http://current.geneontology.org/ontology/){:target="blank"}
+    + Previous releases: in [http://release.geneontology.org/](http://release.geneontology.org/){:target="blank"}, choose the release date and go to the ontology folder 
++ Available in [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html), [OWL](https://github.com/owlcs/owlapi){:target="blank"} and [JSON](https://github.com/geneontology/obographs/){:target="blank"} formats
 + Also includes [GO subsets](/docs/go-subset-guide/) (slims)
 + [SVN access](/docs/SVN-access/) is available
 
 ## Ontology formats
 
-+ OBO files are human-readable (in addition to machine-readable) and can be opened in any text editor. 
-+ OWL files can be opened with [Protégé](https://protege.stanford.edu/){:target="blank"}.
++ [OBO](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"} files are human-readable (in addition to machine-readable) and can be opened in any text editor. 
++ [OWL](https://github.com/owlcs/owlapi){:target="blank"} files can be opened with [Protégé](https://protege.stanford.edu/){:target="blank"}.
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
