@@ -25,7 +25,7 @@ While the following is a query example to retrieve all [annotations of the TP53 
 http://golr-aux.geneontology.io/solr/select?fq=document_category:"annotation"&q=*:*&fq=bioentity:"RGD:3889"&wt=json
 ````
 
-Note: [GOlr](http://golr-aux.geneontology.io/solr) is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
+Note: [GOlr](http://wiki.geneontology.org/index.php/GOlr){:target="blank"} is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
 
 ---
 
