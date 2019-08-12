@@ -13,7 +13,7 @@ permalink: /docs/tools-guide/
 
 ## Query GO ontology and annotations with GOlr
 
-The ontology and GO annotations can easily be searched and retrieved via the GO Solr search engine API called [GOlr](http://golr-aux.geneontology.io/solr).
+The ontology and GO annotations can easily be searched and retrieved via the GO Solr search engine API called [GOlr](http://wiki.geneontology.org/index.php/GOlr){:target="blank"}.
 
 The following is a query example to retrieve all [meta data about the GO term GO:0030182](http://golr-aux.geneontology.io/solr/select?fq=document_category:"ontology_class"&q=*:*&fq=id:"GO:0030182"&wt=json){:target="blank"}:
 ```
