@@ -36,6 +36,7 @@ The legacy MySQL database dumps, from start to final generation, are available a
 
 + <a href="http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/">CVS repository</a>{:target="blank"}
 + <a href="ftp://ftp.geneontology.org/pub/go/">FTP site</a>{:target="blank"}
++ [SVN access](/docs/SVN-access/){:target="blank"}
 
 ## Archived GO subsets
 
