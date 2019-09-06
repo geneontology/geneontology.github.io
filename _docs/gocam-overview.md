@@ -3,7 +3,7 @@ title: GO-CAM overview
 permalink: /docs/gocam-overview/
 ---
 
-# GO-CAM overview
+# Introduction to GO-CAMs
 
 ## What is a standard GO annotation ?
 
