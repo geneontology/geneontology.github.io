@@ -459,7 +459,7 @@ $gutter-horizontal: 6rem;
 
 .card {
     position: relative;
-    min-height: 420px;
+    padding: 10px;
 
     &__picture {
         background-size: cover;
@@ -483,7 +483,7 @@ $gutter-horizontal: 6rem;
             background-position: center;
         }
 
-        &__dna--blue {
+        &__gocam {
             background-image: linear-gradient(to right bottom, rgba(0, 68, 255, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/NEDD4-noctua.png);
             background-blend-mode: hard-light;        
         }
@@ -492,27 +492,36 @@ $gutter-horizontal: 6rem;
             background-image: linear-gradient(to right bottom, #11a92a, #000000), url(../assets/gene.jpeg);        
         }
 
+        &__standard-annotation {
+            background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(../assets/standard-go-annotation.png);
+            background-blend-mode: normal;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-y: inherit;     
+        }
+
 
     }
 
     &__heading {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
         font-weight: 300;
         text-transform: uppercase;
         text-align: right;
         color: rgb(255, 255, 255);
         position: absolute;
         top: 9rem;
-        right: 3rem;
+        right: 2.5rem;
         background-image: linear-gradient(to right bottom, rgba(0, 23, 79, 1), rgba(43, 65, 138, 0.25));
         border-radius: 15px;
         padding: 5px 12px;
     }
 
     &__container {
-        min-height: 400px;
+        min-height: 470px;
         padding: 10px;
-        margin: 10px 5px;
+        margin: 10px 0px;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 1.5rem 4rem;
         border-radius: 3px !important;
         background-color: rgb(255, 255, 255) !important;
@@ -533,7 +542,7 @@ $gutter-horizontal: 6rem;
 
     &__bottom {
         position: absolute;
-        bottom: 20px;
+        bottom: 24px;
         text-align: end;
         right: 35px;
     }

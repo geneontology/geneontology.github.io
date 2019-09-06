@@ -315,10 +315,15 @@ layout: default
 </div>
 
 
-<div class="container">
+<div class="container"
+	style="margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 98%;">
 	<div class="row">
 
-		<div class="card col-md-4">
+		<div class="card col-md-3">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
 				<div onclick="location.href = '/docs/ontology-documentation/'" class="card__picture card__picture__dna--red">
 					<h4 class="card__heading"><i class="fa fa-share-alt"></i> Ontology</h4>
@@ -345,10 +350,10 @@ layout: default
 			</div>
 		</div>
 
-		<div class="card col-md-4">
+		<div class="card col-md-3">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
-				<div onclick="location.href = '/docs/go-annotations/'" class="card__picture card__picture__dna--blue">
-					<h4 class="card__heading"><i class="fa fa-edit"></i> Annotations</h4>
+				<div onclick="location.href = '/docs/go-annotations/'" class="card__picture card__picture__standard-annotation">
+					<h4 class="card__heading"><i class="fa fa-edit"></i> Annotation</h4>
 				</div>
 				<p class="card__description">
 					Statements, based on specific, traceable scientific evidence, asserting that a specific gene product is a real exemplar of
@@ -372,10 +377,39 @@ layout: default
 			</div>
 		</div>
 
-		<div class="card col-md-4">
+
+
+		<div class="card col-md-3">
+			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
+				<div onclick="location.href = '/docs/tools-overview/'" class="card__picture card__picture__gocam">
+					<h4 class="card__heading"><i class="fa fa-cog"></i> GO-CAM</h4>
+				</div>
+				<p class="card__description">
+						GO Causal Activity Model (GO-CAM) provides a structured framework to link standard GO annotations into a more complete model of a biological system.
+				</p>
+
+				<div class="card__bottom">
+					<div>
+						<a href="/docs/gocam-overview/" class="card__link">
+							<i class="fa fa-info"></i> &nbsp; GO-CAM Overview</a>
+					</div>
+					<div>
+						<a href="https://geneontology.cloud/browse" class="card__link">
+							<i class="fa fa-clone"></i> &nbsp; Browse GO-CAMs</a>
+					</div>
+					<div>
+						<a href="https://github.com/geneontology/noctua-models" class="card__link" target="blank">
+							<i class="fa fa-download"></i> &nbsp; Download</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="card col-md-3">
 			<div class="card__container" style="background-color: rgba(135, 174, 180, 0.3);">
 				<div onclick="location.href = '/docs/tools-overview/'" class="card__picture card__picture__dna--green">
-					<h4 class="card__heading"><i class="fa fa-cog"></i> Tools & Guides</h4>
+					<h4 class="card__heading"><i class="fa fa-cog"></i> Tool & Guide</h4>
 				</div>
 				<p class="card__description">
 					Tools to curate, browse, search, visualize and download both the ontology and annotations. Bioinformatic Guides (Notebooks) and simple API access to integrate GO into your research.
