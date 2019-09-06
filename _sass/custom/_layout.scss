@@ -475,6 +475,8 @@ $gutter-horizontal: 6rem;
 
         &:hover {
             cursor: pointer;
+            border: 2px solid rgba(0, 0, 120, 0.2);
+            border-bottom: none;            
         }
 
         &__dna--red {
@@ -505,7 +507,7 @@ $gutter-horizontal: 6rem;
     }
 
     &__heading {
-        font-size: 2.6rem;
+        font-size: 2.5rem;
         font-weight: 300;
         text-transform: uppercase;
         text-align: right;

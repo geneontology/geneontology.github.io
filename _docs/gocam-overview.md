@@ -1,6 +1,6 @@
 ---
 title: GO-CAM overview
-permalink: /docs/gocam-overview
+permalink: /docs/gocam-overview/
 ---
 
 # GO-CAM overview
