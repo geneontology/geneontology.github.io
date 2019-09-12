@@ -52,7 +52,7 @@ The GO Ribbon is currently integrated in the [Alliance of Genome Resources](http
 ## Explore co-annotations with the GO Term Matrix
 [The GO Term Matrix](http://amigo.geneontology.org/matrix#order){:target="blank"} represents co-annotations of pairs of GO terms. It allows to compare multiple pairs of terms simultaneously.
 
-![GO term matrix](/assets/go-term-matrix.png)
+![GO term matrix](/assets/go-term-matrix.jpg)
 
 
 ---

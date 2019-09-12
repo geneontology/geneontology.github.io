@@ -429,11 +429,13 @@ FAQ tags: 
 [general](/faq-tags/general)
 {:/comment}
 
-There are a number of possibilities for how researchers can make use the GO.
+There are a number of possibilities for how researchers can make use of the GO.
 
 The Gene Ontology website (<http://geneontology.org/>) is a very good place to begin learning about our resources, how they are produced, and how we maintain them. It also illustrates how the research community most commonly makes use of these resources and how they can contribute. Exploring the items under the **"Ontology"** and **"Annotations"** on the menu will provide you with a very informative overview.
 
-## What are all the possible uses of GO? 
+For more detail, please consult the open access [*The Gene Ontology Handbook*](https://link.springer.com/book/10.1007/978-1-4939-3743-1), available online and as a downloadable PDF. As well as [GO best practices](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_4) and [a discussion on the meaning of "function"](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_2), this text covers everything from [introducing ontologies](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_1), to [using GO resources in Python](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_16), and even how [GO and similar ontologies may be used in clinical settings](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_20). 
+
+# What are all the possible uses of GO? 
 ---------------------------------------------------------------------------
 {::comment}
 
