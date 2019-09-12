@@ -353,31 +353,8 @@ var taxMapping = { "287": "Pseudomonas aeruginosa",
 
 
 
-var test_base_url = "assets/stats"
-// http://0.0.0.0:8000
-var test_urls = [
-    test_base_url + "/2018-09-05_go-stats-summary.json",
-    test_base_url + "/2018-10-10_go-stats-summary.json",
-    test_base_url + "/2018-11-15_go-stats-summary.json",
-    test_base_url + "/2018-12-01_go-stats-summary.json",
-    test_base_url + "/2019-01-01_go-stats-summary.json",
-    test_base_url + "/2019-02-02_go-stats-summary.json",
-    test_base_url + "/2019-03-19_go-stats-summary.json",
-    test_base_url + "/2019-04-18_go-stats-summary.json",
-    test_base_url + "/2019-05-10_go-stats-summary.json",
-    test_base_url + "/2019-06-10_go-stats-summary.json",
-    test_base_url + "/2019-07-01_go-stats-summary.json"
-]
-
 var stats_summaries = { }
 
-function get_stats_tests() {
-    var axiosQueries = [];
-    for(var url of test_urls) {
-        axiosQueries.push(axios.get(url));        
-    }
-    return axios.all(axiosQueries);
-}
 
 var aggregated_stats_url = "https://geneontology-test.s3.amazonaws.com/aggregated-go-stats-summaries.json";
 function get_aggregated_stats() {
