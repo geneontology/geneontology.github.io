@@ -71,7 +71,9 @@ GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http:/
 * [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
 * [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
 
-
 ## Downloads
 * Download [GO annotations by species](/docs/download-go-annotations/)
 * Download [GO-CAM models](http://geneontology.org/go-cam){:target="blank"}
+
+## Statistics
+[GO statistics](/stats.html) are available both for the current release and over time.
