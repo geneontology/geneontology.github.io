@@ -684,41 +684,6 @@ function drawTermsAlterationsOT(ontology_stats, eltID, addXRefs) {
     chart.draw(data, options);
 }
 
-// var releases = async function () {
-//     var releases = await get_releases();
-//     all_stats = await get_stats(releases.data);
-//     all_stats = all_stats.map(response => { return response.data });
-//     console.log("all_stats : ", all_stats);
-
-//     var new_releases = await get_new_releases();
-//     ontology_stats = await get_ontology_stats(new_releases.data);
-//     ontology_stats = ontology_stats.map(response => { return response.data });
-//     console.log("ontology_stats : ", ontology_stats);
-
-
-//     createSpeciesSelect();
-
-//     drawSpeciesOverTime(all_stats, referenceSpecies);
-
-//     var last_release = all_stats[all_stats.length - 1];
-//     drawReleaseProperty(last_release, "by_species", "Species", "graph-annotations-species", false, 0.01);
-//     drawReleaseProperty(last_release, "by_evidence", "Evidence", "graph-annotations-evidence", true, 0, reverseGroups);
-
-//     drawTermsByAspectOT(ontology_stats, "graph-terms-aspect");
-//     // drawTermsAlterationsOT(ontology_stats, "graph-terms-alterations", true);
-//     drawTermsAlterationsOT(ontology_stats, "graph-terms-alterations-noxrefs", false);
-
-//     console.log("REVERSE: ", reverseGroups);
-//     return all_stats;
-// }
-
-// function drawChart() {
-//     console.log("draw chart called");
-    
-// }
-
-// var releases = releases();
-
 var pieHole = 0.3;
 var chartFontSize = 14;
 var smallChartWidth = 350;
@@ -743,121 +708,6 @@ var smallChartTitleStyle = {
     color: "#36c",
     bold: true
 }
-//     color: <string>,    // any HTML string color ('red', '#cc00cc')
-//     fontName: <string>, // i.e. 'Times New Roman'
-//     fontSize: <number>, // 12, 18 whatever you want (don't specify px)
-//     bold: <boolean>,    // true or false
-//     italic: <boolean>   // true of false
-// }
-
-function drawOntologyAspect(statsObj, release) {
-    var stats = statsObj["stats"];
-
-    var clusters = Object.values(statsObj.bioentity_types);
-    var header = ["Aspect", "Terms"];
-
-    var array = [];
-    array.push(header);
-    array.push(["BP", release.ontology.biological_process_terms]);
-    array.push(["MF", release.ontology.molecular_function_terms]);
-    array.push(["CC", release.ontology.cellular_component_terms]);
-    var data = google.visualization.arrayToDataTable(array);
-
-    var options = {
-        title : "GO terms by aspect",
-        legend: { position: 'bottom' },
-        crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-        // curveType: 'function',
-        dataOpacity: 1.0,
-        lineWidth: 2.0,
-        pointSize: 3.0,
-        pointShape: 'circle',
-        width: smallChartWidth,
-        height: smallChartHeight,
-        pieHole: pieHole,
-        titlePosition: smallChartTitlePosition,
-        titleTextStyle: smallChartTitleStyle,
-        pieSliceText : 'value',
-        chartArea : smallChartAreaPie,
-        fontSize: chartFontSize
-    };
-
-    var chart = new google.visualization.PieChart(document.getElementById('graph-ontology-aspects'));        
-    chart.draw(data, options);      
-}
-
-function drawOntologyTerm(statsObj, release) {
-    var stats = statsObj["stats"];
-    
-    var clusters = Object.values(statsObj.bioentity_types);
-    var header = ["State", "Terms"];
-
-    var array = [];
-    array.push(header);
-    array.push(["Valid", release.ontology.valid_terms]);
-    array.push(["Obsoleted", release.ontology.obsoleted_terms]);
-    array.push(["Merged", release.ontology.merged_terms]);
-    var data = google.visualization.arrayToDataTable(array);
-
-    var options = {
-        title : "GO terms by state",
-        legend: { position: 'bottom' },
-        crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-        // curveType: 'function',
-        dataOpacity: 1.0,
-        lineWidth: 2.0,
-        pointSize: 3.0,
-        pointShape: 'circle',
-        width: smallChartWidth,
-        height: smallChartHeight,
-        pieHole: pieHole,
-        titlePosition: smallChartTitlePosition,
-        titleTextStyle: smallChartTitleStyle,
-        pieSliceText : 'value',
-        chartArea : smallChartAreaPie,
-        fontSize: chartFontSize
-    };
-
-    var chart = new google.visualization.PieChart(document.getElementById('graph-ontology-terms'));        
-    chart.draw(data, options);      
-}
-
-function drawOntologyStructure(statsObj, release) {
-    var stats = statsObj["stats"];
-    
-    var clusters = Object.values(statsObj.bioentity_types);
-    var header = ["Content", "Terms"];
-
-    var array = [];
-    array.push(header);
-    array.push(["metas", release.ontology.meta_statements]);
-    array.push(["xrefs", release.ontology.meta_statements - release.ontology.meta_statements_exclude_xrefs]);
-    array.push(["relations", release.ontology.terms_relations]);
-    var data = google.visualization.arrayToDataTable(array);
-
-    var options = {
-        title : "Knowledge about GO terms",
-        legend: { position: 'bottom' },
-        crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-        // curveType: 'function',
-        dataOpacity: 1.0,
-        lineWidth: 2.0,
-        pointSize: 3.0,
-        pointShape: 'circle',
-        width: smallChartWidth,
-        height: smallChartHeight,
-        pieHole: pieHole,
-        titlePosition: smallChartTitlePosition,
-        titleTextStyle: smallChartTitleStyle,
-        pieSliceText : 'value',
-        chartArea : smallChartAreaPie,
-        fontSize: chartFontSize
-    };
-
-    var chart = new google.visualization.PieChart(document.getElementById('graph-ontology-knowledge'));        
-    chart.draw(data, options);      
-}
-
 
 var chartOTWidth = 1080;
 var chartOTHeight = 500;
@@ -928,34 +778,6 @@ function drawTermStateOT(statsObj) {
       };
 
     var chart = new google.visualization.ColumnChart(document.getElementById('graph-ontology-terms-changes-OT'));        
-    chart.draw(data, options);
-}
-
-function drawTermElementOT(statsObj) {
-    var stats = statsObj["stats"];
-    var array = [];
-    var header = ["release", "# meta", "# xref", "# relation"];
-    array.push(header);
-    for(var release of stats) {
-        array.push([simpleDate(release["release_date"]), release["ontology"]["meta_statements"], release["ontology"]["meta_statements"] - release["ontology"]["meta_statements_exclude_xrefs"], release["ontology"]["terms_relations"]])
-    }
-    var data = google.visualization.arrayToDataTable(array);
-
-    var options = {
-          title: 'Evolution of GO meta statements, xrefs and relations',
-          subtitle: '',
-          legend: { position: 'bottom' },
-          crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-          // curveType: 'function',
-          dataOpacity: 1.0,
-          width: chartOTWidth,
-          height: chartOTHeight,
-          chartArea : {'width': '90%', 'height': '75%', top: 15},
-          titlePosition: 'none'
-
-      };
-
-    var chart = new google.visualization.LineChart(document.getElementById('graph-ontology-terms-element-OT'));        
     chart.draw(data, options);
 }
 
@@ -1031,45 +853,11 @@ function drawAnnotationEvidenceOT(statsObj, selectedSpecies = null) {
 
 
 function drawAnnotationBioentityOT(statsObj) {
-    // var stats = statsObj["stats"];
-
-    // var clusters = statsObj.bioentity_types;
-    // var header = ["Release"].concat(clusters);
-
-    // var array = [];
-    // array.push(header);
-    // for(var release of stats) {
-    //     var line = [release["release_date"]];
-    //     for(var cluster of clusters) {
-    //         var val = cluster in release["annotations"]["by_evidence_cluster"] ? release["annotations"]["by_evidence_cluster"][cluster] : 0;
-    //         line.push(val);
-    //     }
-    //     array.push(line);
-    // }
-    // var data = google.visualization.arrayToDataTable(array);
-
-    // var options = {
-    //       legend: { position: 'bottom' },
-    //       crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-    //       // curveType: 'function',
-    //       dataOpacity: 1.0,
-    //       width: chartOTWidth,
-    //       height: chartOTHeight,
-    //       chartArea : {'width': '90%', 'height': '75%', top: 15},
-    //       titlePosition: 'none',
-    //       isStacked: true
-    //   };
-
-    // var chart = new google.visualization.LineChart(document.getElementById("graph-annotation-bioentity-OT"));        
-    // chart.draw(data, options);
-
     var stats = statsObj["stats"];
     var array = [];
-    // var header = ["release", "# references", "# pmids"];
     var header = ["release", "# bioentities"];
     array.push(header);
     for(var release of stats) {
-        // array.push([release["release_date"], release["references"]["all"]["total"], release["references"]["pmids"]["total"]])
         array.push([release["release_date"], release["bioentities"]["total"]]);
     }
     var data = google.visualization.arrayToDataTable(array);
@@ -1077,7 +865,6 @@ function drawAnnotationBioentityOT(statsObj) {
     var options = {
           legend: { position: 'bottom' },
           crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-          // curveType: 'function',
           dataOpacity: 1.0,
           width: chartOTWidth,
           height: chartOTHeight,
@@ -1094,11 +881,9 @@ function drawAnnotationBioentityOT(statsObj) {
 function drawReferencePMIDsOT(statsObj) {
     var stats = statsObj["stats"];
     var array = [];
-    // var header = ["release", "# references", "# pmids"];
     var header = ["release", "# PMIDs"];
     array.push(header);
     for(var release of stats) {
-        // array.push([release["release_date"], release["references"]["all"]["total"], release["references"]["pmids"]["total"]])
         array.push([simpleDate(release["release_date"]), release["references"]["pmids"]["total"]])
     }
     var data = google.visualization.arrayToDataTable(array);
@@ -1106,17 +891,11 @@ function drawReferencePMIDsOT(statsObj) {
     var options = {
           legend: { position: 'none' },
           crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-          // curveType: 'function',
           dataOpacity: 1.0,
           width: chartMidWidth,
           height: chartMidWidth,
           chartArea : {'width': '85%', 'height': '75%', top: 15, right: 0},
           titlePosition: 'none',
-        //   animation: {
-        //       startup : true,
-        //       duration : 2000,
-        //       easing: 'in' // in, out, inAndOut
-        //   },
           pointVisible: true,
           pointSize: 4          
       };
@@ -1126,13 +905,8 @@ function drawReferencePMIDsOT(statsObj) {
 }
 
 function drawOntologyCharts(statsObj, release) {
-    // drawOntologyAspect(statsObj, release);
-    // drawOntologyTerm(statsObj, release);
-    // drawOntologyStructure(statsObj, release);
-
     drawTermAspectOT(statsObj);
     drawTermStateOT(statsObj);
-    // drawTermElementOT(statsObj);
 }
 
 
@@ -1270,137 +1044,11 @@ function drawRefGenomeCoverageByAspect(statsObj, bioentityType, release) {
 }
 
 
-function drawAnnotationAspect(statsObj, release) {
-    var stats = statsObj["stats"];
-    
-    var header = ["Aspect", "Annotations"];
-
-    var array = [];
-    array.push(header);
-    array.push(["BP", release.annotations.by_aspect.P]);
-    array.push(["MF", release.annotations.by_aspect.F]);
-    array.push(["CC", release.annotations.by_aspect.C]);
-    var data = google.visualization.arrayToDataTable(array);
-
-    var options = {
-        title : "GO annotations by aspect",
-        legend: { position: 'bottom' },
-        crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-        // curveType: 'function',
-        dataOpacity: 1.0,
-        lineWidth: 2.0,
-        pointSize: 3.0,
-        pointShape: 'circle',
-        width: 300,
-        height: 300,
-        pieHole: pieHole,
-        titlePosition: smallChartTitlePosition,
-        titleTextStyle: smallChartTitleStyle,
-        pieSliceText : 'value',
-        chartArea : smallChartAreaPie,
-        fontSize: chartFontSize
-    };
-
-    var chart = new google.visualization.PieChart(document.getElementById('graph-annotation-aspects'));        
-    chart.draw(data, options);          
-}
-
-function drawAnnotationEvidence(statsObj, release) {
-    var stats = statsObj["stats"];
-    
-    var clusters = Object.values(statsObj.evidence_clusters);
-    var header = ["Evidence", "Annotations"];
-
-    var array = [];
-    array.push(header);
-    for(var cluster of clusters) {
-        array.push([cluster, release.annotations.by_evidence_cluster[cluster]]);
-    }
-    var data = google.visualization.arrayToDataTable(array);
-
-    var options = {
-        title : "GO annotations by evidence",
-        legend: { position: 'bottom' },
-        crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-        // curveType: 'function',
-        dataOpacity: 1.0,
-        lineWidth: 2.0,
-        pointSize: 3.0,
-        pointShape: 'circle',
-        width: 300,
-        height: 300,
-        pieHole: pieHole,
-        titlePosition: smallChartTitlePosition,
-        titleTextStyle: smallChartTitleStyle,
-        pieSliceText : 'value',
-        chartArea : smallChartArea
-    };
-
-    var chart = new google.visualization.ColumnChart(document.getElementById('graph-annotation-evidence'));        
-    chart.draw(data, options);          
-}
-
-function drawAnnotationBioentity(statsObj, release) {
-    var stats = statsObj["stats"];
-    
-    var clusters = Object.values(statsObj.bioentity_types);
-    var header = ["Bioentity", "Annotations"];
-
-    var array = [];
-    array.push(header);
-    for(var cluster of clusters) {
-        array.push([cluster, release.bioentities.by_type_cluster[cluster]]);
-    }
-    var data = google.visualization.arrayToDataTable(array);
-
-    var options = {
-        title : "GO annotations by bioentity",
-        legend: { position: 'bottom' },
-        crosshair: { focused: { color: '#3bc', opacity: 0.8 } },
-        // curveType: 'function',
-        dataOpacity: 1.0,
-        lineWidth: 2.0,
-        pointSize: 3.0,
-        pointShape: 'circle',
-        width: 300,
-        height: 300,
-        pieHole: pieHole,
-        titlePosition: smallChartTitlePosition,
-        titleTextStyle: smallChartTitleStyle,
-        pieSliceText : 'value',
-        chartArea : smallChartArea
-    };
-
-    var chart = new google.visualization.ColumnChart(document.getElementById('graph-annotation-bioentity'));        
-    chart.draw(data, options);          
-}
-
-
-
 function drawAnnotationCharts(statsObj, release) {    
-    // drawAnnotationAspect(statsObj, release);
-    // drawAnnotationEvidence(statsObj, release);
-    // drawAnnotationBioentity(statsObj, release);
-    
-    // drawRefGenomeCoverageByBioentity(statsObj, "A", release);
-    // drawRefGenomeCoverageByEvidence(statsObj, "A", release);
-    // drawRefGenomeCoverageByAspect(statsObj, "protein", release);
-
     // drawAnnotationAspectOT(statsObj)
     // drawAnnotationBioentityOT(statsObj)
     drawAnnotationEvidenceOT(statsObj)
 }
-
-function drawBioentityCharts(statsObj, release) {
-}
-
-function drawPMIDCharts(statsObj, release) {
-    // var pmids = stats.map(elt => {
-    //     return elt.references.pmids;
-    // })
-}
-
-
 
 function drawOntologyTableOverview(statsObj, release) {
     var data = new google.visualization.DataTable();
@@ -1467,11 +1115,6 @@ function drawBioentityTableOverview(statsObj, release) {
         ["Annotated species", release.taxa.total],
         ["Annotated species with over 1,000 annotations", release.taxa.filtered]
     ]
-
-    // for(var bioentity in release.bioentities.by_type_cluster) {
-    //     array.push(["Annotated " + bioentity + "s", release.bioentities.by_type_cluster[bioentity]]);
-    // }
-
     data.addRows(array)
 
     var options = {
@@ -1631,7 +1274,6 @@ function changeRelease() {
 
 
 function drawRelease(release) {
-    // var release = getRelease(statsObj, release_date);
     currentRelease = release;
     console.log("Drawing release: ", release);
 
@@ -1641,8 +1283,6 @@ function drawRelease(release) {
     drawAnnotationCharts(statsObj, release);
 
     drawReferencePMIDsOT(statsObj);
-    // drawBioentityCharts(statsObj, release);
-    // drawPMIDCharts(statsObj, release);
 }
 
 var drawCharts = async function() {
@@ -1650,9 +1290,7 @@ var drawCharts = async function() {
     statsObj = createStatsObj(stats);
     console.log("stats obj: ", statsObj);
 
-    // var release_date = "2019-07-01";
     lastRelease = getLastRelease(statsObj);
-
     initUI(statsObj);
 
     drawRelease(lastRelease);

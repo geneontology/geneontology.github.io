@@ -2,17 +2,11 @@
 layout: default 
 ---
 
-
-<script src="js/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="js/stats.js"></script>
-<!-- <script type="text/javascript" src="charts/loader.js"></script> -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
-
-  // Load the Visualization API and the corechart package.
   google.charts.load('current', {'packages':['corechart', 'table']});
-
-  // Set a callback to run when the Google Visualization API is loaded.
   google.charts.setOnLoadCallback(drawCharts);
 
 </script>
@@ -27,63 +21,12 @@ layout: default
         <br>
         <h2 id="stats-current">Release statistics</h2>
 
-
-
-        <!-- OVERVIEW STATS -->
-        
         <hr>
         In this section, the statistics of GO can be browsed for any of the releases archived in <a href="https://doi.org/10.5281/zenodo.1205166" target="blank">Zenodo</a> from 2018-09-05 up to the current release <span id="release-date-text" style="display:inline-block"></span>.
 
-        <!-- By default, this section shows the statistics of the current GO release but you can use the drop down list below to select another release. -->
         <br><br>
-
         Statistics for release 
         <select id="selected-release" onchange="changeRelease()"></select>
-
-<!-- 
-        <table style="margin-bottom: 2rem; border-spacing: 15px; border-collapse: separate;">
-            <tr>
-                <td style="padding:15px; border: 1px solid black; ">
-                    <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                    GO terms by aspect</div>
-                    <div id="graph-ontology-aspects"></div>
-                    <div style="text-align: center; font-size:12px">[<a href="/docs/ontology-documentation/">more about aspects</a>]</div>
-                </td>
-                <td style="border: 1px solid black;">
-                    <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                    GO terms by state</div>
-                    <div id="graph-ontology-terms"></div>
-                    <div style="text-align: center; font-size:12px">[<a href="/docs/GO-term-elements#obsolete-tag">more about state</a>]</div>
-                </td>
-                <td style="border: 1px solid black;">
-                    <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                    GO terms by element</div>
-                    <div id="graph-ontology-knowledge"></div>
-                    <div style="text-align: center; font-size:12px">[<a href="/docs/GO-term-elements">more about term elements</a>]</div>
-                </td>
-            </tr>
-            <tr>
-                <td style="padding:15px; border: 1px solid black; ">
-                    <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                    Annotations by aspect</div>
-                    <div id="graph-annotation-aspects"></div>
-                    <div style="text-align: center; font-size:12px">[<a href="/docs/ontology-documentation/">more about aspects</a>]</div>
-                </td>
-                <td style="border: 1px solid black;">
-                    <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                    Annotations by evidence</div>
-                    <div id="graph-annotation-evidence"></div>
-                    <div style="text-align: center; font-size:12px">[<a href="/docs/guide-go-evidence-codes/">more about evidence</a>]</div>
-                </td>
-                <td style="border: 1px solid black;">
-                    <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                    Annotations by bioentity</div>
-                    <div id="graph-annotation-bioentity"></div>
-                    <div style="text-align: center; font-size:12px">[<a href="https://biolink.github.io/biolink-model/docs/BiologicalEntity.html" target="blank">more about bioentity</a>]</div>
-                </td>
-            </tr>
-        </table> -->
-
 
         <table style="width:1116px; border: 1px solid black; margin: 15px auto;">
             <tr>
@@ -109,98 +52,44 @@ layout: default
 
 
 
-        <!-- EVOLUTION ACROSS RELEASES -->
+        <!-- CHANGES ACROSS RELEASES -->
         <br><br>
         <h2 id="stats-evolution">Changes in the GO resource over time</h2>
         <hr>
 
-        <!-- In this section, the statistics shown illustrate the stability of the GO ontology over time and the changes of the annotated gene products and articles.
-        
-        be browse for any of the release archived in <a href="https://doi.org/10.5281/zenodo.1205166" target="blank">Zenodo</a> since August 2018. 
-        By default, this section shows the statistics of the current GO release but you can use the drop down list below to select another release. -->
-
-
         <table style="margin: 15px auto; margin-bottom: 2rem; border-spacing: 15px; border-collapse: separate;">            
-
             <tr>
                 <td style="padding:15px; border: 1px solid black; ">
                     <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
                     Growth of annotated scientific publications over time</div>
                     <div id="graph-references-pmid-OT" style="margin-bottom:3rem"></div>
-                    <!-- <div style="text-align: center; font-size:12px">[<a href="http://www2.geneontology.xyz/docs/contributing-to-go/">more on contributing to GO</a>]</div> -->
                 </td>
+
                 <td style="padding:15px; border: 1px solid black; ">
                     <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
                     Number of GO terms by aspect</div>
                     <div id="graph-ontology-terms-aspect-OT" style="margin-bottom:3rem"></div>
-                    <!-- <div style="text-align: center; font-size:12px">[<a href="/docs/ontology-documentation/">more on term aspect</a>]</div> -->
                 </td>
+
                 <td style="padding:15px; border: 1px solid black; ">
                     <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
                     Changes in GO terms between releases</div>
                     <div id="graph-ontology-terms-changes-OT" style="margin-bottom:3rem"></div>
-                    <!-- <div style="text-align: center; font-size:12px">[<a href="/docs/ontology-documentation/">more about term state</a>]</div> -->
                 </td>
             </tr>
-
         </table>
-
-
-
-        <table style="margin-bottom: 2rem; border-spacing: 15px; border-collapse: separate;">
-            <tr>
-
-            </tr>
-        </table>
-
 
         <table style="margin: 15px auto; margin-bottom: 2rem; border-spacing: 15px; border-collapse: separate;">            
-
-      
-
-            <!-- <tr>
-                <td style="padding:15px; border: 1px solid black; ">
-                    <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                    Number of annotations by aspect over time</div>
-                    <div id="graph-annotation-aspect-OT" style="margin-bottom:3rem"></div>
-                </td>
-            </tr> -->
             <tr>
                 <td style="padding:15px; border: 1px solid black; ">
                     <div style="justify-content: center; text-align: center; color: #34c; font-size: 18px;">
                     Number of annotations by evidence</div>
                     <div style="text-align: right;margin-top: 10px;">Species filter: <select id="annotation-evidence-species-filter" onchange="changeSpeciesFilter()"></select></div>
                     <div id="graph-annotation-evidence-OT" style="margin-bottom:3rem"></div>
-                    
-                    <!-- <div style="text-align: center; font-size:12px">[<a href="/docs/guide-go-evidence-codes/">more on evidences</a>]</div> -->
                 </td>
             </tr>
-
         </table>
-<!-- 
-        <h2>About the Gene Ontology statistics</h2>
-        <hr>
-        Statistics are computed at each monthly release by the GO pipeline using the <a href="https://github.com/geneontology/go-stats/tree/master/libraries/go-stats" target="blank">go-stats scripts</a>.
-        They can be fully recomputed from the <a href="https://doi.org/10.5281/zenodo.1205166" target="blank">GO Archive hosted on Zenodo</a> with the same <a href="https://github.com/geneontology/go-stats/tree/master/libraries/go-stats" target="blank">go-stats scripts</a>.<br>
-        <br>
-        The following GO statistics are divided into:
-        <li><a href="#stats-current">Statistics for a specific release</a></li>
-        <li><a href="#stats-evolution">Statistics across releases (over time)</a></li>
-        <br>
-        For suggestion on additional statistics to keep track, please contact us through the <a href="http://help.geneontology.org">helpdesk</a> or send an email to <a href="mailto:help.geneontology.org">help.geneontology.org</a>.<br>
- -->
-        
 
-
-        <!-- <div style="margin-top:5rem; justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                Annotations by model organism and evidence code</div>
-        <div>Aspect filter: <select id="annotation-filter-aspect" onchange="changeAnnotationAspect()"></select></div>
-        <div id="graph-genome-annotation-evidence" style="margin-bottom:3rem"></div>
-
-        <div style="margin-top:5rem; justify-content: center; text-align: center; color: #34c; font-size: 18px;">
-                Annotated bioentities by model organism</div>
-        <div id="graph-genome-bioentity-coverage" style="margin-bottom:3rem"></div> -->
-        
 
     </div>
 </div>
