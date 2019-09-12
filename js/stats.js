@@ -379,6 +379,12 @@ function get_stats_tests() {
     return axios.all(axiosQueries);
 }
 
+var aggregated_stats_url = "https://geneontology-test.s3.amazonaws.com/aggregated-go-stats-summaries.json";
+function get_aggregated_stats() {
+    var query = axios.get(aggregated_stats_url);
+    return query;
+}
+
 
 function get_stats(releases) {
     var axiosQueries = [];
@@ -488,8 +494,8 @@ function openInNewTab(url) {
 function drawReleaseProperty(release_stats, field, fieldLabel, eltID, useLabels = false, sliceVisibility = 0, grouping = undefined) {
     var data_stats = release_stats.annotations[field];
 
-    console.log("RELEASE STATS: ", release_stats);
-    console.log("data field: ", data_stats);
+    // console.log("RELEASE STATS: ", release_stats);
+    // console.log("data field: ", data_stats);
     var array = [];
     if(grouping) {
         var data = {};
@@ -499,7 +505,7 @@ function drawReleaseProperty(release_stats, field, fieldLabel, eltID, useLabels 
             }
             data[grouping[fieldItem]] += data_stats[fieldItem];
         });
-        console.log("new data: ", data);
+        // console.log("new data: ", data);
         Object.keys(data).forEach(fieldItem => {
             array.push([ fieldItem, data[fieldItem] ]);
         });
@@ -543,12 +549,12 @@ function drawReleaseProperty(release_stats, field, fieldLabel, eltID, useLabels 
     google.visualization.events.addListener(chart, 'select', function() {
         var selectedItem = chart.getSelection()[0];
         var selectedTerm = prepared[selectedItem.row + 1];
-        console.log("species : " , selectedTerm);
+        // console.log("species : " , selectedTerm);
         if(field.includes("species")) {
             var url = "http://amigo.geneontology.org/amigo/search/annotation?fq=taxon_subset_closure_label:\"" + selectedTerm[0] + "\"";
             openInNewTab(url);
         } else if(field.includes("evidence")) {
-            console.log(evidenceGroups[selectedTerm[0]]);
+            // console.log(evidenceGroups[selectedTerm[0]]);
             var selection = evidenceGroups[selectedTerm[0]].join("\" \"");
             var url = "http://amigo.geneontology.org/amigo/search/annotation?fq=evidence_type:(" + selection + ")";
             openInNewTab(url);
@@ -580,7 +586,7 @@ function drawSpeciesOverTime(all_stats, species_set) {
     })
 
     prepared = [['Release'].concat(selectedLabels)].concat(prepared);
-    console.log("prepared: ", prepared);
+    // console.log("prepared: ", prepared);
     var data = google.visualization.arrayToDataTable(prepared);
 
     var chart = new google.visualization.LineChart(document.getElementById('graph-species-ot'));
@@ -621,10 +627,10 @@ function drawTermsByAspectOT(ontology_stats, eltID) {
         // return [ release.current.release_date.substring(9) , release.current.valid_terms , release.current.obsoleted_terms, release.current.merged_terms , release.current.biological_processes , release.current.molecular_functions , release.current.cellular_components];
         return [ release.current.release_date.substring(9) , release.current.valid_terms , release.current.biological_processes , release.current.molecular_functions , release.current.cellular_components];
     })
-    console.log(prepared);
+    // console.log(prepared);
     // prepared = [['Release', 'Valid', 'Obsoleted', 'Merged', 'BP', 'MF', 'CC']].concat(prepared);
     prepared = [['Release', 'Valid', 'BP', 'MF', 'CC']].concat(prepared);
-    console.log("prepared: ", prepared);
+    // console.log("prepared: ", prepared);
     var data = google.visualization.arrayToDataTable(prepared);
 
     var chart = new google.visualization.LineChart(document.getElementById(eltID));
@@ -658,7 +664,7 @@ function drawTermsAlterationsOT(ontology_stats, eltID, addXRefs) {
         })
         prepared = [['Release', 'Δ created', 'Δ obsoleted', 'Δ merged', 'Δ structures', 'Δ metas NOREF']].concat(prepared);
     }
-    console.log("prepared: ", prepared);
+    // console.log("prepared: ", prepared);
     var data = google.visualization.arrayToDataTable(prepared);
 
     var chart = new google.visualization.LineChart(document.getElementById(eltID));
@@ -811,7 +817,7 @@ function drawAnnotationAspectOT(statsObj) {
 
 
 function drawAnnotationEvidenceOT(statsObj, selectedSpecies = null) {
-    console.log("drawing annotation evidence OT for species " , selectedSpecies);
+    // console.log("drawing annotation evidence OT for species " , selectedSpecies);
     var stats = statsObj["stats"];
 
     var clusters = statsObj.evidence_clusters;
@@ -1012,7 +1018,7 @@ function drawRefGenomeCoverageByAspect(statsObj, bioentityType, release) {
     
     var header = ["Aspect", "A", "P", "F", "C"];
 
-    console.log("coverage by aspect: ", statsObj , bioentityType, release);
+    // console.log("coverage by aspect: ", statsObj , bioentityType, release);
 
     var array = [];
     array.push(header);
@@ -1183,7 +1189,7 @@ var dynamicReleaseDate = { };
 
 
 function setDynamicVariables() {
-    console.log("release: ", currentRelease);
+    // console.log("release: ", currentRelease);
     var release_h2 = document.getElementById("stats-current");
     // release_h2.innerHTML = "Release statistics (" + lastRelease.release_date + ")";
     release_h2.innerHTML = "Release statistics";
@@ -1241,7 +1247,7 @@ function initUI(statsObj) {
 function changeAnnotationAspect() {
     var selAspect = document.getElementById("annotation-filter-aspect");
     var newAspect = selAspect.options[selAspect.selectedIndex].value;
-    console.log("setting aspect to ", newAspect);
+    // console.log("setting aspect to ", newAspect);
 
     if(newAspect == "All") {
         newAspect = "A";
@@ -1260,7 +1266,7 @@ function changeRelease() {
     var selRelease = document.getElementById("selected-release");
     var newRelease = selRelease.options[selRelease.selectedIndex].value;
     newRelease = dynamicReleaseDate[newRelease];
-    console.log("loading data for new release: ", newRelease);
+    // console.log("loading data for new release: ", newRelease);
     currentRelease = newRelease;
     var release = getRelease(statsObj, newRelease);
 
@@ -1275,7 +1281,7 @@ function changeRelease() {
 
 function drawRelease(release) {
     currentRelease = release;
-    console.log("Drawing release: ", release);
+    // console.log("Drawing release: ", release);
 
     drawTableOverviews(statsObj, release);
 
@@ -1288,7 +1294,7 @@ function drawRelease(release) {
 var drawCharts = async function() {
     var stats = await initData();
     statsObj = createStatsObj(stats);
-    console.log("stats obj: ", statsObj);
+    // console.log("stats obj: ", statsObj);
 
     lastRelease = getLastRelease(statsObj);
     initUI(statsObj);
@@ -1298,11 +1304,8 @@ var drawCharts = async function() {
 
 
 var initData = async function () {
-    var stats = await get_stats_tests();
-    stats = stats.map(stat => {
-        return stat.data;
-    })    
-    console.log("retrieved: ", stats);
+    var stats = await get_aggregated_stats();
+    stats = stats.data;    
     return stats;
 }
 
