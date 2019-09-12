@@ -1,0 +1,736 @@
+{
+  "release_date": "2019-07-01",
+  "ontology": {
+    "valid_terms": 44945,
+    "obsoleted_terms": 52,
+    "merged_terms": 16,
+    "biological_process_terms": 29652,
+    "molecular_function_terms": 11078,
+    "cellular_component_terms": 4215,
+    "meta_statements": 334606,
+    "meta_statements_exclude_xrefs": 309435,
+    "terms_relations": 95666,
+    "created_terms": 23
+  },
+  "annotations": {
+    "total": 6408283,
+    "total_no_pb": 6267720,
+    "by_aspect": {
+      "P": 2528450,
+      "F": 1972055,
+      "C": 1907778
+    },
+    "by_bioentity_type_cluster": {
+      "protein": 850941,
+      "gene_product": 214612,
+      "gene": 46016,
+      "RNA": 43362,
+      "protein_complex": 275,
+      "pseudogene": 7
+    },
+    "by_evidence_cluster": {
+      "PHYLO": 2466883,
+      "IEA": 1983755,
+      "OTHER": 906227,
+      "EXP": 729418,
+      "ND": 282500,
+      "HTP": 39500
+    },
+    "by_evidence_cluster_no_pb": {
+      "PHYLO": 2466865,
+      "IEA": 1983602,
+      "OTHER": 905829,
+      "EXP": 589424,
+      "ND": 282500,
+      "HTP": 39500
+    },
+    "by_reference_genome": {
+      "NCBITaxon:9606|Homo sapiens": {
+        "by_evidence_cluster": {
+          "IEA": {
+            "A": 115868,
+            "P": 60837,
+            "F": 24332,
+            "C": 35640
+          },
+          "OTHER": {
+            "A": 141726,
+            "P": 54616,
+            "F": 13803,
+            "C": 81159
+          },
+          "EXP": {
+            "A": 200637,
+            "P": 59727,
+            "F": 115074,
+            "C": 35436
+          },
+          "PHYLO": {
+            "A": 56743,
+            "P": 30423,
+            "F": 16015,
+            "C": 17469
+          },
+          "HTP": {
+            "A": 9822,
+            "P": 281,
+            "F": 2020,
+            "C": 7537
+          },
+          "ND": {
+            "A": 1833,
+            "P": 617,
+            "F": 758,
+            "C": 458
+          }
+        }
+      },
+      "NCBITaxon:10116|Rattus norvegicus": {
+        "by_evidence_cluster": {
+          "OTHER": {
+            "A": 196423,
+            "P": 120239,
+            "F": 35649,
+            "C": 52455
+          },
+          "IEA": {
+            "A": 127679,
+            "P": 74037,
+            "F": 28869,
+            "C": 34435
+          },
+          "PHYLO": {
+            "A": 59850,
+            "P": 32265,
+            "F": 17520,
+            "C": 17921
+          },
+          "EXP": {
+            "A": 59035,
+            "P": 30860,
+            "F": 15356,
+            "C": 15980
+          },
+          "ND": {
+            "A": 6604,
+            "P": 1968,
+            "F": 2483,
+            "C": 2153
+          },
+          "HTP": {
+            "A": 48,
+            "P": 2,
+            "F": 0,
+            "C": 46
+          }
+        }
+      },
+      "NCBITaxon:10090|Mus musculus": {
+        "by_evidence_cluster": {
+          "OTHER": {
+            "A": 133297,
+            "P": 67227,
+            "F": 31225,
+            "C": 45012
+          },
+          "IEA": {
+            "A": 74526,
+            "P": 29264,
+            "F": 26985,
+            "C": 25921
+          },
+          "PHYLO": {
+            "A": 61523,
+            "P": 33315,
+            "F": 17768,
+            "C": 18392
+          },
+          "EXP": {
+            "A": 121470,
+            "P": 74131,
+            "F": 28193,
+            "C": 24976
+          },
+          "ND": {
+            "A": 17895,
+            "P": 5969,
+            "F": 6551,
+            "C": 5375
+          },
+          "HTP": {
+            "A": 2437,
+            "P": 1,
+            "F": 0,
+            "C": 2436
+          }
+        }
+      },
+      "NCBITaxon:3702|Arabidopsis thaliana": {
+        "by_evidence_cluster": {
+          "IEA": {
+            "A": 43636,
+            "P": 17810,
+            "F": 17399,
+            "C": 12650
+          },
+          "PHYLO": {
+            "A": 39969,
+            "P": 19701,
+            "F": 13416,
+            "C": 13254
+          },
+          "OTHER": {
+            "A": 53129,
+            "P": 10729,
+            "F": 6449,
+            "C": 40801
+          },
+          "EXP": {
+            "A": 76282,
+            "P": 29234,
+            "F": 23384,
+            "C": 26963
+          },
+          "ND": {
+            "A": 20568,
+            "P": 7895,
+            "F": 8827,
+            "C": 3846
+          },
+          "HTP": {
+            "A": 4535,
+            "P": 0,
+            "F": 0,
+            "C": 4535
+          }
+        }
+      },
+      "NCBITaxon:7955|Danio rerio": {
+        "by_evidence_cluster": {
+          "IEA": {
+            "A": 124894,
+            "P": 53440,
+            "F": 54808,
+            "C": 36264
+          },
+          "PHYLO": {
+            "A": 63971,
+            "P": 34261,
+            "F": 18320,
+            "C": 19703
+          },
+          "EXP": {
+            "A": 25777,
+            "P": 23238,
+            "F": 2332,
+            "C": 1108
+          },
+          "ND": {
+            "A": 6532,
+            "P": 2032,
+            "F": 2297,
+            "C": 2203
+          },
+          "OTHER": {
+            "A": 6458,
+            "P": 3560,
+            "F": 1547,
+            "C": 2009
+          },
+          "HTP": {
+            "A": 0,
+            "P": 0,
+            "F": 0,
+            "C": 0
+          }
+        }
+      },
+      "NCBITaxon:6239|Caenorhabditis elegans": {
+        "by_evidence_cluster": {
+          "IEA": {
+            "A": 65219,
+            "P": 22958,
+            "F": 23063,
+            "C": 26755
+          },
+          "PHYLO": {
+            "A": 26770,
+            "P": 13984,
+            "F": 8073,
+            "C": 8718
+          },
+          "EXP": {
+            "A": 25089,
+            "P": 15474,
+            "F": 5561,
+            "C": 4943
+          },
+          "OTHER": {
+            "A": 2291,
+            "P": 1123,
+            "F": 861,
+            "C": 741
+          },
+          "ND": {
+            "A": 401,
+            "P": 68,
+            "F": 204,
+            "C": 129
+          },
+          "HTP": {
+            "A": 709,
+            "P": 321,
+            "F": 0,
+            "C": 388
+          }
+        }
+      },
+      "NCBITaxon:559292|Saccharomyces cerevisiae S288C": {
+        "by_evidence_cluster": {
+          "IEA": {
+            "A": 50655,
+            "P": 19352,
+            "F": 17380,
+            "C": 19280
+          },
+          "EXP": {
+            "A": 38640,
+            "P": 23568,
+            "F": 8573,
+            "C": 10448
+          },
+          "PHYLO": {
+            "A": 15455,
+            "P": 7763,
+            "F": 4563,
+            "C": 5188
+          },
+          "HTP": {
+            "A": 7216,
+            "P": 293,
+            "F": 309,
+            "C": 6696
+          },
+          "ND": {
+            "A": 3682,
+            "P": 1117,
+            "F": 1873,
+            "C": 692
+          },
+          "OTHER": {
+            "A": 3856,
+            "P": 2383,
+            "F": 1593,
+            "C": 921
+          }
+        }
+      },
+      "NCBITaxon:7227|Drosophila melanogaster": {
+        "by_evidence_cluster": {
+          "PHYLO": {
+            "A": 26658,
+            "P": 13729,
+            "F": 8139,
+            "C": 8816
+          },
+          "EXP": {
+            "A": 47733,
+            "P": 32855,
+            "F": 7578,
+            "C": 9755
+          },
+          "OTHER": {
+            "A": 21123,
+            "P": 12125,
+            "F": 6565,
+            "C": 5918
+          },
+          "IEA": {
+            "A": 8698,
+            "P": 3873,
+            "F": 4663,
+            "C": 1234
+          },
+          "ND": {
+            "A": 8090,
+            "P": 1913,
+            "F": 3305,
+            "C": 2872
+          },
+          "HTP": {
+            "A": 2324,
+            "P": 725,
+            "F": 75,
+            "C": 1548
+          }
+        }
+      },
+      "NCBITaxon:44689|Dictyostelium discoideum": {
+        "by_evidence_cluster": {
+          "IEA": {
+            "A": 40172,
+            "P": 15436,
+            "F": 16325,
+            "C": 13524
+          },
+          "PHYLO": {
+            "A": 16791,
+            "P": 8362,
+            "F": 5167,
+            "C": 5507
+          },
+          "ND": {
+            "A": 6351,
+            "P": 1973,
+            "F": 2026,
+            "C": 2352
+          },
+          "EXP": {
+            "A": 8330,
+            "P": 4572,
+            "F": 1916,
+            "C": 2265
+          },
+          "OTHER": {
+            "A": 4004,
+            "P": 1947,
+            "F": 1229,
+            "C": 1299
+          },
+          "HTP": {
+            "A": 721,
+            "P": 156,
+            "F": 5,
+            "C": 560
+          }
+        }
+      },
+      "NCBITaxon:4896|Schizosaccharomyces pombe": {
+        "by_evidence_cluster": {
+          "PHYLO": {
+            "A": 13590,
+            "P": 6661,
+            "F": 3942,
+            "C": 4712
+          },
+          "EXP": {
+            "A": 16623,
+            "P": 7664,
+            "F": 5336,
+            "C": 5519
+          },
+          "HTP": {
+            "A": 8440,
+            "P": 1569,
+            "F": 1552,
+            "C": 6871
+          },
+          "OTHER": {
+            "A": 11143,
+            "P": 6271,
+            "F": 3532,
+            "C": 2846
+          },
+          "IEA": {
+            "A": 3367,
+            "P": 832,
+            "F": 1863,
+            "C": 978
+          },
+          "ND": {
+            "A": 2221,
+            "P": 736,
+            "F": 1268,
+            "C": 217
+          }
+        }
+      },
+      "NCBITaxon:83333|Escherichia coli K-12": {
+        "by_evidence_cluster": {
+          "EXP": {
+            "A": 19514,
+            "P": 7939,
+            "F": 9587,
+            "C": 4172
+          },
+          "PHYLO": {
+            "A": 5330,
+            "P": 2722,
+            "F": 2110,
+            "C": 1478
+          },
+          "OTHER": {
+            "A": 1315,
+            "P": 494,
+            "F": 340,
+            "C": 634
+          },
+          "ND": {
+            "A": 1,
+            "P": 0,
+            "F": 1,
+            "C": 0
+          },
+          "HTP": {
+            "A": 0,
+            "P": 0,
+            "F": 0,
+            "C": 0
+          },
+          "IEA": {
+            "A": 0,
+            "P": 0,
+            "F": 0,
+            "C": 0
+          }
+        }
+      }
+    }
+  },
+  "taxa": {
+    "total": 4467,
+    "filtered": 185
+  },
+  "bioentities": {
+    "total": 1155213,
+    "total_no_pb": 1152498,
+    "by_type_cluster": {
+      "protein": 850941,
+      "gene_product": 214612,
+      "gene": 46016,
+      "RNA": 43362,
+      "protein_complex": 275,
+      "pseudogene": 7
+    },
+    "by_type_cluster_no_pb": {
+      "protein": 848342,
+      "gene_product": 214609,
+      "gene": 45911,
+      "RNA": 43355,
+      "protein_complex": 274,
+      "pseudogene": 7
+    },
+    "by_reference_genome": {
+      "NCBITaxon:9606|Homo sapiens": {
+        "protein": {
+          "A": 19775,
+          "P": 17906,
+          "F": 17685,
+          "C": 18937
+        },
+        "RNA": {
+          "A": 17717,
+          "P": 12112,
+          "F": 8960,
+          "C": 15407
+        },
+        "protein_complex": {
+          "A": 264,
+          "P": 246,
+          "F": 231,
+          "C": 105
+        }
+      },
+      "NCBITaxon:10116|Rattus norvegicus": {
+        "gene": {
+          "A": 19343,
+          "P": 17593,
+          "F": 16457,
+          "C": 17899
+        },
+        "protein": {
+          "A": 1753,
+          "P": 1347,
+          "F": 1241,
+          "C": 1525
+        }
+      },
+      "NCBITaxon:10090|Mus musculus": {
+        "protein": {
+          "A": 22600,
+          "P": 21661,
+          "F": 21323,
+          "C": 22046
+        },
+        "gene": {
+          "A": 2281,
+          "P": 2223,
+          "F": 1692,
+          "C": 1772
+        }
+      },
+      "NCBITaxon:3702|Arabidopsis thaliana": {
+        "protein": {
+          "A": 29081,
+          "P": 24498,
+          "F": 23463,
+          "C": 27631
+        },
+        "gene_product": {
+          "A": 2066,
+          "P": 2060,
+          "F": 2048,
+          "C": 2049
+        },
+        "RNA": {
+          "A": 1305,
+          "P": 1304,
+          "F": 1243,
+          "C": 1237
+        },
+        "pseudogene": {
+          "A": 3,
+          "P": 3,
+          "F": 3,
+          "C": 2
+        }
+      },
+      "NCBITaxon:7955|Danio rerio": {
+        "protein": {
+          "A": 24340,
+          "P": 20216,
+          "F": 19955,
+          "C": 19919
+        },
+        "RNA": {
+          "A": 198,
+          "P": 198,
+          "F": 102,
+          "C": 103
+        },
+        "pseudogene": {
+          "A": 4,
+          "P": 4,
+          "F": 3,
+          "C": 2
+        }
+      },
+      "NCBITaxon:6239|Caenorhabditis elegans": {
+        "gene": {
+          "A": 13713,
+          "P": 9089,
+          "F": 9275,
+          "C": 11445
+        },
+        "protein": {
+          "A": 564,
+          "P": 398,
+          "F": 289,
+          "C": 460
+        }
+      },
+      "NCBITaxon:559292|Saccharomyces cerevisiae S288C": {
+        "gene": {
+          "A": 6439,
+          "P": 6439,
+          "F": 6423,
+          "C": 6431
+        },
+        "protein": {
+          "A": 3,
+          "P": 2,
+          "F": 2,
+          "C": 2
+        }
+      },
+      "NCBITaxon:7227|Drosophila melanogaster": {
+        "protein": {
+          "A": 12519,
+          "P": 11654,
+          "F": 11176,
+          "C": 10964
+        },
+        "gene_product": {
+          "A": 1324,
+          "P": 765,
+          "F": 979,
+          "C": 945
+        },
+        "RNA": {
+          "A": 619,
+          "P": 599,
+          "F": 474,
+          "C": 517
+        }
+      },
+      "NCBITaxon:44689|Dictyostelium discoideum": {
+        "protein": {
+          "A": 8914,
+          "P": 7348,
+          "F": 7306,
+          "C": 7642
+        },
+        "RNA": {
+          "A": 440,
+          "P": 421,
+          "F": 401,
+          "C": 57
+        }
+      },
+      "NCBITaxon:4896|Schizosaccharomyces pombe": {
+        "protein": {
+          "A": 5080,
+          "P": 5080,
+          "F": 5080,
+          "C": 5080
+        },
+        "RNA": {
+          "A": 317,
+          "P": 317,
+          "F": 317,
+          "C": 317
+        }
+      },
+      "NCBITaxon:83333|Escherichia coli K-12": {
+        "protein": {
+          "A": 4490,
+          "P": 3380,
+          "F": 3248,
+          "C": 2962
+        },
+        "gene": {
+          "A": 851,
+          "P": 792,
+          "F": 751,
+          "C": 638
+        }
+      }
+    }
+  },
+  "references": {
+    "all": {
+      "total": 256857,
+      "total_no_pb": 245324,
+      "by_reference_genome": {
+        "NCBITaxon:9606|Homo sapiens": 47898,
+        "NCBITaxon:10116|Rattus norvegicus": 116094,
+        "NCBITaxon:10090|Mus musculus": 57191,
+        "NCBITaxon:3702|Arabidopsis thaliana": 23787,
+        "NCBITaxon:7955|Danio rerio": 12393,
+        "NCBITaxon:6239|Caenorhabditis elegans": 7900,
+        "NCBITaxon:559292|Saccharomyces cerevisiae S288C": 10894,
+        "NCBITaxon:7227|Drosophila melanogaster": 23079,
+        "NCBITaxon:44689|Dictyostelium discoideum": 1696,
+        "NCBITaxon:4896|Schizosaccharomyces pombe": 3083,
+        "NCBITaxon:83333|Escherichia coli K-12": 6381
+      }
+    },
+    "pmids": {
+      "total": 154743,
+      "total_no_pb": 146345,
+      "by_reference_genome": {
+        "NCBITaxon:9606|Homo sapiens": 37216,
+        "NCBITaxon:10116|Rattus norvegicus": 66917,
+        "NCBITaxon:10090|Mus musculus": 28615,
+        "NCBITaxon:3702|Arabidopsis thaliana": 11717,
+        "NCBITaxon:7955|Danio rerio": 6186,
+        "NCBITaxon:6239|Caenorhabditis elegans": 3943,
+        "NCBITaxon:559292|Saccharomyces cerevisiae S288C": 10885,
+        "NCBITaxon:7227|Drosophila melanogaster": 11497,
+        "NCBITaxon:44689|Dictyostelium discoideum": 1683,
+        "NCBITaxon:4896|Schizosaccharomyces pombe": 3068,
+        "NCBITaxon:83333|Escherichia coli K-12": 6351
+      }
+    }
+  }
+}
