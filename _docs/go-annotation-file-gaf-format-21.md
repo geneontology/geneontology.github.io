@@ -180,7 +180,7 @@ Gene symbol [or other text] Note that we strongly recommend that gene synonyms a
 
 
 #### DB Object Type (column 12)
-A description of the type of gene product being annotated.  If a **Gene Product Form ID** (column 17) is supplied, the **DB Object Type** will refer to that entity; if no **Gene Product Form ID** is present, it will refer to the entity that the **DB Object Symbol** (column 2) is believed to produce and which actively carries out the function or localization described.  **DB Object Type** will be one of the following: protein_complex; protein; transcript; ncRNA; rRNA; tRNA; snRNA; snoRNA; any subtype of ncRNA in the Sequence Ontology.  If the precise product type is unknown, gene_product should be used.
+A description of the type of gene product being annotated.  If a **Gene Product Form ID** (column 17) is supplied, the **DB Object Type** will refer to that entity; if no **Gene Product Form ID** is present, it will refer to the entity that the **DB Object Symbol** (column 2) is believed to produce and which actively carries out the function or localization described.  **DB Object Type** will be one of the following: protein_complex; protein; transcript; ncRNA; rRNA; tRNA; snRNA; snoRNA; any subtype of ncRNA in the [Sequence Ontology](http://www.sequenceontology.org/browser/obob.cgi).  If the precise product type is unknown, gene_product should be used.
  
     This field is mandatory, cardinality 1.
 
