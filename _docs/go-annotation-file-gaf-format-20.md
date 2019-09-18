@@ -141,7 +141,7 @@ A description of the type of gene product being annotated. If a **gene product f
 * tRNA
 * snRNA
 * snoRNA
-* any subtype of ncRNA in the Sequence Ontology
+* any subtype of ncRNA in the [Sequence Ontology](http://www.sequenceontology.org/browser/obob.cgi)
 * If the precise product type is unknown, gene_product should be used. 
  
 The object type (gene_product, transcript, protein, protein_complex, etc.) listed in the DB object type field must match the database entry identified by the gene product form ID, or, if this is absent, the expected product of the DB object ID. Note that DB object type refers to the database entry (i.e. it represents a protein, functional RNA, etc.); this column does not reflect anything about the GO term or the evidence on which the annotation is based. For example, if your database entry represents a protein-encoding gene, then protein goes in the DB object type column. The text entered in the DB object name and DB object symbol should refer to the entity in DB object ID. For example, several alternative transcripts from one gene may be annotated separately, each with the same gene ID in DB object ID, and specific gene product identifiers in gene product form ID, but list the same gene symbol in the DB object symbol column.
