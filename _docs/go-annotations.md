@@ -71,7 +71,6 @@ GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http:/
 * [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
 * [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
 
-
 ## Downloads
 * Download [GO annotations by species](/docs/download-go-annotations/)
 * Download [GO-CAM models](http://geneontology.org/go-cam){:target="blank"}
@@ -80,3 +79,6 @@ GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http:/
 GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates.
 
 With the ever-increasing number of published articles, experiments and methods, covering all biology with the latest annotations is always challenging. We therefore invite researchers and computational scientists to [submit requests for missing, erroneous or out-of-date annotations to improve the GO database](/docs/contributing-to-go/).
+
+## Statistics
+[GO statistics](/stats.html) are available both for the current release and over time.
