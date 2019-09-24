@@ -19,7 +19,7 @@ permalink: /docs/download-go-cams/
 + [GO-CAM SIFs](https://s3.amazonaws.com/geneontology-public/gocam/GO-CAMs.sif.zip)
 
 **Notes**: 
-* Individual TTLs (1 TTL for 1 GO-CAM) can also be retrived from the GitHub repository [noctua-models](https://github.com/geneontology/noctua-models/tree/master/models){:target="blank"}.
+* Individual TTLs (1 TTL for 1 GO-CAM) can also be retrieved from the GitHub repository [noctua-models](https://github.com/geneontology/noctua-models/tree/master/models){:target="blank"}.
 * When using SIFs with [Cytoscape](https://cytoscape.org/){:target="blank"}, we also provide a [gocam-styles.xml](https://s3.amazonaws.com/geneontology-public/gocam/gocam-styles.xml). Read more in the [GO-CAM documentation](/docs/gocam-overview/#visualization-in-cytoscape).
 
 ## Download GO-CAM by species
