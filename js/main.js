@@ -96,17 +96,19 @@ $(function() {
     Http.open("GET", url);
     Http.send();
     Http.onreadystatechange=(e)=>{
-        var data = JSON.parse(Http.responseText)
-        var elt = document.getElementById("id_release_date");
-        if(elt) elt.textContent=data.release_date.toLocaleString();
-        elt = document.getElementById("id_terms");
-        if(elt) elt.textContent=data.terms.toLocaleString();
-        elt = document.getElementById("id_annotations");
-        if(elt) elt.textContent=data.annotations.toLocaleString();
-        elt = document.getElementById("id_geneproducts");
-        if(elt) elt.textContent=data.geneproducts.toLocaleString();
-        elt = document.getElementById("id_species");
-        if(elt) elt.textContent=data.species.toLocaleString();
+        if(e.target.status == 200 && Http.responseText != "") {
+            var data = JSON.parse(Http.responseText)
+            var elt = document.getElementById("id_release_date");
+            if(elt) elt.textContent=data.release_date.toLocaleString();
+            elt = document.getElementById("id_terms");
+            if(elt) elt.textContent=data.terms.toLocaleString();
+            elt = document.getElementById("id_annotations");
+            if(elt) elt.textContent=data.annotations.toLocaleString();
+            elt = document.getElementById("id_geneproducts");
+            if(elt) elt.textContent=data.geneproducts.toLocaleString();
+            elt = document.getElementById("id_species");
+            if(elt) elt.textContent=data.species.toLocaleString();
+        }
     }
 
     // const release_date_url = ""

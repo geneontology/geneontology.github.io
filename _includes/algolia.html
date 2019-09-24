@@ -32,13 +32,16 @@ search.addWidget(
     container: '#search-hits',
     templates: {
       item: function(hit) {
-        return `
-          <div class="container">
-            <h2><a class="post-link" href="{{ site.baseurl }}${hit.url}">${hit._highlightResult.title.value}</a></h2>
-            
-            <div class="post-snippet">${hit._snippetResult.content.value}</div>
-          </div>
-        `;
+        var elt = document.getElementsByClassName("ais-search-box--input");
+        if(hit._highlightResult.title && elt[0].value != "") {
+          return `
+            <div class="container">
+              <h2><a class="post-link" href="{{ site.baseurl }}${hit.url}">${hit._highlightResult.title.value}</a></h2>
+              
+              <div class="post-snippet">${hit._snippetResult.content.value}</div>
+            </div>
+          `;
+        }
       }
     }
   })
