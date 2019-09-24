@@ -7,7 +7,7 @@ permalink: /docs/gocam-overview/
 
 ## What is a standard GO annotation ?
 
-A standard GO annotation is a gene product associated to a GO term, using an [evidence code](http://wiki.geneontology.org/index.php/Guide_to_GO_Evidence_Codes){:target="blank"} and a supporting reference (a primary research article, for example). The GO term may come from any of the three aspects of the GO: [Molecular Function (MF)](http://geneontology.org/page/molecular-function-ontology-guidelines), [Biological Process (BP)](http://www.geneontology.org/page/biological-process-ontology-guidelines), or [Cellular Component (CC)](http://geneontology.org/page/cellular-component-ontology-guidelines). Gene products can correspond to proteins, complexes, or non-coding RNAs, and must be represented by a stable identifier. Gene identifiers may serve as representative of one or more gene products. The following is an illustration of a GO annotation:
+A standard GO annotation is a gene product associated to a GO term, using an [evidence code](/docs/guide-go-evidence-codes/) and a supporting reference (a primary research article, for example). The GO term may come from any of the three aspects of the GO: [Molecular Function (MF)](http://geneontology.org/page/molecular-function-ontology-guidelines), [Biological Process (BP)](http://www.geneontology.org/page/biological-process-ontology-guidelines), or [Cellular Component (CC)](http://geneontology.org/page/cellular-component-ontology-guidelines). Gene products can correspond to proteins, complexes, or non-coding RNAs, and must be represented by a stable identifier. Gene identifiers may serve as representative of one or more gene products. The following is an illustration of a GO annotation:
 
 <p align="center">
   <img width="500" src="/assets/standard-go-annotation.png" alt="Standard GO Annotation Example">
@@ -23,11 +23,12 @@ One major difference between standard annotations and GO-CAM models is that the 
 
 ## Linking different molecular activities
 
-Once the GO-CAM unit has been created (MF + BP + CC), these different units can be linked to each other (via the molecular activity) to represent a Causal Activity Model. The most common relations are directly ([positively](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002629){:target="blank"} / [negatively](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002630){:target="blank"}) regulates and [directly provides input for](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002413){:target="blank"}, but there are other relations of greater and lesser specificity, depending on what is known. Regulates should be used to denote biological control of a downstream activity. Provides input for should be used when there is no control, but an upstream function creates a molecular entity that is the target of the downstream function, such as in a metabolic pathway.
+Once the GO-CAM unit has been created (MF + BP + CC), these different units can be linked to each other (via the molecular activity) to represent a Causal Activity Model. Most of the causal relations are directly ([positively](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002629){:target="blank"} / [negatively](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002630){:target="blank"}) regulates and [directly provides input for](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/RO_0002413){:target="blank"}, but there are other relations of greater and lesser specificity, depending on what is known. *Regulates* denotes the control of a downstream activity. *Provides input for* indicates there is no control, but an upstream function creates a molecular entity that is the target of the downstream function, such as in a metabolic pathway.
+
 
 ## Incomplete GO-CAMs
 
-We recognize that the knowledge of biology is incomplete; in cases where some or most of these aspects are unknown, a model may still be constructed with details added as more information becomes available. Users should attempt to specify functions as fully as possible, but partial models are expected and still contribute to the GO knowledgebase.
+The knowledge of biology is constantly evolving, therefore many models are incomplete, and details may be added as more information becomes available.
 
 ## Noctual Platform to Curate GO-CAMs
 
@@ -39,7 +40,7 @@ GO-CAMs can be “decomposed” into the standard GO annotations (connecting a g
 
 ### Software
 
-Code handling the export of standard GO annotations from a GO-CAM model is provided by the open source [Minerva software](https://github.com/geneontology/minerva/){:target="blank"}, which is the data handling backend for Noctua. This code extracts an initial set of proposed standard GO annotations from a model, and then applies filters ensuring that appropriate metadata, such as an ECO evidence code, is obtained for each annotation.
+Code handling the export of standard GO annotations from a GO-CAM model is provided by the open source [Minerva software](https://github.com/geneontology/minerva/){:target="blank"}, which is the data handling backend for Noctua. This code extracts an initial set of proposed standard GO annotations from a model, and then applies filters ensuring that appropriate metadata, such as an [ECO evidence code](http://www.evidenceontology.org/){:target="blank"}, is obtained for each annotation.
 
 ### Converting GO-CAMs to Simple Interaction Format (SIF)
 
