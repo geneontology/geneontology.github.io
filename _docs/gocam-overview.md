@@ -17,7 +17,8 @@ A standard GO annotation is a gene product associated to a GO term, using an [ev
 
 A GO-CAM model is a combination of standard GO annotations to produce a network of annotations ("model"), that is a more complete model of biological function than the separate annotations. For example, a GO-CAM can represent how the activities of different gene products work together in a pathway or “biological program.” GO-CAM models can connect different pieces of information about the function of a gene product (joining together different annotations for the same gene product), and/or can connect functions of different gene products together by specifying how the activity of one gene product can affect the activity of another gene product. All connections in a GO-CAM model are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.
 
-The GO-CAM model is further described in: **Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems**. Nat Genet. Sep 2019 [ [abstract](https://www.nature.com/articles/s41588-019-0500-1){:target="blank"} \| [full text](https://rdcu.be/bRIgY){:target="blank"} ] 
+The GO-CAM model is further described in: **Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems**. 
+Nat Genet. Sep 2019 [ [abstract](https://www.nature.com/articles/s41588-019-0500-1){:target="blank"} \| [full text](https://rdcu.be/bRIgY){:target="blank"} ] 
 
 ## Relating annotations for the same gene product, from different aspects of GO
 
