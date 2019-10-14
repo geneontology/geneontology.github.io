@@ -28,6 +28,10 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 
 ## GO Council
 Leaders of key contributing resources.
+- __AspGDB & CGD__
+  - Gavin Sherlock, Stanford University
+- __Complex Portal & IntAct__
+  - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute  
 - __Dictybase__
   - Rex	Chisholm, Northwestern University
 - __EcoliWiki__
