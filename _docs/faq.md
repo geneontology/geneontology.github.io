@@ -621,7 +621,7 @@ FAQ tags: 
 
 Currently, GO recommends groups submit their transcriptomes to [NCBI](https://www.ncbi.nlm.nih.gov/).  These submissions will reach [UniProt](https://www.uniprot.org/){:target="blank"}, where [InterPro2GO](https://www.ebi.ac.uk/GOA/InterPro2GO){:target="blank"} automatically creates GO annotations.  These annotations, made with the IEA evidence codes ([Inferred from Electronic Annotation](/docs/guide-go-evidence-codes/)), will be made available in a future GO release.
 
-GO does not recommend groups create their own IEAs with internal tools due to reproducability and accuracy concerns.
+GO does not recommend groups create their own IEAs with internal tools due to reproducibility and accuracy concerns.
 
 ---------------------------------------------------------------------------
 ## What gene or protein IDs should I use? 
