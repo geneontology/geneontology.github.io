@@ -50,6 +50,7 @@ FAQ tags: 
 The Gene Ontology (GO) project is a collaborative effort to address the need for consistent descriptions of gene products in different databases. The GO collaborators are developing three structured, controlled vocabularies (ontologies) that describe gene products in terms of their associated biological processes, cellular components and molecular functions in a species-independent manner. There are three separate aspects to this effort: first, we write and maintain the ontologies themselves; second, we make cross-links between the ontologies and the genes and gene products in the collaborating databases; and third, we develop tools that facilitate the creation, maintenance and use of ontologies.
 
 The use of GO terms by several collaborating databases facilitates uniform queries across them. The controlled vocabularies are structured so that you can query them at different levels: for example, you can use GO to find all the gene products in the mouse genome that are involved in signal transduction, or you can zoom in on all the receptor tyrosine kinases. This structure also allows annotators to assign properties to gene products at different levels, depending on how much is known about a gene product.
+
 ---------------------------------------------------------------------------
 ## What are all the possible uses of GO? 
 {::comment}
@@ -71,6 +72,7 @@ It would be impossible to list all the potential applications of GO, but applica
 -   verifying models of genetic, metabolic and product interaction networks.
 
 For references to these and other studies that have used GO, see the [GO and the scientific literature](/docs/literature/) page.
+
 ---------------------------------------------------------------------------
 ## Why do we need GO? 
 {::comment}
