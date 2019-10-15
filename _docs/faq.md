@@ -107,7 +107,7 @@ The current ontologies of the GO project are molecular function, biological proc
 
 ---------------------------------------------------------------------------
 ## What is GO "content"? 
-={::comment}
+{::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is GO &quot;content&quot;?"></span>
 FAQ tags: 
@@ -119,7 +119,7 @@ GO content refers to the content of the ontologies themselves and the biology un
 
 ---------------------------------------------------------------------------
 ## I want to use GO, but I don't know where to begin...
-={::comment}
+{::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="I want to use GO, but I don't know where to begin"></span>
 FAQ tags: 
@@ -480,7 +480,7 @@ However, if you think that an observed change in the size of an annotation file 
 
 ---------------------------------------------------------------------------
 ## What is the difference between the filtered and unfiltered versions of the GOA UniProt gene associations files? 
-={::comment}
+{::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between the filtered and unfiltered versions of the GOA UniProt gene associations files?"></span>
 FAQ tags: 
