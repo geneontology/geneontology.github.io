@@ -88,6 +88,7 @@ The Gene Ontology (GO) project is a collaborative effort to address the need for
 Ontologies provide a vocabulary for representing and communicating knowledge about a topic, and a set of relationships that hold among the terms of the vocabulary. They can be structurally very complex, or relatively simple. Most importantly, ontologies capture domain knowledge in a way that can easily be dealt with by a computer . Because the terms in an ontology and the relationships between the terms are carefully defined, the use of ontologies facilitates making standard annotations, improves computational queries, and can support the construction of inference statements from the information at hand.
 
 Genomic sequencing projects and microarray experiments alike produce electronically-generated data flows that require computer accessible systems to work with the information. As systems that make domain knowledge available to both humans and computers, bio-ontologies such as GO and the many other bio-ontologies being created (see the OBO web page for some examples) for are essential to the process of extracting biological insight from enormous sets of data.
+
 ---------------------------------------------------------------------------
 ## Which biological domains are supported by GO? 
 {::comment}
@@ -99,6 +100,7 @@ FAQ tags: 
 {:/comment}
 
 The current ontologies of the GO project are molecular function, biological process, and cellular component. The ontologies are developed to include all terms falling into these domains without consideration of whether the biological attribute is restricted to certain taxonomic groups. Therefore, biological processes that occur only in plants (e.g. photosynthesis) or mammals (e.g. lactation) are included. Other biological ontologies are discussed in the [OBO web site](http://www.obofoundry.org/){:target="blank"}.
+
 ---------------------------------------------------------------------------
 ## What is GO "content"? 
 ={::comment}
@@ -110,6 +112,7 @@ FAQ tags: 
 {:/comment}
 
 GO content refers to the content of the ontologies themselves and the biology underlying it. It includes anything to do with terms and their organisation, definitions, synonyms and the relationships between terms.
+
 ---------------------------------------------------------------------------
 ## I want to use GO, but I don't know where to begin...
 ={::comment}
@@ -125,6 +128,7 @@ There are a number of possibilities for how researchers can make use of the GO.
 The Gene Ontology website (<http://geneontology.org/>) is a very good place to begin learning about our resources, how they are produced, and how we maintain them. It also illustrates how the research community most commonly makes use of these resources and how they can contribute. Exploring the items under the **"Ontology"** and **"Annotations"** on the menu will provide you with a very informative overview.
 
 For more detail, please consult the open access [*The Gene Ontology Handbook*](https://link.springer.com/book/10.1007/978-1-4939-3743-1), available online and as a downloadable PDF. As well as [GO best practices](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_4) and [a discussion on the meaning of "function"](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_2), this text covers everything from [introducing ontologies](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_1), to [using GO resources in Python](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_16), and even how [GO and similar ontologies may be used in clinical settings](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_20). 
+
 ---------------------------------------------------------------------------
 ## What am I allowed to do with the data? 
 {::comment}
@@ -136,6 +140,7 @@ FAQ tags: 
 {:/comment}
 
 The use and license of all GO data, software, and materials are covered on the [Use and license](/page/use-and-license) page.
+
 ---------------------------------------------------------------------------
 ## How is the GO used in genome analysis? 
 {::comment}
@@ -151,6 +156,7 @@ FAQ tags: 
 *Functional annotation of newly sequenced genomes*: Genome and full-length cDNA sequence projects often include computational (putative) assignments of molecular function based on sequence similarity to annotated genes or sequences. A common tactic now is to use a computational approach to establish some threshold sequence similarity to a SWISS-PROT sequence. Then the GO associations to the SWISS-PROT sequence can be retrieved and associated with the gene model. Under the GO guidelines, the evidence code for this event would be 'inferred from electronic annotation' (IEA).
 
 *Functional groupings of gene products*: One aspect of the use of the GO for annotation of large data sets is the ability to group gene products to some high level term. For example, while gene products may be precisely annotated as having role in a particular function in carbohydrate metabolism (i.e., glucose catabolism), in the summary documentation of the data set, all gene products functioning in carbohydrate metabolism could be grouped together as being involved in the more general phenomena 'carbohydrate metabolism'. Various sets of GO terms have been used to summarize experimental data sets in this way. The expectation is that published sets of high-level GO terms used in genome annotations and publications will be archived at the GO site. Some of these 'GO slims' are already available.
+
 ---------------------------------------------------------------------------
 # General: People & Funding
 
@@ -179,6 +185,7 @@ The GO project is constantly evolving, and we welcome feedback from all users. R
 To learn more about the best approach to contributing GO annotations, please visit our documentation on [Contributing annotations](http://geneontology.org/page/contributing-go). To suggest updates to the ontology please visit our documentation on [Contributing to GO](http://geneontology.org/page/contributing-to-go-terms).
 
 Please be sure to [contact the GOC](http://help.geneontology.org) before carrying out any annotation work you intend to submit; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
+
 ---------------------------------------------------------------------------
 ## Who makes up the GO Consortium? 
 {::comment}
@@ -190,6 +197,7 @@ FAQ tags: 
 {:/comment}
 
 Back in 1998, the GO project began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](http://geneontology.org/page/go-consortium-contributors-list) of the Gene Ontology Consortium.
+
 ---------------------------------------------------------------------------
 ## How do I become a member of the GO Consortium? 
 {::comment}
@@ -203,6 +211,7 @@ FAQ tags: 
 The most important criterion for GO Consortium membership is that the members contribute something to the collection of resources that we make available to the public (almost all members contribute annotations; several contribute to the ontologies; a few contribute software). The scientists involved in working with GO in these member groups communicate via the GO mailing lists and [GitHub](https://github.com/geneontology/){:target="blank"} to discuss development issues in the ontologies. If you represent a database that wishes to join the GO Consortium please [contact the GOC](http://help.geneontology.org/). 
 
 Anyone with a more general interest in the GO should subscribe to the [Twitter feed](https://twitter.com/news4go){:target="_blank"} (@news4go) to receive updates about the GO.
+
 ---------------------------------------------------------------------------
 ## Who funds GO? 
 {::comment}
@@ -214,6 +223,7 @@ FAQ tags: 
 {:/comment}
 
 Direct support for the Gene Ontology Consortium is provided by an R01 grant from the National Human Genome Research Institute (NHGRI) \[grant HG02273\]. Funding for the GO member organizations is detailed [on our annotation contributors page](/docs/annotation-contributors/).
+
 ---------------------------------------------------------------------------
 # General: Citing the GO
 
@@ -228,6 +238,7 @@ FAQ tags: 
 {:/comment}
 
 Citation information for the Gene Ontology can be found on the [GO Citation Policy](/page/go-citation-policy) page.
+
 ---------------------------------------------------------------------------
 ## What is the minimum information to include in a functional analysis paper? 
 {::comment}
@@ -256,6 +267,7 @@ When undertaking the functional analysis and interpreting the results, consider:
 1.  Is the number of genes analysed statistically valid? Or is the number too small to observe enrichment, or too large for the enrichment to be meaningful. (E.g., for a microarray experiment with ~25,000 interrogated transcripts, it would be difficult to observe enrichment when analysing less than 150 IDs; if the list were longer than 3,000 IDs, clearer results would require further filtering, e.g. based on significance threshold or fold change. This is only a rough guide.)
 2.  Consider using more than one functional analysis tool, as well as fine-tuning the parameters used. You may also wish to look at overlap between results from different approaches.
 3.  Think about the biology. E.g., if you need/wish to make a choice among enriched terms to show in a summary table, use descriptive GO terms. Do not only pick terms you're particularly interested in, and consider that very broad or generic terms, such as 'metabolic process', can be uninformative.
+
 ---------------------------------------------------------------------------
 # Annotation
 
@@ -270,6 +282,7 @@ FAQ tags: 
 {:/comment}
 
 What does it mean to do GO annotation of genes or proteins? Terms from the Gene Ontology are applied in the annotation of [gene products](http://geneontology.org/faq/what-gene-product) or protein complexes in biological databases. GO annotations are associations made between gene products or protein complexes and the GO terms that describe them.  An annotation also includes an evidence code and a reference that supports the gene product/term association.
+
 ---------------------------------------------------------------------------
 ## How do I submit annotations to GO? 
 {::comment}
@@ -291,6 +304,7 @@ We welcome contributions to the Gene Ontology project, both in terms of annotati
 Before making contributions, we recommend that you [contact the Gene Ontology Consortium (GOC)](http://help.geneontology.org/) *before* annotation work is carried out; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
 To learn more details, visit the page on [contributing to GO](/docs/contributing-to-go/).
+
 ---------------------------------------------------------------------------
 ## What is a 'gene product'? 
 {::comment}
@@ -302,6 +316,7 @@ FAQ tags: 
 {:/comment}
 
 GO uses the term 'gene product' to refer collectively to genes and any entities encoded by the gene, e.g. proteins and functional RNAs.
+
 ---------------------------------------------------------------------------
 ## How are gene products associated with GO terms? 
 {::comment}
@@ -313,6 +328,7 @@ FAQ tags: 
 {:/comment}
 
 A gene product can be annotated to zero or more nodes of each ontology, at any level within each ontology; annotation of a gene product to one ontology is independent of its annotation to other ontologies. Annotations should reflect the normal function, process, or localization (component) of the gene product; an activity or location observed only in a mutant or disease state is therefore not usually included. The member databases of the GO Consortium use manual and automated methods to annotate genes or gene products using GO terms. Both manual and automated annotations are made according to two principles: first, every annotation must be attributed to a source, which may be a literature reference, another database or a computational analysis; second, the annotation must indicate what kind of evidence is found in the cited source to support the association between the gene product and the GO term. GO uses a simple controlled vocabulary to indicate the type of evidence found in the cited reference to support the annotation.
+
 ---------------------------------------------------------------------------
 ## Can a single gene product be annotated with more than one GO term?
 {::comment}
@@ -336,6 +352,7 @@ The Gene Ontology allows users to describe a gene/gene product in detail, consid
 For example, the [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"} gene product from zebrafish has numerous GO terms associated with it.  Each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of [selectively interacting with DNA (DNA binding)](http://amigo.geneontology.org/amigo/term/GO:0003677){:target="blank"}, while a different GO term explains that this gene product is [found in the nucleus of the cell](http://amigo.geneontology.org/amigo/term/GO:0005634){:target="blank"}.
 
 Trying to write one single term that describes in detail everything about a gene/gene product in a single statement would require the existence of as many terms as genes there are - for all species - in the planet. This would be very unpractical and not easily scalable. Instead, the use of ontologies help us organize information in a way that allows researchers to use the same term to describe a characteristic that is shared by more than one gene product (e.g. all the genes involved in the process 'translation'), and more than one term to describe all the characteristics of each gene product, as in the example above. **This is a reason why you would see more than one GO term associated to a single gene/gene product**.
+
 ---------------------------------------------------------------------------
 ## Can a gene or gene product be annotated to more than one term from an ontology? 
 {::comment}
@@ -348,6 +365,7 @@ FAQ tags: 
 
 Yes, a gene product can be annotated to zero or more nodes of each ontology, at any level within each ontology.
 See [the introduction to GO annotations](/docs/go-annotations/) for more information.
+
 ---------------------------------------------------------------------------
 ## Why are some gene products annotated to both a parent term and a child term? 
 {::comment}
@@ -363,6 +381,7 @@ This is done when there is explicit evidence to support separate annotations; us
 From the [GO annotation guide](http://wiki.geneontology.org/index.php/Annotation_conventions#General_recommendations){:target="blank"}:
 
 > Uncertain knowledge of where a gene product operates should be denoted by annotating it to two nodes, one of which can be a parent of the other. For instance, a yeast gene product known to be in the nucleolus, but also experimentally observed in the nucleus generally, can be annotated to both nucleolus and nucleus in the cell component ontology. Even though annotation to nucleolus alone implies that a gene product is also in the nucleus, annotate to both so as to explicitly indicate that it has been reported in the two locations. The two annotations may have the same or different supporting evidence.
+
 ---------------------------------------------------------------------------
 ## What is an evidence code? 
 {::comment}
@@ -374,6 +393,7 @@ FAQ tags: 
 {:/comment}
 
 Every annotation must be attributed to a source, which may be a literature reference, another database or a computational analysis. The annotation must indicate what kind of evidence is found in the cited source to support the association between the gene product and the GO term. A simple controlled vocabulary is used to record evidence; and the evidence codes are simply the three-letter codes used to signify the type of evidence cited. More information on the meaning and use of the evidence codes can be found in the [GO evidence codes documentation](/docs/guide-go-evidence-codes/).
+
 ---------------------------------------------------------------------------
 ## Where can I view or download the complete sets of GO annotations? 
 {::comment}
@@ -387,6 +407,7 @@ FAQ tags: 
 {:/comment}
 
 Annotations can be [downloaded here](http://current.geneontology.org/products/pages/downloads.html).  
+
 ---------------------------------------------------------------------------
 ## How do I access older versions of gene association files? 
 {::comment}
@@ -405,6 +426,7 @@ Here are several options:
 3.  cvs repository for individual gene\_association files
 4.  svn repository for individual gene\_association files
 5.  GOA archive of gene association files
+
 ---------------------------------------------------------------------------
 ## How do I find all annotations for species X that I can't find in AmiGO? 
 {::comment}
@@ -430,6 +452,7 @@ The filter annotations page you will see has a list of filter options located at
 Click submit to get your results. If you click on the Statistics icon and then through the different tabs on the page that pop up, you can see the breakdown of the different annotations.
 -   Number of annotations 37380 (example)
 -   Number of distinct proteins 8357 (example)
+
 ---------------------------------------------------------------------------
 ## Sometimes the number of GO annotations changes significantly over a short period of time. Why? 
 {::comment}
@@ -450,6 +473,7 @@ Most annotations in association files are electronically inferred (IEA). As with
 -   Relevant paper: [Understanding how and why the Gene Ontology and its annotations evolve: the GO within UniProt.](http://www.ncbi.nlm.nih.gov/pubmed/24641996){:target="blank"}
 
 However, if you think that an observed change in the size of an annotation file cannot be explained by any of the above, and suspect a bug, please contact us using our [Contact Form](http://geneontology.org/form/contact-go).
+
 ---------------------------------------------------------------------------
 ## What is the difference between the filtered and unfiltered versions of the GOA UniProt gene associations files? 
 ={::comment}
@@ -463,6 +487,7 @@ FAQ tags: 
 {:/comment}
 
 The filtered version available on the GO Download's site (gene\_association.goa\_uniprot\_noiea ) does not contain annotations for those species where a different Consortium group is primarily responsible for providing GO annotations and also excludes annotations made using automated methods. For example, SGD is responsible for annotations for *S. cerevisiae* ; GO annotations for *S. cerevisiae* are not part of the filtered version of the gene\_association.goa\_uniprot\_noiea file. Filtered version of the UniProt GAF is available on the GO website (<http://geneontology.org/page/download-annotations>). The unfiltered version of the file is available on GOA's FTP site- [ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene\_association.goa\_un...](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene_association.goa_uniprot.gz)
+
 ---------------------------------------------------------------------------
 ## What criteria are used to annotate genes with GO terms? 
 {::comment}
@@ -475,6 +500,7 @@ FAQ tags: 
 
 A variety of criteria are used for each annotation including experimental results, sequence similarity and curator judgement.
 See the [GO annotation guide](/page/go-annotation-policies) for more information.
+
 ---------------------------------------------------------------------------
 ## How is annotation quality controlled to ensure consistency between databases? 
 {::comment}
@@ -488,6 +514,7 @@ FAQ tags: 
 The accuracy of GO annotations is a high priority for all members of the GO Consortium. Each member organization is responsible for keeping its own annotations accurate and up to date, and for correcting any errors. Users can report errors to the [GO helpdesk](http://geneontology.org/form/contact-go); any comments on annotations will be forwarded to the appropriate contributing group.
 
 The GO Consortium is also looking into possible ways to improve quality assurance further, such as manually reviewing selected annotations and developing tools to automate detection of potentially erroneous annotations.
+
 ---------------------------------------------------------------------------
 ## What are the advantages and disadvantages of manual annotation? 
 {::comment}
@@ -500,6 +527,7 @@ FAQ tags: 
 
 The most reliable annotations are those made manually by database curators based on primary and occasionally on review literature. Manual annotations usually cite experimental evidence that provides strong support for the association of a GO term with a gene product, and can be done at a very detailed level. 
 The chief disadvantage of manual annotation is that it is labor-intensive, requiring a lot of time and effort from trained biologists.
+
 ---------------------------------------------------------------------------
 ## What are the advantages and disadvantages of automatic annotation? 
 {::comment}
@@ -511,6 +539,7 @@ FAQ tags: 
 {:/comment}
 
 One advantage of automatic annotation is speed: wholly or partially automated methods facilitate the annotation of much larger sets of known or predicted gene products than can be produced manually. Automated annotation methods generally yields more broad (less detailed) annotations compared to manual annotation.
+
 ---------------------------------------------------------------------------
 ## How often does automatic annotation give results that are consistent with manual annotation? 
 {::comment}
@@ -528,6 +557,7 @@ Usually manual annotation simply provides deeper-level terms in GO. In 93% of ca
 Text from [Clark, et al., 2005](http://www.ncbi.nlm.nih.gov/pubmed/16010001?dopt=Abstract){:target="blank"}
 
 >"The quality of electronic annotation has recently been assessed in some detail (Camon et al., 2005). This research found that in the worst case scenario, the generation of electronic annotations using the interpro2go, spkw2go, and ec2go mapping files precisely predicted the correct GO term 60% to 70% of the time, with the remainder of the predictions being to insufficiently specific GO terms. The high precision was found to be due to the basing of electronic annotations on manually curated mapping files. Curators noted that it was more important for database curation to be accurate than to have complete coverage, and the figures above demonstrate that this is the tendency with electronic annotation."
+
 ---------------------------------------------------------------------------
 ## How are binary interactions curated by the IntAct group selected for export to GO as protein binding (GO:0005515) annotations? 
 {::comment}
@@ -553,6 +583,7 @@ These criteria ensure that:
 IMEx will only call an interaction 'direct' when performed with 2 purified molecules in vitro so any method using whole cells or cell lysates would not be regarded as direct. The described methodology will give you binary i.e. either direct or involved in the same small complex.
 
 For more details, please see the [corresponding entry](http://www.ebi.ac.uk/intact/about/faq?conversationContext=5#8){:target="blank"} on the the IntAct FAQ page.
+
 ---------------------------------------------------------------------------
 ## Where can I find software to allow me to make or edit GO annotations? 
 {::comment}
@@ -567,6 +598,7 @@ FAQ tags: 
 GO's [Noctua tool](http://noctua.geneontology.org/) is a curation platform that can be used to make GO annotations as well as GO Causal Activity Models (GO-CAMs). See an overview [on the Tools page](/docs/tools-overview#curate).
 
 GO annotations can also be made and edited using various database-specific tools. Please contact the relevant database to find out how their GO annotation is done. The GMOD online tool, [Canto](https://curation.pombase.org/), supports functional gene annotation by community researchers as well as by professional curators.
+
 ---------------------------------------------------------------------------
 ## How do I annotate a novel genome with GO annotations? 
 {::comment}
@@ -586,6 +618,7 @@ FAQ tags: 
 Currently, GO recommends groups submit their transcriptomes to [NCBI](https://www.ncbi.nlm.nih.gov/).  These submissions will reach [UniProt](https://www.uniprot.org/){:target="blank"}, where [InterPro2GO](https://www.ebi.ac.uk/GOA/InterPro2GO){:target="blank"} automatically creates GO annotations.  These annotations, made with the IEA evidence codes ([Inferred from Electronic Annotation](/docs/guide-go-evidence-codes/)), will be made available in a future GO release.
 
 GO does not recommend groups create their own IEAs with internal tools due to reproducability and accuracy concerns.
+
 ---------------------------------------------------------------------------
 ## What gene or protein IDs should I use? 
 {::comment}
@@ -601,6 +634,7 @@ FAQ tags: 
 The [list of authoritative database groups](/page/authoritative-database-groups) for certain species lists the database groups who assume sole responsibility for collecting and submitting annotations for one or more species. If you can convert your IDs into the IDs used by that database group, you will be able to find the data you are looking for far more quickly and efficiently.
 
 We maintain a list of [suggested resources](http://geneontology.org/page/download-mappings) for mapping gene and protein IDs.
+
 ---------------------------------------------------------------------------
 ## I have a question about gene or protein nomenclature 
 {::comment}
@@ -614,6 +648,7 @@ FAQ tags: 
 The GO Consortium is not involved in naming genes at all, in any organism. The GO vocabularies describe attributes of gene products; they are not collections of gene names or protein names.
 
 Gene names are generally standardized within an organism but not necessarily between organisms (with some notable exceptions, such as the ongoing effort to make human and mouse gene names consistent). We suggest that you direct your query to the database or nomenclature committee for your organism. For example, human gene names are maintained by the HUGO Gene Nomenclature Committee (HGNC), mouse gene names by MGI, etc.
+
 ---------------------------------------------------------------------------
 # Ontology
 
@@ -628,6 +663,7 @@ FAQ tags: 
 {:/comment}
 
 Ontologies are 'specifications of a relational vocabulary'. In other words they are sets of defined terms like the sort that you would find in a dictionary, but the terms are given hierarchical relationships to one another. The terms in a given vocabulary are likely to be restricted to those used in a particular field or domain, and in the case of GO, the terms are all biological.
+
 ---------------------------------------------------------------------------
 ## How can I suggest new GO terms? 
 {::comment}
@@ -639,6 +675,7 @@ FAQ tags: 
 {:/comment}
 
 The GO vocabularies are updated on a regular basis, and suggestions from the community for additional terms or for other improvements are very welcome. Please visit the page on [contributing to GO](/docs/contributing-to-go/) for details on how to submit your contributions.
+
 ---------------------------------------------------------------------------
 ## Does the GO ID have any meaning?
 {::comment}
@@ -650,6 +687,7 @@ FAQ tags: 
 {:/comment}
 
 GO IDs are unique identifiers, however, they do not encode any information about a term or its position relative to other terms in the tree. See [more about GO terms](/docs/GO-term-elements).
+
 ---------------------------------------------------------------------------
 ## Where can I find the number of terms in each of the ontologies? 
 {::comment}
@@ -671,6 +709,7 @@ This action will send you to the ['Information about Ontology search'](http://am
 -   4,206 Celular component
 
 If you need a reference for this information, refer to our [citation policy and license](/docs/go-citation-policy/). 
+
 ---------------------------------------------------------------------------
 ## How can I calculate the "level" of a GO term?
 {::comment}
@@ -684,6 +723,7 @@ FAQ tags: 
 GO terms do not occupy strict fixed levels in the hierarchy. Because GO is structured as a graph, terms would appear at different 'levels' if different paths were followed through the graph. This is especially true if one mixes the different relations used to connect terms. 
 
 A more informative metric would be the information content of the node based on annotations. See, for example, the work of [Alterovitz et al.](http://nar.oxfordjournals.org/content/35/suppl_1/D322.abstract){:target="blank"}.
+
 ---------------------------------------------------------------------------
 ## Can a term in one ontology have parents in one of the other two ontologies? 
 {::comment}
@@ -695,6 +735,7 @@ FAQ tags: 
 {:/comment}
 
 Yes - there are links between molecular function, biological process, and cellular component ontologies. Note that any one term will ONLY have *is\_a* parentage up to one of the root terms.
+
 ---------------------------------------------------------------------------
 ## Can a term that is listed in two places in an ontology file have children in one place but not in the other? 
 {::comment}
@@ -706,6 +747,7 @@ FAQ tags: 
 {:/comment}
 
 No - the term will always have the same children wherever, and however many times it appears.
+
 ---------------------------------------------------------------------------
 ## How do I get the term names for my list of GO ids? 
 {::comment}
@@ -723,6 +765,7 @@ You can use the YeastMine Analyze tool available at SGD to retrieve the GO term 
 2.  In the Select Type pull down, select `GO Term`
 3.  Enter your GO ids or upload a list in the full format (GO:0016020, GO:0016301...)
 4.  Click on `Create List`. The tool offers several options to download the list.
+
 ---------------------------------------------------------------------------
 ## Can I download the ontologies as an Excel spreadsheet? 
 {::comment}
@@ -734,6 +777,7 @@ FAQ tags: 
 {:/comment}
 
 It is not possible to download the ontologies as a tabulated spreadsheet. The complex graph structure of GO, where terms can have one or more parent terms, makes it impractical to be rendered as a spreadsheet. It would probably also be too big for software packages such as Excel to cope with.
+
 ---------------------------------------------------------------------------
 ## Where can I find software to allow me to edit the GO terms? 
 {::comment}
@@ -747,6 +791,7 @@ FAQ tags: 
 {:/comment}
 
 -   [Protege](http://protege.stanford.edu/){:target="blank"}: Protege is a free, open-source ontology editor and framework for building intelligent systems. At this time, all ontology editors for GO use this program.
+
 ---------------------------------------------------------------------------
 ## Where have the 'unknown' terms gone? 
 {::comment}
@@ -760,6 +805,7 @@ FAQ tags: 
 Good principles of ontological design state that terms should represent biological entities that actually exist, e.g., functional activities that are catalyzed by enzymes, biological processes that are carried out in cells, specific locations or complexes in cells, etc. To adhere to these principles the Gene Ontology Consortium has removed the terms 'GO:0000004 biological process unknown', 'GO:0005554 molecular function unknown' and 'GO:0008372 cellular component unknown' from the ontology. The "unknown" terms violated this principle of sound ontological design because they did not represent actual biological entities but instead represented annotation status. Annotations to "unknown" terms distinguished between genes that were curated when no information was available and genes that were not yet curated (i.e., not annotated). 
 
 Annotation status is now indicated by annotating to the root nodes, i.e. ['GO:0008150 biological_process'](http://amigo.geneontology.org/amigo/term/GO:0008150){:target="blank"}, ['GO:0003674 molecular_function'](http://amigo.geneontology.org/amigo/term/GO:0003674){:target="blank"}, or ['GO:0005575 cellular_component'](http://amigo.geneontology.org/amigo/term/GO:0005575){:target="blank"}. These annotations continue to signify that a given gene product is expected to have a molecular function, biological process, or cellular component, but that no information was available as of the date of annotation. Adhering to principles of correct ontology design should allow GO users to take advantage of existing tools and reasoning methods developed by the ontological community.
+
 ---------------------------------------------------------------------------
 # AmiGO
 
@@ -778,6 +824,7 @@ FAQ tags: 
 The GO Consortium has developed [AmiGO](http://amigo.geneontology.org){:target="blank"} for searching and browsing the Gene Ontology and the gene products that member databases have annotated using GO terms. The quick search field autocompletes gene products and GO Terms.  Choosing an auto-completed choice from the drop-down will return the summary page for that gene product or term. Alternatively, terms can be entered by free text and the user will be allowed to choose whether the search will return genes, terms or annotations. For more information on using AmiGO, see the [AmiGO help](http://wiki.geneontology.org/index.php/AmiGO_2_Manual){:target="blank"} documentation.
 
 Learn more about Retrieving GO Data Using AmiGO, API, Files, and Tools from [our chapter in the Gene Ontology Handbook](https://link.springer.com/protocol/10.1007%2F978-1-4939-3743-1_11){:target="blank"}.
+
 ---------------------------------------------------------------------------
 ## Where can I find software to allow me to browse the GO terms and annotations? 
 {::comment}
@@ -797,6 +844,7 @@ GO terms and annotations are browsed using various tools. The GO Consortium supp
 [AmiGO](http://amigo.geneontology.org){:target="blank"} was developed for searching and browsing the Gene Ontology and the gene products that member databases have annotated using GO terms. Entering a search term into the quick search menu and choosing an auto-completed choice from the drop-down will return the summary page for that gene product or term. Alternatively terms can be entered by free text and the user will be allowed to choose whether the search will return genes, terms or annotations. For more information on using AmiGO, see the [AmiGO help](http://wiki.geneontology.org/index.php/AmiGO_2_Manual){:target="blank"} documentation.
 
 Learn more about Retrieving GO Data Using AmiGO, QuickGO, API, Files, and Tools from [our chapter in the Gene Ontology Handbook](https://link.springer.com/protocol/10.1007%2F978-1-4939-3743-1_11){:target="blank"}.
+
 ---------------------------------------------------------------------------
 ## What data does AmiGO use? Are there IEAs? If so, which ones? 
 {::comment}
@@ -810,6 +858,7 @@ FAQ tags: 
 AmiGO is reloaded approximately once a week. The files currently loaded into the public AmiGO instance can always be seen on the [load details page](http://amigo.geneontology.org/amigo/load_details){:target="blank"}.
 
 AmiGO does currently load full Inferred from Electronic Annotations (IEAs) from UniProt, although this is in development. For a more full discussion of the data loaded into AmiGO, please see [the FAQ](faq/what-are-differences-between-data-available-amigo-and-those-quickgo).
+
 ---------------------------------------------------------------------------
 ## Why does AmiGO display annotations to term X but these annotations aren't in the GAF file? 
 {::comment}
@@ -826,6 +875,7 @@ Simply put, AmiGO displays annotations made to subclasses by default, while the 
 More specifically, AmiGO doesn't just display subclasses, it uses closure over multiple edge types- part_of, is_a, occurs_in and regulates - to group annotations. This is why you'll see the Process term [positive regulation of epidermal growth factor-activated receptor activity](http://amigo.geneontology.org/amigo/term/GO:0045741) in your results after using AmiGO to look for annotations to the Function term [GO:0004672 protein kinase activity](http://amigo.geneontology.org/amigo/term/GO:0004672).
 
 In order to modify the results in an AmiGO search, use the "GO class (direct)" filter.  This will limit the results to only what is annotated directly to your GO term.
+
 ---------------------------------------------------------------------------
 ## How do I find manually annotated gene products only, i.e. how do I sort by evidence code? 
 {::comment}
@@ -837,6 +887,7 @@ FAQ tags: 
 {:/comment}
 
 Search results can be filtered using the filter menu on the left-hand side of the results page of an [AmiGO search](http://amigo.geneontology.org/amigo). Using the drop-down menu a variety of evidence codes or evidence code combinations can be added or removed to filter the set.
+
 ---------------------------------------------------------------------------
 ## What are the differences between the data available in AmiGO and those on QuickGO? 
 {::comment}
@@ -856,6 +907,7 @@ GO Central recommends that GAF annotations are made to genes, that is 1:1 equiva
 This is a very important difference, one that users can see when comparing UIs, but more importantly, it is about the underlying datasets and whether a gene-centric or protein-centric worldview is chosen.
 
 Additionally, GO Central omits the majority of the sequences and IEA \[electronic\] annotations from UniProtKB from the weekly database builds due to the large size of the data set. For those species with a dedicated authoritative database group, such as *Drosophila*, mouse or *Saccharomyces*, UniProtKB annotations are collected and submitted by the dedicated group, and hence the UniProtKB IEA annotations for these species do appear in the GO database. As an NHGRI funded resource, GO Central focuses on annotations that elucidate human genes or genes of relevance to human health in some way. GO Central also includes plants, as well as the 200 genomes of the [Quest for Orthologs](https://questfororthologs.org/) project. More datasets will be supported depending on available resources.
+
 ---------------------------------------------------------------------------
 ## What is the best way to link into AmiGO? 
 {::comment}
@@ -869,6 +921,7 @@ FAQ tags: 
 {:/comment}
 
 Please refer to the [AmiGO 2 wiki manual](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Linking){:target="blank"}.
+
 ---------------------------------------------------------------------------
 ## How do I install AmiGO locally? 
 {::comment}
@@ -882,6 +935,7 @@ FAQ tags: 
 {:/comment}
 
 Full documentation for downloading and installing AmiGO is [available on the GO wiki](http://wiki.geneontology.org/index.php/AmiGO_2_Manual:_Installation_(2.4.x)){:target="blank"}.
+
 ---------------------------------------------------------------------------
 # GO-CAMs
 
@@ -891,6 +945,7 @@ Full documentation for downloading and installing AmiGO is [available on the GO 
 GO-CAM stands for Gene Ontology Causal Activity Model. GO-CAMs link
 multiple standard GO annotations into an integrated model of a biological
 system. More information can be found on the [GO-CAM site](http://geneontology.org/cam).
+
 ---------------------------------------------------------------------------
 ## How does the information in GO-CAMs compare to existing pathway databases?
 
@@ -919,6 +974,7 @@ in a reaction, together with their stoichiometry. Instead this
 information is included in the GO term.
 
 We are currently investigating translations between pathway formats such as [BioPAX](http://www.biopax.org){:target="blank"} and [OpenBEL](http://openbel.org){:target="blank"} to GO-CAM. See the [Pathways2GO](https://github.com/geneontology/pathways2GO) repository for more information.
+
 ---------------------------------------------------------------------------
 # Enrichment Analysis
 
@@ -935,6 +991,7 @@ FAQ tags: 
 One of the main uses of the GO is to perform enrichment analysis on gene sets. For example, given a set of genes that are up-regulated under certain conditions, an enrichment analysis will find which GO terms are over-represented (or under-represented) using annotations for that gene set.
 
 Users can perform enrichment analyses directly from the [home page of the GOC website](http://geneontology.org/). Details about the tool, how to use it, and how to interpret the results are available from the [GO Enrichment Analysis page](/docs/go-enrichment-analysis/).
+
 ---------------------------------------------------------------------------
 ## How can I do term enrichment analysis for a species that is not present in the list from AmiGO? 
 {::comment}
@@ -959,6 +1016,7 @@ If your organism is not one of the nearly 1000 genomes supported in PANTHER, the
 * The first option is to contact the [Reference Proteome project](https://www.ebi.ac.uk/reference_proteomes) and work with them to incorporate the genome in their project. Once that is done, you can use the regular process to generate the GO annotation file. 
 
 * The second option is to score your genomes against the PANTHER HMM library. Read our [Nature protocol paper](https://www.nature.com/articles/nprot.2013.092){:target="blank"}, and find the details in Box 2 of the paper.
+
 ---------------------------------------------------------------------------
 ## Does the Term Enrichment tool have a limit on the number genes in the input file? 
 {::comment}
@@ -974,6 +1032,7 @@ FAQ tags: 
 Our Term Enrichment tool on the homepage of the Gene Ontology Website cannot handle very large gene lists. The root of the problem is that at a certain number, the input (gene list) is too large for the form; however there is not an exact number at which it fails. One way to solve the problem, should you come across this situation, is to reduce the size of the input file by reducing the number of genes.
 
 Alternatively, annotators can use the PANTHER Term Enrichment tool directly, without AmiGO as an intermediary; this would still be the exact same analysis with the GO data. To perform term enrichment analysis directly from the PANTHER website, visit [http://pantherdb.org](http://pantherdb.org/){:target="blank"}. Once you upload or paste your gene list, select the 'Statistical overrepresentation test' option (in Step3) to perform the term enrichment.
+
 ---------------------------------------------------------------------------
 # Slims
 
@@ -988,6 +1047,7 @@ FAQ tags: 
 {:/comment}
 
 Mapping granular annotations of a set of genes to one or more high-level, broader parent terms is referred to as "GO slimming". GO slimming is commonly used to report an overview of a genome or to a set of summarize experimental results. GO hosts a number of predefined slim sets, a generic GO slim, and a number of slims tailored to give good coverage for some well studied/annotated model species. GO slimming will only be successful if the organism of interest has a body of GO annotation in the GO database (either electronic or manual). If your organism of interest has no publicly available GO data refer to the [FAQ on annotating a gene set](#how-do-i-annotate-a-novel-genome-with-go-annotations).
+
 ---------------------------------------------------------------------------
 ## How do I create a user defined "GO slim"? 
 {::comment}
@@ -999,6 +1059,7 @@ FAQ tags: 
 {:/comment}
 
 GO hosts a number of predefined Slim sets, a generic GO slim, and a number of slims tailored to give good annotation coverage for some well studied/annotated model species. The available GO slimming tools also provide an option to upload your own term set. For most applications you usually need to adjust the terms in the slim to represent your results (i.e to reduce the number of terms, or to replace terms in regions of special interest with more specific children). The generic GO slims or organism specific slims are a good starting point to create your own GO slim. When creating a slim you should still ensure that it covers as many annotated genes in your set as possible. To enable interpretation of your results you should also report how many genes are annotated but not in your slim, and how many genes do not slim (i.e map only to the root node and are therefore 'unknown').
+
 ---------------------------------------------------------------------------
 ## How do I map a set of annotations to high level GO terms (GO slim)? 
 {::comment}
@@ -1024,6 +1085,7 @@ FAQ tags: 
 Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the [OWLTools Wiki](https://github.com/owlcollab/owltools/wiki/Map2Slim){:target="blank"}.
 
 Read more or download the [GO slims here](/docs/go-subset-guide/).
+
 ---------------------------------------------------------------------------
 ## When reporting GO slim results, why shouldn't I display my "GO slim" results as a pie chart ? 
 {::comment}
@@ -1035,6 +1097,7 @@ FAQ tags: 
 {:/comment}
 
 The numbers provided by a GO slim are an annotation count not a gene product count, and so gene products may be present in more than one bin. Therefore displaying GO slim totals as percentages is not meaningful. For your results to be interpreted fully, you should also report how many genes are annotated but not in your slim, and how many genes do not slim.
+
 ---------------------------------------------------------------------------
 # Mappings
 
@@ -1049,6 +1112,7 @@ FAQ tags: 
 {:/comment}
 
 The files contain concepts from systems external to GO e.g. Enzyme Commission numbers, SWISS-PROT keywords and TIGR roles, indexed to equivalent GO terms. The mappings are typically made manually; details can be found in the file header. See [Mappings to GO](/page/download-mappings) for available files.
+
 ---------------------------------------------------------------------------
 ## How do I find the annotations (mappings) for Entrez, NCBI or other IDs?
 {::comment}
@@ -1068,6 +1132,7 @@ UniProt and the [Protein Information Resource (PIR)](https://pir.georgetown.edu/
 -   <http://pir.georgetown.edu/pirwww/search/idmapping.shtml>{:target="blank"}
 
 GO annotations from QuickGO can be filtered for many parameters and provide mappings to several IDs, e.g NCBI or Ensembl gene IDs: <http://www.ebi.ac.uk/QuickGO/GAnnotation>{:target="blank"}
+
 ---------------------------------------------------------------------------
 ## Why are Interpro2go mappings not updated with GOA releases? 
 {::comment}
@@ -1081,6 +1146,7 @@ FAQ tags: 
 GOA is updated in accordance with the latest data released by its core databases (SWISS-PROT, TrEMBL, InterPro, Ensembl) as well as mappings of SWISS-PROT Keywords, InterPro and Enzyme Commission (EC) terms to GO. Each of GOA's core databases produces its own releases; for example, InterPro has dependencies on the member databases of InterPro. InterPro2GO is updated at regular intervals but not always in keeping with monthly schedule of GOA releases.
 
 Keep in mind that the Gene Ontology Annotation (GOA) resource (http://www.ebi.ac.uk/GOA) provides evidence-based Gene Ontology (GO) annotations to proteins in the UniProt Knowledgebase (UniProtKB), and is not the same as GOC (the entire GO Consortium, including groups like GOA). 
+
 ---------------------------------------------------------------------------
 # File Formats
 
@@ -1097,6 +1163,7 @@ FAQ tags: 
 {:/comment}
 
 Refer to the [ontology downloads page](/docs/download-ontology/) for information on ontology files.  For general introduction to the project's annotation file formats, see the guides on [GAF 2.1](/docs/go-annotation-file-gaf-format-2.1/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/). 
+
 ---------------------------------------------------------------------------
 ## What is a GAF file? 
 {::comment}
@@ -1110,6 +1177,7 @@ FAQ tags: 
 {:/comment}
 
 A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. See more information [on the GAF file format guide](/docs/go-annotation-file-gaf-format-2.1/).
+
 ---------------------------------------------------------------------------
 ## What is a GPAD file? 
 {::comment}
@@ -1123,6 +1191,7 @@ FAQ tags: 
 {:/comment}
 
 The GPAD - Gene Product Association File Format - is an alternative means of exchanging annotations from the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.1/). The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information. For details, see the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
+
 ---------------------------------------------------------------------------
 ## What is a GPI file? 
 {::comment}
@@ -1136,6 +1205,7 @@ FAQ tags: 
 {:/comment}
 
 A GPI - Gene Product Information file is used to submit gene and gene product information to the GO Consortium. The [GPI specification is here](http://geneontology.org/page/gene-product-information-gpi-format). Please note that annotation information relationships between GO terms and annotations made to them uses GPAD; see details on the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
+
 ---------------------------------------------------------------------------
 ## What exchange format is used for GO-CAMs?
 
@@ -1147,6 +1217,7 @@ The native representation for GO-CAMs is the Web Ontology Language
 ([OWL](https://www.w3.org/OWL){:target="blank"}). Standard [RDF](https://www.w3.org/RDF){:target="blank"} exchange formats such as RDF/XML and Turtle can be used for GO-CAMs.
 
 Downloads can be found on the [GO-CAM site](http://geneontology.org/cam).
+
 ---------------------------------------------------------------------------
 ## Why won't the RDF-XML file parse using RDF parsers? 
 {::comment}
@@ -1160,6 +1231,7 @@ FAQ tags: 
 {:/comment}
 
 The GO RDF-XML format was originally developed some time ago, before the advent of OWL. It has a few unusual features that render it more of a pseudo-rdf format. The actual RDF is embedded within a xml element - this should be stripped out before handing to RDF parsers. Note that the GO RDF-XML conforms to a DTD, something that is not normally a requirement of RDF. This is because most people parse the file using conventional XML parsers rather than XML tools. We are working on a more up to date RDF representation of GO.
+
 ---------------------------------------------------------------------------
 ## What is an OWL file?
 {::comment}
@@ -1173,9 +1245,10 @@ FAQ tags: 
 {:/comment}
 
 OWL is the acronym for Web Ontology Language, a standard produced by the W3C. GO in OWL is based on a translation from OBO to OWL and is [available for download](/docs/download-ontology/). OWL files can be opened in an editing tool such as [Protege](http://protege.stanford.edu/){:target="blank"}.
+
 ---------------------------------------------------------------------------
 ## What is OBO file format? 
------------------------------------------------------
+
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is OBO file format?"></span>
@@ -1187,6 +1260,7 @@ FAQ tags: 
 {:/comment}
 
 The OBO file format is one of the formats that the Gene Ontology is made available in. The most recent version is [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"}. The OBO format is designed to be more human readable than XML based formats. GO can be accessed in this format [on the Downloads page](/docs/download-ontology/).
+
 ---------------------------------------------------------------------------
 ## Why are the ontologies initially produced in OBO flat file format instead of XML? 
 {::comment}
@@ -1200,6 +1274,7 @@ FAQ tags: 
 {:/comment}
 
 The ontologies are initially produced in the specially designed [OBO flat file format](/docs/download-ontology/). They are converted to XML once a month for the convenience of users who require this facility. Both formats and many others are available in the [GO downloads section](/docs/downloads/). We use the OBO flat file format because it is human-readable, and also because the file is much smaller without the XML tags. This means that it is much quicker and easier for the curators to handle the file on a day-to-basis.
+
 ---------------------------------------------------------------------------
 ## How can I generate files in the old GO flat file format? 
 {::comment}
@@ -1215,6 +1290,7 @@ FAQ tags: 
 As of August 1, 2009, the original GO flat file format was deprecated and is no longer be provided by the GO Consortium.
 
 The OBO-Edit project, which used to generate the flat file format, [has been *mothballed*](http://oboedit.org/){:target="blank"}.
+
 ---------------------------------------------------------------------------
 # Database Access
 
@@ -1231,6 +1307,7 @@ FAQ tags: 
 {:/comment}
 
 We maintain a set of [examples](http://wiki.geneontology.org/index.php/Example_Queries){:target="blank"} that cover, or can be used as a base to cover, most common queries. This is also the set used with [GOOSE](http://amigo.geneontology.org/goose){:target="blank"}.
+
 ---------------------------------------------------------------------------
 ## What are the recommended data access policies for your services? 
 {::comment}
@@ -1248,6 +1325,7 @@ FAQ tags: 
 AmiGO and the GO relational database servers are a shared resource and thus we require data mining to be performed in a manner that allows others to utilize this resource at the same time. Any activity that mines the GO database or uses AmiGO must be controlled so that only one request is made at a time. If this is not sufficient, you may download and install the database locally. You can also retrieve all the source files that define the data within the database. More details on the database, including downloads and installation, can be found in the GO [database guide](/page/lead-database-guide).
 
 For more information please contact the [GO helpdesk](/form/contact-go).
+
 ---------------------------------------------------------------------------
 ## I want to use the database files but... 
 {::comment}
@@ -1263,6 +1341,7 @@ FAQ tags: 
 The \*.txt files must be imported into a MySQL instance using mysqlimport. They are not intended to be loaded into excel or parsed using custom tools. Why are so many of the .txt files empty?
 
 For some exports of the GO database, some tables will necessarily be empty. For example, the termdb dump by design omits any data on genes or gene associations, so the corresponding tables are mepty. MySQL requires a file be present for every table, hence there will be some tables with 0 rows in the .txt files.
+
 ---------------------------------------------------------------------------
 ## What is the best way to obtain the GO annotations for a list of UniProt accession numbers in batch? 
 {::comment}
@@ -1288,6 +1367,7 @@ The GOA project offers users a number of different files; for example:
 Further information on the content and format of our gene association files can be found in the [ReadMe](https://www.ebi.ac.uk/GOA/newto){:target="blank"}.
 
 Please contact [GOA help](mailto:goa@ebi.ac.uk) for further assistance.
+
 ---------------------------------------------------------------------------
 ## What is the status of the GO MySQL database? 
 {::comment}
@@ -1301,6 +1381,7 @@ FAQ tags: 
 {:/comment}
 
 While the GO MySQL database is currently considered to be in "legacy" mode, meaning that there will likely not be any new developments on it, it is a widely used and convenient resource for many types of queries. More information about it can be found in the [GO MySQL Database Guide](/page/go-mysql-database-guide).
+
 ---------------------------------------------------------------------------
 {::comment}
 ## How can I programmatically get a list of GO terms associated with a gene identifier? 
@@ -1316,5 +1397,6 @@ FAQ tags: 
 
 [third-party tools](/faq-tags/third-party-tools)
 
-**Need an answer- Chris?
+Need an answer- Chris?
 {:/comment}
+
