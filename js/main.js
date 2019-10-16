@@ -92,8 +92,7 @@ $(function() {
 
 
     const Http = new XMLHttpRequest();
-    // const go_stats_summary = "http://current.geneontology.org/release_stats/go-stats-summary.json";
-    const go_stats_summary = "https://geneontology-archive.s3.amazonaws.com/2019-07-01/go-stats-summary.json"
+    const go_stats_summary = "http://current.geneontology.org/release_stats/go-stats-summary.json";
     Http.open("GET", go_stats_summary);
     Http.send();
     Http.onreadystatechange=(e)=>{

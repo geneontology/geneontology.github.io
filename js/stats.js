@@ -356,8 +356,7 @@ var taxMapping = { "287": "Pseudomonas aeruginosa",
 var stats_summaries = { }
 
 
-var aggregated_stats_url = "https://geneontology-archive.s3.amazonaws.com/aggregated-go-stats-summaries.json"
-// var aggregated_stats_url = "http://current.geneontology.org/release_stats/aggregated-go-stats-summaries.json";
+var aggregated_stats_url = "http://current.geneontology.org/release_stats/aggregated-go-stats-summaries.json";
 
 function get_aggregated_stats() {
     var query = axios.get(aggregated_stats_url);
