@@ -92,8 +92,8 @@ $(function() {
 
 
     const Http = new XMLHttpRequest();
-    const url='https://s3.amazonaws.com/geneontology-public/go-meta.json';
-    Http.open("GET", url);
+    const go_stats_summary = "http://current.geneontology.org/release_stats/go-stats-summary.json";
+    Http.open("GET", go_stats_summary);
     Http.send();
     Http.onreadystatechange=(e)=>{
         if(e.target.status == 200 && Http.responseText != "") {
@@ -101,13 +101,13 @@ $(function() {
             var elt = document.getElementById("id_release_date");
             if(elt) elt.textContent=data.release_date.toLocaleString();
             elt = document.getElementById("id_terms");
-            if(elt) elt.textContent=data.terms.toLocaleString();
+            if(elt) elt.textContent=data.ontology.valid_terms.toLocaleString();
             elt = document.getElementById("id_annotations");
-            if(elt) elt.textContent=data.annotations.toLocaleString();
+            if(elt) elt.textContent=data.annotations.total.toLocaleString();
             elt = document.getElementById("id_geneproducts");
-            if(elt) elt.textContent=data.geneproducts.toLocaleString();
+            if(elt) elt.textContent=data.bioentities.total.toLocaleString();
             elt = document.getElementById("id_species");
-            if(elt) elt.textContent=data.species.toLocaleString();
+            if(elt) elt.textContent=data.taxa.total.toLocaleString();
         }
     }
 

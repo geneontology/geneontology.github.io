@@ -356,7 +356,8 @@ var taxMapping = { "287": "Pseudomonas aeruginosa",
 var stats_summaries = { }
 
 
-var aggregated_stats_url = "https://geneontology-test.s3.amazonaws.com/aggregated-go-stats-summaries.json";
+var aggregated_stats_url = "http://current.geneontology.org/release_stats/aggregated-go-stats-summaries.json";
+
 function get_aggregated_stats() {
     var query = axios.get(aggregated_stats_url);
     return query;
@@ -741,9 +742,9 @@ function drawTermStateOT(statsObj) {
     for(var i = 1; i < stats.length; i++) {
         array.push([
             simpleDate(stats[i]["release_date"]), 
-            stats[i]["ontology"]["created_terms"], 
-            stats[i]["ontology"]["merged_terms"], 
-            stats[i]["ontology"]["obsoleted_terms"]
+            stats[i]["ontology"]["changes_created_terms"], 
+            stats[i]["ontology"]["changes_merged_terms"], 
+            stats[i]["ontology"]["changes_obsolete_terms"]
         ])
     }
     var data = google.visualization.arrayToDataTable(array);
@@ -807,7 +808,7 @@ function drawAnnotationEvidenceOT(statsObj, selectedSpecies = null) {
         for(var cluster of clusters) {
             var val = undefined;
             if(selectedSpecies) {
-                val = cluster in release["annotations"]["by_reference_genome"][selectedSpecies]["by_evidence_cluster"] ? release["annotations"]["by_reference_genome"][selectedSpecies]["by_evidence_cluster"][cluster]["A"] : 0;
+                val = cluster in release["annotations"]["by_model_organism"][selectedSpecies]["by_evidence_cluster"] ? release["annotations"]["by_model_organism"][selectedSpecies]["by_evidence_cluster"][cluster]["A"] : 0;
             } else {
                 val = cluster in release["annotations"]["by_evidence_cluster"] ? release["annotations"]["by_evidence_cluster"][cluster] : 0;
             }
@@ -920,8 +921,8 @@ function drawRefGenomeCoverageByBioentity(statsObj, aspect, release) {
 
     var array = [];
     array.push(header);
-    for(var genome_id in release.bioentities.by_reference_genome) {
-        var genome = release.bioentities.by_reference_genome[genome_id];
+    for(var genome_id in release.bioentities.by_model_organism) {
+        var genome = release.bioentities.by_model_organism[genome_id];
         var line = [];
         line.push(genome_id.split("|")[1]);
         for(var cluster of clusters) {
@@ -957,8 +958,8 @@ function drawRefGenomeCoverageByEvidence(statsObj, aspect, release) {
 
     var array = [];
     array.push(header);
-    for(var genome_id in release.annotations.by_reference_genome) {
-        var genome = release.annotations.by_reference_genome[genome_id];
+    for(var genome_id in release.annotations.by_model_organism) {
+        var genome = release.annotations.by_model_organism[genome_id];
         var line = [];
         line.push(genome_id.split("|")[1]);
         for(var cluster of clusters) {
@@ -999,8 +1000,8 @@ function drawRefGenomeCoverageByAspect(statsObj, bioentityType, release) {
 
     var array = [];
     array.push(header);
-    for(var genome_id in release.bioentities.by_reference_genome) {
-        var genome = release.bioentities.by_reference_genome[genome_id];
+    for(var genome_id in release.bioentities.by_model_organism) {
+        var genome = release.bioentities.by_model_organism[genome_id];
         var btype = genome[bioentityType];
         array.push([genome_id.split("|")[1], btype ? btype["A"] : 0, btype ? btype["P"] : 0, btype ? btype["F"] : 0, btype ? btype["C"] : 0]);
     }
@@ -1036,14 +1037,14 @@ function drawAnnotationCharts(statsObj, release) {
 function drawOntologyTableOverview(statsObj, release) {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Property');
-    data.addColumn('number', 'Value');
+    data.addColumn('string', 'Value');
     data.addRows([
-        ["Valid terms", release.ontology.valid_terms],
-        ["Obsoleted terms", release.ontology.obsoleted_terms],
-        ["Merged terms", release.ontology.merged_terms],
-        ["Biological process terms", release.ontology.biological_process_terms],
-        ["Molecular function terms", release.ontology.molecular_function_terms],
-        ["Cellular component terms", release.ontology.cellular_component_terms],
+        ["Valid terms", release.ontology.valid_terms + "\t(Δ = " + release.ontology.changes_valid_terms + ")"],
+        ["Obsoleted terms", release.ontology.obsolete_terms + "\t(Δ = " + release.ontology.changes_obsolete_terms + ")"],
+        ["Merged terms", release.ontology.merged_terms + "\t(Δ = " + release.ontology.changes_merged_terms + ")"],
+        ["Biological process terms", release.ontology.biological_process_terms + ""],
+        ["Molecular function terms", release.ontology.molecular_function_terms + ""],
+        ["Cellular component terms", release.ontology.cellular_component_terms + ""],
     ]);
 
     var options = {
@@ -1139,7 +1140,7 @@ function changeBioentity() {
 
 function createStatsObj(stats) {
     var reference_genomes = {}
-    Object.keys(stats[0].references.pmids.by_reference_genome).forEach(elt => {
+    Object.keys(stats[0].references.pmids.by_model_organism).forEach(elt => {
         var split = elt.split("|");
         reference_genomes[split[0]] = split[1];
     })
