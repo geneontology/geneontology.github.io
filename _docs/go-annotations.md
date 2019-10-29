@@ -6,6 +6,7 @@ redirect_from:
 - /page/annotation
 - /page/go-annotation-policies
 - /page/go-annotation-standard-operating-procedures
+- GO.annotation.conventions.shtml
 ---
 
 # Introduction to GO annotations

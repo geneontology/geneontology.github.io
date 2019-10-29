@@ -1,7 +1,10 @@
 ---
 title: Download annotations
 permalink: /docs/download-go-annotations/
-redirect_from: /page/download-go-annotations
+redirect_from: 
+- download-go-annotations
+- GO.downloads.annotations.shtml
+- /page/download-annotations
 ---
 
 # Download annotations 
