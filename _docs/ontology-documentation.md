@@ -8,6 +8,7 @@ redirect_from:
 - /page/molecular-function-ontology-guidelines
 - /page/cellular-component-ontology-guidelines
 - /page/go-annotation-conventions
+- GO.contents.doc.shtml
 ---
 
 # Gene Ontology overview
