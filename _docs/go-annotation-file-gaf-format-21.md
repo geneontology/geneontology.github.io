@@ -91,6 +91,8 @@ The **DB Object Symbol** field should be a symbol that means something to a biol
 Flags that modify the interpretation of an annotation.
 One (or more) of NOT, contributes_to, colocalizes_with.
 
+See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide
+
     This field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. NOT|contributes_to)
 
 #### GO ID (column 5)
