@@ -83,8 +83,6 @@ The atomic relations depend upon the term namespace, and are as follows:
 * Gene product *part of* cellular component\
 An atomic relation *must* be used.
 
-    See also the documentation on qualifiers in the GO annotation guide 
-
 #### GO ID
 The GO identifier for the term attributed to the DB object ID.\
 This field is mandatory, cardinality 1. 
@@ -99,7 +97,7 @@ included.\
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
 
 #### Evidence code
-One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO\
+One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO
 This field is mandatory, cardinality 1 
 
 #### With [or] From
