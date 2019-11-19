@@ -79,7 +79,6 @@ Flags that modify the interpretation of an annotation
 one (or more) of `NOT`, contributes_to, colocalizes_with
 
 This field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. `NOT`|contributes_to)
-See also the [documentation on qualifiers](http://geneontology.org/page/go-annotation-conventions#qual) in the GO annotation guide
 
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**
