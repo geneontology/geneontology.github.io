@@ -53,18 +53,21 @@ should have these values separated by pipes.
 #### DB
 Refers to the database from which the identifier in **DB Object ID** is drawn. This is not necessarily the group submitting 
 the file. If a UniProtKB ID is the **DB Object ID**, **DB** should be UniProtKB. Must be one of the values from the set of 
-GO database cross-references.\
+GO database cross-references.
+
 This field is mandatory, cardinality 1 
 
 #### DB Object ID
-A unique identifier (from the database in DB) for the item being annotated\
-This field is mandatory, cardinality 1.\
+A unique identifier (from the database in DB) for the item being annotated
+
+This field is mandatory, cardinality 1.
+
 In GPAD 1.0 format, the identifier may reference a top-level primary gene or gene product identifier, or an identified variant 
 of a gene or gene product. Contents may include protein sequence identifiers: for example, identifiers that specify distinct 
 proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or 
-post-translational modification. Identifiers for functional RNAs can also be included in this column.\
+post-translational modification. Identifiers for functional RNAs can also be included in this column.
 If the gene product is not a top-level gene or gene product identifier, the Gene Product Information (GPI) file should 
-contain information about the canonical form of the gene or gene product.\
+contain information about the canonical form of the gene or gene product.
 The **DB Object ID** is the identifier for the database object, which may or may not correspond exactly to what is described 
 in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein 
 (gene ID in **DB Object ID** field) or annotations to a protein object (protein ID in **DB Object ID** field). 
@@ -72,19 +75,20 @@ in a paper. For example, a paper describing a protein may support annotations to
 #### Qualifier
 The relationship between the gene product in the DB: **DB Object ID** and the GO ID composed of up to three parts: an operator 
 (optional), a modifier (optional) and an atomic relation (required) this field is mandatory, cardinality 1 or greater than 1, 
-entries pipe-separated.\
+entries pipe-separated.
 The operator may be one of two values, not or always. Operators are optional. Valid qualifiers are contributes to and 
-colocalizes with. In addition, annotations encompassing interactions with other organisms may use the qualifiers host, 
-other organism or symbiont. Qualifiers are optional.
+colocalizes with. In addition, annotations encompassing interactions with other organisms may use the qualifiers host, other organism or symbiont. Qualifiers are optional.
 
 The atomic relations depend upon the term namespace, and are as follows:
 * Gene product *enables* molecular function
 * Gene product *involved in* biological process
-* Gene product *part of* cellular component\
+* Gene product *part of* cellular component
+
 An atomic relation *must* be used.
 
 #### GO ID
-The GO identifier for the term attributed to the DB object ID.\
+The GO identifier for the term attributed to the DB object ID.
+
 This field is mandatory, cardinality 1. 
 
 #### DB:Reference
@@ -93,7 +97,8 @@ This may be a literature reference or a database record. The syntax is DB:access
 on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers 
 for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, 
 the PubMed ID must be included; if the model organism database has its own identifier for the reference, that can also be 
-included.\
+included.
+
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
 
 #### Evidence code
@@ -101,12 +106,14 @@ One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceon
 This field is mandatory, cardinality 1 
 
 #### With [or] From
-Also referred to as **With, From** or the **With/From** column\
+Also referred to as **With, From** or the **With/From** column
+
 This field is required for some evidence codes cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries 
 (e.g. UniProtKB:P10620|UniProtKB:P08011)
 
 *Note*: This field is used to hold an additional identifier for annotations using certain evidence codes: ECO:0000305 [IC];
-ECO:0000203, 0256, and 0265 [all IEA];ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, 0250 and 0255 [all ISS].\
+ECO:0000203, 0256, and 0265 [all IEA];ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, 0250 and 0255 [all ISS].
+
 For example, it can identify another gene product to which the annotated gene product is similar (ECO:0000031, 0250 and 0255, 
 ISS) or interacts with (ECO:0000021, IPI).
 
@@ -140,19 +147,23 @@ ECO:0000307 [ND].
 
 #### Interacting taxon ID
 Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process 
-term 'multi-organism process' or the cellular component term 'host' as an ancestor.\
+term 'multi-organism process' or the cellular component term 'host' as an ancestor.
+
 This field is mandatory for terms with parentage under 'multi-organism process' or 'host', cardinality 1; annotations to other 
-terms should leave this column blank.\
+terms should leave this column blank.
+
 See the [GO annotation conventions for more information on multi-organism terms](http://geneontology.org/page/go-annotation-conventions#interactions). 
 
 #### Date
-Date on which the annotation was made; format is YYYYMMDD.\
+Date on which the annotation was made; format is YYYYMMDD.
+
 This field is mandatory, cardinality 1.
 
 #### Assigned By
 The database which made the annotation one of the values from the set of GO database cross-references; used for tracking 
 the source of an individual annotation. Value will differ from the DB column for any annotation that is made by one 
-database and incorporated into another.\
+database and incorporated into another.
+
 This field is mandatory, cardinality 1.
 
 #### Annotation Extension
@@ -163,7 +174,8 @@ the annotation extension column would contain a cross-reference to the term lymp
 Targets of certain processes or functions can also be included in this field to indicate the gene, gene product, or 
 chemical involved; for example, if a gene product is annotated to protein kinase activity, the annotation extension 
 column would contain the UniProtKB protein ID for the protein phosphorylated in the reaction. See the documentation on 
-using the annotation extension column for details of practical usage.\
+using the annotation extension column for details of practical usage.
+
 This field is optional, cardinality 0 or greater.
 
 Note that several fields contain database cross-reference (dbxrefs) in the format dbname:dbaccession. The fields are: 
@@ -173,5 +185,6 @@ GO ID; Reference; With or From; and Annotation Extension.
  The Annotation Properties column can be filled with a pipe separated list of "property_name = property_value". 
 There will be a fixed vocabulary for the property names and this list can be extended when necessary. 
  The initial supported properties would be curator_name and annotation_identifier, but can be extended to 
-include curator_ID, modification_date, creation_date, annotation_notes, etc.\
+include curator_ID, modification_date, creation_date, annotation_notes, etc.
+
 This field is optional, cardinality 0 or greater.
