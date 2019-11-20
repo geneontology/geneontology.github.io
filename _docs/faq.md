@@ -861,7 +861,7 @@ FAQ tags: 
 
 AmiGO is reloaded approximately once a week. The files currently loaded into the public AmiGO instance can always be seen on the [load details page](http://amigo.geneontology.org/amigo/load_details){:target="blank"}.
 
-AmiGO does currently load full Inferred from Electronic Annotations (IEAs) from UniProt, although this is in development. For a more full discussion of the data loaded into AmiGO, please see [the FAQ](faq/what-are-differences-between-data-available-amigo-and-those-quickgo).
+AmiGO does currently load full Inferred from Electronic Annotations (IEAs) from UniProt, although this is in development. For a more full discussion of the data loaded into AmiGO, please see [the FAQ regarding AmiGO and QuickGO data](faq/#what-are-the-differences-between-the-data-available-in-amigo-and-those-on-quickgo).
 
 ---------------------------------------------------------------------------
 ## Why does AmiGO display annotations to term X but these annotations aren't in the GAF file? 
