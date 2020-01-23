@@ -15,7 +15,7 @@ A standard GO annotation is a gene product associated to a GO term, using an [ev
 
 ## What is a GO-CAM model ?
 
-A GO-CAM model is a combination of standard GO annotations to produce a network of annotations ("model"), that is a more complete model of biological function than the separate annotations. For example, a GO-CAM can represent how the activities of different gene products work together in a pathway or “biological program.” GO-CAM models can connect different pieces of information about the function of a gene product (joining together different annotations for the same gene product), and/or can connect functions of different gene products together by specifying how the activity of one gene product can affect the activity of another gene product. All connections in a GO-CAM model are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.
+A GO-CAM model is a combination of standard GO annotations to produce a network of annotations ("model"), that is a more complete model of biological function than the separate annotations. For example, a GO-CAM can represent how the activities of different gene products work together in a pathway or “biological program.” GO-CAM models can connect different pieces of information about the function of a gene product (joining together different annotations for the same gene product), and/or can connect functions of different gene products together by specifying how the activity of one gene product can affect the activity of another gene product. All connections in a GO-CAM model are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.  Browse existing models on the [GO-CAM public site](http://geneontology.org/go-cam/). 
 
 *Nat Genet. Sep 2019. [Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems](https://rdcu.be/bRIgY){:target="blank"}*
 
@@ -30,9 +30,9 @@ Once the GO-CAM unit has been created (MF + BP + CC), these different units can 
 
 ## Incomplete GO-CAMs
 
-The knowledge of biology is constantly evolving, therefore many models are incomplete, and details may be added as more information becomes available.
+The knowledge of biology is constantly evolving, therefore many models are incomplete and details may be added as more information becomes available.
 
-## Noctual Platform to Curate GO-CAMs
+## Noctua Platform to Curate GO-CAMs
 
 To learn more about our curation process, please visit the documentation of the [Noctua Curation Platform](http://wiki.geneontology.org/index.php/Noctua){:target="blank"}.
 
