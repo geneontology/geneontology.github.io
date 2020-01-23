@@ -15,6 +15,12 @@ redirect_from:
 
 A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, and what biological processes (pathways, programs) it helps to carry out.
 
+There are four pieces of information that uniquely identify a GO annotation.  Although there are additional components a curator can use to indicate more information, including [qualifiers](/docs/go-annotations/#annotation-qualifiers) and [annotation extensions](/docs/go-annotations/#annotation-extensions), at the very minimum an annotation consists of: 
++ Gene product (may be a protein, RNA, etc.)
++ GO term 
++ Reference
++ [Evidence](/docs/guide-go-evidence-codes/)
+
 Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. All GO annotations are ultimately supported by the scientific literature, either directly or indirectly. In GO, the supporting evidence is presented in the form of a [GO Evidence Codes](/docs/guide-go-evidence-codes/) and either a published reference or description of the methodology used to create the annotation. The GO evidence codes describe the type of evidence and reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
 
 
