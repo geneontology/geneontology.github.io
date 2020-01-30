@@ -10,7 +10,7 @@ GEM
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     colorator (1.1.0)
-    ffi (1.9.18)
+    ffi (1.12.1)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     httpclient (2.8.3)
