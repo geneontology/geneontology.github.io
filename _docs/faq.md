@@ -36,6 +36,20 @@ redirect_from:
 
 These are our most frequently asked questions.  If you don't find your answer below, please [contact us](http://help.geneontology.org/).
 
+Browse FAQ by topic:
+- [General: Overview](/docs/faq/#general-overview)
+- [General: Citing the GO](/docs/faq/#general-citing-the-go)
+- [Annotation](/docs/faq/#annotation)
+- [Ontology](/docs/faq/#ontology)
+- [AmiGO](/docs/faq/#amigo)
+- [GO-CAMs](/docs/faq/#go-cams)
+- [Enrichment Analysis (EA)](/docs/faq/#enrichment-analysis)
+- [Slims](/docs/faq/#slims)
+- [Mappings](/docs/faq/#mappings)
+- [File Formats](/docs/faq/#file-formats)
+- [Database Access](/docs/faq/#database-access)
+
+
 ---------------------------------------------------------------------------
 # General: Overview
 
