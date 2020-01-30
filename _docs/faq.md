@@ -36,7 +36,7 @@ redirect_from:
 
 These are our most frequently asked questions.  If you don't find your answer below, please [contact us](http://help.geneontology.org/).
 
-Browse FAQ by topic:
+Browse the GO FAQ by topic:
 - [General: Overview](/docs/faq/#general-overview)
 - [General: Citing the GO](/docs/faq/#general-citing-the-go)
 - [Annotation](/docs/faq/#annotation)
