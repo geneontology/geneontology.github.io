@@ -7,6 +7,35 @@ redirect_from: /page/download-mappings
 # Cross-references of external classification systems to GO
 Many Gene Ontology terms are cross-referenced to corresponding concepts from a number of external vocabularies, including Enzyme Commission numbers, KEGG, Reactome Pathways, and Wikipedia. The cross-references (mappings) are typically made manually. Please report any errors or suggest alternatives to the [GO helpdesk](http://help.geneontology.org/).
 
+The Gene Ontology provides mappings to external resources. 
+Some mappings are maintained by GO ontology editors, including
+EC2GO
+KEGG2GO
+KEGG_reaction2GO
+MetaCyc2GO
+Reactome2GO
+RESID2GO
+RHEA2GO
+UM-BBD_enzymeid2GO
+UM-BBD_pathwayid2GO
+Wikipedia2GO
+
+The following mappings are maintained by UniProt: 
+HAMAP2GO
+UniPathway2GO
+UniProtkb_kw2GO
+UniProtkb_sl2GO
+UniRule2GO
+
+The following mappings are maintained by InterPro: 
+InterPro2GO
+PFam2GO
+PIRsf2GO
+Prints2GO
+Prodom2GO
+Prosite2GO
+SMART2GO
+
 ## Using and citing cross-references and mappings
 
 If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the [GO citation guide](/docs/go-citation-policy/) for citing the GO project.
