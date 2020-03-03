@@ -41,7 +41,7 @@ Those cross-references are maintained by GO editors. Please report issues in the
 |**EAWAG-BBD enzyme IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}|[um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
 |**EAWAG-BBD pathway IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}|[um-bbd_pathwayid2go](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
 |**EAWAG-BBD reaction IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}| no link <!--[txt](http://geneontology.org/external2go/um-bbd_reactionid2go)-->|
-|**KEGG pathways and reactions**<br> [Kyoto Encyclopaedia of Genes and Genomes](http://www.genome.jp/kegg/){:target="blank"} |[kegg2go](http://geneontology.org/external2go/kegg2go)|
+|**KEGG pathways and reactions**<br> [Kyoto Encyclopaedia of Genes and Genomes](http://www.genome.jp/kegg/){:target="blank"} |[kegg_reaction2go](http://geneontology.org/external2go/kegg_reaction2go)|
 |**MetaCyc pathways and reactions**<br>  [MetaCyc](http://metacyc.org/){:target="blank"}|[metacyc2go](http://geneontology.org/external2go/metacyc2go)|
 |**Reactome events and catalyst activities**<br> [Reactome](http://www.reactome.org/){:target="blank"}| [reactome2go](http://geneontology.org/external2go/reactome2go)|
 |**Rhea Annotated Reactions Database**<br> [Rhea](http://www.ebi.ac.uk/rhea/){:target="blank"}|[rhea2go](http://geneontology.org/external2go/rhea2go)|
