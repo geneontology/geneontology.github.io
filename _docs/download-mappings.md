@@ -35,9 +35,9 @@ Direct access to the mappings file directory is available here: [http://current.
 
 Those cross-references are maintained by GO editors. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-ontology/issues/new){:target="blank"}. 
 
-|Mapping |Direct access to file|
+|Mapping |Direct access to mapping file|
 |--------|---------|
-|**Enzyme Commission (EC) enzyme numbers** <br>[Enzyme Commission](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"}; contact: [GO Ontology editors](mailto:go-ontology@lists.stanford.edu) <br>Citation: Hill DP, Davis AP, Richardson JE, Corradi JP, Ringwald M, Eppig JT, Blake JA. Program description: Strategies for biological annotation of mammalian systems: implementing gene ontologies in mouse genome informatics. Genomics. May 2001;74(1):121–8. <br>[ [PMID:11374909](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"} \| [doi:10.1006/geno.2001.6513](http://dx.doi.org/10.1006/geno.2001.6513){:target="blank"} ]|	[ec2go](http://geneontology.org/external2go/ec2go)|
+|**Enzyme Commission (EC) enzyme numbers** <br>[Enzyme Commission](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"}<br>[PMID:11374909](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"} |	[ec2go](http://geneontology.org/external2go/ec2go)|
 |**EAWAG-BBD enzyme IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}|[um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
 |**EAWAG-BBD pathway IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}|[um-bbd_pathwayid2go](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
 |**EAWAG-BBD reaction IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}| no link <!--[txt](http://geneontology.org/external2go/um-bbd_reactionid2go)-->|
@@ -51,9 +51,9 @@ Those cross-references are maintained by GO editors. Please report issues in the
 
 Note: Those files are regenerated during the bi-monthly (UniProtKB-GOA release)[https://www.ebi.ac.uk/GOA/]{:target="blank"}. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-annotation/issues/new).
 
-|Mapping |Direct access to file|
+|Mapping |Direct access to mapping file|
 |--------|---------|
-|**HAMAP families** <br>[High-Quality Automated and Manual Annotation of Microbial Proteomes (HAMAP)](http://www.expasy.org/sprot/hamap/){:target="blank"}<br> *Maintainted by the UniProtKB team* <br> [PMID:18849571](http://www.ncbi.nlm.nih.gov/pubmed/18849571){:target="blank"} | [hamap2go](http://geneontology.org/external2go/hamap2go) |
+|**HAMAP families** <br>[High-Quality Automated and Manual Annotation of Microbial Proteomes (HAMAP)](http://www.expasy.org/sprot/hamap/){:target="blank"}<br> *Maintainted by the [UniProtKB](https://www.uniprot.org/){:target="blank"} team* <br> [PMID:18849571](http://www.ncbi.nlm.nih.gov/pubmed/18849571){:target="blank"} | [hamap2go](http://geneontology.org/external2go/hamap2go) |
 |**InterPro protein families, domains and functional sites**<br>[InterPro](http://www.ebi.ac.uk/interpro/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[interpro2go](http://geneontology.org/external2go/interpro2go)|
 |**Pfam domains**<br> [Pfam](http://pfam.xfam.org/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"}|[pfam2go](http://geneontology.org/external2go/pfam2go)|
 |**PIRSF protein superfamilies**<br> [PIRSF](http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856]|[pirsf2go](http://geneontology.org/external2go/pirsf2go)|
@@ -62,6 +62,6 @@ Note: Those files are regenerated during the bi-monthly (UniProtKB-GOA release)[
 |**ProSite domains**<br> [ProSite](http://www.expasy.ch/prosite/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[prosite2go](http://geneontology.org/external2go/prosite2go)|
 |**Rfam RNA families**<br> [Rfam](http://rfam.xfam.org/){:target="blank"}<br>|[rfam2go](http://geneontology.org/external2go/rfam2go)|
 |**SMART domains**<br> [SMART](http://smart.embl-heidelberg.de/){:target="blank"} <br> *Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:29040681](http://www.ncbi.nlm.nih.gov/pubmed/29040681){:target="blank"} |[smart2go](http://geneontology.org/external2go/smart2go)|
-|**UniProt Knowledgebase**<br> Mapping of GO terms to UniProt Knowledgebase keywords. <br>*Maintainted by the UniProtKB and UniProtKB-GOA teams* <br> [PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |[uniprotkb_kw2go](http://geneontology.org/external2go/uniprotkb_kw2go)|
-|**UniProt subcellular location**<br> [UniProt](http://www.uniprot.org/){:target="blank"} <br>*Maintainted by the UniProtKB and UniProtKB-GOA teams*  <br>[PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |	[uniprotkb_sl2go](http://geneontology.org/external2go/uniprotkb_sl2go)|
+|**UniProt Knowledgebase**<br> Mapping of GO terms to UniProt Knowledgebase keywords. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} and (UniProtKB-GOA release)[https://www.ebi.ac.uk/GOA/]{:target="blank"} teams* <br> [PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |[uniprotkb_kw2go](http://geneontology.org/external2go/uniprotkb_kw2go)|
+|**UniProt subcellular location**<br>  <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} and (UniProtKB-GOA release)[https://www.ebi.ac.uk/GOA/]{:target="blank"}teams*  <br>[PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |	[uniprotkb_sl2go](http://geneontology.org/external2go/uniprotkb_sl2go)|
 
