@@ -13,7 +13,7 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 ## Cross-references format
 
-+ Cross-references files are simple text files that start with a comment line describing the date generated and the GO release used, for example:
++ Header describing the date generated and the GO release used, for example: 
 
      `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/2017-03-31' `
 
@@ -31,24 +31,26 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 Direct access to the mappings file directory is available here: [http://current.geneontology.org/ontology/external2go/](http://current.geneontology.org/ontology/external2go/)
 
-## Links to cross-references files derived the Gene Ontology
+## Links to cross-references files derived from the Gene Ontology
+
+Those cross-references are maintained by GO editors. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-ontology/issues/new){:target="blank"}. 
 
 |Mapping |Direct access to file|
 |--------|---------|
-|**Enzyme Commission (EC) enzyme numbers** <br>[Enzyme Commission](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"}; contact: [GO Ontology editors](mailto:go-ontology@lists.stanford.edu) <br> *Constructed and maintained in the [GO ontology file](/docs/download-ontology/) by GO editorial staff* <br>Citation: Hill DP, Davis AP, Richardson JE, Corradi JP, Ringwald M, Eppig JT, Blake JA. Program description: Strategies for biological annotation of mammalian systems: implementing gene ontologies in mouse genome informatics. Genomics. May 2001;74(1):121–8. <br>[ [PMID:11374909](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"} \| [doi:10.1006/geno.2001.6513](http://dx.doi.org/10.1006/geno.2001.6513){:target="blank"} ]|	[txt](http://geneontology.org/external2go/ec2go)|
-|**EAWAG-BBD enzyme IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}; contact: [GO Ontology editors](mailto:go-ontology@lists.stanford.edu)<br> *Maintained in the [GO ontology file](/docs/download-ontology/) by GO editorial staff*|[txt](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
-|**EAWAG-BBD pathway IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}; contact: [GO Ontology editors](mailto:go-ontology@lists.stanford.edu)<br> *Maintained in the [GO ontology file](/docs/download-ontology/) by GO editorial staff*|[txt](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
-|**EAWAG-BBD reaction IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}; contact: [GO Ontology editors](mailto:go-ontology@lists.stanford.edu)<br> *Maintained in the [GO ontology file](/docs/download-ontology/)  by GO editorial staff*| no link <!--[txt](http://geneontology.org/external2go/um-bbd_reactionid2go)-->|
-|**KEGG pathways and reactions**<br> [Kyoto Encyclopaedia of Genes and Genomes](http://www.genome.jp/kegg/){:target="blank"}<br> *Constructed and maintained by Amelia Ireland and a script*|Continuous |	[txt](http://geneontology.org/external2go/kegg2go)|
-|**MetaCyc pathways and reactions**<br>  [MetaCyc](http://metacyc.org/){:target="blank"}; contact: [GO Ontology editors](mailto:go-ontology@lists.stanford.edu) <br> *Constructed and maintained in the [GO ontology file](/docs/download-ontology/) by GO editorial staff*|[txt](http://geneontology.org/external2go/metacyc2go)|
-|**Reactome events and catalyst activities**<br> [Reactome](http://www.reactome.org/){:target="blank"}<br> *Constructed by Reactome curators and maintained in the [GO ontology file](/docs/download-ontology/) by GO editorial staff*| [txt](http://geneontology.org/external2go/reactome2go)|
-|**Rhea Annotated Reactions Database**<br> [Rhea](http://www.ebi.ac.uk/rhea/){:target="blank"}<br> *Constructed and maintained by Amelia Ireland and a script*|[txt](http://geneontology.org/external2go/rhea2go)|
+|**Enzyme Commission (EC) enzyme numbers** <br>[Enzyme Commission](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"}; contact: [GO Ontology editors](mailto:go-ontology@lists.stanford.edu) <br>Citation: Hill DP, Davis AP, Richardson JE, Corradi JP, Ringwald M, Eppig JT, Blake JA. Program description: Strategies for biological annotation of mammalian systems: implementing gene ontologies in mouse genome informatics. Genomics. May 2001;74(1):121–8. <br>[ [PMID:11374909](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"} \| [doi:10.1006/geno.2001.6513](http://dx.doi.org/10.1006/geno.2001.6513){:target="blank"} ]|	[ec2go](http://geneontology.org/external2go/ec2go)|
+|**EAWAG-BBD enzyme IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}|[um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
+|**EAWAG-BBD pathway IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}|[um-bbd_pathwayid2go](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
+|**EAWAG-BBD reaction IDs**<br> [Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD)](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}| no link <!--[txt](http://geneontology.org/external2go/um-bbd_reactionid2go)-->|
+|**KEGG pathways and reactions**<br> [Kyoto Encyclopaedia of Genes and Genomes](http://www.genome.jp/kegg/){:target="blank"} |[kegg2go](http://geneontology.org/external2go/kegg2go)|
+|**MetaCyc pathways and reactions**<br>  [MetaCyc](http://metacyc.org/){:target="blank"}|[metacyc2go](http://geneontology.org/external2go/metacyc2go)|
+|**Reactome events and catalyst activities**<br> [Reactome](http://www.reactome.org/){:target="blank"}| [reactome2go](http://geneontology.org/external2go/reactome2go)|
+|**Rhea Annotated Reactions Database**<br> [Rhea](http://www.ebi.ac.uk/rhea/){:target="blank"}|[rhea2go](http://geneontology.org/external2go/rhea2go)|
 
 
 
-## Mappings files provided by GOA
+## Mappings files provided by UniProtKB-GOA
 
-Note: Those files are regenerated during the bi-monthly UniProtKB-GOA release.
+Note: Those files are regenerated during the bi-monthly (UniProtKB-GOA release)[https://www.ebi.ac.uk/GOA/]{:target="blank"}. Contact  [UniProtKB-GOA team](mailto:goa@ebi.ac.uk) for comments and feedback.
 
 |Mapping |Direct access to file|
 |--------|---------|
