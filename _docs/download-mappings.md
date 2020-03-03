@@ -35,16 +35,16 @@ Direct access to the mappings file directory is available here: [http://current.
 
 Those cross-references are maintained by GO editors. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-ontology/issues/new){:target="blank"}. 
 
-|Mapping |Citation|Direct access to mapping file|
-|--------|---------|---------|
-|**[Enzyme Commission (EC) Enzyme numbers](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"}** |[PMID:11374909](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"} |[ec2go](http://geneontology.org/external2go/ec2go)|
-|**[Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD) Enzyme IDs](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}** | |[um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
-|**[Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD) Pathway IDs](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}** | |[um-bbd_pathwayid2go](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
+|Mapping |Direct access to mapping file|
+|--------|---------|
+|**[Enzyme Commission (EC) Enzyme numbers](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"}** <br>[PMID:11374909](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"} |[ec2go](http://geneontology.org/external2go/ec2go)|
+|**[Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD) Enzyme IDs](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}** | [um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
+|**[Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD) Pathway IDs](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}** | [um-bbd_pathwayid2go](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
 |**[Swiss Federal Institute of Aquatic Science and Technology Biocatalysis/Biodegradation Database (EAWAG-BBD) Reaction IDs](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"}** | <!--[txt](http://geneontology.org/external2go/um-bbd_reactionid2go)-->|
-|**[Kyoto Encyclopaedia of Genes and Genomes pathways and reactions](http://www.genome.jp/kegg/){:target="blank"}** | |[kegg_reaction2go](http://geneontology.org/external2go/kegg_reaction2go)|
-|**[MetaCyc pathways and reactions](http://metacyc.org/){:target="blank"}** | |[metacyc2go](http://geneontology.org/external2go/metacyc2go)|
-|**[Reactome events and catalyst activities](http://www.reactome.org/){:target="blank"}** | | [reactome2go](http://geneontology.org/external2go/reactome2go)|
-|**[Rhea - Expert curated resource of biochemical reactions](http://www.ebi.ac.uk/rhea/){:target="blank"}** |[PMID:31688925](http://www.ncbi.nlm.nih.gov/pubmed/31688925){:target="blank"} | [rhea2go](http://geneontology.org/external2go/rhea2go)|
+|**[Kyoto Encyclopaedia of Genes and Genomes pathways and reactions](http://www.genome.jp/kegg/){:target="blank"}**  |[kegg_reaction2go](http://geneontology.org/external2go/kegg_reaction2go)|
+|**[MetaCyc pathways and reactions](http://metacyc.org/){:target="blank"}** | [metacyc2go](http://geneontology.org/external2go/metacyc2go)|
+|**[Reactome events and catalyst activities](http://www.reactome.org/){:target="blank"}** |  [reactome2go](http://geneontology.org/external2go/reactome2go)|
+|**[Rhea - Expert curated resource of biochemical reactions](http://www.ebi.ac.uk/rhea/){:target="blank"}** <br>[PMID:31688925](http://www.ncbi.nlm.nih.gov/pubmed/31688925){:target="blank"} | [rhea2go](http://geneontology.org/external2go/rhea2go)|
 
 
 ## Cross-references files maintained by external groups
