@@ -49,7 +49,7 @@ Those cross-references are maintained by GO editors. Please report issues in the
 
 ## Cross-references files maintained by external groups
 
-Note: Those files are regenerated during the bi-monthly (UniProtKB-GOA release)[https://www.ebi.ac.uk/GOA/]{:target="blank"}. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-annotation/issues/new).
+Note: Those files are regenerated during the bi-monthly [UniProtKB-GOA release](https://www.ebi.ac.uk/GOA/){:target="blank"}. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-annotation/issues/new).
 
 |Mapping |Direct access to mapping file|
 |--------|---------|
