@@ -60,6 +60,7 @@ _If you are looking for current, actively maintained GO slims, please [see the g
 |Prokaryotic subset |	GO curators. Replaced by taxon constraints. |[old GO format](http://purl.obolibrary.org/obo/go/releases/2018-06-01/subsets/gosubset_prok.obo){:target="blank"}|
 
 ## Archived external mappings to GO
+
 |Mapping |Last update |	File name|
 |--------|------------|---------|
 |**COG functional categories** <br>[Clusters of Orthologous Groups (COG)](https://www.ncbi.nlm.nih.gov/COG/index.html){:target="blank"}<br> *Constructed by Michael Ashburner and Jane Lomax* |June 2004 |	cog2go|
