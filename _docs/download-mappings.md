@@ -15,7 +15,7 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 + Header describing the date generated and the GO release used, for example: 
 
-     `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/2017-03-31' `
+     `  ! Generated on 2018-10-05T08:40Z from the ontology 'go' with data version: 'releases/YYYY-MM-DD' `
 
 + Each cross-reference is on a different line, in the format: 
 
@@ -25,11 +25,11 @@ If you have used a mapping in a publication or presentation, please ensure that 
   
      `  EC:1.1.1.1 > GO:alcohol dehydrogenase (NAD) activity ; GO:0004022`
 
- + Cross-references to GO mappings can be many-to-many. Each cross-reference is on a separate line of the file.
+ +Note that cross-references to GO mappings can be many-to-many. 
 
 ## Mappings file directory
 
-Direct access to the mappings file directory is available here: [http://current.geneontology.org/ontology/external2go/](http://current.geneontology.org/ontology/external2go/)
+Direct access to the mappings file directory is available here: [http://current.geneontology.org/ontology/external2go/](http://current.geneontology.org/ontology/external2go/).
 
 ## Cross-references maintained by the GO Consortium
 
@@ -67,7 +67,7 @@ Note: Those files are regenerated during the bi-monthly [UniProtKB-GOA release](
 |**[UniRules](https://www.uniprot.org/unirule/)**<br> Mapping of GO terms to UniProt Subcellular location terms. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} team* |[unirule2go](http://geneontology.org/external2go/unirule2go)|
 
 
-## Archived external mappings
+## Archived cross-references
 
 |Mapping |Last update |	File name|
 |--------|------------|---------|
