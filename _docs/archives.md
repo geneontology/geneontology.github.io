@@ -59,17 +59,5 @@ _If you are looking for current, actively maintained GO slims, please [see the g
 |Yeast |	SGD curators Aug 2003 	|[old GO format](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/goslim_yeast.2003){:target="blank"}|
 |Prokaryotic subset |	GO curators. Replaced by taxon constraints. |[old GO format](http://purl.obolibrary.org/obo/go/releases/2018-06-01/subsets/gosubset_prok.obo){:target="blank"}|
 
-## Archived external mappings to GO
-
-|Mapping |Last update |	File name|
-|--------|------------|---------|
-|**COG functional categories** <br>[Clusters of Orthologous Groups (COG)](https://www.ncbi.nlm.nih.gov/COG/index.html){:target="blank"}<br> *Constructed by Michael Ashburner and Jane Lomax* |June 2004 |	cog2go|
-|**Expressed Gene Anatomy Database (EGAD)** <br> *Constructed by Michael Ashburner* | Oct 2000 | egad2go|
-|**E. coli Genome and Proteome functional categories (GenProtEC)** <br>*Constructed by Heather Butler and Michael Ashburner*|Dec 2000 	|genprotec2go|
-|**JCVI (TIGRFAM) protein families**<br>[JCVI (TIGRFAM) protein families](https://www.jcvi.org/publications/tigrfams-protein-family-resource-functional-identification-proteins){:target="blank"}<br>*Constructed by Michelle Gwinn and other TIGR staff*| NA |	tigrfams2go|
-|**JCVI roles**<br>[JCVI roles](https://www.jcvi.org/){:target="blank"}<br>  *Constructed by Michael Ashburner*|Jan 2004 	| tigr2go|
-|**MIPS FunCat**<br>[MIPS Functional Catalogue (FunCat)](http://mips.gsf.de/funcatDB/){:target="blank"}<br> *Constructed by Michael Ashburner and Midori Harris*|NA|	mips2go|
-|**MultiFun cell function assignment schema classifications**<br>  *Constructed by Michael Ashburner, Jane Lomax and Margrethe Hauge Serres*|Dec 2005 |	multifun2go|
-
 
 Please contact the <a href="http://help.geneontology.org">GO Helpdesk</a> if you have any questions.
