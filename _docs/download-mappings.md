@@ -38,13 +38,13 @@ Those cross-references are maintained by GO editors. Please report issues in the
 |**Mapping** |**Entities mapped**|**Direct access to mapping file**|
 |--------|---------|---------|
 |[EC: Enzyme Commission](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"} [(PMID:11374909)](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"}  | EC numbers |[ec2go](http://geneontology.org/external2go/ec2go)|
-|[EAWAG-BBD](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"} | Enzymes | [um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
-| | Pathways | [um-bbd_pathwayid2go](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
-| | Reactions | [um-bbd_reactionid2go](http://geneontology.org/external2go/um-bbd_reactionid2go)|
+|[EAWAG-BBD](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"} | Enzymes |[um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
+| | Pathways |[um-bbd_pathwayid2go](http://geneontology.org/external2go/um-bbd_pathwayid2go)|
+| | Reactions |[um-bbd_reactionid2go](http://geneontology.org/external2go/um-bbd_reactionid2go)|
 |[KEGG: Kyoto Encyclopaedia of Genes and Genomes ](http://www.genome.jp/kegg/){:target="blank"} | Pathways and reactions  |[kegg_reaction2go](http://geneontology.org/external2go/kegg_reaction2go)|
-|[MetaCyc](http://metacyc.org/){:target="blank"} | Pathways and reactions | [metacyc2go](http://geneontology.org/external2go/metacyc2go)|
-|[Reactome](http://www.reactome.org/){:target="blank"} | Events and catalyst activities |  [reactome2go](http://geneontology.org/external2go/reactome2go)|
-|[Rhea](http://www.ebi.ac.uk/rhea/){:target="blank"} [(PMID:31688925)](http://www.ncbi.nlm.nih.gov/pubmed/31688925){:target="blank"} |Biochemical reactions | [rhea2go](http://geneontology.org/external2go/rhea2go)|
+|[MetaCyc](http://metacyc.org/){:target="blank"} | Pathways and reactions |[metacyc2go](http://geneontology.org/external2go/metacyc2go)|
+|[Reactome](http://www.reactome.org/){:target="blank"} | Events and catalyst activities |[reactome2go](http://geneontology.org/external2go/reactome2go)|
+|[Rhea](http://www.ebi.ac.uk/rhea/){:target="blank"} [(PMID:31688925)](http://www.ncbi.nlm.nih.gov/pubmed/31688925){:target="blank"} |Biochemical reactions |[rhea2go](http://geneontology.org/external2go/rhea2go)|
 
 
 ## Cross-references maintained by external groups
@@ -54,7 +54,7 @@ Note: Those files are regenerated during the bi-monthly [UniProtKB-GOA release](
 
 |**Mapping** |**Direct access to mapping file**|
 |--------|---------|
-|[HAMAP: High-Quality Automated and Manual Annotation of Microbial Proteomes - Families](http://www.expasy.org/sprot/hamap/){:target="blank"} <br> *Maintainted by the [UniProtKB](https://www.uniprot.org/){:target="blank"} team* <br> [PMID:18849571](http://www.ncbi.nlm.nih.gov/pubmed/18849571){:target="blank"} | [hamap2go](http://geneontology.org/external2go/hamap2go) |
+|[HAMAP: High-Quality Automated and Manual Annotation of Microbial Proteomes - Families](http://www.expasy.org/sprot/hamap/){:target="blank"} <br> *Maintainted by the [UniProtKB](https://www.uniprot.org/){:target="blank"} team* <br> [PMID:18849571](http://www.ncbi.nlm.nih.gov/pubmed/18849571){:target="blank"} |[hamap2go](http://geneontology.org/external2go/hamap2go) |
 |[InterPro - Protein families, domains and functional sites](http://www.ebi.ac.uk/interpro/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[interpro2go](http://geneontology.org/external2go/interpro2go)|
 |[Pfam domains](http://pfam.xfam.org/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"}|[pfam2go](http://geneontology.org/external2go/pfam2go)|
 |[PIRSF - Protein superfamilies](http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"}|[pirsf2go](http://geneontology.org/external2go/pirsf2go)|
@@ -64,13 +64,13 @@ Note: Those files are regenerated during the bi-monthly [UniProtKB-GOA release](
 |[Rfam - RNA families](http://rfam.xfam.org/){:target="blank"}<br>|[rfam2go](http://geneontology.org/external2go/rfam2go)|
 |[SMART - Domains](http://smart.embl-heidelberg.de/){:target="blank"}<br> *Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:29040681](http://www.ncbi.nlm.nih.gov/pubmed/29040681){:target="blank"} |[smart2go](http://geneontology.org/external2go/smart2go)|
 |[UniProt Keywords](https://www.uniprot.org/keywords/)<br>Mapping of GO terms to UniProt Knowledgebase keywords. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} and [UniProtKB-GOA](https://www.ebi.ac.uk/GOA/){:target="blank"}* <br> [PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |[uniprotkb_kw2go](http://geneontology.org/external2go/uniprotkb_kw2go)|
-|[UniProt Subcellular location](https://www.uniprot.org/locations/)<br> Mapping of GO terms to UniProt Subcellular location terms. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} and [UniProtKB-GOA](https://www.ebi.ac.uk/GOA/)*{:target="blank"}<br>[PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |	[uniprotkb_sl2go](http://geneontology.org/external2go/uniprotkb_sl2go)|
+|[UniProt Subcellular location](https://www.uniprot.org/locations/)<br> Mapping of GO terms to UniProt Subcellular location terms. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} and [UniProtKB-GOA](https://www.ebi.ac.uk/GOA/)*{:target="blank"}<br>[PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |[uniprotkb_sl2go](http://geneontology.org/external2go/uniprotkb_sl2go)|
 |[UniRules](https://www.uniprot.org/unirule/)<br> Mapping of GO terms to UniProt Subcellular location terms. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} team* |[unirule2go](http://geneontology.org/external2go/unirule2go)|
 
 
 ## Archived cross-references
 
-|Mapping |Last update |	File name|
+|**Mapping** |**Last update** |**Direct access to mapping file**|
 |--------|------------|---------|
 |**COG - Functional categories** <br>[Clusters of Orthologous Groups (COG)](https://www.ncbi.nlm.nih.gov/COG/index.html){:target="blank"}<br> *Constructed by Michael Ashburner and Jane Lomax* |June 2004 |	cog2go|
 |**EGAD: Expressed Gene Anatomy Database** <br> *Constructed by Michael Ashburner* | Oct 2000 | egad2go|
