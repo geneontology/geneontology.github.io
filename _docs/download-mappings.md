@@ -35,7 +35,7 @@ Direct access to the mappings file directory is available here: [http://current.
 
 Those cross-references are maintained by GO editors. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-ontology/issues/new){:target="blank"}. 
 
-|**Mapping |Entities mapped|Direct access to mapping file**|
+|**Mapping** |**Entities mapped**|**Direct access to mapping file**|
 |--------|---------|---------|
 |[EC: Enzyme Commission](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"} [(PMID:11374909)](http://www.ncbi.nlm.nih.gov/pubmed/11374909){:target="blank"}  | EC numbers |[ec2go](http://geneontology.org/external2go/ec2go)|
 |[EAWAG-BBD](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"} | Enzymes | [um-bbd_enzymeid2go](http://geneontology.org/external2go/um-bbd_enzymeid2go)|
@@ -51,7 +51,8 @@ Those cross-references are maintained by GO editors. Please report issues in the
 
 Note: Those files are regenerated during the bi-monthly [UniProtKB-GOA release](https://www.ebi.ac.uk/GOA/){:target="blank"}. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-annotation/issues/new).
 
-|**Mapping |Direct access to mapping file**|
+
+|**Mapping** |**Direct access to mapping file**|
 |--------|---------|
 |[HAMAP: High-Quality Automated and Manual Annotation of Microbial Proteomes - Families](http://www.expasy.org/sprot/hamap/){:target="blank"} <br> *Maintainted by the [UniProtKB](https://www.uniprot.org/){:target="blank"} team* <br> [PMID:18849571](http://www.ncbi.nlm.nih.gov/pubmed/18849571){:target="blank"} | [hamap2go](http://geneontology.org/external2go/hamap2go) |
 |[InterPro - Protein families, domains and functional sites](http://www.ebi.ac.uk/interpro/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[interpro2go](http://geneontology.org/external2go/interpro2go)|
