@@ -228,7 +228,7 @@ FAQ tags: 
 
 The most important criterion for GO Consortium membership is that the members contribute something to the collection of resources that we make available to the public (almost all members contribute annotations; several contribute to the ontologies; a few contribute software). The scientists involved in working with GO in these member groups communicate via the GO mailing lists and [GitHub](https://github.com/geneontology/){:target="blank"} to discuss development issues in the ontologies. If you represent a database that wishes to join the GO Consortium please [contact the GOC](http://help.geneontology.org/). 
 
-Anyone with a more general interest in the GO should subscribe to the [Twitter feed](https://twitter.com/news4go){:target="_blank"} (@news4go) to receive updates about the GO.
+Anyone with a more general interest in the GO should subscribe to the [Twitter feed](https://twitter.com/news4go){:target="blank"} (@news4go) to receive updates about the GO.
 
 ---------------------------------------------------------------------------
 ## Who funds GO? 
@@ -428,7 +428,7 @@ Annotations from GO Consortium member groups can be [downloaded here](http://cur
 
 If your organism is included in a multi-organism file, and you would like to extract just your organism of interest, you can filter by taxon.  [Verify your taxon ID](https://www.uniprot.org/help/taxonomy){:target="blank"} and refer to the [file format guides](/docs/go-annotations/#types-of-go-annotation-files) under "Types of GO annotation files" to determine which column to sort on.
 
-If your organism is not available from our [downloads page](http://current.geneontology.org/products/pages/downloads.html){:target="blank"}, you can [use AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} to view or download annotations.  Filter for your taxon under the "Organism" facet; [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} allows users to download up to 100,000 annotations.  [QuickGO](https://www.ebi.ac.uk/QuickGO/annotations){:target="blank"} is another GO browser, but has a download limit of 50,000.  Please see the [FAQ about AmiGO and QuickGO data](/docs/faq/#what-are-the-differences-between-the-data-available-in-amigo-and-those-on-quickgo) and [finding species that are not available in AmiGO](docs/faq/#how-do-i-find-all-annotations-for-species-x-that-i-cant-find-in-amigo).
+If your organism is not available from our [downloads page](http://current.geneontology.org/products/pages/downloads.html){:target="blank"}, you can [use AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} to view or download annotations.  Filter for your taxon under the "Organism" facet; [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} allows users to download up to 100,000 annotations.  [QuickGO](https://www.ebi.ac.uk/QuickGO/annotations){:target="blank"} is another GO browser, but has a download limit of 50,000.  Please see the [FAQ about AmiGO and QuickGO data](/docs/faq/#what-are-the-differences-between-the-data-available-in-amigo-and-those-on-quickgo), the [Amigo FAQ](/docs/faq/#where-can-i-find-software-to-allow-me-to-browse-the-go-terms-and-annotations) and [finding species that are not available in AmiGO](/docs/faq/#how-do-i-find-all-annotations-for-species-x-that-i-cant-find-in-amigo).
 
 
 ---------------------------------------------------------------------------
@@ -466,9 +466,7 @@ FAQ tags: 
 [third-party tools](/faq-tags/third-party-tools)
 {:/comment}
 
-[Open QuickGO](http://www.ebi.ac.uk/QuickGO/){:target="blank"}
-
-Click on the Search and Filter GO annotation sets link located beneath the search box. This will lead you to an Annotation download page where you can click the filter icon (Located to the right hand side of the page).
+[Open QuickGO](http://www.ebi.ac.uk/QuickGO/){:target="blank"}.  Click on the Search and Filter GO annotation sets link located beneath the search box. This will lead you to an Annotation download page where you can click the filter icon (Located to the right hand side of the page).
 
 The filter annotations page you will see has a list of filter options located at the top of the page. Click on taxon to input the taxon identifier of the species you would like to get GO annotations for (Example: Taxon identifier 6279 for Brugia malayi).
 
@@ -620,7 +618,7 @@ FAQ tags: 
 {:/comment}
 GO's [Noctua tool](http://noctua.geneontology.org/) is a curation platform that can be used to make GO annotations as well as GO Causal Activity Models (GO-CAMs). See an overview [on the Tools page](/docs/tools-overview#curate).
 
-GO annotations can also be made and edited using various database-specific tools. Please contact the relevant database to find out how their GO annotation is done. The GMOD online tool, [Canto](https://curation.pombase.org/), supports functional gene annotation by community researchers as well as by professional curators.
+GO annotations can also be made and edited using various database-specific tools. Please contact the relevant database to find out how their GO annotation is done. The GMOD online tool, [Canto](https://curation.pombase.org/){:target="blank"}, supports functional gene annotation by community researchers as well as by professional curators.
 
 ---------------------------------------------------------------------------
 ## How do I annotate a novel genome with GO annotations? 
