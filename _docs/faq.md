@@ -430,6 +430,7 @@ If your organism is included in a multi-organism file, and you would like to ext
 
 If your organism is not available from our [downloads page](http://current.geneontology.org/products/pages/downloads.html){:target="blank"}, you can [use AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} to view or download annotations.  Filter for your taxon under the "Organism" facet; [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} allows users to download up to 100,000 annotations.  [QuickGO](https://www.ebi.ac.uk/QuickGO/annotations){:target="blank"} is another GO browser, but has a download limit of 50,000.  Please see the [FAQ about AmiGO and QuickGO data](/docs/faq/#what-are-the-differences-between-the-data-available-in-amigo-and-those-on-quickgo) and [finding species that are not available in AmiGO](docs/faq/#how-do-i-find-all-annotations-for-species-x-that-i-cant-find-in-amigo).
 
+
 ---------------------------------------------------------------------------
 ## How do I access older versions of gene association files? 
 {::comment}
