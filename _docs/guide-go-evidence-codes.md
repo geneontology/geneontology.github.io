@@ -31,7 +31,7 @@ The EXPerimental (EXP) evidence codes indicate that there is evidence from an ex
 * [Inferred from Genetic Interaction (IGI)](http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)){:target="_blank"}
 * [Inferred from Expression Pattern (IEP)](http://wiki.geneontology.org/index.php/Inferred_from_Expression_Pattern_(IEP)){:target="_blank"}
 
-Each of the experimental evidence code have a corresponding 'high throughput' evidence code (HTP). HTP are a type of experimental evidence that indicate that the annotation is supported by high throughput methodologies. The high throughput evidence codes are:
+Each of the experimental evidence codes have a corresponding 'high throughput' evidence code (HTP). HTP are a type of experimental evidence that indicate that the annotation is supported by high throughput methodologies. The high throughput evidence codes are:
 
 - [Inferred from High Throughput Experiment (HTP)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Experiment_(HTP)){:target="_blank"}
 - [Inferred from High Throughput Direct Assay (HDA)](http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Direct_Assay_(HDA)){:target="_blank"}
