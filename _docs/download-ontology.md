@@ -8,17 +8,6 @@ redirect_from:
 
 # Download the ontology
 
-## Ontology files
-+ Released monthly 
-+ Available in [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html), [OWL](https://github.com/owlcs/owlapi){:target="blank"} and [JSON](https://github.com/geneontology/obographs/){:target="blank"} formats
-+ Also includes [GO subsets](/docs/go-subset-guide/) (slims)
-+ [SVN access](/docs/SVN-access/) is available
-
-## Ontology formats
-
-+ [OBO](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"} files are human-readable (in addition to machine-readable) and can be opened in any text editor. 
-+ [OWL](https://github.com/owlcs/owlapi){:target="blank"} files can be opened with [Protégé](https://protege.stanford.edu/){:target="blank"}.
-
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
 |[go-basic.obo](#go_basic)|	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo)|	Filtered, for use with legacy tools|
@@ -26,6 +15,15 @@ redirect_from:
 |[go.owl](#go_obo_and_owl) |		[http://purl.obolibrary.org/obo/go.owl](http://purl.obolibrary.org/obo/go.owl){:target="blank"} |	Core ontology (OWL RDF/XML)|
 |[go-plus.owl](#go_plus_owl) |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
 
+## Ontology files: General information
++ Released monthly
++ Available in the following formats:
+  * [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"} files are human-readable (in addition to machine-readable) and can be opened in any text editor
+  * [OWL](https://github.com/owlcs/owlapi){:target="blank"} files can be opened with [Protégé](https://protege.stanford.edu/){:target="blank"}
++ [GO subsets](/docs/go-subset-guide/) (slims) are available in the above formats as well as [JSON](https://github.com/geneontology/obographs/){:target="blank"}:
+  * [JSON](https://github.com/geneontology/obographs/){:target="blank"} files should be loaded with [ontobio](https://ontobio.readthedocs.io/en/latest/){:target="blank"}, although they can be opened with any text editor
+
+## Ontology files: Specific files
 ### go-basic.obo {#go_basic}
 
 This is the basic version of the GO, filtered such that the graph is guaranteed to be acyclic and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This version should be used with most GO-based annotation tools.
@@ -38,7 +36,7 @@ These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. Th
 
 This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format.
 
-## Subsets
+## Ontology files: Subsets
 
 GO slims are subsets of terms in the ontology. GO subsets give a broad overview of the ontology content without the detail of the specific fine grained terms. More information in the [GO subset guide](/docs/go-subset-guide/).
 
