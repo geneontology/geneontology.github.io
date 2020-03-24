@@ -39,12 +39,15 @@ The symbols + and - indicate over or underrepresentation of a term.
 
 In other words, when searching the process ontology, if all of the genes in a group were associated with "DNA repair", this term would be significant. However, since all genes in the genome (with GO annotations) are indirectly associated with the top level term "biological_process", this would not be significant if all the genes in a group were associated with this very high level term.
 ## External tools
-There are a number of different tools that provide enrichment capabilities. Some of these are web-based, others may require the user download an application or install a local environment. Tools differ in the algorithms they use, and the statistical tests they perform.
+There are a number of different tools that provide enrichment capabilities. Some of these are web-based while others may require the user download an application or install a local environment. Tools differ in the algorithms they use, the statistical tests they perform, and the frequency at which the underlying GO data are updated.  Users should therefore exercise caution when using external tools, especially if the version of GO is not immediately identifiable.
 
-Some other examples of enrichment tools are:
+Some GO-endorsed enrichment tools are:
 
-* [gProfiler](http://biit.cs.ut.ee/gprofiler/)
+
 * [BiNGO](https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html)
-* [Ontologizer](http://ontologizer.de)
+* [GeneWeaver](https://www.geneweaver.org/)
+* [gProfiler](http://biit.cs.ut.ee/gprofiler/)
 * [GOrilla](http://cbl-gorilla.cs.technion.ac.il/)
+* [Ontologizer](http://ontologizer.de)
+
 
