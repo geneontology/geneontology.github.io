@@ -1,0 +1,138 @@
+--- 
+layout: default
+permalink: /covid-19.html
+---
+
+
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Gene Ontology and COVID-19</title>
+
+    <style>
+        *, *::after, *::before {
+            box-sizing: border-box;
+            font-family: "Lato", sans-serif;
+            font-weight: 400 !important;
+            outline: none;
+        }
+
+        .ribbon__category--cell, .ribbon__subject--cell, .ribbon__subject--cell--no-annotation, .ribbon__subject__label--link, tr, th, td {
+            font-size: 14px !important;
+            line-height: 1.0 !important;
+        }
+
+        .ribbon__subject--cell {
+            box-shadow: 0 1px 1px rgba(0,0,0,.26);            
+        }
+
+        .ribbon__category--cell:hover {
+            font-weight: 800 !important;
+        }
+
+        .wc-ribbon-cell, wc-ribbon-subject, wc-ribbon-strips {
+            line-height: 1.0 !important;
+        }
+
+
+    </style>
+
+  <script src="js/covid.js"></script>
+  <script src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips.js"/>
+    <script src="wc-ribbon-table.js"></script>
+
+    <script>
+
+        // console.log(covid_data);
+
+        // var covid_url = "https://geneontology-public.s3.amazonaws.com/covid-19_targets.json";
+
+        // fetch(covid_url)
+        // .then(response => {
+        //   response.json().then(data => {
+
+        //     console.log(data);
+
+        //   })
+        // })
+
+        // let baseAPIURL = "http://api.geneontology.org/api/ontology/ribbon/";
+        // let subjects = ["RGD:620474","RGD:3889"].join("&subject=");
+        // let query = baseAPIURL + '?subset=goslim_agr&subject=' + subjects;
+        // console.log('API query is ' + query);
+
+        // fetch(query)
+        // .then(response => {
+        //   response.json().then(data => {
+        //     var element = document.createElement("wc-ribbon-strips");
+        //     // element.setAttribute("subjects", subjects);
+        //     element.setAttribute("data", JSON.stringify(data));
+        //     document.body.appendChild(element);
+        //   })
+        // })
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container" style="width:95%">
+        <div class="row" style="margin:0rem 2rem">
+
+            <h1>COVID-19</h1>
+
+            <p>
+                The Gene Ontology Consortium is gathering annotations and models about the Coronavirus COVID-19 to help understand its mechanisms of infection.
+            </p>
+
+        
+            <h2>GO annotations on COVID-19 genes</h2>
+            Here is a list of COVID-19 genes and their associated functions.
+
+
+
+            <h2>GO annotations of human proteins targeted by COVID-19</h2>
+            Select one of the COVID-19 gene to see the GO profiles of their targeted human proteins<sup>1</sup>.
+            
+            <br><br>
+            COVID-19 gene: <select id="selected-covid-gene" onchange="changeCOVID()"></select>
+            <div id="ribbon-covid-gene" style="padding-top: 40px; padding-bottom: 30px; overflow-x: auto;"></div>
+
+
+            <h2>Ongoing work of the GO Consortium</h2>
+            <ul>
+                <li>
+                    Integrating the COVID-19 genes to allow for the <a href="/docs/go-annotations/">curation</a> and reuse of recent articles on COVID-19.
+                </li>
+                <li>
+                    Producing <a href="/docs/gocam-overview/">GO-CAMs</a> to further detail the infectious mechanisms of COVID-19.
+                </li>
+                <li>
+                    Providing interactive <a href="https://github.com/biolink/ontobio/tree/master/notebooks" target="_blank">jupyter notebooks</a> to learn how to rapidly use and integrate GO data in larger analysis.
+                </li>
+            </ul>
+
+            <h2>References</h2>
+            <ul>
+                <li>
+                    <sup>1</sup> : <a href="https://www.biorxiv.org/content/10.1101/2020.03.22.002386v2.supplementary-material" target="_blank">A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing</a>
+                </li>
+            </ul>
+
+            <br><br>
+        </div>
+    </div>
+
+    <script>
+            initUI(covid_data);
+    </script>
+
+</body>
+</html>
+
+
+
+
