@@ -6341,7 +6341,6 @@ function ribbonCOVID(covid_gene) {
         document.addEventListener('groupClick', function hideMenu(e, v) {
             console.log('Group Clicked' , e.detail);
             window.open('http://amigo.geneontology.org/amigo/term/' + e.detail.group.id, '_blank');
-            console.log("open: " , 'http://amigo.geneontology.org/amigo/term/' + e.detail.group.id);
         });
         
       })

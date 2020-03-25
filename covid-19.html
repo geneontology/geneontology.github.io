@@ -35,45 +35,15 @@ permalink: /covid-19.html
             line-height: 1.0 !important;
         }
 
-
+        li {
+            margin-left: 30px;            
+        }
+        
     </style>
 
-  <script src="js/covid.js"></script>
-  <script src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips.js"/>
+    <script src="js/covid.js"></script>
+    <script src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips.js"/>
     <script src="wc-ribbon-table.js"></script>
-
-    <script>
-
-        // console.log(covid_data);
-
-        // var covid_url = "https://geneontology-public.s3.amazonaws.com/covid-19_targets.json";
-
-        // fetch(covid_url)
-        // .then(response => {
-        //   response.json().then(data => {
-
-        //     console.log(data);
-
-        //   })
-        // })
-
-        // let baseAPIURL = "http://api.geneontology.org/api/ontology/ribbon/";
-        // let subjects = ["RGD:620474","RGD:3889"].join("&subject=");
-        // let query = baseAPIURL + '?subset=goslim_agr&subject=' + subjects;
-        // console.log('API query is ' + query);
-
-        // fetch(query)
-        // .then(response => {
-        //   response.json().then(data => {
-        //     var element = document.createElement("wc-ribbon-strips");
-        //     // element.setAttribute("subjects", subjects);
-        //     element.setAttribute("data", JSON.stringify(data));
-        //     document.body.appendChild(element);
-        //   })
-        // })
-
-
-    </script>
 
 </head>
 
@@ -89,8 +59,8 @@ permalink: /covid-19.html
             </p>
 
         
-            <h2>GO annotations on COVID-19 genes</h2>
-            Here is a list of COVID-19 genes and their associated functions.
+            <!-- <h2>COVID-19 genes</h2>
+            Here is a list of COVID-19 genes and their associated functions. -->
 
 
 
@@ -98,7 +68,7 @@ permalink: /covid-19.html
             Select one of the COVID-19 gene to see the GO profiles of their targeted human proteins<sup>1</sup>.
             
             <br><br>
-            COVID-19 gene: <select id="selected-covid-gene" onchange="changeCOVID()"></select>
+            <b>COVID-19 gene</b>: <select id="selected-covid-gene" onchange="changeCOVID()"></select>
             <div id="ribbon-covid-gene" style="padding-top: 40px; padding-bottom: 30px; overflow-x: auto;"></div>
 
 
