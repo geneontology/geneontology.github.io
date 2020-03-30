@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
     font-family: "Lato", sans-serif;
-    font-weight: 400 !important;
+    font-weight: 400;
     line-height: $default-line-height;
 
     outline: none;
@@ -26,5 +26,5 @@ body {
 .fa,
 .fa::after,
 .fa::before {
-    font-family: "FontAwesome" !important;
+    font-family: "FontAwesome";
 }

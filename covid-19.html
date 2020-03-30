@@ -4,11 +4,10 @@ permalink: /covid-19.html
 ---
 
 
-<html dir="ltr" lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
-  <title>Gene Ontology and COVID-19</title>
+  <title>Gene Ontology, SARS-CoV-2 and COVID-19</title>
 
     <style>
         *, *::after, *::before {
@@ -16,6 +15,15 @@ permalink: /covid-19.html
             font-family: "Lato", sans-serif;
             font-weight: 400 !important;
             outline: none;
+        }
+
+        .banner {
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            margin: 10px 0px;
         }
 
         .ribbon__category--cell, .ribbon__subject--cell, .ribbon__subject--cell--no-annotation, .ribbon__subject__label--link, tr, th, td {
@@ -44,51 +52,82 @@ permalink: /covid-19.html
     <script src="js/covid.js"></script>
     <script src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips.js"/>
     <script src="wc-ribbon-table.js"></script>
+    
 
 </head>
 
-<body>
+
+
 
     <div class="container" style="width:95%">
         <div class="row" style="margin:0rem 2rem">
 
-            <h1>COVID-19</h1>
+            <h1>SARS-CoV-2 - Coronavirus</h1>
+
+            <div class="banner">
+                <i class="fa fa-3x fa-exclamation-triangle" style="display: inline-block;
+                text-align: left;
+                width: 25%;"></i>
+                <span style="display: inline-block;
+                text-align: start;
+                width: 70%;">
+                    This is a work in progress and users should expect the data provided here to evolve soon.<br>Last Update: March 30, 2020
+                </span>
+            </div>
 
             <p>
-                The Gene Ontology Consortium is gathering annotations and models about the Coronavirus COVID-19 to help understand its mechanisms of infection.
+                The Gene Ontology Consortium is gathering annotations and models about the <a href="https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome_coronavirus_2" target="_blank">SARS-CoV-2 virus</a> to help understand and share on the mechanisms of infection of the <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">COVID-19 disease</a>. 
+                This page summarizes and give quick access to some of the information we gathered.
+                <br><small><i>See why differentiate <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it" target="_blank">SARS-CoV-2 and COVID-19</a> ?</i></small>
             </p>
 
-        
-            <!-- <h2>COVID-19 genes</h2>
-            Here is a list of COVID-19 genes and their associated functions. -->
+            <h2>SARS-CoV-2 cell entry</h2>
+            The virus has been shown to require two human proteins (<a href="http://amigo.geneontology.org/amigo/gene_product/UniProtKB:Q9BYF1" target="_blank">ACE2</a>, <a href="http://amigo.geneontology.org/amigo/gene_product/UniProtKB:O15393" target="_blank">TMPRSS2</a>) for cell entry<sup><a href="#references">1,2</a></sup>.
+            <div id="ribbon-covid-cell-entry" style="padding-top: 55px; padding-bottom: 30px; overflow-x: auto;"></div>
+            <small>Tips: 
+                <li>click on the gene name of a ribbon line to show all GO terms (functions/processes/locations) associated</li>
+                <li>click on a high-level oblique GO term (e.g. signaling) to show the term details and associated genes</li>
+                <li>click on a ribbon cell to show the detailed annotations for the selected high-level GO term</li>
+            </small>
 
 
-
-            <h2>GO annotations of human proteins targeted by COVID-19</h2>
-            Select one of the COVID-19 gene to see the GO profiles of their targeted human proteins<sup>1</sup>.
+            <h2>GO annotations of human proteins targeted by SARS-CoV-2</h2>
+            Select one of the SARS-CoV-2 gene to see the GO profiles of their targeted human proteins<sup><a href="#references">3</a></sup>.
             
             <br><br>
-            <b>COVID-19 gene</b>: <select id="selected-covid-gene" onchange="changeCOVID()"></select>
-            <div id="ribbon-covid-gene" style="padding-top: 40px; padding-bottom: 30px; overflow-x: auto;"></div>
-
+            <b>SARS-CoV-2 gene</b>: <select id="selected-covid-gene" onchange="changeCOVID()"></select>
+            <div id="ribbon-covid-gene" style="padding-top: 55px; padding-bottom: 30px; overflow-x: auto;"></div>
+            <small>Tips: 
+                <li>click on the gene name of a ribbon line to show all GO terms (functions/processes/locations) associated</li>
+                <li>click on a high-level oblique GO term (e.g. signaling) to show the term details and associated genes</li>
+                <li>click on a ribbon cell to show the detailed annotations for the selected high-level GO term</li>
+            </small>
+    
 
             <h2>Ongoing work of the GO Consortium</h2>
             <ul>
                 <li>
-                    Integrating the COVID-19 genes to allow for the <a href="/docs/go-annotations/">curation</a> and reuse of recent articles on COVID-19.
+                    Integrating the SARS-CoV-2 genes to allow for the <a href="/docs/go-annotations/">curation</a> and reuse of recent articles on SARS-CoV-2.
                 </li>
                 <li>
-                    Producing <a href="/docs/gocam-overview/">GO-CAMs</a> to further detail the infectious mechanisms of COVID-19.
+                    Producing <a href="/docs/gocam-overview/">GO-CAMs</a> to further detail the infectious mechanisms of SARS-CoV-2.
                 </li>
                 <li>
                     Providing interactive <a href="https://github.com/biolink/ontobio/tree/master/notebooks" target="_blank">jupyter notebooks</a> to learn how to rapidly use and integrate GO data in larger analysis.
                 </li>
             </ul>
 
-            <h2>References</h2>
+            <h2 id="references">References</h2>
             <ul>
                 <li>
-                    <sup>1</sup> : <a href="https://www.biorxiv.org/content/10.1101/2020.03.22.002386v2.supplementary-material" target="_blank">A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing</a>
+                    <sup>1</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/32142651" target="_blank">SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor</a>
+                            
+                </li>
+                <li>
+                    <sup>2</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/32132184" target="_blank">Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2</a>                        
+                </li>
+                <li>
+                    <sup>3</sup> : <a href="https://www.biorxiv.org/content/10.1101/2020.03.22.002386v2.supplementary-material" target="_blank">A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing</a>
                 </li>
             </ul>
 
@@ -99,9 +138,6 @@ permalink: /covid-19.html
     <script>
             initUI(covid_data);
     </script>
-
-</body>
-</html>
 
 
 
