@@ -1,5 +1,5 @@
 var covid_data = {
-    "SARS-CoV2 E": [
+    "E (SARS-CoV2)": [
         {
             "id": "O00203",
             "amigoid": "UniProtKB:O00203",
@@ -491,7 +491,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 M": [
+    "M (SARS-CoV2)": [
         {
             "id": "O75439",
             "amigoid": "UniProtKB:O75439",
@@ -968,7 +968,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 N": [
+    "N (SARS-CoV2)": [
         {
             "id": "O43818",
             "amigoid": "UniProtKB:O43818",
@@ -1287,7 +1287,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 Spike": [
+    "Spike (SARS-CoV2)": [
         {
             "id": "Q7Z5G4",
             "amigoid": "UniProtKB:Q7Z5G4",
@@ -1317,7 +1317,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 nsp1": [
+    "nsp1 (SARS-CoV2)": [
         {
             "id": "P09884",
             "amigoid": "UniProtKB:P09884",
@@ -1448,7 +1448,1724 @@ var covid_data = {
             "uniprot_function_in_disease": "Arrhythmogenic right ventricular dysplasia, familial, 9 (ARVD9) [MIM:609040]: A congenital heart disease characterized by infiltration of adipose and fibrous tissue into the right ventricle and loss of myocardial cells, resulting in ventricular and supraventricular arrhythmias. {ECO:0000269|PubMed:15489853, ECO:0000269|PubMed:19533476, ECO:0000269|PubMed:19863551, ECO:0000269|PubMed:19955750, ECO:0000269|PubMed:20031617, ECO:0000269|PubMed:22781308}. Note=The disease is caused by mutations affecting the gene represented in this entry."
         }
     ],
-    "SARS-CoV2 nsp10": [
+    "nsp2 (SARS-CoV2)": [
+        {
+            "id": "O14975",
+            "amigoid": "UniProtKB:O14975",
+            "gene": "SLC27A2",
+            "mist": "0.915803486",
+            "saint_bfdr": "0",
+            "avg_spec": "4.67",
+            "fold_change": "46.67",
+            "uniprot_protein_id": "S27A2_HUMAN",
+            "uniprot_protein_description": "Very long-chain acyl-CoA synthetase (VLACS) (VLCS) (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty acid transport protein 2) (FATP-2) (Fatty-acid-coenzyme A ligase, very long-chain 1) (Long-chain-fatty-acid--CoA ligase) (EC 6.2.1.3) (Phytanate--CoA ligase) (EC 6.2.1.24) (Solute carrier family 27 member 2) (THCA-CoA ligase) (EC 6.2.1.7) (Very long-chain-fatty-acid-CoA ligase)",
+            "uniprot_protein_function": "Acyl CoA synthetase that activates long-chain and very long-chain fatty acids (VLCFAs) by catalyzing the formation of fatty acyl-CoA (PubMed:10198260, PubMed:10749848, PubMed:11980911). Can also activate branched-chain fatty acids such as phytanic acid and pristanic acid (PubMed:10198260). Does not activate C24 bile acids, cholate and chenodeoxycholate (PubMed:11980911). In vitro, activates 3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholestanate (THCA), the C27 precursor of cholic acid deriving from the de novo synthesis from cholesterol (PubMed:11980911). Exhibits long-chain fatty acids (LCFA) transport activity and plays an important role in hepatic fatty acid uptake (PubMed:20530735). {ECO:0000269|PubMed:10198260, ECO:0000269|PubMed:10749848, ECO:0000269|PubMed:11980911, ECO:0000269|PubMed:20530735}.; FUNCTION: Isoform 1 exhibits both long-chain fatty acids (LCFA) transport activity and acyl CoA synthetase towards very long-chain fatty acids (PubMed:21768100). Shows a preference for generating CoA derivatives of n-3 fatty acids, which are preferentially trafficked into phosphatidylinositol (PubMed:21768100). {ECO:0000269|PubMed:21768100}.; FUNCTION: Isoform 2 exhibits long-chain fatty acids (LCFA) transport activity but lacks acyl CoA synthetase towards very long-chain fatty acids. {ECO:0000269|PubMed:21768100}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "O60573",
+            "amigoid": "UniProtKB:O60573",
+            "gene": "EIF4E2",
+            "mist": "0.806833749",
+            "saint_bfdr": "0",
+            "avg_spec": "10.33",
+            "fold_change": "103.33",
+            "uniprot_protein_id": "IF4E2_HUMAN",
+            "uniprot_protein_description": "Eukaryotic translation initiation factor 4E type 2 (eIF-4E type 2) (eIF4E type 2) (Eukaryotic translation initiation factor 4E homologous protein) (Eukaryotic translation initiation factor 4E-like 3) (eIF4E-like protein 4E-LP) (mRNA cap-binding protein 4EHP) (h4EHP) (mRNA cap-binding protein type 3)",
+            "uniprot_protein_function": "Recognizes and binds the 7-methylguanosine-containing mRNA cap during an early step in the initiation (PubMed:9582349, PubMed:17368478, PubMed:25624349). Acts as a repressor of translation initiation (PubMed:22751931). In contrast to EIF4E, it is unable to bind eIF4G (EIF4G1, EIF4G2 or EIF4G3), suggesting that it acts by competing with EIF4E and block assembly of eIF4F at the cap (By similarity). {ECO:0000250|UniProtKB:Q8BMB3, ECO:0000269|PubMed:17368478, ECO:0000269|PubMed:22751931, ECO:0000269|PubMed:25624349, ECO:0000269|PubMed:9582349}.",
+            "structures": [
+                "2JGB",
+                "2JGC",
+                "5NVK",
+                "5NVL",
+                "5NVM",
+                "5NVN",
+                "5XLN"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P16435",
+            "amigoid": "UniProtKB:P16435",
+            "gene": "POR",
+            "mist": "0.710961769",
+            "saint_bfdr": "0",
+            "avg_spec": "3.33",
+            "fold_change": "33.33",
+            "uniprot_protein_id": "NCPR_HUMAN",
+            "uniprot_protein_description": "NADPH--cytochrome P450 reductase (CPR) (P450R) (EC 1.6.2.4)",
+            "uniprot_protein_function": "This enzyme is required for electron transfer from NADP to cytochrome P450 in microsomes. It can also provide electron transfer to heme oxygenase and cytochrome B5. {ECO:0000255|HAMAP-Rule:MF_03212}.",
+            "structures": [
+                "1B1C",
+                "3FJO",
+                "3QE2",
+                "3QFC",
+                "3QFR",
+                "3QFS",
+                "3QFT",
+                "5EMN",
+                "5FA6"
+            ],
+            "uniprot_function_in_disease": "Antley-Bixler syndrome, with genital anomalies and disordered steroidogenesis (ABS1) [MIM:201750]: A disease characterized by the association of Antley-Bixler syndrome with steroidogenesis defects and abnormal genitalia. Antley-Bixler syndrome is characterized by craniosynostosis, radiohumeral synostosis present from the perinatal period, midface hypoplasia, choanal stenosis or atresia, femoral bowing and multiple joint contractures. {ECO:0000269|PubMed:14758361, ECO:0000269|PubMed:15264278, ECO:0000269|PubMed:15483095}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Disordered steroidogenesis due to cytochrome P450 oxidoreductase deficiency (DISPORD) [MIM:613571]: A disorder resulting in a rare variant of congenital adrenal hyperplasia, with apparent combined P450C17 and P450C21 deficiency and accumulation of steroid metabolites. Affected girls are born with ambiguous genitalia, but their circulating androgens are low and virilization does not progress. Conversely, affected boys are sometimes born undermasculinized. Boys and girls can present with bone malformations, in some cases resembling the pattern seen in patients with Antley-Bixler syndrome. {ECO:0000269|PubMed:14758361, ECO:0000269|PubMed:15220035}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P52306",
+            "amigoid": "UniProtKB:P52306",
+            "gene": "RAP1GDS1",
+            "mist": "0.991635744",
+            "saint_bfdr": "0",
+            "avg_spec": "12",
+            "fold_change": "120",
+            "uniprot_protein_id": "GDS1_HUMAN",
+            "uniprot_protein_description": "Rap1 GTPase-GDP dissociation stimulator 1 (Exchange factor smgGDS) (SMG GDS protein) (SMG P21 stimulatory GDP/GTP exchange protein)",
+            "uniprot_protein_function": "Stimulates GDP/GTP exchange reaction of a group of small GTP-binding proteins (G proteins) including Rap1a/Rap1b, RhoA, RhoB and KRas, by stimulating the dissociation of GDP from and the subsequent binding of GTP to each small G protein.",
+            "structures": [
+                "5XGC",
+                "5ZHX"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q2M389",
+            "amigoid": "UniProtKB:Q2M389",
+            "gene": "WASHC4",
+            "mist": "0.972115182",
+            "saint_bfdr": "0",
+            "avg_spec": "3.67",
+            "fold_change": "36.67",
+            "uniprot_protein_id": "WASC4_HUMAN",
+            "uniprot_protein_description": "WASH complex subunit 4 (Strumpellin and WASH-interacting protein) (SWIP) (WASH complex subunit SWIP)",
+            "uniprot_protein_function": "Acts at least in part as component of the WASH core complex whose assembly at the surface of endosomes seems to inhibit WASH nucleation-promoting factor (NPF) activity in recruiting and activating the Arp2/3 complex to induce actin polymerization, and which is involved in the regulation of the fission of tubules that serve as transport intermediates during endosome sorting (PubMed:19922875, PubMed:20498093). {ECO:0000250|UniProtKB:Q3UMB9, ECO:0000303|PubMed:21498477, ECO:0000305|PubMed:19922875, ECO:0000305|PubMed:20498093}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Mental retardation, autosomal recessive 43 (MRT43) [MIM:615817]: A disorder characterized by significantly below average general intellectual functioning associated with impairments in adaptive behavior and manifested during the developmental period. {ECO:0000269|PubMed:21498477}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q5T1M5",
+            "amigoid": "UniProtKB:Q5T1M5",
+            "gene": "FKBP15",
+            "mist": "0.988056696",
+            "saint_bfdr": "0",
+            "avg_spec": "19.67",
+            "fold_change": "196.67",
+            "uniprot_protein_id": "FKB15_HUMAN",
+            "uniprot_protein_description": "FK506-binding protein 15 (FKBP-15) (133 kDa FK506-binding protein) (133 kDa FKBP) (FKBP-133) (WASP- and FKBP-like protein) (WAFL)",
+            "uniprot_protein_function": "May be involved in the cytoskeletal organization of neuronal growth cones. Seems to be inactive as a PPIase (By similarity). Involved in the transport of early endosomes at the level of transition between microfilament-based and microtubule-based movement. {ECO:0000250, ECO:0000269|PubMed:19121306}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q6Y7W6",
+            "amigoid": "UniProtKB:Q6Y7W6",
+            "gene": "GIGYF2",
+            "mist": "0.767224555",
+            "saint_bfdr": "0",
+            "avg_spec": "40.33",
+            "fold_change": "403.33",
+            "uniprot_protein_id": "GGYF2_HUMAN",
+            "uniprot_protein_description": "GRB10-interacting GYF protein 2 (PERQ amino acid-rich with GYF domain-containing protein 2) (Trinucleotide repeat-containing gene 15 protein)",
+            "uniprot_protein_function": "Key component of the 4EHP-GYF2 complex, a multiprotein complex that acts as a repressor of translation initiation (PubMed:22751931). In 4EHP-GYF2 the complex, acts as a factor that bridges EIF4E2 to ZFP36/TTP, linking translation repression with mRNA decay (By similarity). May act cooperatively with GRB10 to regulate tyrosine kinase receptor signaling, including IGF1 and insulin receptors (PubMed:12771153). {ECO:0000250|UniProtKB:Q6Y7W8, ECO:0000269|PubMed:12771153, ECO:0000269|PubMed:22751931}.",
+            "structures": [
+                "5NVL",
+                "5NVM"
+            ],
+            "uniprot_function_in_disease": "Parkinson disease 11 (PARK11) [MIM:607688]: A complex neurodegenerative disorder characterized by bradykinesia, resting tremor, muscular rigidity and postural instability, as well as by a clinically significant response to treatment with levodopa. The pathology involves the loss of dopaminergic neurons in the substantia nigra and the presence of Lewy bodies (intraneuronal accumulations of aggregated proteins), in surviving neurons in various areas of the brain. {ECO:0000269|PubMed:18358451, ECO:0000269|PubMed:20060621, ECO:0000269|PubMed:20178831, ECO:0000269|PubMed:26134514}. Note=Disease susceptibility may be associated with variations affecting the gene represented in this entry. Its association with Parkinson disease is however unclear. According to a number of studies, variations affecting this gene are not a frequent cause of Parkinson disease, suggesting that GIGYF2 does not play a major role in Parkinson disease etiology (PubMed:19279319, PubMed:19429085, PubMed:19638301, PubMed:19482505, PubMed:20004041, PubMed:19321232, PubMed:20060621). {ECO:0000269|PubMed:19279319, ECO:0000269|PubMed:19321232, ECO:0000269|PubMed:19429085, ECO:0000269|PubMed:19482505, ECO:0000269|PubMed:19638301, ECO:0000269|PubMed:20004041, ECO:0000269|PubMed:20060621}."
+        }
+    ],
+    "nsp4 (SARS-CoV2)": [
+        {
+            "id": "P14735",
+            "amigoid": "UniProtKB:P14735",
+            "gene": "IDE",
+            "mist": "0.918031442",
+            "saint_bfdr": "0",
+            "avg_spec": "11.33",
+            "fold_change": "113.33",
+            "uniprot_protein_id": "IDE_HUMAN",
+            "uniprot_protein_description": "Insulin-degrading enzyme (EC 3.4.24.56) (Abeta-degrading protease) (Insulin protease) (Insulinase) (Insulysin)",
+            "uniprot_protein_function": "Plays a role in the cellular breakdown of insulin, APP peptides, IAPP peptides, glucagon, bradykinin, kallidin and other peptides, and thereby plays a role in intercellular peptide signaling (PubMed:2293021, PubMed:10684867, PubMed:26968463, PubMed:17051221, PubMed:17613531, PubMed:18986166, PubMed:19321446, PubMed:23922390, PubMed:24847884, PubMed:26394692, PubMed:29596046). Substrate binding induces important conformation changes, making it possible to bind and degrade larger substrates, such as insulin (PubMed:23922390, PubMed:26394692, PubMed:29596046). Contributes to the regulation of peptide hormone signaling cascades and regulation of blood glucose homeostasis via its role in the degradation of insulin, glucagon and IAPP (By similarity). Plays a role in the degradation and clearance of APP-derived amyloidogenic peptides that are secreted by neurons and microglia (PubMed:9830016, PubMed:26394692) (Probable). Involved in antigen processing. Produces both the N terminus and the C terminus of MAGEA3-derived antigenic peptide (EVDPIGHLY) that is presented to cytotoxic T lymphocytes by MHC class I. {ECO:0000250|UniProtKB:Q9JHR7, ECO:0000269|PubMed:10684867, ECO:0000269|PubMed:17051221, ECO:0000269|PubMed:17613531, ECO:0000269|PubMed:18986166, ECO:0000269|PubMed:19321446, ECO:0000269|PubMed:20364150, ECO:0000269|PubMed:2293021, ECO:0000269|PubMed:23922390, ECO:0000269|PubMed:24847884, ECO:0000269|PubMed:26394692, ECO:0000269|PubMed:26968463, ECO:0000269|PubMed:29596046, ECO:0000269|PubMed:9830016, ECO:0000305|PubMed:23922390}.; FUNCTION: (Microbial infection) The membrane-associated isoform acts as an entry receptor for varicella-zoster virus (VZV). {ECO:0000269|PubMed:17055432, ECO:0000269|PubMed:17553876}.",
+            "structures": [
+                "2G47",
+                "2G48",
+                "2G49",
+                "2G54",
+                "2G56",
+                "2JBU",
+                "2JG4",
+                "2WBY",
+                "2WC0",
+                "2WK3",
+                "2YPU",
+                "3CWW",
+                "3E4A",
+                "3E4Z",
+                "3E50",
+                "3H44",
+                "3HGZ",
+                "3N56",
+                "3N57",
+                "3OFI",
+                "3QZ2",
+                "4DTT",
+                "4DWK",
+                "4GS8",
+                "4GSC",
+                "4GSF",
+                "4IFH",
+                "4IOF",
+                "4LTE",
+                "4M1C",
+                "4NXO",
+                "4PES",
+                "4PF7",
+                "4PF9",
+                "4PFC",
+                "4QIA",
+                "4RAL",
+                "4RE9",
+                "5CJO",
+                "5UOE",
+                "5WOB",
+                "6B3Q",
+                "6B70",
+                "6B7Y",
+                "6B7Z",
+                "6BF6",
+                "6BF7",
+                "6BF8",
+                "6BF9",
+                "6BFC",
+                "6BYZ",
+                "6EDS",
+                "6MQ3"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P62072",
+            "amigoid": "UniProtKB:P62072",
+            "gene": "TIMM10",
+            "mist": "0.961471982",
+            "saint_bfdr": "0",
+            "avg_spec": "5.33",
+            "fold_change": "53.33",
+            "uniprot_protein_id": "TIM10_HUMAN",
+            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim10",
+            "uniprot_protein_function": "Mitochondrial intermembrane chaperone that participates in the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. May also be required for the transfer of beta-barrel precursors from the TOM complex to the sorting and assembly machinery (SAM complex) of the outer membrane. Acts as a chaperone-like protein that protects the hydrophobic precursors from aggregation and guide them through the mitochondrial intermembrane space. {ECO:0000269|PubMed:14726512}.",
+            "structures": [
+                "2BSK"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q2TAA5",
+            "amigoid": "UniProtKB:Q2TAA5",
+            "gene": "ALG11",
+            "mist": "0.72745605",
+            "saint_bfdr": "0",
+            "avg_spec": "7",
+            "fold_change": "70",
+            "uniprot_protein_id": "ALG11_HUMAN",
+            "uniprot_protein_description": "GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase (EC 2.4.1.131) (Asparagine-linked glycosylation protein 11 homolog) (Glycolipid 2-alpha-mannosyltransferase)",
+            "uniprot_protein_function": "Mannosyltransferase involved in the last steps of the synthesis of Man5GlcNAc(2)-PP-dolichol core oligosaccharide on the cytoplasmic face of the endoplasmic reticulum. Catalyzes the addition of the 4th and 5th mannose residues to the dolichol-linked oligosaccharide chain. {ECO:0000269|PubMed:20080937}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Congenital disorder of glycosylation 1P (CDG1P) [MIM:613661]: A form of congenital disorder of glycosylation, a multisystem disorder caused by a defect in glycoprotein biosynthesis and characterized by under-glycosylated serum glycoproteins. Congenital disorders of glycosylation result in a wide variety of clinical features, such as defects in the nervous system development, psychomotor retardation, dysmorphic features, hypotonia, coagulation disorders, and immunodeficiency. The broad spectrum of features reflects the critical role of N-glycoproteins during embryonic development, differentiation, and maintenance of cell functions. {ECO:0000269|PubMed:20080937, ECO:0000269|PubMed:22213132}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q8TEM1",
+            "amigoid": "UniProtKB:Q8TEM1",
+            "gene": "NUP210",
+            "mist": "0.710174697",
+            "saint_bfdr": "0",
+            "avg_spec": "6.33",
+            "fold_change": "63.33",
+            "uniprot_protein_id": "PO210_HUMAN",
+            "uniprot_protein_description": "Nuclear pore membrane glycoprotein 210 (Nuclear pore protein gp210) (Nuclear envelope pore membrane protein POM 210) (POM210) (Nucleoporin Nup210) (Pore membrane protein of 210 kDa)",
+            "uniprot_protein_function": "Nucleoporin essential for nuclear pore assembly and fusion, nuclear pore spacing, as well as structural integrity. {ECO:0000269|PubMed:14517331}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9BSF4",
+            "amigoid": "UniProtKB:Q9BSF4",
+            "gene": "TIMM29",
+            "mist": "0.986980311",
+            "saint_bfdr": "0",
+            "avg_spec": "7.67",
+            "fold_change": "76.67",
+            "uniprot_protein_id": "TIM29_HUMAN",
+            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim29 (TIM29)",
+            "uniprot_protein_function": "Component of the TIM22 complex, a complex that mediates the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. The TIM22 complex forms a twin-pore translocase that uses the membrane potential as the external driving force. Required for the stability of the TIM22 complex and functions in the assembly of the TIMM22 protein into the TIM22 complex. May facilitate cooperation between TIM22 and TOM complexes by interacting with TOMM40. {ECO:0000269|PubMed:27554484, ECO:0000269|PubMed:27718247}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9NVH1",
+            "amigoid": "UniProtKB:Q9NVH1",
+            "gene": "DNAJC11",
+            "mist": "0.726866873",
+            "saint_bfdr": "0",
+            "avg_spec": "11.33",
+            "fold_change": "113.33",
+            "uniprot_protein_id": "DJC11_HUMAN",
+            "uniprot_protein_description": "DnaJ homolog subfamily C member 11",
+            "uniprot_protein_function": "[Isoform 1]: Required for mitochondrial inner membrane organization. Seems to function through its association with the MICOS complex and the mitochondrial outer membrane sorting assembly machinery (SAM) complex. {ECO:0000269|PubMed:25111180, ECO:0000305}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9Y5J6",
+            "amigoid": "UniProtKB:Q9Y5J6",
+            "gene": "TIMM10B",
+            "mist": "0.985104055",
+            "saint_bfdr": "0",
+            "avg_spec": "3",
+            "fold_change": "30",
+            "uniprot_protein_id": "T10B_HUMAN",
+            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim10 B (Fracture callus protein 1) (FxC1) (Mitochondrial import inner membrane translocase subunit Tim9 B) (TIMM10B) (Tim10b)",
+            "uniprot_protein_function": "Component of the TIM22 complex, a complex that mediates the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. The TIM22 complex forms a twin-pore translocase that uses the membrane potential as the external driving force. In the TIM22 complex, it may act as a docking point for the soluble 70 kDa complex that guides the target proteins in transit through the aqueous mitochondrial intermembrane space. {ECO:0000269|PubMed:14726512}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9Y5J7",
+            "amigoid": "UniProtKB:Q9Y5J7",
+            "gene": "TIMM9",
+            "mist": "0.913806284",
+            "saint_bfdr": "0",
+            "avg_spec": "4",
+            "fold_change": "40",
+            "uniprot_protein_id": "TIM9_HUMAN",
+            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim9",
+            "uniprot_protein_function": "Mitochondrial intermembrane chaperone that participates in the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. May also be required for the transfer of beta-barrel precursors from the TOM complex to the sorting and assembly machinery (SAM complex) of the outer membrane. Acts as a chaperone-like protein that protects the hydrophobic precursors from aggregation and guide them through the mitochondrial intermembrane space. {ECO:0000269|PubMed:14726512}.",
+            "structures": [
+                "2BSK"
+            ],
+            "uniprot_function_in_disease": ""
+        }
+    ],
+    "nsp5 (SARS-CoV2)": [
+        {
+            "id": "Q92769",
+            "amigoid": "UniProtKB:Q92769",
+            "gene": "HDAC2",
+            "mist": "0.993708403",
+            "saint_bfdr": "0.01",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "HDAC2_HUMAN",
+            "uniprot_protein_description": "Histone deacetylase 2 (HD2) (EC 3.5.1.98)",
+            "uniprot_protein_function": "Responsible for the deacetylation of lysine residues on the N-terminal part of the core histones (H2A, H2B, H3 and H4). Histone deacetylation gives a tag for epigenetic repression and plays an important role in transcriptional regulation, cell cycle progression and developmental events. Histone deacetylases act via the formation of large multiprotein complexes. Forms transcriptional repressor complexes by associating with MAD, SIN3, YY1 and N-COR. Interacts in the late S-phase of DNA-replication with DNMT1 in the other transcriptional repressor complex composed of DNMT1, DMAP1, PCNA, CAF1. Deacetylates TSHZ3 and regulates its transcriptional repressor activity. Component of a RCOR/GFI/KDM1A/HDAC complex that suppresses, via histone deacetylase (HDAC) recruitment, a number of genes implicated in multilineage blood cell development. May be involved in the transcriptional repression of circadian target genes, such as PER1, mediated by CRY1 through histone deacetylation. Involved in MTA1-mediated transcriptional corepression of TFF1 and CDKN1A. {ECO:0000269|PubMed:19343227, ECO:0000269|PubMed:21965678}.",
+            "structures": [
+                "3MAX",
+                "4LXZ",
+                "4LY1",
+                "5IWG",
+                "5IX0",
+                "6G3O"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P07203",
+            "amigoid": "UniProtKB:P07203",
+            "gene": "GPX1",
+            "mist": "0.97684084",
+            "saint_bfdr": "0",
+            "avg_spec": "15.67",
+            "fold_change": "156.67",
+            "uniprot_protein_id": "GPX1_HUMAN",
+            "uniprot_protein_description": "Glutathione peroxidase 1 (GPx-1) (GSHPx-1) (EC 1.11.1.9) (Cellular glutathione peroxidase)",
+            "uniprot_protein_function": "Protects the hemoglobin in erythrocytes from oxidative breakdown.",
+            "structures": [
+                "2F8A"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9NXH9",
+            "amigoid": "UniProtKB:Q9NXH9",
+            "gene": "TRMT1",
+            "mist": "0.984315505",
+            "saint_bfdr": "0",
+            "avg_spec": "7.67",
+            "fold_change": "76.67",
+            "uniprot_protein_id": "TRM1_HUMAN",
+            "uniprot_protein_description": "tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)",
+            "uniprot_protein_function": "Dimethylates a single guanine residue at position 26 of most tRNAs using S-adenosyl-L-methionine as donor of the methyl groups.",
+            "structures": [],
+            "uniprot_function_in_disease": "Intellectual developmental disorder, autosomal recessive 68 (MRT68) [MIM:618302]: A form of mental retardation, a disorder characterized by significantly below average general intellectual functioning associated with impairments in adaptive behavior and manifested during the developmental period. {ECO:0000269|PubMed:21937992, ECO:0000269|PubMed:26308914, ECO:0000269|PubMed:30289604}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        }        
+    ],
+    "nsp6 (SARS-CoV2)": [
+        {
+            "id": "O75964",
+            "amigoid": "UniProtKB:O75964",
+            "gene": "ATP5MG",
+            "mist": "0.717265558",
+            "saint_bfdr": "0",
+            "avg_spec": "6.67",
+            "fold_change": "66.67",
+            "uniprot_protein_id": "ATP5L_HUMAN",
+            "uniprot_protein_description": "ATP synthase subunit g, mitochondrial (ATPase subunit g) (ATP synthase membrane subunit g)",
+            "uniprot_protein_function": "Mitochondrial membrane ATP synthase (F(1)F(0) ATP synthase or Complex V) produces ATP from ADP in the presence of a proton gradient across the membrane which is generated by electron transport complexes of the respiratory chain. F-type ATPases consist of two structural domains, F(1) - containing the extramembraneous catalytic core, and F(0) - containing the membrane proton channel, linked together by a central stalk and a peripheral stalk. During catalysis, ATP synthesis in the catalytic domain of F(1) is coupled via a rotary mechanism of the central stalk subunits to proton translocation. Part of the complex F(0) domain. Minor subunit located with subunit a in the membrane.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q15904",
+            "amigoid": "UniProtKB:Q15904",
+            "gene": "ATP6AP1",
+            "mist": "0.989106922",
+            "saint_bfdr": "0",
+            "avg_spec": "5",
+            "fold_change": "50",
+            "uniprot_protein_id": "VAS1_HUMAN",
+            "uniprot_protein_description": "V-type proton ATPase subunit S1 (V-ATPase subunit S1) (Protein XAP-3) (V-ATPase Ac45 subunit) (V-ATPase S1 accessory protein) (Vacuolar proton pump subunit S1)",
+            "uniprot_protein_function": "Accessory subunit of the proton-transporting vacuolar (V)-ATPase protein pump, which is required for luminal acidification of secretory vesicles. Guides the V-type ATPase into specialized subcellular compartments, such as neuroendocrine regulated secretory vesicles or the ruffled border of the osteoclast, thereby regulating its activity. Involved in membrane trafficking and Ca(2+)-dependent membrane fusion. May play a role in the assembly of the V-type ATPase complex. In aerobic conditions, involved in intracellular iron homeostasis, thus triggering the activity of Fe(2+) prolyl hydroxylase (PHD) enzymes, and leading to HIF1A hydroxylation and subsequent proteasomal degradation (PubMed:28296633). {ECO:0000269|PubMed:28296633, ECO:0000305|PubMed:27231034}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Immunodeficiency 47 (IMD47) [MIM:300972]: A complex immunodeficiency syndrome characterized by hypogammaglobulinemia, recurrent bacterial infections, defective glycosylation of serum proteins, and liver disease with neonatal jaundice and hepatosplenomegaly. Some patients may also have neurologic features, including seizures, mild intellectual disability, and behavioral abnormalities. Inheritance is X-linked recessive. {ECO:0000269|PubMed:27231034}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q99720",
+            "amigoid": "UniProtKB:Q99720",
+            "gene": "SIGMAR1",
+            "mist": "0.842213253",
+            "saint_bfdr": "0",
+            "avg_spec": "5",
+            "fold_change": "50",
+            "uniprot_protein_id": "SGMR1_HUMAN",
+            "uniprot_protein_description": "Sigma non-opioid intracellular receptor 1 (Aging-associated gene 8 protein) (SR31747-binding protein) (SR-BP) (Sigma 1-type opioid receptor) (SIG-1R) (Sigma1-receptor) (Sigma1R) (hSigmaR1)",
+            "uniprot_protein_function": "Functions in lipid transport from the endoplasmic reticulum and is involved in a wide array of cellular functions probably through regulation of the biogenesis of lipid microdomains at the plasma membrane. Involved in the regulation of different receptors it plays a role in BDNF signaling and EGF signaling. Also regulates ion channels like the potassium channel and could modulate neurotransmitter release. Plays a role in calcium signaling through modulation together with ANK2 of the ITP3R-dependent calcium efflux at the endoplasmic reticulum. Plays a role in several other cell functions including proliferation, survival and death. Originally identified for its ability to bind various psychoactive drugs it is involved in learning processes, memory and mood alteration (PubMed:16472803, PubMed:9341151). Necessary for proper mitochondrial axonal transport in motor neurons, in particular the retrograde movement of mitochondria. Plays a role in protecting cells against oxidative stress-induced cell death via its interaction with RNF112 (By similarity). {ECO:0000250|UniProtKB:O55242, ECO:0000269|PubMed:16472803, ECO:0000269|PubMed:9341151}.",
+            "structures": [
+                "5HK1",
+                "5HK2",
+                "6DJZ",
+                "6DK0",
+                "6DK1"
+            ],
+            "uniprot_function_in_disease": "Amyotrophic lateral sclerosis 16, juvenile (ALS16) [MIM:614373]: A neurodegenerative disorder affecting upper motor neurons in the brain and lower motor neurons in the brain stem and spinal cord, resulting in fatal paralysis. Sensory abnormalities are absent. The pathologic hallmarks of the disease include pallor of the corticospinal tract due to loss of motor neurons, presence of ubiquitin-positive inclusions within surviving motor neurons, and deposition of pathologic aggregates. The etiology of amyotrophic lateral sclerosis is likely to be multifactorial, involving both genetic and environmental factors. The disease is inherited in 5-10% of the cases. {ECO:0000269|PubMed:21842496}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Distal spinal muscular atrophy, autosomal recessive, 2 (DSMA2) [MIM:605726]: An autosomal recessive neuromuscular disorder characterized by onset of distal muscle weakness and wasting affecting the lower and upper limbs in the first decade. There is no sensory involvement. {ECO:0000269|PubMed:26078401, ECO:0000269|PubMed:27629094}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q9H7F0",
+            "amigoid": "UniProtKB:Q9H7F0",
+            "gene": "ATP13A3",
+            "mist": "0.805525853",
+            "saint_bfdr": "0",
+            "avg_spec": "5.67",
+            "fold_change": "56.67",
+            "uniprot_protein_id": "AT133_HUMAN",
+            "uniprot_protein_description": "Probable cation-transporting ATPase 13A3 (EC 7.2.2.-) (ATPase family homolog up-regulated in senescence cells 1)",
+            "uniprot_protein_function": "",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        }
+    ],
+    "nsp7 (SARS-CoV2)": [
+        {
+            "id": "O00116",
+            "amigoid": "UniProtKB:O00116",
+            "gene": "AGPS",
+            "mist": "0.826490325",
+            "saint_bfdr": "0",
+            "avg_spec": "7.67",
+            "fold_change": "76.67",
+            "uniprot_protein_id": "ADAS_HUMAN",
+            "uniprot_protein_description": "Alkyldihydroxyacetonephosphate synthase, peroxisomal (Alkyl-DHAP synthase) (EC 2.5.1.26) (Aging-associated gene 5 protein) (Alkylglycerone-phosphate synthase)",
+            "uniprot_protein_function": "Catalyzes the exchange of the acyl chain in acyl-dihydroxyacetonephosphate (acyl-DHAP) for a long chain fatty alcohol, yielding the first ether linked intermediate, i.e. alkyl-dihydroxyacetonephosphate (alkyl-DHAP), in the pathway of ether lipid biosynthesis. {ECO:0000269|PubMed:8399344, ECO:0000269|PubMed:9553082}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Rhizomelic chondrodysplasia punctata 3 (RCDP3) [MIM:600121]: A form of rhizomelic chondrodysplasia punctata, a disease characterized by severely disturbed endochondral bone formation, rhizomelic shortening of femur and humerus, vertebral disorders, dwarfism, cataract, cutaneous lesions, facial dysmorphism, and severe mental retardation with spasticity. {ECO:0000269|PubMed:11152660, ECO:0000269|PubMed:21990100, ECO:0000269|PubMed:9553082}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "O43169",
+            "amigoid": "UniProtKB:O43169",
+            "gene": "CYB5B",
+            "mist": "0.80351019",
+            "saint_bfdr": "0",
+            "avg_spec": "3.33",
+            "fold_change": "33.33",
+            "uniprot_protein_id": "CYB5B_HUMAN",
+            "uniprot_protein_description": "Cytochrome b5 type B (Cytochrome b5 outer mitochondrial membrane isoform)",
+            "uniprot_protein_function": "Cytochrome b5 is a membrane-bound hemoprotein functioning as an electron carrier for several membrane-bound oxygenases. {ECO:0000250}.",
+            "structures": [
+                "3NER"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "O95573",
+            "amigoid": "UniProtKB:O95573",
+            "gene": "ACSL3",
+            "mist": "0.897068932",
+            "saint_bfdr": "0",
+            "avg_spec": "4.33",
+            "fold_change": "43.33",
+            "uniprot_protein_id": "ACSL3_HUMAN",
+            "uniprot_protein_description": "Long-chain-fatty-acid--CoA ligase 3 (EC 6.2.1.3) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain acyl-CoA synthetase 3) (LACS 3)",
+            "uniprot_protein_function": "Acyl-CoA synthetases (ACSL) activates long-chain fatty acids for both synthesis of cellular lipids, and degradation via beta-oxidation (PubMed:22633490). Required for the incorporation of fatty acids into phosphatidylcholine, the major phospholipid located on the surface of VLDL (very low density lipoproteins) (PubMed:18003621). Has mainly an anabolic role in energy metabolism. Mediates hepatic lipogenesis. Preferentially uses myristate, laurate, arachidonate and eicosapentaenoate as substrates. Both isoforms exhibit the same level of activity (By similarity). {ECO:0000250|UniProtKB:Q63151, ECO:0000269|PubMed:18003621, ECO:0000269|PubMed:22633490}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P00387",
+            "amigoid": "UniProtKB:P00387",
+            "gene": "CYB5R3",
+            "mist": "0.956349351",
+            "saint_bfdr": "0",
+            "avg_spec": "7.33",
+            "fold_change": "73.33",
+            "uniprot_protein_id": "NB5R3_HUMAN",
+            "uniprot_protein_description": "NADH-cytochrome b5 reductase 3 (B5R) (Cytochrome b5 reductase) (EC 1.6.2.2) (Diaphorase-1) [Cleaved into: NADH-cytochrome b5 reductase 3 membrane-bound form; NADH-cytochrome b5 reductase 3 soluble form]",
+            "uniprot_protein_function": "Desaturation and elongation of fatty acids, cholesterol biosynthesis, drug metabolism, and, in erythrocyte, methemoglobin reduction.",
+            "structures": [
+                "1M91",
+                "1UMK"
+            ],
+            "uniprot_function_in_disease": "Methemoglobinemia CYB5R3-related (METHB-CYB5R3) [MIM:250800]: A form of methemoglobinemia, a hematologic disease characterized by the presence of excessive amounts of methemoglobin in blood cells, resulting in decreased oxygen carrying capacity of the blood, cyanosis and hypoxia. There are two types of methemoglobinemia CYB5R3-related. In type 1, the defect affects the soluble form of the enzyme, is restricted to red blood cells, and causes well-tolerated methemoglobinemia. In type 2, the defect affects both the soluble and microsomal forms of the enzyme and is thus generalized, affecting red cells, leukocytes and all body tissues. Type 2 methemoglobinemia is associated with mental deficiency and other neurologic symptoms. {ECO:0000269|PubMed:10807796, ECO:0000269|PubMed:12393396, ECO:0000269|PubMed:1400360, ECO:0000269|PubMed:15622768, ECO:0000269|PubMed:15953014, ECO:0000269|PubMed:1707593, ECO:0000269|PubMed:1898726, ECO:0000269|PubMed:7718898, ECO:0000269|PubMed:8119939, ECO:0000269|PubMed:9695975, ECO:0000269|PubMed:9886302}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P11233",
+            "amigoid": "UniProtKB:P11233",
+            "gene": "RALA",
+            "mist": "0.750366485",
+            "saint_bfdr": "0",
+            "avg_spec": "2.33",
+            "fold_change": "23.33",
+            "uniprot_protein_id": "RALA_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Ral-A",
+            "uniprot_protein_function": "Multifunctional GTPase involved in a variety of cellular processes including gene expression, cell migration, cell proliferation, oncogenic transformation and membrane trafficking. Accomplishes its multiple functions by interacting with distinct downstream effectors. Acts as a GTP sensor for GTP-dependent exocytosis of dense core vesicles. The RALA-exocyst complex regulates integrin-dependent membrane raft exocytosis and growth signaling (PubMed:20005108). Key regulator of LPAR1 signaling and competes with GRK2 for binding to LPAR1 thus affecting the signaling properties of the receptor. Required for anchorage-independent proliferation of transformed cells (PubMed:19306925). During mitosis, supports the stabilization and elongation of the intracellular bridge between dividing cells. Cooperates with EXOC2 to recruit other components of the exocyst to the early midbody (PubMed:18756269). {ECO:0000269|PubMed:18756269, ECO:0000269|PubMed:19306925, ECO:0000269|PubMed:20005108}.",
+            "structures": [
+                "1UAD",
+                "1ZC3",
+                "1ZC4",
+                "2A78",
+                "2A9K",
+                "2BOV"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P21964",
+            "amigoid": "UniProtKB:P21964",
+            "gene": "COMT",
+            "mist": "0.745231765",
+            "saint_bfdr": "0.04",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "COMT_HUMAN",
+            "uniprot_protein_description": "Catechol O-methyltransferase (EC 2.1.1.6)",
+            "uniprot_protein_function": "Catalyzes the O-methylation, and thereby the inactivation, of catecholamine neurotransmitters and catechol hormones. Also shortens the biological half-lives of certain neuroactive drugs, like L-DOPA, alpha-methyl DOPA and isoproterenol. {ECO:0000269|PubMed:21846718}.",
+            "structures": [
+                "3A7E",
+                "3BWM",
+                "3BWY",
+                "4PYI",
+                "4PYJ",
+                "4PYK",
+                "4XUC",
+                "4XUD",
+                "4XUE",
+                "5LSA",
+                "6I3C",
+                "6I3D"
+            ],
+            "uniprot_function_in_disease": "Schizophrenia (SCZD) [MIM:181500]: A complex, multifactorial psychotic disorder or group of disorders characterized by disturbances in the form and content of thought (e.g. delusions, hallucinations), in mood (e.g. inappropriate affect), in sense of self and relationship to the external world (e.g. loss of ego boundaries, withdrawal), and in behavior (e.g bizarre or apparently purposeless behavior). Although it affects emotions, it is distinguished from mood disorders in which such disturbances are primary. Similarly, there may be mild impairment of cognitive function, and it is distinguished from the dementias in which disturbed cognitive function is considered primary. Some patients manifest schizophrenic as well as bipolar disorder symptoms and are often given the diagnosis of schizoaffective disorder. {ECO:0000269|PubMed:15645182}. Note=Disease susceptibility may be associated with variations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P51148",
+            "amigoid": "UniProtKB:P51148",
+            "gene": "RAB5C",
+            "mist": "0.87908593",
+            "saint_bfdr": "0",
+            "avg_spec": "8",
+            "fold_change": "80",
+            "uniprot_protein_id": "RAB5C_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-5C (L1880) (RAB5L)",
+            "uniprot_protein_function": "Protein transport. Probably involved in vesicular traffic (By similarity). {ECO:0000250}.",
+            "structures": [
+                "4KYI"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P51149",
+            "amigoid": "UniProtKB:P51149",
+            "gene": "RAB7A",
+            "mist": "0.972724229",
+            "saint_bfdr": "0",
+            "avg_spec": "10.67",
+            "fold_change": "106.67",
+            "uniprot_protein_id": "RAB7A_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-7a",
+            "uniprot_protein_function": "Key regulator in endo-lysosomal trafficking. Governs early-to-late endosomal maturation, microtubule minus-end as well as plus-end directed endosomal migration and positioning, and endosome-lysosome transport through different protein-protein interaction cascades. Plays a central role, not only in endosomal traffic, but also in many other cellular and physiological events, such as growth-factor-mediated cell signaling, nutrient-transportor mediated nutrient uptake, neurotrophin transport in the axons of neurons and lipid metabolism. Also involved in regulation of some specialized endosomal membrane trafficking, such as maturation of melanosomes, pathogen-induced phagosomes (or vacuoles) and autophagosomes. Plays a role in the maturation and acidification of phagosomes that engulf pathogens, such as S.aureus and M.tuberculosis. Plays a role in the fusion of phagosomes with lysosomes. Plays important roles in microbial pathogen infection and survival, as well as in participating in the life cycle of viruses. Microbial pathogens possess survival strategies governed by RAB7A, sometimes by employing RAB7A function (e.g. Salmonella) and sometimes by excluding RAB7A function (e.g. Mycobacterium). In concert with RAC1, plays a role in regulating the formation of RBs (ruffled borders) in osteoclasts. Controls the endosomal trafficking and neurite outgrowth signaling of NTRK1/TRKA (PubMed:11179213, PubMed:12944476, PubMed:14617358, PubMed:20028791, PubMed:21255211). Regulates the endocytic trafficking of the EGF-EGFR complex by regulating its lysosomal degradation. Involved in the ADRB2-stimulated lipolysis through lipophagy, a cytosolic lipase-independent autophagic pathway (By similarity). Required for the exosomal release of SDCBP, CD63 and syndecan (PubMed:22660413). {ECO:0000250|UniProtKB:P51150, ECO:0000269|PubMed:11179213, ECO:0000269|PubMed:12944476, ECO:0000269|PubMed:14617358, ECO:0000269|PubMed:20028791, ECO:0000269|PubMed:22660413}.",
+            "structures": [
+                "1T91",
+                "1YHN",
+                "3LAW",
+                "6IYB"
+            ],
+            "uniprot_function_in_disease": "Charcot-Marie-Tooth disease 2B (CMT2B) [MIM:600882]: A dominant axonal form of Charcot-Marie-Tooth disease, a disorder of the peripheral nervous system, characterized by progressive weakness and atrophy, initially of the peroneal muscles and later of the distal muscles of the arms. Charcot-Marie-Tooth disease is classified in two main groups on the basis of electrophysiologic properties and histopathology: primary peripheral demyelinating neuropathies (designated CMT1 when they are dominantly inherited) and primary peripheral axonal neuropathies (CMT2). Neuropathies of the CMT2 group are characterized by signs of axonal degeneration in the absence of obvious myelin alterations, normal or slightly reduced nerve conduction velocities, and progressive distal muscle weakness and atrophy. {ECO:0000269|PubMed:12545426, ECO:0000269|PubMed:15455439, ECO:0000269|PubMed:17060578, ECO:0000269|PubMed:20028791, ECO:0000269|PubMed:21151572}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P61006",
+            "amigoid": "UniProtKB:P61006",
+            "gene": "RAB8A",
+            "mist": "0.895744596",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2.33",
+            "fold_change": "23.33",
+            "uniprot_protein_id": "RAB8A_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-8A (Oncogene c-mel)",
+            "uniprot_protein_function": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes. Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different sets of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion. That Rab is involved in polarized vesicular trafficking and neurotransmitter release. Together with RAB11A, RAB3IP, the exocyst complex, PARD3, PRKCI, ANXA2, CDC42 and DNMBP promotes transcytosis of PODXL to the apical membrane initiation sites (AMIS), apical surface formation and lumenogenesis (PubMed:20890297). Together with MYO5B and RAB11A participates in epithelial cell polarization (PubMed:21282656). May be involved in ciliogenesis (PubMed:21844891, PubMed:30398148). Together with MICALL2, may also regulate adherens junction assembly (By similarity). May play a role in insulin-induced transport to the plasma membrane of the glucose transporter GLUT4 and therefore play a role in glucose homeostasis (By similarity). Involved in autophagy (PubMed:27103069). {ECO:0000250|UniProtKB:P35280, ECO:0000250|UniProtKB:P55258, ECO:0000269|PubMed:20890297, ECO:0000269|PubMed:21282656, ECO:0000269|PubMed:21844891, ECO:0000269|PubMed:27103069, ECO:0000269|PubMed:30398148}.",
+            "structures": [
+                "3QBT",
+                "3TNF",
+                "4LHV",
+                "4LHW",
+                "4LHX",
+                "4LHY",
+                "4LHZ",
+                "4LI0",
+                "5SZI"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P61019",
+            "amigoid": "UniProtKB:P61019",
+            "gene": "RAB2A",
+            "mist": "0.97919572",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "RAB2A_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-2A",
+            "uniprot_protein_function": "Required for protein transport from the endoplasmic reticulum to the Golgi complex.",
+            "structures": [
+                "1Z0A"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P61026",
+            "amigoid": "UniProtKB:P61026",
+            "gene": "RAB10",
+            "mist": "0.981443071",
+            "saint_bfdr": "0",
+            "avg_spec": "3",
+            "fold_change": "30",
+            "uniprot_protein_id": "RAB10_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-10",
+            "uniprot_protein_function": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes (PubMed:21248164). Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different set of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion (PubMed:21248164). That Rab is mainly involved in the biosynthetic transport of proteins from the Golgi to the plasma membrane (PubMed:21248164). Regulates, for instance, SLC2A4/GLUT4 glucose transporter-enriched vesicles delivery to the plasma membrane (By similarity). In parallel, it regulates the transport of TLR4, a toll-like receptor to the plasma membrane and therefore may be important for innate immune response (By similarity). Plays also a specific role in asymmetric protein transport to the plasma membrane (PubMed:16641372). In neurons, it is involved in axonogenesis through regulation of vesicular membrane trafficking toward the axonal plasma membrane (By similarity). In epithelial cells, it regulates transport from the Golgi to the basolateral membrane (PubMed:16641372). May play a role in the basolateral recycling pathway and in phagosome maturation (By similarity). May play a role in endoplasmic reticulum dynamics and morphology controlling tubulation along microtubules and tubules fusion (PubMed:23263280). Together with LRRK2, RAB8A, and RILPL1, it regulates ciliogenesis (PubMed:30398148). When phosphorylated by LRRK2 on Thr-73, binds RILPL1 and inhibits ciliogenesis (PubMed:30398148). {ECO:0000250|UniProtKB:P24409, ECO:0000250|UniProtKB:P61027, ECO:0000269|PubMed:16641372, ECO:0000269|PubMed:21248164, ECO:0000269|PubMed:23263280, ECO:0000269|PubMed:30398148}.",
+            "structures": [
+                "5LPN",
+                "5SZJ"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P61106",
+            "amigoid": "UniProtKB:P61106",
+            "gene": "RAB14",
+            "mist": "0.750712826",
+            "saint_bfdr": "0",
+            "avg_spec": "6.67",
+            "fold_change": "66.67",
+            "uniprot_protein_id": "RAB14_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-14",
+            "uniprot_protein_function": "Involved in membrane trafficking between the Golgi complex and endosomes during early embryonic development. Regulates the Golgi to endosome transport of FGFR-containing vesicles during early development, a key process for developing basement membrane and epiblast and primitive endoderm lineages during early postimplantation development. May act by modulating the kinesin KIF16B-cargo association to endosomes (By similarity). Regulates, together with its guanine nucleotide exchange factor DENND6A, the specific endocytic transport of ADAM10, N-cadherin/CDH2 shedding and cell-cell adhesion. {ECO:0000250, ECO:0000269|PubMed:22595670}.",
+            "structures": [
+                "1Z0F",
+                "4D0G",
+                "4DRZ"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P61586",
+            "amigoid": "UniProtKB:P61586",
+            "gene": "RHOA",
+            "mist": "0.829029399",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "RHOA_HUMAN",
+            "uniprot_protein_description": "Transforming protein RhoA (EC 3.6.5.2) (Rho cDNA clone 12) (h12)",
+            "uniprot_protein_function": "Small GTPase which cycles between an active GTP-bound and an inactive GDP-bound state. Mainly associated with cytoskeleton organization, in active state binds to a variety of effector proteins to regulate cellular responses such cytoskeletal dynamics, cell migration and cell cycle. Regulates a signal transduction pathway linking plasma membrane receptors to the assembly of focal adhesions and actin stress fibers (PubMed:8910519, PubMed:9121475). Involved in a microtubule-dependent signal that is required for the myosin contractile ring formation during cell cycle cytokinesis (PubMed:16236794, PubMed:12900402). Plays an essential role in cleavage furrow formation. Required for the apical junction formation of keratinocyte cell-cell adhesion (PubMed:20974804, PubMed:23940119). Essential for the SPATA13-mediated regulation of cell migration and adhesion assembly and disassembly (PubMed:19934221). The MEMO1-RHOA-DIAPH1 signaling pathway plays an important role in ERBB2-dependent stabilization of microtubules at the cell cortex. It controls the localization of APC and CLASP2 to the cell membrane, via the regulation of GSK3B activity. In turn, membrane-bound APC allows the localization of the MACF1 to the cell membrane, which is required for microtubule capture and stabilization (PubMed:20937854). Regulates KCNA2 potassium channel activity by reducing its location at the cell surface in response to CHRM1 activation; promotes KCNA2 endocytosis (PubMed:9635436, PubMed:19403695). May be an activator of PLCE1 (PubMed:16103226). In neurons, involved in the inhibiton of the initial spine growth. Upon activation by CaMKII, modulates dendritic spine structural plasticity by relaying CaMKII transient activation to synapse-specific, long-term signaling (By similarity). {ECO:0000250|UniProtKB:P61589, ECO:0000269|PubMed:12900402, ECO:0000269|PubMed:16103226, ECO:0000269|PubMed:16236794, ECO:0000269|PubMed:19403695, ECO:0000269|PubMed:19934221, ECO:0000269|PubMed:20937854, ECO:0000269|PubMed:20974804, ECO:0000269|PubMed:23940119, ECO:0000269|PubMed:8910519, ECO:0000269|PubMed:9121475, ECO:0000269|PubMed:9635436}.; FUNCTION: (Microbial infection) Serves as a target for the yopT cysteine peptidase from Yersinia pestis, vector of the plague. {ECO:0000269|PubMed:12062101, ECO:0000269|PubMed:12538863}.",
+            "structures": [
+                "1A2B",
+                "1CC0",
+                "1CXZ",
+                "1DPF",
+                "1FTN",
+                "1KMQ",
+                "1LB1",
+                "1OW3",
+                "1S1C",
+                "1TX4",
+                "1X86",
+                "1XCG",
+                "2RGN",
+                "3KZ1",
+                "3LW8",
+                "3LWN",
+                "3LXR",
+                "3MSX",
+                "3T06",
+                "4D0N",
+                "4XH9",
+                "4XOI",
+                "4XSG",
+                "4XSH",
+                "5A0F",
+                "5BWM",
+                "5C2K",
+                "5C4M",
+                "5EZ6",
+                "5FR1",
+                "5FR2",
+                "5HPY",
+                "5IRC",
+                "5JCP",
+                "5JHG",
+                "5JHH",
+                "5M6X",
+                "5M70",
+                "5ZHX",
+                "6BC0",
+                "6BCA",
+                "6BCB",
+                "6R3V"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P62820",
+            "amigoid": "UniProtKB:P62820",
+            "gene": "RAB1A",
+            "mist": "0.935289593",
+            "saint_bfdr": "0",
+            "avg_spec": "4",
+            "fold_change": "40",
+            "uniprot_protein_id": "RAB1A_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-1A (YPT1-related protein)",
+            "uniprot_protein_function": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes. Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different sets of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion. RAB1A regulates vesicular protein transport from the endoplasmic reticulum (ER) to the Golgi compartment and on to the cell surface, and plays a role in IL-8 and growth hormone secretion. Regulates the level of CASR present at the cell membrane. Plays a role in cell adhesion and cell migration, via its role in protein trafficking. Plays a role in autophagosome assembly and cellular defense reactions against pathogenic bacteria. Plays a role in microtubule-dependent protein transport by early endosomes and in anterograde melanosome transport. {ECO:0000269|PubMed:20639577, ECO:0000269|PubMed:20861236, ECO:0000269|PubMed:21303926, ECO:0000269|PubMed:22939626}.",
+            "structures": [
+                "2FOL",
+                "2WWX",
+                "3L0I",
+                "3SFV",
+                "3TKL",
+                "4FMB",
+                "4FMC",
+                "4FMD",
+                "4FME",
+                "4IRU",
+                "4JVS"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P62873",
+            "amigoid": "UniProtKB:P62873",
+            "gene": "GNB1",
+            "mist": "0.839532136",
+            "saint_bfdr": "0",
+            "avg_spec": "2.67",
+            "fold_change": "26.67",
+            "uniprot_protein_id": "GBB1_HUMAN",
+            "uniprot_protein_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 (Transducin beta chain 1)",
+            "uniprot_protein_function": "Guanine nucleotide-binding proteins (G proteins) are involved as a modulator or transducer in various transmembrane signaling systems. The beta and gamma chains are required for the GTPase activity, for replacement of GDP by GTP, and for G protein-effector interaction.",
+            "structures": [
+                "4KFM",
+                "4PNK",
+                "5HE0",
+                "5HE1",
+                "5HE2",
+                "5HE3",
+                "5UKK",
+                "5UKL",
+                "5UKM",
+                "5UZ7",
+                "6B3J",
+                "6CRK",
+                "6D9H",
+                "6DDE",
+                "6DDF",
+                "6E3Y",
+                "6EG8",
+                "6G79",
+                "6GDG",
+                "6M8S",
+                "6N4B",
+                "6NI3",
+                "6NIY",
+                "6OIJ",
+                "6OIK",
+                "6OS9",
+                "6OSA",
+                "6OT0"
+            ],
+            "uniprot_function_in_disease": "Mental retardation, autosomal dominant 42 (MRD42) [MIM:616973]: A form of mental retardation, a disorder characterized by significantly below average general intellectual functioning associated with impairments in adaptive behavior and manifested during the developmental period. MRD42 patients manifest global developmental delay commonly accompanied by hypotonia, seizures of various types, ophthalmological manifestations, and poor growth. {ECO:0000269|PubMed:25485910, ECO:0000269|PubMed:27108799, ECO:0000269|PubMed:27668284, ECO:0000269|PubMed:28087732}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P63218",
+            "amigoid": "UniProtKB:P63218",
+            "gene": "GNG5",
+            "mist": "0.817631566",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "GBG5_HUMAN",
+            "uniprot_protein_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5",
+            "uniprot_protein_function": "Guanine nucleotide-binding proteins (G proteins) are involved as a modulator or transducer in various transmembrane signaling systems. The beta and gamma chains are required for the GTPase activity, for replacement of GDP by GTP, and for G protein-effector interaction.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q12907",
+            "amigoid": "UniProtKB:Q12907",
+            "gene": "LMAN2",
+            "mist": "0.725773983",
+            "saint_bfdr": "0",
+            "avg_spec": "7",
+            "fold_change": "70",
+            "uniprot_protein_id": "LMAN2_HUMAN",
+            "uniprot_protein_description": "Vesicular integral-membrane protein VIP36 (Glycoprotein GP36b) (Lectin mannose-binding 2) (Vesicular integral-membrane protein 36) (VIP36)",
+            "uniprot_protein_function": "Plays a role as an intracellular lectin in the early secretory pathway. Interacts with N-acetyl-D-galactosamine and high-mannose type glycans and may also bind to O-linked glycans. Involved in the transport and sorting of glycoproteins carrying high mannose-type glycans (By similarity). {ECO:0000250}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q13724",
+            "amigoid": "UniProtKB:Q13724",
+            "gene": "MOGS",
+            "mist": "0.782330987",
+            "saint_bfdr": "0",
+            "avg_spec": "27.67",
+            "fold_change": "276.67",
+            "uniprot_protein_id": "MOGS_HUMAN",
+            "uniprot_protein_description": "Mannosyl-oligosaccharide glucosidase (EC 3.2.1.106) (Processing A-glucosidase I)",
+            "uniprot_protein_function": "Cleaves the distal alpha 1,2-linked glucose residue from the Glc(3)Man(9)GlcNAc(2) oligosaccharide precursor in a highly specific manner.",
+            "structures": [],
+            "uniprot_function_in_disease": "Type IIb congenital disorder of glycosylation (CDGIIb) [MIM:606056]: Characterized by marked generalized hypotonia and hypomotility of the neonate, dysmorphic features, including a prominent occiput, short palpebral fissures, retrognathia, high arched palate, generalized edema, and hypoplastic genitalia. Symptoms of the infant included hepatomegaly, hypoventilation, feeding problems and seizures. The clinical course was progressive and the infant did not survive more than a few months. {ECO:0000269|PubMed:10788335}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q5JTV8",
+            "amigoid": "UniProtKB:Q5JTV8",
+            "gene": "TOR1AIP1",
+            "mist": "0.74516805",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "TOIP1_HUMAN",
+            "uniprot_protein_description": "Torsin-1A-interacting protein 1 (Lamin-associated protein 1B) (LAP1B)",
+            "uniprot_protein_function": "Required for nuclear membrane integrity. Induces TOR1A and TOR1B ATPase activity and is required for their location on the nuclear membrane. Binds to A- and B-type lamins. Possible role in membrane attachment and assembly of the nuclear lamina. {ECO:0000269|PubMed:23569223}.",
+            "structures": [
+                "4TVS"
+            ],
+            "uniprot_function_in_disease": "Myopathy, autosomal recessive, with rigid spine and distal joint contractures (MRRSDC) [MIM:617072]: An autosomal recessive degenerative myopathy characterized by muscle weakness initially involving the proximal lower limbs, followed by distal upper and lower limb muscle weakness and atrophy. Other features include joint contractures, rigid spine, and restricted pulmonary function. Cardiac involvement has been observed in some patients. Disease onset is in the first or second decades of life. {ECO:0000269|PubMed:24856141}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q5VT66",
+            "amigoid": "UniProtKB:Q5VT66",
+            "gene": "MTARC1",
+            "mist": "0.939721024",
+            "saint_bfdr": "0",
+            "avg_spec": "6.33",
+            "fold_change": "63.33",
+            "uniprot_protein_id": "MARC1_HUMAN",
+            "uniprot_protein_description": "Mitochondrial amidoxime-reducing component 1 (mARC1) (EC 1.7.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 1) (MOSC domain-containing protein 1) (Moco sulfurase C-terminal domain-containing protein 1)",
+            "uniprot_protein_function": "Catalyzes the reduction of N-oxygenated molecules, acting as a counterpart of cytochrome P450 and flavin-containing monooxygenases in metabolic cycles (PubMed:19053771, PubMed:21029045, PubMed:30397129). As a component of prodrug-converting system, reduces a multitude of N-hydroxylated prodrugs particularly amidoximes, leading to increased drug bioavailability (PubMed:19053771). May be involved in mitochondrial N(omega)-hydroxy-L-arginine (NOHA) reduction, regulating endogenous nitric oxide levels and biosynthesis (PubMed:21029045). Postulated to cleave the N-OH bond of N-hydroxylated substrates in concert with electron transfer from NADH to cytochrome b5 reductase then to cytochrome b5, the ultimate electron donor that primes the active site for substrate reduction (PubMed:21029045, PubMed:19053771). {ECO:0000269|PubMed:19053771, ECO:0000269|PubMed:21029045, ECO:0000269|PubMed:30397129}.",
+            "structures": [
+                "6FW2"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q6ZRP7",
+            "amigoid": "UniProtKB:Q6ZRP7",
+            "gene": "QSOX2",
+            "mist": "0.794325146",
+            "saint_bfdr": "0.03",
+            "avg_spec": "4.33",
+            "fold_change": "43.33",
+            "uniprot_protein_id": "QSOX2_HUMAN",
+            "uniprot_protein_description": "Sulfhydryl oxidase 2 (EC 1.8.3.2) (Neuroblastoma-derived sulfhydryl oxidase) (Quiescin Q6-like protein 1)",
+            "uniprot_protein_function": "Catalyzes the oxidation of sulfhydryl groups in peptide and protein thiols to disulfides with the reduction of oxygen to hydrogen peroxide. May contribute to disulfide bond formation in a variety of secreted proteins. Also seems to play a role in regulating the sensitization of neuroblastoma cells for interferon-gamma-induced apoptosis. {ECO:0000269|PubMed:14633699}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q7LGA3",
+            "amigoid": "UniProtKB:Q7LGA3",
+            "gene": "HS2ST1",
+            "mist": "0.706466834",
+            "saint_bfdr": "0",
+            "avg_spec": "5",
+            "fold_change": "50",
+            "uniprot_protein_id": "HS2ST_HUMAN",
+            "uniprot_protein_description": "Heparan sulfate 2-O-sulfotransferase 1 (2-O-sulfotransferase) (2OST) (EC 2.8.2.-)",
+            "uniprot_protein_function": "Catalyzes the transfer of sulfate to the C2-position of selected hexuronic acid residues within the maturing heparan sulfate (HS). 2-O-sulfation within HS, particularly of iduronate residues, is essential for HS to participate in a variety of high-affinity ligand-binding interactions and signaling processes. Mediates 2-O-sulfation of both L-iduronyl and D-glucuronyl residues (By similarity). {ECO:0000250}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q8N183",
+            "amigoid": "UniProtKB:Q8N183",
+            "gene": "NDUFAF2",
+            "mist": "0.981444858",
+            "saint_bfdr": "0",
+            "avg_spec": "3",
+            "fold_change": "30",
+            "uniprot_protein_id": "NDUF2_HUMAN",
+            "uniprot_protein_description": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 2 (B17.2-like) (B17.2L) (Mimitin) (Myc-induced mitochondrial protein) (MMTN) (NDUFA12-like protein)",
+            "uniprot_protein_function": "Acts as a molecular chaperone for mitochondrial complex I assembly (PubMed:16200211, PubMed:19384974). Complex I functions in the transfer of electrons from NADH to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone (PubMed:16200211, PubMed:27626371). {ECO:0000269|PubMed:16200211, ECO:0000269|PubMed:19384974, ECO:0000269|PubMed:27626371}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Mitochondrial complex I deficiency, nuclear type 10 (MC1DN10) [MIM:618233]: A form of mitochondrial complex I deficiency, the most common biochemical signature of mitochondrial disorders, a group of highly heterogeneous conditions characterized by defective oxidative phosphorylation, which collectively affects 1 in 5-10000 live births. Clinical disorders have variable severity, ranging from lethal neonatal disease to adult-onset neurodegenerative disorders. Phenotypes include macrocephaly with progressive leukodystrophy, non-specific encephalopathy, cardiomyopathy, myopathy, liver disease, Leigh syndrome, Leber hereditary optic neuropathy, and some forms of Parkinson disease. MC1DN10 transmission pattern is consistent with autosomal recessive inheritance. {ECO:0000269|PubMed:16200211, ECO:0000269|PubMed:18180188, ECO:0000269|PubMed:19384974, ECO:0000269|PubMed:20571988}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q8NBX0",
+            "amigoid": "UniProtKB:Q8NBX0",
+            "gene": "SCCPDH",
+            "mist": "0.978675119",
+            "saint_bfdr": "0",
+            "avg_spec": "2.33",
+            "fold_change": "23.33",
+            "uniprot_protein_id": "SCPDL_HUMAN",
+            "uniprot_protein_description": "Saccharopine dehydrogenase-like oxidoreductase (EC 1.-.-.-)",
+            "uniprot_protein_function": "",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q8WTV0",
+            "amigoid": "UniProtKB:Q8WTV0",
+            "gene": "SCARB1",
+            "mist": "0.854406247",
+            "saint_bfdr": "0.03",
+            "avg_spec": "2.67",
+            "fold_change": "26.67",
+            "uniprot_protein_id": "SCRB1_HUMAN",
+            "uniprot_protein_description": "Scavenger receptor class B member 1 (SRB1) (CD36 and LIMPII analogous 1) (CLA-1) (CD36 antigen-like 1) (Collagen type I receptor, thrombospondin receptor-like 1) (SR-BI) (CD antigen CD36)",
+            "uniprot_protein_function": "Receptor for different ligands such as phospholipids, cholesterol ester, lipoproteins, phosphatidylserine and apoptotic cells (PubMed:12016218, PubMed:12519372, PubMed:21226579). Receptor for HDL, mediating selective uptake of cholesteryl ether and HDL-dependent cholesterol efflux (PubMed:26965621). Also facilitates the flux of free and esterified cholesterol between the cell surface and apoB-containing lipoproteins and modified lipoproteins, although less efficiently than HDL. May be involved in the phagocytosis of apoptotic cells, via its phosphatidylserine binding activity (PubMed:12016218). {ECO:0000269|PubMed:12016218, ECO:0000269|PubMed:12519372, ECO:0000269|PubMed:16020694, ECO:0000269|PubMed:21226579, ECO:0000269|PubMed:26965621}.; FUNCTION: (Microbial infection) Acts as a receptor for hepatitis C virus in hepatocytes and appears to facilitate its cell entry (PubMed:12356718, PubMed:12913001, PubMed:18000990). Binding between SCARB1 and the hepatitis C virus glycoprotein E2 is independent of the genotype of the viral isolate (PubMed:12356718). Mediates uptake of M.fortuitum, E.coli and S.aureus (PubMed:16020694). {ECO:0000269|PubMed:12356718, ECO:0000269|PubMed:16020694, ECO:0000269|PubMed:18000990}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q8WUY8",
+            "amigoid": "UniProtKB:Q8WUY8",
+            "gene": "NAT14",
+            "mist": "0.720285746",
+            "saint_bfdr": "0",
+            "avg_spec": "4.33",
+            "fold_change": "43.33",
+            "uniprot_protein_id": "NAT14_HUMAN",
+            "uniprot_protein_description": "N-acetyltransferase 14 (EC 2.3.1.-) (K562 cell-derived leucine-zipper-like protein 1)",
+            "uniprot_protein_function": "Probable acetyltransferase that binds the 5'-GGACTACAG-3' sequence of coproporphyrinogen oxidase promoter. Able to activate transcription of a reporter construct in vitro.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q8WVC6",
+            "amigoid": "UniProtKB:Q8WVC6",
+            "gene": "DCAKD",
+            "mist": "0.862452335",
+            "saint_bfdr": "0",
+            "avg_spec": "9",
+            "fold_change": "90",
+            "uniprot_protein_id": "DCAKD_HUMAN",
+            "uniprot_protein_description": "Dephospho-CoA kinase domain-containing protein",
+            "uniprot_protein_function": "",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q96A26",
+            "amigoid": "UniProtKB:Q96A26",
+            "gene": "FAM162A",
+            "mist": "0.748773582",
+            "saint_bfdr": "0",
+            "avg_spec": "11",
+            "fold_change": "110",
+            "uniprot_protein_id": "F162A_HUMAN",
+            "uniprot_protein_description": "Protein FAM162A (E2-induced gene 5 protein) (Growth and transformation-dependent protein) (HGTD-P)",
+            "uniprot_protein_function": "Proposed to be involved in regulation of apoptosis; the exact mechanism may differ between cell types/tissues. May be involved in hypoxia-induced cell death of transformed cells implicating cytochrome C release and caspase activation (such as CASP9) and inducing mitochondrial permeability transition. May be involved in hypoxia-induced cell death of neuronal cells probably by promoting release of AIFM1 from mitochondria to cytoplasm and its translocation to the nucleus; however, the involvement of caspases has been reported conflictingly. {ECO:0000269|PubMed:15082785}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q96DA6",
+            "amigoid": "UniProtKB:Q96DA6",
+            "gene": "DNAJC19",
+            "mist": "0.981450126",
+            "saint_bfdr": "0",
+            "avg_spec": "3",
+            "fold_change": "30",
+            "uniprot_protein_id": "TIM14_HUMAN",
+            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit TIM14 (DnaJ homolog subfamily C member 19)",
+            "uniprot_protein_function": "Probable component of the PAM complex, a complex required for the translocation of transit peptide-containing proteins from the inner membrane into the mitochondrial matrix in an ATP-dependent manner. May act as a co-chaperone that stimulate the ATP-dependent activity (By similarity). {ECO:0000250}.",
+            "structures": [],
+            "uniprot_function_in_disease": "3-methylglutaconic aciduria 5 (MGA5) [MIM:610198]: An autosomal recessive disorder characterized by early-onset dilated cardiomyopathy, growth failure, cerebellar ataxia causing significant motor delays, testicular dysgenesis, growth failure and significant increases in urine organic acids, particularly 3-methylglutaconic acid and 3-methylglutaric acid. {ECO:0000269|PubMed:16055927}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q9BQE4",
+            "amigoid": "UniProtKB:Q9BQE4",
+            "gene": "SELENOS",
+            "mist": "0.701764404",
+            "saint_bfdr": "0",
+            "avg_spec": "3.33",
+            "fold_change": "33.33",
+            "uniprot_protein_id": "SELS_HUMAN",
+            "uniprot_protein_description": "Selenoprotein S (SelS) (VCP-interacting membrane protein)",
+            "uniprot_protein_function": "Involved in the degradation process of misfolded endoplasmic reticulum (ER) luminal proteins. Participates in the transfer of misfolded proteins from the ER to the cytosol, where they are destroyed by the proteasome in a ubiquitin-dependent manner. Probably acts by serving as a linker between DERL1, which mediates the retrotranslocation of misfolded proteins into the cytosol, and the ATPase complex VCP, which mediates the translocation and ubiquitination. {ECO:0000269|PubMed:15215856}.",
+            "structures": [
+                "2Q2F",
+                "5KIU",
+                "5KIY",
+                "6DO4"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9H7Z7",
+            "amigoid": "UniProtKB:Q9H7Z7",
+            "gene": "PTGES2",
+            "mist": "0.764538331",
+            "saint_bfdr": "0",
+            "avg_spec": "6",
+            "fold_change": "60",
+            "uniprot_protein_id": "PGES2_HUMAN",
+            "uniprot_protein_description": "Prostaglandin E synthase 2 (Membrane-associated prostaglandin E synthase-2) (mPGE synthase-2) (Microsomal prostaglandin E synthase 2) (mPGES-2) (Prostaglandin-H(2) E-isomerase) (EC 5.3.99.3) [Cleaved into: Prostaglandin E synthase 2 truncated form]",
+            "uniprot_protein_function": "Isomerase that catalyzes the conversion of PGH2 into the more stable prostaglandin E2 (PGE2). {ECO:0000269|PubMed:12804604, ECO:0000269|PubMed:18198127}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9NP72",
+            "amigoid": "UniProtKB:Q9NP72",
+            "gene": "RAB18",
+            "mist": "0.756605088",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "RAB18_HUMAN",
+            "uniprot_protein_description": "Ras-related protein Rab-18",
+            "uniprot_protein_function": "Plays a role in apical endocytosis/recycling. May be implicated in transport between the plasma membrane and early endosomes. Plays a key role in eye and brain development and neurodegeneration. {ECO:0000269|PubMed:21473985}.",
+            "structures": [
+                "1X3S"
+            ],
+            "uniprot_function_in_disease": "Warburg micro syndrome 3 (WARBM3) [MIM:614222]: A rare syndrome characterized by microcephaly, microphthalmia, microcornia, congenital cataracts, optic atrophy, cortical dysplasia, in particular corpus callosum hypoplasia, severe mental retardation, spastic diplegia, and hypogonadism. {ECO:0000269|PubMed:21473985}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        }
+    ],
+    "nsp8 (SARS-CoV2)": [
+        {
+            "id": "O00566",
+            "amigoid": "UniProtKB:O00566",
+            "gene": "MPHOSPH10",
+            "mist": "0.728559172",
+            "saint_bfdr": "0.03",
+            "avg_spec": "2.67",
+            "fold_change": "26.67",
+            "uniprot_protein_id": "MPP10_HUMAN",
+            "uniprot_protein_description": "U3 small nucleolar ribonucleoprotein protein MPP10 (M phase phosphoprotein 10)",
+            "uniprot_protein_function": "Component of the 60-80S U3 small nucleolar ribonucleoprotein (U3 snoRNP). Required for the early cleavages during pre-18S ribosomal RNA processing.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "O76094",
+            "amigoid": "UniProtKB:O76094",
+            "gene": "SRP72",
+            "mist": "0.739540656",
+            "saint_bfdr": "0",
+            "avg_spec": "33.67",
+            "fold_change": "336.67",
+            "uniprot_protein_id": "SRP72_HUMAN",
+            "uniprot_protein_description": "Signal recognition particle subunit SRP72 (SRP72) (Signal recognition particle 72 kDa protein)",
+            "uniprot_protein_function": "Signal-recognition-particle assembly has a crucial role in targeting secretory proteins to the rough endoplasmic reticulum membrane. Binds the 7S RNA only in presence of SRP68. This ribonucleoprotein complex might interact directly with the docking protein in the ER membrane and possibly participate in the elongation arrest function.",
+            "structures": [
+                "5M72",
+                "5M73",
+                "5WRV",
+                "5WRW"
+            ],
+            "uniprot_function_in_disease": "Bone marrow failure syndrome 1 (BMFS1) [MIM:614675]: An autosomal dominant disease characterized by aplastic anemia and myelodysplasia resulting from bone marrow failure. Aplastic anemia is a form of anemia in which the bone marrow fails to produce adequate numbers of peripheral blood elements. Myelodysplasia is a clonal hematopoietic stem cell disorder in which immature cells in the bone marrow become malformed and dysfunctional. {ECO:0000269|PubMed:22541560}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "O95260",
+            "amigoid": "UniProtKB:O95260",
+            "gene": "ATE1",
+            "mist": "0.804292637",
+            "saint_bfdr": "0",
+            "avg_spec": "8.33",
+            "fold_change": "83.33",
+            "uniprot_protein_id": "ATE1_HUMAN",
+            "uniprot_protein_description": "Arginyl-tRNA--protein transferase 1 (Arginyltransferase 1) (R-transferase 1) (EC 2.3.2.8) (Arginine-tRNA--protein transferase 1)",
+            "uniprot_protein_function": "Involved in the post-translational conjugation of arginine to the N-terminal aspartate or glutamate of a protein. This arginylation is required for degradation of the protein via the ubiquitin pathway. Does not arginylate cysteine residues (By similarity). {ECO:0000250}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "O96028",
+            "amigoid": "UniProtKB:O96028",
+            "gene": "NSD2",
+            "mist": "0.864651959",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "NSD2_HUMAN",
+            "uniprot_protein_description": "Histone-lysine N-methyltransferase NSD2 (EC 2.1.1.356) (Multiple myeloma SET domain-containing protein) (MMSET) (Nuclear SET domain-containing protein 2) (Protein trithorax-5) (Wolf-Hirschhorn syndrome candidate 1 protein)",
+            "uniprot_protein_function": "Histone methyltransferase with histone H3 'Lys-27' (H3K27me) methyltransferase activity forming trimethylated 'Lys-27' (H3K27me3). Isoform 2 may act as a transcription regulator that binds DNA and suppresses IL5 transcription through HDAC recruitment. {ECO:0000269|PubMed:11152655, ECO:0000269|PubMed:16115125, ECO:0000269|PubMed:18172012}.",
+            "structures": [
+                "5LSU",
+                "5VC8",
+                "6UE6"
+            ],
+            "uniprot_function_in_disease": "Note=A chromosomal aberration involving NSD2 is a cause of multiple myeloma tumors. Translocation t(4;14)(p16.3;q32.3) with IgH.; DISEASE: Note=NSD2 is located in the Wolf-Hirschhorn syndrome (WHS) critical region. WHS results from by sub-telomeric deletions in the short arm of chromosome 4. NSD2 is deleted in every case, however deletion of linked genes contributes to both the severity of the core characteristics and the presence of the additional syndromic problems."
+        },
+        {
+            "id": "P09132",
+            "amigoid": "UniProtKB:P09132",
+            "gene": "SRP19",
+            "mist": "0.832502372",
+            "saint_bfdr": "0",
+            "avg_spec": "12",
+            "fold_change": "120",
+            "uniprot_protein_id": "SRP19_HUMAN",
+            "uniprot_protein_description": "Signal recognition particle 19 kDa protein (SRP19)",
+            "uniprot_protein_function": "Signal-recognition-particle assembly, binds directly to 7S RNA and mediates binding of the 54 kDa subunit of the SRP.",
+            "structures": [
+                "1JID",
+                "1MFQ",
+                "1RY1",
+                "2J37",
+                "3KTV",
+                "4P3E",
+                "5M73"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P61011",
+            "amigoid": "UniProtKB:P61011",
+            "gene": "SRP54",
+            "mist": "0.755584148",
+            "saint_bfdr": "0",
+            "avg_spec": "4",
+            "fold_change": "40",
+            "uniprot_protein_id": "SRP54_HUMAN",
+            "uniprot_protein_description": "Signal recognition particle 54 kDa protein (SRP54)",
+            "uniprot_protein_function": "Binds to the signal sequence of presecretory protein when they emerge from the ribosomes and transfers them to TRAM (translocating chain-associating membrane protein).",
+            "structures": [
+                "1MFQ",
+                "1QB2",
+                "5L3Q"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P82663",
+            "amigoid": "UniProtKB:P82663",
+            "gene": "MRPS25",
+            "mist": "0.826437119",
+            "saint_bfdr": "0",
+            "avg_spec": "4.67",
+            "fold_change": "46.67",
+            "uniprot_protein_id": "RT25_HUMAN",
+            "uniprot_protein_description": "28S ribosomal protein S25, mitochondrial (MRP-S25) (S25mt) (Mitochondrial small ribosomal subunit protein mS25)",
+            "uniprot_protein_function": "",
+            "structures": [
+                "3J9M",
+                "6NU2",
+                "6NU3"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q13206",
+            "amigoid": "UniProtKB:Q13206",
+            "gene": "DDX10",
+            "mist": "0.755753594",
+            "saint_bfdr": "0",
+            "avg_spec": "5.67",
+            "fold_change": "56.67",
+            "uniprot_protein_id": "DDX10_HUMAN",
+            "uniprot_protein_description": "Probable ATP-dependent RNA helicase DDX10 (EC 3.6.4.13) (DEAD box protein 10)",
+            "uniprot_protein_function": "Putative ATP-dependent RNA helicase.",
+            "structures": [
+                "2PL3"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q4G0J3",
+            "amigoid": "UniProtKB:Q4G0J3",
+            "gene": "LARP7",
+            "mist": "0.812479682",
+            "saint_bfdr": "0",
+            "avg_spec": "12.67",
+            "fold_change": "126.67",
+            "uniprot_protein_id": "LARP7_HUMAN",
+            "uniprot_protein_description": "La-related protein 7 (La ribonucleoprotein domain family member 7) (P-TEFb-interaction protein for 7SK stability) (PIP7S)",
+            "uniprot_protein_function": "Negative transcriptional regulator of polymerase II genes, acting by means of the 7SK RNP system. Within the 7SK RNP complex, the positive transcription elongation factor b (P-TEFb) is sequestered in an inactive form, preventing RNA polymerase II phosphorylation and subsequent transcriptional elongation. {ECO:0000269|PubMed:18249148, ECO:0000269|PubMed:18483487}.",
+            "structures": [
+                "4WKR",
+                "5KNW",
+                "6D12"
+            ],
+            "uniprot_function_in_disease": "Alazami syndrome (ALAZS) [MIM:615071]: A syndromic form of primordial dwarfism, a condition characterized by severe growth restriction that has its onset in utero, and results in short stature and undersize. ALAZS patients manifest severe intellectual disability and distinct facial features including malar hypoplasia, deep-set eyes, broad nose, short philtrum, and macrostomia. Some patients have non-specific and inconsistent skeletal findings, for example, scoliosis and mild epiphyseal changes in the proximal phalanges, but no frank dysplasia. {ECO:0000269|PubMed:21937992, ECO:0000269|PubMed:22865833}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q7L2J0",
+            "amigoid": "UniProtKB:Q7L2J0",
+            "gene": "MEPCE",
+            "mist": "0.790978117",
+            "saint_bfdr": "0",
+            "avg_spec": "10.33",
+            "fold_change": "103.33",
+            "uniprot_protein_id": "MEPCE_HUMAN",
+            "uniprot_protein_description": "7SK snRNA methylphosphate capping enzyme (MePCE) (EC 2.1.1.-) (Bicoid-interacting protein 3 homolog) (Bin3 homolog)",
+            "uniprot_protein_function": "S-adenosyl-L-methionine-dependent methyltransferase that adds a methylphosphate cap at the 5'-end of 7SK snRNA, leading to stabilize it. {ECO:0000269|PubMed:17643375}.",
+            "structures": [
+                "5UNA",
+                "6DCB",
+                "6DCC"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q8NEJ9",
+            "amigoid": "UniProtKB:Q8NEJ9",
+            "gene": "NGDN",
+            "mist": "0.71407894",
+            "saint_bfdr": "0",
+            "avg_spec": "3.67",
+            "fold_change": "36.67",
+            "uniprot_protein_id": "NGDN_HUMAN",
+            "uniprot_protein_description": "Neuroguidin (Centromere accumulated nuclear protein 1) (CANu1) (EIF4E-binding protein)",
+            "uniprot_protein_function": "Involved in the translational repression of cytoplasmic polyadenylation element (CPE)-containing mRNAs. {ECO:0000250}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q96B26",
+            "amigoid": "UniProtKB:Q96B26",
+            "gene": "EXOSC8",
+            "mist": "0.990898225",
+            "saint_bfdr": "0",
+            "avg_spec": "3.67",
+            "fold_change": "36.67",
+            "uniprot_protein_id": "EXOS8_HUMAN",
+            "uniprot_protein_description": "Exosome complex component RRP43 (Exosome component 8) (Opa-interacting protein 2) (OIP-2) (Ribosomal RNA-processing protein 43) (p9)",
+            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. EXOSC8 binds to ARE-containing RNAs. {ECO:0000269|PubMed:16912217, ECO:0000269|PubMed:17545563}.",
+            "structures": [
+                "2NN6",
+                "6D6Q",
+                "6D6R",
+                "6H25"
+            ],
+            "uniprot_function_in_disease": "Pontocerebellar hypoplasia 1C (PCH1C) [MIM:616081]: A severe autosomal recessive neurodegenerative disease characterized by cerebellar and corpus callosum hypoplasia, abnormal myelination of the central nervous system, and spinal motor neuron disease. Affected individuals manifest failure to thrive, severe muscle weakness, spasticity and psychomotor retardation. Vision and hearing are impaired. {ECO:0000269|PubMed:24989451}. Note=The disease is caused by mutations affecting the gene represented in this entry. EXOSC8 dysfunction causes myelin disruption through an imbalanced supply of myelin proteins due to dysregulation of their ARE-containing mRNAs (PubMed:24989451). {ECO:0000269|PubMed:24989451}."
+        },
+        {
+            "id": "Q96I59",
+            "amigoid": "UniProtKB:Q96I59",
+            "gene": "NARS2",
+            "mist": "0.78185035",
+            "saint_bfdr": "0",
+            "avg_spec": "5.33",
+            "fold_change": "53.33",
+            "uniprot_protein_id": "SYNM_HUMAN",
+            "uniprot_protein_description": "Probable asparagine--tRNA ligase, mitochondrial (EC 6.1.1.22) (Asparaginyl-tRNA synthetase) (AsnRS)",
+            "uniprot_protein_function": "",
+            "structures": [],
+            "uniprot_function_in_disease": "Combined oxidative phosphorylation deficiency 24 (COXPD24) [MIM:616239]: An autosomal recessive mitochondrial disorder with wide phenotypic variability. Some patients have a milder form affecting only skeletal muscle, whereas others may have a more severe disorder, reminiscent of Alpers syndrome. Alpers syndrome is a progressive neurodegenerative disorder that presents in infancy or early childhood and is characterized by diffuse degeneration of cerebral gray matter. {ECO:0000269|PubMed:25385316, ECO:0000269|PubMed:25629079, ECO:0000269|PubMed:25807530}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Deafness, autosomal recessive, 94 (DFNB94) [MIM:618434]: A form of non-syndromic, sensorineural deafness characterized by prelingual, profound, bilateral hearing impairment. Sensorineural deafness results from damage to the neural receptors of the inner ear, the nerve pathways to the brain, or the area of the brain that receives sound information. {ECO:0000269|PubMed:25807530}. Note=The disease may be caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q9BSC4",
+            "amigoid": "UniProtKB:Q9BSC4",
+            "gene": "NOL10",
+            "mist": "0.807819511",
+            "saint_bfdr": "0",
+            "avg_spec": "8.33",
+            "fold_change": "83.33",
+            "uniprot_protein_id": "NOL10_HUMAN",
+            "uniprot_protein_description": "Nucleolar protein 10",
+            "uniprot_protein_function": "",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9H6F5",
+            "amigoid": "UniProtKB:Q9H6F5",
+            "gene": "CCDC86",
+            "mist": "0.736803661",
+            "saint_bfdr": "0",
+            "avg_spec": "4.33",
+            "fold_change": "43.33",
+            "uniprot_protein_id": "CCD86_HUMAN",
+            "uniprot_protein_description": "Coiled-coil domain-containing protein 86 (Cytokine-induced protein with coiled-coil domain)",
+            "uniprot_protein_function": "",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9HD40",
+            "amigoid": "UniProtKB:Q9HD40",
+            "gene": "SEPSECS",
+            "mist": "0.809559247",
+            "saint_bfdr": "0",
+            "avg_spec": "4.33",
+            "fold_change": "43.33",
+            "uniprot_protein_id": "SPCS_HUMAN",
+            "uniprot_protein_description": "O-phosphoseryl-tRNA(Sec) selenium transferase (EC 2.9.1.2) (Liver-pancreas antigen) (LP) (SLA-p35) (SLA/LP autoantigen) (Selenocysteine synthase) (Sec synthase) (Selenocysteinyl-tRNA(Sec) synthase) (Sep-tRNA:Sec-tRNA synthase) (SepSecS) (Soluble liver antigen) (SLA) (UGA suppressor tRNA-associated protein) (tRNA(Ser/Sec)-associated antigenic protein)",
+            "uniprot_protein_function": "Converts O-phosphoseryl-tRNA(Sec) to selenocysteinyl-tRNA(Sec) required for selenoprotein biosynthesis. {ECO:0000269|PubMed:17142313}.",
+            "structures": [
+                "3HL2",
+                "4ZDL",
+                "4ZDO",
+                "4ZDP"
+            ],
+            "uniprot_function_in_disease": "Pontocerebellar hypoplasia 2D (PCH2D) [MIM:613811]: A disorder characterized by postnatal onset of progressive atrophy of the cerebrum and cerebellum, microcephaly, profound mental retardation, spasticity, and variable seizures. {ECO:0000269|PubMed:20920667, ECO:0000269|PubMed:26115735}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q9NQT4",
+            "amigoid": "UniProtKB:Q9NQT4",
+            "gene": "EXOSC5",
+            "mist": "0.704291901",
+            "saint_bfdr": "0",
+            "avg_spec": "3.67",
+            "fold_change": "36.67",
+            "uniprot_protein_id": "EXOS5_HUMAN",
+            "uniprot_protein_description": "Exosome complex component RRP46 (Chronic myelogenous leukemia tumor antigen 28) (Exosome component 5) (Ribosomal RNA-processing protein 46) (p12B)",
+            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. {ECO:0000269|PubMed:11782436, ECO:0000269|PubMed:21255825}.",
+            "structures": [
+                "2NN6",
+                "6D6Q",
+                "6D6R",
+                "6H25"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9NQT5",
+            "amigoid": "UniProtKB:Q9NQT5",
+            "gene": "EXOSC3",
+            "mist": "0.774797319",
+            "saint_bfdr": "0",
+            "avg_spec": "6.33",
+            "fold_change": "63.33",
+            "uniprot_protein_id": "EXOS3_HUMAN",
+            "uniprot_protein_description": "Exosome complex component RRP40 (Exosome component 3) (Ribosomal RNA-processing protein 40) (p10)",
+            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. EXOSC3 as peripheral part of the Exo-9 complex stabilizes the hexameric ring of RNase PH-domain subunits through contacts with EXOSC9 and EXOSC5. {ECO:0000269|PubMed:11782436, ECO:0000269|PubMed:17545563, ECO:0000269|PubMed:19056938, ECO:0000269|PubMed:21255825}.",
+            "structures": [
+                "2NN6",
+                "6D6Q",
+                "6D6R",
+                "6H25"
+            ],
+            "uniprot_function_in_disease": "Pontocerebellar hypoplasia 1B (PCH1B) [MIM:614678]: A severe autosomal recessive neurologic disorder characterized by a combination of cerebellar and spinal motor neuron degeneration beginning at birth. There is diffuse muscle weakness, progressive microcephaly, global developmental delay, and brainstem involvement. {ECO:0000269|PubMed:22544365}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q9NY61",
+            "amigoid": "UniProtKB:Q9NY61",
+            "gene": "AATF",
+            "mist": "0.783703681",
+            "saint_bfdr": "0",
+            "avg_spec": "11.67",
+            "fold_change": "116.67",
+            "uniprot_protein_id": "AATF_HUMAN",
+            "uniprot_protein_description": "Protein AATF (Apoptosis-antagonizing transcription factor) (Rb-binding protein Che-1)",
+            "uniprot_protein_function": "May function as a general inhibitor of the histone deacetylase HDAC1. Binding to the pocket region of RB1 may displace HDAC1 from RB1/E2F complexes, leading to activation of E2F target genes and cell cycle progression. Conversely, displacement of HDAC1 from SP1 bound to the CDKN1A promoter leads to increased expression of this CDK inhibitor and blocks cell cycle progression. Also antagonizes PAWR mediated induction of aberrant amyloid peptide production in Alzheimer disease (presenile and senile dementia), although the molecular basis for this phenomenon has not been described to date. {ECO:0000269|PubMed:12450794, ECO:0000269|PubMed:12847090, ECO:0000269|PubMed:14627703, ECO:0000269|PubMed:15207272}.",
+            "structures": [
+                "5W6A"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9ULT8",
+            "amigoid": "UniProtKB:Q9ULT8",
+            "gene": "HECTD1",
+            "mist": "0.885504785",
+            "saint_bfdr": "0",
+            "avg_spec": "5.33",
+            "fold_change": "53.33",
+            "uniprot_protein_id": "HECD1_HUMAN",
+            "uniprot_protein_description": "E3 ubiquitin-protein ligase HECTD1 (EC 2.3.2.26) (E3 ligase for inhibin receptor) (EULIR) (HECT domain-containing protein 1) (HECT-type E3 ubiquitin transferase HECTD1)",
+            "uniprot_protein_function": "E3 ubiquitin-protein ligase which accepts ubiquitin from an E2 ubiquitin-conjugating enzyme in the form of a thioester and then directly transfers the ubiquitin to targeted substrates. Mediates 'Lys-63'-linked polyubiquitination of HSP90AA1 which leads to its intracellular localization and reduced secretion. Negatively regulating HSP90AA1 secretion in cranial mesenchyme cells may impair their emigration and may be essential for the correct development of the cranial neural folds and neural tube closure. {ECO:0000250|UniProtKB:Q69ZR2}.",
+            "structures": [
+                "2DK3",
+                "2LC3",
+                "3DKM"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9Y399",
+            "amigoid": "UniProtKB:Q9Y399",
+            "gene": "MRPS2",
+            "mist": "0.972057569",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "RT02_HUMAN",
+            "uniprot_protein_description": "28S ribosomal protein S2, mitochondrial (MRP-S2) (S2mt) (Mitochondrial small ribosomal subunit protein uS2m)",
+            "uniprot_protein_function": "Required for mitoribosome formation and stability, and mitochondrial translation. {ECO:0000269|PubMed:29576219}.",
+            "structures": [
+                "3J9M",
+                "6NU2",
+                "6NU3"
+            ],
+            "uniprot_function_in_disease": "Combined oxidative phosphorylation deficiency 36 (COXPD36) [MIM:617950]: An autosomal recessive, multisystem disease resulting from deficiencies of mitochondrial respiratory enzyme complexes and mitochondrial dysfunction. Clinical manifestations include sensorineural hearing impairment, mild developmental delay, hypoglycemia, and intellectual disability. {ECO:0000269|PubMed:29576219}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P82675",
+            "amigoid": "UniProtKB:P82675",
+            "gene": "MRPS5",
+            "mist": "0.63637328",
+            "saint_bfdr": "0.04",
+            "avg_spec": "2.33",
+            "fold_change": "23.33",
+            "uniprot_protein_id": "RT05_HUMAN",
+            "uniprot_protein_description": "28S ribosomal protein S5, mitochondrial (MRP-S5) (S5mt) (Mitochondrial small ribosomal subunit protein uS5m)",
+            "uniprot_protein_function": "",
+            "structures": [
+                "3J9M",
+                "6NU2",
+                "6NU3"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q13868",
+            "amigoid": "UniProtKB:Q13868",
+            "gene": "EXOSC2",
+            "mist": "0.672587659",
+            "saint_bfdr": "0",
+            "avg_spec": "5.67",
+            "fold_change": "56.67",
+            "uniprot_protein_id": "EXOS2_HUMAN",
+            "uniprot_protein_description": "Exosome complex component RRP4 (Exosome component 2) (Ribosomal RNA-processing protein 4)",
+            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. EXOSC2 as peripheral part of the Exo-9 complex stabilizes the hexameric ring of RNase PH-domain subunits through contacts with EXOSC4 and EXOSC7. {ECO:0000269|PubMed:17545563}.",
+            "structures": [
+                "2NN6",
+                "6D6Q",
+                "6D6R",
+                "6H25"
+            ],
+            "uniprot_function_in_disease": "Short stature, hearing loss, retinitis pigmentosa, and distinctive facies (SHRF) [MIM:617763]: An autosomal recessive disorder characterized by childhood myopia, early onset retinitis pigmentosa, progressive sensorineural hearing loss, hypothyroidism, short stature, brachydactyly, recognisable facial gestalt, premature ageing and mild intellectual disability. {ECO:0000269|PubMed:26843489}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q92552",
+            "amigoid": "UniProtKB:Q92552",
+            "gene": "MRPS27",
+            "mist": "0.602806863",
+            "saint_bfdr": "0",
+            "avg_spec": "3.33",
+            "fold_change": "33.33",
+            "uniprot_protein_id": "RT27_HUMAN",
+            "uniprot_protein_description": "28S ribosomal protein S27, mitochondrial (MRP-S27) (S27mt) (Mitochondrial ribosomal protein S27) (Mitochondrial small ribosomal subunit protein mS27)",
+            "uniprot_protein_function": "RNA-binding component of the mitochondrial small ribosomal subunit (mt-SSU) that plays a role in mitochondrial protein synthesis (PubMed:22841715). Stimulates mitochondrial mRNA translation of subunit components of the mitochondrial electron transport chain (PubMed:22841715). Binds to the mitochondrial 12S rRNA (12S mt-rRNA) and tRNA(Glu) (PubMed:22841715). Involved also in positive regulation of cell proliferation and tumor cell growth (PubMed:28714366). {ECO:0000269|PubMed:22841715, ECO:0000269|PubMed:28714366}.",
+            "structures": [
+                "3J9M",
+                "6NU2",
+                "6NU3"
+            ],
+            "uniprot_function_in_disease": ""
+        }
+    ],
+    "nsp9 (SARS-CoV2)": [
+        {
+            "id": "P13984",
+            "amigoid": "UniProtKB:P13984",
+            "gene": "GTF2F2",
+            "mist": "0.877426938",
+            "saint_bfdr": "0",
+            "avg_spec": "14",
+            "fold_change": "140",
+            "uniprot_protein_id": "T2FB_HUMAN",
+            "uniprot_protein_description": "General transcription factor IIF subunit 2 (EC 3.6.4.12) (ATP-dependent helicase GTF2F2) (General transcription factor IIF 30 kDa subunit) (Transcription initiation factor IIF subunit beta) (TFIIF-beta) (Transcription initiation factor RAP30)",
+            "uniprot_protein_function": "TFIIF is a general transcription initiation factor that binds to RNA polymerase II and helps to recruit it to the initiation complex in collaboration with TFIIB. It promotes transcription elongation. This subunit shows ATP-dependent DNA-helicase activity. {ECO:0000269|PubMed:2477704}.",
+            "structures": [
+                "1BBY",
+                "1F3U",
+                "2BBY",
+                "5IY6",
+                "5IY7",
+                "5IY8",
+                "5IY9",
+                "5IYA",
+                "5IYB",
+                "5IYC",
+                "5IYD",
+                "6O9L"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P35555",
+            "amigoid": "UniProtKB:P35555",
+            "gene": "FBN1",
+            "mist": "0.992372395",
+            "saint_bfdr": "0",
+            "avg_spec": "15.33",
+            "fold_change": "153.33",
+            "uniprot_protein_id": "FBN1_HUMAN",
+            "uniprot_protein_description": "Fibrillin-1 [Cleaved into: Asprosin]",
+            "uniprot_protein_function": "[Fibrillin-1]: Structural component of the 10-12 nm diameter microfibrils of the extracellular matrix, which conveys both structural and regulatory properties to load-bearing connective tissues (PubMed:1860873, PubMed:15062093). Fibrillin-1-containing microfibrils provide long-term force bearing structural support. In tissues such as the lung, blood vessels and skin, microfibrils form the periphery of the elastic fiber, acting as a scaffold for the deposition of elastin. In addition, microfibrils can occur as elastin-independent networks in tissues such as the ciliary zonule, tendon, cornea and glomerulus where they provide tensile strength and have anchoring roles. Fibrillin-1 also plays a key role in tissue homeostasis through specific interactions with growth factors, such as the bone morphogenetic proteins (BMPs), growth and differentiation factors (GDFs) and latent transforming growth factor-beta-binding proteins (LTBPs), cell-surface integrins and other extracellular matrix protein and proteoglycan components (PubMed:27026396). Regulates osteoblast maturation by controlling TGF-beta bioavailability and calibrating TGF-beta and BMP levels, respectively (By similarity). Negatively regulates osteoclastogenesis by binding and sequestering an osteoclast differentiation and activation factor TNFSF11. This leads to disruption of TNFSF11-induced Ca(2+) signaling and impairment of TNFSF11-mediated nuclear translocation and activation of transcription factor NFATC1 which regulates genes important for osteoclast differentiation and function (PubMed:24039232). Mediates cell adhesion via its binding to cell surface receptors integrins ITGAV:ITGB3 and ITGA5:ITGB1 (PubMed:12807887, PubMed:17158881). Binds heparin and this interaction has an important role in the assembly of microfibrils (PubMed:11461921). {ECO:0000250|UniProtKB:Q61554, ECO:0000269|PubMed:11461921, ECO:0000269|PubMed:12807887, ECO:0000269|PubMed:15062093, ECO:0000269|PubMed:17158881, ECO:0000269|PubMed:1860873, ECO:0000269|PubMed:24039232, ECO:0000303|PubMed:27026396}.; FUNCTION: [Asprosin]: Hormone that targets the liver to increase plasma glucose levels. Secreted by white adipose tissue and circulates in the plasma. Acts in response to fasting and promotes blood glucose elevation by binding to the surface of hepatocytes. Promotes hepatocyte glucose release by activating the protein kinase A activity in the liver, resulting in rapid glucose release into the circulation. {ECO:0000269|PubMed:27087445}.",
+            "structures": [
+                "1APJ",
+                "1EMN",
+                "1EMO",
+                "1LMJ",
+                "1UZJ",
+                "1UZK",
+                "1UZP",
+                "1UZQ",
+                "2M74",
+                "2W86",
+                "5MS9"
+            ],
+            "uniprot_function_in_disease": "Marfan syndrome (MFS) [MIM:154700]: A hereditary disorder of connective tissue that affects the skeletal, ocular, and cardiovascular systems. A wide variety of skeletal abnormalities occurs with Marfan syndrome, including scoliosis, chest wall deformity, tall stature, abnormal joint mobility. Ectopia lentis occurs in most of the patients and is almost always bilateral. The leading cause of premature death is progressive dilation of the aortic root and ascending aorta, causing aortic incompetence and dissection. Neonatal Marfan syndrome is the most severe form resulting in death from cardiorespiratory failure in the first few years of life. {ECO:0000269|PubMed:10425041, ECO:0000269|PubMed:10441597, ECO:0000269|PubMed:10694921, ECO:0000269|PubMed:11700157, ECO:0000269|PubMed:11826022, ECO:0000269|PubMed:12161601, ECO:0000269|PubMed:12203992, ECO:0000269|PubMed:12402346, ECO:0000269|PubMed:1301946, ECO:0000269|PubMed:14695540, ECO:0000269|PubMed:15161917, ECO:0000269|PubMed:15221638, ECO:0000269|PubMed:1569206, ECO:0000269|PubMed:16220557, ECO:0000269|PubMed:16222657, ECO:0000269|PubMed:17657824, ECO:0000269|PubMed:18435798, ECO:0000269|PubMed:1852208, ECO:0000269|PubMed:19533785, ECO:0000269|PubMed:19941982, ECO:0000269|PubMed:20803651, ECO:0000269|PubMed:21542060, ECO:0000269|PubMed:22772377, ECO:0000269|PubMed:7611299, ECO:0000269|PubMed:7738200, ECO:0000269|PubMed:7762551, ECO:0000269|PubMed:7870075, ECO:0000269|PubMed:7951214, ECO:0000269|PubMed:7977366, ECO:0000269|PubMed:8004112, ECO:0000269|PubMed:8040326, ECO:0000269|PubMed:8071963, ECO:0000269|PubMed:8136837, ECO:0000269|PubMed:8281141, ECO:0000269|PubMed:8406497, ECO:0000269|PubMed:8504310, ECO:0000269|PubMed:8863159, ECO:0000269|PubMed:8882780, ECO:0000269|PubMed:9016526, ECO:0000269|PubMed:9254848, ECO:0000269|PubMed:9338581, ECO:0000269|PubMed:9401003, ECO:0000269|PubMed:9452085, ECO:0000269|PubMed:9837823, ECO:0000269|Ref.68}. Note=The disease is caused by mutations affecting the gene represented in this entry. The majority of the more than a thousand mutations in FBN1 currently known are point mutations, the rest are frameshifts and splice site mutations. Marfan syndrome has been suggested in at least 2 historical figures, Abraham Lincoln and Paganini.; DISEASE: Ectopia lentis 1, isolated, autosomal dominant (ECTOL1) [MIM:129600]: An ocular abnormality characterized by partial or complete displacement of the lens from its space resulting from defective zonule formation. {ECO:0000269|PubMed:11700157, ECO:0000269|PubMed:11826022, ECO:0000269|PubMed:12203992, ECO:0000269|PubMed:17657824, ECO:0000269|PubMed:8188302}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Weill-Marchesani syndrome 2 (WMS2) [MIM:608328]: A rare connective tissue disorder characterized by short stature, brachydactyly, joint stiffness, and eye abnormalities including microspherophakia, ectopia lentis, severe myopia and glaucoma. {ECO:0000269|PubMed:12525539}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Overlap connective tissue disease (OCTD) [MIM:604308]: Heritable disorder of connective tissue characterized by involvement of the mitral valve, aorta, skeleton, and skin. MASS syndrome is closely resembling both the Marfan syndrome and the Barlow syndrome. However, no dislocation of the lenses or aneurysmal changes occur in the aorta, and the mitral valve prolapse is by no means invariable. {ECO:0000269|PubMed:2739055}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Stiff skin syndrome (SSKS) [MIM:184900]: A syndrome characterized by hard, thick skin, usually over the entire body, which limits joint mobility and causes flexion contractures. Other occasional findings include lipodystrophy and muscle weakness. {ECO:0000269|PubMed:20375004}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Geleophysic dysplasia 2 (GPHYSD2) [MIM:614185]: An autosomal dominant disorder characterized by severe short stature, short hands and feet, joint limitations, and skin thickening. Radiologic features include delayed bone age, cone-shaped epiphyses, shortened long tubular bones, and ovoid vertebral bodies. Affected individuals have characteristic facial features including a 'happy' face with full cheeks, shortened nose, hypertelorism, long and flat philtrum, and thin upper lip. Other distinctive features include progressive cardiac valvular thickening often leading to an early death, toe walking, tracheal stenosis, respiratory insufficiency, and lysosomal-like storage vacuoles in various tissues. {ECO:0000269|PubMed:21683322}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Acromicric dysplasia (ACMICD) [MIM:102370]: An autosomal dominant disorder characterized by severe short stature, short hands and feet, joint limitations, and skin thickening. Radiologic features include delayed bone age, cone-shaped epiphyses, shortened long tubular bones, and ovoid vertebral bodies. Affected individuals have distinct facial features, including round face, well-defined eyebrows, long eyelashes, bulbous nose with anteverted nostrils, long and prominent philtrum, and thick lips with a small mouth. Other characteristic features include hoarse voice and pseudomuscular build, and there are distinct skeletal features as well, including an internal notch of the femoral head, internal notch of the second metacarpal, and external notch of the fifth metacarpal. {ECO:0000269|PubMed:21683322}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: [Asprosin]: Marfanoid-progeroid-lipodystrophy syndrome (MFLS) [MIM:616914]: An autosomal dominant syndrome characterized by congenital lipodystrophy, a progeroid facial appearance due to lack of subcutaneous fat, and variable signs of Marfan syndrome. Clinical features include premature birth with an accelerated linear growth disproportionate to the weight gain, ectopia lentis, aortic dilatation, dural ectasia, and arachnodactyly. Mental and motor development are within normal limits. {ECO:0000269|PubMed:20979188, ECO:0000269|PubMed:21594992, ECO:0000269|PubMed:21594993, ECO:0000269|PubMed:24039054, ECO:0000269|PubMed:24613577, ECO:0000269|PubMed:24665001, ECO:0000269|PubMed:26860060, ECO:0000269|PubMed:27087445}. Note=The disease is caused by mutations affecting the gene represented in this entry. {ECO:0000269|PubMed:27087445}."
+        },
+        {
+            "id": "P35556",
+            "amigoid": "UniProtKB:P35556",
+            "gene": "FBN2",
+            "mist": "0.991012329",
+            "saint_bfdr": "0",
+            "avg_spec": "83",
+            "fold_change": "830",
+            "uniprot_protein_id": "FBN2_HUMAN",
+            "uniprot_protein_description": "Fibrillin-2 [Cleaved into: Fibrillin-2 C-terminal peptide]",
+            "uniprot_protein_function": "[Fibrillin-2]: Fibrillins are structural components of 10-12 nm extracellular calcium-binding microfibrils, which occur either in association with elastin or in elastin-free bundles. Fibrillin-2-containing microfibrils regulate the early process of elastic fiber assembly. Regulates osteoblast maturation by controlling TGF-beta bioavailability and calibrating TGF-beta and BMP levels, respectively. {ECO:0000250|UniProtKB:Q61555}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Contractural arachnodactyly, congenital (CCA) [MIM:121050]: An autosomal dominant connective tissue disorder characterized by contractures, arachnodactyly, scoliosis, and crumpled ears. {ECO:0000269|PubMed:10797416, ECO:0000269|PubMed:11754102, ECO:0000269|PubMed:19006240, ECO:0000269|PubMed:20799338, ECO:0000269|PubMed:25834781, ECO:0000269|PubMed:27196565, ECO:0000269|PubMed:7493032, ECO:0000269|PubMed:9714438, ECO:0000269|PubMed:9737771}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Macular degeneration, early-onset (EOMD) [MIM:616118]: An ocular disorder characterized by macular changes resulting in progressive loss of visual acuity. {ECO:0000269|PubMed:24899048}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P35658",
+            "amigoid": "UniProtKB:P35658",
+            "gene": "NUP214",
+            "mist": "0.962233264",
+            "saint_bfdr": "0",
+            "avg_spec": "8.33",
+            "fold_change": "83.33",
+            "uniprot_protein_id": "NU214_HUMAN",
+            "uniprot_protein_description": "Nuclear pore complex protein Nup214 (214 kDa nucleoporin) (Nucleoporin Nup214) (Protein CAN)",
+            "uniprot_protein_function": "Has a critical role in nucleocytoplasmic transport (PubMed:31178128). May serve as a docking site in the receptor-mediated import of substrates across the nuclear pore complex (PubMed:31178128, PubMed:8108440). {ECO:0000269|PubMed:31178128, ECO:0000303|PubMed:8108440}.",
+            "structures": [
+                "2OIT",
+                "3FHC",
+                "3FMO",
+                "3FMP",
+                "5DIS"
+            ],
+            "uniprot_function_in_disease": "Note=A chromosomal aberration involving NUP214 is found in a subset of acute myeloid leukemia (AML); also known as acute non-lymphocytic leukemia. Translocation t(6;9)(p23;q34) with DEK. It results in the formation of a DEK-CAN fusion gene. {ECO:0000269|PubMed:1549122}.; DISEASE: Note=A chromosomal aberration involving NUP214 is found in some cases of acute undifferentiated leukemia (AUL). Translocation t(6;9)(q21;q34.1) with SET. {ECO:0000269|PubMed:1630450}.; DISEASE: Encephalopathy, acute, infection-induced, 9 (IIAE9) [MIM:618426]: An autosomal recessive disorder characterized by infancy-onset of episodic neurodevelopmental regression in association with infection-induced febrile illness. Clinical features include poor overall growth, seizures, myoclonic jerks, microcephaly, ataxia, and cerebellar atrophy. {ECO:0000269|PubMed:30758658, ECO:0000269|PubMed:31178128}. Note=Disease susceptibility is associated with variations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P37198",
+            "amigoid": "UniProtKB:P37198",
+            "gene": "NUP62",
+            "mist": "0.993010451",
+            "saint_bfdr": "0",
+            "avg_spec": "18",
+            "fold_change": "180",
+            "uniprot_protein_id": "NUP62_HUMAN",
+            "uniprot_protein_description": "Nuclear pore glycoprotein p62 (62 kDa nucleoporin) (Nucleoporin Nup62)",
+            "uniprot_protein_function": "Essential component of the nuclear pore complex (PubMed:1915414). The N-terminal is probably involved in nucleocytoplasmic transport (PubMed:1915414). The C-terminal is involved in protein-protein interaction probably via coiled-coil formation, promotes its association with centrosomes and may function in anchorage of p62 to the pore complex (PubMed:1915414, PubMed:24107630). Plays a role in mitotic cell cycle progression by regulating centrosome segregation, centriole maturation and spindle orientation (PubMed:24107630). It might be involved in protein recruitment to the centrosome after nuclear breakdown (PubMed:24107630). {ECO:0000269|PubMed:1915414, ECO:0000269|PubMed:24107630}.",
+            "structures": [
+                "2H4D",
+                "5IJN",
+                "5IJO"
+            ],
+            "uniprot_function_in_disease": "Infantile striatonigral degeneration (SNDI) [MIM:271930]: Neurological disorder characterized by symmetrical degeneration of the caudate nucleus, putamen, and occasionally the globus pallidus, with little involvement of the rest of the brain. The clinical features include developmental regression, choreoathetosis, dystonia, spasticity, dysphagia, failure to thrive, nystagmus, optic atrophy, and mental retardation. {ECO:0000269|PubMed:16786527}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "P61962",
+            "amigoid": "UniProtKB:P61962",
+            "gene": "DCAF7",
+            "mist": "0.969234024",
+            "saint_bfdr": "0",
+            "avg_spec": "16",
+            "fold_change": "160",
+            "uniprot_protein_id": "DCAF7_HUMAN",
+            "uniprot_protein_description": "DDB1- and CUL4-associated factor 7 (WD repeat-containing protein 68) (WD repeat-containing protein An11 homolog)",
+            "uniprot_protein_function": "Involved in craniofacial development. Acts upstream of the EDN1 pathway and is required for formation of the upper jaw equivalent, the palatoquadrate. The activity required for EDN1 pathway function differs between the first and second arches (By similarity). Associates with DIAPH1 and controls GLI1 transcriptional activity. Could be involved in normal and disease skin development. May function as a substrate receptor for CUL4-DDB1 E3 ubiquitin-protein ligase complex. {ECO:0000250, ECO:0000269|PubMed:16887337, ECO:0000269|PubMed:16949367}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q15056",
+            "amigoid": "UniProtKB:Q15056",
+            "gene": "EIF4H",
+            "mist": "0.86901939",
+            "saint_bfdr": "0",
+            "avg_spec": "6",
+            "fold_change": "60",
+            "uniprot_protein_id": "IF4H_HUMAN",
+            "uniprot_protein_description": "Eukaryotic translation initiation factor 4H (eIF-4H) (Williams-Beuren syndrome chromosomal region 1 protein)",
+            "uniprot_protein_function": "Stimulates the RNA helicase activity of EIF4A in the translation initiation complex. Binds weakly mRNA. {ECO:0000269|PubMed:10585411, ECO:0000269|PubMed:11418588}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Note=EIF4H is located in the Williams-Beuren syndrome (WBS) critical region. WBS results from a hemizygous deletion of several genes on chromosome 7q11.23, thought to arise as a consequence of unequal crossing over between highly homologous low-copy repeat sequences flanking the deleted region. Haploinsufficiency of EIF4H may be the cause of certain cardiovascular and musculo-skeletal abnormalities observed in the disease. {ECO:0000269|PubMed:8812460}."
+        },
+        {
+            "id": "Q7Z3B4",
+            "amigoid": "UniProtKB:Q7Z3B4",
+            "gene": "NUP54",
+            "mist": "0.991624822",
+            "saint_bfdr": "0",
+            "avg_spec": "21.33",
+            "fold_change": "213.33",
+            "uniprot_protein_id": "NUP54_HUMAN",
+            "uniprot_protein_description": "Nucleoporin p54 (54 kDa nucleoporin)",
+            "uniprot_protein_function": "Component of the nuclear pore complex, a complex required for the trafficking across the nuclear membrane. {ECO:0000250|UniProtKB:P70582}.",
+            "structures": [
+                "4JNU",
+                "4JNV",
+                "4JO7",
+                "4JO9",
+                "5IJN",
+                "5IJO"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q86YT6",
+            "amigoid": "UniProtKB:Q86YT6",
+            "gene": "MIB1",
+            "mist": "0.89782233",
+            "saint_bfdr": "0",
+            "avg_spec": "15",
+            "fold_change": "150",
+            "uniprot_protein_id": "MIB1_HUMAN",
+            "uniprot_protein_description": "E3 ubiquitin-protein ligase MIB1 (EC 2.3.2.27) (DAPK-interacting protein 1) (DIP-1) (Mind bomb homolog 1) (RING-type E3 ubiquitin transferase MIB1) (Zinc finger ZZ type with ankyrin repeat domain protein 2)",
+            "uniprot_protein_function": "E3 ubiquitin-protein ligase that mediates ubiquitination of Delta receptors, which act as ligands of Notch proteins. Positively regulates the Delta-mediated Notch signaling by ubiquitinating the intracellular domain of Delta, leading to endocytosis of Delta receptors. Probably mediates ubiquitination and subsequent proteasomal degradation of DAPK1, thereby antagonizing anti-apoptotic effects of DAPK1 to promote TNF-induced apoptosis (By similarity). Involved in ubiquitination of centriolar satellite CEP131, CEP290 and PCM1 proteins and hence inhibits primary cilium formation in proliferating cells. Mediates 'Lys-63'-linked polyubiquitination of TBK1, which probably participates in kinase activation. {ECO:0000250, ECO:0000269|PubMed:24121310}.",
+            "structures": [
+                "4TSE",
+                "4XI6",
+                "4XI7",
+                "4XIB"
+            ],
+            "uniprot_function_in_disease": "Left ventricular non-compaction 7 (LVNC7) [MIM:615092]: A form of left ventricular non-compaction, a cardiomyopathy due to myocardial morphogenesis arrest and characterized by a hypertrophic left ventricle, a severely thickened 2-layered myocardium, numerous prominent trabeculations, deep intertrabecular recesses, and poor systolic function. Clinical manifestations are variable. Some affected individuals experience no symptoms at all, others develop heart failure. In some cases, left ventricular non-compaction is associated with other congenital heart anomalies. LVNC7 is an autosomal dominant condition. {ECO:0000269|PubMed:23314057}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q8N0X7",
+            "amigoid": "UniProtKB:Q8N0X7",
+            "gene": "SPART",
+            "mist": "0.962964129",
+            "saint_bfdr": "0",
+            "avg_spec": "13.67",
+            "fold_change": "136.67",
+            "uniprot_protein_id": "SPART_HUMAN",
+            "uniprot_protein_description": "Spartin (Spastic paraplegia 20 protein) (Trans-activated by hepatitis C virus core protein 1)",
+            "uniprot_protein_function": "May be implicated in endosomal trafficking, or microtubule dynamics, or both. Participates in cytokinesis (PubMed:20719964). {ECO:0000269|PubMed:20719964}.",
+            "structures": [
+                "2DL1",
+                "4U7I"
+            ],
+            "uniprot_function_in_disease": "Spastic paraplegia 20, autosomal recessive (SPG20) [MIM:275900]: A form of spastic paraplegia, a neurodegenerative disorder characterized by a slow, gradual, progressive weakness and spasticity of the lower limbs. Rate of progression and the severity of symptoms are quite variable. Initial symptoms may include difficulty with balance, weakness and stiffness in the legs, muscle spasms, and dragging the toes when walking. In some forms of the disorder, bladder symptoms (such as incontinence) may appear, or the weakness and stiffness may spread to other parts of the body. SPG20 is characterized by dysarthria, distal amyotrophy, mild developmental delay and short stature. {ECO:0000269|PubMed:12134148, ECO:0000269|PubMed:27539578, ECO:0000269|PubMed:28875386}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q8TD19",
+            "amigoid": "UniProtKB:Q8TD19",
+            "gene": "NEK9",
+            "mist": "0.991972865",
+            "saint_bfdr": "0",
+            "avg_spec": "39",
+            "fold_change": "390",
+            "uniprot_protein_id": "NEK9_HUMAN",
+            "uniprot_protein_description": "Serine/threonine-protein kinase Nek9 (EC 2.7.11.1) (Nercc1 kinase) (Never in mitosis A-related kinase 9) (NimA-related protein kinase 9) (NimA-related kinase 8) (Nek8)",
+            "uniprot_protein_function": "Pleiotropic regulator of mitotic progression, participating in the control of spindle dynamics and chromosome separation. Phosphorylates different histones, myelin basic protein, beta-casein, and BICD2. Phosphorylates histone H3 on serine and threonine residues and beta-casein on serine residues. Important for G1/S transition and S phase progression. Phosphorylates NEK6 and NEK7 and stimulates their activity by releasing the autoinhibitory functions of Tyr-108 and Tyr-97 respectively. {ECO:0000269|PubMed:12840024, ECO:0000269|PubMed:14660563, ECO:0000269|PubMed:19941817}.",
+            "structures": [
+                "3ZKE",
+                "3ZKF"
+            ],
+            "uniprot_function_in_disease": "Lethal congenital contracture syndrome 10 (LCCS10) [MIM:617022]: A form of lethal congenital contracture syndrome, an autosomal recessive disorder characterized by degeneration of anterior horn neurons, extreme skeletal muscle atrophy and congenital non-progressive joint contractures. The contractures can involve the upper or lower limbs and/or the vertebral column, leading to various degrees of flexion or extension limitations evident at birth. {ECO:0000269|PubMed:26908619}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Nevus comedonicus (NC) [MIM:617025]: A rare type of epidermal nevus characterized by closely arranged, dilated, plugged follicular ostia in a honeycomb pattern. The plugged ostia contain lamellated keratinaceous material, and their appearance resembles black dots. NC may be non-pyogenic with an acne-like appearance or associated with the formation of cysts, papules, pustules, and abscesses. Most commonly it affects the face and neck area and, by exception, other anatomical regions, including genital area, palms, and soles. NC lesions might present with various patterns of distribution: unilateral, bilateral, linear, interrupted, segmental, or blaschkoid. {ECO:0000269|PubMed:27153399}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Arthrogryposis, Perthes disease, and upward gaze palsy (APUG) [MIM:614262]: An autosomal recessive, syndromic form of arthrogryposis, a disease characterized by persistent joints flexure or contracture. APUG patients manifest an unusual combination of arthrogryposis, upward gaze palsy, and avascular necrosis of the hip (Perthes disease). {ECO:0000269|PubMed:26633546}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q96F45",
+            "amigoid": "UniProtKB:Q96F45",
+            "gene": "ZNF503",
+            "mist": "0.777581447",
+            "saint_bfdr": "0",
+            "avg_spec": "34",
+            "fold_change": "93.5",
+            "uniprot_protein_id": "ZN503_HUMAN",
+            "uniprot_protein_description": "Zinc finger protein 503",
+            "uniprot_protein_function": "May function as a transcriptional repressor. {ECO:0000250}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q99567",
+            "amigoid": "UniProtKB:Q99567",
+            "gene": "NUP88",
+            "mist": "0.92724312",
+            "saint_bfdr": "0",
+            "avg_spec": "3.67",
+            "fold_change": "36.67",
+            "uniprot_protein_id": "NUP88_HUMAN",
+            "uniprot_protein_description": "Nuclear pore complex protein Nup88 (88 kDa nucleoporin) (Nucleoporin Nup88)",
+            "uniprot_protein_function": "Component of nuclear pore complex. {ECO:0000269|PubMed:30543681}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Fetal akinesia deformation sequence 4 (FADS4) [MIM:618393]: A clinically and genetically heterogeneous group of disorders with congenital malformations related to impaired fetal movement. Clinical features include fetal akinesia, intrauterine growth retardation, polyhydramnios, arthrogryposis, pulmonary hypoplasia, craniofacial abnormalities, and cryptorchidism. FADS4 inheritance is autosomal recessive. {ECO:0000269|PubMed:30543681}. Note=The disease is caused by mutations affecting the gene represented in this entry. Disease mechanism likely includes impaired formation of the neuromuscular junction. NUP88 silencing in vitro results in reduced levels of rapsyn, a key player in clustering of nicotinic acetylcholine receptors (nAChRs) at the neuromuscular junction. Decreased rapsyn levels have also been observed in a patient muscle biopsy. {ECO:0000269|PubMed:30543681}."
+        },
+        {
+            "id": "Q9BVL2",
+            "amigoid": "UniProtKB:Q9BVL2",
+            "gene": "NUP58",
+            "mist": "0.979586223",
+            "saint_bfdr": "0",
+            "avg_spec": "12",
+            "fold_change": "120",
+            "uniprot_protein_id": "NUP58_HUMAN",
+            "uniprot_protein_description": "Nucleoporin p58/p45 (58 kDa nucleoporin) (Nucleoporin-like protein 1)",
+            "uniprot_protein_function": "Component of the nuclear pore complex, a complex required for the trafficking across the nuclear membrane. {ECO:0000250|UniProtKB:P70581}.",
+            "structures": [
+                "4JO7",
+                "4JO9",
+                "4JQ5",
+                "5IJN",
+                "5IJO"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9NZL9",
+            "amigoid": "UniProtKB:Q9NZL9",
+            "gene": "MAT2B",
+            "mist": "0.978282655",
+            "saint_bfdr": "0",
+            "avg_spec": "4.33",
+            "fold_change": "43.33",
+            "uniprot_protein_id": "MAT2B_HUMAN",
+            "uniprot_protein_description": "Methionine adenosyltransferase 2 subunit beta (Methionine adenosyltransferase II beta) (MAT II beta) (Putative dTDP-4-keto-6-deoxy-D-glucose 4-reductase)",
+            "uniprot_protein_function": "Regulatory subunit of S-adenosylmethionine synthetase 2, an enzyme that catalyzes the formation of S-adenosylmethionine from methionine and ATP. Regulates MAT2A catalytic activity by changing its kinetic properties, increasing its affinity for L-methionine (PubMed:10644686, PubMed:23189196, PubMed:25075345). Can bind NADP (in vitro) (PubMed:23189196, PubMed:23425511). {ECO:0000269|PubMed:10644686, ECO:0000269|PubMed:23189196, ECO:0000269|PubMed:23425511, ECO:0000269|PubMed:25075345}.",
+            "structures": [
+                "2YDX",
+                "2YDY",
+                "4KTT",
+                "4KTV",
+                "4NDN"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9UBX5",
+            "amigoid": "UniProtKB:Q9UBX5",
+            "gene": "FBLN5",
+            "mist": "0.992002193",
+            "saint_bfdr": "0.01",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "FBLN5_HUMAN",
+            "uniprot_protein_description": "Fibulin-5 (FIBL-5) (Developmental arteries and neural crest EGF-like protein) (Dance) (Urine p50 protein) (UP50)",
+            "uniprot_protein_function": "Essential for elastic fiber formation, is involved in the assembly of continuous elastin (ELN) polymer and promotes the interaction of microfibrils and ELN (PubMed:18185537). Stabilizes and organizes elastic fibers in the skin, lung and vasculature (By similarity). Promotes adhesion of endothelial cells through interaction of integrins and the RGD motif. Vascular ligand for integrin receptors which may play a role in vascular development and remodeling (PubMed:10428823). May act as an adapter that mediates the interaction between FBN1 and ELN (PubMed:17255108). {ECO:0000250|UniProtKB:Q9WVH9, ECO:0000269|PubMed:10428823, ECO:0000269|PubMed:17255108, ECO:0000269|PubMed:18185537}.",
+            "structures": [],
+            "uniprot_function_in_disease": "Neuropathy, hereditary, with or without age-related macular degeneration (HNARMD) [MIM:608895]: An autosomal dominant neuropathy of the Charcot-Marie-Tooth disease group, characterized by distal muscle weakness and atrophy variably affecting the lower and upper limbs. Distal sensory impairment and decreased nerve conduction velocities are present in most but not all patients. Additional variable features are age-related macular degeneration, joint hypermobility, and hyperelastic skin. {ECO:0000269|PubMed:21576112, ECO:0000269|PubMed:23328402}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Cutis laxa, autosomal dominant, 2 (ADCL2) [MIM:614434]: A connective tissue disorder characterized by loose, hyperextensible skin with decreased resilience and elasticity leading to a premature aged appearance. Face, hands, feet, joints, and torso may be differentially affected. Additional variable clinical features are gastrointestinal diverticula, hernia, and genital prolapse. Rare manifestations are pulmonary artery stenosis, aortic aneurysm, bronchiectasis, and emphysema. {ECO:0000269|PubMed:12618961}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Cutis laxa, autosomal recessive, 1A (ARCL1A) [MIM:219100]: A connective tissue disorder characterized by loose, hyperextensible skin with decreased resilience and elasticity leading to a premature aged appearance. Face, hands, feet, joints, and torso may be differentially affected. The clinical spectrum of autosomal recessive cutis laxa is highly heterogeneous with respect to organ involvement and severity. Type I autosomal recessive cutis laxa is a specific, life-threatening disorder with organ involvement, lung atelectasis and emphysema, diverticula of the gastrointestinal and genitourinary systems, and vascular anomalies. Associated cranial anomalies, late closure of the fontanel, joint laxity, hip dislocation, and inguinal hernia have been observed but are uncommon. {ECO:0000269|PubMed:12189163, ECO:0000269|PubMed:16652333, ECO:0000269|PubMed:16691202, ECO:0000269|PubMed:17035250, ECO:0000269|PubMed:18185537, ECO:0000269|PubMed:20007835, ECO:0000269|PubMed:20599547}. Note=The disease is caused by mutations affecting the gene represented in this entry. Mutations affecting this gene can modify the phenotype of diseases caused by ELN mutations. {ECO:0000269|PubMed:19194475}.; DISEASE: Macular degeneration, age-related, 3 (ARMD3) [MIM:608895]: A form of age-related macular degeneration, a multifactorial eye disease and the most common cause of irreversible vision loss in the developed world. In most patients, the disease is manifest as ophthalmoscopically visible yellowish accumulations of protein and lipid that lie beneath the retinal pigment epithelium and within an elastin-containing structure known as Bruch membrane. {ECO:0000269|PubMed:15269314, ECO:0000269|PubMed:16652333, ECO:0000269|PubMed:20007835, ECO:0000269|PubMed:20599547}. Note=Disease susceptibility is associated with variations affecting the gene represented in this entry."
+        }
+    ],
+    "nsp10 (SARS-CoV2)": [
         {
             "id": "O94973",
             "amigoid": "UniProtKB:O94973",
@@ -1531,7 +3248,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 nsp11": [
+    "nsp11 (SARS-CoV2)": [
         {
             "id": "O75347",
             "amigoid": "UniProtKB:O75347",
@@ -1549,7 +3266,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 nsp12": [
+    "nsp12 (SARS-CoV2)": [
         {
             "id": "A3KN83",
             "amigoid": "UniProtKB:A3KN83",
@@ -1869,7 +3586,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 nsp13": [
+    "nsp13 (SARS-CoV2)": [
         {
             "id": "A7MCY6",
             "amigoid": "UniProtKB:A7MCY6",
@@ -2536,7 +4253,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 nsp14": [
+    "nsp14 (SARS-CoV2)": [
         {
             "id": "P06280",
             "amigoid": "UniProtKB:P06280",
@@ -2624,7 +4341,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 nsp15": [
+    "nsp15 (SARS-CoV2)": [
         {
             "id": "P61970",
             "amigoid": "UniProtKB:P61970",
@@ -2690,2017 +4407,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 nsp2": [
-        {
-            "id": "O14975",
-            "amigoid": "UniProtKB:O14975",
-            "gene": "SLC27A2",
-            "mist": "0.915803486",
-            "saint_bfdr": "0",
-            "avg_spec": "4.67",
-            "fold_change": "46.67",
-            "uniprot_protein_id": "S27A2_HUMAN",
-            "uniprot_protein_description": "Very long-chain acyl-CoA synthetase (VLACS) (VLCS) (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty acid transport protein 2) (FATP-2) (Fatty-acid-coenzyme A ligase, very long-chain 1) (Long-chain-fatty-acid--CoA ligase) (EC 6.2.1.3) (Phytanate--CoA ligase) (EC 6.2.1.24) (Solute carrier family 27 member 2) (THCA-CoA ligase) (EC 6.2.1.7) (Very long-chain-fatty-acid-CoA ligase)",
-            "uniprot_protein_function": "Acyl CoA synthetase that activates long-chain and very long-chain fatty acids (VLCFAs) by catalyzing the formation of fatty acyl-CoA (PubMed:10198260, PubMed:10749848, PubMed:11980911). Can also activate branched-chain fatty acids such as phytanic acid and pristanic acid (PubMed:10198260). Does not activate C24 bile acids, cholate and chenodeoxycholate (PubMed:11980911). In vitro, activates 3-alpha,7-alpha,12-alpha-trihydroxy-5-beta-cholestanate (THCA), the C27 precursor of cholic acid deriving from the de novo synthesis from cholesterol (PubMed:11980911). Exhibits long-chain fatty acids (LCFA) transport activity and plays an important role in hepatic fatty acid uptake (PubMed:20530735). {ECO:0000269|PubMed:10198260, ECO:0000269|PubMed:10749848, ECO:0000269|PubMed:11980911, ECO:0000269|PubMed:20530735}.; FUNCTION: Isoform 1 exhibits both long-chain fatty acids (LCFA) transport activity and acyl CoA synthetase towards very long-chain fatty acids (PubMed:21768100). Shows a preference for generating CoA derivatives of n-3 fatty acids, which are preferentially trafficked into phosphatidylinositol (PubMed:21768100). {ECO:0000269|PubMed:21768100}.; FUNCTION: Isoform 2 exhibits long-chain fatty acids (LCFA) transport activity but lacks acyl CoA synthetase towards very long-chain fatty acids. {ECO:0000269|PubMed:21768100}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "O60573",
-            "amigoid": "UniProtKB:O60573",
-            "gene": "EIF4E2",
-            "mist": "0.806833749",
-            "saint_bfdr": "0",
-            "avg_spec": "10.33",
-            "fold_change": "103.33",
-            "uniprot_protein_id": "IF4E2_HUMAN",
-            "uniprot_protein_description": "Eukaryotic translation initiation factor 4E type 2 (eIF-4E type 2) (eIF4E type 2) (Eukaryotic translation initiation factor 4E homologous protein) (Eukaryotic translation initiation factor 4E-like 3) (eIF4E-like protein 4E-LP) (mRNA cap-binding protein 4EHP) (h4EHP) (mRNA cap-binding protein type 3)",
-            "uniprot_protein_function": "Recognizes and binds the 7-methylguanosine-containing mRNA cap during an early step in the initiation (PubMed:9582349, PubMed:17368478, PubMed:25624349). Acts as a repressor of translation initiation (PubMed:22751931). In contrast to EIF4E, it is unable to bind eIF4G (EIF4G1, EIF4G2 or EIF4G3), suggesting that it acts by competing with EIF4E and block assembly of eIF4F at the cap (By similarity). {ECO:0000250|UniProtKB:Q8BMB3, ECO:0000269|PubMed:17368478, ECO:0000269|PubMed:22751931, ECO:0000269|PubMed:25624349, ECO:0000269|PubMed:9582349}.",
-            "structures": [
-                "2JGB",
-                "2JGC",
-                "5NVK",
-                "5NVL",
-                "5NVM",
-                "5NVN",
-                "5XLN"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P16435",
-            "amigoid": "UniProtKB:P16435",
-            "gene": "POR",
-            "mist": "0.710961769",
-            "saint_bfdr": "0",
-            "avg_spec": "3.33",
-            "fold_change": "33.33",
-            "uniprot_protein_id": "NCPR_HUMAN",
-            "uniprot_protein_description": "NADPH--cytochrome P450 reductase (CPR) (P450R) (EC 1.6.2.4)",
-            "uniprot_protein_function": "This enzyme is required for electron transfer from NADP to cytochrome P450 in microsomes. It can also provide electron transfer to heme oxygenase and cytochrome B5. {ECO:0000255|HAMAP-Rule:MF_03212}.",
-            "structures": [
-                "1B1C",
-                "3FJO",
-                "3QE2",
-                "3QFC",
-                "3QFR",
-                "3QFS",
-                "3QFT",
-                "5EMN",
-                "5FA6"
-            ],
-            "uniprot_function_in_disease": "Antley-Bixler syndrome, with genital anomalies and disordered steroidogenesis (ABS1) [MIM:201750]: A disease characterized by the association of Antley-Bixler syndrome with steroidogenesis defects and abnormal genitalia. Antley-Bixler syndrome is characterized by craniosynostosis, radiohumeral synostosis present from the perinatal period, midface hypoplasia, choanal stenosis or atresia, femoral bowing and multiple joint contractures. {ECO:0000269|PubMed:14758361, ECO:0000269|PubMed:15264278, ECO:0000269|PubMed:15483095}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Disordered steroidogenesis due to cytochrome P450 oxidoreductase deficiency (DISPORD) [MIM:613571]: A disorder resulting in a rare variant of congenital adrenal hyperplasia, with apparent combined P450C17 and P450C21 deficiency and accumulation of steroid metabolites. Affected girls are born with ambiguous genitalia, but their circulating androgens are low and virilization does not progress. Conversely, affected boys are sometimes born undermasculinized. Boys and girls can present with bone malformations, in some cases resembling the pattern seen in patients with Antley-Bixler syndrome. {ECO:0000269|PubMed:14758361, ECO:0000269|PubMed:15220035}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P52306",
-            "amigoid": "UniProtKB:P52306",
-            "gene": "RAP1GDS1",
-            "mist": "0.991635744",
-            "saint_bfdr": "0",
-            "avg_spec": "12",
-            "fold_change": "120",
-            "uniprot_protein_id": "GDS1_HUMAN",
-            "uniprot_protein_description": "Rap1 GTPase-GDP dissociation stimulator 1 (Exchange factor smgGDS) (SMG GDS protein) (SMG P21 stimulatory GDP/GTP exchange protein)",
-            "uniprot_protein_function": "Stimulates GDP/GTP exchange reaction of a group of small GTP-binding proteins (G proteins) including Rap1a/Rap1b, RhoA, RhoB and KRas, by stimulating the dissociation of GDP from and the subsequent binding of GTP to each small G protein.",
-            "structures": [
-                "5XGC",
-                "5ZHX"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q2M389",
-            "amigoid": "UniProtKB:Q2M389",
-            "gene": "WASHC4",
-            "mist": "0.972115182",
-            "saint_bfdr": "0",
-            "avg_spec": "3.67",
-            "fold_change": "36.67",
-            "uniprot_protein_id": "WASC4_HUMAN",
-            "uniprot_protein_description": "WASH complex subunit 4 (Strumpellin and WASH-interacting protein) (SWIP) (WASH complex subunit SWIP)",
-            "uniprot_protein_function": "Acts at least in part as component of the WASH core complex whose assembly at the surface of endosomes seems to inhibit WASH nucleation-promoting factor (NPF) activity in recruiting and activating the Arp2/3 complex to induce actin polymerization, and which is involved in the regulation of the fission of tubules that serve as transport intermediates during endosome sorting (PubMed:19922875, PubMed:20498093). {ECO:0000250|UniProtKB:Q3UMB9, ECO:0000303|PubMed:21498477, ECO:0000305|PubMed:19922875, ECO:0000305|PubMed:20498093}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Mental retardation, autosomal recessive 43 (MRT43) [MIM:615817]: A disorder characterized by significantly below average general intellectual functioning associated with impairments in adaptive behavior and manifested during the developmental period. {ECO:0000269|PubMed:21498477}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q5T1M5",
-            "amigoid": "UniProtKB:Q5T1M5",
-            "gene": "FKBP15",
-            "mist": "0.988056696",
-            "saint_bfdr": "0",
-            "avg_spec": "19.67",
-            "fold_change": "196.67",
-            "uniprot_protein_id": "FKB15_HUMAN",
-            "uniprot_protein_description": "FK506-binding protein 15 (FKBP-15) (133 kDa FK506-binding protein) (133 kDa FKBP) (FKBP-133) (WASP- and FKBP-like protein) (WAFL)",
-            "uniprot_protein_function": "May be involved in the cytoskeletal organization of neuronal growth cones. Seems to be inactive as a PPIase (By similarity). Involved in the transport of early endosomes at the level of transition between microfilament-based and microtubule-based movement. {ECO:0000250, ECO:0000269|PubMed:19121306}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q6Y7W6",
-            "amigoid": "UniProtKB:Q6Y7W6",
-            "gene": "GIGYF2",
-            "mist": "0.767224555",
-            "saint_bfdr": "0",
-            "avg_spec": "40.33",
-            "fold_change": "403.33",
-            "uniprot_protein_id": "GGYF2_HUMAN",
-            "uniprot_protein_description": "GRB10-interacting GYF protein 2 (PERQ amino acid-rich with GYF domain-containing protein 2) (Trinucleotide repeat-containing gene 15 protein)",
-            "uniprot_protein_function": "Key component of the 4EHP-GYF2 complex, a multiprotein complex that acts as a repressor of translation initiation (PubMed:22751931). In 4EHP-GYF2 the complex, acts as a factor that bridges EIF4E2 to ZFP36/TTP, linking translation repression with mRNA decay (By similarity). May act cooperatively with GRB10 to regulate tyrosine kinase receptor signaling, including IGF1 and insulin receptors (PubMed:12771153). {ECO:0000250|UniProtKB:Q6Y7W8, ECO:0000269|PubMed:12771153, ECO:0000269|PubMed:22751931}.",
-            "structures": [
-                "5NVL",
-                "5NVM"
-            ],
-            "uniprot_function_in_disease": "Parkinson disease 11 (PARK11) [MIM:607688]: A complex neurodegenerative disorder characterized by bradykinesia, resting tremor, muscular rigidity and postural instability, as well as by a clinically significant response to treatment with levodopa. The pathology involves the loss of dopaminergic neurons in the substantia nigra and the presence of Lewy bodies (intraneuronal accumulations of aggregated proteins), in surviving neurons in various areas of the brain. {ECO:0000269|PubMed:18358451, ECO:0000269|PubMed:20060621, ECO:0000269|PubMed:20178831, ECO:0000269|PubMed:26134514}. Note=Disease susceptibility may be associated with variations affecting the gene represented in this entry. Its association with Parkinson disease is however unclear. According to a number of studies, variations affecting this gene are not a frequent cause of Parkinson disease, suggesting that GIGYF2 does not play a major role in Parkinson disease etiology (PubMed:19279319, PubMed:19429085, PubMed:19638301, PubMed:19482505, PubMed:20004041, PubMed:19321232, PubMed:20060621). {ECO:0000269|PubMed:19279319, ECO:0000269|PubMed:19321232, ECO:0000269|PubMed:19429085, ECO:0000269|PubMed:19482505, ECO:0000269|PubMed:19638301, ECO:0000269|PubMed:20004041, ECO:0000269|PubMed:20060621}."
-        }
-    ],
-    "SARS-CoV2 nsp4": [
-        {
-            "id": "P14735",
-            "amigoid": "UniProtKB:P14735",
-            "gene": "IDE",
-            "mist": "0.918031442",
-            "saint_bfdr": "0",
-            "avg_spec": "11.33",
-            "fold_change": "113.33",
-            "uniprot_protein_id": "IDE_HUMAN",
-            "uniprot_protein_description": "Insulin-degrading enzyme (EC 3.4.24.56) (Abeta-degrading protease) (Insulin protease) (Insulinase) (Insulysin)",
-            "uniprot_protein_function": "Plays a role in the cellular breakdown of insulin, APP peptides, IAPP peptides, glucagon, bradykinin, kallidin and other peptides, and thereby plays a role in intercellular peptide signaling (PubMed:2293021, PubMed:10684867, PubMed:26968463, PubMed:17051221, PubMed:17613531, PubMed:18986166, PubMed:19321446, PubMed:23922390, PubMed:24847884, PubMed:26394692, PubMed:29596046). Substrate binding induces important conformation changes, making it possible to bind and degrade larger substrates, such as insulin (PubMed:23922390, PubMed:26394692, PubMed:29596046). Contributes to the regulation of peptide hormone signaling cascades and regulation of blood glucose homeostasis via its role in the degradation of insulin, glucagon and IAPP (By similarity). Plays a role in the degradation and clearance of APP-derived amyloidogenic peptides that are secreted by neurons and microglia (PubMed:9830016, PubMed:26394692) (Probable). Involved in antigen processing. Produces both the N terminus and the C terminus of MAGEA3-derived antigenic peptide (EVDPIGHLY) that is presented to cytotoxic T lymphocytes by MHC class I. {ECO:0000250|UniProtKB:Q9JHR7, ECO:0000269|PubMed:10684867, ECO:0000269|PubMed:17051221, ECO:0000269|PubMed:17613531, ECO:0000269|PubMed:18986166, ECO:0000269|PubMed:19321446, ECO:0000269|PubMed:20364150, ECO:0000269|PubMed:2293021, ECO:0000269|PubMed:23922390, ECO:0000269|PubMed:24847884, ECO:0000269|PubMed:26394692, ECO:0000269|PubMed:26968463, ECO:0000269|PubMed:29596046, ECO:0000269|PubMed:9830016, ECO:0000305|PubMed:23922390}.; FUNCTION: (Microbial infection) The membrane-associated isoform acts as an entry receptor for varicella-zoster virus (VZV). {ECO:0000269|PubMed:17055432, ECO:0000269|PubMed:17553876}.",
-            "structures": [
-                "2G47",
-                "2G48",
-                "2G49",
-                "2G54",
-                "2G56",
-                "2JBU",
-                "2JG4",
-                "2WBY",
-                "2WC0",
-                "2WK3",
-                "2YPU",
-                "3CWW",
-                "3E4A",
-                "3E4Z",
-                "3E50",
-                "3H44",
-                "3HGZ",
-                "3N56",
-                "3N57",
-                "3OFI",
-                "3QZ2",
-                "4DTT",
-                "4DWK",
-                "4GS8",
-                "4GSC",
-                "4GSF",
-                "4IFH",
-                "4IOF",
-                "4LTE",
-                "4M1C",
-                "4NXO",
-                "4PES",
-                "4PF7",
-                "4PF9",
-                "4PFC",
-                "4QIA",
-                "4RAL",
-                "4RE9",
-                "5CJO",
-                "5UOE",
-                "5WOB",
-                "6B3Q",
-                "6B70",
-                "6B7Y",
-                "6B7Z",
-                "6BF6",
-                "6BF7",
-                "6BF8",
-                "6BF9",
-                "6BFC",
-                "6BYZ",
-                "6EDS",
-                "6MQ3"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P62072",
-            "amigoid": "UniProtKB:P62072",
-            "gene": "TIMM10",
-            "mist": "0.961471982",
-            "saint_bfdr": "0",
-            "avg_spec": "5.33",
-            "fold_change": "53.33",
-            "uniprot_protein_id": "TIM10_HUMAN",
-            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim10",
-            "uniprot_protein_function": "Mitochondrial intermembrane chaperone that participates in the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. May also be required for the transfer of beta-barrel precursors from the TOM complex to the sorting and assembly machinery (SAM complex) of the outer membrane. Acts as a chaperone-like protein that protects the hydrophobic precursors from aggregation and guide them through the mitochondrial intermembrane space. {ECO:0000269|PubMed:14726512}.",
-            "structures": [
-                "2BSK"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q2TAA5",
-            "amigoid": "UniProtKB:Q2TAA5",
-            "gene": "ALG11",
-            "mist": "0.72745605",
-            "saint_bfdr": "0",
-            "avg_spec": "7",
-            "fold_change": "70",
-            "uniprot_protein_id": "ALG11_HUMAN",
-            "uniprot_protein_description": "GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase (EC 2.4.1.131) (Asparagine-linked glycosylation protein 11 homolog) (Glycolipid 2-alpha-mannosyltransferase)",
-            "uniprot_protein_function": "Mannosyltransferase involved in the last steps of the synthesis of Man5GlcNAc(2)-PP-dolichol core oligosaccharide on the cytoplasmic face of the endoplasmic reticulum. Catalyzes the addition of the 4th and 5th mannose residues to the dolichol-linked oligosaccharide chain. {ECO:0000269|PubMed:20080937}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Congenital disorder of glycosylation 1P (CDG1P) [MIM:613661]: A form of congenital disorder of glycosylation, a multisystem disorder caused by a defect in glycoprotein biosynthesis and characterized by under-glycosylated serum glycoproteins. Congenital disorders of glycosylation result in a wide variety of clinical features, such as defects in the nervous system development, psychomotor retardation, dysmorphic features, hypotonia, coagulation disorders, and immunodeficiency. The broad spectrum of features reflects the critical role of N-glycoproteins during embryonic development, differentiation, and maintenance of cell functions. {ECO:0000269|PubMed:20080937, ECO:0000269|PubMed:22213132}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q8TEM1",
-            "amigoid": "UniProtKB:Q8TEM1",
-            "gene": "NUP210",
-            "mist": "0.710174697",
-            "saint_bfdr": "0",
-            "avg_spec": "6.33",
-            "fold_change": "63.33",
-            "uniprot_protein_id": "PO210_HUMAN",
-            "uniprot_protein_description": "Nuclear pore membrane glycoprotein 210 (Nuclear pore protein gp210) (Nuclear envelope pore membrane protein POM 210) (POM210) (Nucleoporin Nup210) (Pore membrane protein of 210 kDa)",
-            "uniprot_protein_function": "Nucleoporin essential for nuclear pore assembly and fusion, nuclear pore spacing, as well as structural integrity. {ECO:0000269|PubMed:14517331}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9BSF4",
-            "amigoid": "UniProtKB:Q9BSF4",
-            "gene": "TIMM29",
-            "mist": "0.986980311",
-            "saint_bfdr": "0",
-            "avg_spec": "7.67",
-            "fold_change": "76.67",
-            "uniprot_protein_id": "TIM29_HUMAN",
-            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim29 (TIM29)",
-            "uniprot_protein_function": "Component of the TIM22 complex, a complex that mediates the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. The TIM22 complex forms a twin-pore translocase that uses the membrane potential as the external driving force. Required for the stability of the TIM22 complex and functions in the assembly of the TIMM22 protein into the TIM22 complex. May facilitate cooperation between TIM22 and TOM complexes by interacting with TOMM40. {ECO:0000269|PubMed:27554484, ECO:0000269|PubMed:27718247}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9NVH1",
-            "amigoid": "UniProtKB:Q9NVH1",
-            "gene": "DNAJC11",
-            "mist": "0.726866873",
-            "saint_bfdr": "0",
-            "avg_spec": "11.33",
-            "fold_change": "113.33",
-            "uniprot_protein_id": "DJC11_HUMAN",
-            "uniprot_protein_description": "DnaJ homolog subfamily C member 11",
-            "uniprot_protein_function": "[Isoform 1]: Required for mitochondrial inner membrane organization. Seems to function through its association with the MICOS complex and the mitochondrial outer membrane sorting assembly machinery (SAM) complex. {ECO:0000269|PubMed:25111180, ECO:0000305}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9Y5J6",
-            "amigoid": "UniProtKB:Q9Y5J6",
-            "gene": "TIMM10B",
-            "mist": "0.985104055",
-            "saint_bfdr": "0",
-            "avg_spec": "3",
-            "fold_change": "30",
-            "uniprot_protein_id": "T10B_HUMAN",
-            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim10 B (Fracture callus protein 1) (FxC1) (Mitochondrial import inner membrane translocase subunit Tim9 B) (TIMM10B) (Tim10b)",
-            "uniprot_protein_function": "Component of the TIM22 complex, a complex that mediates the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. The TIM22 complex forms a twin-pore translocase that uses the membrane potential as the external driving force. In the TIM22 complex, it may act as a docking point for the soluble 70 kDa complex that guides the target proteins in transit through the aqueous mitochondrial intermembrane space. {ECO:0000269|PubMed:14726512}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9Y5J7",
-            "amigoid": "UniProtKB:Q9Y5J7",
-            "gene": "TIMM9",
-            "mist": "0.913806284",
-            "saint_bfdr": "0",
-            "avg_spec": "4",
-            "fold_change": "40",
-            "uniprot_protein_id": "TIM9_HUMAN",
-            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim9",
-            "uniprot_protein_function": "Mitochondrial intermembrane chaperone that participates in the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. May also be required for the transfer of beta-barrel precursors from the TOM complex to the sorting and assembly machinery (SAM complex) of the outer membrane. Acts as a chaperone-like protein that protects the hydrophobic precursors from aggregation and guide them through the mitochondrial intermembrane space. {ECO:0000269|PubMed:14726512}.",
-            "structures": [
-                "2BSK"
-            ],
-            "uniprot_function_in_disease": ""
-        }
-    ],
-    "SARS-CoV2 nsp5": [
-        {
-            "id": "Q92769",
-            "amigoid": "UniProtKB:Q92769",
-            "gene": "HDAC2",
-            "mist": "0.993708403",
-            "saint_bfdr": "0.01",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "HDAC2_HUMAN",
-            "uniprot_protein_description": "Histone deacetylase 2 (HD2) (EC 3.5.1.98)",
-            "uniprot_protein_function": "Responsible for the deacetylation of lysine residues on the N-terminal part of the core histones (H2A, H2B, H3 and H4). Histone deacetylation gives a tag for epigenetic repression and plays an important role in transcriptional regulation, cell cycle progression and developmental events. Histone deacetylases act via the formation of large multiprotein complexes. Forms transcriptional repressor complexes by associating with MAD, SIN3, YY1 and N-COR. Interacts in the late S-phase of DNA-replication with DNMT1 in the other transcriptional repressor complex composed of DNMT1, DMAP1, PCNA, CAF1. Deacetylates TSHZ3 and regulates its transcriptional repressor activity. Component of a RCOR/GFI/KDM1A/HDAC complex that suppresses, via histone deacetylase (HDAC) recruitment, a number of genes implicated in multilineage blood cell development. May be involved in the transcriptional repression of circadian target genes, such as PER1, mediated by CRY1 through histone deacetylation. Involved in MTA1-mediated transcriptional corepression of TFF1 and CDKN1A. {ECO:0000269|PubMed:19343227, ECO:0000269|PubMed:21965678}.",
-            "structures": [
-                "3MAX",
-                "4LXZ",
-                "4LY1",
-                "5IWG",
-                "5IX0",
-                "6G3O"
-            ],
-            "uniprot_function_in_disease": ""
-        }
-    ],
-    "SARS-CoV2 nsp5_C145A": [
-        {
-            "id": "P07203",
-            "amigoid": "UniProtKB:P07203",
-            "gene": "GPX1",
-            "mist": "0.97684084",
-            "saint_bfdr": "0",
-            "avg_spec": "15.67",
-            "fold_change": "156.67",
-            "uniprot_protein_id": "GPX1_HUMAN",
-            "uniprot_protein_description": "Glutathione peroxidase 1 (GPx-1) (GSHPx-1) (EC 1.11.1.9) (Cellular glutathione peroxidase)",
-            "uniprot_protein_function": "Protects the hemoglobin in erythrocytes from oxidative breakdown.",
-            "structures": [
-                "2F8A"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9NXH9",
-            "amigoid": "UniProtKB:Q9NXH9",
-            "gene": "TRMT1",
-            "mist": "0.984315505",
-            "saint_bfdr": "0",
-            "avg_spec": "7.67",
-            "fold_change": "76.67",
-            "uniprot_protein_id": "TRM1_HUMAN",
-            "uniprot_protein_description": "tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)",
-            "uniprot_protein_function": "Dimethylates a single guanine residue at position 26 of most tRNAs using S-adenosyl-L-methionine as donor of the methyl groups.",
-            "structures": [],
-            "uniprot_function_in_disease": "Intellectual developmental disorder, autosomal recessive 68 (MRT68) [MIM:618302]: A form of mental retardation, a disorder characterized by significantly below average general intellectual functioning associated with impairments in adaptive behavior and manifested during the developmental period. {ECO:0000269|PubMed:21937992, ECO:0000269|PubMed:26308914, ECO:0000269|PubMed:30289604}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        }
-    ],
-    "SARS-CoV2 nsp6": [
-        {
-            "id": "O75964",
-            "amigoid": "UniProtKB:O75964",
-            "gene": "ATP5MG",
-            "mist": "0.717265558",
-            "saint_bfdr": "0",
-            "avg_spec": "6.67",
-            "fold_change": "66.67",
-            "uniprot_protein_id": "ATP5L_HUMAN",
-            "uniprot_protein_description": "ATP synthase subunit g, mitochondrial (ATPase subunit g) (ATP synthase membrane subunit g)",
-            "uniprot_protein_function": "Mitochondrial membrane ATP synthase (F(1)F(0) ATP synthase or Complex V) produces ATP from ADP in the presence of a proton gradient across the membrane which is generated by electron transport complexes of the respiratory chain. F-type ATPases consist of two structural domains, F(1) - containing the extramembraneous catalytic core, and F(0) - containing the membrane proton channel, linked together by a central stalk and a peripheral stalk. During catalysis, ATP synthesis in the catalytic domain of F(1) is coupled via a rotary mechanism of the central stalk subunits to proton translocation. Part of the complex F(0) domain. Minor subunit located with subunit a in the membrane.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q15904",
-            "amigoid": "UniProtKB:Q15904",
-            "gene": "ATP6AP1",
-            "mist": "0.989106922",
-            "saint_bfdr": "0",
-            "avg_spec": "5",
-            "fold_change": "50",
-            "uniprot_protein_id": "VAS1_HUMAN",
-            "uniprot_protein_description": "V-type proton ATPase subunit S1 (V-ATPase subunit S1) (Protein XAP-3) (V-ATPase Ac45 subunit) (V-ATPase S1 accessory protein) (Vacuolar proton pump subunit S1)",
-            "uniprot_protein_function": "Accessory subunit of the proton-transporting vacuolar (V)-ATPase protein pump, which is required for luminal acidification of secretory vesicles. Guides the V-type ATPase into specialized subcellular compartments, such as neuroendocrine regulated secretory vesicles or the ruffled border of the osteoclast, thereby regulating its activity. Involved in membrane trafficking and Ca(2+)-dependent membrane fusion. May play a role in the assembly of the V-type ATPase complex. In aerobic conditions, involved in intracellular iron homeostasis, thus triggering the activity of Fe(2+) prolyl hydroxylase (PHD) enzymes, and leading to HIF1A hydroxylation and subsequent proteasomal degradation (PubMed:28296633). {ECO:0000269|PubMed:28296633, ECO:0000305|PubMed:27231034}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Immunodeficiency 47 (IMD47) [MIM:300972]: A complex immunodeficiency syndrome characterized by hypogammaglobulinemia, recurrent bacterial infections, defective glycosylation of serum proteins, and liver disease with neonatal jaundice and hepatosplenomegaly. Some patients may also have neurologic features, including seizures, mild intellectual disability, and behavioral abnormalities. Inheritance is X-linked recessive. {ECO:0000269|PubMed:27231034}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q99720",
-            "amigoid": "UniProtKB:Q99720",
-            "gene": "SIGMAR1",
-            "mist": "0.842213253",
-            "saint_bfdr": "0",
-            "avg_spec": "5",
-            "fold_change": "50",
-            "uniprot_protein_id": "SGMR1_HUMAN",
-            "uniprot_protein_description": "Sigma non-opioid intracellular receptor 1 (Aging-associated gene 8 protein) (SR31747-binding protein) (SR-BP) (Sigma 1-type opioid receptor) (SIG-1R) (Sigma1-receptor) (Sigma1R) (hSigmaR1)",
-            "uniprot_protein_function": "Functions in lipid transport from the endoplasmic reticulum and is involved in a wide array of cellular functions probably through regulation of the biogenesis of lipid microdomains at the plasma membrane. Involved in the regulation of different receptors it plays a role in BDNF signaling and EGF signaling. Also regulates ion channels like the potassium channel and could modulate neurotransmitter release. Plays a role in calcium signaling through modulation together with ANK2 of the ITP3R-dependent calcium efflux at the endoplasmic reticulum. Plays a role in several other cell functions including proliferation, survival and death. Originally identified for its ability to bind various psychoactive drugs it is involved in learning processes, memory and mood alteration (PubMed:16472803, PubMed:9341151). Necessary for proper mitochondrial axonal transport in motor neurons, in particular the retrograde movement of mitochondria. Plays a role in protecting cells against oxidative stress-induced cell death via its interaction with RNF112 (By similarity). {ECO:0000250|UniProtKB:O55242, ECO:0000269|PubMed:16472803, ECO:0000269|PubMed:9341151}.",
-            "structures": [
-                "5HK1",
-                "5HK2",
-                "6DJZ",
-                "6DK0",
-                "6DK1"
-            ],
-            "uniprot_function_in_disease": "Amyotrophic lateral sclerosis 16, juvenile (ALS16) [MIM:614373]: A neurodegenerative disorder affecting upper motor neurons in the brain and lower motor neurons in the brain stem and spinal cord, resulting in fatal paralysis. Sensory abnormalities are absent. The pathologic hallmarks of the disease include pallor of the corticospinal tract due to loss of motor neurons, presence of ubiquitin-positive inclusions within surviving motor neurons, and deposition of pathologic aggregates. The etiology of amyotrophic lateral sclerosis is likely to be multifactorial, involving both genetic and environmental factors. The disease is inherited in 5-10% of the cases. {ECO:0000269|PubMed:21842496}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Distal spinal muscular atrophy, autosomal recessive, 2 (DSMA2) [MIM:605726]: An autosomal recessive neuromuscular disorder characterized by onset of distal muscle weakness and wasting affecting the lower and upper limbs in the first decade. There is no sensory involvement. {ECO:0000269|PubMed:26078401, ECO:0000269|PubMed:27629094}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q9H7F0",
-            "amigoid": "UniProtKB:Q9H7F0",
-            "gene": "ATP13A3",
-            "mist": "0.805525853",
-            "saint_bfdr": "0",
-            "avg_spec": "5.67",
-            "fold_change": "56.67",
-            "uniprot_protein_id": "AT133_HUMAN",
-            "uniprot_protein_description": "Probable cation-transporting ATPase 13A3 (EC 7.2.2.-) (ATPase family homolog up-regulated in senescence cells 1)",
-            "uniprot_protein_function": "",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        }
-    ],
-    "SARS-CoV2 nsp7": [
-        {
-            "id": "O00116",
-            "amigoid": "UniProtKB:O00116",
-            "gene": "AGPS",
-            "mist": "0.826490325",
-            "saint_bfdr": "0",
-            "avg_spec": "7.67",
-            "fold_change": "76.67",
-            "uniprot_protein_id": "ADAS_HUMAN",
-            "uniprot_protein_description": "Alkyldihydroxyacetonephosphate synthase, peroxisomal (Alkyl-DHAP synthase) (EC 2.5.1.26) (Aging-associated gene 5 protein) (Alkylglycerone-phosphate synthase)",
-            "uniprot_protein_function": "Catalyzes the exchange of the acyl chain in acyl-dihydroxyacetonephosphate (acyl-DHAP) for a long chain fatty alcohol, yielding the first ether linked intermediate, i.e. alkyl-dihydroxyacetonephosphate (alkyl-DHAP), in the pathway of ether lipid biosynthesis. {ECO:0000269|PubMed:8399344, ECO:0000269|PubMed:9553082}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Rhizomelic chondrodysplasia punctata 3 (RCDP3) [MIM:600121]: A form of rhizomelic chondrodysplasia punctata, a disease characterized by severely disturbed endochondral bone formation, rhizomelic shortening of femur and humerus, vertebral disorders, dwarfism, cataract, cutaneous lesions, facial dysmorphism, and severe mental retardation with spasticity. {ECO:0000269|PubMed:11152660, ECO:0000269|PubMed:21990100, ECO:0000269|PubMed:9553082}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "O43169",
-            "amigoid": "UniProtKB:O43169",
-            "gene": "CYB5B",
-            "mist": "0.80351019",
-            "saint_bfdr": "0",
-            "avg_spec": "3.33",
-            "fold_change": "33.33",
-            "uniprot_protein_id": "CYB5B_HUMAN",
-            "uniprot_protein_description": "Cytochrome b5 type B (Cytochrome b5 outer mitochondrial membrane isoform)",
-            "uniprot_protein_function": "Cytochrome b5 is a membrane-bound hemoprotein functioning as an electron carrier for several membrane-bound oxygenases. {ECO:0000250}.",
-            "structures": [
-                "3NER"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "O95573",
-            "amigoid": "UniProtKB:O95573",
-            "gene": "ACSL3",
-            "mist": "0.897068932",
-            "saint_bfdr": "0",
-            "avg_spec": "4.33",
-            "fold_change": "43.33",
-            "uniprot_protein_id": "ACSL3_HUMAN",
-            "uniprot_protein_description": "Long-chain-fatty-acid--CoA ligase 3 (EC 6.2.1.3) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Long-chain acyl-CoA synthetase 3) (LACS 3)",
-            "uniprot_protein_function": "Acyl-CoA synthetases (ACSL) activates long-chain fatty acids for both synthesis of cellular lipids, and degradation via beta-oxidation (PubMed:22633490). Required for the incorporation of fatty acids into phosphatidylcholine, the major phospholipid located on the surface of VLDL (very low density lipoproteins) (PubMed:18003621). Has mainly an anabolic role in energy metabolism. Mediates hepatic lipogenesis. Preferentially uses myristate, laurate, arachidonate and eicosapentaenoate as substrates. Both isoforms exhibit the same level of activity (By similarity). {ECO:0000250|UniProtKB:Q63151, ECO:0000269|PubMed:18003621, ECO:0000269|PubMed:22633490}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P00387",
-            "amigoid": "UniProtKB:P00387",
-            "gene": "CYB5R3",
-            "mist": "0.956349351",
-            "saint_bfdr": "0",
-            "avg_spec": "7.33",
-            "fold_change": "73.33",
-            "uniprot_protein_id": "NB5R3_HUMAN",
-            "uniprot_protein_description": "NADH-cytochrome b5 reductase 3 (B5R) (Cytochrome b5 reductase) (EC 1.6.2.2) (Diaphorase-1) [Cleaved into: NADH-cytochrome b5 reductase 3 membrane-bound form; NADH-cytochrome b5 reductase 3 soluble form]",
-            "uniprot_protein_function": "Desaturation and elongation of fatty acids, cholesterol biosynthesis, drug metabolism, and, in erythrocyte, methemoglobin reduction.",
-            "structures": [
-                "1M91",
-                "1UMK"
-            ],
-            "uniprot_function_in_disease": "Methemoglobinemia CYB5R3-related (METHB-CYB5R3) [MIM:250800]: A form of methemoglobinemia, a hematologic disease characterized by the presence of excessive amounts of methemoglobin in blood cells, resulting in decreased oxygen carrying capacity of the blood, cyanosis and hypoxia. There are two types of methemoglobinemia CYB5R3-related. In type 1, the defect affects the soluble form of the enzyme, is restricted to red blood cells, and causes well-tolerated methemoglobinemia. In type 2, the defect affects both the soluble and microsomal forms of the enzyme and is thus generalized, affecting red cells, leukocytes and all body tissues. Type 2 methemoglobinemia is associated with mental deficiency and other neurologic symptoms. {ECO:0000269|PubMed:10807796, ECO:0000269|PubMed:12393396, ECO:0000269|PubMed:1400360, ECO:0000269|PubMed:15622768, ECO:0000269|PubMed:15953014, ECO:0000269|PubMed:1707593, ECO:0000269|PubMed:1898726, ECO:0000269|PubMed:7718898, ECO:0000269|PubMed:8119939, ECO:0000269|PubMed:9695975, ECO:0000269|PubMed:9886302}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P11233",
-            "amigoid": "UniProtKB:P11233",
-            "gene": "RALA",
-            "mist": "0.750366485",
-            "saint_bfdr": "0",
-            "avg_spec": "2.33",
-            "fold_change": "23.33",
-            "uniprot_protein_id": "RALA_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Ral-A",
-            "uniprot_protein_function": "Multifunctional GTPase involved in a variety of cellular processes including gene expression, cell migration, cell proliferation, oncogenic transformation and membrane trafficking. Accomplishes its multiple functions by interacting with distinct downstream effectors. Acts as a GTP sensor for GTP-dependent exocytosis of dense core vesicles. The RALA-exocyst complex regulates integrin-dependent membrane raft exocytosis and growth signaling (PubMed:20005108). Key regulator of LPAR1 signaling and competes with GRK2 for binding to LPAR1 thus affecting the signaling properties of the receptor. Required for anchorage-independent proliferation of transformed cells (PubMed:19306925). During mitosis, supports the stabilization and elongation of the intracellular bridge between dividing cells. Cooperates with EXOC2 to recruit other components of the exocyst to the early midbody (PubMed:18756269). {ECO:0000269|PubMed:18756269, ECO:0000269|PubMed:19306925, ECO:0000269|PubMed:20005108}.",
-            "structures": [
-                "1UAD",
-                "1ZC3",
-                "1ZC4",
-                "2A78",
-                "2A9K",
-                "2BOV"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P21964",
-            "amigoid": "UniProtKB:P21964",
-            "gene": "COMT",
-            "mist": "0.745231765",
-            "saint_bfdr": "0.04",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "COMT_HUMAN",
-            "uniprot_protein_description": "Catechol O-methyltransferase (EC 2.1.1.6)",
-            "uniprot_protein_function": "Catalyzes the O-methylation, and thereby the inactivation, of catecholamine neurotransmitters and catechol hormones. Also shortens the biological half-lives of certain neuroactive drugs, like L-DOPA, alpha-methyl DOPA and isoproterenol. {ECO:0000269|PubMed:21846718}.",
-            "structures": [
-                "3A7E",
-                "3BWM",
-                "3BWY",
-                "4PYI",
-                "4PYJ",
-                "4PYK",
-                "4XUC",
-                "4XUD",
-                "4XUE",
-                "5LSA",
-                "6I3C",
-                "6I3D"
-            ],
-            "uniprot_function_in_disease": "Schizophrenia (SCZD) [MIM:181500]: A complex, multifactorial psychotic disorder or group of disorders characterized by disturbances in the form and content of thought (e.g. delusions, hallucinations), in mood (e.g. inappropriate affect), in sense of self and relationship to the external world (e.g. loss of ego boundaries, withdrawal), and in behavior (e.g bizarre or apparently purposeless behavior). Although it affects emotions, it is distinguished from mood disorders in which such disturbances are primary. Similarly, there may be mild impairment of cognitive function, and it is distinguished from the dementias in which disturbed cognitive function is considered primary. Some patients manifest schizophrenic as well as bipolar disorder symptoms and are often given the diagnosis of schizoaffective disorder. {ECO:0000269|PubMed:15645182}. Note=Disease susceptibility may be associated with variations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P51148",
-            "amigoid": "UniProtKB:P51148",
-            "gene": "RAB5C",
-            "mist": "0.87908593",
-            "saint_bfdr": "0",
-            "avg_spec": "8",
-            "fold_change": "80",
-            "uniprot_protein_id": "RAB5C_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-5C (L1880) (RAB5L)",
-            "uniprot_protein_function": "Protein transport. Probably involved in vesicular traffic (By similarity). {ECO:0000250}.",
-            "structures": [
-                "4KYI"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P51149",
-            "amigoid": "UniProtKB:P51149",
-            "gene": "RAB7A",
-            "mist": "0.972724229",
-            "saint_bfdr": "0",
-            "avg_spec": "10.67",
-            "fold_change": "106.67",
-            "uniprot_protein_id": "RAB7A_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-7a",
-            "uniprot_protein_function": "Key regulator in endo-lysosomal trafficking. Governs early-to-late endosomal maturation, microtubule minus-end as well as plus-end directed endosomal migration and positioning, and endosome-lysosome transport through different protein-protein interaction cascades. Plays a central role, not only in endosomal traffic, but also in many other cellular and physiological events, such as growth-factor-mediated cell signaling, nutrient-transportor mediated nutrient uptake, neurotrophin transport in the axons of neurons and lipid metabolism. Also involved in regulation of some specialized endosomal membrane trafficking, such as maturation of melanosomes, pathogen-induced phagosomes (or vacuoles) and autophagosomes. Plays a role in the maturation and acidification of phagosomes that engulf pathogens, such as S.aureus and M.tuberculosis. Plays a role in the fusion of phagosomes with lysosomes. Plays important roles in microbial pathogen infection and survival, as well as in participating in the life cycle of viruses. Microbial pathogens possess survival strategies governed by RAB7A, sometimes by employing RAB7A function (e.g. Salmonella) and sometimes by excluding RAB7A function (e.g. Mycobacterium). In concert with RAC1, plays a role in regulating the formation of RBs (ruffled borders) in osteoclasts. Controls the endosomal trafficking and neurite outgrowth signaling of NTRK1/TRKA (PubMed:11179213, PubMed:12944476, PubMed:14617358, PubMed:20028791, PubMed:21255211). Regulates the endocytic trafficking of the EGF-EGFR complex by regulating its lysosomal degradation. Involved in the ADRB2-stimulated lipolysis through lipophagy, a cytosolic lipase-independent autophagic pathway (By similarity). Required for the exosomal release of SDCBP, CD63 and syndecan (PubMed:22660413). {ECO:0000250|UniProtKB:P51150, ECO:0000269|PubMed:11179213, ECO:0000269|PubMed:12944476, ECO:0000269|PubMed:14617358, ECO:0000269|PubMed:20028791, ECO:0000269|PubMed:22660413}.",
-            "structures": [
-                "1T91",
-                "1YHN",
-                "3LAW",
-                "6IYB"
-            ],
-            "uniprot_function_in_disease": "Charcot-Marie-Tooth disease 2B (CMT2B) [MIM:600882]: A dominant axonal form of Charcot-Marie-Tooth disease, a disorder of the peripheral nervous system, characterized by progressive weakness and atrophy, initially of the peroneal muscles and later of the distal muscles of the arms. Charcot-Marie-Tooth disease is classified in two main groups on the basis of electrophysiologic properties and histopathology: primary peripheral demyelinating neuropathies (designated CMT1 when they are dominantly inherited) and primary peripheral axonal neuropathies (CMT2). Neuropathies of the CMT2 group are characterized by signs of axonal degeneration in the absence of obvious myelin alterations, normal or slightly reduced nerve conduction velocities, and progressive distal muscle weakness and atrophy. {ECO:0000269|PubMed:12545426, ECO:0000269|PubMed:15455439, ECO:0000269|PubMed:17060578, ECO:0000269|PubMed:20028791, ECO:0000269|PubMed:21151572}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P61006",
-            "amigoid": "UniProtKB:P61006",
-            "gene": "RAB8A",
-            "mist": "0.895744596",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2.33",
-            "fold_change": "23.33",
-            "uniprot_protein_id": "RAB8A_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-8A (Oncogene c-mel)",
-            "uniprot_protein_function": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes. Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different sets of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion. That Rab is involved in polarized vesicular trafficking and neurotransmitter release. Together with RAB11A, RAB3IP, the exocyst complex, PARD3, PRKCI, ANXA2, CDC42 and DNMBP promotes transcytosis of PODXL to the apical membrane initiation sites (AMIS), apical surface formation and lumenogenesis (PubMed:20890297). Together with MYO5B and RAB11A participates in epithelial cell polarization (PubMed:21282656). May be involved in ciliogenesis (PubMed:21844891, PubMed:30398148). Together with MICALL2, may also regulate adherens junction assembly (By similarity). May play a role in insulin-induced transport to the plasma membrane of the glucose transporter GLUT4 and therefore play a role in glucose homeostasis (By similarity). Involved in autophagy (PubMed:27103069). {ECO:0000250|UniProtKB:P35280, ECO:0000250|UniProtKB:P55258, ECO:0000269|PubMed:20890297, ECO:0000269|PubMed:21282656, ECO:0000269|PubMed:21844891, ECO:0000269|PubMed:27103069, ECO:0000269|PubMed:30398148}.",
-            "structures": [
-                "3QBT",
-                "3TNF",
-                "4LHV",
-                "4LHW",
-                "4LHX",
-                "4LHY",
-                "4LHZ",
-                "4LI0",
-                "5SZI"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P61019",
-            "amigoid": "UniProtKB:P61019",
-            "gene": "RAB2A",
-            "mist": "0.97919572",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "RAB2A_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-2A",
-            "uniprot_protein_function": "Required for protein transport from the endoplasmic reticulum to the Golgi complex.",
-            "structures": [
-                "1Z0A"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P61026",
-            "amigoid": "UniProtKB:P61026",
-            "gene": "RAB10",
-            "mist": "0.981443071",
-            "saint_bfdr": "0",
-            "avg_spec": "3",
-            "fold_change": "30",
-            "uniprot_protein_id": "RAB10_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-10",
-            "uniprot_protein_function": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes (PubMed:21248164). Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different set of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion (PubMed:21248164). That Rab is mainly involved in the biosynthetic transport of proteins from the Golgi to the plasma membrane (PubMed:21248164). Regulates, for instance, SLC2A4/GLUT4 glucose transporter-enriched vesicles delivery to the plasma membrane (By similarity). In parallel, it regulates the transport of TLR4, a toll-like receptor to the plasma membrane and therefore may be important for innate immune response (By similarity). Plays also a specific role in asymmetric protein transport to the plasma membrane (PubMed:16641372). In neurons, it is involved in axonogenesis through regulation of vesicular membrane trafficking toward the axonal plasma membrane (By similarity). In epithelial cells, it regulates transport from the Golgi to the basolateral membrane (PubMed:16641372). May play a role in the basolateral recycling pathway and in phagosome maturation (By similarity). May play a role in endoplasmic reticulum dynamics and morphology controlling tubulation along microtubules and tubules fusion (PubMed:23263280). Together with LRRK2, RAB8A, and RILPL1, it regulates ciliogenesis (PubMed:30398148). When phosphorylated by LRRK2 on Thr-73, binds RILPL1 and inhibits ciliogenesis (PubMed:30398148). {ECO:0000250|UniProtKB:P24409, ECO:0000250|UniProtKB:P61027, ECO:0000269|PubMed:16641372, ECO:0000269|PubMed:21248164, ECO:0000269|PubMed:23263280, ECO:0000269|PubMed:30398148}.",
-            "structures": [
-                "5LPN",
-                "5SZJ"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P61106",
-            "amigoid": "UniProtKB:P61106",
-            "gene": "RAB14",
-            "mist": "0.750712826",
-            "saint_bfdr": "0",
-            "avg_spec": "6.67",
-            "fold_change": "66.67",
-            "uniprot_protein_id": "RAB14_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-14",
-            "uniprot_protein_function": "Involved in membrane trafficking between the Golgi complex and endosomes during early embryonic development. Regulates the Golgi to endosome transport of FGFR-containing vesicles during early development, a key process for developing basement membrane and epiblast and primitive endoderm lineages during early postimplantation development. May act by modulating the kinesin KIF16B-cargo association to endosomes (By similarity). Regulates, together with its guanine nucleotide exchange factor DENND6A, the specific endocytic transport of ADAM10, N-cadherin/CDH2 shedding and cell-cell adhesion. {ECO:0000250, ECO:0000269|PubMed:22595670}.",
-            "structures": [
-                "1Z0F",
-                "4D0G",
-                "4DRZ"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P61586",
-            "amigoid": "UniProtKB:P61586",
-            "gene": "RHOA",
-            "mist": "0.829029399",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "RHOA_HUMAN",
-            "uniprot_protein_description": "Transforming protein RhoA (EC 3.6.5.2) (Rho cDNA clone 12) (h12)",
-            "uniprot_protein_function": "Small GTPase which cycles between an active GTP-bound and an inactive GDP-bound state. Mainly associated with cytoskeleton organization, in active state binds to a variety of effector proteins to regulate cellular responses such cytoskeletal dynamics, cell migration and cell cycle. Regulates a signal transduction pathway linking plasma membrane receptors to the assembly of focal adhesions and actin stress fibers (PubMed:8910519, PubMed:9121475). Involved in a microtubule-dependent signal that is required for the myosin contractile ring formation during cell cycle cytokinesis (PubMed:16236794, PubMed:12900402). Plays an essential role in cleavage furrow formation. Required for the apical junction formation of keratinocyte cell-cell adhesion (PubMed:20974804, PubMed:23940119). Essential for the SPATA13-mediated regulation of cell migration and adhesion assembly and disassembly (PubMed:19934221). The MEMO1-RHOA-DIAPH1 signaling pathway plays an important role in ERBB2-dependent stabilization of microtubules at the cell cortex. It controls the localization of APC and CLASP2 to the cell membrane, via the regulation of GSK3B activity. In turn, membrane-bound APC allows the localization of the MACF1 to the cell membrane, which is required for microtubule capture and stabilization (PubMed:20937854). Regulates KCNA2 potassium channel activity by reducing its location at the cell surface in response to CHRM1 activation; promotes KCNA2 endocytosis (PubMed:9635436, PubMed:19403695). May be an activator of PLCE1 (PubMed:16103226). In neurons, involved in the inhibiton of the initial spine growth. Upon activation by CaMKII, modulates dendritic spine structural plasticity by relaying CaMKII transient activation to synapse-specific, long-term signaling (By similarity). {ECO:0000250|UniProtKB:P61589, ECO:0000269|PubMed:12900402, ECO:0000269|PubMed:16103226, ECO:0000269|PubMed:16236794, ECO:0000269|PubMed:19403695, ECO:0000269|PubMed:19934221, ECO:0000269|PubMed:20937854, ECO:0000269|PubMed:20974804, ECO:0000269|PubMed:23940119, ECO:0000269|PubMed:8910519, ECO:0000269|PubMed:9121475, ECO:0000269|PubMed:9635436}.; FUNCTION: (Microbial infection) Serves as a target for the yopT cysteine peptidase from Yersinia pestis, vector of the plague. {ECO:0000269|PubMed:12062101, ECO:0000269|PubMed:12538863}.",
-            "structures": [
-                "1A2B",
-                "1CC0",
-                "1CXZ",
-                "1DPF",
-                "1FTN",
-                "1KMQ",
-                "1LB1",
-                "1OW3",
-                "1S1C",
-                "1TX4",
-                "1X86",
-                "1XCG",
-                "2RGN",
-                "3KZ1",
-                "3LW8",
-                "3LWN",
-                "3LXR",
-                "3MSX",
-                "3T06",
-                "4D0N",
-                "4XH9",
-                "4XOI",
-                "4XSG",
-                "4XSH",
-                "5A0F",
-                "5BWM",
-                "5C2K",
-                "5C4M",
-                "5EZ6",
-                "5FR1",
-                "5FR2",
-                "5HPY",
-                "5IRC",
-                "5JCP",
-                "5JHG",
-                "5JHH",
-                "5M6X",
-                "5M70",
-                "5ZHX",
-                "6BC0",
-                "6BCA",
-                "6BCB",
-                "6R3V"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P62820",
-            "amigoid": "UniProtKB:P62820",
-            "gene": "RAB1A",
-            "mist": "0.935289593",
-            "saint_bfdr": "0",
-            "avg_spec": "4",
-            "fold_change": "40",
-            "uniprot_protein_id": "RAB1A_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-1A (YPT1-related protein)",
-            "uniprot_protein_function": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes. Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different sets of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion. RAB1A regulates vesicular protein transport from the endoplasmic reticulum (ER) to the Golgi compartment and on to the cell surface, and plays a role in IL-8 and growth hormone secretion. Regulates the level of CASR present at the cell membrane. Plays a role in cell adhesion and cell migration, via its role in protein trafficking. Plays a role in autophagosome assembly and cellular defense reactions against pathogenic bacteria. Plays a role in microtubule-dependent protein transport by early endosomes and in anterograde melanosome transport. {ECO:0000269|PubMed:20639577, ECO:0000269|PubMed:20861236, ECO:0000269|PubMed:21303926, ECO:0000269|PubMed:22939626}.",
-            "structures": [
-                "2FOL",
-                "2WWX",
-                "3L0I",
-                "3SFV",
-                "3TKL",
-                "4FMB",
-                "4FMC",
-                "4FMD",
-                "4FME",
-                "4IRU",
-                "4JVS"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P62873",
-            "amigoid": "UniProtKB:P62873",
-            "gene": "GNB1",
-            "mist": "0.839532136",
-            "saint_bfdr": "0",
-            "avg_spec": "2.67",
-            "fold_change": "26.67",
-            "uniprot_protein_id": "GBB1_HUMAN",
-            "uniprot_protein_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 (Transducin beta chain 1)",
-            "uniprot_protein_function": "Guanine nucleotide-binding proteins (G proteins) are involved as a modulator or transducer in various transmembrane signaling systems. The beta and gamma chains are required for the GTPase activity, for replacement of GDP by GTP, and for G protein-effector interaction.",
-            "structures": [
-                "4KFM",
-                "4PNK",
-                "5HE0",
-                "5HE1",
-                "5HE2",
-                "5HE3",
-                "5UKK",
-                "5UKL",
-                "5UKM",
-                "5UZ7",
-                "6B3J",
-                "6CRK",
-                "6D9H",
-                "6DDE",
-                "6DDF",
-                "6E3Y",
-                "6EG8",
-                "6G79",
-                "6GDG",
-                "6M8S",
-                "6N4B",
-                "6NI3",
-                "6NIY",
-                "6OIJ",
-                "6OIK",
-                "6OS9",
-                "6OSA",
-                "6OT0"
-            ],
-            "uniprot_function_in_disease": "Mental retardation, autosomal dominant 42 (MRD42) [MIM:616973]: A form of mental retardation, a disorder characterized by significantly below average general intellectual functioning associated with impairments in adaptive behavior and manifested during the developmental period. MRD42 patients manifest global developmental delay commonly accompanied by hypotonia, seizures of various types, ophthalmological manifestations, and poor growth. {ECO:0000269|PubMed:25485910, ECO:0000269|PubMed:27108799, ECO:0000269|PubMed:27668284, ECO:0000269|PubMed:28087732}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P63218",
-            "amigoid": "UniProtKB:P63218",
-            "gene": "GNG5",
-            "mist": "0.817631566",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "GBG5_HUMAN",
-            "uniprot_protein_description": "Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5",
-            "uniprot_protein_function": "Guanine nucleotide-binding proteins (G proteins) are involved as a modulator or transducer in various transmembrane signaling systems. The beta and gamma chains are required for the GTPase activity, for replacement of GDP by GTP, and for G protein-effector interaction.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q12907",
-            "amigoid": "UniProtKB:Q12907",
-            "gene": "LMAN2",
-            "mist": "0.725773983",
-            "saint_bfdr": "0",
-            "avg_spec": "7",
-            "fold_change": "70",
-            "uniprot_protein_id": "LMAN2_HUMAN",
-            "uniprot_protein_description": "Vesicular integral-membrane protein VIP36 (Glycoprotein GP36b) (Lectin mannose-binding 2) (Vesicular integral-membrane protein 36) (VIP36)",
-            "uniprot_protein_function": "Plays a role as an intracellular lectin in the early secretory pathway. Interacts with N-acetyl-D-galactosamine and high-mannose type glycans and may also bind to O-linked glycans. Involved in the transport and sorting of glycoproteins carrying high mannose-type glycans (By similarity). {ECO:0000250}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q13724",
-            "amigoid": "UniProtKB:Q13724",
-            "gene": "MOGS",
-            "mist": "0.782330987",
-            "saint_bfdr": "0",
-            "avg_spec": "27.67",
-            "fold_change": "276.67",
-            "uniprot_protein_id": "MOGS_HUMAN",
-            "uniprot_protein_description": "Mannosyl-oligosaccharide glucosidase (EC 3.2.1.106) (Processing A-glucosidase I)",
-            "uniprot_protein_function": "Cleaves the distal alpha 1,2-linked glucose residue from the Glc(3)Man(9)GlcNAc(2) oligosaccharide precursor in a highly specific manner.",
-            "structures": [],
-            "uniprot_function_in_disease": "Type IIb congenital disorder of glycosylation (CDGIIb) [MIM:606056]: Characterized by marked generalized hypotonia and hypomotility of the neonate, dysmorphic features, including a prominent occiput, short palpebral fissures, retrognathia, high arched palate, generalized edema, and hypoplastic genitalia. Symptoms of the infant included hepatomegaly, hypoventilation, feeding problems and seizures. The clinical course was progressive and the infant did not survive more than a few months. {ECO:0000269|PubMed:10788335}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q5JTV8",
-            "amigoid": "UniProtKB:Q5JTV8",
-            "gene": "TOR1AIP1",
-            "mist": "0.74516805",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "TOIP1_HUMAN",
-            "uniprot_protein_description": "Torsin-1A-interacting protein 1 (Lamin-associated protein 1B) (LAP1B)",
-            "uniprot_protein_function": "Required for nuclear membrane integrity. Induces TOR1A and TOR1B ATPase activity and is required for their location on the nuclear membrane. Binds to A- and B-type lamins. Possible role in membrane attachment and assembly of the nuclear lamina. {ECO:0000269|PubMed:23569223}.",
-            "structures": [
-                "4TVS"
-            ],
-            "uniprot_function_in_disease": "Myopathy, autosomal recessive, with rigid spine and distal joint contractures (MRRSDC) [MIM:617072]: An autosomal recessive degenerative myopathy characterized by muscle weakness initially involving the proximal lower limbs, followed by distal upper and lower limb muscle weakness and atrophy. Other features include joint contractures, rigid spine, and restricted pulmonary function. Cardiac involvement has been observed in some patients. Disease onset is in the first or second decades of life. {ECO:0000269|PubMed:24856141}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q5VT66",
-            "amigoid": "UniProtKB:Q5VT66",
-            "gene": "MTARC1",
-            "mist": "0.939721024",
-            "saint_bfdr": "0",
-            "avg_spec": "6.33",
-            "fold_change": "63.33",
-            "uniprot_protein_id": "MARC1_HUMAN",
-            "uniprot_protein_description": "Mitochondrial amidoxime-reducing component 1 (mARC1) (EC 1.7.-.-) (Molybdenum cofactor sulfurase C-terminal domain-containing protein 1) (MOSC domain-containing protein 1) (Moco sulfurase C-terminal domain-containing protein 1)",
-            "uniprot_protein_function": "Catalyzes the reduction of N-oxygenated molecules, acting as a counterpart of cytochrome P450 and flavin-containing monooxygenases in metabolic cycles (PubMed:19053771, PubMed:21029045, PubMed:30397129). As a component of prodrug-converting system, reduces a multitude of N-hydroxylated prodrugs particularly amidoximes, leading to increased drug bioavailability (PubMed:19053771). May be involved in mitochondrial N(omega)-hydroxy-L-arginine (NOHA) reduction, regulating endogenous nitric oxide levels and biosynthesis (PubMed:21029045). Postulated to cleave the N-OH bond of N-hydroxylated substrates in concert with electron transfer from NADH to cytochrome b5 reductase then to cytochrome b5, the ultimate electron donor that primes the active site for substrate reduction (PubMed:21029045, PubMed:19053771). {ECO:0000269|PubMed:19053771, ECO:0000269|PubMed:21029045, ECO:0000269|PubMed:30397129}.",
-            "structures": [
-                "6FW2"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q6ZRP7",
-            "amigoid": "UniProtKB:Q6ZRP7",
-            "gene": "QSOX2",
-            "mist": "0.794325146",
-            "saint_bfdr": "0.03",
-            "avg_spec": "4.33",
-            "fold_change": "43.33",
-            "uniprot_protein_id": "QSOX2_HUMAN",
-            "uniprot_protein_description": "Sulfhydryl oxidase 2 (EC 1.8.3.2) (Neuroblastoma-derived sulfhydryl oxidase) (Quiescin Q6-like protein 1)",
-            "uniprot_protein_function": "Catalyzes the oxidation of sulfhydryl groups in peptide and protein thiols to disulfides with the reduction of oxygen to hydrogen peroxide. May contribute to disulfide bond formation in a variety of secreted proteins. Also seems to play a role in regulating the sensitization of neuroblastoma cells for interferon-gamma-induced apoptosis. {ECO:0000269|PubMed:14633699}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q7LGA3",
-            "amigoid": "UniProtKB:Q7LGA3",
-            "gene": "HS2ST1",
-            "mist": "0.706466834",
-            "saint_bfdr": "0",
-            "avg_spec": "5",
-            "fold_change": "50",
-            "uniprot_protein_id": "HS2ST_HUMAN",
-            "uniprot_protein_description": "Heparan sulfate 2-O-sulfotransferase 1 (2-O-sulfotransferase) (2OST) (EC 2.8.2.-)",
-            "uniprot_protein_function": "Catalyzes the transfer of sulfate to the C2-position of selected hexuronic acid residues within the maturing heparan sulfate (HS). 2-O-sulfation within HS, particularly of iduronate residues, is essential for HS to participate in a variety of high-affinity ligand-binding interactions and signaling processes. Mediates 2-O-sulfation of both L-iduronyl and D-glucuronyl residues (By similarity). {ECO:0000250}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q8N183",
-            "amigoid": "UniProtKB:Q8N183",
-            "gene": "NDUFAF2",
-            "mist": "0.981444858",
-            "saint_bfdr": "0",
-            "avg_spec": "3",
-            "fold_change": "30",
-            "uniprot_protein_id": "NDUF2_HUMAN",
-            "uniprot_protein_description": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 2 (B17.2-like) (B17.2L) (Mimitin) (Myc-induced mitochondrial protein) (MMTN) (NDUFA12-like protein)",
-            "uniprot_protein_function": "Acts as a molecular chaperone for mitochondrial complex I assembly (PubMed:16200211, PubMed:19384974). Complex I functions in the transfer of electrons from NADH to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone (PubMed:16200211, PubMed:27626371). {ECO:0000269|PubMed:16200211, ECO:0000269|PubMed:19384974, ECO:0000269|PubMed:27626371}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Mitochondrial complex I deficiency, nuclear type 10 (MC1DN10) [MIM:618233]: A form of mitochondrial complex I deficiency, the most common biochemical signature of mitochondrial disorders, a group of highly heterogeneous conditions characterized by defective oxidative phosphorylation, which collectively affects 1 in 5-10000 live births. Clinical disorders have variable severity, ranging from lethal neonatal disease to adult-onset neurodegenerative disorders. Phenotypes include macrocephaly with progressive leukodystrophy, non-specific encephalopathy, cardiomyopathy, myopathy, liver disease, Leigh syndrome, Leber hereditary optic neuropathy, and some forms of Parkinson disease. MC1DN10 transmission pattern is consistent with autosomal recessive inheritance. {ECO:0000269|PubMed:16200211, ECO:0000269|PubMed:18180188, ECO:0000269|PubMed:19384974, ECO:0000269|PubMed:20571988}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q8NBX0",
-            "amigoid": "UniProtKB:Q8NBX0",
-            "gene": "SCCPDH",
-            "mist": "0.978675119",
-            "saint_bfdr": "0",
-            "avg_spec": "2.33",
-            "fold_change": "23.33",
-            "uniprot_protein_id": "SCPDL_HUMAN",
-            "uniprot_protein_description": "Saccharopine dehydrogenase-like oxidoreductase (EC 1.-.-.-)",
-            "uniprot_protein_function": "",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q8WTV0",
-            "amigoid": "UniProtKB:Q8WTV0",
-            "gene": "SCARB1",
-            "mist": "0.854406247",
-            "saint_bfdr": "0.03",
-            "avg_spec": "2.67",
-            "fold_change": "26.67",
-            "uniprot_protein_id": "SCRB1_HUMAN",
-            "uniprot_protein_description": "Scavenger receptor class B member 1 (SRB1) (CD36 and LIMPII analogous 1) (CLA-1) (CD36 antigen-like 1) (Collagen type I receptor, thrombospondin receptor-like 1) (SR-BI) (CD antigen CD36)",
-            "uniprot_protein_function": "Receptor for different ligands such as phospholipids, cholesterol ester, lipoproteins, phosphatidylserine and apoptotic cells (PubMed:12016218, PubMed:12519372, PubMed:21226579). Receptor for HDL, mediating selective uptake of cholesteryl ether and HDL-dependent cholesterol efflux (PubMed:26965621). Also facilitates the flux of free and esterified cholesterol between the cell surface and apoB-containing lipoproteins and modified lipoproteins, although less efficiently than HDL. May be involved in the phagocytosis of apoptotic cells, via its phosphatidylserine binding activity (PubMed:12016218). {ECO:0000269|PubMed:12016218, ECO:0000269|PubMed:12519372, ECO:0000269|PubMed:16020694, ECO:0000269|PubMed:21226579, ECO:0000269|PubMed:26965621}.; FUNCTION: (Microbial infection) Acts as a receptor for hepatitis C virus in hepatocytes and appears to facilitate its cell entry (PubMed:12356718, PubMed:12913001, PubMed:18000990). Binding between SCARB1 and the hepatitis C virus glycoprotein E2 is independent of the genotype of the viral isolate (PubMed:12356718). Mediates uptake of M.fortuitum, E.coli and S.aureus (PubMed:16020694). {ECO:0000269|PubMed:12356718, ECO:0000269|PubMed:16020694, ECO:0000269|PubMed:18000990}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q8WUY8",
-            "amigoid": "UniProtKB:Q8WUY8",
-            "gene": "NAT14",
-            "mist": "0.720285746",
-            "saint_bfdr": "0",
-            "avg_spec": "4.33",
-            "fold_change": "43.33",
-            "uniprot_protein_id": "NAT14_HUMAN",
-            "uniprot_protein_description": "N-acetyltransferase 14 (EC 2.3.1.-) (K562 cell-derived leucine-zipper-like protein 1)",
-            "uniprot_protein_function": "Probable acetyltransferase that binds the 5'-GGACTACAG-3' sequence of coproporphyrinogen oxidase promoter. Able to activate transcription of a reporter construct in vitro.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q8WVC6",
-            "amigoid": "UniProtKB:Q8WVC6",
-            "gene": "DCAKD",
-            "mist": "0.862452335",
-            "saint_bfdr": "0",
-            "avg_spec": "9",
-            "fold_change": "90",
-            "uniprot_protein_id": "DCAKD_HUMAN",
-            "uniprot_protein_description": "Dephospho-CoA kinase domain-containing protein",
-            "uniprot_protein_function": "",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q96A26",
-            "amigoid": "UniProtKB:Q96A26",
-            "gene": "FAM162A",
-            "mist": "0.748773582",
-            "saint_bfdr": "0",
-            "avg_spec": "11",
-            "fold_change": "110",
-            "uniprot_protein_id": "F162A_HUMAN",
-            "uniprot_protein_description": "Protein FAM162A (E2-induced gene 5 protein) (Growth and transformation-dependent protein) (HGTD-P)",
-            "uniprot_protein_function": "Proposed to be involved in regulation of apoptosis; the exact mechanism may differ between cell types/tissues. May be involved in hypoxia-induced cell death of transformed cells implicating cytochrome C release and caspase activation (such as CASP9) and inducing mitochondrial permeability transition. May be involved in hypoxia-induced cell death of neuronal cells probably by promoting release of AIFM1 from mitochondria to cytoplasm and its translocation to the nucleus; however, the involvement of caspases has been reported conflictingly. {ECO:0000269|PubMed:15082785}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q96DA6",
-            "amigoid": "UniProtKB:Q96DA6",
-            "gene": "DNAJC19",
-            "mist": "0.981450126",
-            "saint_bfdr": "0",
-            "avg_spec": "3",
-            "fold_change": "30",
-            "uniprot_protein_id": "TIM14_HUMAN",
-            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit TIM14 (DnaJ homolog subfamily C member 19)",
-            "uniprot_protein_function": "Probable component of the PAM complex, a complex required for the translocation of transit peptide-containing proteins from the inner membrane into the mitochondrial matrix in an ATP-dependent manner. May act as a co-chaperone that stimulate the ATP-dependent activity (By similarity). {ECO:0000250}.",
-            "structures": [],
-            "uniprot_function_in_disease": "3-methylglutaconic aciduria 5 (MGA5) [MIM:610198]: An autosomal recessive disorder characterized by early-onset dilated cardiomyopathy, growth failure, cerebellar ataxia causing significant motor delays, testicular dysgenesis, growth failure and significant increases in urine organic acids, particularly 3-methylglutaconic acid and 3-methylglutaric acid. {ECO:0000269|PubMed:16055927}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q9BQE4",
-            "amigoid": "UniProtKB:Q9BQE4",
-            "gene": "SELENOS",
-            "mist": "0.701764404",
-            "saint_bfdr": "0",
-            "avg_spec": "3.33",
-            "fold_change": "33.33",
-            "uniprot_protein_id": "SELS_HUMAN",
-            "uniprot_protein_description": "Selenoprotein S (SelS) (VCP-interacting membrane protein)",
-            "uniprot_protein_function": "Involved in the degradation process of misfolded endoplasmic reticulum (ER) luminal proteins. Participates in the transfer of misfolded proteins from the ER to the cytosol, where they are destroyed by the proteasome in a ubiquitin-dependent manner. Probably acts by serving as a linker between DERL1, which mediates the retrotranslocation of misfolded proteins into the cytosol, and the ATPase complex VCP, which mediates the translocation and ubiquitination. {ECO:0000269|PubMed:15215856}.",
-            "structures": [
-                "2Q2F",
-                "5KIU",
-                "5KIY",
-                "6DO4"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9H7Z7",
-            "amigoid": "UniProtKB:Q9H7Z7",
-            "gene": "PTGES2",
-            "mist": "0.764538331",
-            "saint_bfdr": "0",
-            "avg_spec": "6",
-            "fold_change": "60",
-            "uniprot_protein_id": "PGES2_HUMAN",
-            "uniprot_protein_description": "Prostaglandin E synthase 2 (Membrane-associated prostaglandin E synthase-2) (mPGE synthase-2) (Microsomal prostaglandin E synthase 2) (mPGES-2) (Prostaglandin-H(2) E-isomerase) (EC 5.3.99.3) [Cleaved into: Prostaglandin E synthase 2 truncated form]",
-            "uniprot_protein_function": "Isomerase that catalyzes the conversion of PGH2 into the more stable prostaglandin E2 (PGE2). {ECO:0000269|PubMed:12804604, ECO:0000269|PubMed:18198127}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9NP72",
-            "amigoid": "UniProtKB:Q9NP72",
-            "gene": "RAB18",
-            "mist": "0.756605088",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "RAB18_HUMAN",
-            "uniprot_protein_description": "Ras-related protein Rab-18",
-            "uniprot_protein_function": "Plays a role in apical endocytosis/recycling. May be implicated in transport between the plasma membrane and early endosomes. Plays a key role in eye and brain development and neurodegeneration. {ECO:0000269|PubMed:21473985}.",
-            "structures": [
-                "1X3S"
-            ],
-            "uniprot_function_in_disease": "Warburg micro syndrome 3 (WARBM3) [MIM:614222]: A rare syndrome characterized by microcephaly, microphthalmia, microcornia, congenital cataracts, optic atrophy, cortical dysplasia, in particular corpus callosum hypoplasia, severe mental retardation, spastic diplegia, and hypogonadism. {ECO:0000269|PubMed:21473985}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        }
-    ],
-    "SARS-CoV2 nsp8": [
-        {
-            "id": "O00566",
-            "amigoid": "UniProtKB:O00566",
-            "gene": "MPHOSPH10",
-            "mist": "0.728559172",
-            "saint_bfdr": "0.03",
-            "avg_spec": "2.67",
-            "fold_change": "26.67",
-            "uniprot_protein_id": "MPP10_HUMAN",
-            "uniprot_protein_description": "U3 small nucleolar ribonucleoprotein protein MPP10 (M phase phosphoprotein 10)",
-            "uniprot_protein_function": "Component of the 60-80S U3 small nucleolar ribonucleoprotein (U3 snoRNP). Required for the early cleavages during pre-18S ribosomal RNA processing.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "O76094",
-            "amigoid": "UniProtKB:O76094",
-            "gene": "SRP72",
-            "mist": "0.739540656",
-            "saint_bfdr": "0",
-            "avg_spec": "33.67",
-            "fold_change": "336.67",
-            "uniprot_protein_id": "SRP72_HUMAN",
-            "uniprot_protein_description": "Signal recognition particle subunit SRP72 (SRP72) (Signal recognition particle 72 kDa protein)",
-            "uniprot_protein_function": "Signal-recognition-particle assembly has a crucial role in targeting secretory proteins to the rough endoplasmic reticulum membrane. Binds the 7S RNA only in presence of SRP68. This ribonucleoprotein complex might interact directly with the docking protein in the ER membrane and possibly participate in the elongation arrest function.",
-            "structures": [
-                "5M72",
-                "5M73",
-                "5WRV",
-                "5WRW"
-            ],
-            "uniprot_function_in_disease": "Bone marrow failure syndrome 1 (BMFS1) [MIM:614675]: An autosomal dominant disease characterized by aplastic anemia and myelodysplasia resulting from bone marrow failure. Aplastic anemia is a form of anemia in which the bone marrow fails to produce adequate numbers of peripheral blood elements. Myelodysplasia is a clonal hematopoietic stem cell disorder in which immature cells in the bone marrow become malformed and dysfunctional. {ECO:0000269|PubMed:22541560}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "O95260",
-            "amigoid": "UniProtKB:O95260",
-            "gene": "ATE1",
-            "mist": "0.804292637",
-            "saint_bfdr": "0",
-            "avg_spec": "8.33",
-            "fold_change": "83.33",
-            "uniprot_protein_id": "ATE1_HUMAN",
-            "uniprot_protein_description": "Arginyl-tRNA--protein transferase 1 (Arginyltransferase 1) (R-transferase 1) (EC 2.3.2.8) (Arginine-tRNA--protein transferase 1)",
-            "uniprot_protein_function": "Involved in the post-translational conjugation of arginine to the N-terminal aspartate or glutamate of a protein. This arginylation is required for degradation of the protein via the ubiquitin pathway. Does not arginylate cysteine residues (By similarity). {ECO:0000250}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "O96028",
-            "amigoid": "UniProtKB:O96028",
-            "gene": "NSD2",
-            "mist": "0.864651959",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "NSD2_HUMAN",
-            "uniprot_protein_description": "Histone-lysine N-methyltransferase NSD2 (EC 2.1.1.356) (Multiple myeloma SET domain-containing protein) (MMSET) (Nuclear SET domain-containing protein 2) (Protein trithorax-5) (Wolf-Hirschhorn syndrome candidate 1 protein)",
-            "uniprot_protein_function": "Histone methyltransferase with histone H3 'Lys-27' (H3K27me) methyltransferase activity forming trimethylated 'Lys-27' (H3K27me3). Isoform 2 may act as a transcription regulator that binds DNA and suppresses IL5 transcription through HDAC recruitment. {ECO:0000269|PubMed:11152655, ECO:0000269|PubMed:16115125, ECO:0000269|PubMed:18172012}.",
-            "structures": [
-                "5LSU",
-                "5VC8",
-                "6UE6"
-            ],
-            "uniprot_function_in_disease": "Note=A chromosomal aberration involving NSD2 is a cause of multiple myeloma tumors. Translocation t(4;14)(p16.3;q32.3) with IgH.; DISEASE: Note=NSD2 is located in the Wolf-Hirschhorn syndrome (WHS) critical region. WHS results from by sub-telomeric deletions in the short arm of chromosome 4. NSD2 is deleted in every case, however deletion of linked genes contributes to both the severity of the core characteristics and the presence of the additional syndromic problems."
-        },
-        {
-            "id": "P09132",
-            "amigoid": "UniProtKB:P09132",
-            "gene": "SRP19",
-            "mist": "0.832502372",
-            "saint_bfdr": "0",
-            "avg_spec": "12",
-            "fold_change": "120",
-            "uniprot_protein_id": "SRP19_HUMAN",
-            "uniprot_protein_description": "Signal recognition particle 19 kDa protein (SRP19)",
-            "uniprot_protein_function": "Signal-recognition-particle assembly, binds directly to 7S RNA and mediates binding of the 54 kDa subunit of the SRP.",
-            "structures": [
-                "1JID",
-                "1MFQ",
-                "1RY1",
-                "2J37",
-                "3KTV",
-                "4P3E",
-                "5M73"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P61011",
-            "amigoid": "UniProtKB:P61011",
-            "gene": "SRP54",
-            "mist": "0.755584148",
-            "saint_bfdr": "0",
-            "avg_spec": "4",
-            "fold_change": "40",
-            "uniprot_protein_id": "SRP54_HUMAN",
-            "uniprot_protein_description": "Signal recognition particle 54 kDa protein (SRP54)",
-            "uniprot_protein_function": "Binds to the signal sequence of presecretory protein when they emerge from the ribosomes and transfers them to TRAM (translocating chain-associating membrane protein).",
-            "structures": [
-                "1MFQ",
-                "1QB2",
-                "5L3Q"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P82663",
-            "amigoid": "UniProtKB:P82663",
-            "gene": "MRPS25",
-            "mist": "0.826437119",
-            "saint_bfdr": "0",
-            "avg_spec": "4.67",
-            "fold_change": "46.67",
-            "uniprot_protein_id": "RT25_HUMAN",
-            "uniprot_protein_description": "28S ribosomal protein S25, mitochondrial (MRP-S25) (S25mt) (Mitochondrial small ribosomal subunit protein mS25)",
-            "uniprot_protein_function": "",
-            "structures": [
-                "3J9M",
-                "6NU2",
-                "6NU3"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q13206",
-            "amigoid": "UniProtKB:Q13206",
-            "gene": "DDX10",
-            "mist": "0.755753594",
-            "saint_bfdr": "0",
-            "avg_spec": "5.67",
-            "fold_change": "56.67",
-            "uniprot_protein_id": "DDX10_HUMAN",
-            "uniprot_protein_description": "Probable ATP-dependent RNA helicase DDX10 (EC 3.6.4.13) (DEAD box protein 10)",
-            "uniprot_protein_function": "Putative ATP-dependent RNA helicase.",
-            "structures": [
-                "2PL3"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q4G0J3",
-            "amigoid": "UniProtKB:Q4G0J3",
-            "gene": "LARP7",
-            "mist": "0.812479682",
-            "saint_bfdr": "0",
-            "avg_spec": "12.67",
-            "fold_change": "126.67",
-            "uniprot_protein_id": "LARP7_HUMAN",
-            "uniprot_protein_description": "La-related protein 7 (La ribonucleoprotein domain family member 7) (P-TEFb-interaction protein for 7SK stability) (PIP7S)",
-            "uniprot_protein_function": "Negative transcriptional regulator of polymerase II genes, acting by means of the 7SK RNP system. Within the 7SK RNP complex, the positive transcription elongation factor b (P-TEFb) is sequestered in an inactive form, preventing RNA polymerase II phosphorylation and subsequent transcriptional elongation. {ECO:0000269|PubMed:18249148, ECO:0000269|PubMed:18483487}.",
-            "structures": [
-                "4WKR",
-                "5KNW",
-                "6D12"
-            ],
-            "uniprot_function_in_disease": "Alazami syndrome (ALAZS) [MIM:615071]: A syndromic form of primordial dwarfism, a condition characterized by severe growth restriction that has its onset in utero, and results in short stature and undersize. ALAZS patients manifest severe intellectual disability and distinct facial features including malar hypoplasia, deep-set eyes, broad nose, short philtrum, and macrostomia. Some patients have non-specific and inconsistent skeletal findings, for example, scoliosis and mild epiphyseal changes in the proximal phalanges, but no frank dysplasia. {ECO:0000269|PubMed:21937992, ECO:0000269|PubMed:22865833}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q7L2J0",
-            "amigoid": "UniProtKB:Q7L2J0",
-            "gene": "MEPCE",
-            "mist": "0.790978117",
-            "saint_bfdr": "0",
-            "avg_spec": "10.33",
-            "fold_change": "103.33",
-            "uniprot_protein_id": "MEPCE_HUMAN",
-            "uniprot_protein_description": "7SK snRNA methylphosphate capping enzyme (MePCE) (EC 2.1.1.-) (Bicoid-interacting protein 3 homolog) (Bin3 homolog)",
-            "uniprot_protein_function": "S-adenosyl-L-methionine-dependent methyltransferase that adds a methylphosphate cap at the 5'-end of 7SK snRNA, leading to stabilize it. {ECO:0000269|PubMed:17643375}.",
-            "structures": [
-                "5UNA",
-                "6DCB",
-                "6DCC"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q8NEJ9",
-            "amigoid": "UniProtKB:Q8NEJ9",
-            "gene": "NGDN",
-            "mist": "0.71407894",
-            "saint_bfdr": "0",
-            "avg_spec": "3.67",
-            "fold_change": "36.67",
-            "uniprot_protein_id": "NGDN_HUMAN",
-            "uniprot_protein_description": "Neuroguidin (Centromere accumulated nuclear protein 1) (CANu1) (EIF4E-binding protein)",
-            "uniprot_protein_function": "Involved in the translational repression of cytoplasmic polyadenylation element (CPE)-containing mRNAs. {ECO:0000250}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q96B26",
-            "amigoid": "UniProtKB:Q96B26",
-            "gene": "EXOSC8",
-            "mist": "0.990898225",
-            "saint_bfdr": "0",
-            "avg_spec": "3.67",
-            "fold_change": "36.67",
-            "uniprot_protein_id": "EXOS8_HUMAN",
-            "uniprot_protein_description": "Exosome complex component RRP43 (Exosome component 8) (Opa-interacting protein 2) (OIP-2) (Ribosomal RNA-processing protein 43) (p9)",
-            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. EXOSC8 binds to ARE-containing RNAs. {ECO:0000269|PubMed:16912217, ECO:0000269|PubMed:17545563}.",
-            "structures": [
-                "2NN6",
-                "6D6Q",
-                "6D6R",
-                "6H25"
-            ],
-            "uniprot_function_in_disease": "Pontocerebellar hypoplasia 1C (PCH1C) [MIM:616081]: A severe autosomal recessive neurodegenerative disease characterized by cerebellar and corpus callosum hypoplasia, abnormal myelination of the central nervous system, and spinal motor neuron disease. Affected individuals manifest failure to thrive, severe muscle weakness, spasticity and psychomotor retardation. Vision and hearing are impaired. {ECO:0000269|PubMed:24989451}. Note=The disease is caused by mutations affecting the gene represented in this entry. EXOSC8 dysfunction causes myelin disruption through an imbalanced supply of myelin proteins due to dysregulation of their ARE-containing mRNAs (PubMed:24989451). {ECO:0000269|PubMed:24989451}."
-        },
-        {
-            "id": "Q96I59",
-            "amigoid": "UniProtKB:Q96I59",
-            "gene": "NARS2",
-            "mist": "0.78185035",
-            "saint_bfdr": "0",
-            "avg_spec": "5.33",
-            "fold_change": "53.33",
-            "uniprot_protein_id": "SYNM_HUMAN",
-            "uniprot_protein_description": "Probable asparagine--tRNA ligase, mitochondrial (EC 6.1.1.22) (Asparaginyl-tRNA synthetase) (AsnRS)",
-            "uniprot_protein_function": "",
-            "structures": [],
-            "uniprot_function_in_disease": "Combined oxidative phosphorylation deficiency 24 (COXPD24) [MIM:616239]: An autosomal recessive mitochondrial disorder with wide phenotypic variability. Some patients have a milder form affecting only skeletal muscle, whereas others may have a more severe disorder, reminiscent of Alpers syndrome. Alpers syndrome is a progressive neurodegenerative disorder that presents in infancy or early childhood and is characterized by diffuse degeneration of cerebral gray matter. {ECO:0000269|PubMed:25385316, ECO:0000269|PubMed:25629079, ECO:0000269|PubMed:25807530}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Deafness, autosomal recessive, 94 (DFNB94) [MIM:618434]: A form of non-syndromic, sensorineural deafness characterized by prelingual, profound, bilateral hearing impairment. Sensorineural deafness results from damage to the neural receptors of the inner ear, the nerve pathways to the brain, or the area of the brain that receives sound information. {ECO:0000269|PubMed:25807530}. Note=The disease may be caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q9BSC4",
-            "amigoid": "UniProtKB:Q9BSC4",
-            "gene": "NOL10",
-            "mist": "0.807819511",
-            "saint_bfdr": "0",
-            "avg_spec": "8.33",
-            "fold_change": "83.33",
-            "uniprot_protein_id": "NOL10_HUMAN",
-            "uniprot_protein_description": "Nucleolar protein 10",
-            "uniprot_protein_function": "",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9H6F5",
-            "amigoid": "UniProtKB:Q9H6F5",
-            "gene": "CCDC86",
-            "mist": "0.736803661",
-            "saint_bfdr": "0",
-            "avg_spec": "4.33",
-            "fold_change": "43.33",
-            "uniprot_protein_id": "CCD86_HUMAN",
-            "uniprot_protein_description": "Coiled-coil domain-containing protein 86 (Cytokine-induced protein with coiled-coil domain)",
-            "uniprot_protein_function": "",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9HD40",
-            "amigoid": "UniProtKB:Q9HD40",
-            "gene": "SEPSECS",
-            "mist": "0.809559247",
-            "saint_bfdr": "0",
-            "avg_spec": "4.33",
-            "fold_change": "43.33",
-            "uniprot_protein_id": "SPCS_HUMAN",
-            "uniprot_protein_description": "O-phosphoseryl-tRNA(Sec) selenium transferase (EC 2.9.1.2) (Liver-pancreas antigen) (LP) (SLA-p35) (SLA/LP autoantigen) (Selenocysteine synthase) (Sec synthase) (Selenocysteinyl-tRNA(Sec) synthase) (Sep-tRNA:Sec-tRNA synthase) (SepSecS) (Soluble liver antigen) (SLA) (UGA suppressor tRNA-associated protein) (tRNA(Ser/Sec)-associated antigenic protein)",
-            "uniprot_protein_function": "Converts O-phosphoseryl-tRNA(Sec) to selenocysteinyl-tRNA(Sec) required for selenoprotein biosynthesis. {ECO:0000269|PubMed:17142313}.",
-            "structures": [
-                "3HL2",
-                "4ZDL",
-                "4ZDO",
-                "4ZDP"
-            ],
-            "uniprot_function_in_disease": "Pontocerebellar hypoplasia 2D (PCH2D) [MIM:613811]: A disorder characterized by postnatal onset of progressive atrophy of the cerebrum and cerebellum, microcephaly, profound mental retardation, spasticity, and variable seizures. {ECO:0000269|PubMed:20920667, ECO:0000269|PubMed:26115735}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q9NQT4",
-            "amigoid": "UniProtKB:Q9NQT4",
-            "gene": "EXOSC5",
-            "mist": "0.704291901",
-            "saint_bfdr": "0",
-            "avg_spec": "3.67",
-            "fold_change": "36.67",
-            "uniprot_protein_id": "EXOS5_HUMAN",
-            "uniprot_protein_description": "Exosome complex component RRP46 (Chronic myelogenous leukemia tumor antigen 28) (Exosome component 5) (Ribosomal RNA-processing protein 46) (p12B)",
-            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. {ECO:0000269|PubMed:11782436, ECO:0000269|PubMed:21255825}.",
-            "structures": [
-                "2NN6",
-                "6D6Q",
-                "6D6R",
-                "6H25"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9NQT5",
-            "amigoid": "UniProtKB:Q9NQT5",
-            "gene": "EXOSC3",
-            "mist": "0.774797319",
-            "saint_bfdr": "0",
-            "avg_spec": "6.33",
-            "fold_change": "63.33",
-            "uniprot_protein_id": "EXOS3_HUMAN",
-            "uniprot_protein_description": "Exosome complex component RRP40 (Exosome component 3) (Ribosomal RNA-processing protein 40) (p10)",
-            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. EXOSC3 as peripheral part of the Exo-9 complex stabilizes the hexameric ring of RNase PH-domain subunits through contacts with EXOSC9 and EXOSC5. {ECO:0000269|PubMed:11782436, ECO:0000269|PubMed:17545563, ECO:0000269|PubMed:19056938, ECO:0000269|PubMed:21255825}.",
-            "structures": [
-                "2NN6",
-                "6D6Q",
-                "6D6R",
-                "6H25"
-            ],
-            "uniprot_function_in_disease": "Pontocerebellar hypoplasia 1B (PCH1B) [MIM:614678]: A severe autosomal recessive neurologic disorder characterized by a combination of cerebellar and spinal motor neuron degeneration beginning at birth. There is diffuse muscle weakness, progressive microcephaly, global developmental delay, and brainstem involvement. {ECO:0000269|PubMed:22544365}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q9NY61",
-            "amigoid": "UniProtKB:Q9NY61",
-            "gene": "AATF",
-            "mist": "0.783703681",
-            "saint_bfdr": "0",
-            "avg_spec": "11.67",
-            "fold_change": "116.67",
-            "uniprot_protein_id": "AATF_HUMAN",
-            "uniprot_protein_description": "Protein AATF (Apoptosis-antagonizing transcription factor) (Rb-binding protein Che-1)",
-            "uniprot_protein_function": "May function as a general inhibitor of the histone deacetylase HDAC1. Binding to the pocket region of RB1 may displace HDAC1 from RB1/E2F complexes, leading to activation of E2F target genes and cell cycle progression. Conversely, displacement of HDAC1 from SP1 bound to the CDKN1A promoter leads to increased expression of this CDK inhibitor and blocks cell cycle progression. Also antagonizes PAWR mediated induction of aberrant amyloid peptide production in Alzheimer disease (presenile and senile dementia), although the molecular basis for this phenomenon has not been described to date. {ECO:0000269|PubMed:12450794, ECO:0000269|PubMed:12847090, ECO:0000269|PubMed:14627703, ECO:0000269|PubMed:15207272}.",
-            "structures": [
-                "5W6A"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9ULT8",
-            "amigoid": "UniProtKB:Q9ULT8",
-            "gene": "HECTD1",
-            "mist": "0.885504785",
-            "saint_bfdr": "0",
-            "avg_spec": "5.33",
-            "fold_change": "53.33",
-            "uniprot_protein_id": "HECD1_HUMAN",
-            "uniprot_protein_description": "E3 ubiquitin-protein ligase HECTD1 (EC 2.3.2.26) (E3 ligase for inhibin receptor) (EULIR) (HECT domain-containing protein 1) (HECT-type E3 ubiquitin transferase HECTD1)",
-            "uniprot_protein_function": "E3 ubiquitin-protein ligase which accepts ubiquitin from an E2 ubiquitin-conjugating enzyme in the form of a thioester and then directly transfers the ubiquitin to targeted substrates. Mediates 'Lys-63'-linked polyubiquitination of HSP90AA1 which leads to its intracellular localization and reduced secretion. Negatively regulating HSP90AA1 secretion in cranial mesenchyme cells may impair their emigration and may be essential for the correct development of the cranial neural folds and neural tube closure. {ECO:0000250|UniProtKB:Q69ZR2}.",
-            "structures": [
-                "2DK3",
-                "2LC3",
-                "3DKM"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9Y399",
-            "amigoid": "UniProtKB:Q9Y399",
-            "gene": "MRPS2",
-            "mist": "0.972057569",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "RT02_HUMAN",
-            "uniprot_protein_description": "28S ribosomal protein S2, mitochondrial (MRP-S2) (S2mt) (Mitochondrial small ribosomal subunit protein uS2m)",
-            "uniprot_protein_function": "Required for mitoribosome formation and stability, and mitochondrial translation. {ECO:0000269|PubMed:29576219}.",
-            "structures": [
-                "3J9M",
-                "6NU2",
-                "6NU3"
-            ],
-            "uniprot_function_in_disease": "Combined oxidative phosphorylation deficiency 36 (COXPD36) [MIM:617950]: An autosomal recessive, multisystem disease resulting from deficiencies of mitochondrial respiratory enzyme complexes and mitochondrial dysfunction. Clinical manifestations include sensorineural hearing impairment, mild developmental delay, hypoglycemia, and intellectual disability. {ECO:0000269|PubMed:29576219}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P82675",
-            "amigoid": "UniProtKB:P82675",
-            "gene": "MRPS5",
-            "mist": "0.63637328",
-            "saint_bfdr": "0.04",
-            "avg_spec": "2.33",
-            "fold_change": "23.33",
-            "uniprot_protein_id": "RT05_HUMAN",
-            "uniprot_protein_description": "28S ribosomal protein S5, mitochondrial (MRP-S5) (S5mt) (Mitochondrial small ribosomal subunit protein uS5m)",
-            "uniprot_protein_function": "",
-            "structures": [
-                "3J9M",
-                "6NU2",
-                "6NU3"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q13868",
-            "amigoid": "UniProtKB:Q13868",
-            "gene": "EXOSC2",
-            "mist": "0.672587659",
-            "saint_bfdr": "0",
-            "avg_spec": "5.67",
-            "fold_change": "56.67",
-            "uniprot_protein_id": "EXOS2_HUMAN",
-            "uniprot_protein_description": "Exosome complex component RRP4 (Exosome component 2) (Ribosomal RNA-processing protein 4)",
-            "uniprot_protein_function": "Non-catalytic component of the RNA exosome complex which has 3'->5' exoribonuclease activity and participates in a multitude of cellular RNA processing and degradation events. In the nucleus, the RNA exosome complex is involved in proper maturation of stable RNA species such as rRNA, snRNA and snoRNA, in the elimination of RNA processing by-products and non-coding 'pervasive' transcripts, such as antisense RNA species and promoter-upstream transcripts (PROMPTs), and of mRNAs with processing defects, thereby limiting or excluding their export to the cytoplasm. The RNA exosome may be involved in Ig class switch recombination (CSR) and/or Ig variable region somatic hypermutation (SHM) by targeting AICDA deamination activity to transcribed dsDNA substrates. In the cytoplasm, the RNA exosome complex is involved in general mRNA turnover and specifically degrades inherently unstable mRNAs containing AU-rich elements (AREs) within their 3' untranslated regions, and in RNA surveillance pathways, preventing translation of aberrant mRNAs. It seems to be involved in degradation of histone mRNA. The catalytic inactive RNA exosome core complex of 9 subunits (Exo-9) is proposed to play a pivotal role in the binding and presentation of RNA for ribonucleolysis, and to serve as a scaffold for the association with catalytic subunits and accessory proteins or complexes. EXOSC2 as peripheral part of the Exo-9 complex stabilizes the hexameric ring of RNase PH-domain subunits through contacts with EXOSC4 and EXOSC7. {ECO:0000269|PubMed:17545563}.",
-            "structures": [
-                "2NN6",
-                "6D6Q",
-                "6D6R",
-                "6H25"
-            ],
-            "uniprot_function_in_disease": "Short stature, hearing loss, retinitis pigmentosa, and distinctive facies (SHRF) [MIM:617763]: An autosomal recessive disorder characterized by childhood myopia, early onset retinitis pigmentosa, progressive sensorineural hearing loss, hypothyroidism, short stature, brachydactyly, recognisable facial gestalt, premature ageing and mild intellectual disability. {ECO:0000269|PubMed:26843489}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q92552",
-            "amigoid": "UniProtKB:Q92552",
-            "gene": "MRPS27",
-            "mist": "0.602806863",
-            "saint_bfdr": "0",
-            "avg_spec": "3.33",
-            "fold_change": "33.33",
-            "uniprot_protein_id": "RT27_HUMAN",
-            "uniprot_protein_description": "28S ribosomal protein S27, mitochondrial (MRP-S27) (S27mt) (Mitochondrial ribosomal protein S27) (Mitochondrial small ribosomal subunit protein mS27)",
-            "uniprot_protein_function": "RNA-binding component of the mitochondrial small ribosomal subunit (mt-SSU) that plays a role in mitochondrial protein synthesis (PubMed:22841715). Stimulates mitochondrial mRNA translation of subunit components of the mitochondrial electron transport chain (PubMed:22841715). Binds to the mitochondrial 12S rRNA (12S mt-rRNA) and tRNA(Glu) (PubMed:22841715). Involved also in positive regulation of cell proliferation and tumor cell growth (PubMed:28714366). {ECO:0000269|PubMed:22841715, ECO:0000269|PubMed:28714366}.",
-            "structures": [
-                "3J9M",
-                "6NU2",
-                "6NU3"
-            ],
-            "uniprot_function_in_disease": ""
-        }
-    ],
-    "SARS-CoV2 nsp9": [
-        {
-            "id": "P13984",
-            "amigoid": "UniProtKB:P13984",
-            "gene": "GTF2F2",
-            "mist": "0.877426938",
-            "saint_bfdr": "0",
-            "avg_spec": "14",
-            "fold_change": "140",
-            "uniprot_protein_id": "T2FB_HUMAN",
-            "uniprot_protein_description": "General transcription factor IIF subunit 2 (EC 3.6.4.12) (ATP-dependent helicase GTF2F2) (General transcription factor IIF 30 kDa subunit) (Transcription initiation factor IIF subunit beta) (TFIIF-beta) (Transcription initiation factor RAP30)",
-            "uniprot_protein_function": "TFIIF is a general transcription initiation factor that binds to RNA polymerase II and helps to recruit it to the initiation complex in collaboration with TFIIB. It promotes transcription elongation. This subunit shows ATP-dependent DNA-helicase activity. {ECO:0000269|PubMed:2477704}.",
-            "structures": [
-                "1BBY",
-                "1F3U",
-                "2BBY",
-                "5IY6",
-                "5IY7",
-                "5IY8",
-                "5IY9",
-                "5IYA",
-                "5IYB",
-                "5IYC",
-                "5IYD",
-                "6O9L"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P35555",
-            "amigoid": "UniProtKB:P35555",
-            "gene": "FBN1",
-            "mist": "0.992372395",
-            "saint_bfdr": "0",
-            "avg_spec": "15.33",
-            "fold_change": "153.33",
-            "uniprot_protein_id": "FBN1_HUMAN",
-            "uniprot_protein_description": "Fibrillin-1 [Cleaved into: Asprosin]",
-            "uniprot_protein_function": "[Fibrillin-1]: Structural component of the 10-12 nm diameter microfibrils of the extracellular matrix, which conveys both structural and regulatory properties to load-bearing connective tissues (PubMed:1860873, PubMed:15062093). Fibrillin-1-containing microfibrils provide long-term force bearing structural support. In tissues such as the lung, blood vessels and skin, microfibrils form the periphery of the elastic fiber, acting as a scaffold for the deposition of elastin. In addition, microfibrils can occur as elastin-independent networks in tissues such as the ciliary zonule, tendon, cornea and glomerulus where they provide tensile strength and have anchoring roles. Fibrillin-1 also plays a key role in tissue homeostasis through specific interactions with growth factors, such as the bone morphogenetic proteins (BMPs), growth and differentiation factors (GDFs) and latent transforming growth factor-beta-binding proteins (LTBPs), cell-surface integrins and other extracellular matrix protein and proteoglycan components (PubMed:27026396). Regulates osteoblast maturation by controlling TGF-beta bioavailability and calibrating TGF-beta and BMP levels, respectively (By similarity). Negatively regulates osteoclastogenesis by binding and sequestering an osteoclast differentiation and activation factor TNFSF11. This leads to disruption of TNFSF11-induced Ca(2+) signaling and impairment of TNFSF11-mediated nuclear translocation and activation of transcription factor NFATC1 which regulates genes important for osteoclast differentiation and function (PubMed:24039232). Mediates cell adhesion via its binding to cell surface receptors integrins ITGAV:ITGB3 and ITGA5:ITGB1 (PubMed:12807887, PubMed:17158881). Binds heparin and this interaction has an important role in the assembly of microfibrils (PubMed:11461921). {ECO:0000250|UniProtKB:Q61554, ECO:0000269|PubMed:11461921, ECO:0000269|PubMed:12807887, ECO:0000269|PubMed:15062093, ECO:0000269|PubMed:17158881, ECO:0000269|PubMed:1860873, ECO:0000269|PubMed:24039232, ECO:0000303|PubMed:27026396}.; FUNCTION: [Asprosin]: Hormone that targets the liver to increase plasma glucose levels. Secreted by white adipose tissue and circulates in the plasma. Acts in response to fasting and promotes blood glucose elevation by binding to the surface of hepatocytes. Promotes hepatocyte glucose release by activating the protein kinase A activity in the liver, resulting in rapid glucose release into the circulation. {ECO:0000269|PubMed:27087445}.",
-            "structures": [
-                "1APJ",
-                "1EMN",
-                "1EMO",
-                "1LMJ",
-                "1UZJ",
-                "1UZK",
-                "1UZP",
-                "1UZQ",
-                "2M74",
-                "2W86",
-                "5MS9"
-            ],
-            "uniprot_function_in_disease": "Marfan syndrome (MFS) [MIM:154700]: A hereditary disorder of connective tissue that affects the skeletal, ocular, and cardiovascular systems. A wide variety of skeletal abnormalities occurs with Marfan syndrome, including scoliosis, chest wall deformity, tall stature, abnormal joint mobility. Ectopia lentis occurs in most of the patients and is almost always bilateral. The leading cause of premature death is progressive dilation of the aortic root and ascending aorta, causing aortic incompetence and dissection. Neonatal Marfan syndrome is the most severe form resulting in death from cardiorespiratory failure in the first few years of life. {ECO:0000269|PubMed:10425041, ECO:0000269|PubMed:10441597, ECO:0000269|PubMed:10694921, ECO:0000269|PubMed:11700157, ECO:0000269|PubMed:11826022, ECO:0000269|PubMed:12161601, ECO:0000269|PubMed:12203992, ECO:0000269|PubMed:12402346, ECO:0000269|PubMed:1301946, ECO:0000269|PubMed:14695540, ECO:0000269|PubMed:15161917, ECO:0000269|PubMed:15221638, ECO:0000269|PubMed:1569206, ECO:0000269|PubMed:16220557, ECO:0000269|PubMed:16222657, ECO:0000269|PubMed:17657824, ECO:0000269|PubMed:18435798, ECO:0000269|PubMed:1852208, ECO:0000269|PubMed:19533785, ECO:0000269|PubMed:19941982, ECO:0000269|PubMed:20803651, ECO:0000269|PubMed:21542060, ECO:0000269|PubMed:22772377, ECO:0000269|PubMed:7611299, ECO:0000269|PubMed:7738200, ECO:0000269|PubMed:7762551, ECO:0000269|PubMed:7870075, ECO:0000269|PubMed:7951214, ECO:0000269|PubMed:7977366, ECO:0000269|PubMed:8004112, ECO:0000269|PubMed:8040326, ECO:0000269|PubMed:8071963, ECO:0000269|PubMed:8136837, ECO:0000269|PubMed:8281141, ECO:0000269|PubMed:8406497, ECO:0000269|PubMed:8504310, ECO:0000269|PubMed:8863159, ECO:0000269|PubMed:8882780, ECO:0000269|PubMed:9016526, ECO:0000269|PubMed:9254848, ECO:0000269|PubMed:9338581, ECO:0000269|PubMed:9401003, ECO:0000269|PubMed:9452085, ECO:0000269|PubMed:9837823, ECO:0000269|Ref.68}. Note=The disease is caused by mutations affecting the gene represented in this entry. The majority of the more than a thousand mutations in FBN1 currently known are point mutations, the rest are frameshifts and splice site mutations. Marfan syndrome has been suggested in at least 2 historical figures, Abraham Lincoln and Paganini.; DISEASE: Ectopia lentis 1, isolated, autosomal dominant (ECTOL1) [MIM:129600]: An ocular abnormality characterized by partial or complete displacement of the lens from its space resulting from defective zonule formation. {ECO:0000269|PubMed:11700157, ECO:0000269|PubMed:11826022, ECO:0000269|PubMed:12203992, ECO:0000269|PubMed:17657824, ECO:0000269|PubMed:8188302}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Weill-Marchesani syndrome 2 (WMS2) [MIM:608328]: A rare connective tissue disorder characterized by short stature, brachydactyly, joint stiffness, and eye abnormalities including microspherophakia, ectopia lentis, severe myopia and glaucoma. {ECO:0000269|PubMed:12525539}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Overlap connective tissue disease (OCTD) [MIM:604308]: Heritable disorder of connective tissue characterized by involvement of the mitral valve, aorta, skeleton, and skin. MASS syndrome is closely resembling both the Marfan syndrome and the Barlow syndrome. However, no dislocation of the lenses or aneurysmal changes occur in the aorta, and the mitral valve prolapse is by no means invariable. {ECO:0000269|PubMed:2739055}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Stiff skin syndrome (SSKS) [MIM:184900]: A syndrome characterized by hard, thick skin, usually over the entire body, which limits joint mobility and causes flexion contractures. Other occasional findings include lipodystrophy and muscle weakness. {ECO:0000269|PubMed:20375004}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Geleophysic dysplasia 2 (GPHYSD2) [MIM:614185]: An autosomal dominant disorder characterized by severe short stature, short hands and feet, joint limitations, and skin thickening. Radiologic features include delayed bone age, cone-shaped epiphyses, shortened long tubular bones, and ovoid vertebral bodies. Affected individuals have characteristic facial features including a 'happy' face with full cheeks, shortened nose, hypertelorism, long and flat philtrum, and thin upper lip. Other distinctive features include progressive cardiac valvular thickening often leading to an early death, toe walking, tracheal stenosis, respiratory insufficiency, and lysosomal-like storage vacuoles in various tissues. {ECO:0000269|PubMed:21683322}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Acromicric dysplasia (ACMICD) [MIM:102370]: An autosomal dominant disorder characterized by severe short stature, short hands and feet, joint limitations, and skin thickening. Radiologic features include delayed bone age, cone-shaped epiphyses, shortened long tubular bones, and ovoid vertebral bodies. Affected individuals have distinct facial features, including round face, well-defined eyebrows, long eyelashes, bulbous nose with anteverted nostrils, long and prominent philtrum, and thick lips with a small mouth. Other characteristic features include hoarse voice and pseudomuscular build, and there are distinct skeletal features as well, including an internal notch of the femoral head, internal notch of the second metacarpal, and external notch of the fifth metacarpal. {ECO:0000269|PubMed:21683322}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: [Asprosin]: Marfanoid-progeroid-lipodystrophy syndrome (MFLS) [MIM:616914]: An autosomal dominant syndrome characterized by congenital lipodystrophy, a progeroid facial appearance due to lack of subcutaneous fat, and variable signs of Marfan syndrome. Clinical features include premature birth with an accelerated linear growth disproportionate to the weight gain, ectopia lentis, aortic dilatation, dural ectasia, and arachnodactyly. Mental and motor development are within normal limits. {ECO:0000269|PubMed:20979188, ECO:0000269|PubMed:21594992, ECO:0000269|PubMed:21594993, ECO:0000269|PubMed:24039054, ECO:0000269|PubMed:24613577, ECO:0000269|PubMed:24665001, ECO:0000269|PubMed:26860060, ECO:0000269|PubMed:27087445}. Note=The disease is caused by mutations affecting the gene represented in this entry. {ECO:0000269|PubMed:27087445}."
-        },
-        {
-            "id": "P35556",
-            "amigoid": "UniProtKB:P35556",
-            "gene": "FBN2",
-            "mist": "0.991012329",
-            "saint_bfdr": "0",
-            "avg_spec": "83",
-            "fold_change": "830",
-            "uniprot_protein_id": "FBN2_HUMAN",
-            "uniprot_protein_description": "Fibrillin-2 [Cleaved into: Fibrillin-2 C-terminal peptide]",
-            "uniprot_protein_function": "[Fibrillin-2]: Fibrillins are structural components of 10-12 nm extracellular calcium-binding microfibrils, which occur either in association with elastin or in elastin-free bundles. Fibrillin-2-containing microfibrils regulate the early process of elastic fiber assembly. Regulates osteoblast maturation by controlling TGF-beta bioavailability and calibrating TGF-beta and BMP levels, respectively. {ECO:0000250|UniProtKB:Q61555}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Contractural arachnodactyly, congenital (CCA) [MIM:121050]: An autosomal dominant connective tissue disorder characterized by contractures, arachnodactyly, scoliosis, and crumpled ears. {ECO:0000269|PubMed:10797416, ECO:0000269|PubMed:11754102, ECO:0000269|PubMed:19006240, ECO:0000269|PubMed:20799338, ECO:0000269|PubMed:25834781, ECO:0000269|PubMed:27196565, ECO:0000269|PubMed:7493032, ECO:0000269|PubMed:9714438, ECO:0000269|PubMed:9737771}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Macular degeneration, early-onset (EOMD) [MIM:616118]: An ocular disorder characterized by macular changes resulting in progressive loss of visual acuity. {ECO:0000269|PubMed:24899048}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P35658",
-            "amigoid": "UniProtKB:P35658",
-            "gene": "NUP214",
-            "mist": "0.962233264",
-            "saint_bfdr": "0",
-            "avg_spec": "8.33",
-            "fold_change": "83.33",
-            "uniprot_protein_id": "NU214_HUMAN",
-            "uniprot_protein_description": "Nuclear pore complex protein Nup214 (214 kDa nucleoporin) (Nucleoporin Nup214) (Protein CAN)",
-            "uniprot_protein_function": "Has a critical role in nucleocytoplasmic transport (PubMed:31178128). May serve as a docking site in the receptor-mediated import of substrates across the nuclear pore complex (PubMed:31178128, PubMed:8108440). {ECO:0000269|PubMed:31178128, ECO:0000303|PubMed:8108440}.",
-            "structures": [
-                "2OIT",
-                "3FHC",
-                "3FMO",
-                "3FMP",
-                "5DIS"
-            ],
-            "uniprot_function_in_disease": "Note=A chromosomal aberration involving NUP214 is found in a subset of acute myeloid leukemia (AML); also known as acute non-lymphocytic leukemia. Translocation t(6;9)(p23;q34) with DEK. It results in the formation of a DEK-CAN fusion gene. {ECO:0000269|PubMed:1549122}.; DISEASE: Note=A chromosomal aberration involving NUP214 is found in some cases of acute undifferentiated leukemia (AUL). Translocation t(6;9)(q21;q34.1) with SET. {ECO:0000269|PubMed:1630450}.; DISEASE: Encephalopathy, acute, infection-induced, 9 (IIAE9) [MIM:618426]: An autosomal recessive disorder characterized by infancy-onset of episodic neurodevelopmental regression in association with infection-induced febrile illness. Clinical features include poor overall growth, seizures, myoclonic jerks, microcephaly, ataxia, and cerebellar atrophy. {ECO:0000269|PubMed:30758658, ECO:0000269|PubMed:31178128}. Note=Disease susceptibility is associated with variations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P37198",
-            "amigoid": "UniProtKB:P37198",
-            "gene": "NUP62",
-            "mist": "0.993010451",
-            "saint_bfdr": "0",
-            "avg_spec": "18",
-            "fold_change": "180",
-            "uniprot_protein_id": "NUP62_HUMAN",
-            "uniprot_protein_description": "Nuclear pore glycoprotein p62 (62 kDa nucleoporin) (Nucleoporin Nup62)",
-            "uniprot_protein_function": "Essential component of the nuclear pore complex (PubMed:1915414). The N-terminal is probably involved in nucleocytoplasmic transport (PubMed:1915414). The C-terminal is involved in protein-protein interaction probably via coiled-coil formation, promotes its association with centrosomes and may function in anchorage of p62 to the pore complex (PubMed:1915414, PubMed:24107630). Plays a role in mitotic cell cycle progression by regulating centrosome segregation, centriole maturation and spindle orientation (PubMed:24107630). It might be involved in protein recruitment to the centrosome after nuclear breakdown (PubMed:24107630). {ECO:0000269|PubMed:1915414, ECO:0000269|PubMed:24107630}.",
-            "structures": [
-                "2H4D",
-                "5IJN",
-                "5IJO"
-            ],
-            "uniprot_function_in_disease": "Infantile striatonigral degeneration (SNDI) [MIM:271930]: Neurological disorder characterized by symmetrical degeneration of the caudate nucleus, putamen, and occasionally the globus pallidus, with little involvement of the rest of the brain. The clinical features include developmental regression, choreoathetosis, dystonia, spasticity, dysphagia, failure to thrive, nystagmus, optic atrophy, and mental retardation. {ECO:0000269|PubMed:16786527}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "P61962",
-            "amigoid": "UniProtKB:P61962",
-            "gene": "DCAF7",
-            "mist": "0.969234024",
-            "saint_bfdr": "0",
-            "avg_spec": "16",
-            "fold_change": "160",
-            "uniprot_protein_id": "DCAF7_HUMAN",
-            "uniprot_protein_description": "DDB1- and CUL4-associated factor 7 (WD repeat-containing protein 68) (WD repeat-containing protein An11 homolog)",
-            "uniprot_protein_function": "Involved in craniofacial development. Acts upstream of the EDN1 pathway and is required for formation of the upper jaw equivalent, the palatoquadrate. The activity required for EDN1 pathway function differs between the first and second arches (By similarity). Associates with DIAPH1 and controls GLI1 transcriptional activity. Could be involved in normal and disease skin development. May function as a substrate receptor for CUL4-DDB1 E3 ubiquitin-protein ligase complex. {ECO:0000250, ECO:0000269|PubMed:16887337, ECO:0000269|PubMed:16949367}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q15056",
-            "amigoid": "UniProtKB:Q15056",
-            "gene": "EIF4H",
-            "mist": "0.86901939",
-            "saint_bfdr": "0",
-            "avg_spec": "6",
-            "fold_change": "60",
-            "uniprot_protein_id": "IF4H_HUMAN",
-            "uniprot_protein_description": "Eukaryotic translation initiation factor 4H (eIF-4H) (Williams-Beuren syndrome chromosomal region 1 protein)",
-            "uniprot_protein_function": "Stimulates the RNA helicase activity of EIF4A in the translation initiation complex. Binds weakly mRNA. {ECO:0000269|PubMed:10585411, ECO:0000269|PubMed:11418588}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Note=EIF4H is located in the Williams-Beuren syndrome (WBS) critical region. WBS results from a hemizygous deletion of several genes on chromosome 7q11.23, thought to arise as a consequence of unequal crossing over between highly homologous low-copy repeat sequences flanking the deleted region. Haploinsufficiency of EIF4H may be the cause of certain cardiovascular and musculo-skeletal abnormalities observed in the disease. {ECO:0000269|PubMed:8812460}."
-        },
-        {
-            "id": "Q7Z3B4",
-            "amigoid": "UniProtKB:Q7Z3B4",
-            "gene": "NUP54",
-            "mist": "0.991624822",
-            "saint_bfdr": "0",
-            "avg_spec": "21.33",
-            "fold_change": "213.33",
-            "uniprot_protein_id": "NUP54_HUMAN",
-            "uniprot_protein_description": "Nucleoporin p54 (54 kDa nucleoporin)",
-            "uniprot_protein_function": "Component of the nuclear pore complex, a complex required for the trafficking across the nuclear membrane. {ECO:0000250|UniProtKB:P70582}.",
-            "structures": [
-                "4JNU",
-                "4JNV",
-                "4JO7",
-                "4JO9",
-                "5IJN",
-                "5IJO"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q86YT6",
-            "amigoid": "UniProtKB:Q86YT6",
-            "gene": "MIB1",
-            "mist": "0.89782233",
-            "saint_bfdr": "0",
-            "avg_spec": "15",
-            "fold_change": "150",
-            "uniprot_protein_id": "MIB1_HUMAN",
-            "uniprot_protein_description": "E3 ubiquitin-protein ligase MIB1 (EC 2.3.2.27) (DAPK-interacting protein 1) (DIP-1) (Mind bomb homolog 1) (RING-type E3 ubiquitin transferase MIB1) (Zinc finger ZZ type with ankyrin repeat domain protein 2)",
-            "uniprot_protein_function": "E3 ubiquitin-protein ligase that mediates ubiquitination of Delta receptors, which act as ligands of Notch proteins. Positively regulates the Delta-mediated Notch signaling by ubiquitinating the intracellular domain of Delta, leading to endocytosis of Delta receptors. Probably mediates ubiquitination and subsequent proteasomal degradation of DAPK1, thereby antagonizing anti-apoptotic effects of DAPK1 to promote TNF-induced apoptosis (By similarity). Involved in ubiquitination of centriolar satellite CEP131, CEP290 and PCM1 proteins and hence inhibits primary cilium formation in proliferating cells. Mediates 'Lys-63'-linked polyubiquitination of TBK1, which probably participates in kinase activation. {ECO:0000250, ECO:0000269|PubMed:24121310}.",
-            "structures": [
-                "4TSE",
-                "4XI6",
-                "4XI7",
-                "4XIB"
-            ],
-            "uniprot_function_in_disease": "Left ventricular non-compaction 7 (LVNC7) [MIM:615092]: A form of left ventricular non-compaction, a cardiomyopathy due to myocardial morphogenesis arrest and characterized by a hypertrophic left ventricle, a severely thickened 2-layered myocardium, numerous prominent trabeculations, deep intertrabecular recesses, and poor systolic function. Clinical manifestations are variable. Some affected individuals experience no symptoms at all, others develop heart failure. In some cases, left ventricular non-compaction is associated with other congenital heart anomalies. LVNC7 is an autosomal dominant condition. {ECO:0000269|PubMed:23314057}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q8N0X7",
-            "amigoid": "UniProtKB:Q8N0X7",
-            "gene": "SPART",
-            "mist": "0.962964129",
-            "saint_bfdr": "0",
-            "avg_spec": "13.67",
-            "fold_change": "136.67",
-            "uniprot_protein_id": "SPART_HUMAN",
-            "uniprot_protein_description": "Spartin (Spastic paraplegia 20 protein) (Trans-activated by hepatitis C virus core protein 1)",
-            "uniprot_protein_function": "May be implicated in endosomal trafficking, or microtubule dynamics, or both. Participates in cytokinesis (PubMed:20719964). {ECO:0000269|PubMed:20719964}.",
-            "structures": [
-                "2DL1",
-                "4U7I"
-            ],
-            "uniprot_function_in_disease": "Spastic paraplegia 20, autosomal recessive (SPG20) [MIM:275900]: A form of spastic paraplegia, a neurodegenerative disorder characterized by a slow, gradual, progressive weakness and spasticity of the lower limbs. Rate of progression and the severity of symptoms are quite variable. Initial symptoms may include difficulty with balance, weakness and stiffness in the legs, muscle spasms, and dragging the toes when walking. In some forms of the disorder, bladder symptoms (such as incontinence) may appear, or the weakness and stiffness may spread to other parts of the body. SPG20 is characterized by dysarthria, distal amyotrophy, mild developmental delay and short stature. {ECO:0000269|PubMed:12134148, ECO:0000269|PubMed:27539578, ECO:0000269|PubMed:28875386}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q8TD19",
-            "amigoid": "UniProtKB:Q8TD19",
-            "gene": "NEK9",
-            "mist": "0.991972865",
-            "saint_bfdr": "0",
-            "avg_spec": "39",
-            "fold_change": "390",
-            "uniprot_protein_id": "NEK9_HUMAN",
-            "uniprot_protein_description": "Serine/threonine-protein kinase Nek9 (EC 2.7.11.1) (Nercc1 kinase) (Never in mitosis A-related kinase 9) (NimA-related protein kinase 9) (NimA-related kinase 8) (Nek8)",
-            "uniprot_protein_function": "Pleiotropic regulator of mitotic progression, participating in the control of spindle dynamics and chromosome separation. Phosphorylates different histones, myelin basic protein, beta-casein, and BICD2. Phosphorylates histone H3 on serine and threonine residues and beta-casein on serine residues. Important for G1/S transition and S phase progression. Phosphorylates NEK6 and NEK7 and stimulates their activity by releasing the autoinhibitory functions of Tyr-108 and Tyr-97 respectively. {ECO:0000269|PubMed:12840024, ECO:0000269|PubMed:14660563, ECO:0000269|PubMed:19941817}.",
-            "structures": [
-                "3ZKE",
-                "3ZKF"
-            ],
-            "uniprot_function_in_disease": "Lethal congenital contracture syndrome 10 (LCCS10) [MIM:617022]: A form of lethal congenital contracture syndrome, an autosomal recessive disorder characterized by degeneration of anterior horn neurons, extreme skeletal muscle atrophy and congenital non-progressive joint contractures. The contractures can involve the upper or lower limbs and/or the vertebral column, leading to various degrees of flexion or extension limitations evident at birth. {ECO:0000269|PubMed:26908619}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Nevus comedonicus (NC) [MIM:617025]: A rare type of epidermal nevus characterized by closely arranged, dilated, plugged follicular ostia in a honeycomb pattern. The plugged ostia contain lamellated keratinaceous material, and their appearance resembles black dots. NC may be non-pyogenic with an acne-like appearance or associated with the formation of cysts, papules, pustules, and abscesses. Most commonly it affects the face and neck area and, by exception, other anatomical regions, including genital area, palms, and soles. NC lesions might present with various patterns of distribution: unilateral, bilateral, linear, interrupted, segmental, or blaschkoid. {ECO:0000269|PubMed:27153399}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Arthrogryposis, Perthes disease, and upward gaze palsy (APUG) [MIM:614262]: An autosomal recessive, syndromic form of arthrogryposis, a disease characterized by persistent joints flexure or contracture. APUG patients manifest an unusual combination of arthrogryposis, upward gaze palsy, and avascular necrosis of the hip (Perthes disease). {ECO:0000269|PubMed:26633546}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q96F45",
-            "amigoid": "UniProtKB:Q96F45",
-            "gene": "ZNF503",
-            "mist": "0.777581447",
-            "saint_bfdr": "0",
-            "avg_spec": "34",
-            "fold_change": "93.5",
-            "uniprot_protein_id": "ZN503_HUMAN",
-            "uniprot_protein_description": "Zinc finger protein 503",
-            "uniprot_protein_function": "May function as a transcriptional repressor. {ECO:0000250}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q99567",
-            "amigoid": "UniProtKB:Q99567",
-            "gene": "NUP88",
-            "mist": "0.92724312",
-            "saint_bfdr": "0",
-            "avg_spec": "3.67",
-            "fold_change": "36.67",
-            "uniprot_protein_id": "NUP88_HUMAN",
-            "uniprot_protein_description": "Nuclear pore complex protein Nup88 (88 kDa nucleoporin) (Nucleoporin Nup88)",
-            "uniprot_protein_function": "Component of nuclear pore complex. {ECO:0000269|PubMed:30543681}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Fetal akinesia deformation sequence 4 (FADS4) [MIM:618393]: A clinically and genetically heterogeneous group of disorders with congenital malformations related to impaired fetal movement. Clinical features include fetal akinesia, intrauterine growth retardation, polyhydramnios, arthrogryposis, pulmonary hypoplasia, craniofacial abnormalities, and cryptorchidism. FADS4 inheritance is autosomal recessive. {ECO:0000269|PubMed:30543681}. Note=The disease is caused by mutations affecting the gene represented in this entry. Disease mechanism likely includes impaired formation of the neuromuscular junction. NUP88 silencing in vitro results in reduced levels of rapsyn, a key player in clustering of nicotinic acetylcholine receptors (nAChRs) at the neuromuscular junction. Decreased rapsyn levels have also been observed in a patient muscle biopsy. {ECO:0000269|PubMed:30543681}."
-        },
-        {
-            "id": "Q9BVL2",
-            "amigoid": "UniProtKB:Q9BVL2",
-            "gene": "NUP58",
-            "mist": "0.979586223",
-            "saint_bfdr": "0",
-            "avg_spec": "12",
-            "fold_change": "120",
-            "uniprot_protein_id": "NUP58_HUMAN",
-            "uniprot_protein_description": "Nucleoporin p58/p45 (58 kDa nucleoporin) (Nucleoporin-like protein 1)",
-            "uniprot_protein_function": "Component of the nuclear pore complex, a complex required for the trafficking across the nuclear membrane. {ECO:0000250|UniProtKB:P70581}.",
-            "structures": [
-                "4JO7",
-                "4JO9",
-                "4JQ5",
-                "5IJN",
-                "5IJO"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9NZL9",
-            "amigoid": "UniProtKB:Q9NZL9",
-            "gene": "MAT2B",
-            "mist": "0.978282655",
-            "saint_bfdr": "0",
-            "avg_spec": "4.33",
-            "fold_change": "43.33",
-            "uniprot_protein_id": "MAT2B_HUMAN",
-            "uniprot_protein_description": "Methionine adenosyltransferase 2 subunit beta (Methionine adenosyltransferase II beta) (MAT II beta) (Putative dTDP-4-keto-6-deoxy-D-glucose 4-reductase)",
-            "uniprot_protein_function": "Regulatory subunit of S-adenosylmethionine synthetase 2, an enzyme that catalyzes the formation of S-adenosylmethionine from methionine and ATP. Regulates MAT2A catalytic activity by changing its kinetic properties, increasing its affinity for L-methionine (PubMed:10644686, PubMed:23189196, PubMed:25075345). Can bind NADP (in vitro) (PubMed:23189196, PubMed:23425511). {ECO:0000269|PubMed:10644686, ECO:0000269|PubMed:23189196, ECO:0000269|PubMed:23425511, ECO:0000269|PubMed:25075345}.",
-            "structures": [
-                "2YDX",
-                "2YDY",
-                "4KTT",
-                "4KTV",
-                "4NDN"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9UBX5",
-            "amigoid": "UniProtKB:Q9UBX5",
-            "gene": "FBLN5",
-            "mist": "0.992002193",
-            "saint_bfdr": "0.01",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "FBLN5_HUMAN",
-            "uniprot_protein_description": "Fibulin-5 (FIBL-5) (Developmental arteries and neural crest EGF-like protein) (Dance) (Urine p50 protein) (UP50)",
-            "uniprot_protein_function": "Essential for elastic fiber formation, is involved in the assembly of continuous elastin (ELN) polymer and promotes the interaction of microfibrils and ELN (PubMed:18185537). Stabilizes and organizes elastic fibers in the skin, lung and vasculature (By similarity). Promotes adhesion of endothelial cells through interaction of integrins and the RGD motif. Vascular ligand for integrin receptors which may play a role in vascular development and remodeling (PubMed:10428823). May act as an adapter that mediates the interaction between FBN1 and ELN (PubMed:17255108). {ECO:0000250|UniProtKB:Q9WVH9, ECO:0000269|PubMed:10428823, ECO:0000269|PubMed:17255108, ECO:0000269|PubMed:18185537}.",
-            "structures": [],
-            "uniprot_function_in_disease": "Neuropathy, hereditary, with or without age-related macular degeneration (HNARMD) [MIM:608895]: An autosomal dominant neuropathy of the Charcot-Marie-Tooth disease group, characterized by distal muscle weakness and atrophy variably affecting the lower and upper limbs. Distal sensory impairment and decreased nerve conduction velocities are present in most but not all patients. Additional variable features are age-related macular degeneration, joint hypermobility, and hyperelastic skin. {ECO:0000269|PubMed:21576112, ECO:0000269|PubMed:23328402}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Cutis laxa, autosomal dominant, 2 (ADCL2) [MIM:614434]: A connective tissue disorder characterized by loose, hyperextensible skin with decreased resilience and elasticity leading to a premature aged appearance. Face, hands, feet, joints, and torso may be differentially affected. Additional variable clinical features are gastrointestinal diverticula, hernia, and genital prolapse. Rare manifestations are pulmonary artery stenosis, aortic aneurysm, bronchiectasis, and emphysema. {ECO:0000269|PubMed:12618961}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Cutis laxa, autosomal recessive, 1A (ARCL1A) [MIM:219100]: A connective tissue disorder characterized by loose, hyperextensible skin with decreased resilience and elasticity leading to a premature aged appearance. Face, hands, feet, joints, and torso may be differentially affected. The clinical spectrum of autosomal recessive cutis laxa is highly heterogeneous with respect to organ involvement and severity. Type I autosomal recessive cutis laxa is a specific, life-threatening disorder with organ involvement, lung atelectasis and emphysema, diverticula of the gastrointestinal and genitourinary systems, and vascular anomalies. Associated cranial anomalies, late closure of the fontanel, joint laxity, hip dislocation, and inguinal hernia have been observed but are uncommon. {ECO:0000269|PubMed:12189163, ECO:0000269|PubMed:16652333, ECO:0000269|PubMed:16691202, ECO:0000269|PubMed:17035250, ECO:0000269|PubMed:18185537, ECO:0000269|PubMed:20007835, ECO:0000269|PubMed:20599547}. Note=The disease is caused by mutations affecting the gene represented in this entry. Mutations affecting this gene can modify the phenotype of diseases caused by ELN mutations. {ECO:0000269|PubMed:19194475}.; DISEASE: Macular degeneration, age-related, 3 (ARMD3) [MIM:608895]: A form of age-related macular degeneration, a multifactorial eye disease and the most common cause of irreversible vision loss in the developed world. In most patients, the disease is manifest as ophthalmoscopically visible yellowish accumulations of protein and lipid that lie beneath the retinal pigment epithelium and within an elastin-containing structure known as Bruch membrane. {ECO:0000269|PubMed:15269314, ECO:0000269|PubMed:16652333, ECO:0000269|PubMed:20007835, ECO:0000269|PubMed:20599547}. Note=Disease susceptibility is associated with variations affecting the gene represented in this entry."
-        }
-    ],
-    "SARS-CoV2 orf10": [
-        {
-            "id": "P50897",
-            "amigoid": "UniProtKB:P50897",
-            "gene": "PPT1",
-            "mist": "0.777920681",
-            "saint_bfdr": "0",
-            "avg_spec": "6",
-            "fold_change": "60",
-            "uniprot_protein_id": "PPT1_HUMAN",
-            "uniprot_protein_description": "Palmitoyl-protein thioesterase 1 (PPT-1) (EC 3.1.2.22) (Palmitoyl-protein hydrolase 1)",
-            "uniprot_protein_function": "Removes thioester-linked fatty acyl groups such as palmitate from modified cysteine residues in proteins or peptides during lysosomal degradation. Prefers acyl chain lengths of 14 to 18 carbons (PubMed:8816748). {ECO:0000269|PubMed:8816748}.",
-            "structures": [
-                "3GRO"
-            ],
-            "uniprot_function_in_disease": "Ceroid lipofuscinosis, neuronal, 1 (CLN1) [MIM:256730]: A form of neuronal ceroid lipofuscinosis with variable age at onset. Infantile, late-infantile, juvenile, and adult onset have been reported. Neuronal ceroid lipofuscinoses are progressive neurodegenerative, lysosomal storage diseases characterized by intracellular accumulation of autofluorescent liposomal material, and clinically by seizures, dementia, visual loss, and/or cerebral atrophy. The lipopigment pattern seen most often in CLN1 is referred to as granular osmiophilic deposits (GROD). {ECO:0000269|PubMed:11506414, ECO:0000269|PubMed:19201763, ECO:0000269|PubMed:19941651, ECO:0000269|PubMed:21990111, ECO:0000269|PubMed:7637805, ECO:0000269|PubMed:9425237, ECO:0000269|PubMed:9664077}. Note=The disease is caused by mutations affecting the gene represented in this entry."
-        },
-        {
-            "id": "Q13617",
-            "amigoid": "UniProtKB:Q13617",
-            "gene": "CUL2",
-            "mist": "0.818290141",
-            "saint_bfdr": "0",
-            "avg_spec": "12.33",
-            "fold_change": "123.33",
-            "uniprot_protein_id": "CUL2_HUMAN",
-            "uniprot_protein_description": "Cullin-2 (CUL-2)",
-            "uniprot_protein_function": "Core component of multiple cullin-RING-based ECS (ElonginB/C-CUL2/5-SOCS-box protein) E3 ubiquitin-protein ligase complexes, which mediate the ubiquitination of target proteins. ECS complexes and ARIH1 collaborate in tandem to mediate ubiquitination of target proteins (PubMed:27565346). May serve as a rigid scaffold in the complex and may contribute to catalysis through positioning of the substrate and the ubiquitin-conjugating enzyme. The E3 ubiquitin-protein ligase activity of the complex is dependent on the neddylation of the cullin subunit and is inhibited by the association of the deneddylated cullin subunit with TIP120A/CAND1. The functional specificity of the ECS complex depends on the substrate recognition component. ECS(VHL) mediates the ubiquitination of hypoxia-inducible factor (HIF). {ECO:0000269|PubMed:10973499, ECO:0000269|PubMed:11384984, ECO:0000269|PubMed:27565346, ECO:0000269|PubMed:9122164}.",
-            "structures": [
-                "4WQO",
-                "5N4W",
-                "6R6H",
-                "6R7F",
-                "6R7H",
-                "6R7I",
-                "6R7N"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q3KQU3",
-            "amigoid": "UniProtKB:Q3KQU3",
-            "gene": "MAP7D1",
-            "mist": "0.814143575",
-            "saint_bfdr": "0",
-            "avg_spec": "7.67",
-            "fold_change": "76.67",
-            "uniprot_protein_id": "MA7D1_HUMAN",
-            "uniprot_protein_description": "MAP7 domain-containing protein 1 (Arginine/proline-rich coiled-coil domain-containing protein 1) (Proline/arginine-rich coiled-coil domain-containing protein 1)",
-            "uniprot_protein_function": "",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9BU02",
-            "amigoid": "UniProtKB:Q9BU02",
-            "gene": "THTPA",
-            "mist": "0.927363101",
-            "saint_bfdr": "0",
-            "avg_spec": "2.67",
-            "fold_change": "26.67",
-            "uniprot_protein_id": "THTPA_HUMAN",
-            "uniprot_protein_description": "Thiamine-triphosphatase (ThTPase) (EC 3.6.1.28)",
-            "uniprot_protein_function": "Hydrolase highly specific for thiamine triphosphate (ThTP). {ECO:0000269|PubMed:11827967, ECO:0000269|PubMed:23707715}.",
-            "structures": [
-                "3BHD",
-                "3TVL"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9C0D3",
-            "amigoid": "UniProtKB:Q9C0D3",
-            "gene": "ZYG11B",
-            "mist": "0.85402934",
-            "saint_bfdr": "0",
-            "avg_spec": "27",
-            "fold_change": "270",
-            "uniprot_protein_id": "ZY11B_HUMAN",
-            "uniprot_protein_description": "Protein zyg-11 homolog B",
-            "uniprot_protein_function": "Serves as substrate adapter subunit in the E3 ubiquitin ligase complex ZYG11B-CUL2-Elongin BC. Acts redudantly with ZER1 to target substrates bearing N-terminal glycine degrons for proteasomal degradation. Involved in the clearance of proteolytic fragments generated by caspase cleavage during apoptosis since N-terminal glycine degrons are strongly enriched at caspase cleavage sites. Also important in the quality control of protein N-myristoylation in which N-terminal glycine degrons are conditionally exposed after a failure of N-myristoylation (PubMed:31273098). {ECO:0000269|PubMed:31273098}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q9Y5J9",
-            "amigoid": "UniProtKB:Q9Y5J9",
-            "gene": "TIMM8B",
-            "mist": "0.752997484",
-            "saint_bfdr": "0",
-            "avg_spec": "2.33",
-            "fold_change": "23.33",
-            "uniprot_protein_id": "TIM8B_HUMAN",
-            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim8 B (DDP-like protein) (Deafness dystonia protein 2)",
-            "uniprot_protein_function": "Probable mitochondrial intermembrane chaperone that participates in the import and insertion of some multi-pass transmembrane proteins into the mitochondrial inner membrane. Also required for the transfer of beta-barrel precursors from the TOM complex to the sorting and assembly machinery (SAM complex) of the outer membrane. Acts as a chaperone-like protein that protects the hydrophobic precursors from aggregation and guide them through the mitochondrial intermembrane space (By similarity). {ECO:0000250}.",
-            "structures": [],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "P62877",
-            "amigoid": "UniProtKB:P62877",
-            "gene": "RBX1",
-            "mist": "0.63921796",
-            "saint_bfdr": "0.05",
-            "avg_spec": "2",
-            "fold_change": "20",
-            "uniprot_protein_id": "RBX1_HUMAN",
-            "uniprot_protein_description": "E3 ubiquitin-protein ligase RBX1 (EC 2.3.2.27) (EC 2.3.2.32) (E3 ubiquitin-protein transferase RBX1) (Protein ZYP) (RING finger protein 75) (RING-box protein 1) (Rbx1) (Regulator of cullins 1) (ROC1) [Cleaved into: E3 ubiquitin-protein ligase RBX1, N-terminally processed (E3 ubiquitin-protein transferase RBX1, N-terminally processed)]",
-            "uniprot_protein_function": "E3 ubiquitin ligase component of multiple cullin-RING-based E3 ubiquitin-protein ligase (CRLs) complexes which mediate the ubiquitination and subsequent proteasomal degradation of target proteins, including proteins involved in cell cycle progression, signal transduction, transcription and transcription-coupled nucleotide excision repair (PubMed:10230407, PubMed:10579999, PubMed:15983046, PubMed:16678110, PubMed:19112177, PubMed:19679664, PubMed:23455478, PubMed:27565346, PubMed:29769719, PubMed:11961546, PubMed:22748924). CRLs complexes and ARIH1 collaborate in tandem to mediate ubiquitination of target proteins, ARIH1 mediating addition of the first ubiquitin on CRLs targets (PubMed:27565346). The functional specificity of the E3 ubiquitin-protein ligase complexes depends on the variable substrate recognition components. As a component of the CSA complex promotes the ubiquitination of ERCC6 resulting in proteasomal degradation. Recruits the E2 ubiquitin-conjugating enzyme CDC34 to the complex and brings it into close proximity to the substrate. Probably also stimulates CDC34 autoubiquitination. May be required for histone H3 and histone H4 ubiquitination in response to ultraviolet and for subsequent DNA repair. Promotes the neddylation of CUL1, CUL2, CUL4 and CUL4 via its interaction with UBE2M. Involved in the ubiquitination of KEAP1, ENC1 and KLHL41. In concert with ATF2 and CUL3, promotes degradation of KAT5 thereby attenuating its ability to acetylate and activate ATM. {ECO:0000269|PubMed:10230407, ECO:0000269|PubMed:10579999, ECO:0000269|PubMed:11027288, ECO:0000269|PubMed:11961546, ECO:0000269|PubMed:15983046, ECO:0000269|PubMed:16678110, ECO:0000269|PubMed:16751180, ECO:0000269|PubMed:18397884, ECO:0000269|PubMed:19112177, ECO:0000269|PubMed:19679664, ECO:0000269|PubMed:22748924, ECO:0000269|PubMed:23455478, ECO:0000269|PubMed:27565346, ECO:0000269|PubMed:29769719}.",
-            "structures": [
-                "1LDJ",
-                "1LDK",
-                "1U6G",
-                "2HYE",
-                "2LGV",
-                "3DPL",
-                "3DQV",
-                "3RTR",
-                "4F52",
-                "4P5O",
-                "5N4W"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q15369",
-            "amigoid": "UniProtKB:Q15369",
-            "gene": "ELOC",
-            "mist": "0.618948613",
-            "saint_bfdr": "0",
-            "avg_spec": "7.33",
-            "fold_change": "73.33",
-            "uniprot_protein_id": "ELOC_HUMAN",
-            "uniprot_protein_description": "Elongin-C (EloC) (Elongin 15 kDa subunit) (RNA polymerase II transcription factor SIII subunit C) (SIII p15) (Transcription elongation factor B polypeptide 1)",
-            "uniprot_protein_function": "SIII, also known as elongin, is a general transcription elongation factor that increases the RNA polymerase II transcription elongation past template-encoded arresting sites. Subunit A is transcriptionally active and its transcription activity is strongly enhanced by binding to the dimeric complex of the SIII regulatory subunits B and C (elongin BC complex) (PubMed:7821821). In embryonic stem cells, the elongin BC complex is recruited by EPOP to Polycomb group (PcG) target genes in order generate genomic region that display both active and repressive chromatin properties, an important feature of pluripotent stem cells (By similarity). {ECO:0000250|UniProtKB:P83940, ECO:0000269|PubMed:7821821}.; FUNCTION: The elongin BC complex seems to be involved as an adapter protein in the proteasomal degradation of target proteins via different E3 ubiquitin ligase complexes, including the von Hippel-Lindau ubiquitination complex CBC(VHL). By binding to BC-box motifs it seems to link target recruitment subunits, like VHL and members of the SOCS box family, to Cullin/RBX1 modules that activate E2 ubiquitination enzymes. {ECO:0000269|PubMed:10205047, ECO:0000269|PubMed:12004076, ECO:0000269|PubMed:12050673, ECO:0000269|PubMed:15590694}.",
-            "structures": [
-                "1LM8",
-                "1LQB",
-                "1VCB",
-                "2C9W",
-                "2IZV",
-                "2MA9",
-                "3DCG",
-                "3ZKJ",
-                "3ZNG",
-                "3ZRC",
-                "3ZRF",
-                "3ZTC",
-                "3ZTD",
-                "3ZUN",
-                "4AJY",
-                "4AWJ",
-                "4B95",
-                "4B9K",
-                "4BKS",
-                "4BKT",
-                "4N9F",
-                "4W9C",
-                "4W9D",
-                "4W9E",
-                "4W9F",
-                "4W9G",
-                "4W9H",
-                "4W9I",
-                "4W9J",
-                "4W9K",
-                "4W9L",
-                "4WQO",
-                "5BO4",
-                "5LLI",
-                "5N4W",
-                "5NVV",
-                "5NVW",
-                "5NVX",
-                "5NVY",
-                "5NVZ",
-                "5NW0",
-                "5NW1",
-                "5NW2",
-                "5T35",
-                "6BVB",
-                "6C5X",
-                "6FMI",
-                "6FMJ",
-                "6FMK",
-                "6GFX",
-                "6GFY",
-                "6GFZ",
-                "6GMN",
-                "6GMQ",
-                "6GMR",
-                "6GMX",
-                "6HAX",
-                "6HAY",
-                "6HR2",
-                "6I4X",
-                "6I5J",
-                "6I5N",
-                "6I7R",
-                "6R7F",
-                "6R7H",
-                "6R7N"
-            ],
-            "uniprot_function_in_disease": ""
-        },
-        {
-            "id": "Q15370",
-            "amigoid": "UniProtKB:Q15370",
-            "gene": "ELOB",
-            "mist": "0.655233005",
-            "saint_bfdr": "0",
-            "avg_spec": "4",
-            "fold_change": "40",
-            "uniprot_protein_id": "ELOB_HUMAN",
-            "uniprot_protein_description": "Elongin-B (EloB) (Elongin 18 kDa subunit) (RNA polymerase II transcription factor SIII subunit B) (SIII p18) (Transcription elongation factor B polypeptide 2)",
-            "uniprot_protein_function": "SIII, also known as elongin, is a general transcription elongation factor that increases the RNA polymerase II transcription elongation past template-encoded arresting sites. Subunit A is transcriptionally active and its transcription activity is strongly enhanced by binding to the dimeric complex of the SIII regulatory subunits B and C (elongin BC complex) (PubMed:7638163). In embryonic stem cells, the elongin BC complex is recruited by EPOP to Polycomb group (PcG) target genes in order generate genomic region that display both active and repressive chromatin properties, an important feature of pluripotent stem cells (By similarity). {ECO:0000250|UniProtKB:P62869, ECO:0000269|PubMed:7638163}.; FUNCTION: The elongin BC complex seems to be involved as an adapter protein in the proteasomal degradation of target proteins via different E3 ubiquitin ligase complexes, including the von Hippel-Lindau ubiquitination complex CBC(VHL). By binding to BC-box motifs it seems to link target recruitment subunits, like VHL and members of the SOCS box family, to Cullin/RBX1 modules that activate E2 ubiquitination enzymes. {ECO:0000269|PubMed:10205047, ECO:0000269|PubMed:12004076, ECO:0000269|PubMed:12050673, ECO:0000269|PubMed:15590694}.",
-            "structures": [
-                "1LM8",
-                "1LQB",
-                "1VCB",
-                "2C9W",
-                "2IZV",
-                "2JZ3",
-                "2MA9",
-                "3DCG",
-                "3ZKJ",
-                "3ZNG",
-                "3ZRC",
-                "3ZRF",
-                "3ZTC",
-                "3ZTD",
-                "3ZUN",
-                "4AJY",
-                "4AWJ",
-                "4B95",
-                "4B9K",
-                "4BKS",
-                "4BKT",
-                "4N9F",
-                "4W9C",
-                "4W9D",
-                "4W9E",
-                "4W9F",
-                "4W9G",
-                "4W9H",
-                "4W9I",
-                "4W9J",
-                "4W9K",
-                "4W9L",
-                "4WQO",
-                "5BO4",
-                "5LLI",
-                "5N4W",
-                "5NVV",
-                "5NVW",
-                "5NVX",
-                "5NVY",
-                "5NVZ",
-                "5NW0",
-                "5NW1",
-                "5NW2",
-                "5T35",
-                "6BVB",
-                "6C5X",
-                "6FMI",
-                "6FMJ",
-                "6FMK",
-                "6GFX",
-                "6GFY",
-                "6GFZ",
-                "6GMN",
-                "6GMQ",
-                "6GMR",
-                "6GMX",
-                "6HAX",
-                "6HAY",
-                "6HR2",
-                "6I4X",
-                "6I5J",
-                "6I5N",
-                "6I7Q",
-                "6I7R",
-                "6R6H",
-                "6R7F",
-                "6R7H",
-                "6R7I",
-                "6R7N"
-            ],
-            "uniprot_function_in_disease": ""
-        }
-    ],
-    "SARS-CoV2 orf3a": [
+    "orf3a (SARS-CoV2)": [
         {
             "id": "P09601",
             "amigoid": "UniProtKB:P09601",
@@ -4847,7 +4554,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 orf3b": [
+    "orf3b (SARS-CoV2)": [
         {
             "id": "Q9UJZ1",
             "amigoid": "UniProtKB:Q9UJZ1",
@@ -4863,7 +4570,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 orf6": [
+    "orf6 (SARS-CoV2)": [
         {
             "id": "P52948",
             "amigoid": "UniProtKB:P52948",
@@ -4918,7 +4625,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 orf7a": [
+    "orf7a (SARS-CoV2)": [
         {
             "id": "Q7Z4Q2",
             "amigoid": "UniProtKB:Q7Z4Q2",
@@ -4948,7 +4655,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 orf8": [
+    "orf8 (SARS-CoV2)": [
         {
             "id": "O00469",
             "amigoid": "UniProtKB:O00469",
@@ -5700,7 +5407,7 @@ var covid_data = {
             "uniprot_function_in_disease": "Osteogenesis imperfecta 11 (OI11) [MIM:610968]: A form of osteogenesis imperfecta, a connective tissue disorder characterized by low bone mass, bone fragility and susceptibility to fractures after minimal trauma. Disease severity ranges from very mild forms without fractures to intrauterine fractures and perinatal lethality. Extraskeletal manifestations, which affect a variable number of patients, are dentinogenesis imperfecta, hearing loss, and blue sclerae. OI11 is an autosomal recessive form. {ECO:0000269|PubMed:20362275, ECO:0000269|PubMed:20839288, ECO:0000269|PubMed:22949511}. Note=The disease is caused by mutations affecting the gene represented in this entry.; DISEASE: Bruck syndrome 1 (BRKS1) [MIM:259450]: A disease characterized by generalized osteopenia, congenital joint contractures, fragile bones with onset of fractures in infancy or early childhood, short stature, severe limb deformity, progressive scoliosis, and pterygia. {ECO:0000269|PubMed:20839288, ECO:0000269|PubMed:22949511}. Note=The disease is caused by mutations affecting the gene represented in this entry."
         }
     ],
-    "SARS-CoV2 orf9b": [
+    "orf9b (SARS-CoV2)": [
         {
             "id": "O14745",
             "amigoid": "UniProtKB:O14745",
@@ -5901,7 +5608,7 @@ var covid_data = {
             "uniprot_function_in_disease": ""
         }
     ],
-    "SARS-CoV2 orf9c": [
+    "orf9c (SARS-CoV2)": [
         {
             "id": "O00124",
             "amigoid": "UniProtKB:O00124",
@@ -6279,6 +5986,297 @@ var covid_data = {
             "uniprot_protein_function": "Component of the GPI transamidase complex. Essential for transfer of GPI to proteins, particularly for formation of carbonyl intermediates. {ECO:0000269|PubMed:11483512, ECO:0000269|PubMed:30269814}.",
             "structures": [],
             "uniprot_function_in_disease": "Glycosylphosphatidylinositol biosynthesis defect 18 (GPIBD18) [MIM:618143]: An autosomal recessive disorder with onset in utero or early infancy and characterized by severe global developmental delay, seizures, hypotonia, weakness, ataxia, and dysmorphic facial features. {ECO:0000269|PubMed:30269814}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        }
+    ],
+    "orf10 (SARS-CoV2)": [
+        {
+            "id": "P50897",
+            "amigoid": "UniProtKB:P50897",
+            "gene": "PPT1",
+            "mist": "0.777920681",
+            "saint_bfdr": "0",
+            "avg_spec": "6",
+            "fold_change": "60",
+            "uniprot_protein_id": "PPT1_HUMAN",
+            "uniprot_protein_description": "Palmitoyl-protein thioesterase 1 (PPT-1) (EC 3.1.2.22) (Palmitoyl-protein hydrolase 1)",
+            "uniprot_protein_function": "Removes thioester-linked fatty acyl groups such as palmitate from modified cysteine residues in proteins or peptides during lysosomal degradation. Prefers acyl chain lengths of 14 to 18 carbons (PubMed:8816748). {ECO:0000269|PubMed:8816748}.",
+            "structures": [
+                "3GRO"
+            ],
+            "uniprot_function_in_disease": "Ceroid lipofuscinosis, neuronal, 1 (CLN1) [MIM:256730]: A form of neuronal ceroid lipofuscinosis with variable age at onset. Infantile, late-infantile, juvenile, and adult onset have been reported. Neuronal ceroid lipofuscinoses are progressive neurodegenerative, lysosomal storage diseases characterized by intracellular accumulation of autofluorescent liposomal material, and clinically by seizures, dementia, visual loss, and/or cerebral atrophy. The lipopigment pattern seen most often in CLN1 is referred to as granular osmiophilic deposits (GROD). {ECO:0000269|PubMed:11506414, ECO:0000269|PubMed:19201763, ECO:0000269|PubMed:19941651, ECO:0000269|PubMed:21990111, ECO:0000269|PubMed:7637805, ECO:0000269|PubMed:9425237, ECO:0000269|PubMed:9664077}. Note=The disease is caused by mutations affecting the gene represented in this entry."
+        },
+        {
+            "id": "Q13617",
+            "amigoid": "UniProtKB:Q13617",
+            "gene": "CUL2",
+            "mist": "0.818290141",
+            "saint_bfdr": "0",
+            "avg_spec": "12.33",
+            "fold_change": "123.33",
+            "uniprot_protein_id": "CUL2_HUMAN",
+            "uniprot_protein_description": "Cullin-2 (CUL-2)",
+            "uniprot_protein_function": "Core component of multiple cullin-RING-based ECS (ElonginB/C-CUL2/5-SOCS-box protein) E3 ubiquitin-protein ligase complexes, which mediate the ubiquitination of target proteins. ECS complexes and ARIH1 collaborate in tandem to mediate ubiquitination of target proteins (PubMed:27565346). May serve as a rigid scaffold in the complex and may contribute to catalysis through positioning of the substrate and the ubiquitin-conjugating enzyme. The E3 ubiquitin-protein ligase activity of the complex is dependent on the neddylation of the cullin subunit and is inhibited by the association of the deneddylated cullin subunit with TIP120A/CAND1. The functional specificity of the ECS complex depends on the substrate recognition component. ECS(VHL) mediates the ubiquitination of hypoxia-inducible factor (HIF). {ECO:0000269|PubMed:10973499, ECO:0000269|PubMed:11384984, ECO:0000269|PubMed:27565346, ECO:0000269|PubMed:9122164}.",
+            "structures": [
+                "4WQO",
+                "5N4W",
+                "6R6H",
+                "6R7F",
+                "6R7H",
+                "6R7I",
+                "6R7N"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q3KQU3",
+            "amigoid": "UniProtKB:Q3KQU3",
+            "gene": "MAP7D1",
+            "mist": "0.814143575",
+            "saint_bfdr": "0",
+            "avg_spec": "7.67",
+            "fold_change": "76.67",
+            "uniprot_protein_id": "MA7D1_HUMAN",
+            "uniprot_protein_description": "MAP7 domain-containing protein 1 (Arginine/proline-rich coiled-coil domain-containing protein 1) (Proline/arginine-rich coiled-coil domain-containing protein 1)",
+            "uniprot_protein_function": "",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9BU02",
+            "amigoid": "UniProtKB:Q9BU02",
+            "gene": "THTPA",
+            "mist": "0.927363101",
+            "saint_bfdr": "0",
+            "avg_spec": "2.67",
+            "fold_change": "26.67",
+            "uniprot_protein_id": "THTPA_HUMAN",
+            "uniprot_protein_description": "Thiamine-triphosphatase (ThTPase) (EC 3.6.1.28)",
+            "uniprot_protein_function": "Hydrolase highly specific for thiamine triphosphate (ThTP). {ECO:0000269|PubMed:11827967, ECO:0000269|PubMed:23707715}.",
+            "structures": [
+                "3BHD",
+                "3TVL"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9C0D3",
+            "amigoid": "UniProtKB:Q9C0D3",
+            "gene": "ZYG11B",
+            "mist": "0.85402934",
+            "saint_bfdr": "0",
+            "avg_spec": "27",
+            "fold_change": "270",
+            "uniprot_protein_id": "ZY11B_HUMAN",
+            "uniprot_protein_description": "Protein zyg-11 homolog B",
+            "uniprot_protein_function": "Serves as substrate adapter subunit in the E3 ubiquitin ligase complex ZYG11B-CUL2-Elongin BC. Acts redudantly with ZER1 to target substrates bearing N-terminal glycine degrons for proteasomal degradation. Involved in the clearance of proteolytic fragments generated by caspase cleavage during apoptosis since N-terminal glycine degrons are strongly enriched at caspase cleavage sites. Also important in the quality control of protein N-myristoylation in which N-terminal glycine degrons are conditionally exposed after a failure of N-myristoylation (PubMed:31273098). {ECO:0000269|PubMed:31273098}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q9Y5J9",
+            "amigoid": "UniProtKB:Q9Y5J9",
+            "gene": "TIMM8B",
+            "mist": "0.752997484",
+            "saint_bfdr": "0",
+            "avg_spec": "2.33",
+            "fold_change": "23.33",
+            "uniprot_protein_id": "TIM8B_HUMAN",
+            "uniprot_protein_description": "Mitochondrial import inner membrane translocase subunit Tim8 B (DDP-like protein) (Deafness dystonia protein 2)",
+            "uniprot_protein_function": "Probable mitochondrial intermembrane chaperone that participates in the import and insertion of some multi-pass transmembrane proteins into the mitochondrial inner membrane. Also required for the transfer of beta-barrel precursors from the TOM complex to the sorting and assembly machinery (SAM complex) of the outer membrane. Acts as a chaperone-like protein that protects the hydrophobic precursors from aggregation and guide them through the mitochondrial intermembrane space (By similarity). {ECO:0000250}.",
+            "structures": [],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "P62877",
+            "amigoid": "UniProtKB:P62877",
+            "gene": "RBX1",
+            "mist": "0.63921796",
+            "saint_bfdr": "0.05",
+            "avg_spec": "2",
+            "fold_change": "20",
+            "uniprot_protein_id": "RBX1_HUMAN",
+            "uniprot_protein_description": "E3 ubiquitin-protein ligase RBX1 (EC 2.3.2.27) (EC 2.3.2.32) (E3 ubiquitin-protein transferase RBX1) (Protein ZYP) (RING finger protein 75) (RING-box protein 1) (Rbx1) (Regulator of cullins 1) (ROC1) [Cleaved into: E3 ubiquitin-protein ligase RBX1, N-terminally processed (E3 ubiquitin-protein transferase RBX1, N-terminally processed)]",
+            "uniprot_protein_function": "E3 ubiquitin ligase component of multiple cullin-RING-based E3 ubiquitin-protein ligase (CRLs) complexes which mediate the ubiquitination and subsequent proteasomal degradation of target proteins, including proteins involved in cell cycle progression, signal transduction, transcription and transcription-coupled nucleotide excision repair (PubMed:10230407, PubMed:10579999, PubMed:15983046, PubMed:16678110, PubMed:19112177, PubMed:19679664, PubMed:23455478, PubMed:27565346, PubMed:29769719, PubMed:11961546, PubMed:22748924). CRLs complexes and ARIH1 collaborate in tandem to mediate ubiquitination of target proteins, ARIH1 mediating addition of the first ubiquitin on CRLs targets (PubMed:27565346). The functional specificity of the E3 ubiquitin-protein ligase complexes depends on the variable substrate recognition components. As a component of the CSA complex promotes the ubiquitination of ERCC6 resulting in proteasomal degradation. Recruits the E2 ubiquitin-conjugating enzyme CDC34 to the complex and brings it into close proximity to the substrate. Probably also stimulates CDC34 autoubiquitination. May be required for histone H3 and histone H4 ubiquitination in response to ultraviolet and for subsequent DNA repair. Promotes the neddylation of CUL1, CUL2, CUL4 and CUL4 via its interaction with UBE2M. Involved in the ubiquitination of KEAP1, ENC1 and KLHL41. In concert with ATF2 and CUL3, promotes degradation of KAT5 thereby attenuating its ability to acetylate and activate ATM. {ECO:0000269|PubMed:10230407, ECO:0000269|PubMed:10579999, ECO:0000269|PubMed:11027288, ECO:0000269|PubMed:11961546, ECO:0000269|PubMed:15983046, ECO:0000269|PubMed:16678110, ECO:0000269|PubMed:16751180, ECO:0000269|PubMed:18397884, ECO:0000269|PubMed:19112177, ECO:0000269|PubMed:19679664, ECO:0000269|PubMed:22748924, ECO:0000269|PubMed:23455478, ECO:0000269|PubMed:27565346, ECO:0000269|PubMed:29769719}.",
+            "structures": [
+                "1LDJ",
+                "1LDK",
+                "1U6G",
+                "2HYE",
+                "2LGV",
+                "3DPL",
+                "3DQV",
+                "3RTR",
+                "4F52",
+                "4P5O",
+                "5N4W"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q15369",
+            "amigoid": "UniProtKB:Q15369",
+            "gene": "ELOC",
+            "mist": "0.618948613",
+            "saint_bfdr": "0",
+            "avg_spec": "7.33",
+            "fold_change": "73.33",
+            "uniprot_protein_id": "ELOC_HUMAN",
+            "uniprot_protein_description": "Elongin-C (EloC) (Elongin 15 kDa subunit) (RNA polymerase II transcription factor SIII subunit C) (SIII p15) (Transcription elongation factor B polypeptide 1)",
+            "uniprot_protein_function": "SIII, also known as elongin, is a general transcription elongation factor that increases the RNA polymerase II transcription elongation past template-encoded arresting sites. Subunit A is transcriptionally active and its transcription activity is strongly enhanced by binding to the dimeric complex of the SIII regulatory subunits B and C (elongin BC complex) (PubMed:7821821). In embryonic stem cells, the elongin BC complex is recruited by EPOP to Polycomb group (PcG) target genes in order generate genomic region that display both active and repressive chromatin properties, an important feature of pluripotent stem cells (By similarity). {ECO:0000250|UniProtKB:P83940, ECO:0000269|PubMed:7821821}.; FUNCTION: The elongin BC complex seems to be involved as an adapter protein in the proteasomal degradation of target proteins via different E3 ubiquitin ligase complexes, including the von Hippel-Lindau ubiquitination complex CBC(VHL). By binding to BC-box motifs it seems to link target recruitment subunits, like VHL and members of the SOCS box family, to Cullin/RBX1 modules that activate E2 ubiquitination enzymes. {ECO:0000269|PubMed:10205047, ECO:0000269|PubMed:12004076, ECO:0000269|PubMed:12050673, ECO:0000269|PubMed:15590694}.",
+            "structures": [
+                "1LM8",
+                "1LQB",
+                "1VCB",
+                "2C9W",
+                "2IZV",
+                "2MA9",
+                "3DCG",
+                "3ZKJ",
+                "3ZNG",
+                "3ZRC",
+                "3ZRF",
+                "3ZTC",
+                "3ZTD",
+                "3ZUN",
+                "4AJY",
+                "4AWJ",
+                "4B95",
+                "4B9K",
+                "4BKS",
+                "4BKT",
+                "4N9F",
+                "4W9C",
+                "4W9D",
+                "4W9E",
+                "4W9F",
+                "4W9G",
+                "4W9H",
+                "4W9I",
+                "4W9J",
+                "4W9K",
+                "4W9L",
+                "4WQO",
+                "5BO4",
+                "5LLI",
+                "5N4W",
+                "5NVV",
+                "5NVW",
+                "5NVX",
+                "5NVY",
+                "5NVZ",
+                "5NW0",
+                "5NW1",
+                "5NW2",
+                "5T35",
+                "6BVB",
+                "6C5X",
+                "6FMI",
+                "6FMJ",
+                "6FMK",
+                "6GFX",
+                "6GFY",
+                "6GFZ",
+                "6GMN",
+                "6GMQ",
+                "6GMR",
+                "6GMX",
+                "6HAX",
+                "6HAY",
+                "6HR2",
+                "6I4X",
+                "6I5J",
+                "6I5N",
+                "6I7R",
+                "6R7F",
+                "6R7H",
+                "6R7N"
+            ],
+            "uniprot_function_in_disease": ""
+        },
+        {
+            "id": "Q15370",
+            "amigoid": "UniProtKB:Q15370",
+            "gene": "ELOB",
+            "mist": "0.655233005",
+            "saint_bfdr": "0",
+            "avg_spec": "4",
+            "fold_change": "40",
+            "uniprot_protein_id": "ELOB_HUMAN",
+            "uniprot_protein_description": "Elongin-B (EloB) (Elongin 18 kDa subunit) (RNA polymerase II transcription factor SIII subunit B) (SIII p18) (Transcription elongation factor B polypeptide 2)",
+            "uniprot_protein_function": "SIII, also known as elongin, is a general transcription elongation factor that increases the RNA polymerase II transcription elongation past template-encoded arresting sites. Subunit A is transcriptionally active and its transcription activity is strongly enhanced by binding to the dimeric complex of the SIII regulatory subunits B and C (elongin BC complex) (PubMed:7638163). In embryonic stem cells, the elongin BC complex is recruited by EPOP to Polycomb group (PcG) target genes in order generate genomic region that display both active and repressive chromatin properties, an important feature of pluripotent stem cells (By similarity). {ECO:0000250|UniProtKB:P62869, ECO:0000269|PubMed:7638163}.; FUNCTION: The elongin BC complex seems to be involved as an adapter protein in the proteasomal degradation of target proteins via different E3 ubiquitin ligase complexes, including the von Hippel-Lindau ubiquitination complex CBC(VHL). By binding to BC-box motifs it seems to link target recruitment subunits, like VHL and members of the SOCS box family, to Cullin/RBX1 modules that activate E2 ubiquitination enzymes. {ECO:0000269|PubMed:10205047, ECO:0000269|PubMed:12004076, ECO:0000269|PubMed:12050673, ECO:0000269|PubMed:15590694}.",
+            "structures": [
+                "1LM8",
+                "1LQB",
+                "1VCB",
+                "2C9W",
+                "2IZV",
+                "2JZ3",
+                "2MA9",
+                "3DCG",
+                "3ZKJ",
+                "3ZNG",
+                "3ZRC",
+                "3ZRF",
+                "3ZTC",
+                "3ZTD",
+                "3ZUN",
+                "4AJY",
+                "4AWJ",
+                "4B95",
+                "4B9K",
+                "4BKS",
+                "4BKT",
+                "4N9F",
+                "4W9C",
+                "4W9D",
+                "4W9E",
+                "4W9F",
+                "4W9G",
+                "4W9H",
+                "4W9I",
+                "4W9J",
+                "4W9K",
+                "4W9L",
+                "4WQO",
+                "5BO4",
+                "5LLI",
+                "5N4W",
+                "5NVV",
+                "5NVW",
+                "5NVX",
+                "5NVY",
+                "5NVZ",
+                "5NW0",
+                "5NW1",
+                "5NW2",
+                "5T35",
+                "6BVB",
+                "6C5X",
+                "6FMI",
+                "6FMJ",
+                "6FMK",
+                "6GFX",
+                "6GFY",
+                "6GFZ",
+                "6GMN",
+                "6GMQ",
+                "6GMR",
+                "6GMX",
+                "6HAX",
+                "6HAY",
+                "6HR2",
+                "6I4X",
+                "6I5J",
+                "6I5N",
+                "6I7Q",
+                "6I7R",
+                "6R6H",
+                "6R7F",
+                "6R7H",
+                "6R7I",
+                "6R7N"
+            ],
+            "uniprot_function_in_disease": ""
         }
     ]
 };
@@ -10720,6 +10718,31 @@ function changeCOVID() {
     currentCOVID = newCOVID;
 
     ribbonCOVID(newCOVID);
+    updateEnrich(newCOVID);
+}
+
+function updateEnrich(covid_gene) {
+    let data = covid_data[covid_gene];
+    // console.log("enrich data: ", data);
+    var input_enrichment_bp = document.getElementById("enrich-covid-19-genes-bp");
+    var input_enrichment_mf = document.getElementById("enrich-covid-19-genes-mf");
+    var input_enrichment_cc = document.getElementById("enrich-covid-19-genes-cc");
+    if(input_enrichment_bp) {
+        var list = data.map(elt => elt.id)
+        input_enrichment_bp.textContent = list.join("\n")
+        input_enrichment_mf.textContent = list.join("\n")
+        input_enrichment_cc.textContent = list.join("\n")
+    }   
+
+    var label = document.getElementById("virus-gene-name");
+    if(label) {
+        label.textContent = covid_gene;
+    }
+
+    var partners = document.getElementById("nb_partners");
+    if(partners) {
+        partners.textContent = data.length;
+    }
 }
 
 function initUI(covid_data) {
@@ -10734,8 +10757,32 @@ function initUI(covid_data) {
         selCOVID.selectedIndex = 0;
     }
 
+    initEnrichment();
     ribbonCOVID(covid_genes[0]);
+    updateEnrich(covid_genes[0]);
     ribbonCellEntry();
+}
+
+function initEnrichment() {
+    let keys = Object.keys(covid_data);
+    let set = new Set();
+    for(let key of keys) {
+        let array = covid_data[key].map(elt => elt.id);
+        for(let item of array) {
+            set.add(item);
+        }
+    }
+    let list = Array.from(set);
+    console.log("list: ", list);
+
+    var input_enrichment_all_bp = document.getElementById("enrich-all-covid-19-genes-bp");
+    var input_enrichment_all_mf = document.getElementById("enrich-all-covid-19-genes-mf");
+    var input_enrichment_all_cc = document.getElementById("enrich-all-covid-19-genes-cc");
+    if(input_enrichment_all_bp) {
+        input_enrichment_all_bp.textContent = list.join("\n")
+        input_enrichment_all_mf.textContent = list.join("\n")
+        input_enrichment_all_cc.textContent = list.join("\n")
+    }
 }
 
 function ribbonCOVID(covid_gene) {
@@ -10751,6 +10798,7 @@ function ribbonCOVID(covid_gene) {
     fetch(query)
     .then(response => {
         response.json().then(data => {
+            // console.log(data);
             var element = document.createElement("wc-ribbon-strips");
             element.setAttribute("add-cell-all", false);
             element.setAttribute("selection-mode", 0);
@@ -10779,7 +10827,7 @@ function ribbonCellEntry() {
     let baseAPIURL = "http://api.geneontology.org/api/ontology/ribbon/";
     let subjects = ["UniProtKB:Q9BYF1", "UniProtKB:O15393"].join("&subject=");
     let query = baseAPIURL + '?subset=goslim_agr&subject=' + subjects;
-    console.log("entry: ", query);
+    // console.log("entry: ", query);
 
     var parent = document.getElementById("ribbon-covid-cell-entry");
     parent.innerHTML = 'Loading GO Ribbon...';
