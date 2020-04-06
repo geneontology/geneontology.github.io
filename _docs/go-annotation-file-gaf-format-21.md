@@ -14,7 +14,7 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 # GO Annotation File (GAF) files
 
-This guide lays out the format specifications for the *G*ene *A*ssociation *F*ile (GAF) 2.1; for the older format please see the [GAF 2.0 guide](/docs/go-annotation-file-gaf-format-2.0/). 
+This guide lays out the format specifications for the '''G'''ene '''A'''ssociation '''F'''ile (GAF) 2.1; for the older format please see the [GAF 2.0 guide](/docs/go-annotation-file-gaf-format-2.0/). 
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in standardized tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/) and the reference to support the link. 
 
