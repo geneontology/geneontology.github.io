@@ -72,14 +72,14 @@ permalink: /covid-19.html
                 text-align: start;
                 width: 80%;">
                     This is a work in progress and users should expect the data provided here to be updated as new scientific evidence accumulates.
-                    <br>Last Update: April 1st, 2020
+                    <br>Last Update: April 7th, 2020
                 </span>
             </div>
 
             <p>
                 In an effort to <b>assist global research on the SARS-CoV-2 virus</b> (the cause of the COVID-19 disease), the Gene Ontology Consortium has made a central point of access to the relevant information available in our knowledgebase. Currently, we have compiled the following information:
-                <li>functions of human proteins used by the virus to enter a human cell</li>
-                <li>functions of human proteins possibly targeted by the virus after cell entry</li>
+                <li><a href="#hp-sars-cov-2-ce">functions of human proteins used by the virus to enter a human cell</a></li>
+                <li><a href="#ohp-pt-sars-cov-2">functions of human proteins possibly targeted by the virus after cell entry</a></li>
             </p>
 
             <p>
@@ -92,13 +92,17 @@ permalink: /covid-19.html
 
             <p>
                 You can also <b>download</b> this information for use in computational analyses:
-                <li>human genes that may be relevant for SARS-CoV-2 infection from Gordon et al<sup>3</sup>: [<a href="https://www.biorxiv.org/content/biorxiv/early/2020/03/27/2020.03.22.002386/DC6/embed/media-6.xlsx?download=true" target="_blank">Excel table</a>] [<a href="/data/sars-cov-2_targets.json">JSON</a>]</li>
-                <li>SARS-CoV-2 virus genes: [<a href="/data/uniprot_reviewed_sars-cov-2.gpi">GPI</a>] [<a href="data/uniprot_sars-cov-2.gpa">GPAD annotations</a>]</li>
+                <li>GO annotations for the human genes that may be relevant for SARS-CoV-2 infection<sup><a href="#references">3</a></sup>: [<a href="/data/sars-cov-2_targets.gaf">GAF</a>] [<a href="/data/sars-cov-2_targets.gpad">GPAD</a>] [<a href="/data/sars-cov-2_targets.gpi">GPI</a>] </li>
+                <li>Human genes that may be relevant for SARS-CoV-2 infection<sup><a href="#references">3</a></sup>: [<a href="https://www.biorxiv.org/content/biorxiv/early/2020/03/27/2020.03.22.002386/DC6/embed/media-6.xlsx?download=true" target="_blank">Excel table</a>] [<a href="/data/sars-cov-2_targets.json">JSON</a>]</li>
+                <li>GO annotations for the SARS-CoV-2 virus genes: [<a href="data/uniprot_sars-cov-2.gpa">GPAD</a>] [<a href="/data/uniprot_reviewed_sars-cov-2.gpi">GPI</a>] </li>
                 <li>the full <a href="/docs/downloads/">GO knowledgebase</a></li>
             </p>
 
+            <p>
+                Learn more about: [<a href="/docs/go-annotation-file-gaf-format-2.1/">GAF</a>] [<a href="/docs/gene-product-association-data-gpad-format/">GPAD</a>] [<a href="/docs/gene-product-information-gpi-format/">GPI</a>].
+            </p>
 
-            <h2>Human proteins used by SARS-CoV-2 to enter human cells</h2>
+            <h2 id="hp-sars-cov-2-ce">Human proteins used by SARS-CoV-2 to enter human cells</h2>
             The virus has been shown to require two human proteins (<a href="http://amigo.geneontology.org/amigo/gene_product/UniProtKB:Q9BYF1" target="_blank">ACE2</a>, <a href="http://amigo.geneontology.org/amigo/gene_product/UniProtKB:O15393" target="_blank">TMPRSS2</a>) for cell entry<sup><a href="#references">1,2</a></sup>.
             These are the same proteins used by <a href="https://www.ncbi.nlm.nih.gov/pubmed/21068237" target="blank">SARS-CoV<sup>4</sup></a>, the cause of the 2002-2004 SARS epidemic.
             <div id="ribbon-covid-cell-entry" style="padding-top: 55px; padding-bottom: 30px; overflow-x: auto;"></div>
@@ -118,7 +122,7 @@ permalink: /covid-19.html
                 </tr>
             </table>
 
-            <h2>Other human proteins that are possible targets of SARS-CoV-2</h2>
+            <h2 id="ohp-pt-sars-cov-2">Other human proteins that are possible targets of SARS-CoV-2</h2>
 
             The SARS-CoV-2 viral genome encodes instructions for making <a href="https://www.ncbi.nlm.nih.gov/pubmed/31987001" target="blank">29 different proteins</a><sup><a href="#references">5</a></sup>. A recent study by Gordon et al.<sup><a href="#references">3</a></sup> expressed and purified 27 of those proteins, and tested them to see which human proteins they physically interact with. They found specific human protein interactions for 26 SARS-CoV-2 proteins. These human proteins may be targets of the SARS-CoV-2 virus, and enable the virus to infect human cells, replicate, and spread.
 
