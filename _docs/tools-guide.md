@@ -25,6 +25,8 @@ While the following is a query example to retrieve all [annotations of the TP53 
 http://golr-aux.geneontology.io/solr/select?fq=document_category:"annotation"&q=*:*&fq=bioentity:"RGD:3889"&wt=json
 ````
 
+The complete XML schema of GOLr is available [here](https://github.com/geneontology/amigo/blob/master/golr/solr/conf/schema.xml){:target="blank"}. This can be used as a reference to check which fields are stored and can be queried.
+
 Note: [GOlr](http://wiki.geneontology.org/index.php/GOlr){:target="blank"} is powering the faceted search of [AmiGO](http://amigo.geneontology.org/){:target="blank"}.
 
 ---
