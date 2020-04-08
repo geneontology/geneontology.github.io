@@ -21,7 +21,9 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
  
 ## Changes between the GO Annotation File (GAF) format 2.1 and 2.2
-**GAF format 2.2 allows more values in column 4 ("Qualifier"). All other data are unchanged.**
+
+* **The `gaf-version` header must read `2.2` for this format.**
+* **GAF format 2.2 allows more values in column 4 ("Qualifier"). All other data are unchanged.**
 
 ## GO Annotation File (GAF) format 2.2
 
