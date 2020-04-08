@@ -21,7 +21,7 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
  
 ## Changes between the GO Annotation File (GAF) format 2.1 and 2.2
-GAF format 2.2 allows more values in column 4 ("Qualifier"). All other data are unchanged.
+**GAF format 2.2 allows more values in column 4 ("Qualifier"). All other data are unchanged.**
 
 ## GO Annotation File (GAF) format 2.2
 
@@ -112,7 +112,21 @@ One (or more) of NOT, contributes_to, colocalizes_with.
 
 See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide
 
-    This field is not mandatory; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. NOT|contributes_to)
+    This field is now mandatory in GAF2.2; cardinality 0, 1, >1; for cardinality >1 use a pipe to separate entries (e.g. NOT|contributes_to)
+
+| Molecular Function 	| Biological Process 	| Cellular Component 	
+|----------|---------|-------------|
+|  enables (default) (RO:0002327) |  involved_in* (RO:0002331) | located_in (default for gene product localization) (RO:0001025) | 
+|  contributes_to (RO:0002326)|  acts_upstream_of (RO:0002263) | part_of (default for membership in protein-containing complex)  | 
+|   | acts_upstream_of_positive_effect (RO:0004034) | is_active_in (RO:0002432)  | 
+|   | acts_upstream_of_negative_effect (RO:0004035) | colocalizes_with (RO:0002325)  | 
+|   | acts_upstream_of_or_within* (RO:0002264)  |   | 
+|   | acts_upstream_of_or_within_positive_effect (RO:0004032)  |   | 
+|   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | 
+
+* For Biological Process annotations, the default relation is selected by each contributing group Note that in the Relations Ontology 'acts upstream of or within' is the parent relation for all other BP relations, hence it is the most general.
+* Note that any annotation can be negated by adding the NOT qualifier and separating it from the relation with a pipe, for example "NOT | enables".
+
 
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**.
