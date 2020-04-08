@@ -20,6 +20,8 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
  
+## Changes between the GO Annotation File (GAF) format 2.1 and 2.2
+GAF format 2.2 allows more values in column 4 ("Qualifier"). All other data are unchanged.
 
 ## GO Annotation File (GAF) format 2.2
 
@@ -30,6 +32,23 @@ All gene association files must start with a single line denoting the file forma
     !gaf-version: 2.2
 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
+
+Recommended information to provide in the header: 
+
+    generated-by: database listed in dbxrefs.yaml
+    date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
+
+Groups may decide to include additional information. Examples include:
+
+    URL: e.g. http://www.yeastgenome.org/
+    Project-release: e.g. WS275
+    Funding: e.g. NHGRI
+    Columns: file format written out
+    go-version: PURL
+    ro-version: PURL
+    gorel-version: PURL
+    eco-version: PURL
+
 
 ### GAF fields
 
