@@ -127,7 +127,7 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 |   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | 
 
 * For Biological Process annotations, the default relation is selected by each contributing group Note that in the Relations Ontology 'acts upstream of or within' is the parent relation for all other BP relations, hence it is the most general.
-* Note that any annotation can be negated by adding the NOT qualifier and separating it from the relation with a pipe, for example "NOT | enables".
+* Note that any annotation can be negated by adding the NOT qualifier and separating it from the relation with a pipe, for example "NOT /| enables".
 
 
 #### GO ID (column 5)
