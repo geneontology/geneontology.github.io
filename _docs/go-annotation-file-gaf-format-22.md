@@ -24,7 +24,7 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
 
 * **The `gaf-version` header must read `2.2` for this format.**
 * **Column 4 ("Qualifier") is now required.**
-* **Column 4 ("Qualifier") may not only be negation ("NOT").**
+* **Column 4 ("Qualifier") may optionally be negated ("NOT").**
 
 ## GO Annotation File (GAF) format 2.2
 
@@ -62,7 +62,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 | 1 	| [DB](#db-column-1 "Definition and requirements for DB (column 1)")	| required 	| 1 |	UniProtKB|
 | 2 	| [DB Object ID](#db-object-id-column-2 "Definition and requirements for DB Object ID (column 2)") 	| required 	| 1 |	P12345|
 | 3 	|  [DB Object Symbol](#db-object-symbol-column-3 "Definition and requirements for DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
-| 4 	| [Qualifier](#qualifier-column-4 "Definition and requirements for Qualifier (column 4)") 	| optional 	| 0 or greater |	NOT|
+| 4 	| [Qualifier](#qualifier-column-4 "Definition and requirements for Qualifier (column 4)") 	| optional 	| 1 or 2 |	NOT|
 | 5 	| [GO ID](#go-id-column-5 "Definition and requirements for GO ID (column 5)") 	| required 	| 1 |	GO:0003993|
 | 6 	| [DB:Reference (\|DB:Reference)](#dbreference-column-6 "Definition and requirements for DB:Reference (column 6)") 	| required 	| 1 or greater |	PMID:2676709|
 | 7 	| [Evidence Code](#evidence-code-column-7 "Definition and requirements for Evidence Code (column 7)") 	| required 	| 1 |	IMP|
@@ -110,11 +110,11 @@ The **DB Object Symbol** field should be a symbol that means something to a biol
 
 #### Qualifier (column 4)
 Flags that modify the interpretation of an annotation.
-One (or more) from the table below; "NOT" may be prepended with a pipe.
+One from the table below; "NOT" may be prepended with a pipe for negation.
 
 See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide
 
-    This field is now mandatory in GAF 2.2; cardinality 1 or >1; for cardinality >1 use a pipe to separate entries (e.g. NOT|contributes_to)
+    This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
 | **Molecular Function 	| Biological Process 	| Cellular Component**
 |----------|---------|-------------|
