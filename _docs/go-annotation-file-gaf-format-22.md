@@ -24,7 +24,7 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
 
 * **The `gaf-version` header must read `2.2` for this format.**
 * **Column 4 ("Qualifier") is now required.**
-* **Column 4 ("Qualifier") may optionally be negated ("NOT").**
+  * **Column 4 ("Qualifier") may optionally be negated ("NOT").**
 
 ## GO Annotation File (GAF) format 2.2
 
