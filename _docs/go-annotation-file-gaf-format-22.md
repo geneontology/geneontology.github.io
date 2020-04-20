@@ -57,7 +57,7 @@ Groups may decide to include additional information. Examples include:
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
 
-| **Column 	| Content 	| Required? 	| Cardinality 	| Example**|
+| Column 	| Content 	| Required? 	| Cardinality 	| Example|
 |----------|---------|-------------|---------|--------|
 | 1 	| [DB](#db-column-1 "Definition and requirements for DB (column 1)")	| required 	| 1 |	UniProtKB|
 | 2 	| [DB Object ID](#db-object-id-column-2 "Definition and requirements for DB Object ID (column 2)") 	| required 	| 1 |	P12345|
@@ -116,7 +116,7 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
-| **Molecular Function 	| Biological Process 	| Cellular Component**
+| Molecular Function 	| Biological Process 	| Cellular Component |
 |----------|---------|-------------|
 |  enables (RO:0002327) |  involved_in (RO:0002331) | located_in (default for gene product localization) (RO:0001025) | 
 |  contributes_to (RO:0002326)|  acts_upstream_of (RO:0002263) | part_of (default for membership in protein-containing complex)  | 
