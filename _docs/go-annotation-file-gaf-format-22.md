@@ -112,7 +112,7 @@ The **DB Object Symbol** field should be a symbol that means something to a biol
 Flags that modify the interpretation of an annotation.
 One from the table below; "NOT" may be prepended with a pipe for negation.
 
-See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide
+See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide. The list of allowable qualifiers is identical to those [allowable in GPAD 2.0](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#allowed-gene-product-to-go-term-relations).
 
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
