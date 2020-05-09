@@ -44,7 +44,7 @@ Those cross-references are maintained by GO editors. Please report issues in the
 |[KEGG: Kyoto Encyclopaedia of Genes and Genomes ](http://www.genome.jp/kegg/){:target="blank"} | Pathways and reactions  |[kegg_reaction2go](http://geneontology.org/external2go/kegg_reaction2go)|
 |[MetaCyc](http://metacyc.org/){:target="blank"} | Pathways and reactions |[metacyc2go](http://geneontology.org/external2go/metacyc2go)|
 |[Reactome](http://www.reactome.org/){:target="blank"} | Events and catalyst activities |[reactome2go](http://geneontology.org/external2go/reactome2go)|
-|[Rhea](http://www.ebi.ac.uk/rhea/){:target="blank"}|Biochemical reactions |[rhea2go](http://geneontology.org/external2go/rhea2go)|
+|[Rhea](https://www.rhea-db.org/){:target="blank"}|Biochemical reactions |[rhea2go](http://geneontology.org/external2go/rhea2go)|
 
 
 ## Cross-references maintained by external groups
