@@ -19,7 +19,9 @@ GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-
 All annotation files must start with a single line denoting the file format. For GPI it is as follows:
 
     !gpi-version: 1.2
+
 Other information, such as contact details for the submitter or database group, useful links, etc., can be included in an association file by prefixing the line with an exclamation mark (**!**); such lines will be ignored by parsers.
+
 ## GPI fields
 
 The file format comprises 10 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
