@@ -44,7 +44,7 @@ Associations of gene products to GO terms are statements that describe
 
 ## Annotation qualifiers
 
-Some annotations are modified by qualifiers, which have specific usage rules and meanings within GO. The *NOT*, *contributes_to*, and *colocalizes_with* qualifiers are used in the [GAF format](docs/go-annotation-file-gaf-format-2.1/).
+Some annotations are modified by qualifiers, which have specific usage rules and meanings within GO. The *NOT*, *contributes_to*, and *colocalizes_with* qualifiers are used in the [GAF format](/docs/go-annotation-file-gaf-format-2.1/).
 
 ### The *NOT* qualifier
 
