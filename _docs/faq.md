@@ -467,13 +467,11 @@ FAQ tags: 
 [third-party tools](/faq-tags/third-party-tools)
 {:/comment}
 
-[Open QuickGO](http://www.ebi.ac.uk/QuickGO/){:target="blank"}.  Click on the Search and Filter GO annotation sets link located beneath the search box. This will lead you to an Annotation download page where you can click the filter icon (Located to the right hand side of the page).
+[Open QuickGO](http://www.ebi.ac.uk/QuickGO/){:target="blank"}.  Click on the "View GO annotations" box located beneath the search box. This will lead you to an Annotation browser page where you can filter icon based on taxon, evidence, GO term, gene product and more.
 
-The filter annotations page you will see has a list of filter options located at the top of the page. Click on taxon to input the taxon identifier of the species you would like to get GO annotations for (Example: Taxon identifier 6279 for Brugia malayi).
+Click on taxon to input the taxon identifier of the species you would like to get GO annotations for (Example: [6279 for Brugia malayi](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=6279)).  You can input more than one taxon.
 
-Click submit to get your results. If you click on the Statistics icon and then through the different tabs on the page that pop up, you can see the breakdown of the different annotations.
--   Number of annotations 37380 (example)
--   Number of distinct proteins 8357 (example)
+Click Apply to get your results. Use the Statistics link to see the breakdown of the different annotations including Annotations per Reference, Gene products per Evidence, Annotations per Aspect, Gene products per GO ID, etc.
 
 ---------------------------------------------------------------------------
 ## Sometimes the number of GO annotations changes significantly over a short period of time. Why? 
@@ -508,7 +506,7 @@ FAQ tags: 
 [downloads](/faq-tags/downloads)
 {:/comment}
 
-The filtered version available on the GO Download's site (gene\_association.goa\_uniprot\_noiea ) does not contain annotations for those species where a different Consortium group is primarily responsible for providing GO annotations and also excludes annotations made using automated methods. For example, SGD is responsible for annotations for *S. cerevisiae* ; GO annotations for *S. cerevisiae* are not part of the filtered version of the gene\_association.goa\_uniprot\_noiea file. Filtered version of the UniProt GAF is available on the GO website (<http://geneontology.org/page/download-annotations>). The unfiltered version of the file is available on GOA's FTP site- [ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene\_association.goa\_un...](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/gene_association.goa_uniprot.gz)
+The filtered version available on the GO Download's site (gene\_association.goa\_uniprot\_noiea) does not contain annotations for those species where a different Consortium group is primarily responsible for providing GO annotations and also excludes annotations made using automated methods. For example, [SGD](https://www.yeastgenome.org/) is responsible for annotations for *S. cerevisiae*; GO annotations for *S. cerevisiae* are not part of the filtered version of the gene\_association.goa\_uniprot\_noiea file. A filtered version of the UniProt GAF is available on the GO website (<http://geneontology.org/page/download-annotations>). The unfiltered version of the file is available on GOA's FTP site- [ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz)
 
 ---------------------------------------------------------------------------
 ## What criteria are used to annotate genes with GO terms? 
