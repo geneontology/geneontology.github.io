@@ -3,71 +3,61 @@ layout: default
 permalink: /covid-19.html
 ---
 
+<style>
+    *, *::after, *::before {
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+        font-weight: 400 !important;
+        outline: none;
+    }
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
-  <title>Gene Ontology, SARS-CoV-2 and COVID-19</title>
+    .banner {
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        margin: 20px 0px;
+    }
 
-    <style>
-        *, *::after, *::before {
-            box-sizing: border-box;
-            font-family: "Lato", sans-serif;
-            font-weight: 400 !important;
-            outline: none;
-        }
+    .banner__warning {
+        display: inline-block;
+        text-align: left;
+        width: 15%;
+    }
 
-        .banner {
-            background-color: red;
-            color: white;
-            border-radius: 5px;
-            padding: 10px;
-            text-align: center;
-            margin: 20px 0px;
-        }
+    .banner__disclaimer {
+        display: inline-block;
+        text-align: start;
+        width: 80%;            
+    }
 
-        .banner__warning {
-            display: inline-block;
-            text-align: left;
-            width: 15%;
-        }
+    .ribbon__category--cell, .ribbon__subject--cell, .ribbon__subject--cell--no-annotation, .ribbon__subject__label--link, tr, th, td {
+        font-size: 14px !important;
+        line-height: 1.0 !important;
+    }
 
-        .banner__disclaimer {
-            display: inline-block;
-            text-align: start;
-            width: 80%;            
-        }
+    .ribbon__subject--cell {
+        box-shadow: 0 1px 1px rgba(0,0,0,.26);            
+    }
 
-        .ribbon__category--cell, .ribbon__subject--cell, .ribbon__subject--cell--no-annotation, .ribbon__subject__label--link, tr, th, td {
-            font-size: 14px !important;
-            line-height: 1.0 !important;
-        }
+    .ribbon__category--cell:hover {
+        font-weight: 800 !important;
+    }
 
-        .ribbon__subject--cell {
-            box-shadow: 0 1px 1px rgba(0,0,0,.26);            
-        }
+    .wc-ribbon-cell, wc-ribbon-subject, wc-ribbon-strips {
+        line-height: 1.0 !important;
+    }
 
-        .ribbon__category--cell:hover {
-            font-weight: 800 !important;
-        }
+    li {
+        margin-left: 30px;            
+    }
+</style>
 
-        .wc-ribbon-cell, wc-ribbon-subject, wc-ribbon-strips {
-            line-height: 1.0 !important;
-        }
 
-        li {
-            margin-left: 30px;            
-        }
-        
-        
-
-    </style>
-
-    <script src="js/covid.js"></script>
-    <script type="module" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.js"></script>
-
-</head>
+<script src="js/covid.js"></script>
+<script type="module" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.js"></script>
 
 
 <div class="container" style="width:95%">
@@ -83,31 +73,21 @@ permalink: /covid-19.html
             </span>
         </div>
 
-        <p>
-            In an effort to <b>assist global research on the SARS-CoV-2 virus</b> (the cause of the COVID-19 disease), the Gene Ontology Consortium has made a central point of access to the relevant information available in our knowledgebase. Currently, we have compiled the following information:
+        <p>In an effort to <b>assist global research on the SARS-CoV-2 virus</b> (the cause of the COVID-19 disease), the Gene Ontology Consortium has made a central point of access to the relevant information available in our knowledgebase. Currently, we have compiled the following information:
             <li><a href="#hp-sars-cov-2-ce">functions of human proteins used by the virus to enter a human cell</a></li>
-            <li><a href="#ohp-pt-sars-cov-2">functions of human proteins possibly targeted by the virus after cell entry</a></li>
-        </p>
+            <li><a href="#ohp-pt-sars-cov-2">functions of human proteins possibly targeted by the virus after cell entry</a></li></p>
 
-        <p>
-            The Gene Ontology is a knowledgebase of descriptions of gene function that are both human-readable and computer-readable, based on evidence in the scientific literature. Because the GO knowledgebase is readable by computers, it enables computational analyses of biological systems and experimental results, accelerating biomedical research. <a href="/docs/introduction-to-go-resource/" target="blank">Read more</a>.           
-        </p>
+        <p>The Gene Ontology is a knowledgebase of descriptions of gene function that are both human-readable and computer-readable, based on evidence in the scientific literature. Because the GO knowledgebase is readable by computers, it enables computational analyses of biological systems and experimental results, accelerating biomedical research. <a href="/docs/introduction-to-go-resource/" target="blank">Read more</a>.</p>
 
-        <p>
-            The “GO Ribbon” viewer below displays a horizontal list of broad categories of functions that a gene (or a protein encoded by a gene) can have. A colored box under that category indicates that the gene is known to have a function of that type, while a blank box indicates a function it is not known to have. Clicking on a colored box will bring up another page with more details, such as a more precise description of the function, and links to additional information such as the scientific evidence it is based on, and the specific GOC group that curated the information.                
-        </p>
+        <p>The “GO Ribbon” viewer below displays a horizontal list of broad categories of functions that a gene (or a protein encoded by a gene) can have. A colored box under that category indicates that the gene is known to have a function of that type, while a blank box indicates a function it is not known to have. Clicking on a colored box will bring up another page with more details, such as a more precise description of the function, and links to additional information such as the scientific evidence it is based on, and the specific GOC group that curated the information.</p>
 
-        <p>
-            You can also <b>download</b> this information for use in computational analyses:
+        <p>You can also <b>download</b> this information for use in computational analyses:
             <li>GO annotations for the human genes that may be relevant for SARS-CoV-2 infection<sup><a href="#references">3</a></sup>: [<a href="/data/sars-cov-2_targets.gaf">GAF</a>] [<a href="/data/sars-cov-2_targets.gpad">GPAD</a>] [<a href="/data/sars-cov-2_targets.gpi">GPI</a>] </li>
             <li>Human genes that may be relevant for SARS-CoV-2 infection<sup><a href="#references">3</a></sup>: [<a href="https://www.biorxiv.org/content/biorxiv/early/2020/03/27/2020.03.22.002386/DC6/embed/media-6.xlsx?download=true" target="_blank">Excel table</a>] [<a href="/data/sars-cov-2_targets.json">JSON</a>]</li>
             <li>GO annotations for the SARS-CoV-2 virus genes: [<a href="data/uniprot_sars-cov-2.gpa">GPAD</a>] [<a href="/data/uniprot_reviewed_sars-cov-2.gpi">GPI</a>] </li>
-            <li>the full <a href="/docs/downloads/">GO knowledgebase</a></li>
-        </p>
+            <li>the full <a href="/docs/downloads/">GO knowledgebase</a></li></p>
 
-        <p>
-            Learn more about: [<a href="/docs/go-annotation-file-gaf-format-2.1/">GAF</a>] [<a href="/docs/gene-product-association-data-gpad-format/">GPAD</a>] [<a href="/docs/gene-product-information-gpi-format/">GPI</a>].
-        </p>
+        <p>Learn more about: [<a href="/docs/go-annotation-file-gaf-format-2.1/">GAF</a>] [<a href="/docs/gene-product-association-data-gpad-format/">GPAD</a>] [<a href="/docs/gene-product-information-gpi-format/">GPI</a>].</p>
 
         <h2 id="hp-sars-cov-2-ce">Human proteins used by SARS-CoV-2 to enter human cells</h2>
         The virus has been shown to require two human proteins (<a href="http://amigo.geneontology.org/amigo/gene_product/UniProtKB:Q9BYF1" target="_blank">ACE2</a>, <a href="http://amigo.geneontology.org/amigo/gene_product/UniProtKB:O15393" target="_blank">TMPRSS2</a>) for cell entry<sup><a href="#references">1,2</a></sup>.
@@ -155,17 +135,17 @@ permalink: /covid-19.html
                 </td>
 
                 <td style="text-align: right; border: 1px solid rgba(0, 0, 0, 0.4); padding: 15px; width: 50%">
-                        <span style="color: #1a1ac5; font-size: 1.5rem; font-weight: bold !important;">LIVE GO ENRICHMENT ANALYSIS <a href="/docs/go-enrichment-analysis/" target="_blank" style="font-weight: bold !important"><sup>(?)</sup></a></span>                        
-                        <hr style="margin: 5px;"/>
-        
-                        <div style="display: block;
-                        color: #1a1ac5; font-size: 1.5rem;
-                        margin-bottom: 0.8rem;">
-                            GO enrichment detects processes, functions or components that are unusually represented in a gene set. 
-                            For the above <b><span id="nb_partners" style="display: inline-block; font-weight: 800 !important;"></span> human proteins</b> that interact with <b><span id="virus-gene-name" style="display: inline-block; font-weight: 800 !important;"></span></b>, find (if any) the unusually represented : 
-                            <!-- Some of the human proteins targeted by the SARS-CoV-2 have unusual representations of these processes, functions and components. -->
-                            <!-- Perform a GO enrichment analysis<a href="/docs/go-enrichment-analysis/" target="_blank" style="font-weight: bold !important"><sup>(?)</sup></a> on the <span id="nb_partners" style="display: inline-block"></span> human proteins that interact with <span id="virus-gene-name"></span> ON: -->
-                        </div>
+                    <span style="color: #1a1ac5; font-size: 1.5rem; font-weight: bold !important;">LIVE GO ENRICHMENT ANALYSIS <a href="/docs/go-enrichment-analysis/" target="_blank" style="font-weight: bold !important"><sup>(?)</sup></a></span>                        
+                    <hr style="margin: 5px;"/>
+
+                    <div style="display: block;
+                    color: #1a1ac5; font-size: 1.5rem;
+                    margin-bottom: 0.8rem;">
+                        GO enrichment detects processes, functions or components that are unusually represented in a gene set. 
+                        For the above <b><span id="nb_partners" style="display: inline-block; font-weight: 800 !important;"></span> human proteins</b> that interact with <b><span id="virus-gene-name" style="display: inline-block; font-weight: 800 !important;"></span></b>, find (if any) the unusually represented : 
+                        <!-- Some of the human proteins targeted by the SARS-CoV-2 have unusual representations of these processes, functions and components. -->
+                        <!-- Perform a GO enrichment analysis<a href="/docs/go-enrichment-analysis/" target="_blank" style="font-weight: bold !important"><sup>(?)</sup></a> on the <span id="nb_partners" style="display: inline-block"></span> human proteins that interact with <span id="virus-gene-name"></span> ON: -->
+                    </div>
 
                             
                 <form action="http://pantherdb.org/webservices/go/overrep.jsp" class="form-inline" role="form" method="POST" target="_blank" style="display: inline-block">
@@ -251,18 +231,14 @@ permalink: /covid-19.html
                     </div>
                 </form>   
             
-
             </td>
         </tr></table>
 
         
-
         <h2>GO enrichment analysis of human proteins targeted by SARS-CoV-2</h2>
 
-        <p>
-            <b>Click one of the following button to perform a live GO enrichment analysis of human proteins that physically interact with SARS-CoV-2 proteins.</b>
-            This analysis shows the human biological functions that may be preferentially targeted by the SARS-CoV-2 virus.          
-        </p>
+        <p><b>Click one of the following button to perform a live GO enrichment analysis of human proteins that physically interact with SARS-CoV-2 proteins.</b>
+            This analysis shows the human biological functions that may be preferentially targeted by the SARS-CoV-2 virus.</p>
         
         <div>
             <form action="http://pantherdb.org/webservices/go/overrep.jsp" class="form-inline" role="form" method="POST" target="_blank" style="display: inline-block">
@@ -352,34 +328,18 @@ permalink: /covid-19.html
 
         <h2>Ongoing work of the GO Consortium</h2>
         <ul>
-            <li>
-                Integrating the SARS-CoV-2 genes to allow for the <a href="/docs/go-annotations/">curation</a> and reuse of recent articles on SARS-CoV-2.
-            </li>
-            <li>
-                Producing <a href="/docs/gocam-overview/">GO-CAMs</a> to further detail the infectious mechanisms of SARS-CoV-2.
-            </li>
-            <li>
-                Providing interactive <a href="https://github.com/biolink/ontobio/tree/master/notebooks" target="_blank">jupyter notebooks</a> to learn how to rapidly use and integrate GO data in larger analysis.
-            </li>
+            <li>Integrating the SARS-CoV-2 genes to allow for the <a href="/docs/go-annotations/">curation</a> and reuse of recent articles on SARS-CoV-2.</li>
+            <li>Producing <a href="/docs/gocam-overview/">GO-CAMs</a> to further detail the infectious mechanisms of SARS-CoV-2.</li>
+            <li>Providing interactive <a href="https://github.com/biolink/ontobio/tree/master/notebooks" target="_blank">jupyter notebooks</a> to learn how to rapidly use and integrate GO data in larger analysis.</li>
         </ul>
 
         <h2 id="references">References</h2>
         <ul>
-            <li>
-                <sup>1</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/32142651" target="_blank">SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor</a>   
-            </li>
-            <li>
-                <sup>2</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/32132184" target="_blank">Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2</a>                        
-            </li>
-            <li>
-                <sup>3</sup> : <a href="https://www.biorxiv.org/content/10.1101/2020.03.22.002386v2" target="_blank">A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing</a>
-            </li>
-            <li>
-                <sup>4</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/21068237" target="_blank">A transmembrane serine protease is linked to the severe acute respiratory syndrome coronavirus receptor and activates virus entry</a>
-            </li>
-            <li>
-                <sup>5</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/31987001" target="_blank" style="display: inline;">Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan</a>
-            </li>
+            <li><sup>1</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/32142651" target="_blank">SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor</a></li>
+            <li><sup>2</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/32132184" target="_blank">Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2</a></li>
+            <li><sup>3</sup> : <a href="https://www.biorxiv.org/content/10.1101/2020.03.22.002386v2" target="_blank">A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing</a></li>
+            <li><sup>4</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/21068237" target="_blank">A transmembrane serine protease is linked to the severe acute respiratory syndrome coronavirus receptor and activates virus entry</a></li>
+            <li><sup>5</sup> : <a href="https://www.ncbi.nlm.nih.gov/pubmed/31987001" target="_blank" style="display: inline;">Genomic characterization of the 2019 novel human-pathogenic coronavirus isolated from a patient with atypical pneumonia after visiting Wuhan</a></li>
         </ul>
 
         <br><br>
