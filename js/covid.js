@@ -10800,6 +10800,8 @@ function ribbonCOVID(covid_gene) {
         response.json().then(data => {
             // console.log(data);
             var element = document.createElement("wc-ribbon-strips");
+            element.setAttribute("id", "wc-ribbon-covid");
+            element.setAttribute("fire-event-on-empty-cells", false)
             element.setAttribute("add-cell-all", false);
             element.setAttribute("selection-mode", 0);
             element.setAttribute("data", JSON.stringify(data));
@@ -10836,6 +10838,8 @@ function ribbonCellEntry() {
     .then(response => {
         response.json().then(data => {
             var element = document.createElement("wc-ribbon-strips");
+            element.setAttribute("id", "wc-ribbon-cell-entry");
+            element.setAttribute("fire-event-on-empty-cells", false)
             element.setAttribute("add-cell-all", false);
             element.setAttribute("selection-mode", 0);
             element.setAttribute("data", JSON.stringify(data));
