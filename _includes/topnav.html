@@ -13,33 +13,18 @@
                 <span>
                     <img src="/assets/go-logo.large.png">
                 </span>
-                
             </a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">    
 
+
                 {% for doc in site.data.docs %}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle link-extended u-letter-spacing-xxsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            style="padding: 8px 3px;" aria-expanded="false">
-                            {{ doc.title }}
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" 
-                            style="width:248px; margin-bottom: 0px; padding: 0px; transform:translateY(-3px)">
-                            {% for subdoc in doc.docs %}
-
-                                {% for doc in site.docs %}
-                                    {% assign filename = doc.url | replace: '/docs/', '' %}
-                                    {% assign filename = filename | replace: '/', '' %}
-                                    
-                                    {%if filename == subdoc %}
-                                    <a href="{{doc.url}}" class="dropdown-menu__item__link">{{ doc.title }}</a>
-                                    {% endif %}
-                                {% endfor %}
-
-                            {% endfor %}                            
+                        <a class="nav-link dropdown-toggle link-extended u-letter-spacing-xxsmall" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" style="padding: 8px 3px;" aria-expanded="false">{{ doc.title }}</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width:248px; margin-bottom: 0px; padding: 0px; transform:translateY(-3px)">
+                            {% for subdoc in doc.docs %}{% for doc in site.docs %}{% assign filename = doc.url | replace: '/docs/', '' %}{% assign filename = filename | replace: '/', '' %}{%if filename == subdoc %}<a href="{{doc.url}}" class="dropdown-menu__item__link">{{ doc.title }}</a>{% endif %}{% endfor %}{% endfor %}
                         </div>
                     </li>
                 {% endfor %}
@@ -66,31 +51,6 @@
                         <a href="http://help.geneontology.org" target="blank" title="Contact the GO helpdesk"   class="dropdown-menu__item__link">
                             <i class="fa fa-comments-o"></i>
                             &nbsp; Contact us</a>
-
-
-                        <!-- <nav class="navbar navbar-light bg-light" style="margin-bottom: 0px; padding: 0px 5px; min-height: 30px;">
-
-                            <!-- <form class="navbar-form navbar-left" style="margin: 0px; padding: 0px;">
-                                <div class="form-group has-feedback">
-                                    <input id="search-box" type="text" class="form-control" placeholder="Search documentation...">
-                                    <i class="fa fa-search form-control-feedback"></i>
-                                </div>
-                            </form> -->
-
-                        <!-- 
-                            <form class="navbar-form navbar-left" style="margin: 0px; padding: 0px;">
-                                <div class="form-group has-feedback input-group">
-                                    <input id="search-box" type="text" class="form-control" 
-                                            placeholder="Search documentation..."
-                                            style="width:80%; border-radius:25px 0px 0px 25px;">
-                                    <a class="btn u-background-gradient-primary u-no-transform" 
-                                        href="{{ " /search" | prepend: site.baseurl }}" role="button"
-                                        style="margin: 0px 2px; border-radius:0px 25px 25px 0px; height: 40px">
-						            <i class="fa fa-search"></i></a>
-                                </div>
-                            </form> -->
-
-                        <!-- </nav> -->
 
                     </div>
                 </li>
@@ -123,11 +83,8 @@
     
             </div>
 
-    
         </div>
 
-
     </div>
-
 
 </nav>

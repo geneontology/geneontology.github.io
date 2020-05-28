@@ -40,3 +40,5 @@ _site
 *.gem
 .bundle
 vendor/bundle
+
+_algolia_api_key

@@ -78,5 +78,5 @@ algolia:
     - search.html
     - index.html
     - allposts.html
-#   nodes_to_index: 'article' # elements to be indexed
-  nodes_to_index: 'p,blockquote,li,div,paragraph,span,td'
+#   nodes_to_index: 'article' # elements to be indexed 
+  nodes_to_index: 'p,blockquote,li,div,paragraph,td' # removed span
