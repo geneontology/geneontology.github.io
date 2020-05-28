@@ -10804,7 +10804,9 @@ function ribbonCOVID(covid_gene) {
             element.setAttribute("fire-event-on-empty-cells", false)
             element.setAttribute("add-cell-all", false);
             element.setAttribute("selection-mode", 0);
+            element.setAttribute("subject-position", 1);
             element.setAttribute("data", JSON.stringify(data));
+
             parent.innerHTML = '';
             parent.appendChild(element);
 
@@ -10842,7 +10844,9 @@ function ribbonCellEntry() {
             element.setAttribute("fire-event-on-empty-cells", false)
             element.setAttribute("add-cell-all", false);
             element.setAttribute("selection-mode", 0);
+            element.setAttribute("subject-position", 1);
             element.setAttribute("data", JSON.stringify(data));
+
             parent.innerHTML = '';
             parent.appendChild(element);
 
