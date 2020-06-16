@@ -444,7 +444,7 @@ FAQ tags: 
 [downloads](/faq-tags/downloads)
 {:/comment}
 
-For files produced after 2018-03-06, please use the /annotation directory from http://release.geneontology.org/ .  GO annotations from 2018-03-06 to present are also accessible through the [DOI-versioned release stored in Zenodo](https://zenodo.org/search?q=conceptrecid%3A%221205166%22&sort=-version&all_versions=True) and can be retrieved using BDBag. Read more about [programmatic access](/tools-guide/#programmatic-download-bdbag).
+For files produced after 2018-03-06, please use the /annotation directory from [http://release.geneontology.org/](http://release.geneontology.org/).  GO annotations from 2018-03-06 to present are also accessible through the [DOI-versioned release stored in Zenodo](https://zenodo.org/search?q=conceptrecid%3A%221205166%22&sort=-version&all_versions=True) and can be retrieved using BDBag. Read more about [programmatic access](/tools-guide/#programmatic-download-bdbag).
 
 For files older than 2018-03-06, there is some data that is no longer maintained on our archive: http://archive.geneontology.org/full/ Please note, even though some files appear to be recently updated, this archive is no longer maintained and may refer to URLs that are no longer active. 
 
