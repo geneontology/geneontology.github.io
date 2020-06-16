@@ -446,15 +446,9 @@ FAQ tags: 
 
 For files produced after 2018-03-06, please use the /annotation directory from http://release.geneontology.org/ .  GO annotations from 2018-03-06 to present are also accessible through the [DOI-versioned release stored in Zenodo](https://zenodo.org/search?q=conceptrecid%3A%221205166%22&sort=-version&all_versions=True) and can be retrieved using BDBag. Read more about [programmatic access](/tools-guide/#programmatic-download-bdbag).
 
-For files older than 2018-03-06, please contact us.
-<!--
-Here are several options:
-1.  old database dumps, requires knowledge of schema and SQL for retrieving info, need to be able to restore the whole db
-2.  CVS attic for individual gene\_association files
-3.  cvs repository for individual gene\_association files
-4.  svn repository for individual gene\_association files
-5.  GOA archive of gene association files
--->
+For files older than 2018-03-06, there is some data that is no longer maintained on our archive: http://archive.geneontology.org/full/ Please note, even though some files appear to be recently updated, this archive is no longer maintained and may refer to URLs that are no longer active. 
+
+If you do not find the release you are looking for, please contact us.
 
 ---------------------------------------------------------------------------
 ## How do I find all annotations for species X that I can't find in AmiGO? 
