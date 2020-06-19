@@ -83,9 +83,10 @@ $(function() {
     setExample = function() {
         var input_enrichment = document.getElementById("landing_gene_input");
         var input_hint = document.getElementById("input_hint")
+
         if(input_enrichment) {
             var list = nextList();
-            input_enrichment.textContent = list.data.join("\n")
+            input_enrichment.value = list.data.join("\n")
             input_hint.textContent = "Gene set example: " + list.title.toLowerCase();
         }
     }
