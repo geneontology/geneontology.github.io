@@ -1,7 +1,9 @@
 ---
 title: Guide to GO subsets
 permalink: /docs/go-subset-guide/
-redirect_from: /page/go-subset-guide
+redirect_from: 
+- /page/go-subset-guide
+- GO.slims.shtml
 ---
 
 # Guide to GO subsets
