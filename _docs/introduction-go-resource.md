@@ -4,6 +4,7 @@ permalink: /docs/introduction-to-go-resource/
 redirect_from: 
 - /page/introduction-go-resource
 - /book/documentation/file-format-guide
+- /GO.database.shtml
 ---
 
 # About the GO
