@@ -5,6 +5,7 @@ redirect_from:
 - /page/introduction-go-resource
 - /book/documentation/file-format-guide
 - /GO.database.shtml
+- /GO.doc.shtml
 ---
 
 # About the GO
