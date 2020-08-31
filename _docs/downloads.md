@@ -4,6 +4,7 @@ permalink: /docs/downloads/
 redirect_from: 
 - /page/downloads
 - /page/lead-database-downloads
+- /GO.downloads.database.shtml
 ---
 
 # Downloads overview
