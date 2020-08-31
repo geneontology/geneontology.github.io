@@ -9,6 +9,7 @@ redirect_from:
 - /page/cellular-component-ontology-guidelines
 - /page/go-annotation-conventions
 - GO.contents.doc.shtml
+- /GO.ontology.structure.shtml
 ---
 
 # Gene Ontology overview
