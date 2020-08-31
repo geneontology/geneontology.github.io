@@ -1,6 +1,8 @@
 ---
 title: Programmatic Access to Gene Ontology
-permalink: /docs/tools-guide/
+permalink: 
+- /docs/tools-guide/
+- /GO.tools.shtml
 ---
 
 # Programmatic Access to Gene Ontology
