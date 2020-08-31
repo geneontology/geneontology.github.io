@@ -3,7 +3,7 @@ title: Guide to GO evidence codes
 permalink: /docs/guide-go-evidence-codes/
 redirect_from: 
 - /page/guide-go-evidence-codes
-- GO.evidence.shtml
+- /GO.evidence.shtml
 ---
 
 # Guide to GO evidence codes
