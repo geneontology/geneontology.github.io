@@ -4,6 +4,7 @@ permalink: /docs/download-ontology/
 redirect_from: 
 - /page/download-ontology
 - /page/go-file-format-guide
+- /GO.downloads.ontology.shtml
 ---
 
 # Download the ontology
