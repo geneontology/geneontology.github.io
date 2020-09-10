@@ -122,14 +122,15 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
 | Molecular Function 	| Biological Process 	| Cellular Component |
 |----------|---------|-------------|
-|  enables (RO:0002327) |  involved_in (RO:0002331) | located_in (default for gene product localization) (RO:0001025) | 
-|  contributes_to (RO:0002326)|  acts_upstream_of (RO:0002263) | part_of (default for membership in protein-containing complex)  | 
+|  **enables** (RO:0002327) |  involved_in (RO:0002331) | **located_in** (for non-protein-containing complex terms) (RO:0001025) | 
+|  contributes_to (RO:0002326)|  acts_upstream_of (RO:0002263) | **part_of** (for protein-containing complex terms)  | 
 |   | acts_upstream_of_positive_effect (RO:0004034) | is_active_in (RO:0002432)  | 
 |   | acts_upstream_of_negative_effect (RO:0004035) | colocalizes_with (RO:0002325)  | 
-|   | acts_upstream_of_or_within (RO:0002264)  |   | 
+|   | **acts_upstream_of_or_within** (RO:0002264)  |   | 
 |   | acts_upstream_of_or_within_positive_effect (RO:0004032)  |   | 
 |   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | 
 
+**Default values are shown in bold.**
 
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**.
