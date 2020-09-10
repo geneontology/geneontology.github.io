@@ -22,9 +22,13 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
 
 ## Changes between the GO Annotation File (GAF) format 2.1 and 2.2
 
+* **Header**
 * **The `gaf-version` header must read `2.2` for this format.**
+* **The header must also contain 'generated-by' and 'date-generated' lines.**
+
+* **Columns**
 * **Column 4 ("Qualifier") is now required.**
-  * **Column 4 ("Qualifier") may optionally be negated ("NOT").**
+  * **Column 4 ("Qualifier") may optionally be negated ("NOT") by pipe-separating the relation with 'NOT', e.g. NOT|enables.**
 
 ## GO Annotation File (GAF) format 2.2
 
@@ -36,7 +40,7 @@ All gene association files must start with a single line denoting the file forma
 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
 
-Recommended information to provide in the header:
+Required information to provide in the header:
 
     generated-by: database listed in dbxrefs.yaml
     date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
