@@ -1314,20 +1314,6 @@ The OBO-Edit project, which used to generate the flat file format, [has been *mo
 # Database Access
 
 ---------------------------------------------------------------------------
-## How do I find terms, annotations, or gene products in the database? 
-{::comment}
-
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I find terms, annotations, or gene products in the database?"></span>
-FAQ tags: 
-
-[database](/faq-tags/database)
-
-[software](/faq-tags/software)
-{:/comment}
-
-We maintain a set of [examples](http://wiki.geneontology.org/index.php/Example_Queries){:target="blank"} that cover, or can be used as a base to cover, most common queries. This is also the set used with [GOOSE](http://amigo.geneontology.org/goose){:target="blank"}.
-
----------------------------------------------------------------------------
 ## What are the recommended data access policies for your services? 
 {::comment}
 
