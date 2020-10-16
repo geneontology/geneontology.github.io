@@ -21,7 +21,7 @@ The Gene Ontology employs a number of other relations, including *part of*, e.g.
  
  and *regulates*, e.g: 
  
- >[GO:0006916:anti-apoptosis](http://amigo.geneontology.org/amigo/term/GO:0006916) *regulates* [GO:0012501:programmed cell death](http://amigo.geneontology.org/amigo/term/GO:0012501)
+ >[GO:0098689:latency-replication decision](http://amigo.geneontology.org/amigo/term/GO:0098689) *regulates* [GO:0019046:release from viral latency](http://amigo.geneontology.org/amigo/term/GO:0019046)
 
 This set is not exhaustive and includes only a subset of relations used in the GO ontologies, logical definitions and annotations. For more technical information about relations and their properties used in GO and other ontologies see the [OBO Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="_blank"}.
 
