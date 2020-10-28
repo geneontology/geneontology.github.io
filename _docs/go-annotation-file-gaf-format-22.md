@@ -113,8 +113,8 @@ The **DB Object Symbol** field should be a symbol that means something to a biol
 
 
 #### Qualifier (column 4)
-Flags that modify the interpretation of an annotation.
-One from the table below; "NOT" may be prepended with a pipe for negation.
+This column is populated with relations from the Relations Ontology that indicate the intended meaning, or interpretation, of a gene product-to-GO term association.
+Allowed values are listed in the table below; for negation, "NOT" may be prepended to a relation with a pipe.
 
 See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide. The list of allowable qualifiers is identical to those [allowable in GPAD 2.0](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#allowed-gene-product-to-go-term-relations).
 
@@ -130,7 +130,13 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 |   | acts_upstream_of_or_within_positive_effect (RO:0004032)  |   | 
 |   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | 
 
-**Default values are shown in bold.**
+**If no relation is provided default values, shown in bold, will be added to all GAF 2.2 files.**
+
+**For root node annotations that use the ND evidence code, the following relations should be used:**
+    
+    biological_process (GO:0008150) involved_in (RO:0002331)
+    molecular_function (GO:0003674) enables (RO:0002327)
+    cellular_component (GO:0005575) is_active_in (RO:0002432)
 
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**.
