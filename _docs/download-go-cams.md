@@ -22,9 +22,6 @@ permalink: /docs/download-go-cams/
 * Individual TTLs (1 TTL for 1 GO-CAM) can also be retrieved from the GitHub repository [noctua-models](https://github.com/geneontology/noctua-models/tree/master/models){:target="blank"}.
 * When using SIFs with [Cytoscape](https://cytoscape.org/){:target="blank"}, we also provide a [gocam-styles.xml](https://s3.amazonaws.com/geneontology-public/gocam/gocam-styles.xml). Read more in the [GO-CAM documentation](/docs/gocam-overview/#visualization-in-cytoscape).
 
-## Download GO-CAM by species
-By browsing the [/products/ttl/](http://current.geneontology.org/products/ttl/index.html){:target="blank"} of the current release on [http://current.geneontology.org](http://current.geneontology.org){:target="blank"}.
-
 ## Programmatic access to GO-CAMs
 As for any resource in GO, GO-CAMs are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"} and can be retrieved using BDBag. Read more about [programmatic access](/docs/tools-guide/#programmatic-download-bdbag).
 
