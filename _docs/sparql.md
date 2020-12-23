@@ -9,7 +9,9 @@ Gene Ontology is developping Ontologies and Frameworks to help annotate biology 
 
 To support the creation, storage and querying of GO-CAMs, GO is relying on [RDF](https://www.w3.org/RDF/){:target="blank"} / [OWL](https://www.w3.org/OWL/){:target="blank"}, a directed, labeled graph data format to represent rich and complex knowledge. RDF graphs can be queried and manipulated with [SPARQL](https://www.w3.org/TR/sparql11-overview/){:target="blank"}, one of the standards of the [Semantic Web](https://www.w3.org/2001/sw/wiki/Main_Page){:target="blank"}.
 
-In the following document, we present some notions of RDF, OWL and SPARQL to get an understanding of how the GO SPARQL endpoint is structured and how to create queries to retrieve specific pieces of knowledge. [ [Try the GO SPARQL endpoint](http://sparql.geneontology.org/blazegraph/#query){:target="blank"} ]
+In the following document, we present some notions of RDF, OWL and SPARQL to get an understanding of how the GO SPARQL endpoint is structured and how to create queries to retrieve specific pieces of knowledge. 
+
+[ [Try the GO SPARQL endpoint](http://sparql.geneontology.org/blazegraph/#query){:target="blank"} ]
 
 
 ## Resource Description Framework (RDF)
