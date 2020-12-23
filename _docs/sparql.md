@@ -116,7 +116,7 @@ This instance of the DNA-binding transcription factor activity provided by wormb
     is causally upstream of, positive effect of a molecular function
 ```
 
-> This introduction was important to understand the underlying RDF/OWL structure used to store GO-CAMs. In the next section, we'll see how query the GO SPARQL endpoint to retrieve some specific pieces of knowledge.
+> This introduction was important to understand the underlying RDF/OWL structure used to store GO-CAMs. In the next section, we'll see how to query the GO SPARQL endpoint to retrieve specific pieces of knowledge.
 
 
 ## SPARQL to query GO-CAMs
