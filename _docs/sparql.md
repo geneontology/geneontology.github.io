@@ -197,7 +197,7 @@ SELECT distinct ?goaspect ?goids ?gonames ?definitions WHERE {
 ORDER BY DESC(?gocam)
 ```
 
-Here the code gets a little more complicated. First, notice the larger use of `PREFIX` which simplifies the readability of the actual query contained in the `SELECT` block. The `SELECT` line is used to display the values of the fields we want to retrieve, here the aspect, go id, go name and definition of each go term retrieved. the `distinct` keyword is used to ensure that a GO term would only be shown once in the response.
+Here the code gets a little more complicated. First, notice the larger use of `PREFIX` which simplifies the readability of the actual query contained in the `SELECT` block. The `SELECT` line is used to display the values of the fields we want to retrieve, here the aspect, GO terms id `goids`, GO terms name `gonames` and the GO terms definition `definitions`. The `distinct` keyword is used to ensure that a GO term would only be shown once in the response. On the contrary, if you want to retrieve all the instances of each GO term, the `distinct` keyword would have to be removed.
 
 In the `GRAPH` block, we retrieve all the entities that are individuals, then we store their ids in `goids`. With the `VALUES` keyword, we create a list containing the root BP, MF and CC terms. We then filter every `goids` previously identified by ensuring they are a subclass of one of those GO root terms. From that list of `goids`, we then retrieve their labels with `rdfs:label` and their definition with the `PREFIX` `definition:` which is an alias to `<http://purl.obolibrary.org/obo/IAO_0000115>`.
 
