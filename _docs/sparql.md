@@ -58,7 +58,7 @@ In those GO-CAM, the predicates `enabled by`, `directly positively regulates` an
 | occurs in | [Description](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/BFO_0000066){:target="blank"} | http://purl.obolibrary.org/obo/BFO_0000066 |
 | part of | [Description](http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/BFO_0000050){:target="blank"} | http://purl.obolibrary.org/obo/BFO_0000050 |
 
-The second model can be visualized as a graph [here](http://noctua.geneontology.org/editor/graph/gomodel:5b91dbd100001993){:target="blank"} and is available as a [Turtle/TTL](https://www.w3.org/TR/turtle/){:target="blank"} file [here](https://raw.githubusercontent.com/geneontology/noctua-models/master/models/5b91dbd100001993.ttl). Let's take a look at a sample of that TTL file:
+The second model can be visualized as a graph [here](http://noctua.geneontology.org/editor/graph/gomodel:5b91dbd100001993){:target="blank"} and is available as a [Turtle/TTL](https://www.w3.org/TR/turtle/){:target="blank"} file [here](https://raw.githubusercontent.com/geneontology/noctua-models/master/models/5b91dbd100001993.ttl){:target="blank"}. Let's take a look at a sample of that TTL file:
 
 ```
 <http://model.geneontology.org/5b91dbd100001993/5b91dbd100001995> <http://purl.org/pav/providedBy> 
