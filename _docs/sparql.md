@@ -5,7 +5,7 @@ permalink: /docs/sparql/
 
 
 # Introduction
-Gene Ontology is developping Ontologies and Frameworks to help annotate biology in a consistent way and help users to integrate and reuse our data in their approaches. The Gene Ontology Causal Activity Model (or GO-CAM) [recently published](https://rdcu.be/bRIgY){:target="blank"} allows to curate knowledge in a much more expressive and traceable way and extend the querying capabilities of the standard GO annotations. [ [Learn more about GO-CAMs](/docs/gocam-overview/) ]
+Gene Ontology is developing Ontologies and Frameworks to help annotate biology in a consistent way and help users to integrate and reuse our data in their approaches. The Gene Ontology Causal Activity Model (or GO-CAM) [recently published](https://rdcu.be/bRIgY){:target="blank"} allows to curate knowledge in a much more expressive and traceable way and extend the querying capabilities of the standard GO annotations. [ [Learn more about GO-CAMs](/docs/gocam-overview/) ]
 
 To support the creation, storage and querying of GO-CAMs, GO is relying on [RDF](https://www.w3.org/RDF/){:target="blank"} / [OWL](https://www.w3.org/OWL/){:target="blank"}, a directed, labeled graph data format to represent rich and complex knowledge. RDF graphs can be queried and manipulated with [SPARQL](https://www.w3.org/TR/sparql11-overview/){:target="blank"}, one of the standards of the [Semantic Web](https://www.w3.org/2001/sw/wiki/Main_Page){:target="blank"}.
 
