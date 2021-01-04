@@ -13,7 +13,7 @@ redirect_from:
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
 + Ashburner et al. Gene ontology: tool for the unification of biology. Nat Genet. May 2000;25(1):25-9. \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/10802651){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3037419/){:target="blank"}\]
-+ The Gene Ontology Consortium. The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Res. Jan 2019;47(D1):D330-D338. \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/30395331){:target="blank"} \| [full text](https://academic.oup.com/nar/article/47/D1/D330/5160994){:target="blank"}\] 
++ The Gene Ontology resource: enriching a GOld mine. Nucleic Acids Res. Jan 2021;49(D1):D325-D334. \[[abstract](https://pubmed.ncbi.nlm.nih.gov/33290552/){:target="blank"} \| [full text](https://academic.oup.com/nar/article-pdf/49/D1/D325/35364517/gkaa1113.pdf){:target="blank"}\] 
 
 
 If you used a specific software/analysis tool in your research, in addition to the two publications above, please also cite the tool used according to the following list:
