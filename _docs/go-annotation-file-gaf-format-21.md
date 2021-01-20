@@ -12,16 +12,16 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 
 
-# GO Annotation File (GAF) files
+# GO Annotation File (GAF) 2.1
 
-This guide lays out the format specifications for the **G**ene **A**ssociation **F**ile (GAF) 2.1; for the older format please see the [GAF 2.0 guide](/docs/go-annotation-file-gaf-format-2.0/). 
+This guide lays out the format specifications for the **G**ene **A**ssociation **F**ile (GAF) 2.1; for the newer format please see the [GAF 2.2 guide](/docs/go-annotation-file-gaf-format-2.2/). For the older format please see the [GAF 2.0 guide](/docs/go-annotation-file-gaf-format-2.0/). 
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in standardized tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/) and the reference to support the link. 
 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
  
 
-## GO Annotation File (GAF) format 2.1
+## GO Annotation File (GAF) 2.1
 
 ### GAF Header
 
@@ -39,7 +39,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 |----------|---------|-------------|---------|--------|
 | 1 	| [DB](#db-column-1 "Definition and requirements for DB (column 1)")	| required 	| 1 |	UniProtKB|
 | 2 	| [DB Object ID](#db-object-id-column-2 "Definition and requirements for DB Object ID (column 2)") 	| required 	| 1 |	P12345|
-| 3 	|  [DB Object Symbol](#db-object-symbol-column-3 "Definition and requirements for DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
+| 3 	| [DB Object Symbol](#db-object-symbol-column-3 "Definition and requirements for DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
 | 4 	| [Qualifier](#qualifier-column-4 "Definition and requirements for Qualifier (column 4)") 	| optional 	| 0 or greater |	NOT|
 | 5 	| [GO ID](#go-id-column-5 "Definition and requirements for GO ID (column 5)") 	| required 	| 1 |	GO:0003993|
 | 6 	| [DB:Reference (\|DB:Reference)](#dbreference-column-6 "Definition and requirements for DB:Reference (column 6)") 	| required 	| 1 or greater |	PMID:2676709|
@@ -238,7 +238,7 @@ The identifier used must be a standard 2-part global identifier, e.g. UniProtKB:
 * When the **Gene Product Form ID** is filled with a protein identifier, the value in **DB Object Type** (column 12) must be protein. Protein identifiers can include UniProtKB accession numbers, NCBI NP identifiers or Protein Ontology (PRO) identifiers.
 * When the **Gene Product Form ID** is filled with a functional RNA identifier, the **DB Object Type** (column 12) must be either ncRNA, rRNA, tRNA, snRNA, or snoRNA
 
-This column may be left blank; if so, the value in **DB Object Type** (column 12) will provide a description of the expected gene product.
+    This column may be left blank; if so, the value in **DB Object Type** (column 12) will provide a description of the expected gene product.
 
 More information and examples are available from the <a href="http://wiki.geneontology.org/index.php/GAF_Col17_GeneProducts">GO internal documentation on column 17</a>.
 Note that several fields contain database cross-reference (dbxrefs) in the format dbname:dbaccession. The fields are: **GO ID** [column 5], where dbname is always GO; **DB:Reference** (column 6); **With or From** (column 8); and **Taxon** (column 13), where dbname is always taxon. For **GO ID**s, do not repeat the 'GO:' prefix (i.e. always use GO:0000000, not GO:GO:0000000).
