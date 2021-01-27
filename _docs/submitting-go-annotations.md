@@ -3,7 +3,8 @@ title: Submitting GO Annotations
 permalink: /docs/submitting-go-annotations/
 ---
 # Overview
- * **Prepare**- GOC encourages use of [GAF 2.1](/docs/go-annotation-file-gaf-format-2.1/), although [GAF 2.0](/docs/go-annotation-file-gaf-format-2.0/) is still accepted.  If you're reading this, now is a great time to make the minor changes and upgrade to 2.1!
+ * **Contact**- Please [contact our Helpdesk](http://help.geneontology.org/) first to determine if your annotations are suitable for GO.  A number of factors affect this, including availability of your group to maintain the annotations for the forseeable future, methods used to assign GO terms, etc.  If your group has never submitted annotations, or hasn't been active in the GO community in a while, we strongly recommend contacting us as a first step.
+ * **Prepare**- GOC encourages use of [GAF 2.2](/docs/go-annotation-file-gaf-format-2.2/), as of March 2021. 
  * **Submit**- GOC asks that all submitting groups provide a static address that always contains the group's most recent GAF.  This GAF will be retreived by GO on demand and ensure the group's most recent file is always used for the monthly production pipeline.
  The address for a group's GAF should appear in the `source` line (approximately line 19) of the group's yaml file.  For example, MGI's file [mgi.yaml](https://github.com/geneontology/go-site/blob/master/metadata/datasets/mgi.yaml) contains the line:
  
@@ -14,7 +15,7 @@ permalink: /docs/submitting-go-annotations/
  GO is happy to modify your group's yaml file if requested: please [contact the GOC](http://help.geneontology.org/).
  
  * **Review**- Once annotations have been processed by GO, groups will be able to access error reports.  Please use the reports to make changes to the next month's GAF: 
-   * monthly error reports will be accessible through release.geneontology.org [for example, October 2018](http://release.geneontology.org/2018-10-01/reports/index.html)
+   * monthly error reports will be accessible through release.geneontology.org [for example, January 2021](http://release.geneontology.org/2021-01-01/reports/index.html)
    * http://snapshot.geneontology.org/reports/index.html has reports that are updated thoughout the month, not just for the releases
 
 # Preparing GO Annotations for Submission
@@ -28,18 +29,18 @@ For general information on how to conduct GO annotations, please see the
 Please [contact the GOC](http://help.geneontology.org/) before carrying out the annotation work; this will ensure that GOC mentors and trainers can 
 be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
  
-## 2. Provide a GAF2.0 formatted file
+## 2. Provide a GAF 2.2
 
 Research groups looking to supply Gene Ontology annotations to the Consortium must submit an appropriately formatted 
 annotation file that conforms to syntactic and semantic requirements of the Consortium. The primary GO annotation format 
-is the Gene Association Format (GAF) 2.0, or GAF2.0. This page contains details on how to build and populate the GAF2.0 File.
+is the Gene Association Format (GAF): as of March 2021 we use GAF 2.2. This page contains details on how to build and populate the GAF 2.2 File.
 
 Please ensure that:
 
- * Submissions are made using this flat, tab-delimited format file: GAF2.0
+ * Submissions are made using this flat, tab-delimited format file: GAF 2.2
  * The file has the correct file header
  * The file has the correct number of columns, even if some of them are not populated with data
- * If the file contains column names, these must be commented out using an exclamation mark ! at the start of the line
+ * If the file contains column names, these must be commented out using an exclamation mark (!) at the start of the line
  * The file contains no leading or trailing spaces
 
  
