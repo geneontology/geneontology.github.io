@@ -44,7 +44,7 @@ Associations of gene products to GO terms are statements that describe
 
 ## Annotation qualifiers
 
-Some annotations are modified by qualifiers, which have specific usage rules and meanings within GO. The *NOT*, *contributes_to*, and *colocalizes_with* qualifiers are used in the [GAF format](/docs/go-annotation-file-gaf-format-2.1/).
+Some annotations are modified by qualifiers, which have specific usage rules and meanings within GO. The *NOT*, *contributes_to*, and *colocalizes_with* qualifiers are used in the [GAF format](/docs/go-annotation-file-gaf-format-2.2/).
 
 ### The *NOT* qualifier
 
@@ -60,7 +60,7 @@ Some annotations are modified by qualifiers, which have specific usage rules and
 
 <!-- ????-->
 ## Annotation extensions
-Annotation extensions provide additional information about a GO annotation that cannot be captured in a single GO term. Please see publications describing annotation extensions: [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}. Annotation extensions are available in both the [GAF File Format](/docs/go-annotation-file-gaf-format-2.1/#annotation-extension-column-16) and the [GPAD File Format](/docs/gene-product-association-data-gpad-format/#annotation-extension).
+Annotation extensions provide additional information about a GO annotation that cannot be captured in a single GO term. Please see publications describing annotation extensions: [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}. Annotation extensions are available in both the [GAF File Format](/docs/go-annotation-file-gaf-format-2.2/#annotation-extension-column-16) and the [GPAD File Format](/docs/gene-product-association-data-gpad-format/#annotation-extension).
 
 <!-- ????-->
 ## Annotation quality control
