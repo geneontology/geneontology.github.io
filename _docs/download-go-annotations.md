@@ -13,7 +13,7 @@ redirect_from:
 + Released monthly
 + Taxon-specific
 + Available formats:
-  + [GAF format](/docs/go-annotation-file-gaf-format-2.1/)
+  + [GAF format](/docs/go-annotation-file-gaf-format-2.2/)
   + [GPAD](/docs/gene-product-association-data-gpad-format/) + [GPI](/docs/gene-product-information-gpi-format/)
   
 ## GO annotation download links
