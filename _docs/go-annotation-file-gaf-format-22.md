@@ -12,7 +12,7 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 
 
-# GO Annotation File (GAF) files
+# GO Annotation File (GAF) 2.2
 
 This guide lays out the format specifications for the **G**ene **A**ssociation **F**ile (GAF) 2.2; for the older format please see the [GAF 2.1 guide](/docs/go-annotation-file-gaf-format-2.1/).
 
@@ -28,9 +28,9 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
 
 * **Columns**
 * **Column 4 ("Qualifier") is now required.**
-  * **Column 4 ("Qualifier") may optionally be negated ("NOT") by pipe-separating the relation with 'NOT', e.g. NOT|enables.**
+  * **Column 4 ("Qualifier") may optionally be negated ("NOT") by pipe-separating the relation with 'NOT', e.g. NOT\|enables.**
 
-## GO Annotation File (GAF) format 2.2
+## GO Annotation File (GAF) 2.2
 
 ### GAF Header
 
@@ -130,7 +130,7 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 |   | acts_upstream_of_or_within_positive_effect (RO:0004032)  |   | 
 |   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | 
 
-**If no relation is provided default values, shown in bold, will be added to all GAF 2.2 files.**
+**If no relation is provided default values, shown in bold above, will be added to all GAF 2.2 files.**
 
 **For root node annotations that use the ND evidence code, the following relations should be used:**
     
