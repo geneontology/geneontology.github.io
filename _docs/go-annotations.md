@@ -75,6 +75,7 @@ GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http:/
 
 ## Types of GO annotation files
 * [Gene Product Association Data (GPAD) files](/docs/gene-product-association-data-gpad-format/) + [Gene Product Information (GPI) files](/docs/gene-product-information-gpi-format/): these are companion files
+* [Gene association file (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
 * [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
 * [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
 
