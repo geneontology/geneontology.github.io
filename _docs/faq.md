@@ -719,13 +719,21 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-You can find the number of terms on each of the ontologies by going to [AmiGO](http://amigo.geneontology.org/){:target="blank"}:
+You can find the number of terms on each of the ontologies two ways: 
+* Go to [our Release statistics](/stats.html)
+** The Ontology section will have counts for Biological Process, Molecular Function, and Cellular Component terms.
 
-Under the 'Advanced Search' section in the middle of the page, use the drop-down menu to choose "Ontology". You don't need to type anything on the 'Quick search' box.
-This action will send you to the ['Information about Ontology search'](http://amigo.geneontology.org/amigo/search/ontology){:target="blank"} page. There, open the 'Ontology source' filter menu on the left. As of January 2020, the number of terms on per ontology were:
--   29,393 Biological process
--   11,123 Molecular Function
--   4,184 Celular component
+* Go to [AmiGO](http://amigo.geneontology.org/){:target="blank"}:
+** Under the 'Advanced Search' section in the middle of the page, use the drop-down menu to choose "Ontology". You don't need to type anything on the 'Quick search' box.
+** This action will send you to the ['Information about Ontology search'](http://amigo.geneontology.org/amigo/search/ontology){:target="blank"} page. There, open the 'Ontology source' filter menu on the left. 
+
+
+As of January 2021 (2021-01-01), the number of terms on per ontology were:
+-   28,758 Biological process
+-   11,148 Molecular Function
+-   4,185 Celular component
+
+Please note that the number of terms changes between releases: new terms are created, existing terms may be merged, and some terms are obsoleted to reflect the current understanding of biology. This is why it is essential to provide a release version when citing the GO.
 
 If you need a reference for this information, refer to our [citation policy and license](/docs/go-citation-policy/). 
 
@@ -1181,7 +1189,9 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-Refer to the [ontology downloads page](/docs/download-ontology/) for information on ontology files.  For general introduction to the project's annotation file formats, see the guides on [GAF 2.1](/docs/go-annotation-file-gaf-format-2.1/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/). 
+Ontology files are available in OBO, OWL, and some files are available in JSON. Refer to the [ontology downloads page](/docs/download-ontology/) for information on ontology files.  
+
+Annotations are available in GAF (Gene Association File), or by the companion files Gene Product Association Data (GPAD) + Gene Product Information (GPI). For general introduction to the project's annotation file formats, see [GAF 2.2](/docs/go-annotation-file-gaf-format-2.2/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/)/[GPI file](/docs/gene-product-information-gpi-format/) pages. 
 
 ---------------------------------------------------------------------------
 ## What is a GAF file? 
@@ -1195,7 +1205,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-A GAF file is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. See more information [on the GAF file format guide](/docs/go-annotation-file-gaf-format-2.1/).
+A GAF (Gene Association File) is a GO annotation file containing annotations made to the GO by a contributing resource such as FlyBase or Pombase. See more information [on the GAF file format guide](/docs/go-annotation-file-gaf-format-2.2/).
 
 ---------------------------------------------------------------------------
 ## What is a GPAD file? 
@@ -1209,7 +1219,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-The GPAD - Gene Product Association File Format - is an alternative means of exchanging annotations from the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.1/). The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information. For details, see the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
+The GPAD - Gene Product Association File Format - is an alternative means of exchanging annotations from the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). The GPAD format is designed to be more normalized than GAF, and is intended to work in conjunction with a separate format for exchanging gene product information. For details, see the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
 
 ---------------------------------------------------------------------------
 ## What is a GPI file? 
