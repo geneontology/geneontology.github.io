@@ -1,12 +1,12 @@
 ---
-title: GO Annotation file format: GAF 2.0
+title: "GO Annotation file format: GAF 2.0"
 permalink: /docs/go-annotation-file-gaf-format-2.0/
 redirect_from: 
 - /page/go-annotation-file-format-20
 ---
 
 
-# GO Annotation file format: Gene Association File 2.0 (Deprecated)
+# GO Annotation File (GAF) 2.0 (Deprecated)
 This guide lays out the format specifications for the deprecated *G*ene *A*ssociation *F*ile (GAF) 2.0; for the current format please see the [GAF 2.2 guide](/docs/go-annotation-file-gaf-format-2.2/).
 
 GAFs are tab-delimited plain text files, where each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/), the reference to support the link between them, and other information. 
