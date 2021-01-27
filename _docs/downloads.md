@@ -20,12 +20,12 @@ GO releases official versions on a monthly basis.  The links below provide the l
 [*__Download annotations here__*](/docs/download-go-annotations/ "Download GO annotations")
 + Released monthly
 + Taxon-specific
-+ Available in either [GAF format](/docs/go-annotation-file-gaf-format-2.1/ "GAF format") or [GPAD](/docs/gene-product-association-data-gpad-format/ "GPAD format")+[GPI](/docs/gene-product-information-gpi-format/ "GPI files") files
++ Available in either [GAF format](/docs/go-annotation-file-gaf-format-2.2/ "GAF format") or [GPAD](/docs/gene-product-association-data-gpad-format/ "GPAD format")+[GPI](/docs/gene-product-information-gpi-format/ "GPI files") files
 
-<!--Versioned and browsable releases are available at <a href="http://release.geneontology.org">http://release.geneontology.org</a>.
-We make new versions available approximately every month.-->
+Versioned and browsable releases are available at <a href="http://release.geneontology.org">http://release.geneontology.org</a>.
+New versions are released approximately every month.
 
-<!--The site <a href="http://current.geneontology.org">http://current.geneontology.org</a> is always the last official release made available at <a href="http://release.geneontology.org">http://release.geneontology.org</a>.-->
+The site <a href="http://current.geneontology.org">http://current.geneontology.org</a> is always the last official release made available at <a href="http://release.geneontology.org">http://release.geneontology.org</a>.
 
 <!--We will soon add more documentation about the structure of these repositories.-->
 
