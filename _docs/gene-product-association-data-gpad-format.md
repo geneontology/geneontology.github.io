@@ -16,7 +16,7 @@ GPAD files contain annotations for gene products which are further detailed in [
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
 
-GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.1/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
+GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
 
 ## Gene Product Association Data (GPAD) 1.1 format
