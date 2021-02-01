@@ -1,0 +1,161 @@
+--- 
+layout: default
+permalink: /ribbon.html
+---
+
+<style>
+    *, *::after, *::before {
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        outline: none;
+    }
+
+    .banner {
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .banner__warning {
+        display: inline-block;
+        text-align: left;
+        width: 15%;
+    }
+
+    .banner__disclaimer {
+        display: inline-block;
+        text-align: start;
+        width: 80%;            
+    }
+
+    .ribbon__category--cell, .ribbon__subject--cell, .ribbon__subject--cell--no-annotation, .ribbon__subject__label--link, tr, th, td {
+        /* font-size: 14px !important; */
+        line-height: 1.0 !important;
+    }
+
+    .ribbon__subject--cell {
+        box-shadow: 0 1px 1px rgba(0,0,0,.26);            
+    }
+
+    .ribbon__category--cell:hover {
+        font-weight: 800 !important;
+    }
+
+    .wc-ribbon-cell, wc-ribbon-subject, wc-ribbon-strips, wc-ribbon-table {
+        line-height: 1.0 !important;
+        font-size: 14px !important;
+    }
+
+    li {
+        margin-left: 0px;            
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .cell {
+        border: 1px solid black; background-color: white; height: 15px; width: 15px; display: inline-block; vertical-align: sub;        
+    }
+
+    .table__row__supercell__cell__link {
+        color: rgb(73, 101, 194);
+        text-decoration: none;
+    }    
+
+    .table__header__cell {
+        padding: 2px;
+        font-weight: 800 !important;
+    }    
+
+    .clicked {
+        border: 2px solid red;
+        box-shadow: 0px 0px 8px red !important;
+    }
+
+    .table__row__supercell {
+        vertical-align: top !important;
+        border-bottom: 1px solid #ddd;
+    }    
+
+</style>
+
+<script src="js/ribbon.js"></script>
+
+<script type="module" src="https://unpkg.com/@geneontology/wc-spinner/dist/wc-spinner/wc-spinner.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@geneontology/wc-spinner/dist/wc-spinner/wc-spinner.js"></script>
+
+<script type="module" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.js"></script>
+
+<script type="module" src="https://unpkg.com/@geneontology/wc-ribbon-table/dist/wc-ribbon-table/wc-ribbon-table.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@geneontology/wc-ribbon-table/dist/wc-ribbon-table/wc-ribbon-table.js"></script>
+
+
+
+<div class="container" style="width:95%">
+    <div class="row" style="margin:0rem 2rem">
+
+        <h1>Gene Ontology Ribbon Sandbox</h1> 
+        
+        <p>
+        The GO Ribbon provides a visual summary of gene functions and a quick way to browse the GO annotations for a gene or gene set. 
+        </p>
+        <!-- 
+        <h2>A visual summary of gene functions</h2>
+
+        <p>
+        The GO Ribbon is a graphical tool to quickly browse the GO annotations for a gene or a gene set.
+        </p>
+
+        <p>
+        It provides a visual summary of the functions of a gene (resp. gene sets) by grouping the GO annotations with high level terms (see <a href="/docs/go-subset-guide/">slims/subsets</a>). For each high level term, the color gradient from white <span class="cell">&nbsp;</span> to deep blue <span class="cell" style="background-color: rgb(8, 22, 106)">&nbsp;</span> informs on the volume of annotations.
+        </p> -->
+
+        <p>
+        To further investigate the GO annotations grouped under a high level term, click on the colored cells for your gene of interest.
+        </p>
+
+        <p>
+        Questions about the Ribbon ? [<a href="/docs/ribbon.html">GO Ribbon documentation</a>] [<a href="http://help.geneontology.org/">Helpdesk</a>].
+        </p>
+
+        <hr>
+        
+        <div>
+            <div style="width:200px; display: inline-block">
+                <textarea id="ribbon-sandbox-input" rows="4" name="input" placeholder="Enter gene IDs (eg HGNC:11998, MGI:1099800...)" style="width:200px; resize: none; margin-bottom: 5px; font-size: 14px; display: block"></textarea>
+                <div class="input-group-btn" style="display: inline-block; position: absolute">
+                    <button type="button" class="btn btn-primary u-no-transform u-anim-zoom-in" style="background-color: #3F51B5; border-color: black; margin-left: 0px; display: inline-block" onclick="getExample()" title="Cycle through different Gene Set examples">
+                        Examples
+                    </button>
+                    <button type="button" class="btn btn-primary u-no-transform u-anim-move-right" style="background-color: #3F51B5; border-color: black; margin-left: 4px; display: inline-block" onclick="view()" title="View GO Ribbon for above gene set">
+                        View <i class="fa fa-chevron-right u-line-height-single"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div style="margin-left: 10px; border: 1px solid black; display: inline-block; vertical-align: top">
+                Control Panel
+
+            </div>
+        </div>
+
+        <div id="ribbon-strips" style="width: 1500px; margin-top: 100px"></div>
+        <br>
+        <div id="ribbon-table" style="width: 1500px;"></div>        
+
+
+        <h2 style="margin-top:50px">Additional Notes</h2>
+        <ul>
+            <li>The Ribbon provides a summary of the annotations associated to your genes, but it does not inform on which are the most relevant functions in a gene set. To find out the statistically relevant functions of a gene set, please use the <a href="/docs/go-enrichment-analysis/">Enrichment Analysis</a> approach</li>
+            <li>The <a href="/covid-19.html">GO COVID-19 page</a> is an illustration of how the GO Ribbon and Enrichment Analysis can be used together to both show the existing functions of a gene set and highlight the functions that are over or under represented (over representation test)</li>
+            <li>The Ribbon is a generic web component that can easily be integrated in other websites, independenly of the framework used. It is freely available on <a href="https://github.com/geneontology/wc-ribbon" target="blank">GitHub</a>. As an example, the Ribbon is used to represent both GO, Disease and Expression data on the <a href="https://www.alliancegenome.org/" target="blank">Alliance website</a></li>
+        </ul>
+
+    </div>
+</div>
