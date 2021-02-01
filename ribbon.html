@@ -3,6 +3,7 @@ layout: default
 permalink: /ribbon.html
 ---
 
+
 <style>
     *, *::after, *::before {
         box-sizing: border-box;
@@ -86,14 +87,11 @@ permalink: /ribbon.html
 
 <script src="js/ribbon.js"></script>
 
-<script type="module" src="https://unpkg.com/@geneontology/wc-spinner/dist/wc-spinner/wc-spinner.esm.js"></script>
-<script nomodule="" src="https://unpkg.com/@geneontology/wc-spinner/dist/wc-spinner/wc-spinner.js"></script>
+<script type="module" src="https://unpkg.com/@geneontology/wc-go-ribbon/dist/wc-go-ribbon/wc-go-ribbon.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@geneontology/wc-go-ribbon/dist/wc-go-ribbon/wc-go-ribbon.js"></script>
 
-<script type="module" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.esm.js"></script>
-<script nomodule="" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.js"></script>
-
-<script type="module" src="https://unpkg.com/@geneontology/wc-ribbon-table/dist/wc-ribbon-table/wc-ribbon-table.esm.js"></script>
-<script nomodule="" src="https://unpkg.com/@geneontology/wc-ribbon-table/dist/wc-ribbon-table/wc-ribbon-table.js"></script>
+<script type="module" src="https://unpkg.com/@geneontology/wc-go-autocomplete/dist/wc-go-autocomplete/wc-go-autocomplete.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/@geneontology/wc-go-autocomplete/dist/wc-go-autocomplete/wc-go-autocomplete.js"></script>
 
 
 
@@ -105,16 +103,6 @@ permalink: /ribbon.html
         <p>
         The GO Ribbon provides a visual summary of gene functions and a quick way to browse the GO annotations for a gene or gene set. 
         </p>
-        <!-- 
-        <h2>A visual summary of gene functions</h2>
-
-        <p>
-        The GO Ribbon is a graphical tool to quickly browse the GO annotations for a gene or a gene set.
-        </p>
-
-        <p>
-        It provides a visual summary of the functions of a gene (resp. gene sets) by grouping the GO annotations with high level terms (see <a href="/docs/go-subset-guide/">slims/subsets</a>). For each high level term, the color gradient from white <span class="cell">&nbsp;</span> to deep blue <span class="cell" style="background-color: rgb(8, 22, 106)">&nbsp;</span> informs on the volume of annotations.
-        </p> -->
 
         <p>
         To further investigate the GO annotations grouped under a high level term, click on the colored cells for your gene of interest.
@@ -126,28 +114,41 @@ permalink: /ribbon.html
 
         <hr>
         
-        <div>
-            <div style="width:200px; display: inline-block">
-                <textarea id="ribbon-sandbox-input" rows="4" name="input" placeholder="Enter gene IDs (eg HGNC:11998, MGI:1099800...)" style="width:200px; resize: none; margin-bottom: 5px; font-size: 14px; display: block"></textarea>
-                <div class="input-group-btn" style="display: inline-block; position: absolute">
-                    <button type="button" class="btn btn-primary u-no-transform u-anim-zoom-in" style="background-color: #3F51B5; border-color: black; margin-left: 0px; display: inline-block" onclick="getExample()" title="Cycle through different Gene Set examples">
+        <div style="margin-bottom: 10rem; border: 1px solid black; border-radius: 25px;">
+
+            <div style="margin-left: 2rem; display: inline-block; vertical-align: top">
+                <strong>Search and add gene to the GO ribbon:</strong><br><small>(can use gene symbol or model organism ID such as RGD:3889)</small><br>
+                <wc-go-autocomplete id="ac"></wc-go-autocomplete>            
+            </div>
+
+            <div style="margin: 6rem 3rem; display: inline-block; vertical-align: top;"><strong> OR </strong></div>
+
+            <div style="display: inline-block">
+                <strong>Load GO ribbon with multiple genes:</strong><br><small>(requires model organism IDs such as RGD:3889, MGI:1099800, HGNC:11998)</small><br>
+                <textarea id="ribbon-sandbox-input" rows="4" name="input" placeholder="Enter gene IDs (eg HGNC:11998, MGI:1099800...)" style="width:320px; resize: none; margin-bottom: 5px; font-size: 14px; display: inline-block"></textarea>
+                <div class="input-group-btn" style="display: inline-block; position: absolute; padding-left: 1rem;">
+                    <button type="button" class="btn btn-primary u-no-transform u-anim-zoom-in" style="background-color: #3F51B5; border-color: black; margin-bottom: 1rem; display: block" onclick="getExample()" title="Cycle through different Gene Set examples">
                         Examples
                     </button>
-                    <button type="button" class="btn btn-primary u-no-transform u-anim-move-right" style="background-color: #3F51B5; border-color: black; margin-left: 4px; display: inline-block" onclick="view()" title="View GO Ribbon for above gene set">
+                    <button type="button" class="btn btn-primary u-no-transform u-anim-move-right" style="background-color: #3F51B5; border-color: black; display: block" onclick="view()" title="View GO Ribbon for above gene set">
                         View <i class="fa fa-chevron-right u-line-height-single"></i>
                     </button>
                 </div>
             </div>
 
-            <div style="margin-left: 10px; border: 1px solid black; display: inline-block; vertical-align: top">
-                Control Panel
+            <div style="margin: 6rem 3rem; display: inline-block; vertical-align: top;">  </div>
 
+            <div style="display: inline-block; vertical-align: top;">
+                    <strong>Remove all genes from GO ribbon:</strong><br>
+                <button onclick="document.getElementById('ribbon').subjects=''" style="background-color: #3F51B5; border-color: black; padding: 10px; border-radius: 0px 0px calc(8px + 1.5vw) 0px;" class="btn btn-primary u-no-transform u-anim-move-right">Clear GO ribbon</button>
             </div>
+            
         </div>
 
-        <div id="ribbon-strips" style="width: 1500px; margin-top: 100px"></div>
-        <br>
-        <div id="ribbon-table" style="width: 1500px;"></div>        
+
+
+        <!-- Ribbon itself -->
+        <wc-go-ribbon id="ribbon" subjects="RGD:620474,RGD:3889"></wc-go-ribbon>
 
 
         <h2 style="margin-top:50px">Additional Notes</h2>
@@ -158,4 +159,6 @@ permalink: /ribbon.html
         </ul>
 
     </div>
+
+    <br><br><br>
 </div>
