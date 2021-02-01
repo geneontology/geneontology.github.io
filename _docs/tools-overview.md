@@ -47,7 +47,7 @@ Many genes have large numbers of annotations, making it difficult to get a quick
 
 Interested to learn more about the GO Ribbon ? [Check the GO Ribbon documentation](/docs/ribbon.html)
 
-Want to try it now with your genes ? [Use the GO Ribbon sandbox](/ribbon-sandbox)
+Want to try it now with your genes ? [Use the GO Ribbon sandbox](/ribbon.html)
 
 The GO Ribbon is also integrated in the [Alliance of Genome Resources](https://www.alliancegenome.org/gene/RGD:620474#function---go-annotations){:target="blank"} and work is underway for further integration in several projects.
 
