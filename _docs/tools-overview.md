@@ -45,7 +45,11 @@ Many genes have large numbers of annotations, making it difficult to get a quick
  
 ![GO Ribbon example of SOX9](/assets/Ribbon-sox9-example.jpg)
 
-The GO Ribbon is currently integrated in the [Alliance of Genome Resources](https://www.alliancegenome.org/gene/RGD:620474#function---go-annotations){:target="blank"} and work is underway for further integration in several projects.
+Interested to learn more about the GO Ribbon ? [Check the GO Ribbon documentation](/docs/ribbon.html)
+
+Want to try it now with your genes ? [Use the GO Ribbon sandbox](/ribbon-sandbox)
+
+The GO Ribbon is also integrated in the [Alliance of Genome Resources](https://www.alliancegenome.org/gene/RGD:620474#function---go-annotations){:target="blank"} and work is underway for further integration in several projects.
 
 ---
 
