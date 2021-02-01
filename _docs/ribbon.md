@@ -110,7 +110,7 @@ The data provided to the ribbon has to follow a certain JSON schema and a basic 
 
 ## Under the hood
 
-The full GO Ribbon web component is available on [ [GitHub](https://github.com/geneontology/wc-ribbon/tree/master/wc-go-ribbon){:target="blank"} ] and [ [NPM](#) ]. It includes all the components needed to display and interact the ribbon strips and table and is pre-configured to fetch data from the GO API. This version can easily be integrated in any website or framework and additional information are available on GitHub.
+The full GO Ribbon web component is available on [ [GitHub](https://github.com/geneontology/wc-ribbon/tree/master/wc-go-ribbon){:target="blank"} ] and [ [NPM](https://www.npmjs.com/package/@geneontology/wc-go-ribbon){:target="blank"} ]. It includes all the components needed to display and interact the ribbon strips and table and is pre-configured to fetch data from the GO API. This version can easily be integrated in any website or framework and additional information are available on GitHub.
 
 Subparts of the ribbon can also be integrated independently:
 * Ribbon strips: [ [GitHub](https://github.com/geneontology/wc-ribbon/tree/master/wc-ribbon-strips){:target="blank"} ] [ [NPM](https://www.npmjs.com/package/wc-ribbon-strips){:target="blank"} ]: the top part containing the high level term labels as well as the colored cells representing the annotation volume of the genes of interest
