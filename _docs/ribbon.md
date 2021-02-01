@@ -12,7 +12,7 @@ permalink: /docs/ribbon
 
 # Gene Ontology Ribbon
 
-> Want to try it now with your genes ? [Use the GO Ribbon sandbox](/ribbon-sandbox.html).
+> Want to try it now with your genes ? [Use the GO Ribbon sandbox](/ribbon.html).
 
 ---
 
