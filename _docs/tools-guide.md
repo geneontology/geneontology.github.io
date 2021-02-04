@@ -55,7 +55,16 @@ http://api.geneontology.org/api/bioentity/function/GO:0006915?start=0&rows=2
 
 ---
 
-## Query GO Causal Activity Models (Experimental)
+## Query GO Causal Activity Models (SPARQL endpoint)
+
+GO provides a SPARQL endpoint to query both the GO ontology and GO-CAMs. Please refer to the [RDF/SPARQL documentation](/docs/sparql) to learn about the how GO-CAMs are represented in RDF and queries through SPARQL. 
+
+Already a GO-CAM/SPARQL expert ? [ [Access GO SPARQL endpoint](http://sparql.geneontology.org/){:target="blank"} ]
+
+
+---
+
+## Query GO Causal Activity Models (REST API, Experimental)
 
 GO also provides an [API](https://api.geneontology.cloud/models){:target="blank"} to query data about GO-CAMs as well as a [swagger documentation](https://app.swaggerhub.com/apis-docs/geneontology/gosparql){:target="blank"} to familiarize with the routes and parameters. The API is used to power the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site.
 
