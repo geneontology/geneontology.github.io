@@ -29,7 +29,7 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
 ## Mappings file directory
 
-Direct access to the mappings file directory is available here: [http://current.geneontology.org/ontology/external2go/](http://current.geneontology.org/ontology/external2go/).
+Direct access to the mappings file directory is available here: [http://current.geneontology.org/ontology/external2go/](http://current.geneontology.org/ontology/external2go/). Additional meta data about those external databases, prefixes and URLs can be retrieved from the GO dbxrefs available as both [ [JSON](http://current.geneontology.org/metadata/db-xrefs.json){:target="blank"} ] and [ [YAML](http://current.geneontology.org/metadata/db-xrefs.yaml){:target="blank"} ] files.
 
 ## Cross-references maintained by the GO Consortium
 

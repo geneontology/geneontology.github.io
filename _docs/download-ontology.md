@@ -74,7 +74,9 @@ For internal checking purposes, GO maintains two "anti-slims", terms to which an
 
 ## Cross-references of GO to other classification systems
 
-Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [cross-references of external classification systems to GO page](/docs/download-mappings/) contains more information and links to the cross-reference2GO files.
+Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [cross-references of external classification systems to GO page](/docs/download-mappings/) contains more information and links to the cross-reference2GO files. 
+
+Direct access to the mappings file directory is available here: http://current.geneontology.org/ontology/external2go/. Additional meta data about those external databases, prefixes and URLs can be retrieved from the GO dbxrefs available as both [ [JSON](http://current.geneontology.org/metadata/db-xrefs.json){:target="blank"} ] and [ [YAML](http://current.geneontology.org/metadata/db-xrefs.yaml){:target="blank"} ] files.
 
 ## Snapshot Editions
 
