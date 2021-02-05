@@ -1,6 +1,6 @@
 ---
 title: GO, RDF/OWL and SPARQL
-permalink: /docs/sparql/
+permalink: /docs/sparql
 ---
 
 
