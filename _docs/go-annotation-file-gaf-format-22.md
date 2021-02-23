@@ -269,9 +269,11 @@ Contains cross references to other ontologies that can be used to qualify or enh
 
 Targets of certain processes or functions can also be included in this field to indicate the gene, gene product, or chemical involved; for example, if a gene product is annotated to protein kinase activity, the annotation extension column would contain the UniProtKB protein ID for the protein phosphorylated in the reaction.
 
+The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **With/From** field.
+
 See the documentation on using the **Annotation Extension** column for details of practical usage; a wider discussion of the annotation extension column can be found on the <a href="http://wiki.geneontology.org/index.php/Annotation_Extension">GO internal documentation site</a>.
 
-    This field is optional, cardinality 0 or greater.
+    This field is optional, cardinality 0, 1, >1; for cardinality >1 use a pipe or comma to separate entries depending on the data.
 
 
 #### Gene Product Form ID (column 17)
