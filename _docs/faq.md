@@ -1248,20 +1248,6 @@ The native representation for GO-CAMs is the Web Ontology Language
 Downloads can be found on the [GO-CAM site](http://geneontology.org/cam).
 
 ---------------------------------------------------------------------------
-## Why won't the RDF-XML file parse using RDF parsers? 
-{::comment}
-
-<span class="rdf-meta element-hidden" property="dc:title" content="Why won't the RDF-XML file parse using RDF parsers?"></span>
-FAQ tags: 
-
-[format](/faq-tags/format)
-
-[software](/faq-tags/software)
-{:/comment}
-
-The GO RDF-XML format was originally developed some time ago, before the advent of OWL. It has a few unusual features that render it more of a pseudo-rdf format. The actual RDF is embedded within a xml element - this should be stripped out before handing to RDF parsers. Note that the GO RDF-XML conforms to a DTD, something that is not normally a requirement of RDF. This is because most people parse the file using conventional XML parsers rather than XML tools. We are working on a more up to date RDF representation of GO.
-
----------------------------------------------------------------------------
 ## What is an OWL file?
 {::comment}
 
@@ -1319,6 +1305,40 @@ FAQ tags: 
 As of August 1, 2009, the original GO flat file format was deprecated and is no longer be provided by the GO Consortium.
 
 The OBO-Edit project, which used to generate the flat file format, [has been *mothballed*](http://oboedit.org/){:target="blank"}.
+
+---------------------------------------------------------------------------
+## Why am I having issues accessing the FTP/CVS/SVN service? Where is go_daily-termdb.rdf-xml? I can't find a file we've been downloading for years...
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="Why am I having issues accessing the FTP/CVS/SVN service? Where is go_daily-termdb.rdf-xml? I can't find a file we've been downloading for years..."></span>
+FAQ tags: 
+
+[general](/faq-tags/general)
+
+[format](/faq-tags/format)
+
+{:/comment}
+
+In early 2021, we suspended a few of our long running legacy services.  These include:
+
+* FTP
+* SVN
+* CVS
+* ext.geneontology.org
+* viewvc.geneontology.org
+* archive.geneontology.org (now redirects to release.geneontology.org)
+
+These have been replaced with GitHub, release.geneontology.org, and other services. Some files, including go_daily-termdb.rdf-xml, were already several years out-of-date and while the new data pipeline produces the data in that file, it is in a different format. 
+
+For current download information, please see:
+
+ * http://geneontology.org/docs/download-ontology/
+ * http://geneontology.org/docs/download-go-annotations/
+ 
+ Please [contact us](https://help.geneontology.org/) if you cannot locate what you were looking for. 
+
+
+If you are here because your file or source is no longer available, we invite you to follow us on [Twitter (@news4go)](https://twitter.com/news4go), [Facebook (/geneontology)](www.facebook.com/geneontology), [GitHub go-announcements repo](https://github.com/geneontology/go-announcements/issues) or join our [go-friends email list](https://help.geneontology.org/) to stay current with significant changes to the GO Resource.
 
 ---------------------------------------------------------------------------
 # Database Access
