@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
+gem "webrick"
 gem "jekyll", "3.4.3"
 
 # to use GitHub Pages

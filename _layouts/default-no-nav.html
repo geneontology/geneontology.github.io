@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Google Analytics: Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-440742-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-440742-2');
+</script>
+
+{% include head.html %}
+
+<!-- Workaround for some CSS issues with YasGui and current CSS -->
+<head>
+    <style>
+        body {
+            padding-top: 0px;
+        }
+
+        .yasgui .tabsList .tab.active a {
+            border-bottom-color: #337ab7 !important;
+            color: #555 !important;
+        }
+
+        .yasgui .tabsList .tab a {
+            font-weight: 600 !important;
+            color: #888 !important;
+            font-size: 15px !important;
+            line-height: 1.5rem !important;
+            font-weight: 500 !important;
+            min-width: 120px !important;
+            padding: 0 24px 0 30px !important;
+            white-space: nowrap !important;
+            overflow: hidden !important;
+        }
+
+        .yasgui .tabsList a {
+            cursor: pointer !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            min-height: 35px !important;
+            border-bottom: 2px solid transparent !important;
+            box-sizing: border-box !important;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include js_files.html %}
+
+</body>
+
+</html>

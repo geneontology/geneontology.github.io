@@ -3,14 +3,14 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    algolia_html_extractor (2.6.2)
+    algolia_html_extractor (2.6.4)
       json (~> 2.0)
-      nokogiri (~> 1.10.4)
-    algoliasearch (1.27.1)
+      nokogiri (~> 1.10)
+    algoliasearch (1.27.5)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     colorator (1.1.0)
-    ffi (1.12.2)
+    ffi (1.15.0)
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     httpclient (2.8.3)
@@ -36,7 +36,7 @@ GEM
       verbal_expressions (~> 0.1.5)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
-    jekyll-redirect-from (0.15.0)
+    jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -46,21 +46,23 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
-    json (2.3.0)
+    json (2.5.1)
     kramdown (1.17.0)
     liquid (3.0.6)
-    listen (3.2.1)
+    listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    mini_portile2 (2.5.1)
+    nokogiri (1.11.3)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    progressbar (1.10.1)
-    public_suffix (4.0.3)
-    rb-fsevent (0.10.3)
+    progressbar (1.11.0)
+    public_suffix (4.0.6)
+    racc (1.5.2)
+    rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rouge (1.11.1)
@@ -71,6 +73,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     verbal_expressions (0.1.5)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -83,9 +86,10 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo-data
+  webrick
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.7.2p137
 
 BUNDLED WITH
    2.2.3
