@@ -14,16 +14,16 @@ GEM
     filesize (0.2.0)
     forwardable-extended (2.6.0)
     httpclient (2.8.3)
-    jekyll (3.4.3)
+    jekyll (3.6.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
-      kramdown (~> 1.3)
-      liquid (~> 3.0)
+      kramdown (~> 1.14)
+      liquid (~> 4.0)
       mercenary (~> 0.3.3)
       pathutil (~> 0.9)
-      rouge (~> 1.7)
+      rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
     jekyll-algolia (1.4.11)
       algolia_html_extractor (~> 2.6)
@@ -48,7 +48,7 @@ GEM
       listen (~> 3.0)
     json (2.5.1)
     kramdown (1.17.0)
-    liquid (3.0.6)
+    liquid (4.0.3)
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -65,7 +65,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rouge (1.11.1)
+    rouge (2.2.1)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -79,7 +79,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.4.3)
+  jekyll (= 3.6.3)
   jekyll-algolia (~> 1.0)
   jekyll-feed
   jekyll-redirect-from
