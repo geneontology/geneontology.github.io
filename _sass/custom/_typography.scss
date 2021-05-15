@@ -37,14 +37,14 @@ a {
     text-decoration: none;
 }
 
-a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link) {
+a:not(.btn):not(.yasr_btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link) {
     color: $color-primary;
     text-decoration: none !important;
     display: inline-block;
     position: relative;
 }
 
-a:not(.btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):after {
+a:not(.btn):not(.yasr_btn):not(.list-group-item):not(.dropdown-menu__item__link):not(.go-link):not(.basic-link):after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
