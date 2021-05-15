@@ -263,7 +263,7 @@ Value will differ from column 1 for any annotation that is made by one database 
         Cell Type Ontology:CL_id
         GO:GO_id
 
-Contains cross references to other ontologies that can be used to qualify or enhance the annotation. The cross-reference is prefaced by an appropriate GO relationship; references to multiple ontologies can be entered. For example, if a gene product is localized to the mitochondria of lymphocytes, the **GO ID** (column 5) would be mitochondrion ; GO:0005439, and the annotation extension column would contain a cross-reference to the term lymphocyte from the Cell Type Ontology.
+Contains cross references to other ontologies that can be used to qualify or enhance the annotation. The cross-reference is prefaced by an appropriate GO relationship; references to multiple ontologies can be entered. For example, if a gene product is localized to the mitochondria of lymphocytes, the **GO ID** (column 5) would be mitochondrion ; GO:0005739, and the annotation extension column would contain a cross-reference to the term lymphocyte from the Cell Type Ontology.
 
 Targets of certain processes or functions can also be included in this field to indicate the gene, gene product, or chemical involved; for example, if a gene product is annotated to protein kinase activity, the annotation extension column would contain the UniProtKB protein ID for the protein phosphorylated in the reaction.
 
