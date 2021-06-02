@@ -15,7 +15,7 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 + [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech
 + [Christopher Mungall](http://www.berkeleybop.org/people/chris-mungall){:target="blank"}, Lawrence Berkeley National Laboratory
 + [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"}, Stanford University
-+ [Judith Blake](https://www.jax.org/research-and-faculty/faculty/judith-blake){:target="blank"}, Jackson Laboratory
+
 
 ## Project leads
 + [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Overall Project Management
@@ -29,25 +29,27 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 ## GO Council
 Leaders of key contributing resources.
 - __AspGDB & CGD__
-  - Gavin Sherlock, Stanford University
+  - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/), Stanford University
 - __Complex Portal & IntAct__
   - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute  
 - __Dictybase__
-  - Rex	Chisholm, Northwestern University
+  - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466), Northwestern University
 - __EcoliWiki__
-  - James C. Hu, Texas A&M University
+  - [Deborah Siegele}(https://www.bio.tamu.edu/faculty-page-deborah-siegele/), Texas A&M University
 - __EBI Ontologies team__
   - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
 - __FlyBase__
   - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
 - __Functional Gene Annotation Initiative__
-  - Ruth C.	Lovering, University College London
+  - [Ruth C.	Lovering](https://iris.ucl.ac.uk/iris/browse/profile?upi=RCLOV36), University College London
 - __InterPro__
   - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
+-  __MGI__
+-  [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith), The Jackson Laboratory
 - __PomBase__
   - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
 - __RGD__
-  - Mary Shimoyama, Milwaukee College of Medicine
+  - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd), Milwaukee College of Medicine
 - __Reactome__
   - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
 - __TAIR__
@@ -56,11 +58,12 @@ Leaders of key contributing resources.
   - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
   - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, Swiss Institute of Bioinformatics
 - __ZFIN__
-  - Monte	Westerfield, University of Oregon
+  - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield), University of Oregon
   
 ## Founders
 
 - [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
+- [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"}, Jackson Laboratory
 - [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"}
 
 ## Current GO contributors
