@@ -20,7 +20,7 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 ## Project leads
 + [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Overall Project Management
 + [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"}, Lawrence Berkeley National Laboratory - Architecture
-+ [David Hill](https://www.jax.org/research-and-faculty/faculty/research-scientists/david-hill), Jackson Laboratory - Ontology
++ [David Hill](https://www.jax.org/research-and-faculty/faculty/research-scientists/david-hill){:target="blank"}, Jackson Laboratory - Ontology
 + [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"}, Caltech - Annotation
 + [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetic Annotation
 + [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Bioinformatics Outreach
@@ -45,7 +45,7 @@ Leaders of key contributing resources.
 - __InterPro__
   - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
 -  __MGI__
--  [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
+  - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
 - __PomBase__
   - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
 - __RGD__
