@@ -20,45 +20,45 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 ## Project leads
 + [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Overall Project Management
 + [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"}, Lawrence Berkeley National Laboratory - Architecture
-+ David Hill, Jackson Laboratory - Ontology
++ [David Hill](https://www.jax.org/research-and-faculty/faculty/research-scientists/david-hill), Jackson Laboratory - Ontology
 + [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"}, Caltech - Annotation
 + [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetic Annotation
 + [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Bioinformatics Outreach
-+ Suzi Aleksander, Stanford University - User Support
++ [Suzi Aleksander](https://cherrylab.stanford.edu/people/suzi-aleksander){:target="blank"}, Stanford University - User Support
 
 ## GO Council
 Leaders of key contributing resources.
 - __AspGDB & CGD__
-  - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/), Stanford University
+  - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University
 - __Complex Portal & IntAct__
   - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute  
 - __Dictybase__
-  - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466), Northwestern University
+  - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466){:target="blank"}, Northwestern University
 - __EcoliWiki__
-  - [Deborah Siegele}(https://www.bio.tamu.edu/faculty-page-deborah-siegele/), Texas A&M University
+  - [Deborah Siegele](https://www.bio.tamu.edu/faculty-page-deborah-siegele/){:target="blank"}, Texas A&M University
 - __EBI Ontologies team__
   - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
 - __FlyBase__
   - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
 - __Functional Gene Annotation Initiative__
-  - [Ruth C.	Lovering](https://iris.ucl.ac.uk/iris/browse/profile?upi=RCLOV36), University College London
+  - [Ruth C.	Lovering](https://iris.ucl.ac.uk/iris/browse/profile?upi=RCLOV36){:target="blank"}, University College London
 - __InterPro__
   - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
 -  __MGI__
--  [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith), The Jackson Laboratory
+-  [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
 - __PomBase__
   - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
 - __RGD__
-  - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd), Milwaukee College of Medicine
+  - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd){:target="blank"}, Milwaukee College of Medicine
 - __Reactome__
   - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
 - __TAIR__
-  - Eva Huala, Phoenix Bioinformatics
+  - [Eva Huala](https://orcid.org/0000-0003-4631-7241){:target="blank"}, Phoenix Bioinformatics
 - __UniProt__
   - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
   - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, Swiss Institute of Bioinformatics
 - __ZFIN__
-  - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield), University of Oregon
+  - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield){:target="blank"}, University of Oregon
   
 ## Founders
 
