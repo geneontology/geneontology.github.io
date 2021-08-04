@@ -13,9 +13,10 @@ GAF files by species can be found at [GAF download page](http://current.geneonto
 
 GAF, GPAD and GPI files are also available from the [/annotations/](http://current.geneontology.org/annotations/index.html){:target="blank"} directory of the current release: [http://current.geneontology.org](http://current.geneontology.org){:target="blank"}
 
+Downloading annotations by specific taxon is possible through [AmiGO](http://amigo.geneontology.org/amigo/search/annotation)
+
 ## Annotation files: General information
 + Released monthly
-+ Taxon-specific, although some files contain multiple taxons
 + File format guides:
   + [GAF](/docs/go-annotation-file-gaf-format-2.1/): GO Annotation Files are tab-delimited text files that are human-friendly (in addition to machine-readable)
   + [GPAD](/docs/gene-product-association-data-gpad-format/) + [GPI](/docs/gene-product-information-gpi-format/) companion files: Gene Product Association Data (GPAD) files are intended to work in conjunction with a Gene Product Information (GPI) file
