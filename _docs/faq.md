@@ -1328,7 +1328,7 @@ In early 2021, we suspended a few of our long running legacy services.  These in
 * viewvc.geneontology.org
 * archive.geneontology.org (now redirects to release.geneontology.org)
 
-These have been replaced with GitHub, release.geneontology.org, and other services. Some files, including go_daily-termdb.rdf-xml, were already several years out-of-date and while the new data pipeline produces the data in that file, it is in a different format. 
+These have been replaced with GitHub, release.geneontology.org, and other services. Some files, including go_daily-termdb.rdf-xml and go_monthly-termdb.rdf-xml, were already several years out-of-date. While the new data pipeline produces the data in those files, it is in a different format. 
 
 For current download information, please see:
 
