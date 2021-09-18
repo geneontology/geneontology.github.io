@@ -23,7 +23,6 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 + [David Hill](https://www.jax.org/research-and-faculty/faculty/research-scientists/david-hill){:target="blank"}, The Jackson Laboratory - GO-CAM modeling
 + [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"}, Caltech - Annotation
 + [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetic Annotation
-+ [Laurent-Philippe Albou](https://orcid.org/0000-0001-5801-1974){:target="blank"}, University of Southern California - Bioinformatics Outreach
 + [Suzi Aleksander](https://cherrylab.stanford.edu/people/suzi-aleksander){:target="blank"}, Stanford University - User Support
 
 ## GO Council
@@ -75,43 +74,44 @@ Leaders of key contributing resources.
 | Elizabeth R	Bolton | C.	Bonilla | Emmanuel	Boutet | Yvonne	Bradford | Lionel	Breuza |
 | R.	Britto | Cristina	Casals | Juancarlos	Chan | H.Y.	Chang | J.	Cho |
 | Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani | Elisabeth	Coudert | N.	Del-Toro |
-| J.	DePons | Alex	Diehl | Robert J.	Dodson | Mary E.	Dolan | Eric	Douglass |
-| Harold	Drabkin | Paula	Duek-Roggli | Corina	Duenas | M.J.	Duesbury | Nathan	Dunn |
+| J.	DePons | Alex	Diehl | Robert J.	Dodson | Mary E.	Dolan |
+| Harold	Drabkin | Paula	Duek-Roggli | Corina	Duenas | M.J.	Duesbury |
 | M.R.	Dwinell | Anne	Eagle | Dustin	Ebert | David B.	Emmert | Anne	Estreicher |
 | Antonio	Fabregat | Kathleen	Falls | Livia	Famiglietti | Marc	Feuermann | S.	Fexova |
-| Petra	Fey | Sibyl	Gao | P.	Garapati | Penelope	Garmiri | Michelle	Giglio |
-| Felix	Gondwe | Benjamin	Good | Arnaud	Gos | C.	Grove | Nadine	Gruaz-Gumowski |
-| Midori	Harris | Nomi L.	Harris | M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis |
-| G.T.	Hayman | Ursula	Hinz | A.	Holmes | Doug	Howe | Xiaosong	Huang |
-| Chantal	Hulo | H.	Hye-A-Bye | Alexandr 	Ignatchenko | T.E.M.	Jones | Florence	Jungo |
-| Kalpana	Karra | Ingrid	Keseler | M.	Koch | Kati	Laiho | Stanley J.F	Laulederkind |
-| Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | Antonia	Lock | A.	MacDougall |
-| Michele	Magrane | Patrick	Masson | Lisa	Matthews | Bruce	May | Birgit H.M. Meldal |
-| J.	Mendel | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato | Hans-Michael	Muller |
-| Anushya	Muruganujan | T.	Mushayahama | S.	Nadendla | Rob	Nash | Darren A.	Natale |
-| Li	Ni | Stephen G.	Oliver | Ivo	Pedruzzi | Livia	Perfetto | Christian	Pich |
-| Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel | D.	Raciti |
-| N.D.	Rawlings | Leonore	Reiser | Alix J.	Rey | Lorna	Richardson | Catherine	Rivoire |
-| Kim	Rutherford | A.	Sangrador-Vegas |  Kevin	Schaper | T.K.	Sheppard  | Deborah A.	Siegele |
-| Matt	Simison | Dmitry	Sitnikov | Marek S.	Skrzypek | E.	Speretta | S.	Subramaniam |
-| S.	Sundaram | R.	Tauber | Sabrina	Toro | V.	Trovisco | M.	Tutaj |
-| N.	Tyagi | S.J.	Wang | K.	Warner | Shuai	Weng | Edith D.	Wong |
-| Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru | P.	Zhou |
+| Petra	Fey | Sibyl	Gao | P.	Garapati | Michelle	Giglio | Benjamin	Good | 
+| Arnaud	Gos | C.	Grove | Nadine	Gruaz-Gumowski | Midori	Harris | Nomi L.	Harris |
+| M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis | G.T.	Hayman | Ursula	Hinz |
+| A.	Holmes | Doug	Howe | Xiaosong	Huang | Chantal	Hulo | H.	Hye-A-Bye |
+| Alexandr 	Ignatchenko | T.E.M.	Jones | Florence	Jungo | Kalpana	Karra | Ingrid	Keseler |
+| M.	Koch | Kati	Laiho | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier |
+| Damien	Lieberherr | Antonia	Lock | A.	MacDougall | Michele	Magrane | Patrick	Masson |
+| Lisa	Matthews | Bruce	May | Birgit H.M. Meldal | J.	Mendel | Gillian H.	Millburn |
+| Alexander L.	Mitchell | Stuart R.	Miyasato | Hans-Michael	Muller | Anushya	Muruganujan | T.	Mushayahama |
+| S.	Nadendla | Rob	Nash | Darren A.	Natale | Li	Ni | Stephen G.	Oliver |
+| Ivo	Pedruzzi | Livia	Perfetto | Christian	Pich | Klemens	Pichler | D.	Poggioli |
+| Pablo	Porras | S.	Poudel | D.	Raciti | N.D.	Rawlings | Leonore	Reiser |
+| Alix J.	Rey | Lorna	Richardson | Catherine	Rivoire | Kim	Rutherford | A.	Sangrador-Vegas |
+| Kevin	Schaper | Deborah A.	Siegele | Matt	Simison | Dmitry	Sitnikov | Marek S.	Skrzypek |
+| E.	Speretta | S.	Subramaniam | S.	Sundaram | R.	Tauber | V.	Trovisco |
+| M.	Tutaj | N.	Tyagi | S.J.	Wang | K.	Warner | Shuai	Weng |
+| Edith D.	Wong | Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru |
+| P.	Zhou |
 
 ## GO contributors *emeriti*
 
 | --- | --- | --- | --- |
-| Vanessa	Acquaah | Debbie Alexander | Hadil Alrohaif| Igor	Antoshechkin | J.	Argasinska |
-| Rama	Balakrishnan | Carol	Bastiani |  Gail	Binkley | Lydie	Bougueleret | S.	Bromberg |
-|	Stephanie	Bunt |	Heather	Butler | Jessica	Buxton |	Evelyn	Camon | Nancy H. Campbell |
-|	Michael	Caudy |	C.F.	Chen | Hao Chen |	Russell	Collins |	Tom	Conlin |
-|	Maria	Costanzo | Melanie	Courtot |	David	Croft |	Isabelle	Cusin |	John	Day-Richter |
-|	Bernard	deBono | Aubrey	de Grey |	N.	delaCruz |	Janos	Demeter | Alex Deng |
-|	Paul	Denny |	Heiko	Dietze |	Kara	Dolinski |	James	Done |	Qing	Dong |
-| Aisling	Doyle |	Kate	Dreher | Rachel	Drysdale | Barbara.L.	Dunn |	Selina	Dwight |
-|	Ruihua	Fang |	David	Fashena |	Helen	Field |	Dianna	Fisk |	Hartmut	Foerster |
-|	C.	Foote |	Rebecca	Foulger |	M.	Fraser | P. Gane |	Phani	Garapati |
-|	Margarita	Garcia-Hernandez |	William	Gelbart | George	Georghiou |	Marc	Gillespie |	Gopal	Gopinath |
+| Vanessa	Acquaah | Laurent-Philippe Albou | Debbie Alexander | Hadil Alrohaif | Igor	Antoshechkin |
+| J.	Argasinska | Rama	Balakrishnan | Carol	Bastiani |  Gail	Binkley | Lydie	Bougueleret |
+| S.	Bromberg |	Stephanie	Bunt |	Heather	Butler | Jessica	Buxton |	Evelyn	Camon |
+| Nancy H. Campbell |	Michael	Caudy |	C.F.	Chen | Hao Chen |	Russell	Collins |
+|	Tom	Conlin |	Maria	Costanzo | Melanie	Courtot |	David	Croft |	Isabelle	Cusin |
+|	John	Day-Richter |	Bernard	deBono | Aubrey	de Grey |	N.	delaCruz |	Janos	Demeter |
+| Alex Deng |	Paul	Denny |	Heiko	Dietze |	Kara	Dolinski |	James	Done |
+|	Qing	Dong | Eric	Douglass | Aisling	Doyle |	Kate	Dreher | Rachel	Drysdale |
+| Barbara L.	Dunn | Nathan	Dunn |	Selina	Dwight |	Ruihua	Fang |	David	Fashena |
+| Helen	Field |	Dianna	Fisk |	Hartmut	Foerster |	C.	Foote |	Rebecca	Foulger |
+|	M.	Fraser | P. Gane |	Phani	Garapati |	Margarita	Garcia-Hernandez | Penelope	Garmiri |
+|	William	Gelbart | George	Georghiou |	Marc	Gillespie | Felix	Gondwe |	Gopal	Gopinath |
 |	G.	Gopinatu | Heather Gunn |	Melissa	Haendel |	G.	Harris |	Kerstin	Hausmann |
 |	Robin	Haw |	Jill	Hemish |	Henning	Hermjakob |	B.	Hickman |	Jodi	Hirschman |
 |	Ben	Hitz |	Eurie	Hong | A.	Hughes | Rachael P. Huntley |	Katica	Ilic |
@@ -136,12 +136,12 @@ Leaders of key contributing resources.
 | Anthony	Rogers | Karen	Rothfels | Greg Rowe |	Barbara	Ruef |	V.	Ruotti |
 |	Leyla	Ruzicka | Tony	Sawford |	Kevin	Schaper |	Carl	Schmidt |	Esther	Schmidt |
 |	Michel	Schneider |	Andy	Schroeder |	Ruth	Seal |	Eric	Segerdell |	K.	Seiler |
-|	Anand	Sethuraman |	Veronica	Shamovsky |	Xiang	Shao |	Gavin	Sherlock |	Solomon	Shorser |
-| Ajay	Shrivatsav VP | Aleksandra	Shypitsyna |	Konstantinos	Sidiropoulos |	Amy	Singer |	Barry	Smith |
-|	J.R.	Smith |	Heeyeon	Song |	Judy	Sprague |	Brock	Sprunger |	Eleanor	Stanley |
-|	Raymond	Stefancsik |	Andre	Stutz | Renzhi Su |	Laurie-Issel	Tarver |	Chandra	Theesfeld |
-| Katherine Thurlow |	Christophe	Tissier |	Michael	Tognolli |	Susan	Tweedie |	Simon	Twigger |
-|	Zara Umrao | Ceri	VanSlyke |	Imre	Vastrik |	Andrey	Vetushko |	W.	Wang |
-|	Marissa	Webber |	Joel	Weiser |	Mark	Williams |	Jim	Withee |	Guanming	Wu |
-|	Ioannis	Xenarios |	Chihiro	Yamada |	Jungwon	Yoon |	S.Y.	Young	Christina	Yung |	Florent	Yvon |
-|	Peifen	Zhang |	Brandon	Zoeckler | |
+|	Anand	Sethuraman |	Veronica	Shamovsky |	Xiang	Shao | T.K.	Sheppard |	Gavin	Sherlock |\
+| Solomon	Shorser | Ajay	Shrivatsav VP | Aleksandra	Shypitsyna |	Konstantinos	Sidiropoulos |	Amy	Singer |
+|	Barry	Smith |	J.R.	Smith |	Heeyeon	Song |	Judy	Sprague |	Brock	Sprunger |
+|	Eleanor	Stanley |	Raymond	Stefancsik |	Andre	Stutz | Renzhi Su |	Laurie-Issel	Tarver |
+| Chandra	Theesfeld | Katherine Thurlow |	Christophe	Tissier |	Michael	Tognolli | Sabrina	Toro |
+|	Susan	Tweedie |	Simon	Twigger |	Zara Umrao | Ceri	VanSlyke |	Imre	Vastrik |
+|	Andrey	Vetushko |	W.	Wang |	Marissa	Webber |	Joel	Weiser |	Mark	Williams |
+|	Jim	Withee |	Guanming	Wu |	Ioannis	Xenarios |	Chihiro	Yamada |	Jungwon	Yoon |
+|	S.Y.	Young	Christina	Yung |	Florent	Yvon |	Peifen	Zhang |	Brandon	Zoeckler | |
