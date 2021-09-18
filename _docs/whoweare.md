@@ -128,19 +128,19 @@ Leaders of key contributing resources.
 |	Monica C.	Munoz-Torres |	Nelson	Ndegwa |	N.	Nenasheva |	Elizabeth	Nickerson |	R.	Nigam |
 | Patrick C.	Ng |	G.	Nuka |	Claire	O'Donovan |	Gavin	O'Kelly |	Marija	Orlic-Milacic |
 | David	Osumi-Sutherland |	Rose	Oughtred |	Holly	Paddock |	Julie	Park |	D.	Pasko |
-|	Kelley	Paskov | Sejal Patel |	Victoria	Petri |	Karen	Pilcher-Kestin | Sandra M. Pinheiro	Laura	Ponting |
-|	S.	Potter |	Sagar	Poudel |	H.	Ramachandran |	Sridhar	Ramachandran | Fiona Ratnaraj |
-| Jack H. Rawson |	D.S.	Reilly |	Daniel P.	Renfro |	Sue	Rhee |	Joel	Richardson |
-|	Shannon	Roberts |	Milagros	Rodríguez-López |	Tai	Roe |	Bernt	Roechert | Paola	Roncaglia |
-| Anthony	Rogers | Karen	Rothfels | Greg Rowe |	Barbara	Ruef |	V.	Ruotti |
-|	Leyla	Ruzicka | Tony	Sawford |	Kevin	Schaper |	Carl	Schmidt |	Esther	Schmidt |
-|	Michel	Schneider |	Andy	Schroeder |	Ruth	Seal |	Eric	Segerdell |	K.	Seiler |
-|	Anand	Sethuraman |	Veronica	Shamovsky |	Xiang	Shao | T.K.	Sheppard |	Gavin	Sherlock |\
-| Solomon	Shorser | Ajay	Shrivatsav VP | Aleksandra	Shypitsyna |	Konstantinos	Sidiropoulos |	Amy	Singer |
-|	Barry	Smith |	J.R.	Smith |	Heeyeon	Song |	Judy	Sprague |	Brock	Sprunger |
-|	Eleanor	Stanley |	Raymond	Stefancsik |	Andre	Stutz | Renzhi Su |	Laurie-Issel	Tarver |
-| Chandra	Theesfeld | Katherine Thurlow |	Christophe	Tissier |	Michael	Tognolli | Sabrina	Toro |
-|	Susan	Tweedie |	Simon	Twigger |	Zara Umrao | Ceri	VanSlyke |	Imre	Vastrik |
-|	Andrey	Vetushko |	W.	Wang |	Marissa	Webber |	Joel	Weiser |	Mark	Williams |
-|	Jim	Withee |	Guanming	Wu |	Ioannis	Xenarios |	Chihiro	Yamada |	Jungwon	Yoon |
-|	S.Y.	Young	Christina	Yung |	Florent	Yvon |	Peifen	Zhang |	Brandon	Zoeckler | |
+|	Kelley	Paskov | Sejal Patel |	Victoria	Petri |	Karen	Pilcher-Kestin | Sandra M. Pinheiro 
+|	Laura	Ponting |	S.	Potter |	Sagar	Poudel |	H.	Ramachandran |	Sridhar	Ramachandran |
+| Fiona Ratnaraj | Jack H. Rawson |	D.S.	Reilly |	Daniel P.	Renfro |	Sue	Rhee |
+| Joel	Richardson |	Shannon	Roberts |	Milagros	Rodríguez-López |	Tai	Roe |	Bernt	Roechert |
+| Paola	Roncaglia | Anthony	Rogers | Karen	Rothfels | Greg Rowe |	Barbara	Ruef |
+| V.	Ruotti |	Leyla	Ruzicka | Tony	Sawford |	Kevin	Schaper |	Carl	Schmidt |
+| Esther	Schmidt | Michel	Schneider |	Andy	Schroeder |	Ruth	Seal |	Eric	Segerdell |
+|	K.	Seiler |	Anand	Sethuraman |	Veronica	Shamovsky |	Xiang	Shao | T.K.	Sheppard |
+| Gavin	Sherlock | Solomon	Shorser | Ajay	Shrivatsav VP | Aleksandra	Shypitsyna |	Konstantinos	Sidiropoulos |
+| Amy	Singer |	Barry	Smith |	J.R.	Smith |	Heeyeon	Song |	Judy	Sprague |
+| Brock	Sprunger |	Eleanor	Stanley |	Raymond	Stefancsik |	Andre	Stutz | Renzhi Su |
+| Laurie-Issel	Tarver | Chandra	Theesfeld | Katherine Thurlow |	Christophe	Tissier |	Michael	Tognolli |
+| Sabrina	Toro |	Susan	Tweedie |	Simon	Twigger |	Zara Umrao | Ceri	VanSlyke |
+| Imre	Vastrik |	Andrey	Vetushko |	W.	Wang |	Marissa	Webber |	Joel	Weiser |
+| Mark	Williams |	Jim	Withee |	Guanming	Wu |	Ioannis	Xenarios |	Chihiro	Yamada |
+| Jungwon	Yoon |	S.Y.	Young	Christina	Yung |	Florent	Yvon |	Peifen	Zhang |	Brandon	Zoeckler |
