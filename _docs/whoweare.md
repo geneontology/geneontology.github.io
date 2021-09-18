@@ -143,4 +143,5 @@ Leaders of key contributing resources.
 | Sabrina	Toro |	Susan	Tweedie |	Simon	Twigger |	Zara Umrao | Ceri	VanSlyke |
 | Imre	Vastrik |	Andrey	Vetushko |	W.	Wang |	Marissa	Webber |	Joel	Weiser |
 | Mark	Williams |	Jim	Withee |	Guanming	Wu |	Ioannis	Xenarios |	Chihiro	Yamada |
-| Jungwon	Yoon |	S.Y.	Young	Christina	Yung |	Florent	Yvon |	Peifen	Zhang |	Brandon	Zoeckler |
+| Jungwon	Yoon |	S.Y.	Young	| Christina	Yung |	Florent	Yvon |	Peifen	Zhang |
+| Brandon	Zoeckler |
