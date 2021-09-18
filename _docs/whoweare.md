@@ -74,28 +74,27 @@ Leaders of key contributing resources.
 | Elizabeth R	Bolton | C.	Bonilla | Emmanuel	Boutet | Yvonne	Bradford | Lionel	Breuza |
 | R.	Britto | Cristina	Casals | Juancarlos	Chan | H.Y.	Chang | J.	Cho |
 | Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani | Elisabeth	Coudert | N.	Del-Toro |
-| J.	DePons | Alex	Diehl | Robert J.	Dodson | Mary E.	Dolan |
-| Harold	Drabkin | Paula	Duek-Roggli | Corina	Duenas | M.J.	Duesbury |
-| M.R.	Dwinell | Anne	Eagle | Dustin	Ebert | David B.	Emmert | Anne	Estreicher |
-| Antonio	Fabregat | Kathleen	Falls | Livia	Famiglietti | Marc	Feuermann | S.	Fexova |
-| Petra	Fey | Sibyl	Gao | P.	Garapati | Michelle	Giglio | Benjamin	Good | 
-| Arnaud	Gos | C.	Grove | Nadine	Gruaz-Gumowski | Midori	Harris | Nomi L.	Harris |
-| M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis | G.T.	Hayman | Ursula	Hinz |
-| A.	Holmes | Doug	Howe | Xiaosong	Huang | Chantal	Hulo | H.	Hye-A-Bye |
-| Alexandr 	Ignatchenko | T.E.M.	Jones | Florence	Jungo | Kalpana	Karra | Ingrid	Keseler |
-| M.	Koch | Kati	Laiho | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier |
-| Damien	Lieberherr | Antonia	Lock | A.	MacDougall | Michele	Magrane | Patrick	Masson |
-| Lisa	Matthews | Bruce	May | Birgit H.M. Meldal | J.	Mendel | Gillian H.	Millburn |
-| Alexander L.	Mitchell | Stuart R.	Miyasato | Hans-Michael	Muller | Anushya	Muruganujan | T.	Mushayahama |
-| S.	Nadendla | Rob	Nash | Darren A.	Natale | Li	Ni | Stephen G.	Oliver |
-| Ivo	Pedruzzi | Livia	Perfetto | Christian	Pich | Klemens	Pichler | D.	Poggioli |
-| Pablo	Porras | S.	Poudel | D.	Raciti | N.D.	Rawlings | Leonore	Reiser |
-| Alix J.	Rey | Lorna	Richardson | Catherine	Rivoire | Kim	Rutherford | A.	Sangrador-Vegas |
-| Kevin	Schaper | Deborah A.	Siegele | Matt	Simison | Dmitry	Sitnikov | Marek S.	Skrzypek |
-| E.	Speretta | S.	Subramaniam | S.	Sundaram | R.	Tauber | V.	Trovisco |
-| M.	Tutaj | N.	Tyagi | S.J.	Wang | K.	Warner | Shuai	Weng |
-| Edith D.	Wong | Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru |
-| P.	Zhou |
+| J.	DePons | Alex	Diehl | Robert J.	Dodson | Mary E.	Dolan | Harold	Drabkin |
+| Paula	Duek-Roggli | Corina	Duenas | M.J.	Duesbury | M.R.	Dwinell | Anne	Eagle |
+| Dustin	Ebert | David B.	Emmert | Anne	Estreicher | Antonio	Fabregat | Kathleen	Falls |
+| Livia	Famiglietti | Marc	Feuermann | S.	Fexova | Petra	Fey | Sibyl	Gao |
+| P.	Garapati | Michelle	Giglio | Benjamin	Good |  Arnaud	Gos | C.	Grove |
+| Nadine	Gruaz-Gumowski | Midori	Harris | Nomi L.	Harris | M.C.	Harrison | E.	Hartline |
+| E.	Hatton-Ellis | G.T.	Hayman | Ursula	Hinz | A.	Holmes | Doug	Howe |
+| Xiaosong	Huang | Chantal	Hulo | H.	Hye-A-Bye | Alexandr 	Ignatchenko | T.E.M.	Jones |
+| Florence	Jungo | Kalpana	Karra | Ingrid	Keseler | M.	Koch | Kati	Laiho |
+| Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | Antonia	Lock |
+| A.	MacDougall | Michele	Magrane | Patrick	Masson | Lisa	Matthews | Bruce	May |
+| Birgit H.M. Meldal | J.	Mendel | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato |
+| Hans-Michael	Muller | Anushya	Muruganujan | T.	Mushayahama | S.	Nadendla | Rob	Nash |
+| Darren A.	Natale | Li	Ni | Stephen G.	Oliver | Ivo	Pedruzzi | Livia	Perfetto |
+| Christian	Pich | Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel |
+| D.	Raciti | N.D.	Rawlings | Leonore	Reiser | Alix J.	Rey | Lorna	Richardson |
+| Catherine	Rivoire | Kim	Rutherford | A.	Sangrador-Vegas | Kevin	Schaper | Deborah A.	Siegele |
+| Matt	Simison | Dmitry	Sitnikov | Marek S.	Skrzypek | E.	Speretta | S.	Subramaniam |
+| S.	Sundaram | R.	Tauber | V.	Trovisco | M.	Tutaj | N.	Tyagi |
+| S.J.	Wang | K.	Warner | Shuai	Weng | Edith D.	Wong | Cathy	Wu |
+|	Z.	Xie | L.-S.	Yeh | R.	Zaru | P.	Zhou |
 
 ## GO contributors *emeriti*
 
