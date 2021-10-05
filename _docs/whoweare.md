@@ -62,7 +62,7 @@ Leaders of key contributing resources.
 ## Founders
 
 - [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
-- [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"}, Jackson Laboratory
+- [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"}
 - [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"}
 
 ## Current GO contributors
@@ -72,12 +72,12 @@ Leaders of key contributing resources.
 | Andrea	Auchincloss | Kristian	Axelsen | J.	Bahler | E.	Bakker | Richard	Baldarelli |
 | James P.	Balhoff | Siddhartha	Basu | B.	Bely | Tanya	Berardini | Marie-Claude	Blatter |
 | Elizabeth R	Bolton | C.	Bonilla | Emmanuel	Boutet | Yvonne	Bradford | Lionel	Breuza |
-| R.	Britto | Cristina	Casals | Juancarlos	Chan | H.Y.	Chang | J.	Cho |
-| Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani | Elisabeth	Coudert | N.	Del-Toro |
+| R.	Britto | Cristina	Casals | Juancarlos	Chan | H.Y.	Chang | J. Cho |
+| Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani | Elisabeth	Coudert | N. Del-Toro |
 | J.	DePons | Alex	Diehl | Robert J.	Dodson | Mary E.	Dolan | Harold	Drabkin |
 | Paula	Duek-Roggli | Corina	Duenas | M.J.	Duesbury | M.R.	Dwinell | Anne	Eagle |
-| Dustin	Ebert | David B.	Emmert | Anne	Estreicher | Antonio	Fabregat | Kathleen	Falls |
-| Livia	Famiglietti | Marc	Feuermann | S.	Fexova | Petra	Fey | Sibyl	Gao |
+| Dustin	Ebert | David B. Emmert | Anne	Estreicher | Antonio	Fabregat | Kathleen	Falls |
+| Livia	Famiglietti | Marc Feuermann | S.	Fexova | Petra	Fey | Sibyl	Gao |
 | P.	Garapati | Michelle	Giglio | Benjamin	Good |  Arnaud	Gos | C.	Grove |
 | Nadine	Gruaz-Gumowski | Midori	Harris | Nomi L.	Harris | M.C.	Harrison | E.	Hartline |
 | E.	Hatton-Ellis | G.T.	Hayman | Ursula	Hinz | A.	Holmes | Doug	Howe |
@@ -88,11 +88,11 @@ Leaders of key contributing resources.
 | Birgit H.M. Meldal | J.	Mendel | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato |
 | Hans-Michael	Muller | Anushya	Muruganujan | T.	Mushayahama | S.	Nadendla | Rob	Nash |
 | Darren A.	Natale | Li	Ni | Stephen G.	Oliver | Ivo	Pedruzzi | Livia	Perfetto |
-| Christian	Pich | Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel |
+| Christian	Pich | Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel | Federica Quaglia | 
 | D.	Raciti | N.D.	Rawlings | Leonore	Reiser | Alix J.	Rey | Lorna	Richardson |
-| Catherine	Rivoire | Kim	Rutherford | A.	Sangrador-Vegas | Kevin	Schaper | Deborah A.	Siegele |
+| Catherine	Rivoire | Kim	Rutherford | Edoardo Salladini | A.	Sangrador-Vegas | Kevin	Schaper | Deborah A.	Siegele |
 | Matt	Simison | Dmitry	Sitnikov | Marek S.	Skrzypek | E.	Speretta | S.	Subramaniam |
-| S.	Sundaram | R.	Tauber | V.	Trovisco | M.	Tutaj | N.	Tyagi |
+| S.	Sundaram | R.	Tauber | Silvio Tosatto | V.	Trovisco | M.	Tutaj | N.	Tyagi |
 | S.J.	Wang | K.	Warner | Shuai	Weng | Edith D.	Wong | Cathy	Wu |
 |	Z.	Xie | L.-S.	Yeh | R.	Zaru | P.	Zhou |
 
@@ -113,7 +113,7 @@ Leaders of key contributing resources.
 |	William	Gelbart | George	Georghiou |	Marc	Gillespie | Felix	Gondwe |	Gopal	Gopinath |
 |	G.	Gopinatu | Heather Gunn |	Melissa	Haendel |	G.	Harris |	Kerstin	Hausmann |
 |	Robin	Haw |	Jill	Hemish |	Henning	Hermjakob |	B.	Hickman |	Jodi	Hirschman |
-|	Ben	Hitz |	Eurie	Hong | A.	Hughes | Rachael P. Huntley |	Katica	Ilic |
+|	Ben	Hitz |	Eurie	Hong | Jim Hu |  A.	Hughes | Rachael P. Huntley |	Katica	Ilic |
 |	Amelia	Ireland |	H.J.	Jacob |	Josh	Jaffery |	Bijay	Jassal |	P.	Jayaraman |
 |	Geeta	Joshi-Tope |	Steve	Jupe | Eric Just |	James	Kadin |	Patrick	Kalita |
 |	Peter	Karp |	AS	Karthikeyan |	Andrew	Kasarskis |	Guillaume	Keller |	Paul	Kersey |
