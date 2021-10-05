@@ -82,7 +82,7 @@ Leaders of key contributing resources.
 | Nadine	Gruaz-Gumowski | Midori	Harris | Nomi L.	Harris | M.C.	Harrison | E.	Hartline |
 | E.	Hatton-Ellis | G.T.	Hayman | Ursula	Hinz | A.	Holmes | Doug	Howe |
 | Xiaosong	Huang | Chantal	Hulo | H.	Hye-A-Bye | Alexandr 	Ignatchenko | T.E.M.	Jones |
-| Florence	Jungo | Kalpana	Karra | Ingrid	Keseler | M.	Koch | Kati	Laiho |
+| Florence	Jungo | Kalpana	Karra | Ingrid	Keseler | M.	Koch | Kati	Laiho | Colin Logie | 
 | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | Antonia	Lock |
 | A.	MacDougall | Michele	Magrane | Patrick	Masson | Lisa	Matthews | Bruce	May |
 | Birgit H.M. Meldal | J.	Mendel | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato |
