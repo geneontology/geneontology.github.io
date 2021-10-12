@@ -115,7 +115,7 @@ Leaders of key contributing resources.
 |	William	Gelbart | George	Georghiou |	Marc	Gillespie | Felix	Gondwe |	Gopal	Gopinath |
 |	G.	Gopinatu | Heather Gunn |	Melissa	Haendel |	G.	Harris |	Kerstin	Hausmann |
 |	Robin	Haw |	Jill	Hemish |	Henning	Hermjakob |	B.	Hickman |	Jodi	Hirschman |
-|	Ben	Hitz |	Eurie	Hong | Jim Hu |  A.	Hughes | Rachael P. Huntley |
+|	Ben	Hitz |	Eurie	Hong | Jim Hu | A.	Hughes | Rachael P. Huntley |
 | Katica	Ilic |	Amelia	Ireland |	H.J.	Jacob |	Josh	Jaffery |	Bijay	Jassal |
 |	P.	Jayaraman |	Geeta	Joshi-Tope |	Steve	Jupe | Eric Just |	James	Kadin |
 | Patrick	Kalita |	Peter	Karp |	AS	Karthikeyan |	Andrew	Kasarskis |	Guillaume	Keller |
