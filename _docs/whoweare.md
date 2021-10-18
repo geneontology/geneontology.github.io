@@ -30,7 +30,7 @@ Leaders of key contributing resources.
 - __AspGDB & CGD__
   - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University
 - __Complex Portal & IntAct__
-  - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute  
+  - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute
 - __Dictybase__
   - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466){:target="blank"}, Northwestern University
 - __EcoliWiki__
@@ -78,23 +78,23 @@ Leaders of key contributing resources.
 | M.J.	Duesbury | Melinda R Dwinell | Dustin	Ebert | Stacia Engel | Anne	Estreicher |
 | Antonio	Fabregat | Kathleen	Falls | Livia	Famiglietti |	David	Fashena | Marc Feuermann |
 | Petra Fey | Sibyl	Gao | Phani	Garapati | Michelle	Giglio | Benjamin	Good |
-| Josh L. Goodman |  Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski | Midori	Harris |
+| Josh L. Goodman | Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski | Midori	Harris |
 | Nomi L.	Harris | M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis | G. Thomas Hayman |
 | Ursula	Hinz | A.	Holmes | Doug	Howe | Xiaosong	Huang | Chantal	Hulo |
 | H.	Hye-A-Bye | Alexandr 	Ignatchenko | T.E.M.	Jones | Florence	Jungo | Mary Kaldunski |
 | Kalpana	Karra | Ingrid	Keseler | M.	Koch | Kati	Laiho | Colin Logie |
-| Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | Antonia	Lock |
+| Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | Antonia	Lock |
 | A.	MacDougall | Michele	Magrane | Steven J. Marygold | Patrick	Masson | Lisa	Matthews |
 | Bruce	May | Birgit H.M. Meldal | J.	Mendel | Gillian H.	Millburn | Alexander L.	Mitchell |
 | Stuart R.	Miyasato | Sierra	Moxon | Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama |
 | S.	Nadendla | Rob	Nash | Darren A.	Natale | Li	Ni | Ivo	Pedruzzi |
 | Livia	Perfetto | Christian	Pich | Klemens	Pichler | D.	Poggioli | Pablo	Porras |
-| S.	Poudel | Federica Quaglia | D.	Raciti |	Sridhar	Ramachandran | Jolene Ramsey |
+| S.	Poudel | Federica Quaglia | D.	Raciti |	Sridhar	Ramachandran | Jolene Ramsey |
 | N.D.	Rawlings | Leonore	Reiser | Catherine	Rivoire | Curtis Ross | Kim	Rutherford |
 | Leyla	Ruzicka | Edoardo Salladini | A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper |
 | Matt	Simison | Amy	Singer | Dmitry	Sitnikov | Marek S.	Skrzypek | E.	Speretta |
 | Victor B. Strelets | Shabari	Subramaniam | S. Sundaram | Christopher J. Tabone | R.	Tauber |
-| Jim Thurmond |  Silvio Tosatto | V.	Trovisco |  Marek Tutaj | N.	Tyagi |
+| Jim Thurmond | Silvio Tosatto | V.	Trovisco | Marek Tutaj | N.	Tyagi |
 | Ceri	Van Slyke | Mahima Vedi | Shur-Jen Wang | K.	Warner | Shuai	Weng |
 | Edith D.	Wong | Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru |
 | Pinglei Zhou |
@@ -125,16 +125,16 @@ Leaders of key contributing resources.
 | Sandra A.	LaBonte | Mark	Lambrecht | Gabriel	Lander | Ed	Lee |	Paul	Leyland |
 |	Donghui	Li | Yuling	Li | Qian	Li |	W.	Liu |	Paul	Lloyd |
 |	Jane	Lomax | P.	Long |	Tim	Lowry |	J.	Lu | Yves	Lussier |
-| Kevin A.	MacPherson |  Shahana	Mahajan |	Prita	Mani | Ryan	Martin | J.	Mathis |
+| Kevin A.	MacPherson | Shahana	Mahajan |	Prita	Mani | Ryan	Martin | J.	Mathis |
 | Mark	McDowall | Brenley K.	McIntosh | Sheldon	McKay |	Pete	McQuilton |	Terry	Meehan |
 | Anna	Melidoni | Klaus Mitchell |	Nick	Moseyko |	Lukas	Mueller |	Bob	Muller |
 | Suparna	Mundodi |	Monica C.	Munoz-Torres |	Nelson	Ndegwa |	N.	Nenasheva |	Elizabeth	Nickerson |
 |	Rajni Nigam | Patrick C.	Ng |	G.	Nuka |	Claire	O'Donovan |	Gavin	O'Kelly |
-| Stephen G.	Oliver | Marija	Orlic-Milacic |  David	Osumi-Sutherland |	Rose	Oughtred |	Holly	Paddock |
+| Stephen G.	Oliver | Marija	Orlic-Milacic | David	Osumi-Sutherland |	Rose	Oughtred |	Holly	Paddock |
 |	Julie	Park | D.	Pasko |	Kelley	Paskov | Sejal Patel |	Victoria	Petri |
 |	Karen	Pilcher-Kestin | Sandra M. Pinheiro | Laura	Ponting |	S.	Potter |	Sagar	Poudel |
 |	H.	Ramachandran | Fiona Ratnaraj | Jack H. Rawson |	D.S.	Reilly |	Daniel P.	Renfro |
-| Alix J.	Rey | Sue	Rhee | Joel	Richardson |  Lorna	Richardson | Shannon	Roberts |
+| Alix J.	Rey | Sue	Rhee | Joel	Richardson | Lorna	Richardson | Shannon	Roberts |
 | Milagros	Rodríguez-López |	Tai	Roe | Bernt	Roechert | Paola	Roncaglia | Anthony	Rogers |
 | Karen	Rothfels | Greg Rowe | Barbara	Ruef | V.	Ruotti | Tony	Sawford |
 | Kevin	Schaper |	Carl	Schmidt | Esther	Schmidt | Michel	Schneider |	Andy	Schroeder |
