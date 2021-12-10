@@ -5,6 +5,7 @@ redirect_from:
 - /page/downloads
 - /page/lead-database-downloads
 - /GO.downloads.database.shtml
+- /docs/archives/
 ---
 
 # Downloads overview
