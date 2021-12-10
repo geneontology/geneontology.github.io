@@ -41,3 +41,12 @@ We make new versions available approximately every month.-->
 To be notified of the exact release date, you can watch the [GitHub go-announcement repository](https://github.com/geneontology/go-announcements "GO announcements"){:target="blank"}.
 
 If there is something that you need or think we might be reasonably missing, please contact the [GO Helpdesk](http://help.geneontology.org "contact us"){:target="blank"}.
+
+
+## Archives
+
+An archive of the ontology files (in both current and legacy formats) from the 2004-03-01 release to the current release is available.  
+
+The archives are arranged by release date, and are split into ontology, annotation, and full database (including electronic annotation) releases as available.
+
+<a href="http://release.geneontology.org/">http://release.geneontology.org/</a>{:target="blank"}
