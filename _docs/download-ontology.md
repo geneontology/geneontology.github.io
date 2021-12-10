@@ -78,7 +78,7 @@ Many GO classes have been cross-referenced (mapped) to a number of external clas
 
 ## Snapshot Editions
 
-As of April 2019, the standard PURLs for GO will resolve to the monthly (release) version. If you have need to access the snapshot (daily) version, use `/snapshot/` in the URL. For example:
+As of April 2019, the standard PURLs for GO will resolve to the monthly (release) version. We *strongly* recommend using the latest official release instead of snapshot. If you have need to access the snapshot (daily) version, use `/snapshot/` in the URL. For example:
 
  * http://purl.obolibrary.org/obo/go/snapshot/go.obo
  * http://purl.obolibrary.org/obo/go/snapshot/go.owl
