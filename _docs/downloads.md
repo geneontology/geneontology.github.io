@@ -5,10 +5,6 @@ redirect_from:
 - /page/downloads
 - /page/lead-database-downloads
 - /GO.downloads.database.shtml
-- /page/go-mysql-database-guide
-- /page/go-mysql-database-schema
-- /page/ftp-and-cvs-downloads
-- /docs/archives/ 
 ---
 
 # Downloads overview
