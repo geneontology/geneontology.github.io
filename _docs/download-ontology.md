@@ -76,7 +76,7 @@ For internal checking purposes, GO maintains two "anti-slims", terms to which an
 
 Many GO classes have been cross-referenced (mapped) to a number of external classification systems. The [cross-references of external classification systems to GO page](/docs/download-mappings/) contains more information and links to the cross-reference2GO files.
 
-## Snapshot Editions
+## Snapshot editions
 
 As of April 2019, the standard PURLs for GO will resolve to the monthly (release) version. We *strongly* recommend using the latest official release instead of snapshot. If you have need to access the snapshot (daily) version, use `/snapshot/` in the URL. For example:
 
