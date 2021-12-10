@@ -1,14 +1,15 @@
 ---
 title: GO Archive
 permalink: /docs/go-archives/
-# redirect_from: 
-# - /page/go-mysql-database-guide
-# - /page/go-mysql-database-schema
-# - /page/ftp-and-cvs-downloads
-# - /page/go-annotation-file-gaf-format-10
-# - /page/go-rdfxml-file-format
-# - /page/lead-database-guide
-# - /page/go-tools-registry
+redirect_from: 
+- /page/go-mysql-database-guide
+- /page/go-mysql-database-schema
+- /page/ftp-and-cvs-downloads
+- /page/go-annotation-file-gaf-format-10
+- /page/go-rdfxml-file-format
+- /page/lead-database-guide
+- /page/go-tools-registry
+- /docs/archives/
 ---
 
 # GO Archive
