@@ -36,6 +36,6 @@ http://api.geneontology.org/api/bioentity/function/GO:0006915?start=0&rows=2
 
 ## Query GO Causal Activity Models (SPARQL endpoint)
 
-GO provides a SPARQL endpoint to query both the GO ontology and GO-CAMs. Please refer to the [RDF/SPARQL documentation](/docs/sparql) to learn about the how GO-CAMs are represented in RDF and queries through SPARQL. 
+GO provides an experimental SPARQL endpoint to query both the GO ontology and GO-CAMs. Please refer to the [RDF/SPARQL documentation](/docs/sparql) to learn about the how GO-CAMs are represented in RDF and queries through SPARQL. 
 
 Already a GO-CAM/SPARQL expert ? [ [Access GO SPARQL endpoint](http://sparql.geneontology.org/){:target="blank"} ]
