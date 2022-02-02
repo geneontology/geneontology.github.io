@@ -11,7 +11,7 @@ To support the creation, storage and querying of GO-CAMs, GO is relying on [RDF]
 
 In the following document, we present some notions of RDF, OWL and SPARQL to get an understanding of how the GO SPARQL endpoint is structured and how to create queries to retrieve specific pieces of knowledge. 
 
-[ [Try the GO SPARQL endpoint](http://sparql.geneontology.org/blazegraph/#query){:target="blank"} ]
+[ [Try the GO SPARQL endpoint](http://geneontology.org/sparql){:target="blank"} ]
 
 
 ## Resource Description Framework (RDF)
@@ -30,7 +30,7 @@ There are three kinds of nodes in a RDF graph:
 
 
 ## Web Ontology Language (OWL)
-OWL and OWL2 are ontology languages for the Semantic Web which allow to describe [ontology components](https://en.wikipedia.org/wiki/Ontology_components){:target="blank"} such as classes, properties, individuals and data values. Any OWL2 ontology can also be viewed as an RDF graph. OWL can be reasoned with by computer programs both to check the consistency of the aggregated knowledge (GO is using [Shex](https://shex.io){:target="blank"} to ensure the validity of GO-CAMs) and to make implicit knowledge explicit (e.g. if `A is a B` and `B is part of C`, then we can explicitly state that `A is part of C`).
+OWL and OWL2 are ontology languages for the Semantic Web which allow to describe [ontology components](https://en.wikipedia.org/wiki/Ontology_components){:target="blank"} such as classes, properties, individuals and data values. Any OWL2 ontology can also be viewed as an RDF graph. OWL can be reasoned with by computer programs both to check the consistency of the aggregated knowledge (GO is using [ShEx](https://shex.io){:target="blank"} to ensure the validity of GO-CAMs) and to make implicit knowledge explicit (e.g. if `A is a B` and `B is part of C`, then we can explicitly state that `A is part of C`).
 
 [ [Learn more about OWL2](https://www.w3.org/TR/2012/REC-owl2-primer-20121211/){:target="blank"} ]
  [ [Learn more about ontology relations in GO](/docs/ontology-relations/){:target="blank"} ]
@@ -41,7 +41,7 @@ In addition of using OWL to describe ontologies, GO-CAMs rely on the [Relation O
   <img width="500" src="/assets/RO_example.png" alt="Example of use of the Relation Ontology in GO-CAMs">
 </p>
 
-In this other GO-CAM, one can read that the [DNA-binding transcription factor activity](http://amigo.geneontology.org/amigo/term/GO:0003700){:target="blank"} `enabled by` [zip-2 Cele](http://amigo.geneontology.org/amigo/gene_product/WB:WBGene00019327){:target="blank"} is `causally upstream of, positive effect` of two molecular activities: the [deaminase activity](http://amigo.geneontology.org/amigo/term/GO:0019239){:target="blank"} on the left and an unknown activity on the right generically called [Molecular function](http://amigo.geneontology.org/amigo/term/GO:0003674){:target="blank"} but which is `enabled by` [irg-2 Cele](http://amigo.geneontology.org/amigo/gene_product/WB:WBGene00016783){:target="blank"}. In addition, all those activities are described as being `part of` the [defense response to Gram-negative bacterium](http://amigo.geneontology.org/amigo/term/GO:0050829){:target="blank"} biological process.
+In this other GO-CAM, one can read that the [DNA-binding transcription factor activity](http://amigo.geneontology.org/amigo/term/GO:0003700){:target="blank"} `enabled by` [zip-2 Cele](http://amigo.geneontology.org/amigo/gene_product/WB:WBGene00019327){:target="blank"} is `causally upstream of, positive effect` of two molecular activities: the [deaminase activity](http://amigo.geneontology.org/amigo/term/GO:0019239){:target="blank"} on the left and an unknown activity on the right generically called [molecular function](http://amigo.geneontology.org/amigo/term/GO:0003674){:target="blank"} but which is `enabled by` [irg-2 Cele](http://amigo.geneontology.org/amigo/gene_product/WB:WBGene00016783){:target="blank"}. In addition, all those activities are described as being `part of` the [defense response to Gram-negative bacterium](http://amigo.geneontology.org/amigo/term/GO:0050829){:target="blank"} biological process.
 
 <p align="center">
   <img width="500" src="/assets/ZIP-2_Defense_Response_Pathway.png" alt="Example of use of the Relation Ontology in GO-CAMs">
