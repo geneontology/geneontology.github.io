@@ -75,28 +75,30 @@ Leaders of key contributing resources.
 | H.Y.	Chang | J. Cho | Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani |
 | Elisabeth	Coudert | N. Del-Toro | Jeff De Pons | Alex	Diehl | Robert J.	Dodson |
 | Mary E.	Dolan | Harold	Drabkin | Paula	Duek-Roggli | Corina	Duenas | M.J.	Duesbury |
-| Melinda R Dwinell | Dustin	Ebert | Stacia Engel | Anne	Estreicher | Antonio	Fabregat |
-| Kathleen	Falls | Livia	Famiglietti |	David	Fashena | Marc Feuermann | Petra Fey |
-| Sibyl	Gao | Phani	Garapati | Michelle	Giglio | Benjamin	Good | Josh L. Goodman |
-| Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski | Midori	Harris | Nomi L.	Harris |
-| M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis | G. Thomas Hayman | Ursula	Hinz |
-| A.	Holmes | Doug	Howe | Xiaosong	Huang | Chantal	Hulo | H.	Hye-A-Bye |
-| Alexandr 	Ignatchenko | T.E.M.	Jones | Florence	Jungo | Mary Kaldunski | Kalpana	Karra |
-| Ingrid	Keseler | M.	Koch | Kati	Laiho | Colin Logie | Stanley J.F	Laulederkind |
-| Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | Antonia	Lock | A.	MacDougall |
-| Michele	Magrane | Steven J. Marygold | Patrick	Masson | Lisa	Matthews | Bruce	May |
-| Birgit H.M. Meldal | J.	Mendel | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato |
+| Melinda R Dwinell | Dustin	Ebert | Stacia Engel | Meltem Erdol | Anne	Estreicher |
+| Antonio	Fabregat | Kathleen	Falls | Livia	Famiglietti |	David	Fashena | Marc Feuermann |
+| Petra Fey | Matt Gage | Sibyl	Gao | Phani	Garapati | Michelle	Giglio |
+| Benjamin	Good | Josh L. Goodman | Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski |
+| Midori	Harris | Nomi L.	Harris | M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis |
+| G. Thomas Hayman | Ursula	Hinz | A.	Holmes | Doug	Howe | Xiaosong	Huang |
+| Chantal	Hulo | H.	Hye-A-Bye | Alexandr 	Ignatchenko | T.E.M.	Jones | Florence	Jungo |
+| Mohamed A Kadhum | Mary Kaldunski | Kalpana	Karra | Ingrid	Keseler | M.	Koch |
+| Kati	Laiho | Colin Logie | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier |
+| Damien	Lieberherr | Antonia	Lock | A.	MacDougall | Michele	Magrane | Marios Makris |
+| Steven J. Marygold | Patrick	Masson | Lisa	Matthews | Bruce	May | Birgit H.M. Meldal |
+| J.	Mendel | Aleksandra Michalak | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato |
 | Sierra	Moxon | Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama | S.	Nadendla |
 | Rob	Nash | Darren A.	Natale | Li	Ni | Ivo	Pedruzzi | Livia	Perfetto |
 | Christian	Pich | Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel |
-| Federica Quaglia | D.	Raciti | Sridhar Ramachandran | Jolene Ramsey | N.D.	Rawlings |
-| Leonore	Reiser | Catherine	Rivoire | Curtis Ross | Kim	Rutherford | Leyla	Ruzicka |
-| Edoardo Salladini | A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper | Matt	Simison |
-| Amy	Singer | Dmitry	Sitnikov | Marek S.	Skrzypek | E.	Speretta | Victor B. Strelets |
-| Shabari	Subramaniam | S. Sundaram | Christopher J. Tabone | R.	Tauber | Jim Thurmond |
-| Silvio Tosatto | V.	Trovisco | Marek Tutaj | N.	Tyagi | Ceri	Van Slyke |
-| Mahima Vedi | Shur-Jen Wang | K.	Warner | Shuai	Weng | Edith D.	Wong |
-| Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru | Pinglei Zhou |
+| Armalya Pritazahra | Federica Quaglia | D.	Raciti | Sridhar Ramachandran | Jolene Ramsey |
+| N.D.	Rawlings | Leonore	Reiser | Catherine	Rivoire | Curtis Ross | Kim	Rutherford |
+| Leyla	Ruzicka | Edoardo Salladini | A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper |
+| Matt	Simison | Amy	Singer | Dmitry	Sitnikov | Marek S.	Skrzypek | E.	Speretta |
+| Victor B. Strelets | Shabari	Subramaniam | S. Sundaram | Christopher J. Tabone | R.	Tauber |
+| Jim Thurmond | Silvio Tosatto | V.	Trovisco | Marek Tutaj | N.	Tyagi |
+| Ceri	Van Slyke | Mahima Vedi | Shur-Jen Wang | K.	Warner | Shuai	Weng |
+| Edith D.	Wong | Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru |
+| Pinglei Zhou |
 
 ## GO contributors *emeriti*
 
