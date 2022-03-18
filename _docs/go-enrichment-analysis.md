@@ -38,16 +38,17 @@ The symbols + and - indicate over or underrepresentation of a term.
 *P-value* is the probability or chance of seeing at least x number of genes out of the total n genes in the list annotated to a particular GO term, given the proportion of genes in the whole genome that are annotated to that GO Term. That is, the GO terms shared by the genes in the user's list are compared to the background distribution of annotation. The closer the p-value is to zero, the more significant the particular GO term associated with the group of genes is (i.e. the less likely the observed annotation of the particular GO term to a group of genes occurs by chance).
 
 In other words, when searching the process ontology, if all of the genes in a group were associated with "DNA repair", this term would be significant. However, since all genes in the genome (with GO annotations) are indirectly associated with the top level term "biological_process", this would not be significant if all the genes in a group were associated with this very high level term.
+
+More details are available on the [PANTHER help pages](http://www.pantherdb.org/tips/tips_geneListAnalysis.jsp){:target="_blank"}.
+
 ## External tools
 There are a number of different tools that provide enrichment capabilities. Some of these are web-based while others may require the user download an application or install a local environment. Tools differ in the algorithms they use, the statistical tests they perform, and the frequency at which the underlying GO data are updated.  Users should therefore exercise caution when using external tools, especially if the version of GO is not immediately identifiable.
 
 Some GO-endorsed enrichment tools are:
 
 
-* [BiNGO](https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html)
-* [GeneWeaver](https://www.geneweaver.org/)
-* [gProfiler](http://biit.cs.ut.ee/gprofiler/)
-* [GOrilla](http://cbl-gorilla.cs.technion.ac.il/)
-* [Ontologizer](http://ontologizer.de)
-
-
+* [BiNGO](https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html){:target="_blank"}
+* [GeneWeaver](https://www.geneweaver.org/){:target="_blank"}
+* [gProfiler](http://biit.cs.ut.ee/gprofiler/){:target="_blank"}
+* [GOrilla](http://cbl-gorilla.cs.technion.ac.il/){:target="_blank"}
+* [Ontologizer](http://ontologizer.de){:target="_blank"}
