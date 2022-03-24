@@ -30,16 +30,6 @@ AmiGO supports faceted search to refine queries by restricting specific paramete
 
 ---
 
-## Search GO Causal Activity Models (GO-CAMs)
-
-GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple [standard GO annotations](/docs/go-annotations/) into larger models of biological function (such as “pathways”) in a semantically structured manner. GO-CAMs are created by expert biocurators from the [GO Consortium](/docs/annotation-contributors/), using the [Noctua Curation Platform](http://noctua.geneontology.org){:target="blank"}.
-
-GO-CAMs can be browsed and searched in the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site. For example, you can limit your search results to GO-CAMs having a certain GO term, a certain gene, or created by a specific curation group or curator.
-
-[![GO-CAM example](/assets/GO-CAM-site-illustration.jpg)](https://geneontology.cloud/browse){:target="blank"}
-
----
-
 ## Visualize annotations with the GO Ribbon
 Many genes have large numbers of annotations, making it difficult to get a quick overview of a gene function, or the functions of gene sets. The GO ribbon is specifically designed to help users visualize and explore the functions of a gene and was developed as a lightweight, reusable widget that can be embedded in any website, and retrieves data directly from the GO resource via API.
  
@@ -50,6 +40,26 @@ Interested to learn more about the GO Ribbon ? [Check the GO Ribbon documentatio
 Want to try it now with your genes ? [ [Access the GO Ribbon sandbox](/ribbon.html) ]
 
 The GO Ribbon is also integrated in the [Alliance of Genome Resources](https://www.alliancegenome.org/gene/RGD:620474#function---go-annotations){:target="blank"} and work is underway for further integration in several projects.
+
+---
+
+## Search GO Causal Activity Models (GO-CAMs)
+
+GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple [standard GO annotations](/docs/go-annotations/) into larger models of biological function (such as “pathways”) in a semantically structured manner. GO-CAMs are created by expert biocurators from the [GO Consortium](/docs/annotation-contributors/), using the [Noctua Curation Platform](http://noctua.geneontology.org){:target="blank"}.
+
+GO-CAMs can be browsed and searched in the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site. For example, you can limit your search results to GO-CAMs having a certain GO term, a certain gene, or created by a specific curation group or curator.
+
+[![GO-CAM example](/assets/GO-CAM-site-illustration.jpg)](https://geneontology.cloud/browse){:target="blank"}
+
+---
+
+## Visualize GO-CAM Models with the Alliance of Genome Resources Pathway Viewer 
+Summaries of GO-CAM Models are viewable on the Alliance of Genome Resources webpages for relevant genes. The Alliance of Genome Resources Pathway Viewer is designed to easily visualize the pathways in which a gene product play a role, and to give eaasy access to the functions of the other genes in the same pathway, listed in a menu on the right (see example below).
+
+![Alliance Pathway Previewe xample for pmk-1](/assets/pmk-1_alliance_pathway_preview.png)
+
+
+The Alliance of Genome Resources Pathway Viewer is integrated in the [Alliance of Genome Resources](https://www.alliancegenome.org/gene/RGD:620474#function---go-annotations){:target="blank"} and work is underway for further integration in several projects. Alliance of Genome Resources pages display models containing a minimum of 3 connected molecular functions (a.k.a. Activity Units). 
 
 ---
 
