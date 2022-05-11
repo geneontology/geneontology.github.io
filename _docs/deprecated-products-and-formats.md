@@ -15,7 +15,7 @@ redirect_from:
 
 ## Ontology formats
 
-GO currently provides the Gene Ontology in the OBO 1.4 format and other formats; see the [ontology download page](/docs/download-ontology/) for more information about current ontology file formats. 
+GO currently provides the Gene Ontology in the OBO 1.2 format (as produced by the OWL API) and other formats; see the [ontology download page](/docs/download-ontology/) for more information about current ontology file formats. 
 
 + The GO Consortium no longer uses or supports the flat file format, which was deprecated in 2009.
 + OBO-XML and FASTA files were retired in 2018.   OBO-XML was a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc.
