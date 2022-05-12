@@ -20,7 +20,7 @@ GO currently provides the Gene Ontology in the OBO 1.2 format (as produced by th
 + The GO Consortium no longer uses or supports the flat file format, which was deprecated in 2009.
 + OBO-XML and FASTA files were retired in 2018.   OBO-XML was a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc.
 + RDF-XML and OWL (old mapping) formats of the ontology were retired in early 2021. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version. For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation. 
-+ [OBO 1.0 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_0.html){:target="blank"}: previous iteration of the OBO format
++ [OBO 1.0 File Format Guide](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_0.html){:target="blank"}: previous iteration of the OBO format retired in 2018.
 
 ## Annotation formats
 
