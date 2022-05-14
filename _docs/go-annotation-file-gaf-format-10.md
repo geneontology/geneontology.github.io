@@ -12,6 +12,8 @@ redirect_from:
 THIS FILE IS FOR REFERENCE ONLY
 --->
 THIS FILE IS FOR REFERENCE ONLY
+THIS FILE IS FOR REFERENCE ONLY
+THIS FILE IS FOR REFERENCE ONLY
 
 # GO Annotation File (GAF) 1.0 (Deprecated)
 Annotation data is submitted to the GO Consortium in the form of gene association files, or GAFs. The following document lays out the format specifications for the **deprecated** *G*ene *A*ssociation *F*ile (GAF) 1.0; for the current format please see the [GAF 2.2 guide](/docs/go-annotation-file-gaf-format-2.2/).
@@ -180,3 +182,9 @@ Value will differ from column 1 for any annotation that is made by one database 
  
  
 Note that several fields contain database cross-reference (dbxrefs) in the format dbname:dbaccession. The fields are: **GO ID** (where dbname is always GO), **DB:Reference**, **With/From**, **Taxon** (where dbname is always **taxon**). For GO IDs, do not repeat the 'GO:' prefix (i.e. always use GO:0000000, not GO:GO:0000000) 
+
+
+
+THIS FILE IS FOR REFERENCE ONLY
+THIS FILE IS FOR REFERENCE ONLY
+THIS FILE IS FOR REFERENCE ONLY
