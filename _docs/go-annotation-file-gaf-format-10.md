@@ -1,3 +1,7 @@
+ <!---
+
+THIS FILE IS FOR REFERENCE ONLY
+
 ---
 title: "GO Annotation file format: GAF 1.0"
 permalink: /docs/go-annotation-file-gaf-format-1.0/
@@ -5,15 +9,14 @@ redirect_from:
 - /page/go-annotation-file-format-10
 ---
 
+THIS FILE IS FOR REFERENCE ONLY
+--->
+THIS FILE IS FOR REFERENCE ONLY
 
 # GO Annotation File (GAF) 1.0 (Deprecated)
-This guide lays out the format specifications for the deprecated *G*ene *A*ssociation *F*ile (GAF) 1.0; for the current format please see the [GAF 2.2 guide](/docs/go-annotation-file-gaf-format-2.2/).
+Annotation data is submitted to the GO Consortium in the form of gene association files, or GAFs. The following document lays out the format specifications for the **deprecated** *G*ene *A*ssociation *F*ile (GAF) 1.0; for the current format please see the [GAF 2.2 guide](/docs/go-annotation-file-gaf-format-2.2/).
 
-GAFs are tab-delimited plain text files, where each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/), the reference to support the link between them, and other information. 
-
-GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files). General information about annotation can be found in the [GO annotation introduction](/docs/go-annotations/).
-
-### GAF header
+### File header
 
 All gene association files must start with a single line denoting the file format, as follows:
 
@@ -33,7 +36,7 @@ Column 	| Content 	| Required? |	Cardinality |	Example
 4 |	[Qualifier](#qualifier-column-4 "Definition and requirements for Qualifier (column 4)") |	optional |	0 or greater |	NOT
 5 |	[*GO ID*](#go-id-column-5 "Definition and requirements for GO ID (column 5)") |	required |	1 |	GO:0003993
 6 |	[*DB:Reference (\|DB:Reference)*](#dbreference-column-6 "Definition and requirements for DB:Reference (column 6)") |	required |	1 or greater |	SGD_REF:S000047763|PMID:2676709
-7 |	[*Evidence Cod**](#evidence-code-column-7 "Definition and requirements for Evidence Code (column 7)") 	| required |	1 |	IMP
+7 |	[*Evidence Code**](#evidence-code-column-7 "Definition and requirements for Evidence Code (column 7)") 	| required |	1 |	IMP
 8 |	[With (or) From](#with-or-from-column-8 "Definition and requirements for With [or] From (column 8)") |	optional | 	0 or greater |	GO:0000346
 9 |	[*Aspect*](#aspect-column-9 "Definition and requirements for Aspect (column 9)") 	| required |	1 |	F
 10|	[DB Object Name](#db-object-name-column-10 "Definition and requirements for DB Object Name (column 10)") |	optional |	0 or 1 |	Toll-like receptor 4
