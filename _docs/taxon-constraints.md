@@ -1,6 +1,6 @@
 ---
 title: Taxon constraints in the Gene Ontology
-permalink: /docs/ontology-taxon-constraints/
+permalink: /docs/taxon-constraints/
 ---
 
 # Taxon constraints in the Gene Ontology
