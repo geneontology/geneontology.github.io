@@ -31,7 +31,7 @@ AmiGO supports faceted search to refine queries by restricting specific paramete
 ---
 
 ## Visualize annotations with the GO Ribbon
-Many genes have large numbers of annotations, making it difficult to get a quick overview of a gene function, or the functions of gene sets. The GO ribbon is specifically designed to help users visualize and explore the functions of a gene and was developed as a lightweight, reusable widget that can be embedded in any website, and retrieves data directly from the GO resource via API.
+Many genes have large numbers of annotations, making it difficult to get a quick overview of a gene function, or the functions of gene sets. The GO ribbon is specifically designed to help users visualize and explore the functions of a gene and was developed as a lightweight, reusable widget that can be embedded in any website, and retrieves data directly from the GO knowledgebase via API.
  
 ![GO Ribbon example of SOX9](/assets/Ribbon-sox9-example.jpg)
 
