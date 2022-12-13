@@ -5,13 +5,13 @@ permalink: /docs/sparql
 
 
 # Introduction
-Gene Ontology is developing Ontologies and Frameworks to help annotate biology in a consistent way and help users to integrate and reuse our data in their approaches. The Gene Ontology Causal Activity Model (or GO-CAM) [recently published](https://rdcu.be/bRIgY){:target="blank"} allows to curate knowledge in a much more expressive and traceable way and extend the querying capabilities of the standard GO annotations. [ [Learn more about GO-CAMs](/docs/gocam-overview/) ]
+Gene Ontology is developing Ontologies and Frameworks to help annotate biology in a consistent way and help users to integrate and reuse our data in their approaches. The Gene Ontology Causal Activity Model (or GO-CAM) [recently published](https://www.nature.com/articles/s41588-019-0500-1){:target="blank"} allows to curate knowledge in a much more expressive and traceable way and extend the querying capabilities of the standard GO annotations. [ [Learn more about GO-CAMs](/docs/gocam-overview/) ]
 
 To support the creation, storage and querying of GO-CAMs, GO is relying on [RDF](https://www.w3.org/RDF/){:target="blank"} / [OWL](https://www.w3.org/OWL/){:target="blank"}, a directed, labeled graph data format to represent rich and complex knowledge. RDF graphs can be queried and manipulated with [SPARQL](https://www.w3.org/TR/sparql11-overview/){:target="blank"}, one of the standards of the [Semantic Web](https://www.w3.org/2001/sw/wiki/Main_Page){:target="blank"}.
 
-In the following document, we present some notions of RDF, OWL and SPARQL to get an understanding of how the GO SPARQL endpoint is structured and how to create queries to retrieve specific pieces of knowledge. 
+In the following document, we present some notions of RDF, OWL and SPARQL to get an understanding of how the GO SPARQL endpoint is structured and how to create queries to retrieve specific pieces of knowledge.
 
-[ [Try the GO SPARQL endpoint](http://sparql.geneontology.org/blazegraph/#query){:target="blank"} ]
+[ [Try the GO SPARQL endpoint](http://geneontology.org/sparql){:target="blank"} ]
 
 
 ## Resource Description Framework (RDF)
@@ -61,11 +61,11 @@ In those GO-CAM, the predicates `enabled by`, `directly positively regulates` an
 The second model can be visualized as a graph [here](http://noctua.geneontology.org/editor/graph/gomodel:5b91dbd100001993){:target="blank"} and is available as a [Turtle/TTL](https://www.w3.org/TR/turtle/){:target="blank"} file [here](https://raw.githubusercontent.com/geneontology/noctua-models/master/models/5b91dbd100001993.ttl){:target="blank"}. Let's take a look at a sample of that TTL file:
 
 ```
-<http://model.geneontology.org/5b91dbd100001993/5b91dbd100001995> <http://purl.org/pav/providedBy> 
+<http://model.geneontology.org/5b91dbd100001993/5b91dbd100001995> <http://purl.org/pav/providedBy>
 "http://www.wormbase.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
     <http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/5b91dbd100001993/5b91dbd100001996> ;
     <http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/5b91dbd100001993/5b91dbd100001994> ;
-    <http://purl.obolibrary.org/obo/RO_0002304> <http://model.geneontology.org/5b91dbd100001993/5b91dbd100002002> , 
+    <http://purl.obolibrary.org/obo/RO_0002304> <http://model.geneontology.org/5b91dbd100001993/5b91dbd100002002> ,
 ```
 
 A few notes about the sugar syntaxes of Turtle/TTL files:
@@ -124,7 +124,7 @@ SPARQL is the query language for RDF graphs. A number of scientific databases ar
 ```
 SELECT * WHERE {
   ?sub ?pred ?obj .
-} 
+}
 LIMIT 100
 OFFSET 0
 ```
@@ -152,7 +152,7 @@ SELECT * WHERE {
 Let's dive into more useful queries and retrieve for instance all the genes contained in our previous GO-CAM:
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX metago: <http://model.geneontology.org/>
 PREFIX enabled_by: <http://purl.obolibrary.org/obo/RO_0002333>
@@ -161,7 +161,7 @@ SELECT distinct ?identifier ?name
 
 WHERE {
   GRAPH metago:5b91dbd100001993 {
-    ?s enabled_by: ?gpnode .    
+    ?s enabled_by: ?gpnode .
     ?gpnode rdf:type ?identifier .
   }
   ?identifier rdfs:label ?name
@@ -189,7 +189,7 @@ SELECT distinct ?goaspect ?goids ?gonames ?definitions WHERE {
     ?entity rdf:type ?goids
   }
 
-  VALUES ?goaspect { BP: MF: CC:  } . 
+  VALUES ?goaspect { BP: MF: CC:  } .
   ?goids rdfs:subClassOf+ ?goaspect .
   ?goids rdfs:label ?gonames .
   ?goids definition: ?definitions .
@@ -203,12 +203,12 @@ In the `GRAPH` block, we retrieve all the entities that are individuals, then we
 
 A useful query also consist in retrieving the list of all GO-CAMs and to annotate them with some information. The following query retrieves for example, the list of all GO-CAMs with their title and date:
 ```
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX metago: <http://model.geneontology.org/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 
 SELECT ?gocam ?date ?title WHERE {
-  GRAPH ?gocam {            
+  GRAPH ?gocam {
     ?gocam metago:graphType metago:noctuaCam .
     ?gocam dc:title ?title ;
            dc:date ?date .
@@ -227,10 +227,10 @@ PREFIX enabled_by: <http://purl.obolibrary.org/obo/RO_0002333>
 
 SELECT distinct ?gocam WHERE {
   GRAPH ?gocam {
-    ?gocam metago:graphType metago:noctuaCam .    
-    ?entity enabled_by: ?gpnode .    
+    ?gocam metago:graphType metago:noctuaCam .
+    ?entity enabled_by: ?gpnode .
     ?gpnode rdf:type ?identifier .
-    FILTER( ?identifier = <http://identifiers.org/mgi/MGI:98364> ) .         
+    FILTER( ?identifier = <http://identifiers.org/mgi/MGI:98364> ) .
   }
 }
 ```
@@ -245,7 +245,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
 SELECT distinct ?gocam WHERE {
   GRAPH ?gocam {
-    ?gocam metago:graphType metago:noctuaCam .    
+    ?gocam metago:graphType metago:noctuaCam .
     ?entity rdf:type owl:NamedIndividual .
     ?entity rdf:type ?identifier .
     FILTER( ?identifier = <http://purl.obolibrary.org/obo/GO_0051402> )
@@ -253,9 +253,9 @@ SELECT distinct ?gocam WHERE {
 }
 ```
 
-To test and refine those queries, [ [Try the GO SPARQL endpoint](http://sparql.geneontology.org/blazegraph/#query){:target="blank"} ] or use an external SPARQL editor such as [ [YASGUI](http://yasgui.triply.cc/#){:target="blank"} ]. With external editors, be sure to specify the GO SPARQL endpoint: `http://rdf.geneontology.org/blazegraph/sparql`.
+To test and refine those queries, [ [Try the GO SPARQL endpoint](http://geneontology.org/sparql){:target="blank"} ] or use an external SPARQL editor such as [ [YASGUI](http://yasgui.triply.cc/#){:target="blank"} ]. With external editors, be sure to specify the GO SPARQL endpoint: `http://rdf.geneontology.org/blazegraph/sparql`.
 
 ## Federated Queries
-Lastly, Federated Queries. Those specific types of queries are designed to retrieve specific pieces of information from multiple SPARQL endpoints (e.g. sparql.geneontology.org, sparql.uniprot.org, sparql.wikipathway.org, etc). The concept of federated queries rely on the selection and sharing of unique IRIs to describe in a consistent way each entity across RDF stores. If a gene is universally identified by an IRI, then it one can request data about that gene across multiple databases in a single query. This technique, albeit powerful can however suffer from latency and can fail if any of the endpoint is unavailable. If you are mapping IDs between different endpoints, it's critical to ensure you are gathering data about the same entity. [ [Learn more about Federated Queries](https://www.w3.org/TR/sparql11-federated-query/){:target="blank"} ].
+Lastly, Federated Queries. Those specific types of queries are designed to retrieve specific pieces of information from multiple SPARQL endpoints (e.g. rdf.geneontology.org, sparql.uniprot.org, sparql.wikipathway.org, etc). The concept of federated queries rely on the selection and sharing of unique IRIs to describe in a consistent way each entity across RDF stores. If a gene is universally identified by an IRI, then it one can request data about that gene across multiple databases in a single query. This technique, albeit powerful can however suffer from latency and can fail if any of the endpoint is unavailable. If you are mapping IDs between different endpoints, it's critical to ensure you are gathering data about the same entity. [ [Learn more about Federated Queries](https://www.w3.org/TR/sparql11-federated-query/){:target="blank"} ].
 
 > This was a primer on how to use the GO SPARQL endpoint, but there are many other features not described here. We encourage users of the SPARQL endpoint to learn more about SPARQL [here](https://www.w3.org/TR/sparql11-overview/){:target="blank"} and to contact us if they have questions through the [GO Helpdesk](http://help.geneontology.org/){:target="blank"}
