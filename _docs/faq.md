@@ -63,7 +63,7 @@ FAQ tags: 
 [general](/faq-tags/general)
 {:/comment}
 
-The Gene Ontology (GO) project is a collaborative effort to address the need for consistent descriptions of gene products in different databases. The GO collaborators are developing three structured, controlled vocabularies (ontologies) that describe gene products in terms of their associated biological processes, cellular components and molecular functions in a species-independent manner. There are three separate aspects to this effort: first, we write and maintain the ontologies themselves; second, we make cross-links between the ontologies and the genes and gene products in the collaborating databases; and third, we develop tools that facilitate the creation, maintenance and use of ontologies.
+The Gene Ontology (GO) knowledgebase is a collaborative effort to address the need for consistent descriptions of gene products in different databases. The GO collaborators are developing three structured, controlled vocabularies (ontologies) that describe gene products in terms of their associated biological processes, cellular components and molecular functions in a species-independent manner. There are three separate aspects to this effort: first, we write and maintain the ontologies themselves; second, we make cross-links between the ontologies and the genes and gene products in the collaborating databases; and third, we develop tools that facilitate the creation, maintenance and use of ontologies.
 
 The use of GO terms by several collaborating databases facilitates uniform queries across them. The controlled vocabularies are structured so that you can query them at different levels: for example, you can use GO to find all the gene products in the mouse genome that are involved in signal transduction, or you can zoom in on all the receptor tyrosine kinases. This structure also allows annotators to assign properties to gene products at different levels, depending on how much is known about a gene product.
 
@@ -101,7 +101,7 @@ FAQ tags: 
 
 To ask meaningful questions, biologists often need to retrieve and analyse data from disparate sources. For example, if you were searching for new targets for antibiotics, you might want to find all the gene products that are involved in bacterial protein synthesis, but that have significantly different sequences or structures from those in humans. But if one database describes these molecules as being involved in 'translation', whereas another uses the phrase 'protein synthesis', it will be difficult for you - and even harder for a computer - to find functionally equivalent terms.
 
-The Gene Ontology (GO) project is a collaborative effort to address the need for consistent descriptions of gene products in different databases. The GO collaborators are developing three ontologies - a word used by computer scientists to mean 'specifications of a relational vocabulary' - that describe biological processes, cellular components and molecular functions in a species-independent manner.
+The Gene Ontology (GO) knowledgebase is a collaborative effort to address the need for consistent descriptions of gene products in different databases. The GO collaborators are developing three ontologies - a word used by computer scientists to mean 'specifications of a relational vocabulary' - that describe biological processes, cellular components and molecular functions in a species-independent manner.
 
 Ontologies provide a vocabulary for representing and communicating knowledge about a topic, and a set of relationships that hold among the terms of the vocabulary. They can be structurally very complex, or relatively simple. Most importantly, ontologies capture domain knowledge in a way that can easily be dealt with by a computer . Because the terms in an ontology and the relationships between the terms are carefully defined, the use of ontologies facilitates making standard annotations, improves computational queries, and can support the construction of inference statements from the information at hand.
 
@@ -117,7 +117,7 @@ FAQ tags: 
 [general](/faq-tags/general)
 {:/comment}
 
-The current ontologies of the GO project are molecular function, biological process, and cellular component. The ontologies are developed to include all terms falling into these domains without consideration of whether the biological attribute is restricted to certain taxonomic groups. Therefore, biological processes that occur only in plants (e.g. photosynthesis) or mammals (e.g. lactation) are included. Other biological ontologies are discussed in the [OBO web site](http://www.obofoundry.org/){:target="blank"}.
+The current ontologies of the GO are molecular function, biological process, and cellular component. The ontologies are developed to include all terms falling into these domains without consideration of whether the biological attribute is restricted to certain taxonomic groups. Therefore, biological processes that occur only in plants (e.g. photosynthesis) or mammals (e.g. lactation) are included. Other biological ontologies are discussed in the [OBO web site](http://www.obofoundry.org/){:target="blank"}.
 
 ---------------------------------------------------------------------------
 ## What is GO "content"?
@@ -198,7 +198,7 @@ FAQ tags: 
 
 **We welcome your contributions!**
 
-The GO project is constantly evolving, and we welcome feedback from all users. Research groups may contribute to the GOC by either providing suggestions for updating the ontology (e.g. requests for new terms) or by providing annotations, that is, associations between genes or gene products and ontology terms. Suggested edits are reviewed by the ontology editors and implemented where appropriate.
+The GO knowledgebase is constantly evolving, and we welcome feedback from all users. Research groups may contribute to the GOC by either providing suggestions for updating the ontology (e.g. requests for new terms) or by providing annotations, that is, associations between genes or gene products and ontology terms. Suggested edits are reviewed by the ontology editors and implemented where appropriate.
 
 To learn more about the best approach to contributing GO annotations, please visit our documentation on [Contributing annotations](http://geneontology.org/page/contributing-go). To suggest updates to the ontology please visit our documentation on [Contributing to GO](http://geneontology.org/page/contributing-to-go-terms).
 
@@ -214,7 +214,7 @@ FAQ tags: 
 [consortium](/faq-tags/consortium)
 {:/comment}
 
-Back in 1998, the GO project began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](http://geneontology.org/page/go-consortium-contributors-list) of the Gene Ontology Consortium.
+Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](http://geneontology.org/page/go-consortium-contributors-list) of the Gene Ontology Consortium.
 
 ---------------------------------------------------------------------------
 ## How do I become a member of the GO Consortium?
@@ -317,7 +317,7 @@ FAQ tags: 
 
 **We welcome your contributions!**
 
-We welcome contributions to the Gene Ontology project, both in terms of annotations and for feedback and additions to the ontology.
+We welcome contributions to the Gene Ontology knowledgebase, both in terms of annotations and for feedback and additions to the ontology.
 
 Before making contributions, we recommend that you [contact the Gene Ontology Consortium (GOC)](http://help.geneontology.org/) *before* annotation work is carried out; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
@@ -1191,7 +1191,7 @@ FAQ tags: 
 
 Ontology files are available in OBO, OWL, and some files are available in JSON. Refer to the [ontology downloads page](/docs/download-ontology/) for information on ontology files.
 
-Annotations are available in GAF (Gene Association File), or by the companion files Gene Product Association Data (GPAD) + Gene Product Information (GPI). For general introduction to the project's annotation file formats, see [GAF 2.2](/docs/go-annotation-file-gaf-format-2.2/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/)/[GPI file](/docs/gene-product-information-gpi-format/) pages.
+Annotations are available in GAF (Gene Association File), or by the companion files Gene Product Association Data (GPAD) + Gene Product Information (GPI). For general introduction to the Gene Ontology's annotation file formats, see [GAF 2.2](/docs/go-annotation-file-gaf-format-2.2/) and [GPAD file format](/docs/gene-product-association-data-gpad-format/)/[GPI file](/docs/gene-product-information-gpi-format/) pages.
 
 ---------------------------------------------------------------------------
 ## What is a GAF file?
