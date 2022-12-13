@@ -971,7 +971,7 @@ Full documentation for downloading and installing AmiGO is [available on the GO 
 
 GO-CAM stands for Gene Ontology Causal Activity Model. GO-CAMs link
 multiple standard GO annotations into an integrated model of a biological
-system. More information can be found on the [GO-CAM site](http://geneontology.org/cam).
+system. More information can be found on the [GO-CAM site](http://geneontology.org/go-cam).
 
 ---------------------------------------------------------------------------
 ## How does the information in GO-CAMs compare to existing pathway databases?
@@ -1245,7 +1245,7 @@ by the GO.
 The native representation for GO-CAMs is the Web Ontology Language
 ([OWL](https://www.w3.org/OWL){:target="blank"}). Standard [RDF](https://www.w3.org/RDF){:target="blank"} exchange formats such as RDF/XML and Turtle can be used for GO-CAMs.
 
-Downloads can be found on the [GO-CAM site](http://geneontology.org/cam).
+Individual files can be found on [GitHub](https://github.com/geneontology/noctua-models).
 
 ---------------------------------------------------------------------------
 ## What is an OWL file?
