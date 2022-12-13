@@ -26,7 +26,7 @@ GO releases official versions on a monthly basis.  The annotation and ontology l
 [*__Download DOI-versioned bundles here__*](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
 
 + Complete archives of each monthly GO release from `2018-08-09`
-+ Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}.
++ Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
 + Interested in a smaller or more flexible DOI versioned bundles? Holey (reference) BDBag available at [Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159 "DOI versioned holey BDBag"){:target="_blank"}
 
 ## Archives
