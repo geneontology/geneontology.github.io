@@ -9,7 +9,7 @@ Many Gene Ontology terms are cross-referenced to corresponding concepts from a n
 
 ## Using and citing cross-references and mappings
 
-If you have used a mapping in a publication or presentation, please ensure that you cite both the GO project and the source of the mapping (detailed below). See the [GO citation guide](/docs/go-citation-policy/) for citing the GO project.
+If you have used a mapping in a publication or presentation, please ensure that you cite both the GO knowledgebase and the source of the mapping (detailed below). See the [GO citation guide](/docs/go-citation-policy/) for citing the GO knowledgebase.
 
 ## Cross-references format
 
