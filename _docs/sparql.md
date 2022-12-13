@@ -11,7 +11,7 @@ To support the creation, storage and querying of GO-CAMs, GO is relying on [RDF]
 
 In the following document, we present some notions of RDF, OWL and SPARQL to get an understanding of how the GO SPARQL endpoint is structured and how to create queries to retrieve specific pieces of knowledge.
 
-[ [Try the GO SPARQL endpoint](http://sparql.geneontology.org/blazegraph/#query){:target="blank"} ]
+[ [Try the GO SPARQL endpoint](http://geneontology.org/sparql){:target="blank"} ]
 
 
 ## Resource Description Framework (RDF)
@@ -253,9 +253,9 @@ SELECT distinct ?gocam WHERE {
 }
 ```
 
-To test and refine those queries, [ [Try the GO SPARQL endpoint](http://sparql.geneontology.org/blazegraph/#query){:target="blank"} ] or use an external SPARQL editor such as [ [YASGUI](http://yasgui.triply.cc/#){:target="blank"} ]. With external editors, be sure to specify the GO SPARQL endpoint: `http://rdf.geneontology.org/blazegraph/sparql`.
+To test and refine those queries, [ [Try the GO SPARQL endpoint](http://geneontology.org/sparql){:target="blank"} ] or use an external SPARQL editor such as [ [YASGUI](http://yasgui.triply.cc/#){:target="blank"} ]. With external editors, be sure to specify the GO SPARQL endpoint: `http://rdf.geneontology.org/blazegraph/sparql`.
 
 ## Federated Queries
-Lastly, Federated Queries. Those specific types of queries are designed to retrieve specific pieces of information from multiple SPARQL endpoints (e.g. sparql.geneontology.org, sparql.uniprot.org, sparql.wikipathway.org, etc). The concept of federated queries rely on the selection and sharing of unique IRIs to describe in a consistent way each entity across RDF stores. If a gene is universally identified by an IRI, then it one can request data about that gene across multiple databases in a single query. This technique, albeit powerful can however suffer from latency and can fail if any of the endpoint is unavailable. If you are mapping IDs between different endpoints, it's critical to ensure you are gathering data about the same entity. [ [Learn more about Federated Queries](https://www.w3.org/TR/sparql11-federated-query/){:target="blank"} ].
+Lastly, Federated Queries. Those specific types of queries are designed to retrieve specific pieces of information from multiple SPARQL endpoints (e.g. rdf.geneontology.org, sparql.uniprot.org, sparql.wikipathway.org, etc). The concept of federated queries rely on the selection and sharing of unique IRIs to describe in a consistent way each entity across RDF stores. If a gene is universally identified by an IRI, then it one can request data about that gene across multiple databases in a single query. This technique, albeit powerful can however suffer from latency and can fail if any of the endpoint is unavailable. If you are mapping IDs between different endpoints, it's critical to ensure you are gathering data about the same entity. [ [Learn more about Federated Queries](https://www.w3.org/TR/sparql11-federated-query/){:target="blank"} ].
 
 > This was a primer on how to use the GO SPARQL endpoint, but there are many other features not described here. We encourage users of the SPARQL endpoint to learn more about SPARQL [here](https://www.w3.org/TR/sparql11-overview/){:target="blank"} and to contact us if they have questions through the [GO Helpdesk](http://help.geneontology.org/){:target="blank"}
