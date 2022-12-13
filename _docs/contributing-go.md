@@ -19,7 +19,7 @@ Researchers who notice either missing or inaccurate annotations for a gene or a 
 * Alternatively, contact the [GO helpdesk](http://help.geneontology.org/){:target="blank"} with your request.
 
 ## Contributing new GO annotations
-Research groups who wish to generate GO annotations, for instance new annotations for genes of a species that is not currently annotated in  GO, annotating specific genes for a given biological research domain, can contribute these annotations to the GO database.
+Research groups who wish to generate GO annotations, for instance new annotations for genes of a species that is not currently annotated in  GO, annotating specific genes for a given biological research domain, can contribute these annotations to the GO knowledgebase.
 
 ## Contributing your expertise
 The Gene Ontology Consortium welcomes contributions from experts in any area of biology to help us improve the annotations. [Contact us](mailto:help@geneontology.org) to start contributing to the GO annotations. 
