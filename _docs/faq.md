@@ -63,7 +63,7 @@ FAQ tags: 
 [general](/faq-tags/general)
 {:/comment}
 
-The Gene Ontology (GO) project is a collaborative effort to address the need for consistent descriptions of gene products in different databases. The GO collaborators are developing three structured, controlled vocabularies (ontologies) that describe gene products in terms of their associated biological processes, cellular components and molecular functions in a species-independent manner. There are three separate aspects to this effort: first, we write and maintain the ontologies themselves; second, we make cross-links between the ontologies and the genes and gene products in the collaborating databases; and third, we develop tools that facilitate the creation, maintenance and use of ontologies.
+The Gene Ontology (GO) knowledgebase is a collaborative effort to address the need for consistent descriptions of gene products in different databases. The GO collaborators are developing three structured, controlled vocabularies (ontologies) that describe gene products in terms of their associated biological processes, cellular components and molecular functions in a species-independent manner. There are three separate aspects to this effort: first, we write and maintain the ontologies themselves; second, we make cross-links between the ontologies and the genes and gene products in the collaborating databases; and third, we develop tools that facilitate the creation, maintenance and use of ontologies.
 
 The use of GO terms by several collaborating databases facilitates uniform queries across them. The controlled vocabularies are structured so that you can query them at different levels: for example, you can use GO to find all the gene products in the mouse genome that are involved in signal transduction, or you can zoom in on all the receptor tyrosine kinases. This structure also allows annotators to assign properties to gene products at different levels, depending on how much is known about a gene product.
 
@@ -143,7 +143,7 @@ FAQ tags: 
 
 There are a number of possibilities for how researchers can make use of the GO.
 
-The Gene Ontology website (<http://geneontology.org/>) is a very good place to begin learning about our resources, how they are produced, and how we maintain them. It also illustrates how the research community most commonly makes use of these resources and how they can contribute. Exploring the items under the **"Ontology"** and **"Annotations"** on the menu will provide you with a very informative overview.
+The Gene Ontology website (<http://geneontology.org/>) is a very good place to begin learning about our knowledgebase, how our resources are produced, and how we maintain them. It also illustrates how the research community most commonly makes use of these resources and how they can contribute. Exploring the items under the **"Ontology"** and **"Annotations"** on the menu will provide you with a very informative overview.
 
 For more detail, please consult the open access [*The Gene Ontology Handbook*](https://link.springer.com/book/10.1007/978-1-4939-3743-1), available online and as a downloadable PDF. As well as [GO best practices](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_4) and [a discussion on the meaning of "function"](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_2), this text covers everything from [introducing ontologies](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_1), to [using GO resources in Python](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_16), and even how [GO and similar ontologies may be used in clinical settings](https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_20). 
 
@@ -933,7 +933,7 @@ GO Central recommends that GAF annotations are made to genes, that is 1:1 equiva
 
 This is a very important difference, one that users can see when comparing UIs, but more importantly, it is about the underlying datasets and whether a gene-centric or protein-centric worldview is chosen.
 
-Additionally, GO Central omits the majority of the sequences and IEA \[electronic\] annotations from UniProtKB from the weekly database builds due to the large size of the data set. For those species with a dedicated authoritative database group, such as *Drosophila*, mouse or *Saccharomyces*, UniProtKB annotations are collected and submitted by the dedicated group, and hence the UniProtKB IEA annotations for these species do appear in the GO database. As an NHGRI funded resource, GO Central focuses on annotations that elucidate human genes or genes of relevance to human health in some way. GO Central also includes plants, as well as the 200 genomes of the [Quest for Orthologs](https://questfororthologs.org/) project. More datasets will be supported depending on available resources.
+Additionally, GO Central omits the majority of the sequences and IEA \[electronic\] annotations from UniProtKB from the weekly database builds due to the large size of the data set. For those species with a dedicated authoritative database group, such as *Drosophila*, mouse or *Saccharomyces*, UniProtKB annotations are collected and submitted by the dedicated group, and hence the UniProtKB IEA annotations for these species do appear in the GO database. As an NHGRI funded knowledgebase, GO Central focuses on annotations that elucidate human genes or genes of relevance to human health in some way. GO Central also includes plants, as well as the 200 genomes of the [Quest for Orthologs](https://questfororthologs.org/) project. More datasets will be supported depending on available resources.
 
 ---------------------------------------------------------------------------
 ## What is the best way to link into AmiGO? 
@@ -1338,7 +1338,7 @@ For current download information, please see:
  Please [contact us](https://help.geneontology.org/) if you cannot locate what you were looking for. 
 
 
-If you are here because your file or source is no longer available, we invite you to follow us on [Twitter (@news4go)](https://twitter.com/news4go), [Facebook (/geneontology)](www.facebook.com/geneontology), [GitHub go-announcements repo](https://github.com/geneontology/go-announcements/issues) or join our [go-friends email list](https://help.geneontology.org/) to stay current with significant changes to the GO Resource.
+If you are here because your file or source is no longer available, we invite you to follow us on [Twitter (@news4go)](https://twitter.com/news4go), [Facebook (/geneontology)](www.facebook.com/geneontology), [GitHub go-announcements repo](https://github.com/geneontology/go-announcements/issues) or join our [go-friends email list](https://help.geneontology.org/) to stay current with significant changes to the GO knowledgebase.
 
 ---------------------------------------------------------------------------
 # Database Access
@@ -1357,7 +1357,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-AmiGO and the GO relational database servers are a shared resource and thus we require data mining to be performed in a manner that allows others to utilize this resource at the same time. Any activity that mines the GO database or uses AmiGO must be controlled so that only one request is made at a time. If this is not sufficient, you may download and install the database locally. You can also retrieve all the source files that define the data within the database. More details on the database, including downloads and installation, can be found in the GO [database guide](/page/lead-database-guide).
+AmiGO and the GO relational database servers are a shared resource and thus we require data mining to be performed in a manner that allows others to utilize this knowledgebase at the same time. Any activity that mines the GO database or uses AmiGO must be controlled so that only one request is made at a time. If this is not sufficient, you may download and install the database locally. You can also retrieve all the source files that define the data within the database. More details on the database, including downloads and installation, can be found in the GO [database guide](/page/lead-database-guide).
 
 For more information please contact the [GO helpdesk](/form/contact-go).
 
@@ -1415,7 +1415,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-While the GO MySQL database is currently considered to be in "legacy" mode, meaning that there will likely not be any new developments on it, it is a widely used and convenient resource for many types of queries. More information about it can be found in the [GO MySQL Database Guide](/page/go-mysql-database-guide).
+While the GO MySQL database is to be in "legacy" mode, meaning that there will likely not be any new developments on it, it is a widely used and convenient resource for many types of queries. More information about it can be found in the [GO MySQL Database Guide](/page/go-mysql-database-guide).
 
 ---------------------------------------------------------------------------
 {::comment}
