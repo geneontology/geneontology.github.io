@@ -30,7 +30,7 @@ GO releases official versions on a monthly basis.  The annotation and ontology l
 + Interested in a smaller or more flexible DOI versioned bundles? Holey (reference) BDBag available at [Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159 "DOI versioned holey BDBag"){:target="_blank"}
 
 ## Archives
-[*__Access the Gene Ontology Data Archive here__*](http://release.geneontology.org/){:target="blank"} ]
+[*__Access the Gene Ontology Data Archive here__*](http://release.geneontology.org/){:target="blank"}
 
 + Versioned and browsable releases from `2004-03-01` to present; contents of each release vary based on date
 + For information about the archived files and construction of the archive, [see the Archives page](/docs/go-archives/)
