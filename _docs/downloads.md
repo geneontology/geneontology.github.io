@@ -9,7 +9,7 @@ redirect_from:
 <!--We will soon add more documentation about the structure of these repositories.-->
 # Downloads overview
 GO releases official versions on a monthly basis.  The annotation and ontology links below provide the latest version of files in the format specified. 
-<!--To always resolve to the newest available release, use <http://current.geneontology.org>{:target="_blank"}. -->
+To always resolve to the newest available release, use <http://current.geneontology.org>{:target="_blank"}.
 
 ## Ontology
 [*__Download the ontology here__*](/docs/download-ontology/ "Download ontology")
