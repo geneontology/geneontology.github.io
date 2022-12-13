@@ -12,7 +12,7 @@ redirect_from:
 ---
 Mission Statement: The mission of the GO Consortium is to develop an up-to-date, comprehensive, computational model of biological systems, from the molecular level to larger pathways, cellular and organism-level systems.
 
-The Gene Ontology resource provides a computational representation of our current scientific knowledge about the functions of genes (or, more properly, the protein and non-coding RNA molecules produced by genes) from many different organisms, from humans to bacteria.  It is widely used to support scientific research, and has been cited in tens of thousands of publications.
+The Gene Ontology knowledgebase provides a computational representation of our current scientific knowledge about the functions of genes (or, more properly, the protein and non-coding RNA molecules produced by genes) from many different organisms, from humans to bacteria.  It is widely used to support scientific research, and has been cited in tens of thousands of publications.
 
 Understanding gene function—how individual genes contribute to the biology of an organism at the molecular, cellular and organism levels—is one of the primary aims of biomedical research. Moreover, experimental knowledge obtained in one organism is often applicable to other organisms, particularly if the organisms share the relevant genes because they inherited them from their common ancestor. The Gene Ontology (GO), as a consortium, began in 1998 when researchers studying the genome of three model organisms—*Drosophila melanogaster* (fruit fly), *Mus musculus* (mouse), and *Saccharomyces cerevisiae* (brewer's or baker's yeast)—agreed to work collaboratively on a common classification scheme for gene function, and today the number of different organisms represented in GO is in the thousands. GO makes it possible, in a flexible and dynamic way, to provide comparable descriptions of homologous gene and protein sequences across the phylogenetic spectrum.
 
@@ -28,14 +28,14 @@ Together, the ontology and annotations provide a comprehensive model of biologic
 In addition to this core knowledgebase, GO resources also include software to edit and perform logical reasoning over the ontologies, web access to the ontology and annotations, and analytical tools that use GO to support biomedical research.
 
 ### Uses of the GO and annotations
-The GO resource plays an essential role in supporting biomedical research and has been used in tens of thousands of scientific studies. The most common use of GO annotations is for interpretation of large-scale molecular biology experiments, sometimes called "omics" experiments. Whether, genomics, transcriptomics, proteomics, or metabolomics, these experiments pool biological molecules to gain insight into the structure, function, and dynamics of an organism. ["Gene Ontology enrichment analysis"](/docs/go-enrichment-analysis) is used to discover statistically significant similarities or differences under alternate controlled experimental conditions.
+The GO knowledgebase plays an essential role in supporting biomedical research and has been used in tens of thousands of scientific studies. The most common use of GO annotations is for interpretation of large-scale molecular biology experiments, sometimes called "omics" experiments. Whether, genomics, transcriptomics, proteomics, or metabolomics, these experiments pool biological molecules to gain insight into the structure, function, and dynamics of an organism. ["Gene Ontology enrichment analysis"](/docs/go-enrichment-analysis) is used to discover statistically significant similarities or differences under alternate controlled experimental conditions.
 
-You can [explore the scientific publications](/docs/literature/) that have used the Gene Ontology resource.
+You can [explore the scientific publications](/docs/literature/) that have used the Gene Ontology knowledgebase.
 
 ### Funding
 The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989){:target="blank"}.
 
-### Further reading about the Gene Ontology resource
+### Further reading about the Gene Ontology knowledgebase
 For further guidance and reading, please see the following publications:
 
 * [Ten Quick Tips for Using the Gene Ontology](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003343){:target="blank"}
