@@ -1,7 +1,8 @@
 ---
 title: About the GO
-permalink: /docs/introduction-to-go-resource/
+permalink: /docs/introduction-to-go
 redirect_from: 
+- /docs/introduction-to-go-resource/
 - /page/introduction-go-resource
 - /book/documentation/file-format-guide
 - /GO.database.shtml
