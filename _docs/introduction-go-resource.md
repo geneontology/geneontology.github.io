@@ -11,7 +11,9 @@ redirect_from:
 
 # About the GO
 ---
-Mission Statement: The mission of the GO Consortium is to develop an up-to-date, comprehensive, computational model of biological systems, from the molecular level to larger pathways, cellular and organism-level systems.
+### Mission Statement
+
+The mission of the GO Consortium is to develop an up-to-date, comprehensive, computational model of biological systems, from the molecular level to larger pathways, cellular and organism-level systems.
 
 The Gene Ontology knowledgebase provides a computational representation of our current scientific knowledge about the functions of genes (or, more properly, the protein and non-coding RNA molecules produced by genes) from many different organisms, from humans to bacteria.  It is widely used to support scientific research, and has been cited in tens of thousands of publications.
 
