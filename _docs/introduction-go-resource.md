@@ -33,6 +33,14 @@ The GO knowledgebase plays an essential role in supporting biomedical research a
 
 You can [explore the scientific publications](/docs/literature/) that have used the Gene Ontology knowledgebase.
 
+### The GO and the Alliance of Genome Resources
+In 2016, the GO knowledgebase partnered with six model organism databases (MODs) to form the [Alliance of Genome Resources](https://www.alliancegenome.org){:target="blank"}.  The mission of the Alliance is to provide a comprehensive, sustainable resource that unites the diverse information available from each member.  GO annotations, combined with data from each of the MODs, presented in the Alliance are not only important to researchers in each of the represented organisms, but also to researchers and clinicians interested in the genetic and genomic basis of human biology, health, and disease. 
+
+The founding MODs that partnered with the GO are [Flybase](https://flybase.org/){:target="blank"}, [Mouse Genome Database (MGI)](http://www.informatics.jax.org/){:target="blank"}, [Rat Genome Database (RGD)](https://rgd.mcw.edu/){:target="blank"}, [*Saccharomyces* Genome Database(SGD)](https://www.yeastgenome.org/){:target="blank"}, [WormBase](https://wormbase.org){:target="blank"}, [Zebrafish Information Network(ZFIN)](https://zfin.org/){:target="blank"}; in 2022 [Xenbase](https://www.xenbase.org/entry/){:target="blank"} joined the Alliance.
+
+### The GO and the Global Biodata Coalition
+The [Global Biodata Coalition (GBC)](https://globalbiodata.org){:target="blank"}, founded in 2019, is a forum working to ensure the efficient management and growth of biodata infastructure by coordinating funding at the global level. In December 2022, the GBC announced their first set of Global Core Biodata Resources (GCBRs).  The GO was included in this select group of 37 GCBRs. Among other critera, GCBRs selection was based on their status as authorative databases or knowledgebases that are used extensively, have a proven longevity, and provide free and open access to their high quality data. For more information and to view the full list of GCBRs, [visit the GBC Global Core Biodata Resource page](https://globalbiodata.org/scientific-activities/global-core-biodata-resources/){:target="blank"}
+
 ### Funding
 The GO Consortium is funded by the National Human Genome Research Institute (US National Institutes of Health), grant number [HG002273](https://projectreporter.nih.gov/project_info_details.cfm?aid=9209989){:target="blank"}.
 
