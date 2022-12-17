@@ -16,6 +16,17 @@ cd geneontology.github.io
 bundle install
 ```
 
+More specifically, as versions have rather moved on at this point, we can reproduce with:
+
+```
+git clone https://github.com/geneontology/geneontology.github.io.git
+cd geneontology.github.io
+docker run --network host -v `pwd`:'/work' -w /work -i -t ubuntu:focal /bin/bash
+apt-get update && apt-get -u install bundler
+gem install bundler:2.2.3
+bundler install
+```
+
 ## Running locally
 ```
 bundle exec jekyll serve
