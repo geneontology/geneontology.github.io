@@ -48,6 +48,31 @@ The GO logo is available in four sizes. For reuse, please do not hotlink images,
 
 Gene Ontology Consortium data and data products are licensed under the [Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/legalcode){:target="blank"}. A human-readable version and explanation is available at the [Creative Commons website](https://creativecommons.org/licenses/by/4.0/){:target="blank"}. For information about how to properly credit data use, please review the [Creative Commons FAQ](http://wiki.creativecommons.org/Frequently_Asked_Questions){:target="blank"} or contact the GO Helpdesk.
 
+We ask that when citing GO data that the particular release is mentioned. For example, we'd ask that the date (e.g. "2023-01-01") is included where applicable, and optionally the Zenodo DOI (e.g. "10.5281/zenodo.7504797"). Links, where applicable, would be a useful addition for end-users.
+
+### Attribution
+
+According to the terms of GO's [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode#s3a1), those using our data publicly or redistributing it must provide:
+
+* "identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);"
+*  "a copyright notice;"
+*  "a notice that refers to this Public License;"
+*  "a notice that refers to the disclaimer of warranties;"
+*  "a URI or hyperlink to the Licensed Material to the extent reasonably practicable;"
+
+"...in any reasonable manner based on the medium, means, and context...".
+
+For example, if you are offering downloads containing GO data, have a data licensing page in your application, or refer to licensed data in your documentation, an appropriate notice may be:
+
+> (Gene Ontology)[http://geneontology.org] data from the (2023-01-01 release)[http://release.geneontology.org/2023-01-01] ((DOI:10.5281/zenodo.7504797)[https://doi.org/10.5281/zenodo.7504797]) is made available under the terms of the (CC BY 4.0 license)[https://creativecommons.org/licenses/by/4.0/legalcode].
+
+For further reading, suggest:
+
+* [Creative Commons Recommended Practices for Attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution)
+* [Creative Commons FAQ](https://creativecommons.org/faq/)
+
+### Software
+
 GOC software and tools are under their own licenses; please see their respective homepages for further details.
 
 ## Website disclaimer
