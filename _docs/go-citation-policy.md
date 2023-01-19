@@ -64,7 +64,8 @@ According to the terms of GO's [CC BY 4.0 license](https://creativecommons.org/l
 
 For example, if you are offering downloads containing GO data, have a data licensing page in your application, or refer to licensed data in your documentation, an appropriate notice may be:
 
-> (Gene Ontology)[http://geneontology.org] data from the (2023-01-01 release)[http://release.geneontology.org/2023-01-01] ((DOI:10.5281/zenodo.7504797)[https://doi.org/10.5281/zenodo.7504797]) is made available under the terms of the (CC BY 4.0 license)[https://creativecommons.org/licenses/by/4.0/legalcode].
+<p style="padding:1em;">(Gene Ontology)[http://geneontology.org] data from the (2023-01-01 release)[http://release.geneontology.org/2023-01-01] ((DOI:10.5281/zenodo.7504797)[https://doi.org/10.5281/zenodo.7504797]) is made available under the terms of the (CC BY 4.0 license)[https://creativecommons.org/licenses/by/4.0/legalcode].
+</p>
 
 For further reading, suggest:
 
