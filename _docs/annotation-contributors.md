@@ -55,19 +55,6 @@ The GO Consortium integrates resources from a variety of research groups, from m
 |[Xenbase](https://www.xenbase.org/entry/){:target="blank"} | Xenbase's mission is to provide the international research community with a comprehensive, integrated and easy to use web based resource that gives access the diverse and rich genomic, expression and functional data available from *Xenopus* research | Xenbase is supported by NICHD P41 HD064556 from the Eunice Kennedy Shriver National Institute of Child Health and Human Development | [Xenbase](https://www.xenbase.org/entry/static-xenbase/contactUs.jsp){:target="blank"}|
 |[Zebrafish Information Network (ZFIN)](http://zfin.org/){:target="blank"}| 	The Zebrafish Model Organism Database is the community resource for genetic and genomic data involving zebrafish *Danio rerio*| ZFIN is funded by the National Human Genome Research Institute of the National Institutes of Health [HG002659]	|  	[ZFIN](mailto:curators@zfin.org)|
 
-## Ontologies imported by the GO Consortium
-
-The following ontologies are imported into GO:
-
-|Name |	Description |	Contact|
-|-----|-------------|--------|
-|[Cell Type Ontology (CL)](http://cellontology.org/){:target="blank"} |	The Cell Ontology (CL) is a candidate OBO Foundry ontology for the representation of cell types. |	[CL SourceForge tracker](https://sourceforge.net/p/obo/cell-ontology-cl-requests/){:target="blank"}|
-|[Chemical Entities of Biological Interest (ChEBI)](http://www.ebi.ac.uk/chebi/){:target="blank"} |	Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds. |	[ChEBI web submission form](http://www.ebi.ac.uk/chebi/emailChebiForward.do){:target="blank"}|
-|[Evidence Ontology (ECO)](http://www.evidenceontology.org/){:target="blank"}| The Evidence Ontology (ECO) is an ontology for describing biological research evidence that is used to support assertions. 	 |[ECO GitHub](https://github.com/evidenceontology/evidenceontology/issues/new){:target="blank"}|
-|[Plant Ontology (PO)](http://www.plantontology.org/){:target="blank"}| 	Plant Ontology project is a major international bioinformatics effort on standardizing the nomenclature, definitions, synonyms and relations of various terms/keywords/vocabularies that describe anatomical entities as well as the growth and developmental stages of plants. |	[PO web submission form](http://www.plantontology.org/contact){:target="blank"}|
-|[Protein Ontology (PRO)](http://pir.georgetown.edu/pro/){:target="blank"} |	Development of ontological representation of protein-related entities and the relationships between them; funded by the National Human Genome Research Institute at the U.S. National Institutes of Health R01 GM080646 |	[PRO](https://sourceforge.net/p/pro-obo/term-requests/){:target="blank"}|
-|[Uber Anatomy Ontology (Uberon)](http://uberon.github.io/){:target="blank"} |	Uberon is an integrated cross-species ontology covering anatomical structures in animals. 	| [Uberon help](mailto:cjmungall@lbl.gov)|
-
 ## Past GO Consortium contributing groups
 
 These groups have contributed to the GO Consortium in the past:
