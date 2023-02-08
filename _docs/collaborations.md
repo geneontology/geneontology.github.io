@@ -16,7 +16,9 @@ The GO Consortium collaborates with many other groups on a wide variety of topic
 - *__S. pombe__* __annotations__: Jacqueline	Hayles
 - __Extracellular matrix__: Rachel Lennon, Geoff Meyer, Jeff Miner, Sylvie Ricard-Blum, David Sherwood, Peter Yurchenco
 
-## Integration with other ontologies
+## Ontologies imported by the GO Consortium
+
+The following ontologies are imported into GO:
 
 |__Name__ |	__Description__ |	__Contact__|
 |-----|-------------|--------|
