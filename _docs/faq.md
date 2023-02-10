@@ -728,10 +728,10 @@ You can find the number of terms on each of the ontologies two ways:
 ** This action will send you to the ['Information about Ontology search'](http://amigo.geneontology.org/amigo/search/ontology){:target="blank"} page. There, open the 'Ontology source' filter menu on the left.
 
 
-As of January 2021 (2021-01-01), the number of terms on per ontology were:
--   28,758 Biological process
--   11,148 Molecular Function
--   4,185 Celular component
+As of January 2023 (2023-01-01), the number of terms on per ontology were:
+-   27,942 Biological process
+-   11,263 Molecular Function
+-   4,043 Celular component
 
 Please note that the number of terms changes between releases: new terms are created, existing terms may be merged, and some terms are obsoleted to reflect the current understanding of biology. This is why it is essential to provide a release version when citing the GO.
 
