@@ -721,11 +721,11 @@ FAQ tags: 
 
 You can find the number of terms on each of the ontologies two ways:
 * Go to [our Release statistics](/stats.html)
-** The Ontology section will have counts for Biological Process, Molecular Function, and Cellular Component terms.
+  * The Ontology section will have counts for Biological Process, Molecular Function, and Cellular Component terms.
 
 * Go to [AmiGO](http://amigo.geneontology.org/){:target="blank"}:
-** Under the 'Advanced Search' section in the middle of the page, use the drop-down menu to choose "Ontology". You don't need to type anything on the 'Quick search' box.
-** This action will send you to the ['Information about Ontology search'](http://amigo.geneontology.org/amigo/search/ontology){:target="blank"} page. There, open the 'Ontology source' filter menu on the left.
+  * Under the 'Advanced Search' section in the middle of the page, use the drop-down menu to choose "Ontology". You don't need to type anything on the 'Quick search' box.
+  * This action will send you to the ['Information about Ontology search'](http://amigo.geneontology.org/amigo/search/ontology){:target="blank"} page. There, open the 'Ontology source' filter menu on the left.
 
 
 As of January 2023 (2023-01-01), the number of terms on per ontology were:
