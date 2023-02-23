@@ -75,30 +75,29 @@ Leaders of key contributing resources.
 | H.Y.	Chang | J. Cho | Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani |
 | Elisabeth	Coudert | N. Del-Toro | Jeff De Pons | Alex	Diehl | Robert J.	Dodson |
 | Mary E.	Dolan | Harold	Drabkin | Paula	Duek-Roggli | Corina	Duenas | M.J.	Duesbury |
-| Melinda R Dwinell | Dustin	Ebert | Stacia Engel | Meltem Erdol | Anne	Estreicher |
-| Antonio	Fabregat | Kathleen	Falls | Livia	Famiglietti |	David	Fashena | Marc Feuermann |
-| Petra Fey | Matt Gage | Sibyl	Gao | Phani	Garapati | Michelle	Giglio |
-| Benjamin	Good | Josh L. Goodman | Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski |
-| Midori	Harris | Nomi L.	Harris | M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis |
-| G. Thomas Hayman | Ursula	Hinz | A.	Holmes | Doug	Howe | Xiaosong	Huang |
+| Melinda R Dwinell | Dustin	Ebert | Stacia Engel | Anne	Estreicher | Antonio	Fabregat |
+| Kathleen	Falls | Livia	Famiglietti |	David	Fashena | Marc Feuermann | Petra Fey |
+| Matt Gage | Sibyl	Gao | Phani	Garapati | Michelle	Giglio | Benjamin	Good |
+| Josh L. Goodman | Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski | Midori	Harris |
+| Nomi L.	Harris | M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis | G. Thomas Hayman |
+| Ursula	Hinz | A.	Holmes | Doug	Howe | Siyao Huang | Xiaosong	Huang |
 | Chantal	Hulo | H.	Hye-A-Bye | Alexandr 	Ignatchenko | T.E.M.	Jones | Florence	Jungo |
-| Mohamed A Kadhum | Mary Kaldunski | Kalpana	Karra | Ingrid	Keseler | M.	Koch |
-| Kati	Laiho | Colin Logie | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier |
-| Damien	Lieberherr | Antonia	Lock | A.	MacDougall | Michele	Magrane | Marios Makris |
-| Steven J. Marygold | Patrick	Masson | Lisa	Matthews | Bruce	May | Birgit H.M. Meldal |
-| J.	Mendel | Aleksandra Michalak | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato |
-| Sierra	Moxon | Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama | S.	Nadendla |
-| Rob	Nash | Darren A.	Natale | Li	Ni | Ivo	Pedruzzi | Livia	Perfetto |
-| Christian	Pich | Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel |
-| Armalya Pritazahra | Federica Quaglia | D.	Raciti | Sridhar Ramachandran | Jolene Ramsey |
-| N.D.	Rawlings | Leonore	Reiser | Catherine	Rivoire | Curtis Ross | Kim	Rutherford |
-| Leyla	Ruzicka | Edoardo Salladini | A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper |
-| Matt	Simison | Amy	Singer | Dmitry	Sitnikov | Marek S.	Skrzypek | E.	Speretta |
-| Victor B. Strelets | Shabari	Subramaniam | S. Sundaram | Christopher J. Tabone | R.	Tauber |
-| Jim Thurmond | Silvio Tosatto | V.	Trovisco | Marek Tutaj | N.	Tyagi |
-| Ceri	Van Slyke | Mahima Vedi | Shur-Jen Wang | K.	Warner | Shuai	Weng |
-| Edith D.	Wong | Cathy	Wu |	Z.	Xie | L.-S.	Yeh | R.	Zaru |
-| Pinglei Zhou |
+| Mary Kaldunski | Kalpana	Karra | Ingrid	Keseler | M.	Koch | Kati	Laiho |
+| Colin Logie | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr |
+| Antonia	Lock | A.	MacDougall | Michele	Magrane | Marios Makris | Steven J. Marygold |
+| Patrick	Masson | Lisa	Matthews | Bruce	May | Birgit H.M. Meldal | J.	Mendel |
+| Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato | Lisa Moore | Sierra	Moxon |
+| Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama | S.	Nadendla | Rob	Nash |
+| Darren A.	Natale | Li	Ni | Ivo	Pedruzzi | Livia	Perfetto | Christian	Pich |
+| Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel | Federica Quaglia |
+| D.	Raciti | Sridhar Ramachandran | Jolene Ramsey | N.D.	Rawlings | Leonore	Reiser |
+| Catherine	Rivoire | Curtis Ross | Kim	Rutherford | Leyla	Ruzicka | Edoardo Salladini |
+| A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper | Matt	Simison | Amy	Singer | 
+| Dmitry	Sitnikov | E.	Speretta | Victor B. Strelets | Shabari	Subramaniam | S. Sundaram |
+| Christopher J. Tabone | R.	Tauber | Jim Thurmond | Silvio Tosatto | V.	Trovisco |
+| Marek Tutaj | N.	Tyagi | Ceri	Van Slyke | Mahima Vedi | Shur-Jen Wang |
+| K.	Warner | Shuai	Weng | Edith D.	Wong | Cathy	Wu |	Z.	Xie |
+| Qianhan Xu | L.-S.	Yeh | R.	Zaru | Pinglei Zhou |
 
 ## GO contributors *emeriti*
 
@@ -112,37 +111,38 @@ Leaders of key contributing resources.
 |	Bernard	deBono | Aubrey	de Grey |	N.	delaCruz | Janos	Demeter | Alex Deng |
 |	Paul	Denny |	Heiko	Dietze | Kara	Dolinski | James	Done |	Qing	Dong |
 | Eric	Douglass | Aisling	Doyle |	Kate Dreher | Rachel	Drysdale | Barbara L.	Dunn |
-| Nathan	Dunn | Selina	Dwight | Anne	Eagle | David B. Emmert | Ruihua	Fang |
-| Silvie Fexova | Helen	Field |	Dianna Fisk | Hartmut	Foerster |	C.	Foote |
-|	Rebecca	Foulger |	M.	Fraser | P. Gane | Margarita	Garcia-Hernandez | Penelope	Garmiri |
-|	William	Gelbart | George	Georghiou |	Marc	Gillespie | Felix	Gondwe |	Gopal	Gopinath |
-| G.	Gopinatu | Heather Gunn |	Melissa	Haendel |	G.	Harris |	Kerstin	Hausmann |
-| Robin	Haw |	Jill	Hemish |	Henning	Hermjakob |	B.	Hickman |	Jodi	Hirschman |
-|	Ben	Hitz |	Eurie	Hong | Jim Hu | A.	Hughes | Rachael P. Huntley |
-| Katica	Ilic |	Amelia	Ireland |	Howard J Jacob | Josh	Jaffery |	Bijay	Jassal |
-| P.	Jayaraman |	Geeta	Joshi-Tope |	Steve	Jupe | Eric Just |	James	Kadin |
-| Patrick	Kalita |	Peter	Karp |	A. S.	Karthikeyan |	Andrew	Kasarskis |	Guillaume	Keller |
-| Paul	Kersey | Varsha	Khodiyar |	Ranjana	Kishore | Maximilian	Koch |	Florian	Korninger |
-| G.	Kowalski | Barbara Kramarz |	Cynthia	Kreiger | Sandra A.	LaBonte | Mark	Lambrecht |
-| Gabriel	Lander | Ed	Lee |	Paul	Leyland |	Donghui	Li | Kan Yan Chloe Li |
-| Qian	Li | Yuling	Li |	W.	Liu |	Paul	Lloyd |	Jane	Lomax |
-| Miao Long | P.	Long |	Tim	Lowry |	J.	Lu | Yves	Lussier |
-| Kevin A.	MacPherson | Shahana	Mahajan |	Prita	Mani | Ryan	Martin | J.	Mathis |
-| Mark	McDowall | Brenley K.	McIntosh | Sheldon	McKay |	Pete	McQuilton |	Terry	Meehan |
-| Anna	Melidoni | Klaus Mitchell |	Nick	Moseyko |	Lukas	Mueller |	Bob	Muller |
-| Suparna	Mundodi |	Monica C.	Munoz-Torres |	Nelson	Ndegwa |	N.	Nenasheva |	Elizabeth	Nickerson |
-| Rajni Nigam | Patrick C. Ng | G.	Nuka | Claire	O'Donovan |	Gavin	O'Kelly |
-| Stephen G.	Oliver | Marija	Orlic-Milacic | David	Osumi-Sutherland |	Rose	Oughtred |	Holly	Paddock |
-|	Julie	Park | D.	Pasko |	Kelley	Paskov | Sejal Patel | Angeline Pesala |
-| Victoria	Petri |	Karen	Pilcher-Kestin | Sandra M. Pinheiro | Laura	Ponting |	S.	Potter |
-| Sagar	Poudel | H.	Ramachandran | Fiona Ratnaraj | Jack H. Rawson |	D.S.	Reilly |
-| Daniel P.	Renfro | Alix J.	Rey | Sue	Rhee | Joel	Richardson | Lorna	Richardson |
-| Shannon	Roberts | Milagros	Rodríguez-López |	Tai	Roe | Bernt	Roechert | Paola	Roncaglia |
-| Anthony	Rogers | Karen	Rothfels | Greg Rowe | Barbara	Ruef | V.	Ruotti |
-| Shirin C.C. Saverimuttu | Tony	Sawford | Kevin	Schaper |	Carl	Schmidt | Esther	Schmidt |
-| Michel	Schneider |	Andy	Schroeder |	Ruth	Seal |	Eric	Segerdell |	K.	Seiler |
-| Anand	Sethuraman |	Veronica	Shamovsky |	Xiang	Shao | Travis K.	Sheppard | Mary Shimoyama |
-| Jennifer R Smith | Solomon	Shorser | Ajay	Shrivatsav VP | Alice	Shypitsyna |	Konstantinos	Sidiropoulos |
+| Nathan	Dunn | Selina	Dwight | Anne	Eagle | David B. Emmert | Meltem Erdol |
+| Ruihua	Fang | Silvie Fexova | Helen	Field |	Dianna Fisk | Hartmut	Foerster 
+|	C.	Foote |	Rebecca	Foulger |	M.	Fraser | P. Gane | Margarita	Garcia-Hernandez |
+| Penelope	Garmiri |	William	Gelbart | George	Georghiou |	Marc	Gillespie | Felix	Gondwe |
+| Gopal	Gopinath | G.	Gopinatu | Heather Gunn |	Melissa	Haendel |	G.	Harris |
+| Kerstin	Hausmann | Robin	Haw |	Jill	Hemish |	Henning	Hermjakob |	B.	Hickman |
+| Jodi	Hirschman |	Ben	Hitz |	Eurie	Hong | Jim Hu | A.	Hughes |
+| Rachael P. Huntley | Katica	Ilic |	Amelia	Ireland |	Howard J Jacob | Josh	Jaffery |
+| Bijay	Jassal | P.	Jayaraman |	Geeta	Joshi-Tope |	Steve	Jupe | Eric Just |
+| Mohamed A Kadhum | James	Kadin | Patrick	Kalita |	Peter	Karp |	A. S.	Karthikeyan |
+|	Andrew	Kasarskis |	Guillaume	Keller | Paul	Kersey | Varsha	Khodiyar |	Ranjana	Kishore |
+| Maximilian	Koch |	Florian	Korninger | G.	Kowalski | Barbara Kramarz |	Cynthia	Kreiger |
+| Sandra A.	LaBonte | Mark	Lambrecht | Gabriel	Lander | Ed	Lee |	Paul	Leyland |
+| Donghui	Li | Kan Yan Chloe Li | Qian	Li | Yuling	Li |	W.	Liu |
+| Paul	Lloyd |	Jane	Lomax | Miao Long | P.	Long |	Tim	Lowry |
+| J.	Lu | Yves	Lussier | Kevin A.	MacPherson | Shahana	Mahajan |	Prita	Mani |
+| Ryan	Martin | J.	Mathis | Mark	McDowall | Brenley K.	McIntosh | Sheldon	McKay |
+| Pete	McQuilton |	Terry	Meehan | Anna	Melidoni |  Aleksandra Michalak | Klaus Mitchell |
+| Nick	Moseyko |	Lukas	Mueller |	Bob	Muller | Suparna	Mundodi |	Monica C.	Munoz-Torres |
+| Nelson	Ndegwa |	N.	Nenasheva |	Elizabeth	Nickerson | Rajni Nigam | Patrick C. Ng |
+| G.	Nuka | Claire	O'Donovan |	Gavin	O'Kelly | Stephen G.	Oliver | Marija	Orlic-Milacic |
+| David	Osumi-Sutherland |	Rose	Oughtred |	Holly	Paddock |	Julie	Park | D.	Pasko |
+| Kelley	Paskov | Sejal Patel | Angeline Pesala | Victoria	Petri |	Karen	Pilcher-Kestin |
+| Sandra M. Pinheiro | Laura	Ponting |	S.	Potter | Sagar	Poudel | | Armalya Pritazahra |
+| H.	Ramachandran | Fiona Ratnaraj | Jack H. Rawson |	D.S.	Reilly | Daniel P.	Renfro |
+| Alix J.	Rey | Sue	Rhee | Joel	Richardson | Lorna	Richardson | Shannon	Roberts |
+| Milagros	Rodríguez-López |	Tai	Roe | Bernt	Roechert | Paola	Roncaglia | Anthony	Rogers |
+| Karen	Rothfels | Greg Rowe | Barbara	Ruef | V.	Ruotti | Shirin C.C. Saverimuttu |
+| Tony	Sawford | Kevin	Schaper |	Carl	Schmidt | Esther	Schmidt | Michel	Schneider |
+| Andy	Schroeder |	Ruth	Seal |	Eric	Segerdell |	K.	Seiler | Anand	Sethuraman | 
+|	Veronica	Shamovsky |	Xiang	Shao | Travis K.	Sheppard | Mary Shimoyama | Jennifer R Smith |
+| Solomon	Shorser | Ajay	Shrivatsav VP | Alice	Shypitsyna |	Konstantinos	Sidiropoulos | Marek S.	Skrzypek |
 | Barry	Smith | J.R.	Smith | Heeyeon	Song |	Judy	Sprague | Brock	Sprunger |
 | Eleanor	Stanley | Raymond	Stefancsik | Andre	Stutz | Renzhi Su | Laurie-Issel	Tarver |
 | Chandra	Theesfeld | Katherine Thurlow | Christophe	Tissier |	Michael	Tognolli | Sabrina	Toro |
