@@ -134,7 +134,7 @@ Leaders of key contributing resources.
 | G.	Nuka | Claire	O'Donovan |	Gavin	O'Kelly | Stephen G.	Oliver | Marija	Orlic-Milacic |
 | David	Osumi-Sutherland |	Rose	Oughtred |	Holly	Paddock |	Julie	Park | D.	Pasko |
 | Kelley	Paskov | Sejal Patel | Angeline Pesala | Victoria	Petri |	Karen	Pilcher-Kestin |
-| Sandra M. Pinheiro | Laura	Ponting |	S.	Potter | Sagar	Poudel | | Armalya Pritazahra |
+| Sandra M. Pinheiro | Laura	Ponting |	S.	Potter | Sagar	Poudel | Armalya Pritazahra |
 | H.	Ramachandran | Fiona Ratnaraj | Jack H. Rawson |	D.S.	Reilly | Daniel P.	Renfro |
 | Alix J.	Rey | Sue	Rhee | Joel	Richardson | Lorna	Richardson | Shannon	Roberts |
 | Milagros	Rodríguez-López |	Tai	Roe | Bernt	Roechert | Paola	Roncaglia | Anthony	Rogers |
