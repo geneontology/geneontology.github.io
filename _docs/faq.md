@@ -200,7 +200,8 @@ FAQ tags: 
 
 The GO knowledgebase is constantly evolving, and we welcome feedback from all users. Research groups may contribute to the GOC by either providing suggestions for updating the ontology (e.g. requests for new terms) or by providing annotations, that is, associations between genes or gene products and ontology terms. Suggested edits are reviewed by the ontology editors and implemented where appropriate.
 
-To learn more about the best approach to contributing GO annotations or suggest updates to the ontology, please visit our documentation on [contributing annotations](http://geneontology.org/page/contributing-go).
+-   To suggest updates or modifications to the ontology, please visit our documentation on [contributing annotations](http://geneontology.org/docs/contributing-to-go-terms).
+-   To learn more about the best approach to contributing GO annotations, please visit our documentation on [contributing annotations](http://geneontology.org/page/contributing-go).
 
 Please be sure to [contact the GOC](http://help.geneontology.org) before carrying out any annotation work you intend to submit; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
