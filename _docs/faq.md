@@ -201,7 +201,7 @@ FAQ tags: 
 The GO knowledgebase is constantly evolving, and we welcome feedback from all users. Research groups may contribute to the GOC by either providing suggestions for updating the ontology (e.g. requests for new terms) or by providing annotations, that is, associations between genes or gene products and ontology terms. Suggested edits are reviewed by the ontology editors and implemented where appropriate.
 
 -   To suggest updates or modifications to the ontology, please visit our documentation on [contributing to the ontology](http://geneontology.org/docs/contributing-to-go-terms).
--   To learn more about the best approach to contributing GO annotations, please visit our documentation on [contributing annotations](http://geneontology.org/page/contributing-go).
+-   To learn more about the best approach to contributing GO annotations, please visit our documentation on [contributing annotations](/docs/contributing-to-go/).
 
 Please be sure to [contact the GOC](http://help.geneontology.org) before carrying out any annotation work you intend to submit; this will ensure that GOC mentors and trainers can be of assistance in producing data sets in agreement with the GOC annotation policies and format requirements.
 
@@ -215,7 +215,7 @@ FAQ tags: 
 [consortium](/faq-tags/consortium)
 {:/comment}
 
-Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](http://geneontology.org/page/go-consortium-contributors-list) of the Gene Ontology Consortium.
+Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium.
 
 ---------------------------------------------------------------------------
 ## How do I become a member of the GO Consortium?
@@ -495,7 +495,7 @@ Most annotations in association files are electronically inferred (IEA). As with
 However, if you think that an observed change in the size of an annotation file cannot be explained by any of the above, and suspect a bug, please contact us using our [Contact Form](http://geneontology.org/form/contact-go).
 
 ---------------------------------------------------------------------------
-## What is the difference between the filtered and unfiltered versions of the GOA UniProt gene associations files?
+## What is the difference between the goa_uniprot_all.gaf and goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between the filtered and unfiltered versions of the GOA UniProt gene associations files?"></span>
@@ -506,7 +506,20 @@ FAQ tags: 
 [downloads](/faq-tags/downloads)
 {:/comment}
 
-The filtered version available on the GO Download's site (gene\_association.goa\_uniprot\_noiea) does not contain annotations for those species where a different Consortium group is primarily responsible for providing GO annotations and also excludes annotations made using automated methods. For example, [SGD](https://www.yeastgenome.org/) is responsible for annotations for *S. cerevisiae*; GO annotations for *S. cerevisiae* are not part of the filtered version of the gene\_association.goa\_uniprot\_noiea file. A filtered version of the UniProt GAF is available on the GO website (<http://geneontology.org/page/download-annotations>). The unfiltered version of the file is available on GOA's FTP site- [ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz](ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz)
+First of all, note that GOA≠GO; the [Gene Ontology Annotation (GOA) Database](https://www.ebi.ac.uk/GOA/) is a contributor to the Gene Ontology knowledgebase and active member in the Gene Ontology Consortium, but is a different entity from the GO.  The files in question, using the current archive as an example, are:
+
+-   http://current.geneontology.org/annotations/goa_uniprot_all.gaf.gz
+-   http://current.geneontology.org/annotations/goa_uniprot_all_noiea.gaf.gz
+
+The upstream files for both of these is https://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz. We'll refer to this as the "upstream" file.
+
+#### goa_uniprot_all.gaf
+
+For goa_uniprot_all.gaf, the GO takes the upstream file and removes all of the "canonical" species from it, essentially filtering out all species that have annotations that are provided by another resource included in the GO annotation dataset. For example, we ingest and process [SGD](https://www.yeastgenome.org/)'s data (https://sgd-prod-upload.s3.amazonaws.com/latest/gene_association.sgd.gaf.gz) for NCBITaxon:285006, NCBITaxon:307796, NCBITaxon:41870, NCBITaxon:4932, and NCBITaxon:559292, so we filter out these five taxa from the upstream file for our own version of this file. This is repeated for every resource we ingest, leaving us with a file that is the remainder of what is not otherwise spoken for in the GO annotation set.
+
+#### goa_uniprot_all_noiea.gaf
+
+This is the same as the goa_uniprot_all.gaf.gz file, except with electronically inferred (IEA) annotations filtered out. This is the file that is included in the AmiGO load and available at http://amigo.geneontology.org.
 
 ---------------------------------------------------------------------------
 ## What criteria are used to annotate genes with GO terms?
@@ -777,7 +790,7 @@ FAQ tags: 
 No - the term will always have the same children wherever, and however many times it appears.
 
 ---------------------------------------------------------------------------
-## How do I get the term names for my list of GO ids?
+## How do I get the term names for my list of GO IDs? How do I get GO IDs for my GO terms? What about definitions?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="How do I get the term names for my list of GO ids?"></span>
@@ -788,11 +801,14 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-You can use the YeastMine Analyze tool available at SGD to retrieve the GO term names for each ID.
+You can use the YeastMine Analyze tool available at SGD! This tool will return a table of GO ID, GO term name, GO term namespace (cellular component, molecular function, or biological process) and GO term description for each valid GO ID you supply. This will work for any organism, as the GO is the same! 
+
 1.  Go to the [Analyze tool on YeastMine](http://yeastmine.yeastgenome.org/yeastmine/bag.do){:target="blank"}
 2.  In the Select Type pull down, select `GO Term`
 3.  Enter your GO ids or upload a list in the full format (GO:0016020, GO:0016301...)
-4.  Click on `Create List`. The tool offers several options to download the list.
+4.  Click on `Create List`. The tool offers several options to download the list when you use the `Save a list of...` button.
+
+If you have a list of GO terms and wish to retrieve GO IDs and/or definitions, you can use the steps above. Make sure multi-word GO terms are in double quotes (sporulation,"lactase activity","codeine metabolic process") as the tool will otherwise recognise spaces as delimiters. 
 
 ---------------------------------------------------------------------------
 ## Can I download the ontologies as an Excel spreadsheet?
@@ -1234,7 +1250,7 @@ FAQ tags: 
 [software](/faq-tags/software)
 {:/comment}
 
-A GPI - Gene Product Information file is used to submit gene and gene product information to the GO Consortium. The [GPI specification is here](http://geneontology.org/page/gene-product-information-gpi-format). Please note that annotation information relationships between GO terms and annotations made to them uses GPAD; see details on the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
+A GPI - Gene Product Information file is used to submit gene and gene product information to the GO Consortium. The [GPI specification is here](/docs/gene-product-information-gpi-format/). Please note that annotation information relationships between GO terms and annotations made to them uses GPAD; see details on the [GPAD specification page](/docs/gene-product-association-data-gpad-format/).
 
 ---------------------------------------------------------------------------
 ## What exchange format is used for GO-CAMs?
