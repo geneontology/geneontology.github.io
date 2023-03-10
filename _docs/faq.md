@@ -498,7 +498,7 @@ However, if you think that an observed change in the size of an annotation file 
 ## What is the difference between the goa_uniprot_all.gaf and goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
 {::comment}
 
-<span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between the filtered and unfiltered versions of the GOA UniProt gene associations files?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between the goa_uniprot_all.gaf and goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?"></span>
 FAQ tags: 
 
 [annotation](/faq-tags/annotation)
@@ -793,7 +793,7 @@ No - the term will always have the same children wherever, and however many time
 ## How do I get the term names for my list of GO IDs? How do I get GO IDs for my GO terms? What about definitions?
 {::comment}
 
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I get the term names for my list of GO ids?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I get the term names for my list of GO IDs? How do I get GO IDs for my GO terms? What about definitions?"></span>
 FAQ tags: 
 
 [mappings](/faq-tags/mappings)
