@@ -1,14 +1,14 @@
 ---
 title: Downloads overview
 permalink: /docs/downloads/
-redirect_from: 
+redirect_from:
 - /page/downloads
 - /page/lead-database-downloads
 - /GO.downloads.database.shtml
 ---
 <!--We will soon add more documentation about the structure of these repositories.-->
 # Downloads overview
-GO releases official versions on a monthly basis.  The annotation and ontology links below provide the latest version of files in the format specified. 
+GO releases official versions on a monthly basis.  The annotation and ontology links below provide the latest version of files in the format specified.
 <!--To always resolve to the newest available release, use <http://current.geneontology.org>{:target="_blank"}. -->
 
 ## Ontology
@@ -28,7 +28,6 @@ GO releases official versions on a monthly basis.  The annotation and ontology l
 
 + Complete archives of each monthly GO release from `2018-08-09`
 + Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
-+ Interested in a smaller or more flexible DOI versioned bundles? Holey (reference) BDBag available at [Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159 "DOI versioned holey BDBag"){:target="_blank"}
 
 ## Archives
 [*__Access the Gene Ontology Data Archive here__*](http://release.geneontology.org/){:target="blank"}
@@ -40,4 +39,3 @@ GO releases official versions on a monthly basis.  The annotation and ontology l
 To be notified of the exact release date, you can watch the [GitHub go-announcement repository](https://github.com/geneontology/go-announcements "GO announcements"){:target="blank"}.
 
 If there is something that you need or think we might be missing, please contact the [GO Helpdesk](http://help.geneontology.org "contact us"){:target="blank"}.
-

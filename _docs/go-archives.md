@@ -1,7 +1,7 @@
 ---
 title: GO Archive
 permalink: /docs/go-archives/
-redirect_from: 
+redirect_from:
 - /page/go-mysql-database-guide
 - /page/go-mysql-database-schema
 - /page/ftp-and-cvs-downloads
@@ -52,13 +52,12 @@ _If you are looking for current, actively maintained GO slims, please [see the g
 |UniProtKB-GOA |	N. Mulder, M. Pruess [PMID:12230037](http://www.ncbi.nlm.nih.gov/pubmed/12230037){:target="blank"} Nov 2002 |[old GO format](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/goslim_goa.2002){:target="blank"}|
 |Yeast |	SGD curators Aug 2003 	|[old GO format](http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/goslim_yeast.2003){:target="blank"}|
 
-
-
-## GO DOI releases (March 2018+)
-In addition to the folder hierarchy described above, the GO DOI releases produced from March 2018 contain additional folders. These folders are only useful to a few people who would want or need to reproduce a GO release, using for instance the set of programs (bin/) and libraries (lib/) available at the time of the release. Starting from Oct 2019, GO also provides various statistics files in release_stats/.
-
 ## How the GO Archive was built
 The archive was generated using the data scattered across 3 legacy systems, namely the GO CVS, the GO SVN and the old product archive. Each of those systems was created at different times to serve different purposes and they were partially redundant, both in terms of the types of data they contained and in time frames (e.g. SVN was maintained from 2011 to 2018 while CVS was maintained from 2002 to 2018). The project is hosted on [GitHub](https://github.com/geneontology/archive-reconstruction){:target="blank"}.
 
+## "Modern" GO releases (March 2018+)
+
+* March 2018 - January 2023 <br> In addition to the folder hierarchy described above, the GO DOI releases produced from March 2018 contain additional folders. These folders are only useful to a few people who would want or need to reproduce a GO release, using for instance the set of programs (bin/) and libraries (lib/) available at the time of the release. These were suspended from the March 2023 release.
+* Oct 2019 - present <br> GO provides various statistics files in release_stats/.
 
 Please contact the <a href="http://help.geneontology.org">GO Helpdesk</a> if you have any questions.
