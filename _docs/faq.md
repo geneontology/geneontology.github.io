@@ -228,14 +228,18 @@ FAQ tags: 
 {:/comment}
 
 GO, GOC, GO Central, and GOA are similar but not quite interchangable. Here's a quick breakdown of these commonly confused acronyms:
+
 #### GO
-- **G**ene **O**ntology: Although formally we use GO to refer to the entire GO knowledgebase, this can also refer to just the ontology. As well as the [ontology](http://geneontology.org/docs/ontology-documentation/) and [annotations](http://geneontology.org/docs/go-annotations/), GO's products include the [AmiGO browser](http://amigo.geneontology.org/amigo), [GO-Causal Activity Models (GO-CAMs)](http://geneontology.org/go-cam), [GO Term Matrix](geneontology.org/docs/tools-overview#explore-co-annotations-with-the-go-term-matrix), etc.
-#### GOC 
--   **G**ene **O**ntology **C**onsortium: The databases, labs, and other groups that regularly contribute annotations, shape the ontology, or are otherwise active in the maintenance of the GO knowledgebase. [See a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium.
+- **G**ene **O**ntology: Although formally we use GO to refer to the entire GO knowledgebase, this can also refer to just the ontology. In addition to releases of data products like the [ontology](http://geneontology.org/docs/ontology-documentation/), [annotations](http://geneontology.org/docs/go-annotations/), and [GO-Causal Activity Models (GO-CAMs)](http://geneontology.org/go-cam), the GO provides the [AmiGO browser](http://amigo.geneontology.org/amigo) and [many other tools](https://github.com/geneontology).
+
 #### GO Central
 -   The GO Central project is embedded in the larger [GO Consortium](http://geneontology.org/docs/whoweare/) and circle of [GO Collaborations](http://geneontology.org/docs/collaborations/). Within this complex landscape of resources, GO Central has several activities, including ontology development, tool development, annotation support, quality assurance, and outreach. 
+
+#### GOC 
+-   **G**ene **O**ntology **C**onsortium: The databases, labs, and other groups that officially participate in the maintenance of the GO knowledgebase. [See a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium.
+
 #### GOA
--   EBI's [**G**ene **O**ntology **A**nnotation (GOA) Database](https://www.ebi.ac.uk/GOA/), one of many of GO's contributing groups, is the project responsible for many of the GO annotations found in [UniProt](https://www.uniprot.org/), [RNACentral](https://rnacentral.org/), and [Complex Portal](https://www.ebi.ac.uk/complexportal/home) as well as the [QuickGO browser](https://www.ebi.ac.uk/QuickGO/).
+-   EBI's [**G**ene **O**ntology **A**nnotation (GOA) Database](https://www.ebi.ac.uk/GOA/), one of many of GO's contributing groups, is the [EMBL-EBI](https://www.ebi.ac.uk/) project responsible for many of the GO annotations found in [UniProt](https://www.uniprot.org/), [RNACentral](https://rnacentral.org/), and [Complex Portal](https://www.ebi.ac.uk/complexportal/home) as well as the [QuickGO browser](https://www.ebi.ac.uk/QuickGO/).
 
 ---------------------------------------------------------------------------
 ## How do I become a member of the GO Consortium?
