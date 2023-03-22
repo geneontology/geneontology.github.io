@@ -1041,7 +1041,21 @@ Reactome: in a GO-CAM we do not typically capture all the participants
 in a reaction, together with their stoichiometry. Instead this
 information is included in the GO term.
 
+<<<<<<< Updated upstream
 We are currently investigating translations between pathway formats such as [BioPAX](http://www.biopax.org){:target="blank"} and [OpenBEL](http://openbel.org){:target="blank"} to GO-CAM. See the [Pathways2GO](https://github.com/geneontology/pathways2GO) repository for more information.
+=======
+for example, the GO term “protein kinase activity” is already defined
+in terms of reactants (ATP and a protein substrate) and products (ADP
+and a phosphorylated protein). While many pathway resources contain
+cross-references to GO and other ontologies to varying degrees, in
+GO-CAM the models are specified completely using ontologies, giving a
+structured meaning to all components of the models.
+
+We are currently investigation translations between pathway formats
+such as BioPAX and OpenBEL to GO-CAM. See the
+[Pathways2GO](https://github.com/geneontology/pathways2GO) repository
+for more information.
+>>>>>>> Stashed changes
 
 ---------------------------------------------------------------------------
 # Enrichment Analysis
