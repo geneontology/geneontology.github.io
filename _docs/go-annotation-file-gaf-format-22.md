@@ -116,7 +116,7 @@ This column is populated with relations from the [Relation Ontology](https://ont
 
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to").
 
-'''If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.'''
+**If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
 
 See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide. The list of allowable qualifiers is identical to those [allowable in GPAD 2.0](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#allowed-gene-product-to-go-term-relations).
 
