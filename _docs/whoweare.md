@@ -10,6 +10,8 @@ redirect_from:
 
 The Gene Ontology Consortium is a large, international group of scientists in the disciplines of biology and computer science.
 
+![GOC meeting in Berkeley, 2019](/assets/whoweare/GOBerk_group_2019.jpg "GO Consortium Meeting 2019 attendees enjoying Berkeley, California")
+
 ## Principal Investigators
 + [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, University of Southern California
 + [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech
@@ -64,8 +66,6 @@ Leaders of key contributing resources.
 - [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
 - [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"}
 - [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"}
-
-![GOC meeting in Berkeley, 2019](/assets/whoweare/GOBerk_group_2019.jpg "GO Consortium Meeting 2019 attendees enjoying Berkeley, California"){align=center}
 
 ## Current GO contributors
 
