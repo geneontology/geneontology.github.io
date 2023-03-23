@@ -120,6 +120,7 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
 **If no relation is provided, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
+
 | **GO Aspect** | **Default relation** | **Default relation for root annotations** | **Other allowed relations** |
 |----------|---------|-------------|------------|
 | **Molecular Function** 	|  [**enables**](http://purl.obolibrary.org/obo/RO_0002327) | [enables](http://purl.obolibrary.org/obo/RO_0002327) |  [contributes_to](http://purl.obolibrary.org/obo/RO_0002326) |
