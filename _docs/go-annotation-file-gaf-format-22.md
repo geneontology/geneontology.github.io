@@ -84,11 +84,10 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 
 ### Definitions and requirements for field contents
 
-
 #### DB (column 1)
 Refers to the database from which the identifier in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the **DB object ID** (column 2), **DB** (column 1) should be UniProtKB.
 
-Must be one of the values from the set of [GO database cross-references](http://amigo.geneontology.org/xrefs).
+Must be one of the values from the set of [GO database cross-references]([http://amigo.geneontology.org/xrefs](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)).
 
     This field is mandatory, cardinality 1.
 
