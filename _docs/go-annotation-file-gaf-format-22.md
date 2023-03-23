@@ -65,7 +65,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 |----------|---------|-------------|---------|--------|
 | 1 	| [DB](#db-column-1 "Definition and requirements for DB (column 1)")	| required 	| 1 |	UniProtKB|
 | 2 	| [DB Object ID](#db-object-id-column-2 "Definition and requirements for DB Object ID (column 2)") 	| required 	| 1 |	P12345|
-| 3 	|  [DB Object Symbol](#db-object-symbol-column-3 "Definition and requirements for DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
+| 3 	| [DB Object Symbol](#db-object-symbol-column-3 "Definition and requirements for DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
 | 4 	| [Qualifier](#qualifier-column-4 "Definition and requirements for Qualifier (column 4)") 	| required 	| 1 or 2 |	NOT\|involved_in|
 | 5 	| [GO ID](#go-id-column-5 "Definition and requirements for GO ID (column 5)") 	| required 	| 1 |	GO:0003993|
 | 6 	| [DB:Reference (\|DB:Reference)](#dbreference-column-6 "Definition and requirements for DB:Reference (column 6)") 	| required 	| 1 or greater |	PMID:2676709|
@@ -112,7 +112,7 @@ The **DB Object Symbol** field should be a symbol that means something to a biol
 
 
 #### Qualifier (column 4)
-This column is populated with relations from the Relations Ontology that describe how a gene product relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
+This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how a gene product relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
@@ -125,7 +125,7 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 |----------|---------|-------------|------------|
 | **Molecular Function** 	|  [**enables**](https://wiki.geneontology.org/Enables) | [enables](https://wiki.geneontology.org/Enables) | [contributes_to](https://wiki.geneontology.org/Contributes_to) |
 | **Biological Process**  | [**acts_upstream_of_or_within**](https://wiki.geneontology.org/Acts_upstream_of_or_within)  |  [involved_in](https://wiki.geneontology.org/Involved_in) |[acts_upstream_of](https://wiki.geneontology.org/Acts_upstream_of), [acts_upstream_of_positive_effect](https://wiki.geneontology.org/Acts_upstream_of,_positive_effect), [acts_upstream_of_negative_effect](https://wiki.geneontology.org/Acts_upstream_of,_negative_effect), [acts_upstream_of_or_within_negative_effect](https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect), [acts_upstream_of_or_within_positive_effect](https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect) |
-| **Cellular Component** | [**located_in** ](http://purl.obolibrary.org/obo/RO_0001025) for [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children**  and  [**part_of**](https://wiki.geneontology.org/Part_of_relation) for [protein-containing complex](GO:0032991 protein-containing complex) & children** | [is_active_in](https://wiki.geneontology.org/Is_active_in) | [colocalizes_with](https://wiki.geneontology.org/Colocalizes_with)
+| **Cellular Component** | [**located_in** ](http://purl.obolibrary.org/obo/RO_0001025) for [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children and  [**part_of**](https://wiki.geneontology.org/Part_of_relation) for [protein-containing complex](GO:0032991 protein-containing complex) & children | [is_active_in](https://wiki.geneontology.org/Is_active_in) | [colocalizes_with](https://wiki.geneontology.org/Colocalizes_with)
 
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**.
