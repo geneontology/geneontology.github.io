@@ -119,33 +119,12 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
-| **Molecular Function** 	| **Biological Process** 	| **Cellular Component - [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children** 	| **Cellular Component - [protein-containing complex](GO:0032991 protein-containing complex) & children**
-|----------|---------|-------------|------------|
-| [**enables**](http://purl.obolibrary.org/obo/RO_0002327) | [involved_in](http://purl.obolibrary.org/obo/RO_0002331) | [**located_in** ](http://purl.obolibrary.org/obo/RO_0001025) | [**part_of**](http://purl.obolibrary.org/obo/RO_) | 
-| [contributes_to](http://purl.obolibrary.org/obo/RO_0002326)| [acts_upstream_of](http://purl.obolibrary.org/obo/RO_0002263)  | | | 
-|   | [acts_upstream_of_positive_effect](http://purl.obolibrary.org/obo/RO_0004034)  | [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)   | | 
-|   | [acts_upstream_of_negative_effect](http://purl.obolibrary.org/obo/RO_0004035) | [colocalizes_with](http://purl.obolibrary.org/obo/RO_0002325)   | | 
-|   | [**acts_upstream_of_or_within**](http://purl.obolibrary.org/obo/RO_0002264) |   | |
-|   | [acts_upstream_of_or_within_positive_effect](http://purl.obolibrary.org/obo/RO_0004032)  |   | |
-|   | [acts_upstream_of_or_within_negative_effect](http://purl.obolibrary.org/obo/RO_0004033)  |   | |
-
-**For root node annotations that use the ND evidence code, the following relations should be used:**
-    
-[biological_process](http://amigo.geneontology.org/amigo/term/GO:0008150)  [involved_in](http://purl.obolibrary.org/obo/RO_0002331)
-
-[molecular_function](http://amigo.geneontology.org/amigo/term/GO:0003674)  [enables](http://purl.obolibrary.org/obo/RO_0002327) 
-
-[cellular_component](http://amigo.geneontology.org/amigo/term/GO:0005575)  [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)
-
-----
 **If no relation is provided, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
-| **GO Aspect** | Default relation | Default relation for root annotations | Other allowed relations |
+| **GO Aspect** | **Default relation** | **Default relation for root annotations** | **Other allowed relations** |
 |----------|---------|-------------|------------|
 | **Molecular Function** 	|  [**enables**](http://purl.obolibrary.org/obo/RO_0002327) | [enables](http://purl.obolibrary.org/obo/RO_0002327) |  [contributes_to](http://purl.obolibrary.org/obo/RO_0002326) |
 | **Biological Process**  | [**acts_upstream_of_or_within**](http://purl.obolibrary.org/obo/RO_0002264)  |  [involved_in](http://purl.obolibrary.org/obo/RO_0002331)  |[acts_upstream_of](http://purl.obolibrary.org/obo/RO_0002263),  [acts_upstream_of_positive_effect](http://purl.obolibrary.org/obo/RO_0004034), [acts_upstream_of_negative_effect](http://purl.obolibrary.org/obo/RO_0004035), [acts_upstream_of_or_within_negative_effect](http://purl.obolibrary.org/obo/RO_0004033)   [acts_upstream_of_or_within_positive_effect](http://purl.obolibrary.org/obo/RO_0004032) |
-| **Cellular Component - [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children** 	| [**located_in** ](http://purl.obolibrary.org/obo/RO_0001025)  | [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)  | [colocalizes_with](http://purl.obolibrary.org/obo/RO_0002325)
-| **Cellular Component - [protein-containing complex](GO:0032991 protein-containing complex) & children** | [**part_of**](http://purl.obolibrary.org/obo/RO_) |  | 
-
+| **Cellular Component | [**located_in** ](http://purl.obolibrary.org/obo/RO_0001025) (for [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children** ) and  [**part_of**] for [protein-containing complex](GO:0032991 protein-containing complex) & children** (http://purl.obolibrary.org/obo/RO_0002325)(http://purl.obolibrary.org/obo/RO_) | [is_active_in](http://purl.obolibrary.org/obo/RO_0002432) |  [colocalizes_with]
 
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**.
