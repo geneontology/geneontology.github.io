@@ -132,7 +132,9 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 **For root node annotations that use the ND evidence code, the following relations should be used:**
     
 [biological_process](http://amigo.geneontology.org/amigo/term/GO:0008150)  > [involved_in](http://purl.obolibrary.org/obo/RO_0002331)
+
 [molecular_function](http://amigo.geneontology.org/amigo/term/GO:0003674)  > [enables](http://purl.obolibrary.org/obo/RO_0002327) 
+
 [cellular_component](http://amigo.geneontology.org/amigo/term/GO:0005575)  > [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)
 
 **If no relation is provided, default values (shown in bold above) will be added during file processing in the GO Central pipeline.**
@@ -142,7 +144,6 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 The GO identifier for the term attributed to the **DB object ID**.
 
     This field is mandatory, cardinality 1.
-
 
 #### DB:Reference (column 6)
 One or more unique identifiers for a single source cited as an authority for the attribution of the **GO ID** to the **DB Object ID**. This may be a literature reference or a database record. The syntax is DB:accession_number.
