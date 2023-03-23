@@ -7,7 +7,7 @@ redirect_from:
 
 ---
 
-<!--COmment transferred from gaf-format-2.1 page: Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.
+<!--Comment transferred from gaf-format-2.1 page: Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.
 Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 
@@ -61,7 +61,7 @@ Groups may decide to include additional information. Examples include:
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
 
-| **Column 	| Content 	| Required? 	| Cardinality 	| Example**|
+| **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example**|
 |----------|---------|-------------|---------|--------|
 | 1 	| [DB](#db-column-1 "Definition and requirements for DB (column 1)")	| required 	| 1 |	UniProtKB|
 | 2 	| [DB Object ID](#db-object-id-column-2 "Definition and requirements for DB Object ID (column 2)") 	| required 	| 1 |	P12345|
@@ -120,7 +120,7 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
-| **Molecular Function 	| Biological Process 	| Cellular Component - [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children 	| Cellular Component - [protein-containing complex](GO:0032991 protein-containing complex) & children**
+| **Molecular Function** 	| **Biological Process** 	| **Cellular Component - [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children** 	| **Cellular Component - [protein-containing complex](GO:0032991 protein-containing complex) & children**
 |----------|---------|-------------|------------|
 | **enables** (RO:0002327) | involved_in (RO:0002331) | **located_in** (RO:0001025) | **part_of** | 
 | contributes_to (RO:0002326)| acts_upstream_of (RO:0002263) | | | 
