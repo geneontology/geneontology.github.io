@@ -121,21 +121,22 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
 | **Molecular Function** 	| **Biological Process** 	| **Cellular Component - [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children** 	| **Cellular Component - [protein-containing complex](GO:0032991 protein-containing complex) & children**
 |----------|---------|-------------|------------|
-| **enables** (RO:0002327) | involved_in (RO:0002331) | **located_in** (RO:0001025) | **part_of** | 
-| contributes_to (RO:0002326)| acts_upstream_of (RO:0002263) | | | 
-|   | acts_upstream_of_positive_effect (RO:0004034) | is_active_in (RO:0002432)  | | 
-|   | acts_upstream_of_negative_effect (RO:0004035) | colocalizes_with (RO:0002325)  | ¿ 
-|   | **acts_upstream_of_or_within** (RO:0002264)  |   | |
-|   | acts_upstream_of_or_within_positive_effect (RO:0004032)  |   | |
-|   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | |
-
-**If no relation is provided default values, shown in bold above, will be added to all GAF 2.2 files.**
+| [**enables**](http://purl.obolibrary.org/obo/RO_0002327) | [involved_in](http://purl.obolibrary.org/obo/RO_0002331) | [**located_in** ](http://purl.obolibrary.org/obo/RO_0001025) | [**part_of**](http://purl.obolibrary.org/obo/RO_) | 
+| [contributes_to](http://purl.obolibrary.org/obo/RO_0002326)| [acts_upstream_of](http://purl.obolibrary.org/obo/RO_0002263)  | | | 
+|   | [acts_upstream_of_positive_effect](http://purl.obolibrary.org/obo/RO_0004034)  | [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)   | | 
+|   | [acts_upstream_of_negative_effect](http://purl.obolibrary.org/obo/RO_0004035) | [colocalizes_with](http://purl.obolibrary.org/obo/RO_0002325)   | | 
+|   | [**acts_upstream_of_or_within**](http://purl.obolibrary.org/obo/RO_0002264) |   | |
+|   | [acts_upstream_of_or_within_positive_effect](http://purl.obolibrary.org/obo/RO_0004032)  |   | |
+|   | [acts_upstream_of_or_within_negative_effect](http://purl.obolibrary.org/obo/RO_0004033)  |   | |
 
 **For root node annotations that use the ND evidence code, the following relations should be used:**
     
-    biological_process (GO:0008150) involved_in (RO:0002331)
-    molecular_function (GO:0003674) enables (RO:0002327)
-    cellular_component (GO:0005575) is_active_in (RO:0002432)
+    [biological_process](http://amigo.geneontology.org/amigo/term/GO:0008150)  > [involved_in](http://purl.obolibrary.org/obo/RO_0002331)
+    [molecular_function](http://amigo.geneontology.org/amigo/term/GO:0003674)  > [enables](http://purl.obolibrary.org/obo/RO_0002327) 
+    [cellular_component](http://amigo.geneontology.org/amigo/term/GO:0005575)  > [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)
+
+**If no relation is provided, default values (shown in bold above) will be added during file processing in the GO Central pipeline.**
+
 
 #### GO ID (column 5)
 The GO identifier for the term attributed to the **DB object ID**.
