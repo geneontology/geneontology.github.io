@@ -65,6 +65,8 @@ Leaders of key contributing resources.
 - [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"}
 - [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"}
 
+![GOC meeting in Berkeley, 2019](/assets/whoweare/GOBerk_group_2019.jpg "GO Consortium Meeting 2019 attendees enjoying Berkeley, California"){align=center}
+
 ## Current GO contributors
 
 | --- | --- | --- | --- |
