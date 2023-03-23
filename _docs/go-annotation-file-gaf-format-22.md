@@ -120,15 +120,15 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
     This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to")
 
-| Molecular Function 	| Biological Process 	| Cellular Component |
+| Molecular Function 	| Biological Process 	| Cellular Component - [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children 	| Cellular Component - [protein-containing complex](GO:0032991 protein-containing complex) & children
 |----------|---------|-------------|
-|  **enables** (RO:0002327) |  involved_in (RO:0002331) | **located_in** (for non-protein-containing complex terms) (RO:0001025) | 
-|  contributes_to (RO:0002326)|  acts_upstream_of (RO:0002263) | **part_of** (for protein-containing complex terms)  | 
-|   | acts_upstream_of_positive_effect (RO:0004034) | is_active_in (RO:0002432)  | 
-|   | acts_upstream_of_negative_effect (RO:0004035) | colocalizes_with (RO:0002325)  | 
-|   | **acts_upstream_of_or_within** (RO:0002264)  |   | 
-|   | acts_upstream_of_or_within_positive_effect (RO:0004032)  |   | 
-|   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | 
+|  **enables** (RO:0002327) |  involved_in (RO:0002331) | **located_in** (for non-protein-containing complex terms) (RO:0001025) |  **part_of** (for protein-containing complex terms)  | 
+|  contributes_to (RO:0002326)|  acts_upstream_of (RO:0002263) | | | 
+|   | acts_upstream_of_positive_effect (RO:0004034) | is_active_in (RO:0002432)  | | 
+|   | acts_upstream_of_negative_effect (RO:0004035) | colocalizes_with (RO:0002325)  | ¿ 
+|   | **acts_upstream_of_or_within** (RO:0002264)  |   | |
+|   | acts_upstream_of_or_within_positive_effect (RO:0004032)  |   | |
+|   | acts_upstream_of_or_within_negative_effect (RO:0004033)  |   | |
 
 **If no relation is provided default values, shown in bold above, will be added to all GAF 2.2 files.**
 
