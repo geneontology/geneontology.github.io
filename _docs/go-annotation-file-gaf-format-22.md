@@ -131,9 +131,9 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
 **For root node annotations that use the ND evidence code, the following relations should be used:**
     
-    [biological_process](http://amigo.geneontology.org/amigo/term/GO:0008150)  > [involved_in](http://purl.obolibrary.org/obo/RO_0002331)
-    [molecular_function](http://amigo.geneontology.org/amigo/term/GO:0003674)  > [enables](http://purl.obolibrary.org/obo/RO_0002327) 
-    [cellular_component](http://amigo.geneontology.org/amigo/term/GO:0005575)  > [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)
+[biological_process](http://amigo.geneontology.org/amigo/term/GO:0008150)  > [involved_in](http://purl.obolibrary.org/obo/RO_0002331)
+[molecular_function](http://amigo.geneontology.org/amigo/term/GO:0003674)  > [enables](http://purl.obolibrary.org/obo/RO_0002327) 
+[cellular_component](http://amigo.geneontology.org/amigo/term/GO:0005575)  > [is_active_in](http://purl.obolibrary.org/obo/RO_0002432)
 
 **If no relation is provided, default values (shown in bold above) will be added during file processing in the GO Central pipeline.**
 
