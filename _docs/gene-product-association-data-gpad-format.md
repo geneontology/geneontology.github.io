@@ -4,28 +4,30 @@ permalink: /docs/gene-product-association-data-gpad-format/
 redirect_from: /page/gene-product-association-data-gpad-format
 ---
 
-<!-- DB object ID section refers to GPAD 1.0.  What about in 1.1?  
-Qualifiers section is confusing- says "the relationship between the gene product in the DB:DB object ID and the GO ID 
-composed of up to three parts: an operator (optional), a modifier (optional) and an atomic relation (required) 
-**this field is mandatory**, cardinality 1 or greater than 1, entries pipe-separated" and then "**qualifiers are optional**"
-CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to be helpful.-->
-
 # Gene Product Association Data (GPAD) files
 
-GPAD files contain annotations for gene products which are further detailed in [GPI files](/docs/gene-product-information-gpi-format/). This page describes the *G*ene *P*roduct *A*ssociation *D*ata (GPAD) 1.1 format. 
+GPAD files contain annotations for gene products which are further detailed in [GPI files](/docs/gene-product-information-gpi-format/). This page describes the *G*ene *P*roduct *A*ssociation *D*ata (GPAD) 1.2 format. For the older format please see the [GPAD 1.1 guide](/docs/gene-product-association-data-gpad-format-1.1/)
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
 
 GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
+## Changes between the *G*ene *P*roduct *A*ssociation *D*ata (GPAD) format 1.1 and 1.2
 
-## Gene Product Association Data (GPAD) 1.1 format
+**Header**
+* **The `gpa-version` header must read `1.2` for this format
+
+**Columns**
+* **Column 8 now allows relations from the [OBO Relation Ontology (RO)](https://oborel.github.io/) including `acts_upstream_of_or_within`, `acts_upstream_of` , and `involved_in`.
+*  **Column 12 now has a standard set of properties: annotation_id ("id"), "curator_name" (DC_Author), "go_evidence" (shorthand), comment.
+
+## Gene Product Association Data (GPAD) 1.2 format
 The GPAD file is an alternative means of exchanging annotations from the Gene Association File (GAF). 
 The GPAD format is designed to be more normalized than GAF and is intended to work in conjunction with a separate 
 format for exchanging gene product information.
-All annotation files must start with a single line denoting the file format. For GPAD it is as follows:
+All annotation files must start with a single line denoting the file format. For GPAD 1.2 it is as follows:
 
-    !gpa-version: 1.1
+    !gpa-version: 1.2
     
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an 
 association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
