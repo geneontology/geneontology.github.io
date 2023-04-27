@@ -519,7 +519,7 @@ Most annotations in association files are electronically inferred (IEA). As with
 However, if you think that an observed change in the size of an annotation file cannot be explained by any of the above, and suspect a bug, please contact us using our [Contact Form](http://geneontology.org/form/contact-go).
 
 ---------------------------------------------------------------------------
-## What is the difference between the goa_uniprot_all.gaf and goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
+## What is the difference between the filtered_goa_uniprot_all.gaf and filtered_goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between the goa_uniprot_all.gaf and goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?"></span>
@@ -530,20 +530,20 @@ FAQ tags: 
 [downloads](/faq-tags/downloads)
 {:/comment}
 
-First of all, note that GOA≠GO; the [Gene Ontology Annotation (GOA) Database](https://www.ebi.ac.uk/GOA/) is a contributor to the Gene Ontology knowledgebase and active member in the Gene Ontology Consortium, but is a different entity from the GO.  The files in question, using the current archive as an example, are:
+First of all, note that GOA≠GO; the [Gene Ontology Annotation (GOA) Database](https://www.ebi.ac.uk/GOA/) is a contributor to the Gene Ontology knowledgebase and active member in the Gene Ontology Consortium, but is a different entity from the GO.- see [our FAQ on GO, GOA, GOC, and GO Central](#what-is-the-difference-between-go-goc-go-central-and-goa). The files in question, using the current archive as an example, are:
 
--   http://current.geneontology.org/annotations/goa_uniprot_all.gaf.gz
--   http://current.geneontology.org/annotations/goa_uniprot_all_noiea.gaf.gz
+-   http://current.geneontology.org/annotations/filtered_goa_uniprot_all.gaf.gz
+-   http://current.geneontology.org/annotations/filtered_goa_uniprot_all_noiea.gaf.gz
 
-The upstream files for both of these is https://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz. We'll refer to this as the "upstream" file.
+The upstream file for both of these is https://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz. We'll refer to this as the "upstream" file. Also, archived releases up to and including [2023-04-01](http://release.geneontology.org/2023-04-01/index.html) refer to these files by the legacy names goa_uniprot_all.gaf.gz, goa_uniprot_all_noiea.gaf.gz, goa_uniprot_all_noiea.gpad.gz, goa_uniprot_all_noiea.gpi.gz.  We renamed these files in April 2023 to clarify the contents.
 
-#### goa_uniprot_all.gaf
+#### filtered_goa_uniprot_all.gaf
 
-For goa_uniprot_all.gaf, the GO takes the upstream file and removes all of the "canonical" species from it, essentially filtering out all species that have annotations that are provided by another resource included in the GO annotation dataset. For example, we ingest and process [SGD](https://www.yeastgenome.org/)'s data (https://sgd-prod-upload.s3.amazonaws.com/latest/gene_association.sgd.gaf.gz) for NCBITaxon:285006, NCBITaxon:307796, NCBITaxon:41870, NCBITaxon:4932, and NCBITaxon:559292, so we filter out these five taxa from the upstream file for our own version of this file. This is repeated for every resource we ingest, leaving us with a file that is the remainder of what is not otherwise spoken for in the GO annotation set.
+For filtered_goa_uniprot_all.gaf, the GO takes the upstream file and removes all of the "canonical" species from it, essentially filtering out all species that have annotations that are provided by another resource included in the GO annotation dataset. For example, we ingest and process [SGD](https://www.yeastgenome.org/)'s data (https://sgd-prod-upload.s3.amazonaws.com/latest/gene_association.sgd.gaf.gz) for NCBITaxon:285006, NCBITaxon:307796, NCBITaxon:41870, NCBITaxon:4932, and NCBITaxon:559292, so we filter out these five taxa from the upstream file for our own version of this file. This is repeated for every resource we ingest, leaving us with a file that is the remainder of what is not otherwise spoken for in the GO annotation set.
 
 #### goa_uniprot_all_noiea.gaf
 
-This is the same as the goa_uniprot_all.gaf.gz file, except with electronically inferred (IEA) annotations filtered out. This is the file that is included in the AmiGO load and available at http://amigo.geneontology.org.
+This is the same as the filtered_goa_uniprot_all.gaf.gz file, except with electronically inferred (IEA) annotations filtered out. This is the file that is included in the AmiGO load and available at http://amigo.geneontology.org.
 
 ---------------------------------------------------------------------------
 ## What criteria are used to annotate genes with GO terms?
