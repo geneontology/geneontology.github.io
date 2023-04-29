@@ -2,7 +2,7 @@
 
 To contribute to this site content, please follow the [guidelines](/HOWTO.md)
 
-## Installation
+## Installation (basic)
 
 You need Ruby and gem before starting, then:
 
@@ -15,6 +15,8 @@ git clone https://github.com/geneontology/geneontology.github.io.git
 cd geneontology.github.io
 bundle install
 ```
+
+## Installation (docker)
 
 More specifically, as versions have rather moved on at this point, we can reproduce with:
 
