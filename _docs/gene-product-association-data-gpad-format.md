@@ -39,7 +39,7 @@ should have these values separated by pipes.
 |2 |	[DB Object ID](#db-object-id "Definition and requirements for DB Object ID (column 2)") |	required |	1 |	P12345 |
 |3 |	[Qualifier](#qualifier "Definition and requirements for Qualifier (column 3)") |	required |	1 or greater |	enables |
 |4 |	[GO ID](#go-id "Definition and requirements for GO ID (column 4)") |	required |	1 |	GO:0019104 |
-|5 |	[DB:Reference(s) (\|DB:Reference)](#dbreferences "Definition and requirements for DB:Reference (column 5)") |	required |	1 or greater |	PMID:20727966|
+|5 |	[DB:Reference(s) (\|DB:Reference)](#dbreference "Definition and requirements for DB:Reference (column 5)") |	required |	1 or greater |	PMID:20727966|
 |6 |	[Evidence Code](#evidence-code "Definition and requirements for Evidence Code (column 6)") |	required |	1 |	ECO:0000021|
 |7 |	[With (or) From](#with-or-from "Definition and requirements for With [or] From (column 7)") |	optional |	0 or greater |	Ensembl:ENSRNOP00000010579|
 |8 |	[Interacting taxon ID](#interacting-taxon-id "Definition and requirements for Interacting Taxon ID (column 8)") |	optional |	0 or 1 |	4896|
@@ -99,7 +99,7 @@ for that reference can be included on a single line. For example, if the referen
 the PubMed ID must be included; if the model organism database has its own identifier for the reference, that can also be 
 included.
 
-This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
+This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709\|SGD_REF:S000047763). 
 
 #### Evidence code
 One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO
