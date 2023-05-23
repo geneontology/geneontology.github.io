@@ -54,7 +54,6 @@ Browse the GO FAQ by topic:
 # General: Overview
 
 ---------------------------------------------------------------------------
-<a name="whatisgo"></a>
 ## What is the GO?
 {::comment}
 
@@ -219,7 +218,8 @@ FAQ tags: 
 Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium.
 
 ---------------------------------------------------------------------------
-## What is the difference between GO, GOC, GO Central, and GOA?
+## <a name="GO-GOC-GO_Central-GOA"></a>What is the difference between GO, GOC, GO Central, and GOA?
+
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between GO, GOC, GO Central, and GOA?"></span>
