@@ -54,6 +54,7 @@ Browse the GO FAQ by topic:
 # General: Overview
 
 ---------------------------------------------------------------------------
+<a name="whatisgo"></a>
 ## What is the GO?
 {::comment}
 
