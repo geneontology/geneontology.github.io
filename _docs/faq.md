@@ -215,10 +215,10 @@ FAQ tags: 
 [consortium](/faq-tags/consortium)
 {:/comment}
 
-Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium.
+Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium. <a name="GO-GOC-GO_Central-GOA"></a>
 
 ---------------------------------------------------------------------------
-## <a name="GO-GOC-GO_Central-GOA"></a>What is the difference between GO, GOC, GO Central, and GOA?
+## What is the difference between GO, GOC, GO Central, and GOA?
 
 {::comment}
 
