@@ -215,7 +215,7 @@ FAQ tags: 
 [consortium](/faq-tags/consortium)
 {:/comment}
 
-Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium. <a name="GO-GOC-GO_Central-GOA"></a>
+Back in 1998, the Gene Ontology began as a collaboration between three model organism databases, namely Flybase (Drosophila), the Saccharomyces Genome Database (SGD), and the Mouse Genome Database (MGD). Today, the GO Consortium is formed by many databases, including several of the world's major repositories for plant, animal, and microbial genomes. Visit [this page to see a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium.
 
 ---------------------------------------------------------------------------
 ## What is the difference between GO, GOC, GO Central, and GOA?
@@ -520,7 +520,8 @@ Most annotations in association files are electronically inferred (IEA). As with
 However, if you think that an observed change in the size of an annotation file cannot be explained by any of the above, and suspect a bug, please contact us using our [Contact Form](http://geneontology.org/form/contact-go).
 
 ---------------------------------------------------------------------------
-## What is the difference between the filtered_goa_uniprot_all.gaf and filtered_goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
+## What is the difference between the filtered_goa_uniprot_all.gaf and filtered_goa_uniprot_all_noiea.gaf? 
+## Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between the goa_uniprot_all.gaf and goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?"></span>
