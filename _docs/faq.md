@@ -44,7 +44,7 @@ Browse the GO FAQ by topic:
 - [AmiGO](/docs/faq/#amigo)
 - [GO-CAMs](/docs/faq/#go-cams)
 - [Enrichment Analysis (EA)](/docs/faq/#enrichment-analysis)
-- [Slims](/docs/faq/#slims)
+- [Subsets (slims)](/docs/faq/#subsets)
 - [Mappings](/docs/faq/#mappings)
 - [File Formats](/docs/faq/#file-formats)
 - [Database Access](/docs/faq/#database-access)
@@ -521,7 +521,7 @@ However, if you think that an observed change in the size of an annotation file 
 
 ---------------------------------------------------------------------------
 ## What is the difference between the filtered_goa_uniprot_all.gaf and filtered_goa_uniprot_all_noiea.gaf? 
-## Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
+## <a name="filtered_gaf"></a>Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="What is the difference between the goa_uniprot_all.gaf and goa_uniprot_all_noiea.gaf? Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?"></span>
@@ -816,7 +816,9 @@ FAQ tags: 
 No - the term will always have the same children wherever, and however many times it appears.
 
 ---------------------------------------------------------------------------
-## How do I get the term names for my list of GO IDs? How do I get GO IDs for my GO terms? What about definitions?
+## How do I get the term names for my list of GO IDs? 
+## How do I get GO IDs for my GO terms? 
+## <a name="convert_ids_terms"></a>What about GO definitions?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="How do I get the term names for my list of GO IDs? How do I get GO IDs for my GO terms? What about definitions?"></span>
@@ -1104,9 +1106,24 @@ Our Term Enrichment tool on the homepage of the Gene Ontology Website cannot han
 Alternatively, annotators can use the PANTHER Term Enrichment tool directly, without AmiGO as an intermediary; this would still be the exact same analysis with the GO data. To perform term enrichment analysis directly from the PANTHER website, visit [http://pantherdb.org](http://pantherdb.org/){:target="blank"}. Once you upload or paste your gene list, select the 'Statistical overrepresentation test' option (in Step3) to perform the term enrichment.
 
 ---------------------------------------------------------------------------
-# Slims
+# Subsets
 
 ---------------------------------------------------------------------------
+
+## What are GO subsets? What are GO slims?
+
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="What are GO Subsets?"></span>
+FAQ tags: 
+
+[other](/faq-tags/other)
+{:/comment}
+
+GO subsets (also known as GO slims) are cut-down versions of the GO containing a subset of the terms. They are specified by tags within the ontology that indicate if a given term is a member of a particular subset. See more at the [guide to GO subsets](http://geneontology.org/docs/go-subset-guide/).
+
+---------------------------------------------------------------------------
+
 ## What is "GO slimming" ?
 {::comment}
 
@@ -1116,7 +1133,7 @@ FAQ tags: 
 [other](/faq-tags/other)
 {:/comment}
 
-Mapping granular annotations of a set of genes to one or more high-level, broader parent terms is referred to as "GO slimming". GO slimming is commonly used to report an overview of a genome or to a set of summarize experimental results. GO hosts a number of predefined slim sets, a generic GO slim, and a number of slims tailored to give good coverage for some well studied/annotated model species. GO slimming will only be successful if the organism of interest has a body of GO annotation in the GO database (either electronic or manual). If your organism of interest has no publicly available GO data refer to the [FAQ on annotating a gene set](#how-do-i-annotate-a-novel-genome-with-go-annotations).
+Mapping granular annotations of a set of genes to one or more high-level, broader parent terms is referred to as "GO slimming". GO slimming is commonly used to report an overview of a genome or to a set of summarize experimental results. GO hosts a number of predefined slim sets including a generic GO slim, and a number of slims/subsets tailored to give good coverage for some well studied/annotated model species. GO slimming will only be successful if the organism of interest has a body of GO annotation in the GO database (either electronic or manual). If your organism of interest has no publicly available GO data refer to the [FAQ on annotating a gene set](#how-do-i-annotate-a-novel-genome-with-go-annotations).
 
 ---------------------------------------------------------------------------
 ## How do I create a user defined "GO slim"?
@@ -1128,7 +1145,13 @@ FAQ tags: 
 [other](/faq-tags/other)
 {:/comment}
 
-GO hosts a number of predefined Slim sets, a generic GO slim, and a number of slims tailored to give good annotation coverage for some well studied/annotated model species. The available GO slimming tools also provide an option to upload your own term set. For most applications you usually need to adjust the terms in the slim to represent your results (i.e to reduce the number of terms, or to replace terms in regions of special interest with more specific children). The generic GO slims or organism specific slims are a good starting point to create your own GO slim. When creating a slim you should still ensure that it covers as many annotated genes in your set as possible. To enable interpretation of your results you should also report how many genes are annotated but not in your slim, and how many genes do not slim (i.e map only to the root node and are therefore 'unknown').
+GO hosts a number of predefined Slim sets including a generic GO subset and a number of subsets tailored to give good annotation coverage for several well studied/annotated model species.  These existing subsets should be sufficient for most users. 
+
+The available GO slimming tools also provide an option to upload your own subset.  The generic GO slims or organism specific slims are a good starting point to create your own GO subset.  For most applications you usually need to adjust the terms in the slim to represent your results (i.e to reduce the number of terms, or to replace terms in regions of special interest with more specific children).  You may find the [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"}, [GO Term Finder](https://go.princeton.edu/cgi-bin/GOTermFinder){:target="blank"}, and the [GO Term Matrix](http://amigo.geneontology.org/matrix) useful in modifying an existing slim or creating a new slim.
+
+When creating a slim you should still ensure that it covers as many annotated genes in your set as possible. To enable interpretation of your results you should also report how many genes are annotated but not in your subset, and how many genes do not slim (i.e map only to the root node and are therefore 'unknown'). 
+
+Contact the [contact the GO](http://help.geneontology.org) for more information.
 
 ---------------------------------------------------------------------------
 ## How do I map a set of annotations to high level GO terms (GO slim)?
@@ -1148,7 +1171,7 @@ FAQ tags: 
 [go_slim](/faq-tags/go_slim)
 {:/comment}
 
-* One method is to use [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"}.  Choose the aspect (Molecular Function, Biological Process, or Cellular Component) and indicate if you want to map to a generic slim or one curated for your organism (for example, the *S. cerevisiae* slim omits terms applicable only to plants or bacteria).
+* One method is to use [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"}.  Choose the aspect (Molecular Function, Biological Process, or Cellular Component) and indicate if you want to map to a generic subset or one curated for your organism (for example, the *S. cerevisiae* slim omits terms applicable only to plants or bacteria).
 
 * In order to map your annotations to a GO slim, use the [Map2Slim](https://github.com/owlcollab/owltools/wiki/Map2Slim){:target="blank"} option in OWLTools. Given a GO slim file, and a current ontology (in one or more files), the Map2Slim script will map a gene association file (containing annotations to the full GO) to the terms in the GO slim. This script is an option of OWLTools, and it can be used to either create a new gene association file, which contains the most pertinent GO slim accessions, or in count-mode, in which case it will give distinct gene product counts for each slim term.
 
@@ -1350,7 +1373,9 @@ As of August 1, 2009, the original GO flat file format was deprecated and is no 
 The OBO-Edit project, which used to generate the flat file format, [has been *mothballed*](http://oboedit.org/){:target="blank"}.
 
 ---------------------------------------------------------------------------
-## Why am I having issues accessing the FTP/CVS/SVN service? Where is go_daily-termdb.rdf-xml? I can't find a file we've been downloading for years...
+## Why am I having issues accessing the FTP/CVS/SVN service? 
+## Where is go_daily-termdb.rdf-xml? 
+## <a name="FTP_CVS_SVN"></a> I can't find a file we've been downloading for years...
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="Why am I having issues accessing the FTP/CVS/SVN service? Where is go_daily-termdb.rdf-xml? I can't find a file we've been downloading for years..."></span>
