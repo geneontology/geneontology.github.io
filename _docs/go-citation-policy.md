@@ -12,25 +12,25 @@ redirect_from:
 ## Citing GO
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
-+ Ashburner et al. Gene ontology: tool for the unification of biology. Nat Genet. May 2000;25(1):25-9. \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/10802651){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3037419/){:target="blank"}\]
-+ The Gene Ontology resource: enriching a GOld mine. Nucleic Acids Res. Jan 2021;49(D1):D325-D334. \[[abstract](https://pubmed.ncbi.nlm.nih.gov/33290552/){:target="blank"} \| [full text](https://academic.oup.com/nar/article-pdf/49/D1/D325/35364517/gkaa1113.pdf){:target="blank"}\]
++ Ashburner et al. Gene ontology: tool for the unification of biology. Nat Genet. May 2000;25(1):25-9. DOI: [10.1038/75556](https://doi.org/10.1038/75556){:target="blank"} \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/10802651){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3037419/){:target="blank"}\]
++ The Gene Ontology Consortium. The Gene Ontology knowledgebase in 2023. Genetics. 2023 May 4;224(1):iyad031. DOI: [10.1093/genetics/iyad031](https://doi.org/10.1093/genetics/iyad031){:target="blank"}  \[[abstract](https://pubmed.ncbi.nlm.nih.gov/36866529/){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10158837/pdf/iyad031.pdf){:target="blank"}\]
 
 
 If you used a specific software/analysis tool in your research, in addition to the two publications above, please also cite the tool used according to the following list:
-+ **GO Enrichment Analysis**: Mi H, Huang X, Muruganujan A, Tang H, Mills C, Kang D, Thomas PD. PANTHER version 14: more genomes, a new PANTHER GO-slim and improvements in enrichment analysis tools. Nucleic Acids Res. Jan 2019;47(D1):D419-D426. \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/30407594){:target="blank"} \| [full text](https://academic.oup.com/nar/article/47/D1/D419/5165346){:target="blank"}\]
-+ **AmiGO**: Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data. Bioinformatics. Jan 2009;25(2):288-289. \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/19033274){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/25/2/288.full.pdf+html){:target="blank"}\]
-+ **OBO-Edit**: Day-Richter J, Harris MA, Haendel M, Gene Ontology OBO-Edit Working Group, Lewis S. OBO-Edit--an ontology editor for biologists. Bioinformatics. Aug 2007;23(16):2198-200. \[[abstract](http://bioinformatics.oxfordjournals.org/content/23/16/2198){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/23/16/2198.full){:target="blank"}\]
++ **GO Enrichment Analysis**: Mi H, Huang X, Muruganujan A, Tang H, Mills C, Kang D, Thomas PD. PANTHER version 14: more genomes, a new PANTHER GO-slim and improvements in enrichment analysis tools. Nucleic Acids Res. Jan 2019;47(D1):D419-D426. DOI: [10.1093/nar/gky1038](https://doi.org/10.1093/nar/gky1038){:target="blank"} \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/30407594){:target="blank"} \| [full text](https://academic.oup.com/nar/article/47/D1/D419/5165346){:target="blank"}\]
++ **AmiGO**: Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S, AmiGO Hub, Web Presence Working Group. AmiGO: online access to ontology and annotation data. Bioinformatics. Jan 2009;25(2):288-289. [DOI:10.1093/bioinformatics/btn615](https://doi.org/10.1093/bioinformatics/btn615){:target="blank"} \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/19033274){:target="blank"} \| [full text](http://bioinformatics.oxfordjournals.org/content/25/2/288.full.pdf+html){:target="blank"}\]
++ **GO-CAMs**: Thomas PD, Hill DP, Mi H, Osumi-Sutherland D, Van Auken K, Carbon S, Balhoff JP, Albou LP, Good B, Gaudet P, Lewis SE, Mungall CJ. Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems. Nat Genet. 2019 Oct;51(10):1429-1433. DOI: [10.1038/s41588-019-0500-1](https://doi.org/10.1038/s41588-019-0500-1){:target="blank"} \[[abstract](https://pubmed.ncbi.nlm.nih.gov/31548717/){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012280/pdf/nihms-1067180.pdf){:target="blank"}\]
 
 
-If you produce tools and/or services that use GO data, the user should be provided with the GO release date and DOI along with the results (e.g. "2019-01-01" and "doi:[10.5281/zenodo.2529950](https://dx.doi.org/10.5281/zenodo.2529950){:target="blank"}").
+If you produce tools and/or services that use GO data, the user should be provided with the GO release date and DOI along with the results (e.g. "2023-01-01" and "DOI: [10.5281/zenodo.7504797](https://dx.doi.org/10.5281/zenodo.7504797){:target="blank"}").
 
 ## Citing data from downloads
 
-If you wish to cite data provided by the Gene Ontology knowledgebase, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data, preferably both; e.g. "2019-01-01" and "[10.5281/zenodo.2529950](https://dx.doi.org/10.5281/zenodo.2529950){:target="blank"}". Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
+If you wish to cite data provided by the Gene Ontology knowledgebase, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data, preferably both; e.g. "2023-01-01" and "[10.5281/zenodo.7504797](https://dx.doi.org/10.5281/zenodo.7504797){:target="blank"}". Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
 
 ## Citing data from AmiGO
 
-The data release can be found in the page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
+The data release can be found in the [AmiGO](http://amigo.geneontology.org/amigo){:target="blank"} page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
 
 ## GO logo
 
@@ -48,11 +48,11 @@ The GO logo is available in four sizes. For reuse, please do not hotlink images,
 
 Gene Ontology Consortium data and data products are licensed under the [Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/legalcode){:target="blank"}. A human-readable version and explanation is available at the [Creative Commons website](https://creativecommons.org/licenses/by/4.0/){:target="blank"}. For information about how to properly credit data use, please review the [Creative Commons FAQ](http://wiki.creativecommons.org/Frequently_Asked_Questions){:target="blank"} or contact the GO Helpdesk.
 
-We ask that when citing GO data that the particular release is mentioned. For example, we'd ask that the date (e.g. "2023-01-01") is included where applicable, and optionally the Zenodo DOI (e.g. "10.5281/zenodo.7504797"). Links, where applicable, would be a useful addition for end-users.
+We ask that when using or citing GO data that the particular release is mentioned. For example, we'd ask that the date (e.g. "2023-01-01") is included where applicable, and optionally the Zenodo DOI (e.g. "10.5281/zenodo.7504797"). Links, where applicable, would be a useful addition for end-users.
 
 ### Attribution
 
-According to the terms of GO's [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode#s3a1), those using our data publicly or redistributing it must provide:
+According to the terms of GO's [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode#s3a1){:target="blank"}, those using our data publicly or redistributing it must provide:
 
 * "identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);"
 *  "a copyright notice;"
@@ -64,12 +64,12 @@ According to the terms of GO's [CC BY 4.0 license](https://creativecommons.org/l
 
 For example, if you are offering downloads containing GO data, have a data licensing page in your application, or refer to licensed data in your documentation, an appropriate notice may be:
 
-> [Gene Ontology](http://geneontology.org) data from the [2023-01-01 release](http://release.geneontology.org/2023-01-01) ([DOI:10.5281/zenodo.7504797](https://doi.org/10.5281/zenodo.7504797)) is made available under the terms of the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
+> [Gene Ontology](http://geneontology.org) data from the [2023-01-01 release](http://release.geneontology.org/2023-01-01) ([DOI:10.5281/zenodo.7504797](https://doi.org/10.5281/zenodo.7504797){:target="blank"}) is made available under the terms of the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 For further reading, suggest:
 
-* [Creative Commons Recommended Practices for Attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution)
-* [Creative Commons FAQ](https://creativecommons.org/faq/)
+* [Creative Commons Recommended Practices for Attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution){:target="blank"}
+* [Creative Commons FAQ](https://creativecommons.org/faq/){:target="blank"}
 
 ### Software
 
