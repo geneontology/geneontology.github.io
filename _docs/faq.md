@@ -1081,11 +1081,11 @@ FAQ tags: 
 {:/comment}
 
 
-[PANTHER](http://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found on the right side of GO website. Besides the [130+ genomes listed](http://www.pantherdb.org/panther/summaryStats.jsp), PANTHER supports [another 770+ genomes](http://data.pantherdb.org/ftp/generic_mapping/stats){:target="blank"} from the Reference Proteome project for users to generate GO annotations.
+[PANTHER](http://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found on the right side of GO website. Besides the [130+ genomes listed](http://www.pantherdb.org/panther/summaryStats.jsp){:target="blank"}, PANTHER supports [another 770+ genomes](http://data.pantherdb.org/ftp/generic_mapping/stats){:target="blank"} from the Reference Proteome project for users to generate GO annotations.
 
 If your organism is not one of the nearly 1000 genomes supported in PANTHER, there are two options:
 
-* The first option is to contact the [Reference Proteome project](https://www.ebi.ac.uk/reference_proteomes) and work with them to incorporate the genome in their project. Once that is done, you can use the regular process to generate the GO annotation file.
+* The first option is to contact the [Reference Proteome project](https://www.ebi.ac.uk/reference_proteomes){:target="blank"}, and work with them to incorporate the genome in their project. Once that is done, you can use the regular process to generate the GO annotation file.
 
 * The second option is to score your genomes against the PANTHER HMM library. Read our [Nature protocol paper](https://www.nature.com/articles/nprot.2013.092){:target="blank"}, and find the details in Box 2 of the paper.
 
