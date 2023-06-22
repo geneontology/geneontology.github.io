@@ -71,19 +71,17 @@ The **DB Object ID** is the identifier for the database object, which may or may
 in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein 
 (gene ID in **DB Object ID** field) or annotations to a protein object (protein ID in **DB Object ID** field). 
 
-#### Qualifier
-The relationship between the gene product in the DB: **DB Object ID** and the GO ID composed of up to three parts: an operator 
-(optional), a modifier (optional) and an atomic relation (required) this field is mandatory, cardinality 1 or greater than 1, 
-entries pipe-separated.
-The operator may be one of two values, not or always. Operators are optional. Valid qualifiers are contributes to and 
-colocalizes with. In addition, annotations encompassing interactions with other organisms may use the qualifiers host, other organism or symbiont. Qualifiers are optional.
+#### Relations between Gene Products and GO Terms (also known as 'Qualifier')
+The relationship between the gene product in the DB: **DB Object ID** and the GO ID composed of up to three parts: 
+* a Gene Product to Term relation (required); this relation depends upon the term namespace. Default relations are as follows:
+** Gene product *enables* molecular function
+** Gene product *involved in* biological process
+** Gene product *located in* cellular anatomical entity; Gene product  *part of* protein-containing complex.
+  See [Annotation_Relations for Standard Annotation Dpcumentation](https://wiki.geneontology.org/Annotation_Relations#Standard_Annotation_Relations) for other allowed relations.
+* an operator, "NOT"  optional)
+* a qualifier (or modifier): either "contributes to" and "colocalizes with" (optional)  
 
-The atomic relations depend upon the term namespace, and are as follows:
-* Gene product *enables* molecular function
-* Gene product *involved in* biological process
-* Gene product *part of* cellular component
-
-An atomic relation *must* be used.
+This field is mandatory, cardinality 1 or greater than 1. Entries pipe-separated.
 
 #### GO ID
 The GO identifier for the term attributed to the DB object ID.
