@@ -74,12 +74,15 @@ in a paper. For example, a paper describing a protein may support annotations to
 
 #### Relations between Gene Products and GO Terms (also known as 'Qualifier')
 
-The relationship between the gene product in the DB: DB Object ID and the GO ID composed of up to three parts:
-* a Gene Product to Term relation (required); this relation depends upon the term namespace. Default relations are as follows: ** Gene product enables molecular function ** Gene product involved in biological process ** Gene product located in cellular anatomical entity; Gene product part of protein-containing complex. See Annotation_Relations for Standard Annotation Dpcumentation for other allowed relations.
-* an operator, "NOT" optional)
-* a qualifier (or modifier): either "contributes to" and "colocalizes with" (optional)
+In GPAD 1.1 a Gene Product to GO Term relation is required; this relation depends on the term namespace. Default relations are as follows:
+** Gene product enables molecular function
+** Gene product involved in biological process
+** Gene product located in cellular anatomical entity; Gene product part of protein-containing complex.
+See documentation on [Annotation_Relations](https://wiki.geneontology.org/Annotation_Relations) for the complete list of allowed relations.
 
-This field is mandatory, cardinality 1 or greater than 1. Entries pipe-separated.
+In addition, an annotation can be negated by using the "NOT" operator (optional), pipe-separated from the  Gene Product to GO Term relation.
+
+This field is mandatory, cardinality 1 or greater than 1. 
 
 #### GO ID
 The GO identifier for the term attributed to the DB object ID.
