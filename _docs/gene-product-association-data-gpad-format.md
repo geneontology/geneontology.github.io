@@ -18,7 +18,6 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 
 GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
-
 ## Gene Product Association Data (GPAD) 1.1 format
 The GPAD file is an alternative means of exchanging annotations from the Gene Association File (GAF). 
 The GPAD format is designed to be more normalized than GAF and is intended to work in conjunction with a separate 
@@ -29,6 +28,7 @@ All annotation files must start with a single line denoting the file format. For
     
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an 
 association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
+
 ### Annotation file fields
 The GPAD format comprises 12 tab-delimited fields, fields with multiple values (for example, gene product synonyms) 
 should have these values separated by pipes.
@@ -74,10 +74,14 @@ in a paper. For example, a paper describing a protein may support annotations to
 
 #### Relations between Gene Products and GO Terms (also known as 'Qualifier')
 
-In GPAD 1.1 a Gene Product to GO Term relation is required; this relation depends on the term namespace. Default relations are as follows:
-** Gene product enables molecular function
-** Gene product involved in biological process
-** Gene product located in cellular anatomical entity; Gene product part of protein-containing complex.
+A Gene Product to GO Term relation is required; this relation depends on the term namespace. The relations are as follows:
+
+| **GO Aspect** | **Default relation** | **Default relation for root annotations** | **Other allowed relations** |
+|----------|---------|-------------|------------|
+| **Molecular Function** | [**enables**](https://wiki.geneontology.org/Enables) | [enables](https://wiki.geneontology.org/Enables) | [contributes_to](https://wiki.geneontology.org/Contributes_to) |
+| **Biological Process** | [**acts_upstream_of_or_within**](https://wiki.geneontology.org/Acts_upstream_of_or_within)  |  [involved_in](https://wiki.geneontology.org/Involved_in) |[acts_upstream_of](https://wiki.geneontology.org/Acts_upstream_of), [acts_upstream_of_positive_effect](https://wiki.geneontology.org/Acts_upstream_of,_positive_effect), [acts_upstream_of_negative_effect](https://wiki.geneontology.org/Acts_upstream_of,_negative_effect), [acts_upstream_of_or_within_negative_effect](https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect), [acts_upstream_of_or_within_positive_effect](https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect) |
+| **Cellular Component** | [**located_in** ](http://purl.obolibrary.org/obo/RO_0001025) for [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & children and [**part_of**](https://wiki.geneontology.org/Part_of_relation) for [protein-containing complex](GO:0032991 protein-containing complex) & children | [is_active_in](https://wiki.geneontology.org/Is_active_in) | [colocalizes_with](https://wiki.geneontology.org/Colocalizes_with)
+
 See documentation on [Annotation_Relations](https://wiki.geneontology.org/Annotation_Relations) for the complete list of allowed relations.
 
 In addition, an annotation can be negated by using the "NOT" operator (optional), pipe-separated from the  Gene Product to GO Term relation.
