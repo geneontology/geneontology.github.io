@@ -114,11 +114,11 @@ The **DB Object Symbol** field should be a symbol that means something to a biol
 #### Qualifier (column 4)
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how a gene product relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
-    This field is now mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to").
+    This field is mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to").
 
 **If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
 
-See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide. The list of allowable qualifiers is identical to those [allowable in GPAD 2.0](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#allowed-gene-product-to-go-term-relations).
+See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#annotation-qualifiers) in the GO annotation guide.
 
 
 | **GO Aspect** | **Default relation** | **Default relation for root annotations** | **Other allowed relations** |
