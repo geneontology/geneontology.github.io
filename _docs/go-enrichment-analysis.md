@@ -9,7 +9,7 @@ redirect_from: /page/go-enrichment-analysis/
 One of the main uses of the GO is to perform enrichment analysis on gene sets. For example, given a set of genes that are up-regulated under certain conditions, an enrichment analysis will find which GO terms are over-represented (or under-represented) using annotations for that gene set.
 ## Enrichment analysis tool
 
-Users can perform enrichment analyses directly from the [home page of the GOC website](http://geneontology.org/). This service connects to the analysis tool from the [PANTHER Classification System](http://pantherdb.org/){:target="_blank"}, which is maintained up to date with GO annotations. The PANTHER classification system is explained in great detail in [Mi H et al, PMID: 23868073](https://www.ncbi.nlm.nih.gov/pubmed/23868073){:target="_blank"}. The [list of supported gene IDs](http://www.pantherdb.org/tips/tips_batchIdSearch_supportedId.jsp){:target="_blank"} is available from the PANTHER website.
+Users can perform enrichment analyses directly from the [home page of the GOC website](http://geneontology.org/). This service connects to the analysis tool from the [PANTHER Classification System](https://pantherdb.org/){:target="_blank"}, which is maintained up to date with GO annotations. The PANTHER classification system is explained in great detail in [Mi H et al, PMID: 23868073](https://www.ncbi.nlm.nih.gov/pubmed/23868073){:target="_blank"}. The [list of supported gene IDs](https://www.pantherdb.org/tips/tips_batchIdSearch_supportedId.jsp){:target="_blank"} is available from the PANTHER website.
 
 ### Using the GO enrichment analysis tools
 
@@ -39,7 +39,7 @@ The symbols + and - indicate over or underrepresentation of a term.
 
 In other words, when searching the process ontology, if all of the genes in a group were associated with "DNA repair", this term would be significant. However, since all genes in the genome (with GO annotations) are indirectly associated with the top level term "biological_process", this would not be significant if all the genes in a group were associated with this very high level term.
 
-More details are available on the [PANTHER help pages](http://www.pantherdb.org/tips/tips_geneListAnalysis.jsp){:target="_blank"}.
+More details are available on the [PANTHER help pages](https://www.pantherdb.org/tips/tips_geneListAnalysis.jsp){:target="_blank"}.
 
 ## External tools
 There are a number of different tools that provide enrichment capabilities. Some of these are web-based while others may require the user download an application or install a local environment. Tools differ in the algorithms they use, the statistical tests they perform, and the frequency at which the underlying GO data are updated.  Users should therefore exercise caution when using external tools, especially if the version of GO is not immediately identifiable.
