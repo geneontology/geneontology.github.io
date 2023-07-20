@@ -73,7 +73,7 @@ The Alliance of Genome Resources Pathway Viewer is integrated in the [Alliance o
 
 ## Create annotations
 
-[Noctua](http://noctua.geneontology.org/){:target="blank"} is the curation platform developed by the Gene Ontology Consortium and allows trained GO curators to create both GO annotations and GO Causal Activity Models (GO-CAMs). The Noctua curation platform includes both a simple form editor and a more advanced and expressive pathway editor for finer details on knowledge modeling.
+[Noctua](http://noctua.geneontology.org/){:target="blank"} is the curation platform developed by the Gene Ontology Consortium and allows trained GO curators to create both GO annotations and GO Causal Activity Models (GO-CAMs). The Noctua curation platform includes a simple form editor and a more advanced and expressive pathway editor for finer details on knowledge modeling.
 
 ![Noctua Curation Platform](/assets/NoctuaPlatform.jpg)
 
