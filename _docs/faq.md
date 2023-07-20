@@ -1051,7 +1051,7 @@ We are currently investigating translations between pathway formats such as [Bio
 ## How do I make my own GO-CAMs in Noctua?
 ## How do I get an account for Noctua?
 
-Noctua is the curation platform developed by the Gene Ontology Consortium to allow curators to create both GO annotations and GO Causal Activity Models (GO-CAMs). The Noctua curation platform requires training both for the tool as well as general GO curation. Before we create a Noctua account, we'd like to know what your contributions to GO-CAM would be.  Please [email us](mailto:help@geneontology.org) with a brief summary of your research project and how GO-CAM is relevant.  Include the biological process(es) and organism(s) you want to make GO-CAM for and the time frame of your project (how long do you anticipate your project will run). 
+Noctua is the curation platform developed by the Gene Ontology Consortium to allow curators to create both standard GO annotations and GO Causal Activity Models (GO-CAMs). The Noctua curation platform requires training both for the tool as well as general GO curation. Before we create a Noctua account, we'd like to know what your contributions to GO-CAM would be.  Please [email us](mailto:help@geneontology.org) with a brief summary of your research project and how GO-CAM is relevant.  Include the biological process(es) and organism(s) you want to make GO-CAM for and the time frame of your project (how long do you anticipate your project will run). 
 
 ---------------------------------------------------------------------------
 # Enrichment Analysis
