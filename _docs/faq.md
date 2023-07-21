@@ -1087,7 +1087,7 @@ FAQ tags: 
 {:/comment}
 
 
-[PANTHER](http://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found on the right side of GO website. Besides [those 130+ genomes](http://www.pantherdb.org/panther/summaryStats.jsp){:target="blank"}, PANTHER supports [another 1100+ genomes](http://data.pantherdb.org/ftp/generic_mapping/stats){:target="blank"} from the Reference Proteome project for users to generate GO annotations.
+[PANTHER](https://www.pantherdb.org/){:target="blank"}, which supports the backend of the GO enrichment, provides the list of the species found on the right side of GO website. Besides [those 130+ genomes](https://www.pantherdb.org/panther/summaryStats.jsp){:target="blank"}, PANTHER supports [another 1100+ genomes](http://data.pantherdb.org/ftp/generic_mapping/stats){:target="blank"} from the Reference Proteome project for users to generate GO annotations.
 
 If your organism is not one of the nearly 1000 genomes supported in PANTHER, there are two options:
 
@@ -1109,7 +1109,7 @@ FAQ tags: 
 
 Our Term Enrichment tool on the homepage of the Gene Ontology Website cannot handle very large gene lists. The root of the problem is that at a certain number, the input (gene list) is too large for the form; however there is not an exact number at which it fails. One way to solve the problem, should you come across this situation, is to reduce the size of the input file by reducing the number of genes.
 
-Alternatively, annotators can use the PANTHER Term Enrichment tool directly, without AmiGO as an intermediary; this would still be the exact same analysis with the GO data. To perform term enrichment analysis directly from the PANTHER website, visit [http://pantherdb.org](http://pantherdb.org/){:target="blank"}. Once you upload or paste your gene list, select the 'Statistical overrepresentation test' option (in Step3) to perform the term enrichment.
+Alternatively, annotators can use the PANTHER Term Enrichment tool directly, without AmiGO as an intermediary; this would still be the exact same analysis with the GO data. To perform term enrichment analysis directly from the PANTHER website, visit [https://pantherdb.org](https://pantherdb.org/){:target="blank"}. Once you upload or paste your gene list, select the 'Statistical overrepresentation test' option (in Step3) to perform the term enrichment.
 
 ---------------------------------------------------------------------------
 # Subsets
