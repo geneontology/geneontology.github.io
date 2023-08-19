@@ -1,7 +1,7 @@
 ---
 title: Download ontology
 permalink: /docs/download-ontology/
-redirect_from: 
+redirect_from:
 - /page/download-ontology
 - /page/go-file-format-guide
 - /GO.downloads.ontology.shtml
@@ -11,10 +11,10 @@ redirect_from:
 
 |Name 	|Permanent URL |	Description|
 |-------|--------------|-------------|
-|[go-basic.obo](#go_basic)|	[http://purl.obolibrary.org/obo/go/go-basic.obo](http://purl.obolibrary.org/obo/go/go-basic.obo)|	Filtered, for use with legacy tools|
-|[go.obo](#go_obo_and_owl) |		[http://purl.obolibrary.org/obo/go.obo](http://purl.obolibrary.org/obo/go.obo)|	Core ontology (OBO Format)|
-|[go.owl](#go_obo_and_owl) |		[http://purl.obolibrary.org/obo/go.owl](http://purl.obolibrary.org/obo/go.owl){:target="blank"} |	Core ontology (OWL RDF/XML)|
-|[go-plus.owl](#go_plus_owl) |		[http://purl.obolibrary.org/obo/go/extensions/go-plus.owl](http://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
+|[go-basic.obo](#go_basic)|	http://purl.obolibrary.org/obo/go/go-basic.obo[&#1F855](https://purl.obolibrary.org/obo/go/go-basic.obo)|	Filtered, for use with legacy tools|
+|[go.obo](#go_obo_and_owl) |		http://purl.obolibrary.org/obo/go.obo[&#1F855](https://purl.obolibrary.org/obo/go.obo)|	Core ontology (OBO Format)|
+|[go.owl](#go_obo_and_owl) |		http://purl.obolibrary.org/obo/go.owl[&#1F855](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	Core ontology (OWL RDF/XML)|
+|[go-plus.owl](#go_plus_owl) |		http://purl.obolibrary.org/obo/go/extensions/go-plus.owl[&#1F855](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
 
 ## Ontology files: General information
 + Released monthly
@@ -48,18 +48,18 @@ The GO subsets in this list are maintained as part of the GO flat file. The file
 
 |**Subset name**|**Maintainer**|**File name**|**OBO format**|**OWL format**|**json format**|
 |------------------|-------------|-------------|-------------|------------|-------------|
-|**GO slim AGR subset**|Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/){:target="blank"} |goslim_agr  |[obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_agr.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_agr.json){:target="blank"}  |
-|**Generic GO subset**|GO Consortium |goslim_generic|[obo](http://current.geneontology.org/ontology/subsets/goslim_generic.obo)| [owl](http://current.geneontology.org/ontology/subsets/goslim_generic.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_generic.json){:target="blank"}  |
-|*__Aspergillus__* **subset**|[_Aspergillus_ Genome Data](http://www.aspgd.org/){:target="blank"} |goslim_aspergillus|[obo](http://current.geneontology.org/ontology/subsets/goslim_aspergillus.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_aspergillus.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_aspergillus.json){:target="blank"}  |
-|*__Candida albicans__* **subset**|[_Candida_ Genome Database](http://www.candidagenome.org/){:target="blank"} |goslim_candida|[obo](http://current.geneontology.org/ontology/subsets/goslim_candida.obo)|[owl](http://current.geneontology.org/ontology/subsets/goslim_candida.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_candida.json){:target="blank"}  |
-|*__Drosophila__* **subset**|[FlyBase](http://www.flybase.org/){:target="blank"} |goslim_drosophila|[obo](http://current.geneontology.org/ontology/subsets/goslim_drosophila.obo)|[owl](http://current.geneontology.org/ontology/subsets/goslim_drosophila.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_drosophila.json){:target="blank"}  |
-|**Chembl Drug Target subset**|[ChEMBL](https://www.ebi.ac.uk/chembl/){:target="blank"} |goslim_chembl|[obo](http://current.geneontology.org/ontology/subsets/goslim_chembl.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_chembl.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_chembl.json){:target="blank"} |
-|**Metagenomics subset**|[InterPro](http://www.ebi.ac.uk/interpro/){:target="blank"}  group|goslim_metagenomic|[obo](http://current.geneontology.org/ontology/subsets/goslim_metagenomics.obo) | [owl](http://current.geneontology.org/ontology/subsets/goslim_metagenomics.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_metagenomics.json){:target="blank"} |
-|**Mouse GO slim**|[Mouse Genome Informatics](http://www.informatics.jax.org/){:target="blank"} |goslim_mouse|[obo](http://current.geneontology.org/ontology/subsets/goslim_mouse.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_mouse.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_mouse.json){:target="blank"}  |
-|**Plant subset**|[The _Arabidopsis_ Information Resource](https://www.arabidopsis.org/){:target="blank"} |goslim_plant|[obo](http://current.geneontology.org/ontology/subsets/goslim_plant.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_plant.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_plant.json){:target="blank"}  |
-|**Protein Information Resource subset**|[PIR](https://proteininformationresource.org/){:target="blank"} |goslim_pir|[obo](http://current.geneontology.org/ontology/subsets/goslim_pir.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_pir.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_pir.json){:target="blank"}  |
-|*__Schizosaccharomyces pombe__* **subset**|[PomBase](https://www.pombase.org/){:target="blank"} |goslim_pombe|[obo](http://current.geneontology.org/ontology/subsets/goslim_pombe.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_pombe.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_pombe.json){:target="blank"}  |
-|**Yeast subset**|[_Saccharomyces_ Genome Database](https://www.yeastgenome.org/){:target="blank"} |goslim_yeast|[obo](http://current.geneontology.org/ontology/subsets/goslim_yeast.obo) |[owl](http://current.geneontology.org/ontology/subsets/goslim_yeast.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/goslim_yeast.json){:target="blank"}  |
+|**GO slim AGR subset**|Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/){:target="blank"} |goslim_agr  |[obo](https://current.geneontology.org/ontology/subsets/goslim_agr.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_agr.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_agr.json){:target="blank"}  |
+|**Generic GO subset**|GO Consortium |goslim_generic|[obo](https://current.geneontology.org/ontology/subsets/goslim_generic.obo)| [owl](https://current.geneontology.org/ontology/subsets/goslim_generic.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_generic.json){:target="blank"}  |
+|*__Aspergillus__* **subset**|[_Aspergillus_ Genome Data](http://www.aspgd.org/){:target="blank"} |goslim_aspergillus|[obo](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.json){:target="blank"}  |
+|*__Candida albicans__* **subset**|[_Candida_ Genome Database](http://www.candidagenome.org/){:target="blank"} |goslim_candida|[obo](https://current.geneontology.org/ontology/subsets/goslim_candida.obo)|[owl](https://current.geneontology.org/ontology/subsets/goslim_candida.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_candida.json){:target="blank"}  |
+|*__Drosophila__* **subset**|[FlyBase](http://www.flybase.org/){:target="blank"} |goslim_drosophila|[obo](https://current.geneontology.org/ontology/subsets/goslim_drosophila.obo)|[owl](https://current.geneontology.org/ontology/subsets/goslim_drosophila.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_drosophila.json){:target="blank"}  |
+|**Chembl Drug Target subset**|[ChEMBL](https://www.ebi.ac.uk/chembl/){:target="blank"} |goslim_chembl|[obo](https://current.geneontology.org/ontology/subsets/goslim_chembl.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_chembl.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_chembl.json){:target="blank"} |
+|**Metagenomics subset**|[InterPro](http://www.ebi.ac.uk/interpro/){:target="blank"}  group|goslim_metagenomic|[obo](https://current.geneontology.org/ontology/subsets/goslim_metagenomics.obo) | [owl](https://current.geneontology.org/ontology/subsets/goslim_metagenomics.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_metagenomics.json){:target="blank"} |
+|**Mouse GO slim**|[Mouse Genome Informatics](http://www.informatics.jax.org/){:target="blank"} |goslim_mouse|[obo](https://current.geneontology.org/ontology/subsets/goslim_mouse.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_mouse.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_mouse.json){:target="blank"}  |
+|**Plant subset**|[The _Arabidopsis_ Information Resource](https://www.arabidopsis.org/){:target="blank"} |goslim_plant|[obo](https://current.geneontology.org/ontology/subsets/goslim_plant.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_plant.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_plant.json){:target="blank"}  |
+|**Protein Information Resource subset**|[PIR](https://proteininformationresource.org/){:target="blank"} |goslim_pir|[obo](https://current.geneontology.org/ontology/subsets/goslim_pir.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_pir.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_pir.json){:target="blank"}  |
+|*__Schizosaccharomyces pombe__* **subset**|[PomBase](https://www.pombase.org/){:target="blank"} |goslim_pombe|[obo](https://current.geneontology.org/ontology/subsets/goslim_pombe.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_pombe.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_pombe.json){:target="blank"}  |
+|**Yeast subset**|[_Saccharomyces_ Genome Database](https://www.yeastgenome.org/){:target="blank"} |goslim_yeast|[obo](https://current.geneontology.org/ontology/subsets/goslim_yeast.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_yeast.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_yeast.json){:target="blank"}  |
 
 ### Download GO "*__anti-slims__*"
 
@@ -68,8 +68,8 @@ For internal checking purposes, GO maintains two "anti-slims", terms to which an
 
 |**Subset name**|**Usage** |**File name** |**OBO format** |**OWL format** |**json format** |
 |------------------|----------|----------|----------|----------|----------|
-|**Do not annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations| gocheck_do_not_annotate |[obo](http://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo)| [owl](http://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.json){:target="blank"}  |
-|**Do not manually annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools| gocheck_do_not_manually_annotate|[obo](http://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.obo)|[owl](http://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.owl){:target="blank"}  |[json](http://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.json){:target="blank"}  |
+|**Do not annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations| gocheck_do_not_annotate |[obo](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo)| [owl](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.json){:target="blank"}  |
+|**Do not manually annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools| gocheck_do_not_manually_annotate|[obo](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.obo)|[owl](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.json){:target="blank"}  |
 
 
 ## Cross-references of GO to other classification systems
@@ -84,6 +84,6 @@ As of April 2019, the standard PURLs for GO will resolve to the monthly (release
  * http://purl.obolibrary.org/obo/go/snapshot/go.owl
  * http://purl.obolibrary.org/obo/go/snapshot/extensions/go-plus.owl
 
-## Related tools 
+## Related tools
 + [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools){:target="blank"}: a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
 * [OWL API in Github](https://github.com/owlcs/owlapi){:target="blank"}: a Java API for creating, manipulating and serialising OWL Ontologies
