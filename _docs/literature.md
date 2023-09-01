@@ -1,14 +1,14 @@
 ---
 title: Scientific literature
 permalink: /docs/literature/
-redirect_from: 
+redirect_from:
 - /page/publications
 - /docs/publications
 ---
 
 # The Gene Ontology and the scientific literature
 
-GO annotations are fundamentally based on the scientific literature. Every individual assertion in the Gene Ontology knowledgebase cites the original information justifying that assertion, and the core of these annotations are those determined through direct experimentation. Currently, the GO includes experimental findings from over [170,000 published papers](http://geneontology.org/stats.html){:target="blank"}, represented as over 930,000 experimentally-supported annotations. These provide the central dataset for additional inference of functional annotations, including over 3.6 million annotations [based on phylogeny](https://pubmed.ncbi.nlm.nih.gov/21873635){:target="blank"}, for a total of over 7.4 million annotations for a diverse set of organisms spanning the tree of life.
+GO annotations are fundamentally based on the scientific literature. Every individual assertion in the Gene Ontology knowledgebase cites the original information justifying that assertion, and the core of these annotations are those determined through direct experimentation. Currently, the GO includes experimental findings from over [170,000 published papers](https://geneontology.org/stats.html){:target="blank"}, represented as over 930,000 experimentally-supported annotations. These provide the central dataset for additional inference of functional annotations, including over 3.6 million annotations [based on phylogeny](https://pubmed.ncbi.nlm.nih.gov/21873635){:target="blank"}, for a total of over 7.4 million annotations for a diverse set of organisms spanning the tree of life.
 
 Reciprocally, the GO knowledgebase plays a critical role in furthering biomedical research. GO is referenced in over [159,000 scientific papers](https://www.ncbi.nlm.nih.gov/pubmed/?term=loprovGeneOntol[SB]){:target="blank"}. The major uses of the GO, and links to the associated publications, are listed below:
 
@@ -24,4 +24,4 @@ Reciprocally, the GO knowledgebase plays a critical role in furthering biomedica
 
 # History of the GO publications
 
-One of the GO's earliest documents, [On the representation of "gene function" in databases](https://zenodo.org/record/5504413), was written by Michael Ashburner in 1998. GO's first publication was [Gene ontology: tool for the unification of biology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3037419/){:target="blank"}.  The GO Consortium regularly publishes updates and developments [as the Gene Ontology Consortium](https://pubmed.ncbi.nlm.nih.gov/?term=Gene+Ontology+Consortium%5BCorporate+Author%5D).  For the most recent publications, please see [our citation policy](http://geneontology.org/docs/go-citation-policy/).
+One of the GO's earliest documents, [On the representation of "gene function" in databases](https://zenodo.org/record/5504413), was written by Michael Ashburner in 1998. GO's first publication was [Gene ontology: tool for the unification of biology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3037419/){:target="blank"}.  The GO Consortium regularly publishes updates and developments [as the Gene Ontology Consortium](https://pubmed.ncbi.nlm.nih.gov/?term=Gene+Ontology+Consortium%5BCorporate+Author%5D).  For the most recent publications, please see [our citation policy](https://geneontology.org/docs/go-citation-policy/).

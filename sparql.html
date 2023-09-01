@@ -9,7 +9,7 @@ permalink: /sparql.html
 
     <title>Gene Ontology SPARQL endpoint</title>
 
-    <link rel="shortcut icon" href="http://www.geneontology.org/favicon.ico">
+    <link rel="shortcut icon" href="https://geneontology.org/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css" integrity="sha384-jzngWsPS6op3fgRCDTESqrEJwRKck+CILhJVO5VvaAZCq8JYf8HsR/HPpBOOPZfR" crossorigin="anonymous">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -18,7 +18,7 @@ permalink: /sparql.html
     <link href="https://unpkg.com/@triply/yasgui/build/yasgui.min.css" rel="stylesheet" type="text/css" />
 
     <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
-    
+
     <style>
         .yasgui .autocompleteWrapper {
             display: none !important;
@@ -125,7 +125,7 @@ permalink: /sparql.html
                 active, // set as active tab
                 tabConfig
             );
-            return newTab            
+            return newTab
         }
 
         // utility function to fetch some data and call a cb function when done
@@ -133,7 +133,7 @@ permalink: /sparql.html
             var oReq = new XMLHttpRequest();
             oReq.onload = cb;
             oReq.open("GET", URL);
-            oReq.send();            
+            oReq.send();
         }
 
         // add an empty query tab, useful for users to start creating query right away
@@ -141,7 +141,7 @@ permalink: /sparql.html
             var tabEmptyQuery = addTab(yasgui, name);
             tabEmptyQuery.setQuery(`
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+            PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
             PREFIX dc: <http://purl.org/dc/elements/1.1/>
             PREFIX owl: <http://www.w3.org/2002/07/owl#>
             SELECT * WHERE {
@@ -191,14 +191,14 @@ permalink: /sparql.html
             }
         }
 
-        // the default queries are hard coded here from the documentation 
+        // the default queries are hard coded here from the documentation
         // https://geneontology.org/docs/sparql/
         // ideally however, this would be fed from SPARQLr - a template query system repository
         function addDefaultQueries(yasgui) {
             var tab_your_query = addTab(yasgui, "Your Query");
             tab_your_query.setQuery(`
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+            PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
             PREFIX dc: <http://purl.org/dc/elements/1.1/>
             PREFIX owl: <http://www.w3.org/2002/07/owl#>
             PREFIX metago: <http://model.geneontology.org/>
@@ -219,12 +219,12 @@ permalink: /sparql.html
 
             var tab_gocams = addTab(yasgui, "List GO-CAMs");
             tab_gocams.setQuery(`
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             PREFIX metago: <http://model.geneontology.org/>
             PREFIX dc: <http://purl.org/dc/elements/1.1/>
 
             SELECT ?gocam ?date ?title WHERE {
-            GRAPH ?gocam {            
+            GRAPH ?gocam {
                 ?gocam metago:graphType metago:noctuaCam .
                 ?gocam dc:title ?title ;
                     dc:date ?date .
@@ -249,7 +249,7 @@ permalink: /sparql.html
             var tab_gocam_genes = addTab(yasgui, "List GO-CAM genes");
             tab_gocam_genes.setQuery(`
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> 
+            PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
             PREFIX owl: <http://www.w3.org/2002/07/owl#>
             PREFIX metago: <http://model.geneontology.org/>
             PREFIX enabled_by: <http://purl.obolibrary.org/obo/RO_0002333>
@@ -258,7 +258,7 @@ permalink: /sparql.html
 
             WHERE {
             GRAPH metago:5b91dbd100001993 {
-                ?s enabled_by: ?gpnode .    
+                ?s enabled_by: ?gpnode .
                 ?gpnode rdf:type ?identifier .
             }
             ?identifier rdfs:label ?name
@@ -286,7 +286,7 @@ permalink: /sparql.html
                 ?entity rdf:type ?goids
             }
 
-            VALUES ?goaspect { BP: MF: CC:  } . 
+            VALUES ?goaspect { BP: MF: CC:  } .
             ?goids rdfs:subClassOf+ ?goaspect .
             ?goids rdfs:label ?gonames .
             ?goids definition: ?definitions .
@@ -305,12 +305,12 @@ permalink: /sparql.html
 
             SELECT distinct ?gocam WHERE {
             GRAPH ?gocam {
-                ?gocam metago:graphType metago:noctuaCam .    
-                ?entity enabled_by: ?gpnode .    
+                ?gocam metago:graphType metago:noctuaCam .
+                ?entity enabled_by: ?gpnode .
                 ?gpnode rdf:type ?identifier .
-                FILTER( ?identifier = <http://identifiers.org/mgi/MGI:98364> ) .         
+                FILTER( ?identifier = <http://identifiers.org/mgi/MGI:98364> ) .
             }
-            }            
+            }
             `);
             tab_gocam_with_gene.yasqe.autoformat();
 
@@ -324,12 +324,12 @@ permalink: /sparql.html
 
             SELECT distinct ?gocam WHERE {
             GRAPH ?gocam {
-                ?gocam metago:graphType metago:noctuaCam .    
+                ?gocam metago:graphType metago:noctuaCam .
                 ?entity rdf:type owl:NamedIndividual .
                 ?entity rdf:type ?identifier .
                 FILTER( ?identifier = <http://purl.obolibrary.org/obo/GO_0051402> )
             }
-            }          
+            }
             `);
             tab_gocam_with_go.yasqe.autoformat();
 
@@ -355,7 +355,7 @@ permalink: /sparql.html
                         <!-- Container for logo -->
                         <div class="btn-group pull-left">
                             <div class="pull-left logo" style="transform: translate(0px, 25%);">
-                                <a href="http://www.geneontology.org" class="basic-link">
+                                <a href="https://geneontology.org" class="basic-link">
                                     <img src="https://geneontology-public.s3.amazonaws.com/assets/go-logo.large.png">
                                 </a>
                             </div>
@@ -405,7 +405,7 @@ permalink: /sparql.html
                             <br>
                             Programmatic access are to used the following endpoint: http://rdf.geneontology.org/blazegraph/sparql<br>
                             <br>
-                            Click on the tabs below to explore query examples on GO-CAMs or use the "Your Query" tab to start designing your query. If you are new to SPARQL and GO-CAM, please refer to our [ <a href="http://geneontology.org/docs/sparql" target=blank>GO SPARQL documentation</a> ]
+                            Click on the tabs below to explore query examples on GO-CAMs or use the "Your Query" tab to start designing your query. If you are new to SPARQL and GO-CAM, please refer to our [ <a href="https://geneontology.org/docs/sparql" target=blank>GO SPARQL documentation</a> ]
                             <br><br>
                         </p>
 
@@ -425,7 +425,7 @@ permalink: /sparql.html
                                 // addEmptyQueryTab(yasgui);
                                 // addQueryFrom(yasgui, "https://raw.githubusercontent.com/Knowledge-Graph-Hub/kg-covid-19/master/queries/query-07-drug-to-drug-target.rq")
                                 // addQueriesFrom(yasgui, ["https://raw.githubusercontent.com/Knowledge-Graph-Hub/kg-covid-19/master/queries/query-07-drug-to-drug-target.rq", "https://raw.githubusercontent.com/Knowledge-Graph-Hub/kg-covid-19/master/queries/query-05-sars-cov-2-interactors_druggable_2nd_order.rq"])
-                                
+
                             </script>
                         </div>
 

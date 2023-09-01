@@ -1,7 +1,7 @@
 ---
 title: Introduction to GO annotations
 permalink: /docs/go-annotations/
-redirect_from: 
+redirect_from:
 - /page/go-annotations
 - /page/annotation
 - /page/go-annotation-policies
@@ -15,9 +15,9 @@ redirect_from:
 
 A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, and what biological processes (pathways, programs) it helps to carry out.
 
-There are four pieces of information that uniquely identify a GO annotation.  Although there are additional components a curator can use to indicate more information, including [qualifiers](/docs/go-annotations/#annotation-qualifiers) and [annotation extensions](/docs/go-annotations/#annotation-extensions), at the very minimum an annotation consists of: 
+There are four pieces of information that uniquely identify a GO annotation.  Although there are additional components a curator can use to indicate more information, including [qualifiers](/docs/go-annotations/#annotation-qualifiers) and [annotation extensions](/docs/go-annotations/#annotation-extensions), at the very minimum an annotation consists of:
 + Gene product (may be a protein, RNA, etc.)
-+ GO term 
++ GO term
 + Reference
 + [Evidence](/docs/guide-go-evidence-codes/)
 
@@ -33,12 +33,12 @@ Associations of gene products to GO terms are statements that describe
 + Biological Process: the pathways and larger processes to which that gene product's activity contributes
 
 ## General principles of GO annotations
-+  Annotations represent the normal functions of gene products. 
++  Annotations represent the normal functions of gene products.
 +  A gene product can be annotated to zero or more terms from each ontology.
-+  Each annotation is supported by an [GO Evidence Codes](/docs/guide-go-evidence-codes/) from the [Evidence and Conclusions Ontology](http://www.evidenceontology.org/) and a reference. 
++  Each annotation is supported by an [GO Evidence Codes](/docs/guide-go-evidence-codes/) from the [Evidence and Conclusions Ontology](http://www.evidenceontology.org/) and a reference.
 +  Gene products are annotated to the most granular term in the ontology that is supported by the available evidence.
 +  By the transitivity principle, an annotation to a GO term implies annotation to all its parents.
-+  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.  
++  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.
 +  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
 +  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown.
 
@@ -51,10 +51,10 @@ Some annotations are modified by qualifiers, which have specific usage rules and
 *NOT* is used to make an explicit note that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have had a loss of function (e.g. loss of an active site or rapid divergence after a duplication event) over the course of evolution. This is particularly important in cases where associating a GO term with a gene product should be avoided (but might otherwise be made, especially by an automated method). For example, if a protein has sequence similarity to an enzyme (whose activity is GO:nnnnnnn), but has been shown experimentally **not** to have the enzymatic activity, it is annotated as *NOT* GO:nnnnnnn. *NOT* is also used when a cited reference explicitly says (e.g. "our favorite protein is not found in the nucleus"). Qualifying an annotation with the qualifier *NOT* allows annotators to state that a particular gene product is **not** associated with a particular GO term. It is used when a GO term might otherwise be expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. (It is not generally used for negative or inconclusive experimental results.)
 
 ### The *contributes_to* qualifier
-A gene product is associated with a GO Molecular Function term using the qualifier 'contributes_to' when it is a member of a complex that is defined as an "irreducible molecular machine" - where a particular Molecular Function cannot be ascribed to an individual subunit or small set of subunits of a complex. Note that the 'contributes_to' qualifier is specific to Molecular Functions. 
+A gene product is associated with a GO Molecular Function term using the qualifier 'contributes_to' when it is a member of a complex that is defined as an "irreducible molecular machine" - where a particular Molecular Function cannot be ascribed to an individual subunit or small set of subunits of a complex. Note that the 'contributes_to' qualifier is specific to Molecular Functions.
 
 ### The *colocalizes_with* qualifier
-*Colocalizes_with* indicates a transient or peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139){:target="blank"} ia annotated to [GO:0000922: spindle pole](http://amigo.geneontology.org/amigo/term/GO:0000922){:target="blank"} using the *colocalizes_with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309){:target="blank"}.
+*Colocalizes_with* indicates a transient or peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139){:target="blank"} ia annotated to [GO:0000922: spindle pole](https://amigo.geneontology.org/amigo/term/GO:0000922){:target="blank"} using the *colocalizes_with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309){:target="blank"}.
 
 <!-- ????-->
 ## Annotation extensions
@@ -65,11 +65,11 @@ Annotation extensions provide additional information about a GO annotation that 
 The GO Consortium implements a number of automated queries to check the quality of the annotations submitted to the GO database.
 
 ## GO-Causal Activity Models
-GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple standard GO annotations into larger models of biological function (such as “pathways”) in a semantically structured manner. Minimally, a GO-CAM model must connect at least two standard GO annotations ([GO-CAM example](http://noctua.geneontology.org/editor/graph/gomodel:5323da1800000002){:target="blank"}).
+GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple standard GO annotations into larger models of biological function (such as “pathways”) in a semantically structured manner. Minimally, a GO-CAM model must connect at least two standard GO annotations ([GO-CAM example](http://model.geneontology.org/5323da1800000002){:target="blank"}).
 
-The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.
+The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}.
 
-GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"}
+GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}
 
 ## Types of GO annotation files
 * [Gene Product Association Data (GPAD) files](/docs/gene-product-association-data-gpad-format/) + [Gene Product Information (GPI) files](/docs/gene-product-information-gpi-format/): these are companion files
@@ -79,7 +79,7 @@ GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](http:/
 
 ## Downloads
 * Download [GO annotations by species](/docs/download-go-annotations/)
-* Download [GO-CAM models](http://geneontology.org/go-cam){:target="blank"}
+* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}
 
 ## GO as a dynamic source of biological annotations
 GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates.

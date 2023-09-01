@@ -1,4 +1,4 @@
---- 
+---
 layout: default
 permalink: /ribbon.html
 ---
@@ -30,7 +30,7 @@ permalink: /ribbon.html
     .banner__disclaimer {
         display: inline-block;
         text-align: start;
-        width: 80%;            
+        width: 80%;
     }
 
     .ribbon__category--cell, .ribbon__subject--cell, .ribbon__subject--cell--no-annotation, .ribbon__subject__label--link, tr, th, td {
@@ -39,7 +39,7 @@ permalink: /ribbon.html
     }
 
     .ribbon__subject--cell {
-        box-shadow: 0 1px 1px rgba(0,0,0,.26);            
+        box-shadow: 0 1px 1px rgba(0,0,0,.26);
     }
 
     .ribbon__category--cell:hover {
@@ -52,7 +52,7 @@ permalink: /ribbon.html
     }
 
     li {
-        margin-left: 0px;            
+        margin-left: 0px;
     }
 
     h3 {
@@ -60,18 +60,18 @@ permalink: /ribbon.html
     }
 
     .cell {
-        border: 1px solid black; background-color: white; height: 15px; width: 15px; display: inline-block; vertical-align: sub;        
+        border: 1px solid black; background-color: white; height: 15px; width: 15px; display: inline-block; vertical-align: sub;
     }
 
     .table__row__supercell__cell__link {
         color: rgb(73, 101, 194);
         text-decoration: none;
-    }    
+    }
 
     .table__header__cell {
         padding: 2px;
         font-weight: 800 !important;
-    }    
+    }
 
     .clicked {
         border: 2px solid red;
@@ -81,7 +81,7 @@ permalink: /ribbon.html
     .table__row__supercell {
         vertical-align: top !important;
         border-bottom: 1px solid #ddd;
-    }    
+    }
 
 </style>
 
@@ -98,10 +98,10 @@ permalink: /ribbon.html
 <div class="container" style="width:95%">
     <div class="row" style="margin:0rem 2rem">
 
-        <h1>Gene Ontology Ribbon Sandbox</h1> 
-        
+        <h1>Gene Ontology Ribbon Sandbox</h1>
+
         <p>
-        The GO Ribbon provides a visual summary of gene functions and a quick way to browse the GO annotations for a gene or gene set. 
+        The GO Ribbon provides a visual summary of gene functions and a quick way to browse the GO annotations for a gene or gene set.
         </p>
 
         <p>
@@ -109,16 +109,16 @@ permalink: /ribbon.html
         </p>
 
         <p>
-        Questions about the Ribbon ? [<a href="/docs/ribbon.html">GO Ribbon documentation</a>] [<a href="http://help.geneontology.org/">Helpdesk</a>].
+        Questions about the Ribbon ? [<a href="/docs/ribbon.html">GO Ribbon documentation</a>] [<a href="https://help.geneontology.org/">Helpdesk</a>].
         </p>
 
         <hr>
-        
+
         <div style="margin-bottom: 10rem; border: 1px solid black; border-radius: 25px;">
 
             <div style="margin-left: 2rem; display: inline-block; vertical-align: top">
                 <strong>Search and add gene to the GO ribbon:</strong><br><small>(can use gene symbol or model organism ID such as RGD:3889)</small><br>
-                <wc-go-autocomplete id="ac"></wc-go-autocomplete>            
+                <wc-go-autocomplete id="ac"></wc-go-autocomplete>
             </div>
 
             <div style="margin: 6rem 3rem; display: inline-block; vertical-align: top;"><strong> OR </strong></div>
@@ -142,7 +142,7 @@ permalink: /ribbon.html
                     <strong>Remove all genes from GO ribbon:</strong><br>
                 <button onclick="document.getElementById('ribbon').subjects=''" style="background-color: #3F51B5; border-color: black; padding: 10px; border-radius: 0px 0px calc(8px + 1.5vw) 0px;" class="btn btn-primary u-no-transform u-anim-move-right">Clear GO ribbon</button>
             </div>
-            
+
         </div>
 
 

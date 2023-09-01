@@ -7,7 +7,7 @@ permalink: /docs/gocam-overview/
 
 ## What is a standard GO annotation ?
 
-A standard GO annotation is a gene product associated to a GO term, using an [evidence code](/docs/guide-go-evidence-codes/) and a supporting reference (a primary research article, for example). The GO term may come from any of the three aspects of the GO: [Molecular Function (MF)](http://geneontology.org/page/molecular-function-ontology-guidelines), [Biological Process (BP)](http://www.geneontology.org/page/biological-process-ontology-guidelines), or [Cellular Component (CC)](http://geneontology.org/page/cellular-component-ontology-guidelines). Gene products can correspond to proteins, complexes, or non-coding RNAs, and must be represented by a stable identifier. Gene identifiers may serve as representative of one or more gene products. The following is an illustration of a GO annotation:
+A standard GO annotation is a gene product associated to a GO term, using an [evidence code](/docs/guide-go-evidence-codes/) and a supporting reference (a primary research article, for example). The GO term may come from any of the three aspects of the GO: [Molecular Function (MF)](https://geneontology.org/page/molecular-function-ontology-guidelines), [Biological Process (BP)](https://www.geneontology.org/page/biological-process-ontology-guidelines), or [Cellular Component (CC)](https://geneontology.org/page/cellular-component-ontology-guidelines). Gene products can correspond to proteins, complexes, or non-coding RNAs, and must be represented by a stable identifier. Gene identifiers may serve as representative of one or more gene products. The following is an illustration of a GO annotation:
 
 <p align="center">
   <img width="500" src="/assets/standard-go-annotation.png" alt="Standard GO Annotation Example">
@@ -15,7 +15,7 @@ A standard GO annotation is a gene product associated to a GO term, using an [ev
 
 ## What is a GO-CAM model ?
 
-A GO-CAM model is a combination of standard GO annotations to produce a network of annotations ("model"), that is a more complete model of biological function than the separate annotations. For example, a GO-CAM can represent how the activities of different gene products work together in a pathway or “biological program.” GO-CAM models can connect different pieces of information about the function of a gene product (joining together different annotations for the same gene product), and/or can connect functions of different gene products together by specifying how the activity of one gene product can affect the activity of another gene product. All connections in a GO-CAM model are made using clearly defined semantic relations from the [Relations Ontology](http://www.obofoundry.org/ontology/ro.html){:target="blank"}.  Browse existing models on the [GO-CAM public site](http://geneontology.org/go-cam/).
+A GO-CAM model is a combination of standard GO annotations to produce a network of annotations ("model"), that is a more complete model of biological function than the separate annotations. For example, a GO-CAM can represent how the activities of different gene products work together in a pathway or “biological program.” GO-CAM models can connect different pieces of information about the function of a gene product (joining together different annotations for the same gene product), and/or can connect functions of different gene products together by specifying how the activity of one gene product can affect the activity of another gene product. All connections in a GO-CAM model are made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}.  Browse existing models on the [GO-CAM public site](https://geneontology.org/go-cam/).
 
 *Nat Genet. Sep 2019. [Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems](https://www.nature.com/articles/s41588-019-0500-1){:target="blank"}*
 
@@ -34,7 +34,7 @@ The knowledge of biology is constantly evolving, therefore many models are incom
 
 ## Noctua Platform to Curate GO-CAMs
 
-To learn more about our curation process, please visit the documentation of the [Noctua Curation Platform](http://wiki.geneontology.org/index.php/Noctua){:target="blank"}.
+To learn more about our curation process, please visit the documentation of the [Noctua Curation Platform](https://wiki.geneontology.org/index.php/Noctua){:target="blank"}.
 
 ## Converting GO-CAMs to standard GO annotations
 

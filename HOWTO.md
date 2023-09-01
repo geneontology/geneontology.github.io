@@ -9,11 +9,11 @@ In essence, the `permalink` defines the local url for users to access this site 
 
 ## Reference a local page
 
-Whenever you want to create a link to one of the above local page, use the `permalink` of the page you want to reference (e.g. in any markdown, to reference the [About Page](https://github.com/geneontology/geneontology.github.io/blob/master/_docs/about.md), the link is: 
+Whenever you want to create a link to one of the above local page, use the `permalink` of the page you want to reference (e.g. in any markdown, to reference the [About Page](https://github.com/geneontology/geneontology.github.io/blob/master/_docs/about.md), the link is:
 `[description of the link](/docs/about/)`
 
 ## Reference a page and open it in a new tab
-`[link description](http://wiki.geneontology.org/index.php/Introduction_to_Annotation){:target="_blank"}`
+`[link description](https://wiki.geneontology.org/index.php/Introduction_to_Annotation){:target="_blank"}`
 
 As a general rule, all internal pages should open in the same tab and all external pages we reference should open in a new tab
 
@@ -28,7 +28,7 @@ Use simple [backquote](https://www.computerhope.com/jargon/b/backquot.htm) to `h
 
 ## Highlight code
 Use triple backquote for the start line, without anything else, and an identical triple backquote for the endline (also with nothing else on the line)
-``` 
+```
 pyvenv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -49,7 +49,7 @@ Always add a clean line before and after the markdown table. Example:
 
 |Organism or Usage |	OBO format | OWL format | json format |yaml format |
 |------------------|-------------|------------|-------------|------------|
-|GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](http://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl]
+|GO slim AGR Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/) |[goslim_agr.obo](https://current.geneontology.org/ontology/subsets/goslim_agr.obo)| [goslim_agr.owl]
 
 ## Quote a line
 To quote a line, start the line with a `>`
@@ -92,4 +92,3 @@ ALGOLIA_API_KEY=ENTER_ADMIN_API_KEY bundle exec jekyll algolia
 * [Jekyll documentation](https://jekyllrb.com/docs/)
 * [Jekyll cheatsheet](https://devhints.io/jekyll)
 * [GitHub Jekyll basics](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
-
