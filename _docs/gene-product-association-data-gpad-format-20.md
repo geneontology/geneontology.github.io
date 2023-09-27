@@ -34,7 +34,7 @@ All GPAD files must start with a single line denoting the file format, followed 
 Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an 
 association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
 
-GPAD 2.0 sample lines:
+GPAD 2.0 sample line:
 
     UniProtKB:P11678        RO:0002263    GO:0050803     	PMID:30695063    ECO:0000315            2023-01-30    MGI    BFO:0000066(GO:0005829)    contributor-id=orcid:0000-0001-1234-5678
 
