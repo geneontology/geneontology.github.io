@@ -13,11 +13,11 @@ redirect_from:
 
 ---
 
-## Query GO ontology and annotations with BioLink
+## Query GO ontology and annotations with Biolink
 
-The purpose of the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated. The GO BioLink API implementation and its associated swagger documentation are available at [http://api.geneontology.org/](http://api.geneontology.org){:target="blank"}.
+The purpose of the [Biolink Model](https://github.com/biolink/biolink-model){:target="blank"} is to provide a high level datamodel of biological entities (genes, diseases, phenotypes, pathways, individuals, substances, etc), their properties, relationships, and ways in which they can be associated. The GO API implementation and its associated swagger documentation are available at [http://api.geneontology.org/](http://api.geneontology.org){:target="blank"}.
 
-In the [BioLink Data Model](https://github.com/biolink/biolink-model){:target="blank"}, any GO term is referred to as "function", hence the following query returns meta data about the GO term {id}: 
+In the [Biolink Model](https://github.com/biolink/biolink-model){:target="blank"}, any GO term is referred to as "function", hence the following query returns meta data about the GO term {id}: 
 ```
 /bioentity/function/{id}
 ```
