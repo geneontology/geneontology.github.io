@@ -11,36 +11,44 @@ composed of up to three parts: an operator (optional), a modifier (optional) and
 **this field is mandatory**, cardinality 1 or greater than 1, entries pipe-separated" and then "**qualifiers are optional**"
 CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to be helpful.-->
 
+# GPAD/GPI files
+
+*G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF; the GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files.
+This page describes the Gene Product Association Data (GPAD) 2.0 format.  For more general information on annotation, please see the Introduction to GO annotation.
+
+
 # Gene Product Association Data (GPAD) files
 
-GPAD files contain annotations for gene products which are further detailed in [GPI files](/docs/gene-product-information-gpi-format/). This page describes the *G*ene *P*roduct *A*ssociation *D*ata (GPAD) 2.0 format.
+The GPAD file is a standardized way to exchange GO annotation data.  Each line in the tab-delimited file represents a single association between a gene product and a GO term, and includes an evidence code, reference, and other relevant information.
 
-The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
-
-GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
+The other file that supports exchange of GO is the [GAF format](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
 
 ## Gene Product Association Data (GPAD) 2.0 format
-The GPAD file is an alternative means of exchanging annotations from the Gene Association File (GAF). 
-The GPAD format is designed to be more normalized than GAF and is intended to work in conjunction with a separate 
-format for exchanging gene product information.
 
-All GPAD files must start with a single line denoting the file format, followed by the database generating the file and the date generated. For GPAD 2.0 the header is as follows:
+The GPAD file must start with a header minimally consisting of a declaration of the file format, the group generating the file, and the date the file was generated:
 
     !gpad-version: 2.0
     !generated-by: MGI
     !date-generated: 2023-01-30
     
-Other information, such as contact details for the submitter or database group, useful link, etc., can be included in an 
-association file by prefixing the line with an exclamation mark (!); such lines will be ignored by parsers.
+The group in the `generated-by` field must be present in the dbxrefs.yaml file.  Submitting groups may decide to include optional additional information. Each line should be prefixed with an exclamation mark (!); so that these lines are ignored by data parsers.
+Additional header lines may include:
+* URL: e.g. http://www.yeastgenome.org/
+* Project-release: e.g. WS275
+* Funding: e.g. NHGRI
+* Columns: file format written out
+* go-version: PURL
+* ro-version: PURL
+* gorel-version: PURL
+* eco-version: PURL
+
+### Annotation file fields
+The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory with cardinality 1 or greater.  For fields that permit multiple values, values should be separated by pipes for `OR` statements and commas for `AND` statements.
 
 GPAD 2.0 sample line:
 
     UniProtKB:P11678        RO:0002263    GO:0050803     	PMID:30695063    ECO:0000315            2023-01-30    MGI    BFO:0000066(GO:0005829)    contributor-id=orcid:0000-0001-1234-5678
-
-### Annotation file fields
-The GPAD format comprises 12 tab-delimited fields; fields with multiple values (for example, gene product synonyms) 
-should have these values separated by pipes.
 
 | Column 	| Content 	| Required? 	| Cardinality 	| Example|
 |----------|---------|-------------|---------|--------|
