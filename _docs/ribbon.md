@@ -119,5 +119,5 @@ Subparts of the ribbon can also be integrated independently:
 
 Code available on [GitHub](https://github.com/geneontology/wc-ribbon)
 
-Powered by the GO API [http://api.geneontology.org/api](http://api.geneontology.org/api)
+Powered by the GO API [http://api.geneontology.org/](http://api.geneontology.org/)
 
