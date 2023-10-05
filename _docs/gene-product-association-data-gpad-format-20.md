@@ -69,8 +69,14 @@ GPAD 2.0 sample line:
 
 #### DB:DB Object ID
 
-A unique identifier (from the database in DB) for the item being annotated
+A unique identifier for the item being annotated
 
+The **DB:DB Object ID** is the identifier for the database object, which may or may not correspond exactly to what is described 
+in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein 
+(gene ID in **DB:DB Object ID** field) or annotations to a protein object (protein ID in **DB:DB Object ID** field). 
+**DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of 
+GO database cross-references. The **DB** is not necessarily the group submitting 
+the file. If a UniProtKB ID is the **DB Object ID**, **DB** should be UniProtKB. 
 
 The identifier may reference a top-level primary gene or gene product identifier, or an identified variant 
 of a gene or gene product. Contents may include protein sequence identifiers: for example, identifiers that specify distinct 
@@ -79,13 +85,6 @@ post-translational modification. Identifiers for functional RNAs can also be inc
 If the gene product is not a top-level gene or gene product identifier, the Gene Product Information (GPI) file should 
 contain information about the canonical form of the gene or gene product.
 
-**DB** refers to the database from which the identifier in **DB Object ID** is drawn. This is not necessarily the group submitting 
-the file. If a UniProtKB ID is the **DB Object ID**, **DB** should be UniProtKB. Must be one of the values from the set of 
-GO database cross-references.
-
-The **DB:DB Object ID** is the identifier for the database object, which may or may not correspond exactly to what is described 
-in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein 
-(gene ID in **DB:DB Object ID** field) or annotations to a protein object (protein ID in **DB:DB Object ID** field). 
 
 This field is mandatory, cardinality 1 
 
@@ -96,38 +95,38 @@ This field is optional, cardinality 0 or 1.
 
 #### Relation
 The relationship between the gene product in the **DB:DB Object ID** field and the **GO ID** composed of up to three parts: an operator 
-(optional; see **Negation**), a modifier (optional) and an atomic relation (required).
+(optional; see **Negation**), a modifier (optional) and an atomic **Relation** (required).
 
 This field is mandatory, cardinality 1 or greater than 1, entries pipe-separated.
 
-The atomic relations depend upon the term namespace, and should be derived from the RO source file available at https://github.com/oborel/obo-relations.
+The atomic relations depend upon the term namespace, and must be in the below list of allowed Gene Product to GO Term Relations. The default relations are:
 
 * Gene product *enables* molecular function
 * Gene product *involved in* biological process
 * Gene product *part of* protein-containing complex (GO:0032991 and child terms) cellular component 
 * Gene product *located in* non-protein-containing complex cellular component 
 
-<!-- UPDATE this table if included- it's from 2020
+
+<!--- # Allowed Gene Product to GO Term Relations -->
 
 GO Aspect 	| Relations Ontology Label  | Relations Ontology ID | Usage Guidelines
 -----------|---------------------------|----------------------| ------------------ |
-Molecular Function | enables | RO:0002327 | Default for MF
-Molecular Function | contributes to | RO:0002326 |
-Biological Process | involved in | RO:0002331 |
-Biological Process | acts upstream of | RO:0002263 |
-Biological Process | acts upstream of positive effect | RO:0004034 |
-Biological Process | acts upstream of negative effect | RO:0004035 |
-Biological Process | acts upstream of or within | RO:0002264 | Default for BP (GO:0008150) and child terms
-Biological Process | acts upstream of or within positive effect | RO:0004032 |
-Biological Process | acts upstream of or within negative effect | RO:0004033 |
-Cellular Component | part of	| BFO:0000050 | Default for protein-containing complex (GO:0032991) and child terms
-Cellular Component | located in | RO:0001025 | Default for non-protein-containing complex CC terms
-Cellular Component | is active in | RO:0002432 | Used to indicate where a gene product enables its MF
-Cellular Component | colocalizes with | RO:0002325 |
--->
+Molecular Function | enables | `RO:0002327` | Default for MF
+Molecular Function | contributes to | `RO:0002326` |
+Biological Process | involved in | `RO:0002331` |
+Biological Process | acts upstream of | `RO:0002263` |
+Biological Process | acts upstream of positive effect | `RO:0004034` |
+Biological Process | acts upstream of negative effect | `RO:0004035` |
+Biological Process | acts upstream of or within | `RO:0002264` | Default for BP (GO:0008150) and child terms
+Biological Process | acts upstream of or within positive effect | `RO:0004032` |
+Biological Process | acts upstream of or within negative effect | `RO:0004033` |
+Cellular Component | part of	| `BFO:0000050` | Default for protein-containing complex (GO:0032991) and child terms
+Cellular Component | located in | `RO:0001025` | Default for non-protein-containing complex CC terms
+Cellular Component | is active in | `RO:0002432` | Used to indicate where a gene product enables its MF
+Cellular Component | colocalizes with | `RO:0002325` |
 
 #### GO ID
-The GO identifier for the term attributed to the DB object ID. Like all other identifiers, this must be in the format dbname:dbaccession
+The GO identifier for the term attributed to the DB object ID. Must be in the format GO:GOID.
 
 This field is mandatory, cardinality 1. 
 
@@ -150,21 +149,20 @@ This field is mandatory, cardinality 1
 #### With [or] From
 Also referred to as **With, From** or the **With/From** column
 
-This field is required for some evidence codes cardinality 0, 1, >1. Pipe-separated entries represent independent evidence; comma-separated entries represent grouped evidence, e.g. two of three genes in a triply mutant organism.
+This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 [IC];
+ECO:0000203, ECO:0000256, and ECO:0000265 [all IEA];ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, ECO:0000250 and ECO:0000255 [all ISS].  Cardinality 0, 1, >1. Pipe-separated entries represent independent evidence; comma-separated entries represent grouped evidence, e.g. two of three genes in a triply mutant organism. For cardinality >1 use a pipe to separate entries (e.g. FB:FBgn1111111|FB:FBgn2222222).
+
+The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or 
+ECO:0000307 [ND].
+
 <!--
 Need a valid example with pipes and commas
 
 (e.g. UniProtKB:P10620|UniProtKB:P08011)
 -->
 
-*Note*: This field is used to hold an additional identifier for annotations using certain evidence codes: ECO:0000305 [IC];
-ECO:0000203, 0256, and 0265 [all IEA];ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, 0250 and 0255 [all ISS].
-
-For example, it can identify another gene product to which the annotated gene product is similar (ECO:0000031, 0250 and 0255, 
+This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, 
 ISS) or interacts with (ECO:0000021, IPI).
-
-More information on the meaning of with or from column entries is available in the [evidence code documentation](http://geneontology.org/page/guide-go-evidence-codes)
- for the relevant codes.
 
 Cardinality = 0 is not recommended, but is permitted because cases can be found in literature where no database identifier 
 can be found(e.g. physical interaction or sequence similarity to a protein, but no ID provided). Cardinality = 0 is not allowed 
@@ -172,8 +170,9 @@ for ISS annotations (ECO:0000031, ECO:0000250 and ECO:0000255) made after Octobe
 ECO:0000316 [IGI], ECO:0000021 [IPI], or ECO:0000031, ECO:0000250 or ECO:0000255 [all ISS] and with cardinality = 0 should 
 link to an explanation of why there is no entry in with. Cardinality may be >1 for any of the evidence codes that use with; 
 for ECO:0000021 [IPI] and ECO:00000316 [IGI], cardinality >1 has a special meaning (see evidence documentation for 
-more information). For cardinality >1 use a pipe to separate entries (e.g. FB:FBgn1111111|FB:FBgn2222222).
+more information). 
 
+Usage notes: 
 Note that a gene ID may be used in the with column for a ECO:0000021 [IPI] annotation, or for an ECO:0000031, ECO:0000250 
 or ECO:0000255 [all ISS] annotation based on amino acid sequence or protein structure similarity, if the database does not 
 have identifiers for individual gene products. A gene ID may also be used if the cited reference provides enough information 
@@ -188,8 +187,8 @@ Identifiers from the Center for Biological Sequence Analysis (CBS), however, rep
 or sequence similarity; these identifiers can be used in the with column for ECO:0000031, ECO:0000250 or ECO:0000255 
 [ISS] annotations.
 
-The with column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or 
-ECO:0000307 [ND].
+More information on the meaning of with or from column entries is available in the [evidence code documentation](http://geneontology.org/page/guide-go-evidence-codes) for the relevant codes.
+
 
 #### Interacting taxon ID
 Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process 
