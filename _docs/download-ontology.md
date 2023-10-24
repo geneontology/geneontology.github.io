@@ -11,10 +11,10 @@ redirect_from:
 
 |Name 	| Description | Permanent URL |	Download link |
 |-------|--------------|-------------|-------------|
-|[go-basic.obo](#go_basic)|	Filtered, for use with legacy tools|| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
+|[go-basic.obo](#go_basic)|	Filtered, for use with legacy tools| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
 |[go.obo](#go_obo_and_owl) |		Core ontology (OBO Format)| http://purl.obolibrary.org/obo/go.obo | [Download go.obo file](https://purl.obolibrary.org/obo/go.obo)|	
 |[go.owl](#go_obo_and_owl) |		Core ontology (OWL RDF/XML format)| http://purl.obolibrary.org/obo/go.owl | [Download go.owl file](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	
-|[go-plus.owl](#go_plus_owl) |		http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
+|[go-plus.owl](#go_plus_owl) |		Core plus additional axioms, vetted| http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
 
 ## Ontology files: General information
 + Released monthly
