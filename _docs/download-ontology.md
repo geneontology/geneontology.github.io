@@ -11,10 +11,11 @@ redirect_from:
 
 |Name 	| Description | Permanent URL |	Download link |
 |-------|--------------|-------------|-------------|
-|[go-basic.obo](#go_basic)|	Filtered, for use with legacy tools| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
-|[go.obo](#go_obo_and_owl) |		Core ontology (OBO Format)| http://purl.obolibrary.org/obo/go.obo | [Download go.obo file](https://purl.obolibrary.org/obo/go.obo)|	
+|[go-basic.obo](#go_basic)|	The basic version of the GO, filtered such that the graph is guaranteed to be acyclic and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This version should be used with most GO-based annotation tools.
+| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
+|[go.obo](#go_obo_and_owl) |		Core ontology (OBO Format). This view includes relationships not in the filtered version of GO including *has_part* and *occurs_in*. Many of these relationships may not be safe for propagating annotations across, so this version should not be used with legacy GO tools. This version excludes relationships to external ontologies.| http://purl.obolibrary.org/obo/go.obo | [Download go.obo file](https://purl.obolibrary.org/obo/go.obo)|	
 |[go.owl](#go_obo_and_owl) |		Core ontology (OWL RDF/XML format)| http://purl.obolibrary.org/obo/go.owl | [Download go.owl file](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	
-|[go-plus.owl](#go_plus_owl) |		Core plus additional axioms, vetted| http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
+|[go-plus.owl](#go_plus_owl) |		This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format. | http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
 
 ## Ontology files: General information
 + Released monthly
