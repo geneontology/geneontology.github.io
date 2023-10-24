@@ -11,10 +11,12 @@ redirect_from:
 
 |Name 	| Description | Permanent URL |	Download link |
 |-------|--------------|-------------|-------------|
-|[go-basic.obo](#go_basic)|	Filtered, for use with legacy tools| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
-|[go.obo](#go_obo_and_owl) |		Core ontology (OBO Format)| http://purl.obolibrary.org/obo/go.obo | [Download go.obo file](https://purl.obolibrary.org/obo/go.obo)|	
-|[go.owl](#go_obo_and_owl) |		Core ontology (OWL RDF/XML format)| http://purl.obolibrary.org/obo/go.owl | [Download go.owl file](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	
-|[go-plus.owl](#go_plus_owl) |		Core plus additional axioms, vetted| http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
+|[go-basic.obo](#go_basic)|	Filtered, for use with legacy tools. Contains axioms using 'is a', 'part_of', 'regulates', 'negatively_regulates', and 'positively_regulates'. This version excludes relationships that cross the three main GO hierarchies.| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
+|[go.obo](#go_obo_and_owl) |		Core ontology (OBO format). Includes some relations that span the three GO hierarchies, such as
+'has_part' and 'occurs_in'. | http://purl.obolibrary.org/obo/go.obo | [Download go.obo file](https://purl.obolibrary.org/obo/go.obo)|	
+|[go.owl](#go_obo_and_owl) |		Core ontology (OWL RDF/XML format) | http://purl.obolibrary.org/obo/go.owl | [Download go.owl file](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	
+|[go-plus.owl](#go_plus_owl) |		Core plus additional axioms, vetted. Includes more relationships than go and connections to external ontologies, including the Chemical Entities of Biological Interest ontology (ChEBI), the Uberon anatomy (or stage) ontology, and
+the Plant Ontology for plant structure/stage (PO). Also includes rules encoding biological constraints, such as the spatial exclusivity between a nucleus and a cytosol as well as taxonomical constraints restricting term annotation to specific ranges of species. | http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
 
 ## Ontology files: General information
 + Released monthly
