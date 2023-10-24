@@ -14,7 +14,7 @@ redirect_from:
 |[go-basic.obo](#go_basic)|	http://purl.obolibrary.org/obo/go/go-basic.obo [↗](https://purl.obolibrary.org/obo/go/go-basic.obo)|	Filtered, for use with legacy tools|
 |[go.obo](#go_obo_and_owl) |		http://purl.obolibrary.org/obo/go.obo [↗](https://purl.obolibrary.org/obo/go.obo)|	Core ontology (OBO Format)|
 |[go.owl](#go_obo_and_owl) |		http://purl.obolibrary.org/obo/go.owl [↗](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	Core ontology (OWL RDF/XML)|
-|[go-plus.owl](#go_plus_owl) |		http://purl.obolibrary.org/obo/go/extensions/go-plus.owl [↗](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
+|[go-plus.owl](#go_plus_owl) |		http://purl.obolibrary.org/obo/go/extensions/go-plus.owl [download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|Core plus additional axioms, vetted|
 
 ## Ontology files: General information
 + Released monthly
