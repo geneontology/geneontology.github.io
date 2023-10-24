@@ -11,40 +11,23 @@ redirect_from:
 
 |Name 	| Description | Permanent URL |	Download link |
 |-------|--------------|-------------|-------------|
-|[go-basic.obo](#go_basic)|	The basic version of the GO, filtered such that the graph is guaranteed to be acyclic and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This version should be used with most GO-based annotation tools.
-| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
-|[go.obo](#go_obo_and_owl) |		Core ontology (OBO Format). This view includes relationships not in the filtered version of GO including *has_part* and *occurs_in*. Many of these relationships may not be safe for propagating annotations across, so this version should not be used with legacy GO tools. This version excludes relationships to external ontologies.| http://purl.obolibrary.org/obo/go.obo | [Download go.obo file](https://purl.obolibrary.org/obo/go.obo)|	
-|[go.owl](#go_obo_and_owl) |		Core ontology (OWL RDF/XML format)| http://purl.obolibrary.org/obo/go.owl | [Download go.owl file](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	
-|[go-plus.owl](#go_plus_owl) |		This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format. | http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
+|**go-basic.obo**|	The basic version of the GO, filtered such that the graph is guaranteed to be acyclic and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This version should be used with most GO-based annotation tools.| http://purl.obolibrary.org/obo/go/go-basic.obo | [Download go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo)|	
+|**go.obo** |		Core ontology in OBO Forma). This view includes relationships not in the filtered version of GO including *has_part* and *occurs_in*. Many of these relationships may not be safe for propagating annotations across, so this version should not be used with legacy GO tools. This version excludes relationships to external ontologies.| http://purl.obolibrary.org/obo/go.obo | [Download go.obo file](https://purl.obolibrary.org/obo/go.obo)|	
+|**go.owl** |		Same as go.obo, in OWL RDF/XML format | http://purl.obolibrary.org/obo/go.owl | [Download go.owl file](https://purl.obolibrary.org/obo/go.owl){:target="blank"} |	
+|**go-plus.owl** |		This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format. | http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
 
 ## Ontology files: General information
 + Released monthly
 + Available in the following formats:
   * [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"} files are human-readable (in addition to machine-readable) and can be opened in any text editor
   * [OWL](https://github.com/owlcs/owlapi){:target="blank"} files can be opened with [Protégé](https://protege.stanford.edu/){:target="blank"}
-+ [GO subsets](/docs/go-subset-guide/) (slims) are available in the above formats as well as [JSON](https://github.com/geneontology/obographs/){:target="blank"}:
-  * [JSON](https://github.com/geneontology/obographs/){:target="blank"} files should be loaded with [ontobio](https://ontobio.readthedocs.io/en/latest/){:target="blank"}, although they can be opened with any text editor
 
-## Ontology files: Specific files
-### go-basic.obo {#go_basic}
-
-This is the basic version of the GO, filtered such that the graph is guaranteed to be acyclic and annotations can be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This version should be used with most GO-based annotation tools.
-
-### go.obo and go.owl {#go_obo_and_owl}
-
-These files contain the core GO ontology in two formats, OBO and OWL-RDF/XML. This view includes relationships not in the filtered version of GO including *has_part* and *occurs_in*. Many of these relationships may not be safe for propagating annotations across, so this version should not be used with legacy GO tools. This version excludes relationships to external ontologies.
-
-### go-plus.owl {#go_plus_owl}
-
-This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format.
-
-## Ontology files: Subsets
-
-GO slims are subsets of terms in the ontology. GO subsets give a broad overview of the ontology content without the detail of the specific fine grained terms. More information in the [GO subset guide](/docs/go-subset-guide/).
 
 ### Download GO subsets
 
 The GO subsets in this list are maintained as part of the GO flat file. The files available below for download are generated by script from that file.
++ [GO subsets](/docs/go-subset-guide/) (slims) are available in the above formats as well as [JSON](https://github.com/geneontology/obographs/){:target="blank"}:
+  * [JSON](https://github.com/geneontology/obographs/){:target="blank"} files should be loaded with [ontobio](https://ontobio.readthedocs.io/en/latest/){:target="blank"}, although they can be opened with any text editor
 
 
 |**Subset name**|**Maintainer**|**File name**|**OBO format**|**OWL format**|**json format**|
