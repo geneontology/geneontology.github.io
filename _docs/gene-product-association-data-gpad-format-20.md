@@ -68,45 +68,36 @@ GPAD 2.0 sample line:
 
 ### Definitions and requirements for field contents
 
-#### DB:DB Object ID
+#### 1. DB:DB Object ID
 
-A unique identifier for the item being annotated
+* A unique identifier for the item being annotated
 
-The **DB:DB Object ID** is the identifier for the database object, which may or may not correspond exactly to what is described 
-in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein 
-(gene ID in **DB:DB Object ID** field) or annotations to a protein object (protein ID in **DB:DB Object ID** field). 
-**DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of 
-GO database cross-references. The **DB** is not necessarily the group submitting 
-the file. If a UniProtKB ID is the **DB Object ID**, **DB** should be UniProtKB. 
+**DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object.  The **DB** is not necessarily the same as the group submitting 
+the file, named in column 10 **Assigned by**. Examples:
 
-The identifier may reference a top-level primary gene or gene product identifier, or an identified variant 
-of a gene or gene product. Contents may include protein sequence identifiers: for example, identifiers that specify distinct 
-proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or 
-post-translational modification. Identifiers for functional RNAs can also be included in this column.
-If the gene product is not a top-level gene or gene product identifier, the Gene Product Information (GPI) file should 
-contain information about the canonical form of the gene or gene product.
+* UniProtKB:P99999
+* SGD:S000002164
+* MGI:MGI:1919306
 
+The identifier usually references the canonical form of a gene or gene product including functional RNAs.  Identifiers may also describe gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the Gene Product Information (GPI) file should contain information about the canonical form of the gene or gene product.
 
-This field is mandatory, cardinality 1 
+This field is mandatory, cardinality 1.
 
-#### Negation
-Negation is indicated by the 'NOT' value
+#### 2. Negation
+* Negation is indicated by the 'NOT' value
 
 This field is optional, cardinality 0 or 1.
 
-#### Relation
-The relationship between the gene product in the **DB:DB Object ID** field and the **GO ID** composed of up to three parts: an operator 
-(optional; see **Negation**), a modifier (optional) and an atomic **Relation** (required).
+#### 3. Relation
 
-This field is mandatory, cardinality 1 or greater than 1, entries pipe-separated.
+This field is mandatory, cardinality 1.
 
-The atomic relations depend upon the term namespace, and must be in the below list of allowed Gene Product to GO Term Relations. The default relations are:
+The relations depend upon the term namespace, and must be in the below list of current allowed Gene Product to GO Term Relations. The default relations for non-root terms are:
 
 * Gene product *enables* molecular function
-* Gene product *involved in* biological process
+* Gene product *acts upstream of or within* biological process
 * Gene product *part of* protein-containing complex (GO:0032991 and child terms) cellular component 
 * Gene product *located in* non-protein-containing complex cellular component 
-
 
 <!--- # Allowed Gene Product to GO Term Relations -->
 
@@ -126,12 +117,12 @@ Cellular Component | located in | `RO:0001025` | Default for non-protein-contain
 Cellular Component | is active in | `RO:0002432` | Used to indicate where a gene product enables its MF
 Cellular Component | colocalizes with | `RO:0002325` |
 
-#### GO ID
+#### 4. GO ID
 The GO identifier for the term attributed to the DB object ID. Must be in the format GO:GOID.
 
 This field is mandatory, cardinality 1. 
 
-#### DB:Reference
+#### 5. DB:Reference
 One or more unique identifiers for a single source cited as an authority for the attribution of the GO ID to the DB object ID. 
 This may be a literature reference or a database record. The syntax is DB:accession. Note that only one reference can be cited 
 on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers 
@@ -143,11 +134,11 @@ Valid references are one of: PubMed, DOI, GO_REF, Agricola, MOD reference
 
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
 
-#### Evidence code
+#### 6. Evidence code
 One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO
 This field is mandatory, cardinality 1 
 
-#### With [or] From
+#### 7. With [or] From
 Also referred to as **With, From** or the **With/From** column
 
 This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 [IC];
@@ -191,7 +182,7 @@ or sequence similarity; these identifiers can be used in the with column for ECO
 More information on the meaning of with or from column entries is available in the [evidence code documentation](http://geneontology.org/page/guide-go-evidence-codes) for the relevant codes.
 
 
-#### Interacting taxon ID
+#### 8. Interacting taxon ID
 Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process 
 term 'multi-organism process' or the cellular component term 'host' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
 
@@ -200,19 +191,19 @@ terms should leave this column blank.
 
 See the [GO annotation conventions for more information on multi-organism terms](http://geneontology.org/page/go-annotation-conventions#interactions). 
 
-#### Date
+#### 9. Date
 Date on which the annotation was made; format is YYYY-MM-DD. Conforms to the date portion of ISO-8601.
 
 This field is mandatory, cardinality 1.
 
-#### Assigned By
+#### 10. Assigned By
 The database which made the annotation one of the values from the set of [GO database cross-references](http://metadata/db-xrefs.yaml); used for tracking 
 the source of an individual annotation. Value will differ from the **DB:DB Object ID** column for any annotation that is made by one 
 database and incorporated into another.
 
 This field is mandatory, cardinality 1.
 
-#### Annotation Extension
+#### 11. Annotation Extension
 Contains cross references to GO or other ontologies that can be used to qualify or enhance the annotation. The cross-reference 
 is prefaced by an appropriate RO or BFO term; references to multiple ontologies can be entered. Allowable ontologies include GO, SO, CL, UBERON, and other anatomy ontologies.
 
@@ -225,7 +216,7 @@ using the annotation extension column for details of practical usage.
 
 This field is optional, cardinality 0 or greater.
 
-#### Annotation Properties
+#### 12. Annotation Properties
  The Annotation Properties column can be filled with a pipe separated list of "property_name = property_value".  If the property exists, the property is single valued.
 
 This field is optional, cardinality 0 or greater.
