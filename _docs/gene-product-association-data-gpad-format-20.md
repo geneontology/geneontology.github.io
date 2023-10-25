@@ -13,8 +13,8 @@ CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to 
 
 # GPAD/GPI files
 
-*G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF; the GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files.
-This page describes the Gene Product Association Data (GPAD) 2.0 format.  For more general information on annotation, please see the Introduction to GO annotation.
+*G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) companion files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF; the GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files.
+This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md).  
 
 
 # Gene Product Association Data (GPAD) files
@@ -32,13 +32,14 @@ The GPAD file must start with a header minimally consisting of a declaration of 
     !generated-by: MGI
     !date-generated: 2023-01-30
     
-The group in the `generated-by` field must be present in the dbxrefs.yaml file.  Submitting groups may decide to include optional additional information. Each line should be prefixed with an exclamation mark (!); so that these lines are ignored by data parsers.
+The group in the `generated-by` field must be present in the [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml).  Submitting groups may decide to include optional additional information. Each header line should be prefixed with an exclamation mark (!) so that these lines are ignored by data parsers.
 Additional header lines may include:
-* URL: e.g. http://www.yeastgenome.org/
-* Project-release: e.g. WS275
-* Funding: e.g. NHGRI
-* Columns: file format written out
-* go-version: PURL
+
+    !URL: http://www.yeastgenome.org/
+    !Project-release: WS275
+    !Funding: NHGRI grant number HG012212
+    !Columns: DB:DB_Object_ID Negation    Relation    GO ID    DB:Reference(s)    Evidence Code    With (or) From    Interacting taxon ID    Date    Assigned by    Annotation Extension    Annotation Properties
+* go-version: https://doi.org/10.5281/zenodo.8436609 *PURL*
 * ro-version: PURL
 * gorel-version: PURL
 * eco-version: PURL
@@ -48,22 +49,22 @@ The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, so
 
 GPAD 2.0 sample line:
 
-    UniProtKB:P11678        RO:0002263    GO:0050803     	PMID:30695063    ECO:0000315            2023-01-30    MGI    BFO:0000066(GO:0005829)    contributor-id=orcid:0000-0001-1234-5678
+    SGD:S000002164	NOT	RO:0002331	GO:0043409	PMID:26546002	ECO:0000316	SGD:S000003631		20180119	SGD	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)	noctua-model-id=gomodel:6086f4f200000223|model-state=production|contributor=https://orcid.org/0000-0003-3212-6364
 
 | Column 	| Content 	| Required? 	| Cardinality 	| Example|
 |----------|---------|-------------|---------|--------|
-|1 |	[DB:DB_Object_ID ](#db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000006261 | 
+|1 |	[DB:DB_Object_ID ](#db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000002164 | 
 |2 |	[Negation](#negation "Definition and requirements for Negation (column 2)") |	optional |	0 or 1 |	NOT |
-|3 |	[Relation](#relation "Definition and requirements for Relation (column 3)") |	required |	1 or greater |	RO:0002263 |
-|4 |	[GO ID](#go-id "Definition and requirements for GO ID (column 4)") |	required |	1 |	GO:0019104 |
-|5 |	[DB:Reference(s) (\|DB:Reference)](#dbreferences "Definition and requirements for DB:Reference (column 5)") |	required |	1 or greater |	PMID:20727966|
-|6 |	[Evidence Code](#evidence-code "Definition and requirements for Evidence Code (column 6)") |	required |	1 |	ECO:0000315|
-|7 |	[With (or) From](#with-or-from "Definition and requirements for With [or] From (column 7)") |	optional |	0 or greater |	WB:WBVar00000510|
+|3 |	[Relation](#relation "Definition and requirements for Relation (column 3)") |	required |	1 or greater |	RO:0002331 |
+|4 |	[GO ID](#go-id "Definition and requirements for GO ID (column 4)") |	required |	1 |	GO:0043409 |
+|5 |	[DB:Reference(s) (\|DB:Reference)](#dbreferences "Definition and requirements for DB:Reference (column 5)") |	required |	1 or greater |	PMID:26546002|
+|6 |	[Evidence Code](#evidence-code "Definition and requirements for Evidence Code (column 6)") |	required |	1 |	ECO:0000316|
+|7 |	[With (or) From](#with-or-from "Definition and requirements for With [or] From (column 7)") |	optional |	0 or greater |	SGD:S000003631|
 |8 |	[Interacting taxon ID](#interacting-taxon-id "Definition and requirements for Interacting Taxon ID (column 8)") |	optional |	0 or greater |	NCBITaxon:5476|
-|9 |	[Date](#date "Definition and requirements for Date (column 9)")  |	required | 1 |	2019-01-30|
-|10 |	[Assigned by](#assigned-by "Definition and requirements for Assigned by (column 10)") |	required | 1 or greater |	PomBase|
-|11 |	[Annotation Extension](#annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002092(GO:0051320)|
-|12 |	[Annotation Properties](#annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	model-state=production|
+|9 |	[Date](#date "Definition and requirements for Date (column 9)")  |	required | 1 |	20180119|
+|10 |	[Assigned by](#assigned-by "Definition and requirements for Assigned by (column 10)") |	required | 1 or greater |	SGD|
+|11 |	[Annotation Extension](#annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)|
+|12 |	[Annotation Properties](#annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223|model-state=production|contributor=https://orcid.org/0000-0003-3212-6364|
 
 ### Definitions and requirements for field contents
 
