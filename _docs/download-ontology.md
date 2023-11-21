@@ -12,7 +12,7 @@ redirect_from:
 Files are available in the following formats:
   * [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"}: human- and machine-readable; can be opened in any text editor
   * [OWL](https://github.com/owlcs/owlapi){:target="blank"}: can be opened with [Protégé](https://protege.stanford.edu/){:target="blank"}.
-+ Three versions of the ontology are avilable, as described below.
++ Three versions of the ontology are available, as described below.
 
 |Name 	| Description | Permanent URL |	Download link |
 |-------|--------------|-------------|-------------|
