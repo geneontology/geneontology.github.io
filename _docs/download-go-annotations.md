@@ -14,7 +14,8 @@ The [GAF download page](http://current.geneontology.org/products/pages/downloads
 
 GAF & GPAD+GPI files are also available from the [/annotations/](http://current.geneontology.org/annotations/index.html){:target="blank"} directory of the current release: [http://current.geneontology.org](http://current.geneontology.org){:target="blank"}
 
-If your organism is not available in the above links, you can use [AmiGO's annotation search](https://amigo.geneontology.org/amigo/search/annotation)feature to view or download annotations.  [See our FAQ](https://geneontology.org/docs/faq/#where-can-i-view-or-download-the-complete-sets-of-go-annotations) for further information as well as how to retrieve annotations for species that are not available in AmiGO.
+### Other species
+If your organism is not available in the above links, you can use [AmiGO's annotation search](https://amigo.geneontology.org/amigo/search/annotation) feature to view or download annotations.  [See our FAQ](https://geneontology.org/docs/faq/#where-can-i-view-or-download-the-complete-sets-of-go-annotations) for further information as well as how to retrieve annotations for species that are not available in AmiGO.
 
 ## About GO annotation formats
 + Released monthly
