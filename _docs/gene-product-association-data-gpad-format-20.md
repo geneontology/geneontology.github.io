@@ -135,7 +135,7 @@ Valid references are one of: PubMed, DOI, GO_REF, Agricola, MOD reference
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
 
 #### 6. Evidence code
-One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO
+One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO.
 
 This field is mandatory, cardinality 1 
 
