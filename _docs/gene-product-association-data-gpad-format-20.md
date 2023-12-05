@@ -177,10 +177,9 @@ More information on the meaning of with or from column entries is available in t
 
 
 #### 8. Interacting taxon ID
-Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process 
-term 'multi-organism process' or the cellular component term 'host' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
+Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
 
-This field is optional, cardinality 0 or 1.
+This field is optional, cardinality 0 or greater.
 
 #### 9. Date
 Date on which the annotation was made; format is YYYY-MM-DD. Conforms to the date portion of ISO-8601.
