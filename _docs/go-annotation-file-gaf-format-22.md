@@ -218,7 +218,9 @@ The object type (gene_product, transcript, protein, protein_complex, etc.) liste
 #### Taxon (column 13)
 Taxonomic identifier(s).
 
-For cardinality 1, the ID of the species encoding the gene product. For cardinality 2, to be used only in conjunction with terms that have the biological process term multi-organism process or the cellular component term host cell as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction
+For cardinality 1, the ID of the species encoding the gene product. 
+
+For cardinality 2, to be used only in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms' or the cellular component term  'GO:0018995 host cellular component' as an ancestor. The first taxon ID should be that of the organism encoding the gene or gene product, and the taxon ID after the pipe should be that of the other organism in the interaction
 
     This field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries (e.g. taxon:1|taxon:1000).
 
