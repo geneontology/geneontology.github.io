@@ -3,9 +3,13 @@ title: Gene Product Association Data (GPAD) format 2.0
 permalink: /docs/gene-product-association-data-gpad-format-2.0/
 ---
 
+
+# This page is a PREVIEW of the Gene Product Association Data (GPAD) 2.0 format, coming in 2024. This format has not yet been implemented but is provided to help with the changeover from previous GPAD/GPI versions.
+
 # GPAD/GPI files
 
 *G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) companion files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF; the GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files.
+
 This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md).  
 
 
