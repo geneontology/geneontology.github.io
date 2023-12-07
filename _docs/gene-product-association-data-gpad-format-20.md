@@ -1,15 +1,7 @@
-<!-- DO NOT PUBLISH THIS until GPAD/GPI 2.0 specs are finalised -->
-
-
 ---
 title: Gene Product Association Data (GPAD) format 2.0
 permalink: /docs/gene-product-association-data-gpad-format-2.0/
 ---
-
-<!--Qualifiers section is confusing- says "the relationship between the gene product in the DB:DB object ID and the GO ID 
-composed of up to three parts: an operator (optional), a modifier (optional) and an atomic relation (required) 
-**this field is mandatory**, cardinality 1 or greater than 1, entries pipe-separated" and then "**qualifiers are optional**"
-CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to be helpful.-->
 
 # GPAD/GPI files
 
@@ -143,24 +135,14 @@ This field is mandatory, cardinality 1
 Also referred to as **With, From** or the **With/From** column
 
 This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 [IC];
-ECO:0000203, ECO:0000256, and ECO:0000265 [all IEA];ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, ECO:0000250 and ECO:0000255 [all ISS]. 
-This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, 
-ISS) or interacts with (ECO:0000021, IPI). The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or ECO:0000307 [ND]. 
+ECO:0000203, ECO:0000256, and ECO:0000265 [all IEA]; ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, ECO:0000250 and ECO:0000255 [all ISS]. 
+This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, ISS) or interacts with (ECO:0000021, IPI). The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or ECO:0000307 [ND]. 
 
-Cardinality 0, 1, >1. For cardinality >1 use a pipe to separate independent evidence (e.g. FB:FBgn1111111|FB:FBgn2222222); use commas to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
+Cardinality 0, 1, >1. Cardinality = 0 is not allowed for any manual annotations (IC, IGI, IPI, ISS). 
+For cardinality >1 use a pipe to separate independent evidence (e.g. FB:FBgn1111111|FB:FBgn2222222). Use commas to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
 
-Cardinality = 0 is not recommended for coded, but is permitted because cases can be found in literature where no database identifier 
-can be found(e.g. physical interaction or sequence similarity to a protein, but no ID provided). Cardinality = 0 is not allowed 
-for ISS annotations (ECO:0000031, ECO:0000250 and ECO:0000255). Annotations where evidence is 
-ECO:0000316 [IGI], ECO:0000021 [IPI], or ECO:0000031, ECO:0000250 or ECO:0000255 [all ISS] and with cardinality = 1, >1. Cardinality may be >1 for any of the evidence codes that use with; for ECO:0000021 [IPI] and ECO:00000316 [IGI], cardinality >1 has a special meaning (see evidence documentation for 
+For ECO:0000021 [IPI] and ECO:00000316 [IGI], cardinality >1 has a special meaning (see evidence documentation for 
 more information). 
-
-
-Usage notes: 
-For IPI annotations, 
-
-For IC
-
 
 Note that a gene ID may be used in the with column for a ECO:0000021 [IPI] annotation, or for an ECO:0000031, ECO:0000250 
 or ECO:0000255 [all ISS] annotation based on amino acid sequence or protein structure similarity, if the database does not 
