@@ -1,15 +1,7 @@
-<!-- DO NOT PUBLISH THIS until GPAD/GPI 2.0 specs are finalised -->
-
-
 ---
 title: Gene Product Association Data (GPAD) format 2.0
 permalink: /docs/gene-product-association-data-gpad-format-2.0/
 ---
-
-<!--Qualifiers section is confusing- says "the relationship between the gene product in the DB:DB object ID and the GO ID 
-composed of up to three parts: an operator (optional), a modifier (optional) and an atomic relation (required) 
-**this field is mandatory**, cardinality 1 or greater than 1, entries pipe-separated" and then "**qualifiers are optional**"
-CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to be helpful.-->
 
 # GPAD/GPI files
 
@@ -135,30 +127,22 @@ Valid references are one of: PubMed, DOI, GO_REF, Agricola, MOD reference
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
 
 #### 6. Evidence code
-One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO
+One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO.
+
 This field is mandatory, cardinality 1 
 
 #### 7. With [or] From
 Also referred to as **With, From** or the **With/From** column
 
 This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 [IC];
-ECO:0000203, ECO:0000256, and ECO:0000265 [all IEA];ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, ECO:0000250 and ECO:0000255 [all ISS]. 
-This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, 
-ISS) or interacts with (ECO:0000021, IPI). The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or 
-ECO:0000307 [ND]. 
+ECO:0000203, ECO:0000256, and ECO:0000265 [all IEA]; ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, ECO:0000250 and ECO:0000255 [all ISS]. 
+This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, ISS) or interacts with (ECO:0000021, IPI). The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or ECO:0000307 [ND]. 
 
-Cardinality 0, 1, >1. For cardinality >1 use a pipe to separate independent evidence (e.g. FB:FBgn1111111|FB:FBgn2222222); use commas to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
+Cardinality 0, 1, >1. Cardinality = 0 is not allowed for any manual annotations (IC, IGI, IPI, ISS). 
+For cardinality >1 use a pipe to separate independent evidence (e.g. FB:FBgn1111111|FB:FBgn2222222). Use commas to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
 
-Cardinality = 0 is not recommended, but is permitted because cases can be found in literature where no database identifier 
-can be found(e.g. physical interaction or sequence similarity to a protein, but no ID provided). Cardinality = 0 is not allowed 
-for ISS annotations (ECO:0000031, ECO:0000250 and ECO:0000255) made after October 1, 2006. Annotations where evidence is 
-ECO:0000316 [IGI], ECO:0000021 [IPI], or ECO:0000031, ECO:0000250 or ECO:0000255 [all ISS] and with cardinality = 0 should 
-link to an explanation of why there is no entry in with. Cardinality may be >1 for any of the evidence codes that use with; 
-for ECO:0000021 [IPI] and ECO:00000316 [IGI], cardinality >1 has a special meaning (see evidence documentation for 
+For ECO:0000021 [IPI] and ECO:00000316 [IGI], cardinality >1 has a special meaning (see evidence documentation for 
 more information). 
-
-
-Usage notes: 
 
 Note that a gene ID may be used in the with column for a ECO:0000021 [IPI] annotation, or for an ECO:0000031, ECO:0000250 
 or ECO:0000255 [all ISS] annotation based on amino acid sequence or protein structure similarity, if the database does not 
@@ -169,22 +153,15 @@ A GO:ID is used only when the evidence code is ECO:0000305 [IC], and refers to t
 curator inference. In these cases the entry in the **DB:Reference** column will be that used to assign the GO term(s) 
 from which the inference is made. This field is mandatory for evidence code ECO:0000305 [IC].
 
-The ID is usually an identifier for an individual entry in a database (such as a sequence ID, gene ID, GO ID, etc.). 
-Identifiers from the Center for Biological Sequence Analysis (CBS), however, represent tools used to find homology 
-or sequence similarity; these identifiers can be used in the with column for ECO:0000031, ECO:0000250 or ECO:0000255 
-[ISS] annotations.
+The ID is usually an identifier for an individual entry in a database (such as a sequence ID, gene ID, GO ID, etc.).
 
 More information on the meaning of with or from column entries is available in the [evidence code documentation](http://geneontology.org/page/guide-go-evidence-codes) for the relevant codes.
 
 
 #### 8. Interacting taxon ID
-Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process 
-term 'multi-organism process' or the cellular component term 'host' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
+Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
 
-This field is mandatory for terms with parentage under 'multi-organism process' or 'host', cardinality 1; annotations to other 
-terms should leave this column blank.
-
-See the [GO annotation conventions for more information on multi-organism terms](http://geneontology.org/page/go-annotation-conventions#interactions). 
+This field is optional, cardinality 0 or greater.
 
 #### 9. Date
 Date on which the annotation was made; format is YYYY-MM-DD. Conforms to the date portion of ISO-8601.
@@ -192,7 +169,7 @@ Date on which the annotation was made; format is YYYY-MM-DD. Conforms to the dat
 This field is mandatory, cardinality 1.
 
 #### 10. Assigned By
-The database which made the annotation one of the values from the set of [GO database cross-references](http://metadata/db-xrefs.yaml); used for tracking 
+The database which made the annotation one of the values from the set of [GOC groups](https://github.com/geneontology/go-site/blob/master/metadata/groups.yaml); used for tracking 
 the source of an individual annotation. Value will differ from the **DB:DB Object ID** column for any annotation that is made by one 
 database and incorporated into another.
 
