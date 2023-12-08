@@ -112,16 +112,16 @@ This may be a literature reference or a database record. The syntax is DB:access
 on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers 
 for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, 
 the PubMed ID must be included; if the model organism database has its own identifier for the reference, that can also be 
-included.
+included (e.g. `PMID:2676709|SGD_REF:S000047763`)
 
 Valid references are one of: PubMed, DOI, GO_REF, Agricola, MOD reference
 
-This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763). 
+This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries.
 
 #### 6. Evidence code
 One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceontology.org), ECO. See the wiki linked from our [evidence code documentation](http://geneontology.org/page/guide-go-evidence-codes) for more information.
 
-This field is mandatory, cardinality 1 
+This field is mandatory, cardinality 1.
 
 #### 7. With [or] From
 Also referred to as **With, From** or the **With/From** column
@@ -177,4 +177,4 @@ The Annotation Properties column contains a list of "property_name = property_va
 * model-state=production
 * contributor=https://orcid.org/0000-0003-3212-6364
 
-This field is optional, cardinality 0 or greater. For cardinality >1 use a pipe to separate entries.
+This field is optional, cardinality 0 or greater; for cardinality >1 use a pipe to separate entries.
