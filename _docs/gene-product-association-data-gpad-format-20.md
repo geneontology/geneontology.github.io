@@ -10,7 +10,7 @@ permalink: /docs/gene-product-association-data-gpad-format-2.0/
 
 *G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) companion files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF; the GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files.
 
-This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md).  
+This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from GPAD 1.1 [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md).  
 
 
 # Gene Product Association Data (GPAD) files
@@ -63,7 +63,7 @@ GPAD 2.0 sample line:
 |9 |	[Date](#date "Definition and requirements for Date (column 9)")  |	required | 1 |	2018-01-19|
 |10 |	[Assigned by](#assigned-by "Definition and requirements for Assigned by (column 10)") |	required | 1 |	SGD|
 |11 |	[Annotation Extension](#annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)|
-|12 |	[Annotation Properties](#annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223|model-state=production|contributor=https://orcid.org/0000-0003-3212-6364|
+|12 |	[Annotation Properties](#annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=https://orcid.org/0000-0003-3212-6364|
 
 ### Definitions and requirements for field contents
 
@@ -83,7 +83,7 @@ The identifier usually references the canonical form of a gene or gene product i
 This field is mandatory, cardinality 1.
 
 #### 2. Negation
-* Negation is indicated by the 'NOT' value
+Negation is indicated by the 'NOT' value.
 
 This field is optional, cardinality 0 or 1.
 
