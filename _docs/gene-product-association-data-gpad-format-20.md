@@ -68,11 +68,7 @@ GPAD 2.0 sample line:
 ### Definitions and requirements for field contents
 
 #### 1. DB:DB Object ID
-
-* A unique identifier for the item being annotated
-
-**DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object.  The **DB** is not necessarily the same as the group submitting 
-the file, named in column 10 **Assigned by**. Examples:
+A unique identifier for the item being annotated. The **DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object.  The **DB** is not necessarily the same as the group submitting the file, which is named in column 10 **Assigned by**. Examples:
 
 * UniProtKB:P99999
 * SGD:S000002164
@@ -84,35 +80,25 @@ This field is mandatory, cardinality 1.
 
 #### 2. Negation
 Negation is indicated by the 'NOT' value.
-
 This field is optional, cardinality 0 or 1.
 
 #### 3. Relation
-
+The relations depend upon the term namespace, and must be in the below list of current allowed Gene Product to GO Term Relations. 
 This field is mandatory, cardinality 1.
-
-The relations depend upon the term namespace, and must be in the below list of current allowed Gene Product to GO Term Relations. The default relations for non-root terms are:
-
-* Gene product *enables* molecular function
-* Gene product *acts upstream of or within* biological process
-* Gene product *part of* protein-containing complex (GO:0032991 and child terms) cellular component 
-* Gene product *located in* non-protein-containing complex cellular component 
-
 <!--- # Allowed Gene Product to GO Term Relations -->
-
 GO Aspect 	| Relations Ontology Label  | Relations Ontology ID | Usage Guidelines
 -----------|---------------------------|----------------------| ------------------ |
-Molecular Function | enables | `RO:0002327` | Default for MF
+Molecular Function | enables | `RO:0002327` | Default for all `GO:0003674 molecular_function` & child terms
 Molecular Function | contributes to | `RO:0002326` |
 Biological Process | involved in | `RO:0002331` |
 Biological Process | acts upstream of | `RO:0002263` |
 Biological Process | acts upstream of positive effect | `RO:0004034` |
 Biological Process | acts upstream of negative effect | `RO:0004035` |
-Biological Process | acts upstream of or within | `RO:0002264` | Default for BP (GO:0008150) and child terms
+Biological Process | acts upstream of or within | `RO:0002264` | Default for all `GO:0008150  biological_process` & child terms
 Biological Process | acts upstream of or within positive effect | `RO:0004032` |
 Biological Process | acts upstream of or within negative effect | `RO:0004033` |
-Cellular Component | part of	| `BFO:0000050` | Default for protein-containing complex (GO:0032991) and child terms
-Cellular Component | located in | `RO:0001025` | Default for non-protein-containing complex CC terms
+Cellular Component | part of	| `BFO:0000050` | Default for all `GO:0032991 protein-containing complex` & child terms
+Cellular Component | located in | `RO:0001025` | Default for `GO:0005575 cellular_component` *except* protein-containing complex
 Cellular Component | is active in | `RO:0002432` | Used to indicate where a gene product enables its MF
 Cellular Component | colocalizes with | `RO:0002325` |
 
