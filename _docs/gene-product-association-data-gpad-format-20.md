@@ -30,18 +30,13 @@ The GPAD file must start with a header minimally consisting of a declaration of 
     
 The group in the `generated-by` field must be present in the [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml). The year must be YYYY-MM-DD, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards.
 
-Submitting groups may decide to include optional additional information. 
+Submitting groups may choose to include optional additional information, for example:
 
     !URL: http://www.yeastgenome.org/
     !Project-release: WS275
     !Funding: NHGRI grant number HG012212
     !Columns: DB:DB_Object_ID Negation    Relation    GO ID    DB:Reference(s)    Evidence Code    With (or) From    Interacting taxon ID    Date    Assigned by    Annotation Extension    Annotation Properties
-    
-Additional header lines may include:
-* go-version: https://doi.org/10.5281/zenodo.8436609
-* ro-version: *PURL*
-* gorel-version: *PURL*
-* eco-version: *PURL*
+    !go-version: https://doi.org/10.5281/zenodo.8436609
     
 ### Annotation file fields
 The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory with cardinality 1 or greater.  For fields that permit multiple values, values should be separated by pipes for `OR` statements and commas for `AND` statements.
@@ -80,10 +75,12 @@ This field is mandatory, cardinality 1.
 
 #### 2. Negation
 Negation is indicated by the 'NOT' value.
+
 This field is optional, cardinality 0 or 1.
 
 #### 3. Relation
 The relations depend upon the term namespace, and must be in the below list of current allowed Gene Product to GO Term Relations. 
+
 This field is mandatory, cardinality 1.
 <!--- # Allowed Gene Product to GO Term Relations -->
 GO Aspect 	| Relations Ontology Label  | Relations Ontology ID | Usage Guidelines
@@ -104,6 +101,7 @@ Cellular Component | colocalizes with | `RO:0002325` |
 
 #### 4. GO ID
 The GO identifier for the term attributed to the DB object ID. Must be in the format GO:GOID.
+
 This field is mandatory, cardinality 1. 
 
 #### 5. DB:Reference
@@ -133,8 +131,10 @@ This column can identify another gene product to which the annotated gene produc
 The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or ECO:0000307 [ND]. 
 
 Cardinality 0, 1, >1 with the following rules:
-Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
-Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
+
+* Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
+
+* Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
 
 For cardinality >1 use a pipe to separate independent evidence (e.g. FB:FBgn1111111|FB:FBgn2222222). Use commas to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
 
@@ -171,10 +171,11 @@ using the [annotation extension column](https://wiki.geneontology.org/Annotation
 This field is optional, cardinality 0 or greater.
 
 #### 12. Annotation Properties
-The Annotation Properties column contains a list of "property_name = property_value".  If the property exists, the property is single valued. Annotation properties include [GO-CAM](https://geneontology.org/docs/gocam-overview/) information and comments on annotations including:
+The Annotation Properties column contains a list of "property_name = property_value".  If the property exists, the property is single valued. Annotation properties include [GO-CAM](https://geneontology.org/docs/gocam-overview/) information and comments on annotations. Examples:
 
+* id=GOA:2113861687
 * noctua-model-id=gomodel:6086f4f200000223
 * model-state=production
-* contributor=https://orcid.org/0000-0003-3212-6364
+* creation-date=2019-07-20T12:04:08
 
 This field is optional, cardinality 0 or greater; for cardinality >1 use a pipe to separate entries.
