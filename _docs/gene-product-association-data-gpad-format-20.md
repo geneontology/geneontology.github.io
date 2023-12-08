@@ -118,7 +118,6 @@ Cellular Component | colocalizes with | `RO:0002325` |
 
 #### 4. GO ID
 The GO identifier for the term attributed to the DB object ID. Must be in the format GO:GOID.
-
 This field is mandatory, cardinality 1. 
 
 #### 5. DB:Reference
