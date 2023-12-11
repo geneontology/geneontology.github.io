@@ -43,18 +43,18 @@ GPAD 2.0 sample line:
 
 | **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example** |
 |----------|---------|-------------|---------|--------|
-|1 |	[DB:DB_Object_ID ](#db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000002164 | 
-|2 |	[Negation](#negation "Definition and requirements for Negation (column 2)") |	optional |	0 or 1 |	NOT |
-|3 |	[Relation](#relation "Definition and requirements for Relation (column 3)") |	required |	1 |	RO:0002331 |
-|4 |	[GO ID](#go-id "Definition and requirements for GO ID (column 4)") |	required |	1 |	GO:0043409 |
-|5 |	[DB:Reference(s) (\|DB:Reference)](#dbreferences "Definition and requirements for DB:Reference (column 5)") |	required |	1 or greater |	PMID:26546002|
-|6 |	[Evidence Code](#evidence-code "Definition and requirements for Evidence Code (column 6)") |	required |	1 |	ECO:0000316|
-|7 |	[With (or) From](#with-or-from "Definition and requirements for With [or] From (column 7)") |	optional |	0 or greater |	SGD:S000003631|
-|8 |	[Interacting taxon ID](#interacting-taxon-id "Definition and requirements for Interacting Taxon ID (column 8)") |	optional |	0 or greater |	NCBITaxon:5476|
-|9 |	[Date](#date "Definition and requirements for Date (column 9)")  |	required | 1 |	2018-01-19|
-|10 |	[Assigned by](#assigned-by "Definition and requirements for Assigned by (column 10)") |	required | 1 |	SGD|
-|11 |	[Annotation Extension](#annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)|
-|12 |	[Annotation Properties](#annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=orcid:0000-0003-3212-6364|
+|1 |	[DB:DB_Object_ID ](#1.-db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000002164 | 
+|2 |	[Negation](#2.-negation "Definition and requirements for Negation (column 2)") |	optional |	0 or 1 |	NOT |
+|3 |	[Relation](#3.-relation "Definition and requirements for Relation (column 3)") |	required |	1 |	RO:0002331 |
+|4 |	[GO ID](#4.-go-id "Definition and requirements for GO ID (column 4)") |	required |	1 |	GO:0043409 |
+|5 |	[DB:Reference(s) (\|DB:Reference)](#5.-dbreferences "Definition and requirements for DB:Reference (column 5)") |	required |	1 or greater |	PMID:26546002|
+|6 |	[Evidence Code](#6.-evidence-code "Definition and requirements for Evidence Code (column 6)") |	required |	1 |	ECO:0000316|
+|7 |	[With (or) From](#7.-with-or-from "Definition and requirements for With [or] From (column 7)") |	optional |	0 or greater |	SGD:S000003631|
+|8 |	[Interacting taxon ID](#8.-interacting-taxon-id "Definition and requirements for Interacting taxon ID (column 8)") |	optional |	0 or greater |	NCBITaxon:5476|
+|9 |	[Date](#9.-date "Definition and requirements for Date (column 9)")  |	required | 1 |	2018-01-19|
+|10 |	[Assigned by](#10.-assigned-by "Definition and requirements for Assigned by (column 10)") |	required | 1 |	SGD|
+|11 |	[Annotation Extension](#11.-annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)|
+|12 |	[Annotation Properties](#12.-annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=orcid:0000-0003-3212-6364|
 
 ### Definitions and requirements for field contents
 
