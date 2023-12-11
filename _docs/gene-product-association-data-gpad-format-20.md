@@ -12,15 +12,11 @@ permalink: /docs/gene-product-association-data-gpad-format-2.0/
 
 This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from GPAD 1.1 [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md).  
 
-
-# Gene Product Association Data (GPAD) files
-
-The GPAD file is a standardized way to exchange GO annotation data.  Each line in the tab-delimited file represents a single association between a gene product and a GO term, and includes an evidence code, reference, and other relevant information.
-
 The other file that supports exchange of GO is the [GAF format](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
-
 ## Gene Product Association Data (GPAD) 2.0 format
+
+The GPAD file is a standardized way to exchange GO annotation data.  Each line in the tab-delimited file represents a single association between a gene product and a GO term, and includes an evidence code, reference, and other relevant information.
 
 The GPAD file must start with a header minimally consisting of a declaration of the file format, the group generating the file, and the date the file was generated. Each header line should be prefixed with an exclamation mark (!) so that these lines are ignored by data parsers:
 
@@ -28,7 +24,7 @@ The GPAD file must start with a header minimally consisting of a declaration of 
     !generated-by: MGI
     !date-generated: 2023-01-30
     
-The group in the `generated-by` field must be present in the [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml). The year must be YYYY-MM-DD, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards.
+The group in the `generated-by` field must be present in the [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml). The year must be `YYYY-MM-DD`, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards.
 
 Submitting groups may choose to include optional additional information, for example:
 
@@ -45,7 +41,7 @@ GPAD 2.0 sample line:
 
     SGD:S000002164	NOT	RO:0002331	GO:0043409	PMID:26546002	ECO:0000316	SGD:S000003631		2018-01-19	SGD	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)	noctua-model-id=gomodel:6086f4f200000223|model-state=production|contributor=orcid:0000-0003-3212-6364
 
-| Column 	| Content 	| Required? 	| Cardinality 	| Example|
+| **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example** |
 |----------|---------|-------------|---------|--------|
 |1 |	[DB:DB_Object_ID ](#db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000002164 | 
 |2 |	[Negation](#negation "Definition and requirements for Negation (column 2)") |	optional |	0 or 1 |	NOT |
@@ -85,7 +81,7 @@ This field is mandatory, cardinality 1.
 
 <!--- # Allowed Gene Product to GO Term Relations -->
 
-| GO Aspect 	| Relations Ontology Label  | Relations Ontology ID | Usage Guidelines|
+| **GO Aspect** 	| **Relations Ontology Label**  | **Relations Ontology ID** | **Usage Guidelines** |
 |-----------|---------------------------|----------------------|------------------|
 |Molecular Function | enables | `RO:0002327` | Default for all `GO:0003674 molecular_function` & child terms|
 |Molecular Function | contributes to | `RO:0002326` | |
@@ -102,19 +98,18 @@ This field is mandatory, cardinality 1.
 |Cellular Component | colocalizes with | `RO:0002325` |
 
 #### 4. GO ID
-The GO identifier for the term attributed to the DB object ID. Must be in the format GO:GOID.
+The GO identifier for the term attributed to the **DB object ID**. Must be in the format `GO:GOID`.
 
 This field is mandatory, cardinality 1. 
 
 #### 5. DB:Reference
 One or more unique identifiers for a single source cited as an authority for the attribution of the GO ID to the DB object ID. 
-This may be a literature reference or a database record. The syntax is DB:accession. Note that only one reference can be cited 
-on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers 
+This may be a literature reference or a database record. Valid references are one of: PubMed, DOI, GO_REF, Agricola, MOD reference. The syntax is `DB:accession`. 
+
+Only one reference can be cited on a single line in the gene association file. If a reference has identifiers in more than one database, multiple identifiers 
 for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, 
 the PubMed ID must be included; if the model organism database has its own identifier for the reference, that can also be 
 included (e.g. `PMID:2676709|SGD_REF:S000047763`)
-
-Valid references are one of: PubMed, DOI, GO_REF, Agricola, MOD reference
 
 This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries.
 
@@ -126,13 +121,13 @@ This field is mandatory, cardinality 1.
 #### 7. With [or] From
 Also referred to as **With, From** or the **With/From** column
 
-This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 [IC];
-ECO:0000203, ECO:0000256, and ECO:0000265 [all IEA]; ECO:00000316 [IGI]; ECO:0000021 [IPI]; ECO:0000031, ECO:0000250 and ECO:0000255 [all ISS]. 
+This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 ([IC](https://wiki.geneontology.org/index.php/Inferred_by_Curator_(IC)));
+ECO:0000203, ECO:0000256, and ECO:0000265 ([IEA & child terms](https://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA))); ECO:00000316 ([IGI](https://wiki.geneontology.org/Inferred_from_Genetic_Interaction_(IGI))); ECO:0000021 ([IPI](https://wiki.geneontology.org/Inferred_from_Physical_Interaction_(IPI))); ECO:0000031, ECO:0000250 and ECO:0000255 ([ISS & child terms](https://wiki.geneontology.org/Inferred_from_Sequence_or_structural_Similarity_(ISS))). 
 This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, ISS) or interacts with (ECO:0000021, IPI). 
 
-The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or ECO:0000307 [ND]. 
+The **With [or] From** column may not be used with the evidence codes ECO:0000314 ([IDA](https://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA))), ECO:0000304 ([TAS](https://wiki.geneontology.org/Traceable_Author_Statement_(TAS))), ECO:0000303 ([NAS](https://wiki.geneontology.org/Non-traceable_Author_Statement_(NAS))), or ECO:0000307 ([ND](https://wiki.geneontology.org/No_biological_Data_available_(ND)_evidence_code)). 
 
-A GO:ID is used only when the evidence code is ECO:0000305 [IC], and refers to the GO term(s) used as the basis of a 
+A GO:ID is used only when the evidence code is IC, and refers to the GO term(s) used as the basis of a 
 curator inference. In these cases the entry in the **DB:Reference** column will be that used to assign the GO term(s) 
 from which the inference is made.
 
@@ -150,7 +145,7 @@ Taxonomic identifier for interacting organism to be used only in conjunction wit
 This field is optional, cardinality 0 or greater.
 
 #### 9. Date
-Date on which the annotation was made; format is YYYY-MM-DD. Conforms to the date portion of ISO 8601.
+Date on which the annotation was made; format is `YYYY-MM-DD`. Conforms to the date portion of ISO 8601.
 
 This field is mandatory, cardinality 1.
 
