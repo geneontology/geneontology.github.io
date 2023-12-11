@@ -58,7 +58,7 @@ GPAD 2.0 sample line:
 |9 |	[Date](#date "Definition and requirements for Date (column 9)")  |	required | 1 |	2018-01-19|
 |10 |	[Assigned by](#assigned-by "Definition and requirements for Assigned by (column 10)") |	required | 1 |	SGD|
 |11 |	[Annotation Extension](#annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)|
-|12 |	[Annotation Properties](#annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=https://orcid.org/0000-0003-3212-6364|
+|12 |	[Annotation Properties](#annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=orcid:0000-0003-3212-6364|
 
 ### Definitions and requirements for field contents
 
