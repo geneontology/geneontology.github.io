@@ -82,6 +82,7 @@ This field is optional, cardinality 0 or 1.
 The relations depend upon the term namespace, and must be in the below list of current allowed Gene Product to GO Term Relations. 
 
 This field is mandatory, cardinality 1.
+
 <!--- # Allowed Gene Product to GO Term Relations -->
 
 | GO Aspect 	| Relations Ontology Label  | Relations Ontology ID | Usage Guidelines|
