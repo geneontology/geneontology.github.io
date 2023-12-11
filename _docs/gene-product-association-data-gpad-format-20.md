@@ -132,17 +132,17 @@ This column can identify another gene product to which the annotated gene produc
 
 The **With [or] From** column may not be used with the evidence codes ECO:0000314 [IDA], ECO:0000304 [TAS], ECO:0000303 [NAS], or ECO:0000307 [ND]. 
 
+A GO:ID is used only when the evidence code is ECO:0000305 [IC], and refers to the GO term(s) used as the basis of a 
+curator inference. In these cases the entry in the **DB:Reference** column will be that used to assign the GO term(s) 
+from which the inference is made.
+
 Cardinality 0, 1, >1 with the following rules:
 
 * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
 
 * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
 
-For cardinality >1 use a pipe to separate independent evidence (e.g. FB:FBgn1111111|FB:FBgn2222222). Use commas to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
-
-A GO:ID is used only when the evidence code is ECO:0000305 [IC], and refers to the GO term(s) used as the basis of a 
-curator inference. In these cases the entry in the **DB:Reference** column will be that used to assign the GO term(s) 
-from which the inference is made.
+For cardinality >1 use a pipe to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). Use commas to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
 
 #### 8. Interacting taxon ID
 Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
