@@ -35,7 +35,7 @@ Submitting groups may choose to include optional additional information, for exa
     !go-version: https://doi.org/10.5281/zenodo.8436609
     
 ### Annotation file fields
-The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory with cardinality 1 or greater.  For fields that permit multiple values, values should be separated by pipes for `OR` statements and commas for `AND` statements.
+The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory and cardinality varies by field and other conditions.  For fields that permit multiple values, values should be separated by pipes (\|) for `OR` statements and commas (,) for `AND` statements.
 
 GPAD 2.0 sample line:
 
