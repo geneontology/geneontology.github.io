@@ -83,7 +83,7 @@ The relations depend upon the term namespace, and must be in the below list of c
 
 This field is mandatory, cardinality 1.
 <!--- # Allowed Gene Product to GO Term Relations -->
-|GO Aspect 	| Relations Ontology Label  | Relations Ontology ID | Usage Guidelines
+| GO Aspect 	| Relations Ontology Label  | Relations Ontology ID | Usage Guidelines|
 |-----------|---------------------------|----------------------| ------------------ |
 |Molecular Function | enables | `RO:0002327` | Default for all `GO:0003674 molecular_function` & child terms
 |Molecular Function | contributes to | `RO:0002326` |
