@@ -23,7 +23,7 @@ permalink: /docs/download-go-cams/
 * When using SIFs with [Cytoscape](https://cytoscape.org/){:target="blank"}, we also provide a [gocam-styles.xml](https://s3.amazonaws.com/geneontology-public/gocam/gocam-styles.xml). Read more in the [GO-CAM documentation](/docs/gocam-overview/#visualization-in-cytoscape).
 
 ## Programmatic access to GO-CAMs
-As for any resource in GO, GO-CAMs are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"} and can be retrieved using BDBag. Read more about [programmatic access](/docs/tools-guide/#programmatic-download-bdbag).
+As for any resource in GO, GO-CAMs are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}. Read more about [programmatic access](/docs/tools-guide/#programmatic-download-bdbag).
 
 ## Error or omission ?
-Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}
+Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](https://help.geneontology.org/){:target="blank"}
