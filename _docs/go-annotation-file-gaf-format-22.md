@@ -42,19 +42,19 @@ Other information, such as contact details for the submitter or database group, 
 
 Required information to provide in the header:
 
-    generated-by: database listed in dbxrefs.yaml
-    date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
+    !generated-by: database listed in dbxrefs.yaml
+    !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
 
 Groups may decide to include additional information. Examples include:
 
-    URL: e.g. http://www.yeastgenome.org/
-    Project-release: e.g. WS275
-    Funding: e.g. NHGRI
-    Columns: file format written out
-    go-version: PURL
-    ro-version: PURL
-    gorel-version: PURL
-    eco-version: PURL
+    !URL: e.g. http://www.yeastgenome.org/
+    !Project-release: e.g. WS275
+    !Funding: e.g. NHGRI
+    !Columns: file format written out
+    !go-version: PURL
+    !ro-version: PURL
+    !gorel-version: PURL
+    !eco-version: PURL
 
 
 ### GAF fields
