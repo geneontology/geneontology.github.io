@@ -4,7 +4,7 @@ permalink: /docs/gene-product-association-data-gpad-format-2.0/
 ---
 
 
-# This page is a PREVIEW of the Gene Product Association Data (GPAD) 2.0 format, coming in 2024. This format has not yet been implemented but is provided to help with the changeover from previous GPAD/GPI versions.
+# This page describes the Gene Product Association Data (GPAD) 2.0 format. This format has not yet been implemented in GO but is provided to help with the changeover from previous GPAD/GPI versions.
 
 # GPAD/GPI files
 
