@@ -253,7 +253,7 @@ SELECT distinct ?gocam WHERE {
 }
 ```
 
-To test and refine those queries, [ [Try the GO SPARQL endpoint](https://geneontology.org/sparql){:target="blank"} ] or use an external SPARQL editor such as [ [YASGUI](http://yasgui.triply.cc/#){:target="blank"} ]. With external editors, be sure to specify the GO SPARQL endpoint: `http://rdf.geneontology.org/blazegraph/sparql`.
+To test and refine those queries, [ [Try the GO SPARQL endpoint](https://geneontology.org/sparql){:target="blank"} ] or use an external SPARQL editor such as [ [YASGUI](http://yasgui.triply.cc/#){:target="blank"} ]. With external editors, be sure to specify the GO SPARQL endpoint: `https://rdf.geneontology.org/blazegraph/sparql`.
 
 ## Federated Queries
 Lastly, Federated Queries. Those specific types of queries are designed to retrieve specific pieces of information from multiple SPARQL endpoints (e.g. rdf.geneontology.org, sparql.uniprot.org, sparql.wikipathway.org, etc). The concept of federated queries rely on the selection and sharing of unique IRIs to describe in a consistent way each entity across RDF stores. If a gene is universally identified by an IRI, then it one can request data about that gene across multiple databases in a single query. This technique, albeit powerful can however suffer from latency and can fail if any of the endpoint is unavailable. If you are mapping IDs between different endpoints, it's critical to ensure you are gathering data about the same entity. [ [Learn more about Federated Queries](https://www.w3.org/TR/sparql11-federated-query/){:target="blank"} ].
