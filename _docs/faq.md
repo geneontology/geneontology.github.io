@@ -1186,7 +1186,7 @@ Background information and details on how to download, install, and implement OW
 Read more or download the [GO slims here](/docs/go-subset-guide/).
 
 ---------------------------------------------------------------------------
-## When reporting GO slim results, why shouldn't I display my "GO slim" results as a pie chart ?
+## When reporting GO slim results, why shouldn't I display my "GO slim" results as a pie chart?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="Reporting GO slim results, why shouldn't I  display my &quot;GO slim&quot; results as a pie chart ?"></span>
