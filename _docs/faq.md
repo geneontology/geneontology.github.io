@@ -1112,6 +1112,20 @@ Our Term Enrichment tool on the homepage of the Gene Ontology Website cannot han
 Alternatively, annotators can use the PANTHER Term Enrichment tool directly, without AmiGO as an intermediary; this would still be the exact same analysis with the GO data. To perform term enrichment analysis directly from the PANTHER website, visit [https://pantherdb.org](https://pantherdb.org/){:target="blank"}. Once you upload or paste your gene list, select the 'Statistical overrepresentation test' option (in Step3) to perform the term enrichment.
 
 ---------------------------------------------------------------------------
+## What third-party GO Term Enrichment tool shoud I use?
+## I need help with a third-party GO Term Enrichment tool.
+{::comment}
+
+FAQ tags: 
+
+[analysis](/faq-tags/analysis)
+{:/comment}
+
+We recommend our [in-house EA tool](https://pantherdb.org/webservices/go/overrep.jsp), as we can help you with troubleshooting as well as guarantee the data is current.  If you are using a third-party tool, ensure they provide you with the version of GO. We cannot provide support for these outside tools, and we have found many outside tools to create inaccurate GO annotations so we advise caution with such tools. If you do find errors with annotations provided to you by such tools, please [provide us with the tool and pertinent details](https://help.geneontology.org/), and we will try to contact the developers.
+
+If you absolutely need to use a tool other than our EA/PANTHER, we recommend using the [latest version of InterProScan 5](https://interproscan-docs.readthedocs.io/en/latest/Introduction.html#what-is-interproscan){:target="blank"}.  InterProScan is a reliable tool from [EMBL-EBI](https://www.ebi.ac.uk/){:target="blank"} that uses PANTHER as well as HAMAP, NCBIfam, Pfam, PROSITE, and other resources to functionally characterize novel nucleotide or protein sequences from FASTA files. InterProScan can even be used with Galaxy, with some limitations.  
+
+---------------------------------------------------------------------------
 # Subsets
 
 ---------------------------------------------------------------------------
