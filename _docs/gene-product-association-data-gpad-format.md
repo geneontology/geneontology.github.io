@@ -62,7 +62,7 @@ A unique identifier (from the database in DB) for the item being annotated
 
 This field is mandatory, cardinality 1.
 
-In GPAD 1.0 format, the identifier may reference a top-level primary gene or gene product identifier, or an identified variant 
+In GPAD 1.1 format, the identifier may reference a top-level primary gene or gene product identifier, or an identified variant 
 of a gene or gene product. Contents may include protein sequence identifiers: for example, identifiers that specify distinct 
 proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or 
 post-translational modification. Identifiers for functional RNAs can also be included in this column.
