@@ -1225,10 +1225,10 @@ FAQ tags: 
 
 To search the GO database, a list of Entrez IDs, NCBI IDs, etc. needs to be converted to UniProtKB or model organism database IDs.
 
-UniProt and the [Protein Information Resource (PIR)](https://pir.georgetown.edu/pirwww/index.shtml){:target="blank"} have similar ID mapping tools to help with the conversion:
+UniProt and the [Protein Information Resource (PIR)](https://proteininformationresource.org/){:target="blank"} have similar ID mapping tools to help with the conversion:
 
 -   <http://www.uniprot.org/uploadlists/>{:target="blank"}
--   <http://pir.georgetown.edu/pirwww/search/idmapping.shtml>{:target="blank"}
+-   <https://proteininformationresource.org/pirwww/search/idmapping.shtml>{:target="blank"}
 
 GO annotations from QuickGO can be filtered for many parameters and provide mappings to several IDs, e.g NCBI or Ensembl gene IDs: <http://www.ebi.ac.uk/QuickGO/GAnnotation>{:target="blank"}
 
