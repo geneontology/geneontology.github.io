@@ -54,7 +54,7 @@ GO-CAMs can be browsed and searched in the [http://geneontology.org/go-cam](http
 ---
 
 ## Visualize GO-CAM Models with the Alliance of Genome Resources Pathway Viewer 
-Summaries of GO-CAM Models are viewable on the Alliance of Genome Resources webpages for relevant genes. The Alliance of Genome Resources Pathway Viewer is designed to easily visualize the pathways in which a gene product play a role, and to give eaasy access to the functions of the other genes in the same pathway, listed in a menu on the right (see example below).
+Summaries of GO-CAM Models are viewable on the Alliance of Genome Resources webpages for relevant genes. The Alliance of Genome Resources Pathway Viewer is designed to easily visualize the pathways in which a gene product play a role, and to give easy access to the functions of the other genes in the same pathway, listed in a menu on the right (see example below).
 
 ![Alliance Pathway Previewe xample for pmk-1](/assets/pmk-1_alliance_pathway_preview.png)
 
