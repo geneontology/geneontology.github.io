@@ -30,11 +30,11 @@ If you wish to cite data provided by the Gene Ontology knowledgebase, either fro
 
 ## Citing data from AmiGO
 
-The data release can be found in the [AmiGO](http://amigo.geneontology.org/amigo){:target="blank"} page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
+The data release can be found in the [AmiGO](https://amigo.geneontology.org/amigo){:target="blank"} page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
 
 ## GO logo
 
-If you intend to use the logo on your website, please include a link to the GO home page, http://geneontology.org. Please [contact the GO Helpdesk](http://help.geneontology.org) if you need a larger or higher resolution version. The logo is subject to our use and license.
+If you intend to use the logo on your website, please include a link to the GO home page, https://geneontology.org. Please [contact the GO Helpdesk](http://help.geneontology.org) if you need a larger or higher resolution version. The logo is subject to our use and license.
 
 The GO logo is available in four sizes. For reuse, please do not hotlink images, but download them instead (e.g. right click the appropriate image and size, then select "Save Link As"):
 
@@ -64,7 +64,7 @@ According to the terms of GO's [CC BY 4.0 license](https://creativecommons.org/l
 
 For example, if you are offering downloads containing GO data, have a data licensing page in your application, or refer to licensed data in your documentation, an appropriate notice may be:
 
-> [Gene Ontology](http://geneontology.org) data from the [2023-01-01 release](http://release.geneontology.org/2023-01-01) ([DOI:10.5281/zenodo.7504797](https://doi.org/10.5281/zenodo.7504797){:target="blank"}) is made available under the terms of the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
+> [Gene Ontology](https://geneontology.org) data from the [2023-01-01 release](http://release.geneontology.org/2023-01-01) ([DOI:10.5281/zenodo.7504797](https://doi.org/10.5281/zenodo.7504797){:target="blank"}) is made available under the terms of the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 For further reading, suggest:
 
