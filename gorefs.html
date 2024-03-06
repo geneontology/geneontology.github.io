@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="container">
+    <h1>GO REFs</h1>
+    <p>This is a collection of references used by the GO Consortium</p>
+
+    {% for goref in site.data.gorefs %}
+    <hr>
+    {% include goref.html goref=goref %}
+    {% endfor %}
+</div>
+
