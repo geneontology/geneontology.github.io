@@ -7,13 +7,13 @@
 </div>
 <h2><a class="permalink" href="#{{ include.goref.id }}">{{ include.goref.title }}</a></h2>
 <p>{{ include.goref.authors }}; {{ include.goref.year }}</p>
-<p>{{ include.goref.description | markdownify }}</p>
+<p>{{ include.goref.description | markdownify | autolinkify }}</p>
 
 {% if include.goref.comments %}
 <h3>Comments</h3>
 <ul>
 {% for comment in include.goref.comments %}
-    <li>{{ comment | markdownify }}</li>
+    <li>{{ comment | markdownify | autolinkify  }}</li>
 {% endfor %}
 </ul>
 {% endif %}
