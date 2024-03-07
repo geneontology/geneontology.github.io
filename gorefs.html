@@ -6,6 +6,14 @@ layout: default
     <h1>GO REFs</h1>
     <p>This is a collection of references used by the GO Consortium</p>
 
+    {% if jekyll.environment == "development" %}
+        {% unless site.data.gorefs %}
+            <div class="alert alert-warning">
+                <strong>Warning!</strong> No GO_REFs found. Did you run <code>make _data/gorefs.yml</code>?
+            </div>
+        {% endunless %}
+    {% endif %}
+
     {% for goref in site.data.gorefs %}
     <hr>
     {% include goref.html goref=goref %}
