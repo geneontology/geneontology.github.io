@@ -1,13 +1,13 @@
 ---
 title: Download annotations
 permalink: /docs/download-go-annotations/
-redirect_from: 
+redirect_from:
 - download-go-annotations
 - GO.downloads.annotations.shtml
 - /page/download-annotations
 ---
 
-# Download annotations 
+# Download annotations
 
 ## Current GO annotation downloads
 The [GAF download page](http://current.geneontology.org/products/pages/downloads.html) has GAF files for selected species.
@@ -21,11 +21,11 @@ If your organism is not available in the above links, you can use [AmiGO's annot
 + Released monthly
 + Files are taxon-specific, with a few exceptions including the Reactome and *Candida* Genome Database files
 + Current format guides:
-  + [GAF format](/docs/go-annotation-file-gaf-format-2.2/) 
+  + [GAF format](/docs/go-annotation-file-gaf-format-2.2/)
   + [GPAD](/docs/gene-product-association-data-gpad-format/) + [GPI](/docs/gene-product-information-gpi-format/) companion files
-  
+
 ## Programmatic access to GO annotations
-As for any resource in GO, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"} and can be retrieved using BDBag. Read more about [programmatic access](/docs/tools-guide/#programmatic-download-bdbag).
+As for any resource in GO, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}.
 
 ## Error or omission ?
 Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}
