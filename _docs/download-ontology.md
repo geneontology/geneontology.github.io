@@ -52,8 +52,6 @@ For internal checking purposes, GO maintains two "anti-slims", terms to which an
 |**Subset name**|**Usage** |**File name** |**OBO format** |**OWL format** |**json format** |
 |------------------|----------|----------|----------|----------|----------|
 |**Do not annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations| gocheck_do_not_annotate |[obo](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo)| [owl](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.json){:target="blank"}  |
-|**Do not manually annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools| gocheck_do_not_manually_annotate|[obo](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.obo)|[owl](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.json){:target="blank"}  |
-
 
 ## Cross-references of GO to other classification systems
 
