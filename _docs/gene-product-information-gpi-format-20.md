@@ -4,13 +4,14 @@ permalink: /docs/gene-product-information-gpi-format-2.0/
 
 ---
 # This page describes the Gene Product Information (GPI) 2.0 format. This format has not yet been implemented in GO but is provided to help with the changeover from previous GPAD/GPI versions.
-## Currently under comstruction
+## Currently under construction
 
 
 # Gene Product Information (GPI) files
 
-This guide lays out the format specifications for the *G*ene *P*roduct *I*nformation (GPI) 2.0 format.
-**Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).**
+This guide lays out the format specifications for the *G*ene *P*roduct *I*nformation (GPI) 2.0 file format.
+**Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/). 
+Both files should be submitted together using the same version.**
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link.
 
