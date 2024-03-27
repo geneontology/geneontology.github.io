@@ -1,11 +1,10 @@
-<a class="permalink-anchor" id="{{ include.goref.id }}"></a>
 <div>
     <span class="label label-primary">{{ include.goref.id }}</span>
     {% if include.goref.is_obsolete %}
     <span class="label label-danger text-uppercase">obsolete</span>
     {% endif %}
 </div>
-<h2><a class="permalink" href="#{{ include.goref.id }}">{{ include.goref.title }}</a></h2>
+<h2>{{ include.goref.title }}</h2>
 <p>{{ include.goref.authors }}; {{ include.goref.year }}</p>
 <p>{{ include.goref.description | markdownify | autolinkify }}</p>
 
