@@ -1,0 +1,42 @@
+<div>
+    <span class="label label-primary">{{ include.goref.id }}</span>
+    {% if include.goref.is_obsolete %}
+    <span class="label label-danger text-uppercase">obsolete</span>
+    {% endif %}
+</div>
+<h2>{{ include.goref.title }}</h2>
+<p>{{ include.goref.authors }}; {{ include.goref.year }}</p>
+<p>{{ include.goref.description | markdownify | autolinkify }}</p>
+
+{% if include.goref.comments %}
+<h3>Comments</h3>
+<ul>
+{% for comment in include.goref.comments %}
+    <li>{{ comment | markdownify | autolinkify  }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if include.goref.citation %}
+<div class="row">
+    <div class="col-sm-2"><b>Citation</b></div>
+    <div class="col-sm-10">
+        <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ include.goref.citation | remove_first: 'PMID:' }}" target="_blank">
+            {{ include.goref.citation }}
+        </a>
+    </div>
+</div>
+{% endif %}
+
+{% if include.goref.external_accession %}
+<div class="row">
+    <div class="col-sm-2"><b>External xrefs</b></div>
+    <div class="col-sm-10">
+        <ul class="list-unstyled">
+        {% for xref in include.goref.external_accession %}
+            <li>{{ xref }}</li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
