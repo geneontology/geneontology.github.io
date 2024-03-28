@@ -22,9 +22,18 @@ layout: default
 
     <ul>
         {% for goref in site.data.gorefs %}
-            <li>
-                <a href="{{ goref.id | datapage_url: 'gorefs' }}">[{{ goref.id }}] {{ goref.title }}</a>
-            </li>
+        {% unless goref.is_obsolete %}
+            {% include goref_toc_list_item.html goref=goref %}
+        {% endunless %}
+        {% endfor %}
+    </ul>
+
+    <h2>Obsolete GO REFs</h2>
+    <ul>
+        {% for goref in site.data.gorefs %}
+        {% if goref.is_obsolete %}
+            {% include goref_toc_list_item.html goref=goref %}
+        {% endif %}
         {% endfor %}
     </ul>
 </div>

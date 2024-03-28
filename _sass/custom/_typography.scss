@@ -82,6 +82,14 @@ a:not(.btn):not(.yasr_btn):not(.list-group-item):not(.dropdown-menu__item__link)
         width: 100%;
         left: 0;
     }
+
+    // Because these links are inline-block elements, in a <li> element the ::marker next to one
+    // would be aligned to the bottom by default if it wraps across multiple lines. This looks
+    // weird. So if the link is a direct child of a list item, set the vertical-align to top.
+    // Re funky syntax: https://github.com/sass/sass/issues/1425
+    @at-root li > #{&} {
+        vertical-align: top;
+    }
 }
 
 .btn {
