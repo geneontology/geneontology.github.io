@@ -35,10 +35,10 @@ For all other organisms we recommend downloading annotations from one of the fol
 
 * [UniProt GAFs by proteome](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="blank"}: Annotation files are available for about 20,000 complete proteomes (one protein sequence per protein-coding gene). Use these files if you want to use **UniProtKB identifiers**.
   * Go to [https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="blank"}
-  * Navigate to your organism's file, e.g. [22426.A_gambiae.goa](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/22426.A_gambiae.goa){:target="blank"}.
+  * Navigate to your organism & download the `.goa` file, e.g. [22426.A_gambiae.goa](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/22426.A_gambiae.goa){:target="blank"}
     *Tip: use your browser's in-page search to find the species name.*
 
-* [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference sequence in NCBI, GO annotations are available through NCBI's FTP server. Use these files if you want to use **Entrez Gene identifiers**. Annotation files are available for all eukaryotic genomes available at NCBI. Note that GO annotations are not currently available for archaea, bacteria or viruses
+* [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference sequence in NCBI, GO annotations are available through NCBI's FTP server. Use these files if you want to use **Entrez Gene identifiers**. Annotation files are available for all eukaryotic genomes available at NCBI. Note that GO annotations are not currently available for archaea, bacteria or viruses.
   * Go to [https://ftp.ncbi.nlm.nih.gov/genomes/refseq/](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}
   * Navigate to your organism, e.g. Anopheles_gambiae/ is in the `/invertebrate` directory
   * Open the `representative/` directory, and open the directory within that
