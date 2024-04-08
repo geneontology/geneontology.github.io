@@ -46,21 +46,21 @@ The file format comprises 10 tab-delimited fields. Fields with multiple values (
 
 | **Column** | **Content** | **Required?**	| **Cardinality** | **Example**|
 |----------|---------|-------------|---------|--------|
-| 1 | [DB:DB_Object_ID](#db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5|
+| 1 | [DB:DB_Object_ID](#dbdb-object-id "Definition and requirements for DB:DB Object ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5|
 | 2 | [DB_Object_Symbol](#db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	required |	1 |	AMOT|
 | 3 | [DB_Object_Name](#db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin|
-| 4 | [DB_Object_Synonym(s)](#db-object-synonyms "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	E230009N18Rik|KIAA1071|
+| 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	E230009N18Rik|KIAA1071|
 | 5 | [DB_Object_Type](#db-object-type "Definition and requirements for DB Object Type (column 5)") |	required |	1 |	PR:000000001|
-| 6 | [DB_Object_Taxon](#taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	taxon:9606|
+| 6 | [DB_Object_Taxon](#db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	taxon:9606|
 | 7 | [Encoded_by](#encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
 | 8 | [Parent_Protein](#parent-protein "Definition and requirements for Parent Protein (column 8)") |	optional |	0 or 1 |	UniProtKB:Q4VCS5|
-| 9 | [Protein_Containing_Complex_Members](#complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
-| 10 | [DB_Xref(s)](#db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | |
+| 9 | [Protein_Containing_Complex_Members](#protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
+| 10 | [DB_Xref(s)](#db_xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | |
 | 11 | [Gene_Product_Properties](#gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") |	optional |	0 or greater |	db_subset=Swiss-Prot|
 
 ### Definitions and requirements for field contents
 
-#### DB:DB_Object_ID
+#### DB:DB Object ID
 The **DB** prefix is the database abbreviation (namespace) from which the unique identifier **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object.
 This field is mandatory, cardinality 1.\
 
@@ -68,19 +68,19 @@ This field is mandatory, cardinality 1.\
     If the gene product is not a top-level gene or gene product identifier, the **Parent_Object_ID** field should contain the canonical form of the gene or gene product. 
     Note that while the **DB_Object_ID** is the identifier for a database object that may be used for annotation, it may or may not correspond exactly to what is described in a paper. For example, a paper describing functional characterization of a protein may result in annotations to the gene encoding the protein (gene ID in **DB_Object_ID**) or annotations to the protein (protein ID in **DB_Object_ID**), depending on annotation practice of the contributing group. 
 -->
-#### DB_Object_Symbol
+#### DB Object Symbol
 A (unique and valid) symbol to which the **DB:DB_Object_ID** is matched. No white spaces allowed.\
 This field is mandatory, cardinality 1.\
 The **DB_Object_Symbol** field should contain a symbol that is recognizable to a biologist wherever possible (an abbreviation widely used in the literature, for example). It is not a unique identifier or an accession number (unlike the **DB:DB_Object_ID**), although IDs can be used as a **DB_Object_Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated). ORF names can be used for otherwise unnamed genes or proteins. If gene products are annotated, the gene product symbol can be used if available. Many gene product annotation entries may share a gene symbol. 
 The text entered in the **DB_Object_Symbol** should refer to the entity in **DB:DB_Object_ID**. For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:DB_Object_ID**, but with the same gene symbol in the **DB_Object_Symbol** column. 
-#### DB_Object_Name
+#### DB Object Name
 The name of the gene or gene product in **DB:DB_Object_ID**.\
 This field is not mandatory, cardinality 0, 1 [white space allowed]\
 The text entered in the **DB_Object_Name** and **DB_Object_Symbol** should refer to the entity in **DB:DBB_Object_ID**. 
-#### DB_Object_Synonym
+#### DB Object Synonym
 These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.\
 This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene). 
-#### DB_Object_Type
+#### DB Object Type
 An ontology identifier for the type of gene or gene product being annotated. This field uses Sequence Ontology, Protein Ontology, and GO labels and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term: SO:0001217 (protein-coding gene)
 ncRNA-coding gene 	ncRNA_gene 	SO:0001263 (ncRNA-coding gene)
 mRNA 	mRNA 	SO:0000234 (mRNA)
