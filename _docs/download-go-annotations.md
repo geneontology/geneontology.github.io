@@ -23,19 +23,20 @@ To ensure reproducibility for any publication where GO was used at any point in 
 * the date on the header of the GAF file
 * the ontology version number
 
-## [1. Commonly studied organisms](http://current.geneontology.org/products/pages/downloads.html)
-[The GAF download page has annotations for selected commonly-studied species](http://current.geneontology.org/products/pages/downloads.html).
-For organisms with many expert-curated GO annotations (MODs, etc.), we recommend downloading annotations from the links in the above-linked table. These organisms often have a large number of manual annotations supported by direct experimental evidence, as well as annotations based on other evidence types.
+### [1. Commonly studied organisms](http://current.geneontology.org/products/pages/downloads.html)
+[This GAF download page has annotations for selected commonly-studied species](http://current.geneontology.org/products/pages/downloads.html).
+
+For organisms with many expert-curated GO annotations (those with MODs, dedicated databases, etc.), we recommend downloading annotations from the links in the above-linked table. These organisms often have a large number of manual annotations supported by direct experimental evidence as well as annotations based on other evidence types.
 <!-- * Most of these have two downloads available, one with the full set of GO annotations, and one with only the “core” function annotations (PAN-GO) for each organism. /-->
 * These annotations should be used with the [latest version of the GO ontology](http://current.geneontology.org/ontology/index.html).
 * Annotations for these organisms are also available as GPAD/GPI companion files; see the [/annotations/](http://current.geneontology.org/annotations/index.html){:target="blank"} directory of the current release [http://current.geneontology.org](http://current.geneontology.org){:target="blank"}. For more information on these infrequently used filetypes see the format pages for [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/).
 
 ### 2. All other organisms
-For all other organisms we recommend downloading annotations from one of the following sources, UniProt or NCBI RefSeq- both of which use highly accurate computational methods. The header of the annotation file specifies the version of the ontology you should use to accompany the annotation file. Older versions of the [GO ontology can be downloaded from the GO download archives](http://release.geneontology.org/).
+For all other organisms we recommend downloading annotations from one of the following sources: UniProt or NCBI RefSeq. Both of these provide highly accurate computational methods. The header of the annotation file specifies the version of the ontology you should use to accompany the annotation file. Older versions of the [GO ontology can be downloaded from the GO download archives](http://release.geneontology.org/).
 
 * [UniProt GAFs by proteome](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="blank"}: Annotation files are available for about 20,000 complete proteomes (one protein sequence per protein-coding gene). Use these files if you want to use **UniProtKB identifiers**.
   * Go to [https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="blank"}
-  * Navigate to your organism & download the `.goa` file, e.g. [22426.A_gambiae.goa](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/22426.A_gambiae.goa){:target="blank"}
+  * Navigate to your organism & download the `.goa` file, e.g. [`22426.A_gambiae.goa`](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/22426.A_gambiae.goa){:target="blank"}  
     *Tip: use your browser's in-page search to find the species name.*
 
 * [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference sequence in NCBI, GO annotations are available through NCBI's FTP server. Use these files if you want to use **Entrez Gene identifiers**. Annotation files are available for all eukaryotic genomes available at NCBI. Note that GO annotations are not currently available for archaea, bacteria or viruses.
@@ -55,4 +56,4 @@ For all other organisms we recommend downloading annotations from one of the fol
 As for any resource in GO, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"} and can be retrieved using BDBag. Read more about [programmatic access](/docs/tools-guide/#programmatic-download-bdbag).
 
 ## Error or omission ?
-Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}
+Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}.
