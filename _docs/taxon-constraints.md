@@ -2,7 +2,7 @@
 title: Taxon constraints in the Gene Ontology
 permalink: /docs/taxon-constraints/
 redirect_from: 
-- /cgi-bin/references.cgi#GO_REF:0000056
+- /cgi-bin/references.cgi
 ---
 
 # Taxon constraints in the Gene Ontology
