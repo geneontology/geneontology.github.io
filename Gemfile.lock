@@ -34,6 +34,7 @@ GEM
       nokogiri (~> 1.6)
       progressbar (~> 1.9)
       verbal_expressions (~> 0.1.5)
+    jekyll-datapage-generator (1.4.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-redirect-from (0.16.0)
@@ -65,6 +66,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rinku (2.0.6)
     rouge (1.11.1)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -81,10 +83,12 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-algolia (~> 1.0)
+  jekyll-datapage-generator
   jekyll-feed
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
+  rinku (~> 2.0)
   tzinfo-data
   webrick
 

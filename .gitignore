@@ -30,6 +30,10 @@ tramp
 .org-id-locations
 *_archive
 
+## Other IDEs
+.vscode
+.idea
+
 ###
 ### From upstream jekyll theme.
 ###
@@ -42,3 +46,6 @@ _site
 vendor/bundle
 
 _algolia_api_key
+
+## Transient data
+_data/gorefs.yaml
