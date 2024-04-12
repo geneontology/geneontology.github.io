@@ -1,6 +1,9 @@
 name: Deploy Jekyll site to Pages
 
 on:
+  # Allow the workflow to be triggered manually. In particular, this allows it to be triggered
+  # from a workflow in the go-site repository.
+  workflow_dispatch:
   push:
     branches: ["master"]
 
