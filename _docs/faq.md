@@ -829,12 +829,15 @@ FAQ tags: 
 [ontology](/faq-tags/ontology)
 {:/comment}
 
-You can use the YeastMine Analyze tool available at SGD! This tool will return a table of GO ID, GO term name, GO term namespace (cellular component, molecular function, or biological process) and GO term description for each valid GO ID you supply. This will work for any organism, as the GO is the same! 
+You can use the AllianceMine's Upload List tool available at the Alliance website! This tool will return a table of GO ID, GO term name, and GO term description for each valid GO ID you supply. This will work for any organism, as the GO is the same! 
 
-1.  Go to the [Analyze tool on YeastMine](http://yeastmine.yeastgenome.org/yeastmine/bag.do){:target="blank"}
-2.  In the Select Type pull down, select `GO Term`
-3.  Enter your GO ids or upload a list in the full format (GO:0016020, GO:0016301...)
-4.  Click on `Create List`. The tool offers several options to download the list when you use the `Save a list of...` button.
+1.  Go to the [Upload List tool on AllianceMine](https://www.alliancegenome.org/bluegenes/alliancemine/upload/input){:target="blank"}
+2.  In the List Type pull down, select `GO Term`
+3.  Enter your GO ids or upload a file, making sure GO IDs have the correct format (GO:0016020, GO:0016301...)
+4.  Click on `Continue`, and then on the next page use the `Save List` button.
+5.  You can use the `Save list` button on the next page to use this list in AllianceMine, or use the `Export` button to see download options.
+
+If you need the aspect (cellular component, molecular function, or biological process) for each term, you can add this to the results before saving. Use the `Add Columns`, click `Namespace` to highlight that option, then click the `Add 1 columns` button in the lower right. You can also use the AllianceMine features to filter your list, for example to select only molecular_function terms in your list.
 
 If you have a list of GO terms and wish to retrieve GO IDs and/or definitions, you can use the steps above. Make sure multi-word GO terms are in double quotes (sporulation,"lactase activity","codeine metabolic process") as the tool will otherwise recognise spaces as delimiters. 
 
