@@ -1,5 +1,9 @@
 <li>
-    <a class="u-margin-bottom-xsmall" href="{{ include.goref.id | datapage_url: 'gorefs' }}">
+    {% comment %} This href must be kept in sync with page_gen settings in _config.yaml {% endcomment %}
+    <a
+        class="u-margin-bottom-xsmall"
+        href="{{ '/GO_REF/' | append: include.goref.id | replace: 'GO_REF:', '' | relative_url }}"
+    >
         [{{ include.goref.id }}] {{ include.goref.title }}
     </a>
 </li>

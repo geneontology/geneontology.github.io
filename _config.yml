@@ -84,4 +84,5 @@ algolia:
 page_gen:
   - data: gorefs
     template: goref
-    name: id
+    dir: GO_REF
+    name_expr: "record['id'].sub('GO_REF:', '')"
