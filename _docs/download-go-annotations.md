@@ -48,6 +48,14 @@ For all other organisms we recommend downloading annotations from one of the fol
   * Navigate to your organism, e.g. Anopheles_gambiae/ is in the `/invertebrate` directory
   * Open the `representative/` directory, and open the directory within that
   * Download the file with the suffix `gene_ontology.gaf.gz`, e.g. `GCF_943734735.2-RS_2023_12_gene_ontology.gaf.gz`
+ 
+### 3. If you cannot find annotations for your organism for download as described above
+[Get help from the GO helpdesk](https://help.geneontology.org/).
+
+### 4. If your organism’s genome sequence is not yet publicly available
+For examole, if you have a set of new (protein) sequences that you want to annotate with GO terms, we recommend that you generate annotations using the latest version of InterProScan.
+For most genomic analyses, your input file should have one protein sequence per protein-coding gene, though any set of protein sequences can be used.
+Download InterProScan at [https://www.ebi.ac.uk/interpro/about/interproscan/](https://www.ebi.ac.uk/interpro/about/interproscan/){:target="blank"}.
 
 ## More information on GO annotation formats
 + GO has monthly releases
