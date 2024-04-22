@@ -53,9 +53,9 @@ For all other organisms we recommend downloading annotations from one of the fol
 [Get help from the GO helpdesk](https://help.geneontology.org/).
 
 ### 4. If your organism’s genome sequence is not yet publicly available
-For examole, if you have a set of new (protein) sequences that you want to annotate with GO terms, we recommend that you generate annotations using the latest version of InterProScan.
+For example, if you have a set of new (protein) sequences that you want to annotate with GO terms, we recommend that you generate annotations using the latest version of InterProScan.
 For most genomic analyses, your input file should have one protein sequence per protein-coding gene, though any set of protein sequences can be used.
-Download InterProScan at [https://www.ebi.ac.uk/interpro/about/interproscan/](https://www.ebi.ac.uk/interpro/about/interproscan/){:target="blank"}.
+Download InterProScan at [https://www.ebi.ac.uk/interpro/about/interproscan](https://www.ebi.ac.uk/interpro/about/interproscan/){:target="blank"}.
 
 ## More information on GO annotation formats
 + GO has monthly releases
