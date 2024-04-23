@@ -11,7 +11,7 @@ redirect_from:
 
 ### Getting annotations for a selected organism
 
-This page has instructions for getting GO annotations for almost any organism. If your organism is not available in the [official GO products]((http://current.geneontology.org/products/pages/downloads.html)), [UniProt GAFs by proteome](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="blank"}, or [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}, we recommend using the latest version of [InterProScan](https://interproscan-docs.readthedocs.io/en/latest/){:target="blank"} for unannotated organisms.
+This page has instructions for getting GO annotations for almost any organism. If your organism is not available in the [official GO products](http://current.geneontology.org/products/pages/downloads.html), [UniProt GAFs by proteome](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="blank"}, or [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}, we recommend using the latest version of [InterProScan](https://interproscan-docs.readthedocs.io/en/latest/){:target="blank"} for unannotated organisms.
 
 #### Required Files
 Most tools that use GO annotations take two input files: 
@@ -22,7 +22,7 @@ Because the ontology and annotations are constantly being improved over time, we
 
 #### Citing GO
 To ensure reproducibility for any publication where GO was used at any point in the research, please include:
-* [appropriate GO publication(s)- refer to the full GO citation policy](docs/go-citation-policy/)
+* [appropriate GO publication(s)- refer to the full GO citation policy](/docs/go-citation-policy/)
 * the URL where the files were obtained
 * the date on the header of the GAF file
 * the ontology version number
