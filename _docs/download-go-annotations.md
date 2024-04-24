@@ -7,7 +7,10 @@ redirect_from:
 - /page/download-annotations
 ---
 
-# Download annotations 
+# Download annotations
+Jump to a section:
+- [Commonly studued organisms](/docs/download-go/annotations/#1-commonly-studies-organisms)
+- [All other organsims](/docs/download-go/annotations/#2-all-other-organisms)
 
 ### Getting annotations for a selected organism
 Most tools that use GO annotations take two input files: 
