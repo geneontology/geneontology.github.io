@@ -15,7 +15,7 @@ This page has instructions for getting GO annotations for almost any organism. I
 
 Jump to a section:
 - [Commonly studued organisms](/docs/download-go/annotations/#1-commonly-studies-organisms)
-- [All other organsims](/docs/download-go/annotations/#2-all-other-organisms)
+- [All other organisms](/docs/download-go/annotations/#2-all-other-organisms)
 
 #### Required Files
 Most tools that use GO annotations take two input files: 
