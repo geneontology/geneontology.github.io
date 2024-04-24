@@ -33,39 +33,6 @@ For organisms with many expert-curated GO annotations (MODs, etc.), we recommend
 * These annotations should be used with the [latest version of the GO ontology](http://current.geneontology.org/ontology/index.html).
 * Annotations for these organisms are also available as GPAD/GPI companion files; see the [/annotations/](http://current.geneontology.org/annotations/index.html){:target="blank"} directory of the current release [http://current.geneontology.org](http://current.geneontology.org){:target="blank"}. For more information on these infrequently used filetypes see the format pages for [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/).
 
-| Organism | NCBI taxonomy ID | Annotated entity type | Entity identifier space | All annotations | PAN-GO annotations only |
-| -------- | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Arabidopsis thaliana | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Bos taurus | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Caenorhabditis elegans | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Canis lupus familiaris | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Danio rerio | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Dictyostelium discoideum | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Drosophila melanogaster | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Escherichia coli | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Gallus gallus | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Homo sapiens | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Leishmania major | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Mus musculus | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Plasmodium falciparum | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Pseudomonas aeruginosa | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Rattus norvegicus | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Saccharomyces cerevisiae | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Schizosaccharomyces japonicus | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Schizosaccharomyces pombe | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Sus scrofa | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Trypanosoma brucei | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-| Xenopus | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-|  | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-|  | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-|  | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-|  | -----------------| --------------------- | ----------------------- | --------------- | ----------------------- |
-
-
-
-
-
-
 ### 2. All other organisms
 For all other organisms we recommend downloading annotations from one of the following sources, UniProt or NCBI RefSeq- both of which use highly accurate computational methods. The header of the annotation file specifies the version of the ontology you should use to accompany the annotation file. Older versions of the [GO ontology can be downloaded from the GO download archives](http://release.geneontology.org/).
 
