@@ -22,7 +22,7 @@ If you used a specific software/analysis tool in your research, in addition to t
 + **GO-CAMs**: Thomas PD, Hill DP, Mi H, Osumi-Sutherland D, Van Auken K, Carbon S, Balhoff JP, Albou LP, Good B, Gaudet P, Lewis SE, Mungall CJ. Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems. Nat Genet. 2019 Oct;51(10):1429-1433. DOI: [10.1038/s41588-019-0500-1](https://doi.org/10.1038/s41588-019-0500-1){:target="blank"} \[[abstract](https://pubmed.ncbi.nlm.nih.gov/31548717/){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012280/pdf/nihms-1067180.pdf){:target="blank"}\]
 
 
-If you produce tools and/or services that use GO data, the user should be provided with the GO release date and DOI along with the results (e.g. "2024-01-17" and "DOI:10.5281/zenodo.10536401](https://doi.org/10.5281/zenodo.10536401){:target="blank"}").
+If you produce tools and/or services that use GO data, the user should be provided with the GO release date and DOI along with the results (e.g. "2024-01-17" and "DOI: [10.5281/zenodo.10536401](https://doi.org/10.5281/zenodo.10536401){:target="blank"}").
 
 ## Citing data from downloads
 
