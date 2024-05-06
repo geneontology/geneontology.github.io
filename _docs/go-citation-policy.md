@@ -22,33 +22,33 @@ If you used a specific software/analysis tool in your research, in addition to t
 + **GO-CAMs**: Thomas PD, Hill DP, Mi H, Osumi-Sutherland D, Van Auken K, Carbon S, Balhoff JP, Albou LP, Good B, Gaudet P, Lewis SE, Mungall CJ. Gene Ontology Causal Activity Modeling (GO-CAM) moves beyond GO annotations to structured descriptions of biological functions and systems. Nat Genet. 2019 Oct;51(10):1429-1433. DOI: [10.1038/s41588-019-0500-1](https://doi.org/10.1038/s41588-019-0500-1){:target="blank"} \[[abstract](https://pubmed.ncbi.nlm.nih.gov/31548717/){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012280/pdf/nihms-1067180.pdf){:target="blank"}\]
 
 
-If you produce tools and/or services that use GO data, the user should be provided with the GO release date and DOI along with the results (e.g. "2023-01-01" and "DOI: [10.5281/zenodo.7504797](https://dx.doi.org/10.5281/zenodo.7504797){:target="blank"}").
+If you produce tools and/or services that use GO data, the user should be provided with the GO release date and DOI along with the results (e.g. "2024-01-17" and "DOI: [10.5281/zenodo.10536401](https://doi.org/10.5281/zenodo.10536401){:target="blank"}").
 
 ## Citing data from downloads
 
-If you wish to cite data provided by the Gene Ontology knowledgebase, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data, preferably both; e.g. "2023-01-01" and "[10.5281/zenodo.7504797](https://dx.doi.org/10.5281/zenodo.7504797){:target="blank"}". Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
+If you wish to cite data provided by the Gene Ontology knowledgebase, either from AmiGO or the files downloaded from the GO website, please state the release date and/or version number of the data, preferably both; e.g. "2024-01-17" and "[10.5281/zenodo.10536401](https://doi.org/10.5281/zenodo.10536401){:target="blank"}". Both annotation and ontology data may change over time, and to reproduce the results of an analysis, it is important that the same initial GO data is used.
 
 ## Citing data from AmiGO
 
 The data release can be found in the [AmiGO](https://amigo.geneontology.org/amigo){:target="blank"} page footer on the right-hand side. To cite the annotations of individual database groups please see the GO publications list.
 
-## GO logo
+## Best practices for linking to GO entities
+GO uses persistent uniform resource locator (PURLs) for all the objects it describes. If you use or provide links to the following entities, please ensure you are using PURLs. Examples:
+* GO terms: https://purl.obolibrary.org/obo/GO_0022008
+* GO_REFs: https://purl.obolibrary.org/obo/go/references/0000015
+* GO-CAM models: https://model.geneontology.org/65c57c3400001018
+* GO ontology (versions)
+  * current: https://purl.obolibrary.org/obo/go/go.owl
+  * snapshot: https://purl.obolibrary.org/obo/go/snapshot/go.owl
+  * dated release: https://purl.obolibrary.org/obo/go/releases/2024-01-17/go.owl
 
-If you intend to use the logo on your website, please include a link to the GO home page, https://geneontology.org. Please [contact the GO Helpdesk](http://help.geneontology.org) if you need a larger or higher resolution version. The logo is subject to our use and license.
-
-The GO logo is available in four sizes. For reuse, please do not hotlink images, but download them instead (e.g. right click the appropriate image and size, then select "Save Link As"):
-
-| **Mini (and favicon)** | **Small** | **Regular** | **Large** |
-|------|-------|---------|-------|
-| [![mini logo](/assets/go-logo.mini.png){:width="100"}](/assets/go-logo.mini.png){:target="blank"} | [![small logo](/assets/go-logo.small.png){:width="100"}](/assets/go-logo.small.png){:target="blank"} | [![regular logo](/assets/go-logo.png){:width="100"}](/assets/go-logo.png){:target="blank"} | [![full logo](/assets/go-logo.large.png){:width="100"}](/assets/go-logo.large.png){:target="blank"} |
-| [![fav icon](/assets/go-logo-favicon.ico){:width="50"}](/assets/go-logo-favicon.ico){:target="blank"} | [![mini icon](/assets/go-logo-icon.mini.png){:width="50"}](/assets/go-logo-icon.mini.png){:target="blank"} | [![small icon](/assets/go-logo-icon.small.png){:width="50"}](/assets/go-logo-icon.small.png){:target="blank"} | [![regular icon](/assets/go-logo-icon.png){:width="50"}](/assets/go-logo-icon.png){:target="blank"} |
-
+Technical documentation can be found on the [OBOFoundry GitHub site](https://github.com/OBOFoundry/purl.obolibrary.org/blob/master/README.md){:target="blank"}.
 
 ## License
 
 Gene Ontology Consortium data and data products are licensed under the [Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/legalcode){:target="blank"}. A human-readable version and explanation is available at the [Creative Commons website](https://creativecommons.org/licenses/by/4.0/){:target="blank"}. For information about how to properly credit data use, please review the [Creative Commons FAQ](http://wiki.creativecommons.org/Frequently_Asked_Questions){:target="blank"} or contact the GO Helpdesk.
 
-We ask that when using or citing GO data that the particular release is mentioned. For example, we'd ask that the date (e.g. "2023-01-01") is included where applicable, and optionally the Zenodo DOI (e.g. "10.5281/zenodo.7504797"). Links, where applicable, would be a useful addition for end-users.
+We ask that when using or citing GO data that the particular release is mentioned. For example, we'd ask that the date (e.g. "2024-01-17") is included where applicable, and optionally the Zenodo DOI (e.g. "10.5281/zenodo.10536401"). Links, where applicable, would be a useful addition for end-users.
 
 ### Attribution
 
@@ -64,7 +64,7 @@ According to the terms of GO's [CC BY 4.0 license](https://creativecommons.org/l
 
 For example, if you are offering downloads containing GO data, have a data licensing page in your application, or refer to licensed data in your documentation, an appropriate notice may be:
 
-> [Gene Ontology](https://geneontology.org) data from the [2023-01-01 release](http://release.geneontology.org/2023-01-01) ([DOI:10.5281/zenodo.7504797](https://doi.org/10.5281/zenodo.7504797){:target="blank"}) is made available under the terms of the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
+> [Gene Ontology](https://geneontology.org) data from the [2024-01-17 release](http://release.geneontology.org/2024-01-17) ([DOI:10.5281/zenodo.10536401](https://doi.org/10.5281/zenodo.10536401){:target="blank"}) is made available under the terms of the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 For further reading, suggest:
 
@@ -75,6 +75,17 @@ For further reading, suggest:
 
 GOC software and tools are under their own licenses; please see their respective homepages for further details.
 
+## GO logo
+
+If you intend to use the logo on your website, please include a link to the GO home page, https://geneontology.org. Please [contact the GO Helpdesk](http://help.geneontology.org) if you need a larger or higher resolution version. The logo is subject to our use and license.
+
+The GO logo is available in four sizes. For reuse, please do not hotlink images, but download them instead (e.g. right click the appropriate image and size, then select "Save Link As"):
+
+| **Mini (and favicon)** | **Small** | **Regular** | **Large** |
+|------|-------|---------|-------|
+| [![mini logo](/assets/go-logo.mini.png){:width="100"}](/assets/go-logo.mini.png){:target="blank"} | [![small logo](/assets/go-logo.small.png){:width="100"}](/assets/go-logo.small.png){:target="blank"} | [![regular logo](/assets/go-logo.png){:width="100"}](/assets/go-logo.png){:target="blank"} | [![full logo](/assets/go-logo.large.png){:width="100"}](/assets/go-logo.large.png){:target="blank"} |
+| [![fav icon](/assets/go-logo-favicon.ico){:width="50"}](/assets/go-logo-favicon.ico){:target="blank"} | [![mini icon](/assets/go-logo-icon.mini.png){:width="50"}](/assets/go-logo-icon.mini.png){:target="blank"} | [![small icon](/assets/go-logo-icon.small.png){:width="50"}](/assets/go-logo-icon.small.png){:target="blank"} | [![regular icon](/assets/go-logo-icon.png){:width="50"}](/assets/go-logo-icon.png){:target="blank"} |
+
 ## Website disclaimer
 
-All information on this website is copyright © 1999–2023 Gene Ontology Consortium. Permission to use the information contained in this database was given by the researchers and institutes who contributed or published the information. Users of the data are solely responsible for compliance with any copyright restrictions. Documents from this server are provided "AS-IS" without any warranty, expressed or implied.
+All information on this website is copyright © 1999–2024 Gene Ontology Consortium. Permission to use the information contained in this database was given by the researchers and institutes who contributed or published the information. Users of the data are solely responsible for compliance with any copyright restrictions. Documents from this server are provided "AS-IS" without any warranty, expressed or implied.
