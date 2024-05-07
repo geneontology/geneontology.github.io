@@ -58,6 +58,12 @@ The file format comprises 10 tab-delimited fields. Fields with multiple values (
 | 10 | [DB_Xref(s)](#db_xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | |
 | 11 | [Gene_Product_Properties](#gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") |	optional |	0 or greater |	db_subset=Swiss-Prot|
 
+
+### GPI 2.0 examples
+    UniProtKB:A0AA85ABI6	A0AA85ABI6	Phospholipid scramblase		protein	NCBITaxon:taxon:48269					db_subset=TrEMBL|uniprot_proteome=UP000050790
+    RNAcentral:URS0000C3938B_6185		Schistosoma haematobium Hammerhead ribozyme (type I) ribozyme sequence		hammerhead_ribozyme	NCBITaxon:taxon:6185					
+
+
 ### Definitions and requirements for field contents
 
 #### DB:DB Object ID
