@@ -9,36 +9,36 @@ permalink: /docs/gene-product-information-gpi-format-2.0/
 
 # Gene Product Information (GPI) files
 
+The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each non-header line in an annotation file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
+
 This guide lays out the format specifications for the *G*ene *P*roduct *I*nformation (GPI) 2.0 format.
 **Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).
-Both files should be submitted together using the same version.**
+Both files should be submitted together using the same version.** 
+GPAD/GPI is intended for internal GO use. GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/) and reccommends use of the GAF format for most use cases. 
 
-The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link.
-
-GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
+For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
 # Changes from the GPI 1.2 to GPI 2.0
 **Header**
 * **The `gpi-version` header must read `2.0` for this format.**
   
 **Columns**
-* Columns 1 & 2 from the GPI 1.2 are now combined in a single column containing an id in CURIE syntax, e.g. UniProtKB:P56704.**
-* **NCBI taxon ids are to be prefixed with 'NCBITaxon:' to indicate the source of the id, e.g. NCBITaxon:6239**
-* **Dates must now follow the ISO-8601 format, e.g. YYYY-MM-DD; time may be included as YYYY-MM-DDTHH:MM:SS**
+* **Columns 1 & 2 from the GPI 1.2 are now combined in a single column containing an id in CURIE syntax, e.g. `UniProtKB:P56704`.**
+* **NCBI taxon ids are to be prefixed with `NCBITaxon:` to indicate the source of the id, e.g. `NCBITaxon:6239`**
+* **Dates must now follow the ISO-8601 format YYYY-MM-DD; time may be included as YYYY-MM-DDTHH:MM:SS**
 <!-- does col 5 have to be an ontology ID or are ontology labels, entity types ok? -->
+
 # Gene Product Information (GPI) 2.0 format
 
 ## GPI Header
-All annotation files must start with a single line denoting the file format. For GPI it is as follows:
+### Required information to provide in the header:
+All annotation files must start with a single line denoting the file format. The database/group generating the file (as listed in dbxrefs.yaml) & the ISO-8601 formatted date the file was generated must also be included in the header. Example for GPI 2.0:
 
     !gpi-version: 2.0
-
-Other information, such as contact details for the submitter or database group, useful links, etc., can be included in an association file by prefixing the line with an exclamation mark (**!**); such lines will be ignored by parsers.
-
-Required information to provide in the header:
-
-    !generated-by: database listed in dbxrefs.yaml
-    !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
+    !generated-by: SGD 
+    !date-generated: 2024-05-01
+    
+Other information, such as contact details for the submitter or database group, database URLs, etc. can be included in an association file header by prefixing the line with an exclamation mark (`!`); such lines will be ignored by parsers.
 
 ## GPI fields
 
@@ -51,16 +51,20 @@ The file format comprises 10 tab-delimited fields. Fields with multiple values (
 | 3 | [DB_Object_Name](#db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin|
 | 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	E230009N18Rik|KIAA1071|
 | 5 | [DB_Object_Type](#db-object-type "Definition and requirements for DB Object Type (column 5)") |	required |	1 |	PR:000000001|
-| 6 | [DB_Object_Taxon](#db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	taxon:9606|
+| 6 | [DB_Object_Taxon](#db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	NCBItaxon:9606|
 | 7 | [Encoded_by](#encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
 | 8 | [Parent_Protein](#parent-protein "Definition and requirements for Parent Protein (column 8)") |	optional |	0 or 1 |	UniProtKB:Q4VCS5|
-| 9 | [Protein_Containing_Complex_Members](#protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
-| 10 | [DB_Xref(s)](#db_xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | |
+| 9 | [Protein_Containing_Complex_Members](#protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | SGD:S000003821,SGD:S000001456,SGD:S000005047|
+| 10 | [DB_Xref(s)](#db_xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | ***EXAMPLE NEEDED*** |
 | 11 | [Gene_Product_Properties](#gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") |	optional |	0 or greater |	db_subset=Swiss-Prot|
 
 
 ### GPI 2.0 examples
-    UniProtKB:A0AA85ABI6	A0AA85ABI6	Phospholipid scramblase		protein	NCBITaxon:taxon:48269					db_subset=TrEMBL|uniprot_proteome=UP000050790
+    SGD:S000005027  Sal1  ADP/ATP transporter  YNL083W  PR:000000001  NCBItaxon:559292  SAL1          
+    SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  CPX-1016  
+    
+    A0AA85ABI6	Phospholipid scramblase		protein	NCBITaxon:taxon:48269					db_subset=TrEMBL|uniprot_proteome=UP000050790
+    
     RNAcentral:URS0000C3938B_6185		Schistosoma haematobium Hammerhead ribozyme (type I) ribozyme sequence		hammerhead_ribozyme	NCBITaxon:taxon:6185					
 
 
@@ -80,6 +84,7 @@ A (unique and valid) symbol to which the **DB:DB_Object_ID** is matched. No whit
 This field is mandatory, cardinality 1.
 The **DB_Object_Symbol** field should contain a symbol that is recognizable to a biologist wherever possible (an abbreviation widely used in the literature, for example). It is not a unique identifier or an accession number (unlike the **DB:DB_Object_ID**), although IDs can be used as a **DB_Object_Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated). ORF names can be used for otherwise unnamed genes or proteins. If gene products are annotated, the gene product symbol can be used if available. Many gene product annotation entries may share a gene symbol. 
 The text entered in the **DB_Object_Symbol** should refer to the entity in **DB:DB_Object_ID**. For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:DB_Object_ID**, but with the same gene symbol in the **DB_Object_Symbol** column. 
+
 #### DB Object Name
 The name of the gene or gene product in **DB:DB_Object_ID**.
 
@@ -89,19 +94,22 @@ The text entered in the **DB_Object_Name** and **DB_Object_Symbol** should refer
 These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
 
 This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene). 
+
 #### DB Object Type
-An ontology identifier for the type of gene or gene product being annotated. This field uses Sequence Ontology, Protein Ontology, and GO labels and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term: SO:0001217 (protein-coding gene)
-ncRNA-coding gene 	ncRNA_gene 	SO:0001263 (ncRNA-coding gene)
-mRNA 	mRNA 	SO:0000234 (mRNA)
-ncRNA 	ncRNA 	SO:0000655 (ncRNA)
-protein 	protein 	PR:000000001 (protein)
-protein-containing complex 	protein-containing complex 	GO:0032991 (protein-containing complex)
+An ontology identifier for the type of gene or gene product being annotated. This field uses Sequence Ontology, Protein Ontology, and GO labels and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Acceptable entries include: 
 
-
-marker or uncloned locus 	genetic_marker 	SO:0001645; or any subtype of ncRNA in the Sequence Ontology. If the precise product type is unknown, gene_product should be used.
+* protein-coding gene SO:0001217
+* ncRNA-coding gene 	 	SO:0001263
+* mRNA 	 SO:0000234
+* ncRNA  SO:0000655
+* protein  	PR:000000001
+* protein-containing complex 	GO:0032991
+* marker or uncloned locus 	SO:0001645
+* any subtype of ncRNA in the Sequence Ontology
 
 This field is mandatory, cardinality 1.
 The object type (gene, transcript, protein, protein_complex, etc.) listed in the **DB_Object_Type** field must match the database entry identified by the **DB:DB_Object_ID**. Note that **DB_Object_Type** refers to the database entry (i.e. it represents a protein, functional RNA, etc.); this column does not reflect anything about the GO term or the evidence on which the annotation is based. 
+
 #### DB Object Taxon
 The NCBI taxon ID of the species encoding the gene product.
 
@@ -111,12 +119,13 @@ The taxon should be specified as a number with the prefix "taxon".
 For proteins and transcripts, **Encoded by** refers to the gene id that encodes those entities.
 
 This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
-#### Parent Protein
 
+#### Parent Protein
+When column 1 refers to a protein isoform or modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 #### Protein Containing Complex Members
-
+When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
@@ -127,6 +136,7 @@ This field is optional, cardinality 0+; multiple identifiers should be pipe-sepa
 Identifiers used must be a standard 2-part global identifiers, e.g. UniProtKB:OK0206 
 
 This column should be used to record IDs for this object in other databases; for gene products in model organism databases, this must include the UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
+
 #### Gene Product Properties
 This field is optional, cardinality 0+; multiple properties should be pipe-separated.
 The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, Kidney etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
