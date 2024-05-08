@@ -14,6 +14,7 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 This guide lays out the format specifications for the *G*ene *P*roduct *I*nformation (GPI) 2.0 format.
 **Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).
 Both files should be submitted together using the same version.** 
+
 GPAD/GPI is intended for internal GO use. GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/) and reccommends use of the GAF format for most use cases. 
 
 For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
@@ -32,7 +33,7 @@ For more general information on annotation, please see the [Introduction to GO a
 
 ## GPI Header
 ### Required information to provide in the header:
-All annotation files must start with a single line denoting the file format. The database/group generating the file (as listed in dbxrefs.yaml) & the ISO-8601 formatted date the file was generated must also be included in the header. Example for GPI 2.0:
+All annotation files must start with a single line denoting the file format. The database/group generating the file as listed in dbxrefs.yaml and the ISO-8601 formatted date the file was generated must be included in the header. Example for GPI 2.0:
 
     !gpi-version: 2.0
     !generated-by: SGD 
@@ -42,14 +43,14 @@ Other information, such as contact details for the submitter or database group, 
 
 ## GPI fields
 
-The file format comprises 10 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
+The file format comprises 11 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
 
 | **Column** | **Content** | **Required?**	| **Cardinality** | **Example**|
 |----------|---------|-------------|---------|--------|
 | 1 | [DB:DB_Object_ID](#dbdb-object-id "Definition and requirements for DB:DB Object ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5|
 | 2 | [DB_Object_Symbol](#db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	required |	1 |	AMOT|
 | 3 | [DB_Object_Name](#db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin|
-| 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	E230009N18Rik|KIAA1071|
+| 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	E230009N18Rik\|KIAA1071|
 | 5 | [DB_Object_Type](#db-object-type "Definition and requirements for DB Object Type (column 5)") |	required |	1 |	PR:000000001|
 | 6 | [DB_Object_Taxon](#db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	NCBItaxon:9606|
 | 7 | [Encoded_by](#encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
@@ -60,10 +61,9 @@ The file format comprises 10 tab-delimited fields. Fields with multiple values (
 
 
 ### GPI 2.0 examples
-    SGD:S000005027  Sal1  ADP/ATP transporter  YNL083W  PR:000000001  NCBItaxon:559292  SAL1          
-    SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  CPX-1016  
+    SGD:S000005027  Sal1  ADP/ATP transporter  YNL083W  PR:000000001  NCBItaxon:559292    UniProtKB:D6W196          
     
-    A0AA85ABI6	Phospholipid scramblase		protein	NCBITaxon:taxon:48269					db_subset=TrEMBL|uniprot_proteome=UP000050790
+    SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  CPX-1016  
     
     RNAcentral:URS0000C3938B_6185		Schistosoma haematobium Hammerhead ribozyme (type I) ribozyme sequence		hammerhead_ribozyme	NCBITaxon:taxon:6185					
 
