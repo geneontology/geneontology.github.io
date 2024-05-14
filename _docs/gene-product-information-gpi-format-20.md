@@ -94,7 +94,7 @@ This field is not mandatory, cardinality 0, 1.
 #### DB Object Synonym
 These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
 
-This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene). 
+This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene). 
 
 #### DB Object Type
 An ontology identifier for the type of gene or gene product being annotated. This field uses Sequence Ontology, Protein Ontology, and GO labels and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Acceptable entries include: 
@@ -129,7 +129,7 @@ When column 1 refers to a protein isoform or modified protein, this column refer
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
 #### Protein Containing Complex Members
-When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions
+When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions.
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
