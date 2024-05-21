@@ -14,8 +14,8 @@ redirect_from:
 This page has instructions for getting GO annotations for almost any organism. If your organism is not available in the [official GO products](http://current.geneontology.org/products/pages/downloads.html), [UniProt GAFs by proteome](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="blank"}, or [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}, we recommend using the latest version of [InterProScan](https://interproscan-docs.readthedocs.io/en/latest/){:target="blank"} for unannotated organisms.
 
 Jump to a section:
-- [Commonly studied organisms](/docs/download-go/annotations/#1-commonly-studied-organisms)
-- [All other organisms](/docs/download-go/annotations/#2-all-other-organisms)
+- [Commonly studied organisms](/docs/download-go-annotations/#1-commonly-studied-organisms)
+- [All other organisms](/docs/download-go-annotations/#2-all-other-organisms)
 
 #### Required Files
 Most tools that use GO annotations take two input files: 
