@@ -24,8 +24,8 @@ For more general information on annotation, please see the [Introduction to GO a
 * **The `gpi-version` header must read `2.0` for this format.**
   
 **Columns**
-* **Columns 1 & 2 from the GPI 1.2 are now combined in a single column containing an id in CURIE syntax, e.g. `UniProtKB:P56704`.**
-* **NCBI taxon ids are to be prefixed with `NCBITaxon:` to indicate the source of the id, e.g. `NCBITaxon:6239`**
+* **Columns 1 & 2 from the GPI 1.2 are now combined in a single column containing an ID in CURIE syntax, e.g. `UniProtKB:P56704`.**
+* **NCBI taxon IDs are to be prefixed with `NCBITaxon:` to indicate the source of the ID, e.g. `NCBITaxon:6239`**
 * **Dates must now follow the ISO-8601 format YYYY-MM-DD; time may be included as YYYY-MM-DDTHH:MM:SS**
 <!-- does col 5 have to be an ontology ID or are ontology labels, entity types ok? -->
 
@@ -139,6 +139,6 @@ Identifiers for the object in **DB:DB_Object_ID** found in other databases. Iden
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
 #### Gene Product Properties
-The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, Kidney etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
+The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, kidney, etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
 
 This field is optional, cardinality 0+; multiple properties should be pipe-separated.
