@@ -121,7 +121,7 @@ One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceon
 This field is mandatory, cardinality 1.
 
 #### 7. With [or] From
-Also referred to as **With, From** or the **With/From** column
+Also referred to as **With, From** or the **With/From** column.
 
 This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 ([IC](https://wiki.geneontology.org/index.php/Inferred_by_Curator_(IC)));
 ECO:0000203, ECO:0000256, and ECO:0000265 ([IEA & child terms](https://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA))); ECO:00000316 ([IGI](https://wiki.geneontology.org/Inferred_from_Genetic_Interaction_(IGI))); ECO:0000021 ([IPI](https://wiki.geneontology.org/Inferred_from_Physical_Interaction_(IPI))); ECO:0000031, ECO:0000250 and ECO:0000255 ([ISS & child terms](https://wiki.geneontology.org/Inferred_from_Sequence_or_structural_Similarity_(ISS))). 
