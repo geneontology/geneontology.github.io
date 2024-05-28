@@ -92,12 +92,12 @@ The name of the gene or gene product in **DB:DB_Object_ID**. The text entered in
 This field is not mandatory, cardinality 0, 1.
 
 #### DB Object Synonym
-These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
+Alternative names for the entity in **DB:DB_Object_ID**. These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
 
 This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene). 
 
 #### DB Object Type
-An ontology identifier for the type of gene or gene product being annotated. This field uses Sequence Ontology, Protein Ontology, and GO labels and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Acceptable entries include: 
+An ontology identifier for the biological entity in **DB:DB_Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Acceptable entries include: 
 
 * protein-coding gene SO:0001217
 * ncRNA-coding gene 	 	SO:0001263
