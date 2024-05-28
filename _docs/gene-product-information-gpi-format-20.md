@@ -56,16 +56,16 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 | 7 | [Encoded_by](#encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
 | 8 | [Parent_Protein](#parent-protein "Definition and requirements for Parent Protein (column 8)") |	optional |	0 or 1 |	UniProtKB:Q4VCS5|
 | 9 | [Protein_Containing_Complex_Members](#protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | SGD:S000003821,SGD:S000001456,SGD:S000005047|
-| 10 | [DB_Xref(s)](#db_xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | ***EXAMPLE NEEDED*** |
+| 10 | [DB_Xref(s)](#db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | ***EXAMPLE NEEDED*** |
 | 11 | [Gene_Product_Properties](#gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") |	optional |	0 or greater |	db_subset=Swiss-Prot|
 
 
-### GPI 2.0 examples
+### GPI 2.0 example content
     SGD:S000005027  Sal1  ADP/ATP transporter  YNL083W  PR:000000001  NCBItaxon:559292    UniProtKB:D6W196          
     
-    SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  CPX-1016  
+    SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  ComplexPortal:CPX-1016  
     
-    RNAcentral:URS0000C3938B_6185		Schistosoma haematobium Hammerhead ribozyme (type I) ribozyme sequence		hammerhead_ribozyme	NCBITaxon:taxon:6185					
+    RNAcentral:URS0000C3938B_6185		Schistosoma haematobium Hammerhead ribozyme (type I) ribozyme sequence		hammerhead_ribozyme	NCBITaxon:6185					
 
 
 ### Definitions and requirements for field contents
@@ -133,7 +133,7 @@ When column 1 references a protein-containing complex, this column contains the 
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
-#### DB_Xrefs
+#### DB Xrefs
 Identifiers for the object in **DB:DB_Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:OK0206. For gene products in model organism databases, **DB_Xrefs** must include the UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
