@@ -47,16 +47,16 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 
 | **Column** | **Content** | **Required?**	| **Cardinality** | **Example**|
 |----------|---------|-------------|---------|--------|
-| 1 | [DB:DB_Object_ID](#dbdb-object-id "Definition and requirements for DB:DB Object ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5|
+| 1 | [DB:DB_Object_ID](#dbdb-object-id "Definition and requirements for DB:DB Object ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5-1|
 | 2 | [DB_Object_Symbol](#db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	required |	1 |	AMOT|
 | 3 | [DB_Object_Name](#db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin|
-| 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	E230009N18Rik\|KIAA1071|
+| 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	KIAA1071|
 | 5 | [DB_Object_Type](#db-object-type "Definition and requirements for DB Object Type (column 5)") |	required |	1 |	PR:000000001|
-| 6 | [DB_Object_Taxon](#db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	NCBItaxon:9606|
-| 7 | [Encoded_by](#encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | ***EXAMPLE NEEDED***|
+| 6 | [DB_Object_Taxon](#db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	NCBITaxon:9606|
+| 7 | [Encoded_by](#encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | HGNC:17810 |
 | 8 | [Parent_Protein](#parent-protein "Definition and requirements for Parent Protein (column 8)") |	optional |	0 or 1 |	UniProtKB:Q4VCS5|
 | 9 | [Protein_Containing_Complex_Members](#protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | SGD:S000003821,SGD:S000001456,SGD:S000005047|
-| 10 | [DB_Xref(s)](#db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | ***EXAMPLE NEEDED*** |
+| 10 | [DB_Xref(s)](#db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | NCBIGene:154796\|ENSEMBL:ENSG00000126016 |
 | 11 | [Gene_Product_Properties](#gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") |	optional |	0 or greater |	db_subset=Swiss-Prot|
 
 
@@ -65,7 +65,7 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
     
     SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  ComplexPortal:CPX-1016  
     
-    RNAcentral:URS0000C3938B_6185		Schistosoma haematobium Hammerhead ribozyme (type I) ribozyme sequence		hammerhead_ribozyme	NCBITaxon:6185					
+    RNAcentral:URS0000527F89_9606		Homo sapiens (human) hsa-miR-145-5p    SO:0000276		NCBITaxon:9606  HGNC:31532      NCBIGene:406937\|ENSEMBL:ENSG00000276365  
 
 
 ### Definitions and requirements for field contents
@@ -87,7 +87,7 @@ The text entered in the **DB_Object_Symbol** should refer to the entity in **DB:
 This field is mandatory, cardinality 1.
 
 #### DB Object Name
-The name of the gene or gene product in **DB:DB_Object_ID**. The text entered in the **DB_Object_Name** should refer to the entity in **DB:DBB_Object_ID**. White spaces are allowed in this field. 
+The name of the gene or gene product in **DB:DB_Object_ID**. The text entered in the **DB_Object_Name** should refer to the entity in **DB:DB_Object_ID**. White spaces are allowed in this field. 
 
 This field is not mandatory, cardinality 0, 1.
 
@@ -97,24 +97,22 @@ Alternative names for the entity in **DB:DB_Object_ID**. These entries may be a 
 This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene). 
 
 #### DB Object Type
-An ontology identifier for the biological entity in **DB:DB_Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Acceptable entries include: 
+An ontology identifier for the biological entity in **DB:DB_Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Common entries include: 
 
-* protein-coding gene SO:0001217
-* ncRNA-coding gene 	 	SO:0001263
-* mRNA 	 SO:0000234
-* ncRNA  SO:0000655
 * protein  	PR:000000001
+* protein-coding gene SO:0001217
+* gene  SO:0000704
+* ncRNA  SO:0000655
+  ** any subtype of ncRNA in the Sequence Ontology, including ncRNA-coding gene 	 	SO:0001263
 * protein-containing complex 	GO:0032991
-* marker or uncloned locus 	SO:0001645
-* any subtype of ncRNA in the Sequence Ontology
 
-The object type (gene, transcript, protein, protein_complex, etc.) listed in the **DB_Object_Type** field must match the database entry identified by the **DB:DB_Object_ID**. Note that **DB_Object_Type** refers to the database entry (i.e. it represents a protein, functional RNA, etc.); this column does not reflect anything about the GO term or the evidence on which the annotation is based. 
+The object type listed in the **DB_Object_Type** field must match the database entry identified by the **DB:DB_Object_ID**.
 
 
 This field is mandatory, cardinality 1.
 
 #### DB Object Taxon
-The NCBI taxon ID of the species encoding the gene product, specified as a number with the prefix `NCBItaxon:`. 
+The NCBI taxon ID of the species encoding the **DB:DB_Object_ID**, including the prefix `NCBItaxon:`. 
 
 This field is mandatory, cardinality 1.
 
@@ -134,7 +132,7 @@ When column 1 references a protein-containing complex, this column contains the 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
 #### DB Xrefs
-Identifiers for the object in **DB:DB_Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:OK0206. For gene products in model organism databases, **DB_Xrefs** must include the UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
+Identifiers for the object in **DB:DB_Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For gene products in model organism databases, **DB_Xrefs** must include the UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
