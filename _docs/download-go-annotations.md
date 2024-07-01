@@ -47,10 +47,12 @@ For all other organisms we recommend downloading annotations from one of the fol
   * Navigate to your organism & download the `.goa` file, e.g. [`22426.A_gambiae.goa`](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/22426.A_gambiae.goa){:target="blank"}  
     *Tip: use your browser's in-page search to find the species name.*
 
-* [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference sequence in NCBI, GO annotations are available through NCBI's FTP server. Use these files if you want to use **Entrez Gene identifiers**. Annotation files are available for all eukaryotic genomes available at NCBI. Note that GO annotations are not currently available for archaea, bacteria or viruses.
-  * Go to [https://ftp.ncbi.nlm.nih.gov/genomes/refseq/](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}
-  * Navigate to your organism, e.g. Anopheles_gambiae/ is in the `/invertebrate` directory
-  * Open the `representative/` directory, and open the directory within that
+* [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference genome assembly in NCBI, GO annotations are available in GAF format through NCBI Gene identifiers. Annotation files are available for all eukaryotic genomes available at NCBI RefSeq. Note that GO annotations are not currently available for archaea, bacteria or viruses.
+  * Go to [NCBI](https://www.ncbi.nlm.nih.gov/){:target="blank"}
+  * Navigate to your organism, e.g. Anopheles gambiae  [https://www.ncbi.nlm.nih.gov/search/all/?term=Anopheles%20gambiae](https://www.ncbi.nlm.nih.gov/search/all/?term=Anopheles%20gambiae){:target="blank"}
+  * Follow the ["Genomes" link](https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=7165){:target="blank"}
+  * Select the [reference assembly](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_943734735.2/) at the top of the list; this entry is indicated with a green "reference genome" icon and a GCF identifer listed in the RefSeq column
+  * Click on the [FTP link](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/943/734/735/GCF_943734735.2_idAnoGambNW_F1_1/){:target="blank"}
   * Download the file with the suffix `gene_ontology.gaf.gz`, e.g. `GCF_943734735.2-RS_2023_12_gene_ontology.gaf.gz`
  
 ### 3. If you cannot find annotations for your organism for download as described above
