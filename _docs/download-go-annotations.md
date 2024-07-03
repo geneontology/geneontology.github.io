@@ -1,13 +1,13 @@
 ---
 title: Download annotations
 permalink: /docs/download-go-annotations/
-redirect_from: 
+redirect_from:
 - download-go-annotations
 - GO.downloads.annotations.shtml
 - /page/download-annotations
 ---
 
-# Download annotations 
+# Download annotations
 
 ### Getting annotations for a selected organism
 
@@ -67,11 +67,11 @@ Download InterProScan at [https://www.ebi.ac.uk/interpro/about/interproscan](htt
 + GO has monthly releases
 + Annotation files are taxon-specific, with a few exceptions including the Reactome and *Candida* Genome Database files
 + Current format guides:
-  + [GAF format 2.2](/docs/go-annotation-file-gaf-format-2.2/) 
+  + [GAF format 2.2](/docs/go-annotation-file-gaf-format-2.2/)
   + [GPAD](/docs/gene-product-association-data-gpad-format/) + [GPI](/docs/gene-product-information-gpi-format/) companion files
-  
-## Programmatic access to GO annotations
-As for any resource in GO, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"} and can be retrieved using BDBag. Read more about [programmatic access](/docs/tools-guide/#programmatic-download-bdbag).
 
-## Error or omission ?
+## Programmatic access to GO annotations
+As for any resource in GO, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}.
+
+## Error or omission?
 Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}.
