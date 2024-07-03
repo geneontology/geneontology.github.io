@@ -234,9 +234,9 @@ GO, GOC, GO Central, and GOA are similar but not quite interchangable. Here's a 
 - **G**ene **O**ntology: Although formally we use GO to refer to the entire GO knowledgebase, this can also refer to just the ontology. In addition to releases of data products like the [ontology](http://geneontology.org/docs/ontology-documentation/), [annotations](http://geneontology.org/docs/go-annotations/), and [GO-Causal Activity Models (GO-CAMs)](http://geneontology.org/go-cam), the GO provides the [AmiGO browser](http://amigo.geneontology.org/amigo) and [many other tools](https://github.com/geneontology).
 
 #### GO Central
--   The GO Central project is embedded in the larger [GO Consortium](http://geneontology.org/docs/whoweare/) and circle of [GO Collaborations](http://geneontology.org/docs/collaborations/). Within this complex landscape of resources, GO Central has several activities, including ontology development, tool development, annotation support, quality assurance, and outreach. 
+-   The GO Central project is embedded in the larger [GO Consortium](http://geneontology.org/docs/whoweare/) and circle of [GO Collaborations](http://geneontology.org/docs/collaborations/). Within this complex landscape of resources, GO Central has several activities, including ontology development, tool development, annotation support, quality assurance, and outreach.
 
-#### GOC 
+#### GOC
 -   **G**ene **O**ntology **C**onsortium: The databases, labs, and other groups that officially participate in the maintenance of the GO knowledgebase. [See a complete list of member organizations](/docs/annotation-contributors/) of the Gene Ontology Consortium.
 
 #### GOA
@@ -470,7 +470,7 @@ FAQ tags: 
 [downloads](/faq-tags/downloads)
 {:/comment}
 
-For files produced after 2018-03-06, please use the /annotation directory from [http://release.geneontology.org/](http://release.geneontology.org/).  GO annotations from 2018-03-06 to present are also accessible through the [DOI-versioned release stored in Zenodo](https://zenodo.org/search?q=conceptrecid%3A%221205166%22&sort=-version&all_versions=True) and can be retrieved using BDBag. Read more about [programmatic access](/tools-guide/#programmatic-download-bdbag).
+For files produced after 2018-03-06, please use the /annotation directory from [http://release.geneontology.org/](http://release.geneontology.org/).  GO annotations from 2018-03-06 to present are also accessible through the [DOI-versioned release stored in Zenodo](https://zenodo.org/search?q=conceptrecid%3A%221205166%22&sort=-version&all_versions=True).
 
 For files older than 2018-03-06, there is some data that is no longer maintained on our archive: http://archive.geneontology.org/full/ Please note, even though some files appear to be recently updated, this archive is no longer maintained and may refer to URLs that are no longer active.
 
@@ -520,7 +520,7 @@ Most annotations in association files are electronically inferred (IEA). As with
 However, if you think that an observed change in the size of an annotation file cannot be explained by any of the above, and suspect a bug, please contact us using our [Contact Form](http://geneontology.org/form/contact-go).
 
 ---------------------------------------------------------------------------
-## What is the difference between the filtered_goa_uniprot_all.gaf and filtered_goa_uniprot_all_noiea.gaf? 
+## What is the difference between the filtered_goa_uniprot_all.gaf and filtered_goa_uniprot_all_noiea.gaf?
 ## <a name="filtered_gaf"></a>Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
 {::comment}
 
@@ -816,13 +816,13 @@ FAQ tags: 
 No - the term will always have the same children wherever, and however many times it appears.
 
 ---------------------------------------------------------------------------
-## How do I get the term names for my list of GO IDs? 
-## How do I get GO IDs for my GO terms? 
+## How do I get the term names for my list of GO IDs?
+## How do I get GO IDs for my GO terms?
 ## <a name="convert_ids_terms"></a>What about GO definitions?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="How do I get the term names for my list of GO IDs? How do I get GO IDs for my GO terms? What about definitions?"></span>
-FAQ tags: 
+FAQ tags:
 
 [mappings](/faq-tags/mappings)
 
@@ -839,14 +839,14 @@ You can use the AllianceMine's Upload List tool available at the Alliance websit
 
 If you need the aspect (cellular component, molecular function, or biological process) for each term, you can add this to the results before saving. Use the `Add Columns`, click `Namespace` to highlight that option, then click the `Add 1 columns` button in the lower right. You can also use the AllianceMine features to filter your list, for example to select only molecular_function terms in your list.
 
-If you have a list of GO terms and wish to retrieve GO IDs and/or definitions, you can use the steps above. Make sure multi-word GO terms are in double quotes (sporulation,"lactase activity","codeine metabolic process") as the tool will otherwise recognise spaces as delimiters. 
+If you have a list of GO terms and wish to retrieve GO IDs and/or definitions, you can use the steps above. Make sure multi-word GO terms are in double quotes (sporulation,"lactase activity","codeine metabolic process") as the tool will otherwise recognise spaces as delimiters.
 
 ---------------------------------------------------------------------------
 ## Can I download the ontologies as an Excel spreadsheet?
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="Can I download the ontologies as an Excel spreadsheet?"></span>
-FAQ tags: 
+FAQ tags:
 
 [ontology](/faq-tags/ontology)
 {:/comment}
@@ -1054,7 +1054,7 @@ We are currently investigating translations between pathway formats such as [Bio
 ## How do I make my own GO-CAMs in Noctua?
 ## How do I get an account for Noctua?
 
-Noctua is the curation platform developed by the Gene Ontology Consortium to allow curators to create both standard GO annotations and GO Causal Activity Models (GO-CAMs). The Noctua curation platform requires training both for the tool as well as general GO curation. Before we create a Noctua account, we'd like to know what your contributions to GO-CAM would be.  Please [email us](mailto:help@geneontology.org) with a brief summary of your research project and how GO-CAM is relevant.  Include the biological process(es) and organism(s) you want to make GO-CAM for and the time frame of your project (how long you anticipate your project will run). 
+Noctua is the curation platform developed by the Gene Ontology Consortium to allow curators to create both standard GO annotations and GO Causal Activity Models (GO-CAMs). The Noctua curation platform requires training both for the tool as well as general GO curation. Before we create a Noctua account, we'd like to know what your contributions to GO-CAM would be.  Please [email us](mailto:help@geneontology.org) with a brief summary of your research project and how GO-CAM is relevant.  Include the biological process(es) and organism(s) you want to make GO-CAM for and the time frame of your project (how long you anticipate your project will run).
 
 ---------------------------------------------------------------------------
 # Enrichment Analysis
@@ -1154,11 +1154,11 @@ FAQ tags: 
 [other](/faq-tags/other)
 {:/comment}
 
-GO hosts a number of predefined Slim sets including a generic GO subset and a number of subsets tailored to give good annotation coverage for several well studied/annotated model species.  These existing subsets should be sufficient for most users. 
+GO hosts a number of predefined Slim sets including a generic GO subset and a number of subsets tailored to give good annotation coverage for several well studied/annotated model species.  These existing subsets should be sufficient for most users.
 
 The available GO slimming tools also provide an option to upload your own subset.  The generic GO slims or organism specific slims are a good starting point to create your own GO subset.  For most applications you usually need to adjust the terms in the slim to represent your results (i.e to reduce the number of terms, or to replace terms in regions of special interest with more specific children).  You may find the [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"}, [GO Term Finder](https://go.princeton.edu/cgi-bin/GOTermFinder){:target="blank"}, and the [GO Term Matrix](http://amigo.geneontology.org/matrix) useful in modifying an existing slim or creating a new slim.
 
-When creating a slim you should still ensure that it covers as many annotated genes in your set as possible. To enable interpretation of your results you should also report how many genes are annotated but not in your subset, and how many genes do not slim (i.e map only to the root node and are therefore 'unknown'). 
+When creating a slim you should still ensure that it covers as many annotated genes in your set as possible. To enable interpretation of your results you should also report how many genes are annotated but not in your subset, and how many genes do not slim (i.e map only to the root node and are therefore 'unknown').
 
 Contact the [contact the GO](http://help.geneontology.org) for more information.
 
@@ -1382,8 +1382,8 @@ As of August 1, 2009, the original GO flat file format was deprecated and is no 
 The OBO-Edit project, which used to generate the flat file format, [has been *mothballed*](http://oboedit.org/){:target="blank"}.
 
 ---------------------------------------------------------------------------
-## Why am I having issues accessing the FTP/CVS/SVN service? 
-## Where is go_daily-termdb.rdf-xml? 
+## Why am I having issues accessing the FTP/CVS/SVN service?
+## Where is go_daily-termdb.rdf-xml?
 ## <a name="FTP_CVS_SVN"></a> I can't find a file we've been downloading for years...
 {::comment}
 
