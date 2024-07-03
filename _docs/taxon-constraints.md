@@ -15,7 +15,7 @@ Taxon specificity of GO terms is captured using relationships such as `in_taxon`
 Sometimes, sets of organisms that a GO term should apply to do not fit neatly in a NCBI taxonomy superclass.  GO has created "union classes" to apply in these situations.  For example, the union class 'Bacteria or Archaea or Viridiplantae or Euglenozoa' captures the set of organisms that carry out photosynthesis (in any form). These classes can be narrowed further if needed by additional taxon constraints- [GO:0009760 C4 photosynthesis](https://amigo.geneontology.org/amigo/term/GO:0009760) is restricted to only [Viridiplantae](http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33090).
 
 ## Finding taxon constraints
-Taxon constraints are included with every [GO release](https://release.geneontology.org/){:target="blank"}: /ontology/imports/go_taxon_constraints.owl. Taxon constraints are also included in ontology files other than go-basic.obo and may appear as `property_value: RO:0002161 NCBITaxon:40674`.
+Taxon constraints are included with every [GO release](https://release.geneontology.org/){:target="blank"}: /ontology/imports/go_taxon_constraints.owl. Taxon constraints are also included in ontology files (except go-basic.obo) and may appear as `property_value: RO:0002161 NCBITaxon:40674`.
 
 ## Suggest or remove taxon constraints
 Improvements can be suggested on the [GitHub go-ontology repository](https://github.com/geneontology/go-ontology/issues/new?assignees=&labels=taxon+constraints&template=taxon-constraint-request.md&title=Taxon+constraint%3A+){:target="blank"}.
