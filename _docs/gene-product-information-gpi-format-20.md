@@ -61,12 +61,14 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 
 
 ### GPI 2.0 example content
-    SGD:S000005027  Sal1  ADP/ATP transporter  YNL083W  PR:000000001  NCBItaxon:559292    UniProtKB:D6W196          
-    
-    SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  ComplexPortal:CPX-1016  
-    
-    RNAcentral:URS0000527F89_9606		Homo sapiens (human) hsa-miR-145-5p    SO:0000276		NCBITaxon:9606  HGNC:31532      NCBIGene:406937\|ENSEMBL:ENSG00000276365  
 
+> SGD:S000005027  Sal1  ADP/ATP transporter  YNL083W  PR:000000001  NCBItaxon:559292    UniProtKB:D6W196
+  
+Complex:  
+> SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBItaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  ComplexPortal:CPX-1016  
+
+ncRNA:    
+> RNAcentral:URS0000527F89_9606		Homo sapiens (human) hsa-miR-145-5p    SO:0000276		NCBITaxon:9606  HGNC:31532      NCBIGene:406937|ENSEMBL:ENSG00000276365  
 
 ### Definitions and requirements for field contents
 
@@ -117,7 +119,7 @@ The NCBI taxon ID of the species encoding the **DB:DB_Object_ID**, including the
 This field is mandatory, cardinality 1.
 
 #### Encoded by
-For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities.
+For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities, e.g. ENSG00000197153.
 
 This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
 
