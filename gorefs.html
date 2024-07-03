@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container">
+    <h1>GO REFs</h1>
+    <p>This is a collection of references used by the GO Consortium</p>
+
+    {% if jekyll.environment == "development" %}
+        {% unless site.data.gorefs %}
+            <div class="alert alert-warning">
+                <strong>Warning!</strong> No GO_REFs found. Did you run <code>make _data/gorefs.yml</code>?
+            </div>
+        {% endunless %}
+    {% endif %}
+
+    <ul>
+        {% for goref in site.data.gorefs %}
+        {% unless goref.is_obsolete %}
+            {% include goref_toc_list_item.html goref=goref %}
+        {% endunless %}
+        {% endfor %}
+    </ul>
+
+    <h2>Obsolete GO REFs</h2>
+    <ul>
+        {% for goref in site.data.gorefs %}
+        {% if goref.is_obsolete %}
+            {% include goref_toc_list_item.html goref=goref %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

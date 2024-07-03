@@ -37,10 +37,6 @@ Submitting groups may choose to include optional additional information, for exa
 ### Annotation file fields
 The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory and cardinality varies by field and other conditions.  For fields that permit multiple values, values should be separated by pipes (\|) for `OR` statements and commas (,) for `AND` statements.
 
-GPAD 2.0 sample line:
-
-    SGD:S000002164	NOT	RO:0002331	GO:0043409	PMID:26546002	ECO:0000316	SGD:S000003631		2018-01-19	SGD	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)	noctua-model-id=gomodel:6086f4f200000223|model-state=production|contributor=orcid:0000-0003-3212-6364
-
 | **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example** |
 |----------|---------|-------------|---------|--------|
 |1 |	[DB:DB_Object_ID ](#1-db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000002164 | 
@@ -55,6 +51,12 @@ GPAD 2.0 sample line:
 |10 |	[Assigned by](#10-assigned-by "Definition and requirements for Assigned by (column 10)") |	required | 1 |	SGD|
 |11 |	[Annotation Extension](#11-annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)|
 |12 |	[Annotation Properties](#12-annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=orcid:0000-0003-3212-6364|
+
+### GPAD 2.0 examples
+
+    SGD:S000002164	NOT	RO:0002331	GO:0043409	PMID:26546002	ECO:0000316	SGD:S000003631		2018-01-19	SGD	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)	noctua-model-id=gomodel:6086f4f200000223|model-state=production|contributor=orcid:0000-0003-3212-6364
+    UniProtKB:A0AA85ABI6		RO:0002327	GO:0017128	GO_REF:0000118	ECO:0007826	PANTHER:PTHR23248:SF9		2024-04-08	TreeGrafter		id=GOA:8034655976|comment=go_evidence:IEA
+
 
 ### Definitions and requirements for field contents
 
@@ -119,7 +121,7 @@ One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceon
 This field is mandatory, cardinality 1.
 
 #### 7. With [or] From
-Also referred to as **With, From** or the **With/From** column
+Also referred to as **With, From** or the **With/From** column.
 
 This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 ([IC](https://wiki.geneontology.org/index.php/Inferred_by_Curator_(IC)));
 ECO:0000203, ECO:0000256, and ECO:0000265 ([IEA & child terms](https://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA))); ECO:00000316 ([IGI](https://wiki.geneontology.org/Inferred_from_Genetic_Interaction_(IGI))); ECO:0000021 ([IPI](https://wiki.geneontology.org/Inferred_from_Physical_Interaction_(IPI))); ECO:0000031, ECO:0000250 and ECO:0000255 ([ISS & child terms](https://wiki.geneontology.org/Inferred_from_Sequence_or_structural_Similarity_(ISS))). 

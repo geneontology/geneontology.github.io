@@ -30,7 +30,7 @@ Files are available in the following formats:
 
 |**Subset name**|**Maintainer**|**File name**|**OBO format**|**OWL format**|**json format**|
 |------------------|-------------|-------------|-------------|------------|-------------|
-|**GO slim AGR subset**|Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/){:target="blank"} |goslim_agr  |[obo](https://current.geneontology.org/ontology/subsets/goslim_agr.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_agr.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_agr.json){:target="blank"}  |
+|***A*lliance of *G*enome *R*esources subset**|Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/){:target="blank"} |goslim_agr  |[obo](https://current.geneontology.org/ontology/subsets/goslim_agr.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_agr.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_agr.json){:target="blank"}  |
 |**Generic GO subset**|[GO Consortium](https://help.geneontology.org/){:target="blank"} |goslim_generic|[obo](https://current.geneontology.org/ontology/subsets/goslim_generic.obo)| [owl](https://current.geneontology.org/ontology/subsets/goslim_generic.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_generic.json){:target="blank"}  |
 |*__Aspergillus__* **subset**|[_Aspergillus_ Genome Data](http://www.aspgd.org/){:target="blank"} |goslim_aspergillus|[obo](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.obo) |[owl](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.json){:target="blank"}  |
 |*__Candida albicans__* **subset**|[_Candida_ Genome Database](http://www.candidagenome.org/){:target="blank"} |goslim_candida|[obo](https://current.geneontology.org/ontology/subsets/goslim_candida.obo)|[owl](https://current.geneontology.org/ontology/subsets/goslim_candida.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_candida.json){:target="blank"}  |
@@ -52,8 +52,6 @@ For internal checking purposes, GO maintains two "anti-slims", terms to which an
 |**Subset name**|**Usage** |**File name** |**OBO format** |**OWL format** |**json format** |
 |------------------|----------|----------|----------|----------|----------|
 |**Do not annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations| gocheck_do_not_annotate |[obo](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo)| [owl](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.json){:target="blank"}  |
-|**Do not manually annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations except from automated tools| gocheck_do_not_manually_annotate|[obo](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.obo)|[owl](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/gocheck_do_not_manually_annotate.json){:target="blank"}  |
-
 
 ## Cross-references of GO to other classification systems
 
