@@ -105,7 +105,7 @@ An ontology identifier for the biological entity in **DB:DB_Object_ID** which is
 * protein-coding gene SO:0001217
 * gene  SO:0000704
 * ncRNA  SO:0000655
-  ** any subtype of ncRNA in the Sequence Ontology, including ncRNA-coding gene 	 	SO:0001263
+  * any subtype of ncRNA in the Sequence Ontology, including ncRNA-coding gene 	 	SO:0001263
 * protein-containing complex 	GO:0032991
 
 The object type listed in the **DB_Object_Type** field must match the database entry identified by the **DB:DB_Object_ID**.
