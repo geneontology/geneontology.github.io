@@ -4,7 +4,7 @@ permalink: /docs/sparql
 ---
 
 
-> This was a primer on how to use the GO SPARQL endpoint, which is no longer supported. Please contact us if they have questions through the [GO Helpdesk](https://help.geneontology.org/){:target="blank"}
+> GO is currently deprecating our public SPARQL endpoint, with plans to deprecate all related products in the future. Blazegraph journals are available here for advanced users who do not need support. If you have questions, please contact us through the [GO Helpdesk](https://help.geneontology.org/){:target="blank"}
 
 # Introduction
 Gene Ontology is developing Ontologies and Frameworks to help annotate biology in a consistent way and help users to integrate and reuse our data in their approaches. The Gene Ontology Causal Activity Model (or GO-CAM) [recently published](https://www.nature.com/articles/s41588-019-0500-1){:target="blank"} allows to curate knowledge in a much more expressive and traceable way and extend the querying capabilities of the standard GO annotations. [ [Learn more about GO-CAMs](/docs/gocam-overview/) ]
