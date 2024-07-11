@@ -26,7 +26,6 @@ For more general information on annotation, please see the [Introduction to GO a
 **Columns**
 * **Columns 1 & 2 from the GPI 1.2 are now combined in a single column containing an ID in CURIE syntax, e.g. `UniProtKB:P56704`.**
 * **NCBI taxon IDs are to be prefixed with `NCBITaxon:` to indicate the source of the ID, e.g. `NCBITaxon:6239`**
-* **Dates must now follow the ISO-8601 format YYYY-MM-DD; time may be included as YYYY-MM-DDTHH:MM:SS**
 <!-- does col 5 have to be an ontology ID or are ontology labels, entity types ok? -->
 
 # Gene Product Information (GPI) 2.0 format
