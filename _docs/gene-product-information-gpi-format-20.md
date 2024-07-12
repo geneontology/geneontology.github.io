@@ -75,14 +75,15 @@ ncRNA:
 ### Definitions and requirements for field contents
 
 #### 1. DB:DB Object ID
-The **DB** prefix is the database abbreviation (namespace) from which the unique identifier **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object.
+A unique identifier for the item being annotated. The **DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object. Examples:
+
+* `UniProtKB:P99999`
+* `SGD:S000002164`
+* `MGI:MGI:1919306`
+
+The identifier usually references the canonical form of a gene or gene product including functional RNAs.  Identifiers may also describe gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the Gene Product Information (GPI) file should contain information about the canonical form of the gene or gene product.
 
 This field is mandatory, cardinality 1.
-
-<!--In GPI 1.0 format, the identifier may reference a top-level primary gene or gene product identifier, or an identified variant of a gene or gene product, for example identifiers that specify distinct proteins produced by differential splicing, alternative translational starts, post-translational cleavage, or post-translational modification. Identifiers for functional RNAs and protein complexes can also be included in this column. 
-    If the gene product is not a top-level gene or gene product identifier, the **Parent_Object_ID** field should contain the canonical form of the gene or gene product. 
-    Note that while the **DB_Object_ID** is the identifier for a database object that may be used for annotation, it may or may not correspond exactly to what is described in a paper. For example, a paper describing functional characterization of a protein may result in annotations to the gene encoding the protein (gene ID in **DB_Object_ID**) or annotations to the protein (protein ID in **DB_Object_ID**), depending on annotation practice of the contributing group. 
--->
 #### 2. DB Object Symbol
 A (unique and valid) symbol to which the **DB:DB_Object_ID** is matched. No white spaces allowed.
 
