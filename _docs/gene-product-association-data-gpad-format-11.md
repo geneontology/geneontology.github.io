@@ -11,7 +11,7 @@ CBS is not DTU, link to DTU (http://www.bioinformatics.dtu.dk/) doesn't seem to 
 
 # Gene Product Association Data (GPAD) files
 
-GPAD files contain annotations for gene products which are further detailed in [GPI files](/docs/gene-product-information-gpi-format/). This page describes the *G*ene *P*roduct *A*ssociation *D*ata (GPAD) 1.1 format- for the current GPAD version, please see the [GPAD 1.2 guide](http://geneontology.org/docs/gene-product-association-data-gpad-format/).
+GPAD files contain annotations for gene products which are further detailed in [GPI files](/docs/gene-product-information-gpi-format/). This page describes the *G*ene *P*roduct *A*ssociation *D*ata (GPAD) 1.1 and 1.2 format- for the current GPAD version, please see the [GPAD 2.0 guide](http://geneontology.org/docs/gene-product-association-data-gpad-format/).
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
 
@@ -22,7 +22,7 @@ GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-
 The GPAD file is an alternative means of exchanging annotations from the Gene Association File (GAF). 
 The GPAD format is designed to be more normalized than GAF and is intended to work in conjunction with a separate 
 format for exchanging gene product information.
-All annotation files must start with a single line denoting the file format. For GPAD it is as follows:
+All annotation files must start with a single line denoting the file format. For GPAD 1.1 it is as follows:
 
     !gpa-version: 1.1
     
@@ -185,3 +185,12 @@ There will be a fixed vocabulary for the property names and this list can be ext
 include curator_ID, modification_date, creation_date, annotation_notes, etc.
 
 This field is optional, cardinality 0 or greater.
+
+
+## Gene Product Association Data (GPAD) 1.2 format
+From 2018 until the GPAD/GPI 2.0 files were formalized in mid 2024, GO generated a GPAD 1.2. 
+These can be identified by the header: 
+
+    !gpa-version: 1.2
+
+In GPAD 1.2, qualifiers are required; in some draft specifications of GPAD 1.1 this field was not required. GPAD 1.2 files meet the specifications on this page.
