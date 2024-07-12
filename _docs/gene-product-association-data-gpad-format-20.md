@@ -15,7 +15,7 @@ This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; f
 **Note that the GPAD file is the companion file for the [GPI file](/docs/gene-product-information-gpi-format-2.0//).
 Both files should be submitted together using the same version.** 
 
-# Changes from GPAD 1.1 to GPAD 2.0
+## Changes from GPAD 1.1 to GPAD 2.0
 * **Characters allowed in all fields have been explicitly specified**
 * **Extensions in file names are: `*.gpad` and `*.gpi`**
   
