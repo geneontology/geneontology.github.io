@@ -28,8 +28,7 @@ Both files should be submitted together using the same version.**
 * **NCBI taxon IDs are to be prefixed with `NCBITaxon:` to indicate the source of the ID, e.g. `NCBITaxon:6239`**
 
 ## GPI Header
-### Required information to provide in the header
-All annotation files must start with a single line denoting the file format. The database/group generating the file as listed in dbxrefs.yaml and the ISO-8601 formatted date the file was generated must be included in the header. Example for GPI 2.0:
+All annotation files MUST start with a single line denoting the file format. The database/group generating the file as listed in dbxrefs.yaml and the ISO-8601 formatted date the file was generated MUST be included in the header. Example for GPI 2.0:
 
     !gpi-version: 2.0
     !generated-by: SGD 
