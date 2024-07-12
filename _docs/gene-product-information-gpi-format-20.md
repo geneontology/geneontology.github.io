@@ -47,7 +47,7 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 
 | **Column** | **Content** | **Required?**	| **Cardinality** | **Example**|
 |----------|---------|-------------|---------|--------|
-| 1 | [DB:DB_Object_ID](#dbdb-object-id "Definition and requirements for DB:DB Object ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5-1|
+| 1 | [DB:DB_Object_ID](#1_dbdb-object-id) |	required |	1 |	UniProtKB:Q4VCS5-1|
 | 2 | [DB_Object_Symbol](#db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	required |	1 |	AMOT|
 | 3 | [DB_Object_Name](#db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin|
 | 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	KIAA1071|
@@ -74,7 +74,7 @@ ncRNA:
 
 ### Definitions and requirements for field contents
 
-#### DB:DB Object ID
+#### 1. DB:DB Object ID
 The **DB** prefix is the database abbreviation (namespace) from which the unique identifier **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object.
 
 This field is mandatory, cardinality 1.
@@ -83,24 +83,24 @@ This field is mandatory, cardinality 1.
     If the gene product is not a top-level gene or gene product identifier, the **Parent_Object_ID** field should contain the canonical form of the gene or gene product. 
     Note that while the **DB_Object_ID** is the identifier for a database object that may be used for annotation, it may or may not correspond exactly to what is described in a paper. For example, a paper describing functional characterization of a protein may result in annotations to the gene encoding the protein (gene ID in **DB_Object_ID**) or annotations to the protein (protein ID in **DB_Object_ID**), depending on annotation practice of the contributing group. 
 -->
-#### DB Object Symbol
+#### 2. DB Object Symbol
 A (unique and valid) symbol to which the **DB:DB_Object_ID** is matched. No white spaces allowed.
 
 The text entered in the **DB_Object_Symbol** should refer to the entity in **DB:DB_Object_ID**. The **DB_Object_Symbol** field should contain a symbol that is recognizable to a biologist wherever possible (gene product symbol, abbreviation widely used in the literature, ORF name, etc.). It is not a unique identifier or an accession number (unlike the **DB:DB_Object_ID**), although IDs can be used as a **DB_Object_Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated). For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:DB_Object_ID**, but with the same gene symbol in the **DB_Object_Symbol** column. 
 
 This field is mandatory, cardinality 1.
 
-#### DB Object Name
+#### 3. DB Object Name
 The name of the gene or gene product in **DB:DB_Object_ID**. The text entered in the **DB_Object_Name** should refer to the entity in **DB:DB_Object_ID**. White spaces are allowed in this field. 
 
 This field is not mandatory, cardinality 0, 1.
 
-#### DB Object Synonym
+#### 4. DB Object Synonym
 Alternative names for the entity in **DB:DB_Object_ID**. These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
 
 This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene). 
 
-#### DB Object Type
+#### 5. DB Object Type
 An ontology identifier for the biological entity in **DB:DB_Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Common entries include: 
 
 * protein  	PR:000000001
@@ -115,32 +115,32 @@ The object type listed in the **DB_Object_Type** field must match the database e
 
 This field is mandatory, cardinality 1.
 
-#### DB Object Taxon
+#### 6. DB Object Taxon
 The NCBI taxon ID of the species encoding the **DB:DB_Object_ID**, including the prefix `NCBITaxon:`. 
 
 This field is mandatory, cardinality 1.
 
-#### Encoded by
+#### 7. Encoded by
 For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities, e.g. ENSG00000197153.
 
 This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
 
-#### Parent Protein
+#### 8. Parent Protein
 When column 1 refers to a protein isoform or modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
-#### Protein Containing Complex Members
+#### 9. Protein Containing Complex Members
 When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions.
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
-#### DB Xrefs
+#### 10. DB Xrefs
 Identifiers for the object in **DB:DB_Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For gene products in model organism databases, **DB_Xrefs** must include the UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
 
 This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
 
-#### Gene Product Properties
+#### 11. Gene Product Properties
 The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, kidney, etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
 
 This field is optional, cardinality 0+; multiple properties should be pipe-separated.
