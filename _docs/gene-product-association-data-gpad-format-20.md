@@ -27,7 +27,7 @@ Both files should be submitted together using the same version.**
 * **Negation is captured in a separate column, column 2, using the text string 'NOT'**
 * **Gene product-to-term relations captured in column 3 use a Relations Ontology (RO) identifier instead of a text string.**
 * **The With/From column, column 7, may contain identifiers separated by commas as well as pipes.**
-* **NCBI taxon ids are prefixed with 'NCBITaxon:' to indicate the source of the id, e.g. `NCBITaxon:6239`**
+* **NCBI taxon ids are prefixed with `NCBITaxon:` to indicate the source of the id, e.g. `NCBITaxon:6239`**
 * **Annotation Extensions in column 11 will use a Relation_ID, rather than a Relation_Symbol, in the Relational_Expression, e.g. `RO:0002233(UniProtKB:Q00362)`**
 * **Dates follow the ISO-8601 format, e.g. `YYYY-MM-DD`; time may be included as `YYYY-MM-DDTHH:MM:SS`**
 
