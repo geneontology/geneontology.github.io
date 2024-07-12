@@ -5,25 +5,43 @@ permalink: /docs/gene-product-association-data-gpad-format-2.0/
 
 # About GPAD/GPI files
 
-*G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) companion files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF; the GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files.
+The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. *G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) companion files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF: each non-header line in an annotation file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. The GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files. GPAD/GPI is intended for internal GO use. 
 
-This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from GPAD 1.1 [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md).  
-
-The other file that supports exchange of GO is the [GAF format](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
+GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/) and recommends use of the GAF format for most use cases. For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
 # Gene Product Association Data (GPAD) 2.0 format guidelines
 
-The GPAD file is a standardized way to exchange GO annotation data.  Each line in the tab-delimited file represents a single association between a gene product and a GO term, and includes an evidence code, reference, and other relevant information.
+This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from previous GPAD formats, [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). The companion file to this GPAD 2.0 is [GPI 2.0](/docs/gene-product-information-gpi-format-2.0/). 
 
+**Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).
+Both files should be submitted together using the same version.** 
+
+# Changes from GPAD 1.1 to GPAD 2.0
+* **Characters allowed in all fields have been explicitly specified**
+* **Extensions in file names are: `*.gpad` and `*.gpi`**
+  
+**Header**
+* **The `gpad-version:` header must read `2.0` for this format.**
+
+**Columns**
+* **Columns 1 and 2 in the GPAD 1.2 are now combined in a single column containing an id in CURIE syntax, e.g. `UniProtKB:P56704`.**
+* **Negation is captured in a separate column, column 2, using the text string 'NOT'**
+* **Gene product-to-term relations captured in column 3 use a Relations Ontology (RO) identifier instead of a text string.**
+* **The With/From column, column 7, may contain identifiers separated by commas as well as pipes.**
+* **NCBI taxon ids are prefixed with 'NCBITaxon:' to indicate the source of the id, e.g. `NCBITaxon:6239`**
+* **Annotation Extensions in column 11 will use a Relation_ID, rather than a Relation_Symbol, in the Relational_Expression, e.g. `RO:0002233(UniProtKB:Q00362)`**
+* **Dates follow the ISO-8601 format, e.g. `YYYY-MM-DD`; time may be included as `YYYY-MM-DDTHH:MM:SS`**
+
+
+## GPAD Header
+### Required information to provide in the header
 The GPAD file must start with a header minimally consisting of a declaration of the file format, the group generating the file, and the date the file was generated. Each header line should be prefixed with an exclamation mark (!) so that these lines are ignored by data parsers:
 
     !gpad-version: 2.0
     !generated-by: MGI
-    !date-generated: 2023-01-30
+    !date-generated: 2024-01-30
     
-The group in the `generated-by` field must be present in the [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml). The year must be `YYYY-MM-DD`, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards.
-
-Submitting groups may choose to include optional additional information, for example:
+The group in the `generated-by` field must be present in the [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml). The year must be `YYYY-MM-DD`, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards. Submitting groups may choose to include optional additional information in a file header by prefixing the line with an exclamation mark (`!`); such lines will be ignored by parsers. For example:
 
     !URL: http://www.yeastgenome.org/
     !Project-release: WS275
@@ -31,7 +49,7 @@ Submitting groups may choose to include optional additional information, for exa
     !Columns: DB:DB_Object_ID Negation    Relation    GO ID    DB:Reference(s)    Evidence Code    With (or) From    Interacting taxon ID    Date    Assigned by    Annotation Extension    Annotation Properties
     !go-version: https://doi.org/10.5281/zenodo.8436609
     
-### Annotation file fields
+### GPAD file fields
 The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory and cardinality varies by field and other conditions.  For fields that permit multiple values, values should be separated by pipes (\|) for `OR` statements and commas (,) for `AND` statements.
 
 | **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example** |
