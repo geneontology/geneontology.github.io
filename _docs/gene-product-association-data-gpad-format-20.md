@@ -33,8 +33,7 @@ Both files should be submitted together using the same version.**
 
 
 ## GPAD Header
-### Required information to provide in the header
-The GPAD file must start with a header minimally consisting of a declaration of the file format, the group generating the file, and the date the file was generated. Each header line should be prefixed with an exclamation mark (!) so that these lines are ignored by data parsers:
+All annotation files MUST start with a single line denoting the file format and version. The database/group generating the file, as listed in dbxrefs.yaml, and the ISO-8601 formatted date the file was generated MUST also be in the header as in the following example:
 
     !gpad-version: 2.0
     !generated-by: MGI
