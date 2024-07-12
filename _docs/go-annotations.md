@@ -72,10 +72,13 @@ The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. 
 GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}
 
 ## Types of GO annotation files
-* [Gene Product Association Data (GPAD) files](/docs/gene-product-association-data-gpad-format/) + [Gene Product Information (GPI) files](/docs/gene-product-information-gpi-format/): these are companion files
+
 * [Gene association file (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
-* [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
-* [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
+* [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format-2.0/) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
+
+* *(Currently being deprecated)* [Gene Product Association Data (GPAD) 1.1/1.2 files](/docs/gene-product-association-data-gpad-format-1.1/) + [Gene Product Information (GPI) 1.1/1.2 files](/docs/gene-product-information-gpi-format/): companion files
+* *(Deprecated)* [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
+* *(Deprecated)* [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
 
 ## Downloads
 * Download [GO annotations by species](/docs/download-go-annotations/)
