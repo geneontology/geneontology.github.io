@@ -47,7 +47,7 @@ The group in the `generated-by` field must be present in the [dbxrefs.yaml file]
     !Columns: DB:DB_Object_ID Negation    Relation    GO ID    DB:Reference(s)    Evidence Code    With (or) From    Interacting taxon ID    Date    Assigned by    Annotation Extension    Annotation Properties
     !go-version: https://doi.org/10.5281/zenodo.8436609
     
-### GPAD file fields
+## GPAD file fields
 The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory and cardinality varies by field and other conditions.  For fields that permit multiple values, values should be separated by pipes (\|) for `OR` statements and commas (,) for `AND` statements.
 
 | **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example** |
