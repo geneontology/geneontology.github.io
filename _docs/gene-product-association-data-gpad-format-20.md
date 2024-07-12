@@ -13,7 +13,7 @@ GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-
 
 This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from previous GPAD formats, [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). The companion file to this GPAD 2.0 is [GPI 2.0](/docs/gene-product-information-gpi-format-2.0/). 
 
-**Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).
+**Note that the GPAD file is the companion file for the [GPI file](/docs/gene-product-information-gpi-format-2.0//).
 Both files should be submitted together using the same version.** 
 
 # Changes from GPAD 1.1 to GPAD 2.0
