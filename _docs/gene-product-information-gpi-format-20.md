@@ -47,7 +47,7 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 
 | **Column** | **Content** | **Required?**	| **Cardinality** | **Example**|
 |----------|---------|-------------|---------|--------|
-| 1 | [DB:DB_Object_ID](#1_dbdb-object-id) |	required |	1 |	UniProtKB:Q4VCS5-1|
+| 1 | [DB:DB_Object_ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5-1|
 | 2 | [DB_Object_Symbol](#db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	required |	1 |	AMOT|
 | 3 | [DB_Object_Name](#db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin|
 | 4 | [DB_Object_Synonym(s)](#db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	KIAA1071|
