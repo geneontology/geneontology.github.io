@@ -16,7 +16,7 @@ This page is a summary of the Gene Product Information Data (GPI) 2.0 format; fo
 **Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).
 Both files should be submitted together using the same version.** 
 
-# Changes from the GPI 1.2 to GPI 2.0
+## Changes from the GPI 1.2 to GPI 2.0
 * **Characters allowed in all fields have been explicitly specified**
 * **Extensions in file names are: `*.gpad` and `*.gpi`**
   
@@ -26,8 +26,6 @@ Both files should be submitted together using the same version.**
 **Columns**
 * **Columns 1 & 2 in the GPI 1.2 are now combined in a single column containing an ID in CURIE syntax, e.g. `UniProtKB:P56704`.**
 * **NCBI taxon IDs are to be prefixed with `NCBITaxon:` to indicate the source of the ID, e.g. `NCBITaxon:6239`**
-
-# Gene Product Information (GPI) 2.0 format
 
 ## GPI Header
 ### Required information to provide in the header
