@@ -41,7 +41,7 @@ The group in the `generated-by` field must be present in the [dbxrefs.yaml file]
     !Funding: NHGRI grant number HG012212
     !go-version: https://doi.org/10.5281/zenodo.8436609
 
-## GPI fields
+## GPI file fields
 
 The file format comprises 11 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
 
