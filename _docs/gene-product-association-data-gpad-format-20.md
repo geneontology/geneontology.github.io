@@ -3,10 +3,7 @@ title: Gene Product Association Data (GPAD) format 2.0
 permalink: /docs/gene-product-association-data-gpad-format-2.0/
 ---
 
-
-# This page describes the Gene Product Association Data (GPAD) 2.0 format. This format has not yet been implemented in GO but is provided to help with the changeover from previous GPAD/GPI versions.
-
-# GPAD/GPI files
+# About GPAD/GPI files
 
 *G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) companion files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF; the GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files.
 
@@ -14,7 +11,7 @@ This page is a summary of the Gene Product Association Data (GPAD) 2.0 format; f
 
 The other file that supports exchange of GO is the [GAF format](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
 
-## Gene Product Association Data (GPAD) 2.0 format
+# Gene Product Association Data (GPAD) 2.0 format guidelines
 
 The GPAD file is a standardized way to exchange GO annotation data.  Each line in the tab-delimited file represents a single association between a gene product and a GO term, and includes an evidence code, reference, and other relevant information.
 
