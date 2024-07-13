@@ -10,20 +10,27 @@ redirect_from:
 ## About subsets
 ##### What are GO subsets?
 
-- GO subsets (also known as GO slims) are cut-down versions of the GO containing a subset of the terms. They are specified by tags within the ontology that indicate if a given term is a member of a particular subset.
+GO subsets (also known as GO slims) are simplified versions of the GO containing a reduced number of terms. 
+There are several types of subsets:
+* **Binning**: Binning subsets are intended to be used to summarize the function, processes, or cellular components for sets of genes, including entire genomes/proteomes.
+* **Ribbon**: Ribbons are used to give a quick overview of the broad classes of terms annotated for a gene. Ribbon subsets are usually smaller than binning subsets.
+* **Exclusion List**: Exclusion lists are terms that should not be used for annotations, either because the term is too broad to be useful (for example, "metabolic process"), or because there is a more specific term that should be used (EXAMPLE)
 
 ##### Why might a GO subset be useful?
 
-- GO subsets are particularly useful for providing an overview of the range of functions and processes found in a given clade or organism's genome. Given a coarse grained view of the ontology content without the detail of the specific fine-grained terms, these slims can offer an overall sense of the key biological functions that are vital to an organism. For example, the limited number of opsin genes in bedbugs, or the abundance of kinins in ticks.
-- GO subsets are also useful for addressing specific research needs in particular areas of biology. For instance, if a researcher is only interested in a particular branch of biology, perhaps aging or fruit ripening, they have no need for terms from other branches and can focus solely on those terms under one branch of the ontology.
-- GO subsets can also be useful for simplifying searches or annotation operations. By reducing the number of choices a user is presented with their overall efficiency can be improved.
+GO subsets are particularly useful for providing an overview of the range of functions and processes found in a given clade or organism's genome. Given a coarse grained view of the ontology content without the detail of the specific fine-grained terms, these slims can offer an overall sense of the key biological functions that are vital to an organism. For example, the limited number of opsin genes in bedbugs, or the abundance of kinins in ticks.
+
+GO subsets are also useful for addressing specific research needs in particular areas of biology. For instance, if a researcher is only interested in a particular branch of biology, perhaps aging or fruit ripening, they have no need for terms from other branches and can focus solely on those terms under one branch of the ontology.
+
+GO subsets can also be useful for simplifying searches or annotation operations. By reducing the number of choices a user is presented with their overall efficiency can be improved.
 
 ##### Who can create a subset?
-- GO provides a generic subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. In addition, many model organism-specific subsets have been created by [GO consortium members](/docs/go-consortium/) and are available for download as listed below.
-- Alternatively, users and user communities can create their own GO subsets. Please contact the [GO helpdesk](http://help.geneontology.org/){:target="blank"} for more information about creating and submitting your GO subsets.
+GO provides a generic subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. In addition, many model organism-specific subsets have been created by [GO consortium members](/docs/go-consortium/) and are available for download as listed below.
+
+Alternatively, users and user communities can create their own GO subsets. Please contact the [GO helpdesk](http://help.geneontology.org/){:target="blank"} for more information about creating and submitting your GO subsets.
 
 ##### How are GO subsets maintained?
-- It is up to the people who have created a GO subset to maintain it or not maintain it, if they intend to keep it for reasons of reproducibility. If the developers of a GO subset want to keep it current with the GO they will need to periodically review GO for new terms and other changes.
+It is up to the people who have created a GO subset to maintain it or not maintain it, if they intend to keep it for reasons of reproducibility. If the developers of a GO subset want to keep it current with the GO they will need to periodically review GO for new terms and other changes.
 
 ## Download GO subsets
 GO subsets are part of the ontology but can also be downloaded as separated files in the [download ontology section](/docs/download-ontology/#subsets).
