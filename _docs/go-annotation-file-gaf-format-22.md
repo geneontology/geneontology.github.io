@@ -29,7 +29,7 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
 **Columns**
 * **Column 4 ("Relation") is now required.**
   * **Column 4 ("Relation") may optionally be negated ("NOT") by pipe-separating the relation with 'NOT', e.g. NOT\|enables.**
-  * Column **Qualifier** has been renamed **Relation**
+  * **Column 4 ("Relation") was previously named "Qualifier"**
 
 ## GO Annotation File (GAF) 2.2
 
