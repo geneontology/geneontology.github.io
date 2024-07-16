@@ -27,8 +27,9 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
 * **The header must also contain 'generated-by' and 'date-generated' lines.**
 
 **Columns**
-* **Column 4 ("Qualifier") is now required.**
-  * **Column 4 ("Qualifier") may optionally be negated ("NOT") by pipe-separating the relation with 'NOT', e.g. NOT\|enables.**
+* **Column 4 ("Relation") is now required.**
+  * **Column 4 ("Relation") may optionally be negated ("NOT") by pipe-separating the relation with 'NOT', e.g. NOT\|enables.**
+  * **Column 4 ("Relation") was previously named "Qualifier"**
 
 ## GO Annotation File (GAF) 2.2
 
@@ -66,7 +67,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 | 1 	| [DB](#db-column-1 "Definition and requirements for DB (column 1)")	| required 	| 1 |	UniProtKB|
 | 2 	| [DB Object ID](#db-object-id-column-2 "Definition and requirements for DB Object ID (column 2)") 	| required 	| 1 |	P12345|
 | 3 	| [DB Object Symbol](#db-object-symbol-column-3 "Definition and requirements for DB Object Symbol (column 3)") 	| required 	| 1 |	PHO3|
-| 4 	| [Qualifier](#qualifier-column-4 "Definition and requirements for Qualifier (column 4)") 	| required 	| 1 or 2 |	NOT\|involved_in|
+| 4 	| [Relation](#relation-column-4 "Definition and requirements for Relation (column 4)") 	| required 	| 1 or 2 |	NOT\|involved_in|
 | 5 	| [GO ID](#go-id-column-5 "Definition and requirements for GO ID (column 5)") 	| required 	| 1 |	GO:0003993|
 | 6 	| [DB:Reference (\|DB:Reference)](#dbreference-column-6 "Definition and requirements for DB:Reference (column 6)") 	| required 	| 1 or greater |	PMID:2676709|
 | 7 	| [Evidence Code](#evidence-code-column-7 "Definition and requirements for Evidence Code (column 7)") 	| required 	| 1 |	IMP|
@@ -111,7 +112,8 @@ If gene products are annotated, can use gene product symbol if available, or man
 The **DB Object Symbol** field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB Object Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
 
 
-#### Qualifier (column 4)
+#### Relation (column 4)
+Also referred to as **Qualifier** column.
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how a gene product relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
     This field is mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to").
