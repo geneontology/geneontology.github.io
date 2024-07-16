@@ -112,7 +112,7 @@ If gene products are annotated, can use gene product symbol if available, or man
 The **DB Object Symbol** field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB Object Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
 
 
-#### Relation/Qualifier (column 4)
+#### Relation (column 4)
 Also referred to as **Qualifier** column.
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how a gene product relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
