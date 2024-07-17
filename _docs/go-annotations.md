@@ -42,19 +42,30 @@ Associations of gene products to GO terms are statements that describe
 +  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
 +  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown.
 
-## Annotation qualifiers
+## Annotation relations
 
-Some annotations are modified by qualifiers, which have specific usage rules and meanings within GO. The *NOT*, *contributes_to*, and *colocalizes_with* qualifiers are used in the [GAF format](/docs/go-annotation-file-gaf-format-2.2/).
+A specific set of terms from the Relations Ontology (RO), sometimes referred to as 'gp2term' (gene product to term) relations, are used to link gene products to GO terms in standard annotations. The modifer *NOT*, as well as qualifiers like *enables*, *acts upstream of or within , and *enables* are used in the [GAF format](/docs/go-annotation-file-gaf-format-2.2/). For the full list of permitted gp2term relations, see the [GO wiki](https://wiki.geneontology.org/Annotation_Relations#Standard_Annotation_Relations){:target="blank"}. Some of the most common relations are:
 
-### The *NOT* qualifier
+### The *NOT* modifier
 
-*NOT* is used to make an explicit note that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have had a loss of function (e.g. loss of an active site or rapid divergence after a duplication event) over the course of evolution. This is particularly important in cases where associating a GO term with a gene product should be avoided (but might otherwise be made, especially by an automated method). For example, if a protein has sequence similarity to an enzyme (whose activity is GO:nnnnnnn), but has been shown experimentally **not** to have the enzymatic activity, it is annotated as *NOT* GO:nnnnnnn. *NOT* is also used when a cited reference explicitly says (e.g. "our favorite protein is not found in the nucleus"). Qualifying an annotation with the qualifier *NOT* allows annotators to state that a particular gene product is **not** associated with a particular GO term. It is used when a GO term might otherwise be expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. (It is not generally used for negative or inconclusive experimental results.)
+*NOT* is used to make an explicit note that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have had a loss of function (e.g. loss of an active site or rapid divergence after a duplication event) over the course of evolution. *NOT* can be combined with a This is particularly important in cases where associating a GO term with a gene product should be avoided (but might otherwise be made, especially by an automated method). For example, if a protein has sequence similarity to an enzyme (whose activity is GO:nnnnnnn), but has been shown experimentally **not** to have the enzymatic activity, it is annotated as *NOT* GO:nnnnnnn. *NOT* is also used when a cited reference explicitly says (e.g. "our favorite protein is not found in the nucleus"). The *NOT* modifier can also be directly appended to a gp2term with a pipe, e.g. `NOT|enables`.
+The qualifier *NOT* allows annotators to state that a particular gene product is **not** associated with a particular GO term. It is used when a GO term might otherwise be expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. *The *NOT* modifier is not to be used for negative or inconclusive experimental results.*
 
-### The *contributes_to* qualifier
-A gene product is associated with a GO Molecular Function term using the qualifier 'contributes_to' when it is a member of a complex that is defined as an "irreducible molecular machine" - where a particular Molecular Function cannot be ascribed to an individual subunit or small set of subunits of a complex. Note that the 'contributes_to' qualifier is specific to Molecular Functions.
+### *enables*
 
-### The *colocalizes_with* qualifier
-*Colocalizes_with* indicates a transient or peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139){:target="blank"} ia annotated to [GO:0000922: spindle pole](https://amigo.geneontology.org/amigo/term/GO:0000922){:target="blank"} using the *colocalizes_with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309){:target="blank"}.
+Links a gene product to a Molecular Function it executes. 
+
+### *acts upstream of or within*
+
+Links a gene product and a Biological Process when the mechanism relating the gene product's activity to the Biological Process is not known.
+
+### *located in*
+
+Links a gene product and the Cellular Component, specifically a cellular anatomical anatomy or virion component, in which a gene product has been detected. 
+
+### *part of*
+
+Links a gene product and a protein-containing complex. 
 
 <!-- ????-->
 ## Annotation extensions
