@@ -48,8 +48,10 @@ A specific set of terms from the Relations Ontology (RO), sometimes referred to 
 
 ### The *NOT* modifier
 
-*NOT* is used to make an explicit note that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have had a loss of function (e.g. loss of an active site or rapid divergence after a duplication event) over the course of evolution. *NOT* can be combined with a This is particularly important in cases where associating a GO term with a gene product should be avoided (but might otherwise be made, especially by an automated method). For example, if a protein has sequence similarity to an enzyme (whose activity is GO:nnnnnnn), but has been shown experimentally **not** to have the enzymatic activity, it is annotated as *NOT* GO:nnnnnnn. *NOT* is also used when a cited reference explicitly says (e.g. "our favorite protein is not found in the nucleus"). The *NOT* modifier can also be directly appended to a gp2term with a pipe, e.g. `NOT|enables`.
-The qualifier *NOT* allows annotators to state that a particular gene product is **not** associated with a particular GO term. It is used when a GO term might otherwise be expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. *The *NOT* modifier is not to be used for negative or inconclusive experimental results.*
+*NOT* is used when a GO term is expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have lost that function (e.g. sequence analysis showing a loss of an active site or rapid divergence after a duplication event) over the course of evolution. 
+The *NOT* modifier is not to be used for negative or inconclusive experimental results.
+
+Contrary to positive annotations, *NOT* statements propagate down the ontology, such that the annotation `gene product` `NOT|enables` `protein kinase activity` means that the gene product does not enable protein serine/threonine kinase activity or protein tyrosine kinase activity either. Full guidelines for *NOT* are [on the GO wiki](https://wiki.geneontology.org/Elements_of_an_annotation){:target="blank"}.
 
 ### The *enables* relation
 
