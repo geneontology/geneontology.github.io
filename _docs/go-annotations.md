@@ -55,6 +55,10 @@ The qualifier *NOT* allows annotators to state that a particular gene product is
 
 *enables* links a gene product to a Molecular Function it executes. 
 
+### The *contributes to* relation
+
+*contributes to* links a gene product to a Molecular Function executed by a macromolecular complex, in which the Molecular Function cannot be ascribed to an individual subunit of that complex. Only the complex subunits required for the Molecular Function are annotated to the Molecular Function term with 'contributes to'.  
+
 ### The *involved in* relation
 
 *involved in* links a gene product and a Biological Process in which the gene product's Molecular Function plays an integral role.
@@ -72,7 +76,7 @@ The qualifier *NOT* allows annotators to state that a particular gene product is
 *part of* links a gene product and a protein-containing complex. 
 
 ### The *colocalizes_with* relation
-*colocalizes_with* indicates a transient or peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139){:target="blank"} ia annotated to [GO:0000922: spindle pole](https://amigo.geneontology.org/amigo/term/GO:0000922){:target="blank"} using the *colocalizes_with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309){:target="blank"}.
+*colocalizes_with* indicates a peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. 
 
 <!-- ????-->
 ## Annotation extensions
