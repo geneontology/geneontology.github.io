@@ -51,7 +51,7 @@ A specific set of terms from the Relations Ontology (RO), sometimes referred to 
 *NOT* is used when a GO term is expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have lost that function (e.g. sequence analysis showing a loss of an active site or rapid divergence after a duplication event) over the course of evolution. 
 The *NOT* modifier is not to be used for negative or inconclusive experimental results.
 
-Contrary to positive annotations, *NOT* statements propagate down the ontology, such that the annotation `gene product` `NOT|enables` `protein kinase activity` means that the gene product does not enable protein serine/threonine kinase activity or protein tyrosine kinase activity either.
+Contrary to positive annotations, *NOT* statements propagate down the ontology, such that the annotation `gene product` `NOT|enables` `protein kinase activity` means that the gene product does not enable protein serine/threonine kinase activity or protein tyrosine kinase activity either. Full guidelines for *NOT* are [on the GO wiki](https://wiki.geneontology.org/Elements_of_an_annotation){:target="blank"}.
 
 ### The *enables* relation
 
