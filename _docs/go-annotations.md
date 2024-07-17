@@ -53,19 +53,22 @@ The qualifier *NOT* allows annotators to state that a particular gene product is
 
 ### *enables*
 
-Links a gene product to a Molecular Function it executes. 
+*enables* links a gene product to a Molecular Function it executes. 
 
 ### *acts upstream of or within*
 
-Links a gene product and a Biological Process when the mechanism relating the gene product's activity to the Biological Process is not known.
+*acts upstream of or within* links a gene product and a Biological Process when the mechanism relating the gene product's activity to the Biological Process is not known.
 
 ### *located in*
 
-Links a gene product and the Cellular Component, specifically a cellular anatomical anatomy or virion component, in which a gene product has been detected. 
+*located in* links a gene product and the Cellular Component, specifically a cellular anatomical anatomy or virion component, in which a gene product has been detected. 
 
 ### *part of*
 
-Links a gene product and a protein-containing complex. 
+*part of* links a gene product and a protein-containing complex. 
+
+### *Colocalizes_with* 
+*Colocalizes_with*  indicates a transient or peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139){:target="blank"} ia annotated to [GO:0000922: spindle pole](https://amigo.geneontology.org/amigo/term/GO:0000922){:target="blank"} using the *colocalizes_with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309){:target="blank"}.
 
 <!-- ????-->
 ## Annotation extensions
