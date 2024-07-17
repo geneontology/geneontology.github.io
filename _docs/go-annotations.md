@@ -51,24 +51,28 @@ A specific set of terms from the Relations Ontology (RO), sometimes referred to 
 *NOT* is used to make an explicit note that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have had a loss of function (e.g. loss of an active site or rapid divergence after a duplication event) over the course of evolution. *NOT* can be combined with a This is particularly important in cases where associating a GO term with a gene product should be avoided (but might otherwise be made, especially by an automated method). For example, if a protein has sequence similarity to an enzyme (whose activity is GO:nnnnnnn), but has been shown experimentally **not** to have the enzymatic activity, it is annotated as *NOT* GO:nnnnnnn. *NOT* is also used when a cited reference explicitly says (e.g. "our favorite protein is not found in the nucleus"). The *NOT* modifier can also be directly appended to a gp2term with a pipe, e.g. `NOT|enables`.
 The qualifier *NOT* allows annotators to state that a particular gene product is **not** associated with a particular GO term. It is used when a GO term might otherwise be expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. *The *NOT* modifier is not to be used for negative or inconclusive experimental results.*
 
-### *enables*
+### The *enables* relation
 
 *enables* links a gene product to a Molecular Function it executes. 
 
-### *acts upstream of or within*
+### The *involved in* relation
+
+*involved in* links a gene product and a Biological Process in which the gene product's Molecular Function plays an integral role.
+
+### The *acts upstream of or within* relation
 
 *acts upstream of or within* links a gene product and a Biological Process when the mechanism relating the gene product's activity to the Biological Process is not known.
 
-### *located in*
+### The *located in* relation
 
 *located in* links a gene product and the Cellular Component, specifically a cellular anatomical anatomy or virion component, in which a gene product has been detected. 
 
-### *part of*
+### The *part of* relation
 
 *part of* links a gene product and a protein-containing complex. 
 
-### *Colocalizes_with* 
-*Colocalizes_with*  indicates a transient or peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139){:target="blank"} ia annotated to [GO:0000922: spindle pole](https://amigo.geneontology.org/amigo/term/GO:0000922){:target="blank"} using the *colocalizes_with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309){:target="blank"}.
+### The *colocalizes_with* relation
+*colocalizes_with* indicates a transient or peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. Therefore [KIF2A](http://www.uniprot.org/uniprot/O00139){:target="blank"} ia annotated to [GO:0000922: spindle pole](https://amigo.geneontology.org/amigo/term/GO:0000922){:target="blank"} using the *colocalizes_with* qualifier, based on [PMID:18411309](https://www.ncbi.nlm.nih.gov/pubmed/18411309){:target="blank"}.
 
 <!-- ????-->
 ## Annotation extensions
