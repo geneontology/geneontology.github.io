@@ -15,7 +15,7 @@ redirect_from:
 
 A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, and what biological processes (pathways, programs) it helps to carry out.
 
-There are four pieces of information that uniquely identify a GO annotation.  Although there are additional components a curator can use to indicate more information, including [qualifiers](/docs/go-annotations/#annotation-qualifiers) and [annotation extensions](/docs/go-annotations/#annotation-extensions), at the very minimum an annotation consists of:
+There are four pieces of information that uniquely identify a GO annotation.  Although there are additional components a curator can use to indicate more information, including [relations](/docs/go-annotations/#annotation_relations) and [annotation extensions](/docs/go-annotations/#annotation-extensions), at the very minimum an annotation consists of:
 + Gene product (may be a protein, RNA, etc.)
 + GO term
 + Reference
@@ -37,7 +37,7 @@ Associations of gene products to GO terms are statements that describe
 +  A gene product can be annotated to zero or more terms from each ontology.
 +  Each annotation is supported by an [GO Evidence Codes](/docs/guide-go-evidence-codes/) from the [Evidence and Conclusions Ontology](http://www.evidenceontology.org/) and a reference.
 +  Gene products are annotated to the most granular term in the ontology that is supported by the available evidence.
-+  By the transitivity principle, an annotation to a GO term implies annotation to all its parents.
++  By the transitivity principle, an annotation to a GO term implies annotation to all its parents (except for *NOT* annotations, which propagate down the ontology).
 +  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.
 +  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
 +  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown.
