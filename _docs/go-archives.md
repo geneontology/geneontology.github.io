@@ -10,13 +10,14 @@ redirect_from:
 - /page/lead-database-guide
 - /page/go-tools-registry
 - /docs/archives/
+- /docs/deprecated-products-and-formats/
 ---
 
 # GO Archive
 
 The GO Archive is a comprehensive collection of the ontology and annotations from 2004. Note that this replaces the former GO CVS, SVN and old archive.
 
-[ [Quick access to the GO Archive](http://release.geneontology.org/){:target="blank"} ]
+## [Access the GO Archives here](http://release.geneontology.org/){:target="blank"} 
 
 ## About the contents of the GO Archive
 
@@ -69,10 +70,10 @@ GO currently provides the Gene Ontology in the OBO 1.2 format (as produced by th
 
 GO currently provides annotations in GAF 2.2 as well as GPAD/GPI 2.0, and encourages anyone consuming or producing older versions to adopt the newest format. See the [annotation download page](/docs/download-go-annotations/) for more information about current annotation file formats.
 
-+  GPAD 1.1 <br> [Gene Product Association Data 1.1](/docs/gene-product-association-data-gpad-format-1.1/) are pending deprecation as of 2024
++  GPAD 1.1 <br> [Gene Product Association Data 1.1](/docs/gene-product-association-data-gpad-format-1.1/) is pending deprecation as of 2024
 +  GPI 1.1 & 1.2 <br> [Gene Product Information 1.2](docs/gene-product-information-gpi-format/) are pending deprecation as of 2024
 +  GAF 2.0 <br> [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-2.0/) was deprecated in March 2021 
-+  GAF 1.0 <br> GO Annotation File Format 1.0 was deprecated in June 2010. 
++  GAF 1.0 <br> GO Annotation File Format 1.0 was deprecated in June 2010
 
 ## How the GO Archive was built
 The archive was generated using the data scattered across 3 legacy systems, namely the GO CVS, the GO SVN and the old product archive. Each of those systems was created at different times to serve different purposes and they were partially redundant, both in terms of the types of data they contained and in time frames (e.g. SVN was maintained from 2011 to 2018 while CVS was maintained from 2002 to 2018). The project is hosted on [GitHub](https://github.com/geneontology/archive-reconstruction){:target="blank"}.
