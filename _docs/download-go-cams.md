@@ -17,7 +17,7 @@ permalink: /docs/download-go-cams/
 ## About GO-CAM formats
 + Available formats:
   + [RDF Turtle (TTL)](https://www.w3.org/TR/turtle/){:target="blank"}, a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes.
-  + [BlazeGraph Journal (JNL)](https://www.blazegraph.com/){:target="blank"}
+  + [BlazeGraph Journal (JNL)](https://www.blazegraph.com/){:target="blank"}, The graph store for GO-CAMs using Blazegraph; this data product is currently deprecated. See also the [GO and RDF/SPARQL guide](/docs/sparql)
   + [Simple Interaction Format (SIF)](http://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html#sif-format){:target="blank"}, a format convenient for building a graph from a list of interactions.
 
 **Notes**:
