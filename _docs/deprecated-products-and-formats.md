@@ -10,6 +10,11 @@ redirect_from:
 - /page/lead-database-guide
 - /page/go-tools-registry
 ---
+<!--This page has been merged with the GO Archives page as of July 2024-->
+
+
+
+
 
 # Deprecated formats
 
