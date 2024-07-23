@@ -61,19 +61,19 @@ _If you are looking for current, actively maintained GO slims, please [see the g
 
 GO currently provides the Gene Ontology in the OBO 1.2 format (as produced by the OWL API) and other formats; see the [ontology download page](/docs/download-ontology/) for more information about current ontology file formats. Several file formats may exist in the archives that are no longer supported by GO:
 
-+ The GO Consortium no longer uses or supports the flat file format, which was deprecated in 2009.
-+ OBO-XML and FASTA files were retired in 2018.   OBO-XML was a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc.
-+ RDF-XML and OWL (old mapping) formats of the ontology were retired in early 2021. For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version. For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation. 
-+ [OBO 1.0 file format](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_0.html){:target="blank"} was the previous iteration of the OBO format and was retired in 2018.
++ Flat file format:  deprecated in 2009.
++ OBO-XML and FASTA files: retired in 2018.  <br> OBO-XML was a direct XML serialization of the OBO 1.2 format specification. The schema is specified using RELAX-NG compact syntax: obo-xml.rnc.
++ RDF-XML and OWL (old mapping) formats: retired in early 2021. <br> For users of the GO-RDF/XML version of the ontology, we recommend the OWL RDF/XML version. For OWL users, we continue to support the legacy obo2owl translation, but users are strongly encouraged to switch to the new translation. 
++ [OBO 1.0 file format](http://owlcollab.github.io/oboformat/doc/GO.format.obo-1_0.html){:target="blank"}: previous iteration of the OBO format, was retired in 2018.
 
 ### Deprecated Annotation formats
 
 GO currently provides annotations in GAF 2.2 as well as GPAD/GPI 2.0, and encourages anyone consuming or producing older versions to adopt the newest format. See the [annotation download page](/docs/download-go-annotations/) for more information about current annotation file formats.
 
-+  GPAD 1.1 <br> [Gene Product Association Data 1.1](/docs/gene-product-association-data-gpad-format-1.1/) is pending deprecation as of 2024
-+  GPI 1.1 & 1.2 <br> [Gene Product Information 1.2](docs/gene-product-information-gpi-format/) are pending deprecation as of 2024
-+  GAF 2.0 <br> [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-2.0/) was deprecated in March 2021 
-+  GAF 1.0 <br> GO Annotation File Format 1.0 was deprecated in June 2010
++  GPAD 1.1: [Gene Product Association Data 1.1](/docs/gene-product-association-data-gpad-format-1.1/) is pending deprecation as of 2024.
++  GPI 1.1 & 1.2: [Gene Product Information 1.2](docs/gene-product-information-gpi-format/) are pending deprecation as of 2024.
++  GAF 2.0: [GO Annotation File Format 2.0](/docs/go-annotation-file-gaf-format-2.0/) was deprecated in March 2021 .
++  GAF 1.0: GO Annotation File Format 1.0 was deprecated in June 2010.
 
 ## How the GO Archive was built
 The archive was generated using the data scattered across 3 legacy systems, namely the GO CVS, the GO SVN and the old product archive. Each of those systems was created at different times to serve different purposes and they were partially redundant, both in terms of the types of data they contained and in time frames (e.g. SVN was maintained from 2011 to 2018 while CVS was maintained from 2002 to 2018). The project is hosted on [GitHub](https://github.com/geneontology/archive-reconstruction){:target="blank"}.
