@@ -47,3 +47,6 @@ ALGOLIA_API_KEY=admin_key bundle exec jekyll algolia
 ```
 This will index all markdown pages using [algolia](https://www.algolia.com). The pages to be indexed (or not indexed) as well as the tag elements can be configured in `_config.yml`
 
+## Removing pages
+
+Pages that are no longer needed can be deleted, or if the .md might still be used later the permalinks/links can be deleted.
