@@ -4,7 +4,7 @@ To contribute to this site content, please follow the [guidelines](/HOWTO.md)
 
 ## Installation (docker)
 
-More specifically, as versions have rather moved on at this point, we can reproduce with:
+As versions have rather moved on at this point, we can still reproduce our desired environment with:
 
 ```
 git clone https://github.com/geneontology/geneontology.github.io.git
