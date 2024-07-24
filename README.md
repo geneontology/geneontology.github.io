@@ -2,20 +2,6 @@
 
 To contribute to this site content, please follow the [guidelines](/HOWTO.md)
 
-## Installation (basic)
-
-You need Ruby and gem before starting, then:
-
-```bash
-# install bundler
-gem install bundler
-
-# clone the project
-git clone https://github.com/geneontology/geneontology.github.io.git
-cd geneontology.github.io
-bundle install
-```
-
 ## Installation (docker)
 
 More specifically, as versions have rather moved on at this point, we can reproduce with:
@@ -24,12 +10,14 @@ More specifically, as versions have rather moved on at this point, we can reprod
 git clone https://github.com/geneontology/geneontology.github.io.git
 cd geneontology.github.io
 docker run --network host -v `pwd`:'/work' -w /work -i -t ubuntu:focal /bin/bash
-apt-get update && apt-get -u install bundler
+apt-get update && apt-get -u install bundler wget
+make
 gem install bundler:2.2.3
 bundler install
 ```
+The site will be available at: http://127.0.0.1:4000/ 
 
-## Running locally
+## Running (in docker image)
 ```
 bundle exec jekyll serve
 ```
