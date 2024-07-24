@@ -71,7 +71,8 @@ GO currently provides the Gene Ontology in the OBO 1.2 format (as produced by th
 GO currently provides annotations in GAF 2.2 as well as GPAD/GPI 2.0, and encourages anyone consuming or producing older versions to adopt the newest format. See the [annotation download page](/docs/download-go-annotations/) for more information about current annotation file formats.
 
 +  [GPAD 1.0, 1.1 & 1.2](/docs/gene-product-association-data-gpad-format-1.1/): pending deprecation as of 2024.
-+  [GPI 1.1 & 1.2](/docs/gene-product-information-gpi-format/): pending deprecation as of 2024. 
++  [GPI 1.1 & 1.2](/docs/gene-product-information-gpi-format/): pending deprecation as of 2024.
++  GO-CAMs were briefly available as SIF (Simple Interaction Format) files 
 +  [GAF 2.0](/docs/go-annotation-file-gaf-format-2.0/): deprecated in March 2021.
 +  GAF 1.0: deprecated in June 2010. <br>
 
