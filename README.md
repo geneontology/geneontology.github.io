@@ -14,8 +14,15 @@ apt-get update && apt-get -u install bundler wget
 make
 gem install bundler:2.2.3
 bundler install
+export LANG="C.UTF-8"
+export LC_ALL="C.UTF-8"
 ```
 The site will be available at: http://127.0.0.1:4000/ 
+
+As a "shortcut"
+```
+apt-get update && apt-get -u install bundler wget && make && gem install bundler:2.2.3 && bundler install && export LANG="C.UTF-8" && export LC_ALL="C.UTF-8"
+```
 
 ## Running (in docker image)
 ```
@@ -31,8 +38,6 @@ The static files of the site will be stored in `_site`
 
 ## Indexing the pages
 ```
-export LANG="C.UTF-8"
-export LC_ALL="C.UTF-8"
 ALGOLIA_API_KEY=admin_key bundle exec jekyll algolia
 ```
 This will index all markdown pages using [algolia](https://www.algolia.com). The pages to be indexed (or not indexed) as well as the tag elements can be configured in `_config.yml`
