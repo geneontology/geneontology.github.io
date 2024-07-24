@@ -43,33 +43,3 @@ GO-CAMs can be “decomposed” into the standard GO annotations (connecting a g
 ### Software
 
 Code handling the export of standard GO annotations from a GO-CAM model is provided by the open source [Minerva software](https://github.com/geneontology/minerva/){:target="blank"}, which is the data handling backend for Noctua. This code extracts an initial set of proposed standard GO annotations from a model, and then applies filters ensuring that appropriate metadata, such as an [ECO evidence code](http://www.evidenceontology.org/){:target="blank"}, is obtained for each annotation.
-
-### Converting GO-CAMs to Simple Interaction Format (SIF)
-
-The GO-CAM format allows representation of details that may be of little interest for certain applications. To enable the simple reuse and visualization of GO-CAMs, we provide two SIF exports that can easily be loaded for instance in [Cytoscape](https://cytoscape.org/){:target="blank"}.
-
-#### go-cam-complete-sif
-
-All molecular functions, biological processes and cellular components as well as their relationships are included in this export. This version essentially contains all the biological facts described in the GO-CAM but does not include any meta-data (e.g. describing evidence, xrefs, contributors, etc.).
-
-#### go-cam-activity-sif
-
-This export highlights the causal relationships between molecular functions (activities) and the genes carrying out these functions. In essence, they represent a protein-protein interaction network highlighting the positive and negative regulation relationships between activities.
-
-#### Visualization in Cytoscape
-
-We provide a Cytoscape styling to visualize GO-CAMs: [gocam-styles.xml](https://s3.amazonaws.com/geneontology-public/gocam/gocam-styles.xml). To import this style in Cytoscape: File > Import > Styles from File and select the gocam-styles.xml you downloaded. In the left Control Panel, select the “Style” tab and in the list, select the “GO-CAMs” style. From now on, any GO-CAM imported from a SIF file will be displayed using our recommended styling. To load a GO-CAM SIF export, select in the menu:
-
-> File > Import > Network from File
-
-Example of a GO-CAM rendered by cytoscape using the [gocam-styles.xml](https://s3.amazonaws.com/geneontology-public/gocam/gocam-styles.xml):
-
-<p align="center">
-  <img width="800" src="/assets/GO-CAM-SIF-cytoscape-d.png" alt="GO-CAM visualized with Cytoscape">
-</p>
-
-
-#### Software
-GitHub repository to create the SIF exports: [https://github.com/geneontology/gocam-sif-pyexport](https://github.com/geneontology/gocam-sif-pyexport){:target="blank"}.
-
-You can use this SIF export program with alternate parameters to create variations of the SIF exports from the Turtle files of GO-CAMs available on [GitHub](https://github.com/geneontology/noctua-models/tree/master/models){:target="blank"}.
