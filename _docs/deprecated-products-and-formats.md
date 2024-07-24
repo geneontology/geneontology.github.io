@@ -1,4 +1,4 @@
----
+<!--
 title: Deprecated formats
 permalink: /docs/deprecated-products-and-formats/
 redirect_from: 
@@ -9,12 +9,7 @@ redirect_from:
 - /page/go-rdfxml-file-format
 - /page/lead-database-guide
 - /page/go-tools-registry
----
-<!--This page has been merged with the GO Archives page as of July 2024-->
-
-
-
-
+This page has been merged with the GO Archives page as of July 2024-->
 
 # Deprecated formats
 
