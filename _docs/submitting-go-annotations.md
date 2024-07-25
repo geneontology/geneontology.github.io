@@ -1,7 +1,7 @@
----
+<!---
 title: Submitting GO Annotations
 permalink: /docs/submitting-go-annotations/
----
+This page was replaced by https://geneontology.org/docs/contributing-to-go/ prior to July 2024---> 
 # Submitting GO Annotations: Overview
  * **Contact**- Please [contact our Helpdesk](http://help.geneontology.org/) first to determine if your annotations are suitable for GO.  A number of factors affect this, including availability of your group to maintain the annotations for the forseeable future, methods used to assign GO terms, etc.  If your group has never submitted annotations, or hasn't been active in the GO community in a while, we strongly recommend contacting us as a first step.
  * **Prepare**- GOC encourages use of [GAF 2.2](/docs/go-annotation-file-gaf-format-2.2/), as of March 2021. 
