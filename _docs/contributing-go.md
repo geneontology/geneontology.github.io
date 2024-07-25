@@ -1,6 +1,8 @@
 ---
 title: Contributing GO annotations
 permalink: /docs/contributing-to-go/
+redirect_from: 
+- /docs/submitting-go-annotations/
 ---
 
 # Contributing GO annotations
