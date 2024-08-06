@@ -2,9 +2,11 @@
 title: Download annotations
 permalink: /docs/download-go-annotations/
 redirect_from:
-- download-go-annotations
-- GO.downloads.annotations.shtml
+- /download-go-annotations
+- /GO.downloads.annotations.shtml
 - /page/download-annotations
+- /page/downloads
+- /page/lead-database-downloads
 ---
 
 # Download annotations
@@ -75,7 +77,7 @@ Download InterProScan at [https://www.ebi.ac.uk/interpro/about/interproscan](htt
   + [GPAD](/docs/gene-product-association-data-gpad-format/) + [GPI](/docs/gene-product-information-gpi-format/) companion files
 
 ## Programmatic access to GO annotations
-As for any resource in GO, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}.
+As for any resource from GO, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}. + Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}. DOI-versioned archives of each monthly GO release from `2018-08-09` are available through [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}; releases from 2004-03-01 to present are also available in our [Archives](http://release.geneontology.org/).
 
 ## Error or omission?
 Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}.
