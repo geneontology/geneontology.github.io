@@ -7,7 +7,7 @@ title: Downloads overview
  this might be better as a redirect to http://current.geneontology.org/products/pages/downloads.html
  --->
 
-> # :loudspeaker:
+> :loudspeaker:
 > This is a demo page, not an actual GO webpage. Please use your browser's back button to return to the GO website.
 
 
