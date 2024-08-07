@@ -1,41 +1,18 @@
 ---
 title: Downloads overview
-permalink: /docs/downloads/
-redirect_from:
-- /page/downloads
-- /page/lead-database-downloads
-- /GO.downloads.database.shtml
 ---
-<!--We will soon add more documentation about the structure of these repositories.-->
-# Downloads overview
-GO releases official versions on a monthly basis.  The annotation and ontology links below provide the latest version of files in the format specified.
-<!--To always resolve to the newest available release, use <http://current.geneontology.org>{:target="_blank"}. -->
+<!--- noting the old permalink for this page was
+ /docs/downloads/
 
-## Ontology
-[*__Download the ontology here__*](/docs/download-ontology/ "Download ontology")
-+ Released monthly
-+ Available in [OBO and OWL formats](/docs/download-ontology/ "OBO and OWL formats")
-+ Also includes [GO subsets](/docs/go-subset-guide/ "GO subsets") (slims)
+ this might be better as a redirect to http://current.geneontology.org/products/pages/downloads.html
+ --->
 
-## Annotations
-[*__Download GO annotations here__*](/docs/download-go-annotations/ "Download GO annotations")
-+ Released monthly
-+ Taxon-specific
-+ Available in either [GAF format](/docs/go-annotation-file-gaf-format-2.2/ "GAF format") or [GPAD](/docs/gene-product-association-data-gpad-format/ "GPAD format")+[GPI](/docs/gene-product-information-gpi-format/ "GPI files") files
+>[!WARNING]
+>This is a demo page, not an actual GO webpage. Please use your browser's back button to return to the GO website.
 
-## DOI-versioned bundles
-[*__Download DOI-versioned bundles here__*](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
 
-+ Complete archives of each monthly GO release from `2018-08-09`
-+ Please cite with a DOI and access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}
-
-## Archives
-[*__Access the Gene Ontology Data Archive here__*](http://release.geneontology.org/){:target="blank"}
-
-+ Versioned and browsable releases from `2004-03-01` to present; contents of each release vary based on date
-+ For information about the archived files and construction of the archive, [see the Archives page](/docs/go-archives/)
-
-## Notifications
-To be notified of the exact release date, you can watch the [GitHub go-announcement repository](https://github.com/geneontology/go-announcements "GO announcements"){:target="blank"}.
-
-If there is something that you need or think we might be missing, please contact the [GO Helpdesk](http://help.geneontology.org "contact us"){:target="blank"}.
+|**Organism**|**NCBI Taxonomy ID**|**Entity Identifier space**|**All Annotations (including PAN-GO)**|**PAN-GO annotations only**|
+|------------------|-------------|-------------|-------------|------------|
+|***Arabidopsis thaliana***| 3702 | mixed: <br> AGI_LocusCode; TAIR; UniProtKB | [tair.gaf](https://current.geneontology.org/annotations/tair.gaf.gz) |[PAN-GO tair.gaf](http://release.geneontology.org/2024-06-17/products/upstream_and_raw_data/paint_tair.gaf.gz) |
+|***Bos taurus***| 9913 | mixed: UniProtKB; ComplexPortal | [goa_cow.gaf](https://current.geneontology.org/annotations/goa_cow.gaf.gz) | **NO COW PANGO FILE** |
+|***Caenorhabditis elegans***| 6239 | mixed: WB; UniProtKB | [wb.gaf](https://current.geneontology.org/annotations/wb.gaf.gz) |[PAN-GO wb.gaf](http://release.geneontology.org/2024-06-17/products/upstream_and_raw_data/paint_wb.gaf.gz) |
