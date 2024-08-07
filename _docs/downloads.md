@@ -7,8 +7,8 @@ title: Downloads overview
  this might be better as a redirect to http://current.geneontology.org/products/pages/downloads.html
  --->
 
->[!WARNING]
->This is a demo page, not an actual GO webpage. Please use your browser's back button to return to the GO website.
+> # :loudspeaker:
+> This is a demo page, not an actual GO webpage. Please use your browser's back button to return to the GO website.
 
 
 |**Organism**|**NCBI Taxonomy ID**|**Entity Identifier space**|**All Annotations (including PAN-GO)**|**PAN-GO annotations only**|
