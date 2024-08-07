@@ -55,7 +55,7 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 | 6 | [DB_Object_Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	NCBITaxon:9606|
 | 7 | [Encoded_by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | HGNC:17810 |
 | 8 | [Parent_Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |	optional |	0 or 1 |	UniProtKB:Q4VCS5|
-| 9 | [Protein_Containing_Complex_Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | SGD:S000003821,SGD:S000001456,SGD:S000005047|
+| 9 | [Protein_Containing_Complex_Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | SGD:S000003821\|SGD:S000001456\|SGD:S000005047|
 | 10 | [DB_Xref(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | NCBIGene:154796\|ENSEMBL:ENSG00000126016 |
 | 11 | [Gene_Product_Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") |	optional |	0 or greater |	db_subset=Swiss-Prot|
 
