@@ -24,6 +24,8 @@ title: Downloads overview
 |**CGD Multi-species**|  NCBITaxon:237561;  NCBITaxon:284593;  NCBITaxon:498019;  NCBITaxon:573826;  NCBITaxon:578454;  NCBITaxon:1136231;  NCBITaxon:294748;  NCBITaxon:284592;  NCBITaxon:379508;  NCBITaxon:6911;  NCBITaxon:294747;  NCBITaxon:306902;  NCBITaxon:294746 | mixed: CGD; UniProtKB | [cgd.gaf](https://current.geneontology.org/annotations/cgd.gaf.gz) |[PAN-GO cgd.gaf](http://release.geneontology.org/2024-06-17/products/upstream_and_raw_data/paint_cgd.gaf.gz) |
 
 
+<hr>
+Second option with common name
 
 |**Organism**|**Common name**|**NCBI Taxonomy ID(s)**|**Entity Identifier space**|**All Annotations (including PAN-GO)**|**PAN-GO annotations only**|
 |------------------|------|-------------|-------------|-------------|------------|
