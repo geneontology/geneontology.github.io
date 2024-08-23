@@ -56,7 +56,7 @@ For all other organisms we recommend downloading annotations from one of the fol
   * Follow the ["Genomes" link](https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=7165){:target="blank"}
     <br><img src="/assets/NCBIgenomelink.png" alt="NCBI Genomes link" width="600" div style="border: 2px solid black;"/><br>
   * Select the [reference assembly](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_943734735.2/){:target="blank"} at the top of the list; this entry is indicated with a green "reference genome" icon and a GCF identifer listed in the RefSeq column
-    <br><img src="/assets/NCBIrefgenome.png" alt="NCBI reference assembly" width="600" div style="border: 2px solid black;"/><br>
+    <br><img src="/assets/NCBIrefassembly.png" alt="NCBI reference assembly" width="600" div style="border: 2px solid black;"/><br>
   * Click on the [FTP link](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/943/734/735/GCF_943734735.2_idAnoGambNW_F1_1/){:target="blank"}
     <br><img src="/assets/NCBIftp.png" alt="NCBI FTP link to GAF" width="600" div style="border: 2px solid black;"/><br>
   * Download the file with the suffix `gene_ontology.gaf.gz`, e.g. `GCF_943734735.2-RS_2023_12_gene_ontology.gaf.gz`
