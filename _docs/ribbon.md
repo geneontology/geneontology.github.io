@@ -58,7 +58,8 @@ As an example, the [GO COVID-19 page](/covid-19.html) illustrates how both the R
 GO Ribbons specifically for eukaryotic cellular processes, plants, and prokaryotes are available on the [QuickGO slimming page](https://www.ebi.ac.uk/QuickGO/slimming){:target="blank"}, as is a FlyBase-specific ribbon. To access these, click the "Explore biology" box on the [QuickGO home page](https://www.ebi.ac.uk/QuickGO/). Select a ribbon in the dropdown and click the "Add terms to selection" button, then Apply. You can filter the resulting GO annotations by IDs, taxon, and more.
 
 
-![GO Ribbons at QuickGO](/assets/GORibbonQuickGO.png)
+<!---![GO Ribbons at QuickGO](/assets/GORibbonQuickGO.png)--->
+ <br><img src="/assets/GORibbonQuickGO.png" alt="GO Ribbons at QuickGO" div style="border: 2px solid black;"/><br>
 
 # Technical Information
 ## Authorized IDs
