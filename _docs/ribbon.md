@@ -18,7 +18,7 @@ permalink: /docs/ribbon
 
 ## A visual summary of gene functions
 
-The GO Ribbon is a graphical tool to quickly browse the GO annotations for a gene or a gene set. It provides a visual summary of the functions of a gene (resp. gene sets) by grouping the GO annotations with high level terms selected to represent a broad range of functions (see [slims/subsets]("/docs/go-subset-guide/")). 
+The GO Ribbon is a graphical tool to quickly browse the GO annotations for a gene or a gene set. It provides a visual summary of the functions of a gene (resp. gene sets) by grouping the GO annotations with high level terms selected to represent a broad range of functions (see [slims/subsets](/docs/go-subset-guide/)). 
 
 The color gradient of each high level term (slim) varies from white <span class="cell">&nbsp;</span> to deep blue <span class="cell" style="background-color: rgb(24,73,180)">&nbsp;</span> for increasing values. By default the color gradient informs on the number of available annotations for each high level term. A toggle allows to change the color gradient to inform instead on the number of distinct terms, giving a better approximate of the diversity of functions for the gene in that branch of the ontology.
 
