@@ -47,12 +47,20 @@ The summaries provided by the GO Ribbon can be used to quickly highlight the sim
 The visual summary of a gene set through the Ribbon can help identify shared functions or sub clusters of genes exhibiting different behaviors.
 
 
-## GO Ribbon and GO Enrichment
-It's however important to remind that the GO Ribbon is designed to provide a visual summary and a simpler way to navigate GO annotations. For gene sets, the GO Ribbon will show the functions shared between genes, but it will not inform on the statistical relevance (over / under representation) of such functions in the gene set. Statistical significance and bias of biological functions have to be examined through [over representation tests and enrichment analysis](/docs/go-enrichment-analysis/). 
+## GO Ribbon is not GO Enrichment
+The GO Ribbon is designed to provide a visual summary and a simpler way to navigate GO annotations. For gene sets, the GO Ribbon will show the functions shared between genes, but it will *not* inform on the statistical relevance (over/under representation) of such functions in the gene set. Statistical significance and bias of biological functions have to be examined through [over representation tests and enrichment analysis](/docs/go-enrichment-analysis/). 
+
+
 
 As an example, the [GO COVID-19 page](/covid-19.html) illustrates how both the Ribbon and enrichment analysis can be used together.
 
+## Other ways to access GO Ribbons
+GO Ribbons specifically for eukaryotic cellular processes, plants, and prokaryotes are available on the [QuickGO slimming page](https://www.ebi.ac.uk/QuickGO/slimming){:target="blank"}, as is a FlyBase-specific ribbon. To access these, click the "Explore biology" box on the [QuickGO home page](https://www.ebi.ac.uk/QuickGO/). Select a ribbon in the dropdown and click the "Add terms to selection" button, then Apply. You can filter the resulting GO annotations by IDs, taxon, and more.
 
+
+![GO Ribbons at QuickGO](/assets/GORibbonQuickGO.png)
+
+# Technical Information
 ## Authorized IDs
 The gene IDs generally recognized within GO are the ones provided by the Model Organism Database (MODs) in their [GPI file](/docs/gene-product-information-gpi-format/).
 
