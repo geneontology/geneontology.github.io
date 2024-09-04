@@ -9,8 +9,10 @@ redirect_from:
 # Guide to GO subsets
 ## About subsets
 ##### What are GO subsets?
-
-- GO subsets (also known as GO slims) are cut-down versions of the GO containing a subset of the terms. They are specified by tags within the ontology that indicate if a given term is a member of a particular subset.
+ GO subsets (also known as GO slims) are simplified versions of the GO containing a reduced number of terms. There are several types of subsets: 
+- Binning: Binning subsets are intended to be used to summarize the function/processes/cellular components … for sets of genes, including entire genomes/proteomes.
+- Ribbon: Ribbons are used to give a quick overview of the broad classes of terms annotated for a gene. Ribbon subsets are usually smaller than binning subsets.
+- Exclusion List: Exclusion lists are terms that should not be used for annotations, either because the term is too broad to be useful (for example, "GO:0008152 metabolic process"), or because a more specific term should be used (for example, either the positive or negative child of "GO:0042325 regulation of phosphorylation" can be used instead). 
 
 ##### Why might a GO subset be useful?
 
@@ -23,7 +25,7 @@ redirect_from:
 - Alternatively, users and user communities can create their own GO subsets. Please contact the [GO helpdesk](http://help.geneontology.org/){:target="blank"} for more information about creating and submitting your GO subsets.
 
 ##### How are GO subsets maintained?
-- It is up to the people who have created a GO subset to maintain it or not maintain it, if they intend to keep it for reasons of reproducibility. If the developers of a GO subset want to keep it current with the GO they will need to periodically review GO for new terms and other changes.
+- Groups who have created a GO subset are responsible for keeping it up to date as the ontology changes. GO subsets are periodically reviewed to make sure they are relevant, that pertinent new GO terms are added, and that obsolete GO terms are replaced by valid terms to ensure the appropriate grouping of annotations.
 
 ## Download GO subsets
 GO subsets are part of the ontology but can also be downloaded as separated files in the [download ontology section](/docs/download-ontology/#subsets).
