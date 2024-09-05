@@ -3,8 +3,6 @@
 *::before {
     box-sizing: border-box;
 
-    font-family: "Lato", sans-serif;
-    font-weight: 400 !important;
     line-height: $default-line-height;
 
     outline: none;
@@ -20,11 +18,4 @@ html {
 body {
     padding-top: $navbar-height + $navbar-margin-bottom;
     margin-bottom: 46px;
-}
-
-// restoring font-family for FontAwesome icons
-.fa,
-.fa::after,
-.fa::before {
-    font-family: "FontAwesome";
 }
