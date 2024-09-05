@@ -13,10 +13,11 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 ![GOC meeting in Berkeley, 2019](/assets/whoweare/GOBerk_group_2019.jpg "GO Consortium Meeting 2019 attendees enjoying Berkeley, California")
 
 ## Principal Investigators
-+ [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, University of Southern California
-+ [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech
-+ [Christopher Mungall](http://www.berkeleybop.org/people/chris-mungall){:target="blank"}, Lawrence Berkeley National Laboratory
-+ [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"}, Stanford University
+
+
+
+| --- | --- | --- | --- |
+| <img src="/assets/whoweare/thomas.jpg" alt="Paul Thomas, University of Southern California" height="10%" div style="border: 2px solid black;"/> | <img src="/assets/whoweare/sternberg.jpg" alt="Paul Sternberg, Caltech" width="15%" div style="border: 2px solid black;"/> | <img src="/assets/whoweare/mungall.jpeg" alt="Chris Mungall, Lawrence Berkeley National Laboratory" width="200" div style="border: 2px solid black;"/> | <img src="/assets/whoweare/cherry.jpeg" alt="J. Michael Cherry, Stanford University" width="200" div style="border: 2px solid black;"/> || [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, University of Southern California | [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech | [Christopher Mungall](http://www.berkeleybop.org/people/chris-mungall){:target="blank"}, Lawrence Berkeley National Laboratory | [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"}, Stanford University | 
 
 
 ## Project leads
