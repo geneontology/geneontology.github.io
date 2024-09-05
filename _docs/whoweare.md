@@ -15,8 +15,7 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 ## Principal Investigators
 
 
-
-| --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: |
 | <img src="/assets/whoweare/thomas.jpg" alt="Paul Thomas, University of Southern California" height="10%" div style="border: 2px solid black;"/> [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, <br>University of Southern California | <img src="/assets/whoweare/sternberg.jpg" alt="Paul Sternberg, Caltech" height="100" div style="border: 2px solid black;"/> [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"},<br> Caltech | <img src="/assets/whoweare/mungall.jpeg" alt="Chris Mungall, Lawrence Berkeley National Laboratory" width="200" div style="border: 2px solid black;"/> [Christopher Mungall](http://www.berkeleybop.org/people/chris-mungall){:target="blank"},<br> Lawrence Berkeley National Laboratory | <img src="/assets/whoweare/cherry.jpeg" alt="J. Michael Cherry, Stanford University" width="200" div style="border: 2px solid black;"/> [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"},<br> Stanford University |
 
 
