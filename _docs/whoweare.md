@@ -58,9 +58,8 @@ Leaders of key contributing resources.
   
 ## Founders
 
-- [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"}
-- [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"}
-- [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"}
+| :---: | :---: | :---: |
+| <img src="/assets/whoweare/Plos_ashburner.jpg" alt="Michael_Ashburner, image By PLoS - PLoS, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4155078" width="200" div style="border: 2px solid black;"/> Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"} | <img src="/assets/whoweare/blake.jpg" alt="Judith Blake" width="200" div style="border: 2px solid black;"/> [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"} | <img src="/assets/whoweare/lewis.jpg" alt="Suzanna Lewis" width="200" div style="border: 2px solid black;"/> [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"} |
 
 ## Current GO contributors
 
