@@ -190,4 +190,4 @@ The Annotation Properties column contains a list of "property_name = property_va
 * model-state=production
 * creation-date=2019-07-20T12:04:08
 
-This field is optional, cardinality 0 or greater; for cardinality >1 use a pipe to separate entries.
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries
