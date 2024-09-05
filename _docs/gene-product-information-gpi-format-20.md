@@ -129,19 +129,19 @@ This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pip
 #### 8. Parent Protein
 When column 1 refers to a protein isoform or modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
 
-This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
 
 #### 9. Protein Containing Complex Members
 When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions.
 
-This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
 
 #### 10. DB Xrefs
 Identifiers for the object in **DB:DB_Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For gene products in model organism databases, **DB_Xrefs** must include the UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
 
-This field is optional, cardinality 0+; multiple identifiers should be pipe-separated.
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
 
 #### 11. Gene Product Properties
 The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, kidney, etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
 
-This field is optional, cardinality 0+; multiple properties should be pipe-separated.
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
