@@ -14,15 +14,17 @@ The Gene Ontology Consortium is a large, international group of scientists in th
 
 ## Principal Investigators
 
-
 | :---: | :---: | :---: | :---: |
 |<img src="/assets/whoweare/thomas.jpg" alt="Paul Thomas, University of Southern California" height="8%" div style="border: 2px solid black; text-align: center;"/>  <br> [Paul Thomas](https://sites.google.com/usc.edu/thomaslab){:target="blank"}, <br> University of Southern California  | <img src="/assets/whoweare/sternberg.jpg" alt="Paul Sternberg, Caltech" width="200" div style="border: 2px solid black;"/> [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"},<br> Caltech | <img src="/assets/whoweare/mungall.jpeg" alt="Chris Mungall, Lawrence Berkeley National Laboratory" width="200" div style="border: 2px solid black;"/> [Christopher Mungall](http://www.berkeleybop.org/people/chris-mungall){:target="blank"},<br> Lawrence Berkeley National Laboratory | <img src="/assets/whoweare/cherry.jpeg" alt="J. Michael Cherry, Stanford University" width="200" div style="border: 2px solid black;"/> [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"},<br> Stanford University |
 
-
 ## Project leads
-+ [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Overall Project Management, Ontology development, Data Quality
+
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="/assets/whoweare/gaudet.jpg" alt="Pascale Gaudet, Swiss Institute of Bioinformatics" width="200" div style="border: 2px solid black;"/> [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"},<br> Swiss Institute of Bioinformatics <br> Overall Project Management, Ontology development, Data Quality | <img src="/assets/whoweare/carbon.jpg" alt="Seth Carbon, Lawrence Berkeley National Laboratory" width="200" div style="border: 2px solid black;"/> [Seth Carbon](https://orcid.org/0000-0003-1813-6857){:target="blank"},<br> Lawrence Berkeley National Laboratory <br> Architecture | <img src="/assets/whoweare/vanauken.jpg" alt="Kimberly van Auken, Caltech" width="200" div style="border: 2px solid black;"/> [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"},<br> Caltech <br> Annotation | <img src="/assets/whoweare/mi.png" alt="Huaiyu Mi, University of Southern California" width="200" div style="border: 2px solid black;"/> [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"},<br> University of Southern California <br> Phylogenetic Annotation | <img src="/assets/whoweare/aleksander.jpeg" alt="Suzi Aleksander, Stanford University" width="200" div style="border: 2px solid black;"/> [Suzi Aleksander](https://orcid.org/0000-0003-1813-6857){:target="blank"},<br> Stanford University <br> User Support |
+
+
+[Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"}, Swiss Institute of Bioinformatics - Overall Project Management, Ontology development, Data Quality
 + [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"}, Lawrence Berkeley National Laboratory - Architecture
-+ [David Hill](https://www.jax.org/research-and-faculty/faculty/research-scientists/david-hill){:target="blank"}, The Jackson Laboratory - GO-CAM modeling
 + [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"}, Caltech - Annotation
 + [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"}, University of Southern California - Phylogenetic Annotation
 + [Suzi Aleksander](https://cherrylab.stanford.edu/people/suzi-aleksander){:target="blank"}, Stanford University - User Support
