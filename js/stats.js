@@ -1163,7 +1163,6 @@ var statsObj = undefined;
 var currentRelease = undefined;
 var lastRelease = undefined;
 var dynamicTaxonMap = { };
-var dynamicReleaseDate = { };
 
 
 function setDynamicVariables() {
@@ -1189,9 +1188,7 @@ function initUI(statsObj) {
     var selRelease = document.getElementById("selected-release");
     if(selRelease) {
         for(var release of statsObj.stats) {
-            var sdate = simpleDate(release.release_date);
-            dynamicReleaseDate[sdate] = release.release_date;
-            selRelease.options[selRelease.options.length] = new Option(sdate);
+            selRelease.options[selRelease.options.length] = new Option(release.release_date);
         }
         selRelease.selectedIndex = selRelease.options.length - 1;
     }
@@ -1243,7 +1240,6 @@ function changeAnnotationAspect() {
 function changeRelease() {
     var selRelease = document.getElementById("selected-release");
     var newRelease = selRelease.options[selRelease.selectedIndex].value;
-    newRelease = dynamicReleaseDate[newRelease];
     // console.log("loading data for new release: ", newRelease);
     currentRelease = newRelease;
     var release = getRelease(statsObj, newRelease);
