@@ -66,7 +66,7 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
   
 Complex:  
     
-    SGD:S000217643  CBF1:MET4:MET28CBF1-MET4-MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBITaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  ComplexPortal:CPX-1016  
+    SGD:S000217643  CBF1:MET4:MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBITaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  ComplexPortal:CPX-1016  
 
 ncRNA:    
 
