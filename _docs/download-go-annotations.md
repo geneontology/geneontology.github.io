@@ -49,7 +49,8 @@ For all other organisms we recommend downloading annotations from one of the fol
   * Navigate to your organism & download the `.goa` file, e.g. [`22426.A_gambiae.goa`](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/22426.A_gambiae.goa){:target="blank"}  
     *Tip: use your browser's in-page search to find the species name.*
 
-* [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference genome assembly in NCBI in the RefSeq collection (RefSeqs have assembly accessions starting with `GCF_`), GO annotations are available in GAF format through NCBI Gene identifiers. Annotation files are available for all eukaryotic genomes available at NCBI RefSeq. Note that GO annotations are not currently available at NCBI for archaea, bacteria or viruses, and are not available for eukaryotic genomes only in GenBank (only accession starts with `GCA_`).
+* [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference genome assembly in NCBI in the RefSeq collection (RefSeqs have assembly accessions starting with `GCF_`), GO annotations are available in GAF format through NCBI Gene identifiers. Annotation files are available for all eukaryotic genomes available at NCBI RefSeq.
+> <i class="fa-solid fa-triangle-exclamation"></i> Note: GO annotations are not currently available at NCBI for archaea, bacteria or viruses. GO annotations are not currently available at NCBI for eukaryotic genomes only in GenBank (only accession starts with `GCA_`).
   * Start at the [NCBI homepage](https://www.ncbi.nlm.nih.gov/){:target="blank"}
   * Enter your organism in the search box near the top of the page and click Search, e.g. [Anopheles gambiae](https://www.ncbi.nlm.nih.gov/search/all/?term=Anopheles%20gambiae){:target="blank"}
     <br><img src="/assets/NCBIsearchbox.png" alt="NCBI homepage search" width="600" div style="border: 2px solid black;"/><br>
