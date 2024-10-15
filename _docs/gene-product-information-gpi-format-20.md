@@ -1,6 +1,8 @@
 ---
 title: Gene Product Information (GPI) format 2.0
 permalink: /docs/gene-product-information-gpi-format-2.0/
+redirect_from:
+- /docs/gene-product-information-gpi-format/
 
 ---
 # About GPAD/GPI files
