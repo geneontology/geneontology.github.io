@@ -1,6 +1,6 @@
 ---
-title: Gene Product Information (GPI) format
-permalink: /docs/gene-product-information-gpi-format/
+title: Gene Product Information (GPI) 1.2 format
+permalink: /docs/gene-product-information-gpi-format-1.2/
 
 ---
 
