@@ -19,6 +19,9 @@
   docs:
   - go-annotations
   - guide-go-evidence-codes
+  - go-annotation-file-gaf-format-22
+  - gene-product-association-data-gpad-format-20
+  - gene-product-information-gpi-format-20
   - contributing-to-go
 
 - title: Downloads
@@ -26,3 +29,4 @@
   - download-ontology
   - download-go-annotations
   - download-go-cams
+  
