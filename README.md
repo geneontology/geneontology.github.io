@@ -17,7 +17,6 @@ bundler install
 export LANG="C.UTF-8"
 export LC_ALL="C.UTF-8"
 ```
-The site will be available at: http://127.0.0.1:4000/ 
 
 As a "shortcut"
 ```
@@ -28,7 +27,8 @@ apt-get update && apt-get -u install bundler wget && make && gem install bundler
 ```
 bundle exec jekyll serve
 ```
-This will run a local instance of the jekyll server
+This will run a local instance of the jekyll server.
+The site will be available at: http://127.0.0.1:4000/ .
 
 ## Building the site
 ```
