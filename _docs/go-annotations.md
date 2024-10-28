@@ -14,10 +14,19 @@ redirect_from:
 GO annotations come in two flavors: standard GO Annotations and GO-CAM Models.
 
 ## Standard GO annotations
- Standard annotations are defined as an association between a gene and a biological concept from one of the [three GO aspects](/docs/ontology-documentation/): Molecular Function (MF), Biological Process (BP), and Cellular Component (CC). Standard GO annotations may further be qualified using annotation extensions that provide additional biological context to a GO term using a relation from the [http://www.obofoundry.org/ontology/ro.html Relations Ontology (RO)] and a term from GO or an external ontology, e.g. [http://uberon.github.io/ UBERON].
+A standard GO annotation is a statement that links a gene product and a GO term. 
+Standard GO annotations contain minimally: a gene or gene product identifier, a GO term, an evidence code and a reference. 
+Any number of annotations can be made to a gene, in order to fully describe its function or the locations in which it acts. 
+
+Standard GO annotations may further be qualified using annotation extensions that provide additional biological context to a GO term using a relation from the [http://www.obofoundry.org/ontology/ro.html Relations Ontology (RO)] and a term from GO or an external ontology, e.g. [http://uberon.github.io/ UBERON]. Further description of annotation extensions can be found in [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
 
 
-## GO-CAM models
+## GO-Causal Activity Models
+GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple standard GO annotations into larger models of biological function (such as “pathways”) in a semantically structured manner. Minimally, a GO-CAM model must connect at least two standard GO annotations ([GO-CAM example](http://model.geneontology.org/5323da1800000002){:target="blank"}).
+
+The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}.
+
+GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}
 
 <!-- GO annotations: the model of biology. Annotations are statements describing the functions of specific genes, using concepts in the Gene Ontology. The simplest and most common annotation links one gene to one function, e.g. FZD4 + Wnt signaling pathway. Each statement is based on a specified piece of evidence. -->
 
@@ -88,20 +97,6 @@ Contrary to positive annotations, *NOT* statements propagate down the ontology, 
 ### The *colocalizes_with* relation
 *colocalizes_with* indicates a peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. 
 
-<!-- ????-->
-## Annotation extensions
-Annotation extensions provide additional information about a GO annotation that cannot be captured in a single GO term. Please see publications describing annotation extensions: [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}. Annotation extensions are available in both the [GAF File Format](/docs/go-annotation-file-gaf-format-2.2/#annotation-extension-column-16) and the [GPAD File Format](/docs/gene-product-association-data-gpad-format/#annotation-extension).
-
-<!-- ????-->
-## Annotation quality control
-The GO Consortium implements a number of automated queries to check the quality of the annotations submitted to the GO database.
-
-## GO-Causal Activity Models
-GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple standard GO annotations into larger models of biological function (such as “pathways”) in a semantically structured manner. Minimally, a GO-CAM model must connect at least two standard GO annotations ([GO-CAM example](http://model.geneontology.org/5323da1800000002){:target="blank"}).
-
-The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}.
-
-GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}
 
 ## Types of GO annotation files
 * [Gene association file (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
