@@ -116,4 +116,4 @@ GO aims to represent the current state of knowledge in biology, hence it is cons
 With the ever-increasing number of published articles, experiments and methods, covering all biology with the latest annotations is always challenging. We therefore invite researchers and computational scientists to [submit requests for missing, erroneous or out-of-date annotations to improve the GO database](/docs/contributing-to-go/).
 
 ## Statistics
-[GO statistics](/stats.html) are available both for the current release and over time.
+Overall [GO statistics](https://geneontology.org/stats.html) and [detailed statistics](https://current.geneontology.org/release_stats/index.html) are available. The statistics are also [achived](https://release.geneontology.org/).
