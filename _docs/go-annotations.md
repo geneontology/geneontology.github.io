@@ -11,6 +11,14 @@ redirect_from:
 
 # Introduction to GO annotations
 
+GO annotations come in two flavors: standard GO Annotations and GO-CAM Models.
+
+## Standard GO annotations
+ Standard annotations are defined as an association between a gene and a biological concept from one of the [three GO aspects](/docs/ontology-documentation/): Molecular Function (MF), Biological Process (BP), and Cellular Component (CC). Standard GO annotations may further be qualified using annotation extensions that provide additional biological context to a GO term using a relation from the [http://www.obofoundry.org/ontology/ro.html Relations Ontology (RO)] and a term from GO or an external ontology, e.g. [http://uberon.github.io/ UBERON].
+
+
+## GO-CAM models
+
 <!-- GO annotations: the model of biology. Annotations are statements describing the functions of specific genes, using concepts in the Gene Ontology. The simplest and most common annotation links one gene to one function, e.g. FZD4 + Wnt signaling pathway. Each statement is based on a specified piece of evidence. -->
 
 A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, and what biological processes (pathways, programs) it helps to carry out.
