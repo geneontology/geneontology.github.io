@@ -14,68 +14,44 @@ redirect_from:
 GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Models**.
 
 ## Standard GO annotations
-A standard GO annotation is a statement that links a gene product and a GO term. In standard GO annotations, each starement is independent. 
-Standard GO annotations contain minimally: a gene or gene product identifier, a GO term, an evidence code and a reference. 
-Any number of annotations can be made to a gene, in order to fully describe its function or the location(s) in which it acts. 
+A standard GO annotation is a statement that links a gene product and a GO term via a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} . In standard GO annotations, each statement is independent. 
+A standard GO annotation minimally contains:
++ a gene product; may be a protein, an miRNA, a tRNA, etc.
++ a [GO term](/docs/ontology-documentation/)
++ a reference, usually a PMID, but DOIs and [GO Reference (GO_REF)](/gorefs.html) are also used. 
++ an evidence, using [a GO Evidence Code](/docs/guide-go-evidence-codes/), which describes the type of evidence: experimental evidence, sequence similarity or phylogenetic relation, as well as whether the evidence was reviewed by an expert biocurator. If not, the annotation is described as 'automated'.
 
-Standard GO annotations may further be qualified using **annotation extensions** that provide additional biological context to a GO term using a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} and a term from GO or an external ontology, e.g. [UBERON](http://uberon.github.io/){:target="blank"}. Further description of annotation extensions can be found in [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
+Any number of annotations can be made to a gene, in order to fully describe its function or the location(s) in which it acts.
+
+**Annotation extensions** are used to provide additional biological context to a GO term, using a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} and a term from GO or an external ontology, e.g. [UBERON](http://uberon.github.io/){:target="blank"}. Further description of annotation extensions can be found in tha paper of [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
+
+### Semantics of a GO annotation
+Associations of gene products to GO terms are statements that describe
++ **Molecular Function**: the *normal* molecular activity of a gene product; mutants and roles in disease are out of scope for GO
++ **Cellular Component**: where the gene products are active
++ **Biological Process**: the pathways and larger processes to which that gene product's activity contributes
++ By the transitivity principle, an annotation to a GO term implies annotation to all its parents. Conversely, *NOT* annotations propagate down the ontology.
++ GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology. Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
++ GO assumes an open-world model, that is, if a gene product is unannotated then its role is still unknown. Moreover, the fact that a gene product is not annotated to a specific class does not mean that the gene product *does not possess exhibit that function, or not localized to that cellular component, or is not involved in that biological process*. 
 
 ## GO-Causal Activity Models
 GO-Causal Activity Models (GO-CAMs) provides a system to extend GO annotations with **biological context** as well as **causal connections** between activities. 
 The network representation of GO-CAMs enables pathway visualization and analysis. 
 
 Biological context that is captured for each GO aspects: 
-- MF: substrates ("input"), products ("output"), activators, inhibitors
-- BP: the broader process that the molecular function helps accomplish: cell cycle transition, transcription, signaling pathways, etc. Processes can be nested, i. e., a biological process can be part of another biological process. For example, a signaling pathway can be part of a developmental process, like the [Wnt signaling pathway](https://amigo.geneontology.org/amigo/term/GO:0016055){:target="blank"} is part of [dorsal/ventral pattern formation](https://amigo.geneontology.org/amigo/term/GO:0009953){:target="blank"}. 
-- CC: the cellular component, cell, and/or tissue the function/process take place.
++ MF: substrates ("input"), products ("output"), activators, inhibitors
++ BP: the broader process that the molecular function helps accomplish: cell cycle transition, transcription, signaling pathways, etc. Processes can be nested, i. e., a biological process can be part of another biological process. For example, a signaling pathway can be part of a developmental process, like the [Wnt signaling pathway](https://amigo.geneontology.org/amigo/term/GO:0016055){:target="blank"} is part of [dorsal/ventral pattern formation](https://amigo.geneontology.org/amigo/term/GO:0009953){:target="blank"}. 
++ CC: the cellular component, cell, and/or tissue the function/process take place.
 
-See the ([GO-CAM example](http://model.geneontology.org/5323da1800000002){:target="blank"}) for an illustration.
+See the ([GO-CAM example](http://model.geneontology.org/5323da1800000002){:target="blank"} for an illustration. **REALLY ??????**
 
 The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}.
 
-GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}
-
-<!-- GO annotations: the model of biology. Annotations are statements describing the functions of specific genes, using concepts in the Gene Ontology. The simplest and most common annotation links one gene to one function, e.g. FZD4 + Wnt signaling pathway. Each statement is based on a specified piece of evidence. -->
-
-A GO annotation is a statement about the function of a particular gene. GO annotations are created by associating a gene or gene product with a GO term. Together, these statements comprise a “snapshot” of current biological knowledge. Hence, GO annotations capture statements  about how a gene functions at the molecular level, where in the cell it functions, and what biological processes (pathways, programs) it helps to carry out.
-
-There are four pieces of information that uniquely identify a GO annotation.  Although there are additional components a curator can use to indicate more information, including [relations](/docs/go-annotations/#annotation_relations) and [annotation extensions](/docs/go-annotations/#annotation-extensions), at the very minimum an annotation consists of:
-+ Gene product (may be a protein, RNA, etc.)
-+ GO term
-+ Reference
-+ [Evidence](/docs/guide-go-evidence-codes/)
-
-Different pieces of knowledge regarding gene function may be established to different degrees, which is why each GO annotation always refers to the evidence upon which it is based. All GO annotations are ultimately supported by the scientific literature, either directly or indirectly. The Reference almost always a PMID or [GO Reference (GO_REF)](/gorefs.html). In GO, the supporting evidence is presented in the form of a [GO Evidence Codes](/docs/guide-go-evidence-codes/) and either a published reference or description of the methodology used to create the annotation. The GO evidence codes describe the type of evidence and reflect how far removed the annotated assertion is from direct experimental evidence, and whether this evidence was reviewed by an expert biocurator.
-
-
-<!-- if ok to keep, delete from wiki: http://wiki.geneontology.org/index.php/Introduction_to_Annotation-->
-
-## Semantics of a GO annotation
-Associations of gene products to GO terms are statements that describe
-+ Molecular Function: the molecular activities of individual gene products
-+ Cellular Component: where the gene products are active
-+ Biological Process: the pathways and larger processes to which that gene product's activity contributes
-
-## General principles of GO annotations
-+  Annotations represent the normal functions of gene products.
-+  A gene product can be annotated to zero or more terms from each ontology.
-+  Each annotation is supported by an [GO Evidence Codes](/docs/guide-go-evidence-codes/) from the [Evidence and Conclusions Ontology](http://www.evidenceontology.org/) and a reference.
-+  Gene products are annotated to the most granular term in the ontology that is supported by the available evidence.
-+  By the transitivity principle, an annotation to a GO term implies annotation to all its parents (except for *NOT* annotations, which propagate down the ontology).
-+  GO annotations are meant to reflect the most up-to-date view of a gene product's role in biology.
-+  Because biological knowledge changes, annotations for a given gene product may change to reflect changes in knowledge and/or changes in the ontology.
-+  There is an open-world assumption, that is, if a gene product is unannotated then its role is still unknown.
+GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}  **REALLY ??????**
 
 ## Annotation relations
 
 A specific set of terms from the Relations Ontology (RO), sometimes referred to as 'gp2term' (gene product to term) relations, are used to link gene products to GO terms in standard annotations. The modifer *NOT*, as well as qualifiers like *enables*, *acts upstream of or within , and *enables* are used in the [GAF format](/docs/go-annotation-file-gaf-format-2.2/). For the full list of permitted gp2term relations, see the [GO wiki](https://wiki.geneontology.org/Annotation_Relations#Standard_Annotation_Relations){:target="blank"}. Some of the most common relations are:
-
-### The *NOT* modifier
-
-*NOT* is used when a GO term is expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have lost that function (e.g. sequence analysis showing a loss of an active site or rapid divergence after a duplication event) over the course of evolution. 
-The *NOT* modifier is not to be used for negative or inconclusive experimental results.
-
-Contrary to positive annotations, *NOT* statements propagate down the ontology, such that the annotation `gene product` `NOT|enables` `protein kinase activity` means that the gene product does not enable protein serine/threonine kinase activity or protein tyrosine kinase activity either. Full guidelines for *NOT* are [on the GO wiki](https://wiki.geneontology.org/Elements_of_an_annotation){:target="blank"}.
 
 ### The *enables* relation
 
@@ -104,8 +80,14 @@ Contrary to positive annotations, *NOT* statements propagate down the ontology, 
 ### The *colocalizes_with* relation
 *colocalizes_with* indicates a peripheral association of the protein with an organelle or complex. For example, human microtubule depolymerase KIF2A is dynamically localized to spindle poles, regulating the degradation of microtubule during mitotic progression. 
 
+## The *NOT* modifier
 
-## Types of GO annotation files
+*NOT* is used when a GO term is expected to apply to a gene product, but an experiment, sequence analysis, etc. proves otherwise. *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or it has been shown to have lost that function (e.g. sequence analysis showing a loss of an active site or rapid divergence after a duplication event) over the course of evolution. 
+The *NOT* modifier is not to be used for negative or inconclusive experimental results.
+
+Contrary to positive annotations, *NOT* statements propagate down the ontology, such that the annotation `gene product` `NOT|enables` `protein kinase activity` means that the gene product does not enable protein serine/threonine kinase activity or protein tyrosine kinase activity either. Full guidelines for *NOT* are [on the GO wiki](https://wiki.geneontology.org/Elements_of_an_annotation){:target="blank"}.
+
+## GO annotation files
 * [Gene association file (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
 * [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format-2.0/) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
 
@@ -117,10 +99,8 @@ Contrary to positive annotations, *NOT* statements propagate down the ontology, 
 * Download [GO annotations by species](/docs/download-go-annotations/)
 * Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}
 
-## GO as a dynamic source of biological annotations
-GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates.
-
-With the ever-increasing number of published articles, experiments and methods, covering all biology with the latest annotations is always challenging. We therefore invite researchers and computational scientists to [submit requests for missing, erroneous or out-of-date annotations to improve the GO database](/docs/contributing-to-go/).
+## GO as a dynamic source of biological knowledge
+GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates. With the ever-increasing number of published articles, experiments and methods, covering all biology with the latest annotations is always challenging. We therefore invite researchers and computational scientists to [submit requests for missing, erroneous or out-of-date annotations to improve the GO database](/docs/contributing-to-go/).
 
 ## Statistics
 Overall [GO statistics](https://geneontology.org/stats.html) and [detailed statistics](https://current.geneontology.org/release_stats/index.html) are available. The statistics are also [achived](https://release.geneontology.org/).
