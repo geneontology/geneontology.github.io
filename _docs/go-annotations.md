@@ -11,18 +11,25 @@ redirect_from:
 
 # Introduction to GO annotations
 
-GO annotations come in two flavors: standard GO Annotations and GO-CAM Models.
+GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Models**.
 
 ## Standard GO annotations
-A standard GO annotation is a statement that links a gene product and a GO term. 
+A standard GO annotation is a statement that links a gene product and a GO term. In standard GO annotations, each starement is independent. 
 Standard GO annotations contain minimally: a gene or gene product identifier, a GO term, an evidence code and a reference. 
-Any number of annotations can be made to a gene, in order to fully describe its function or the locations in which it acts. 
+Any number of annotations can be made to a gene, in order to fully describe its function or the location(s) in which it acts. 
 
-Standard GO annotations may further be qualified using annotation extensions that provide additional biological context to a GO term using a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} and a term from GO or an external ontology, e.g. [UBERON](http://uberon.github.io/){:target="blank"}. Further description of annotation extensions can be found in [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
-
+Standard GO annotations may further be qualified using **annotation extensions** that provide additional biological context to a GO term using a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} and a term from GO or an external ontology, e.g. [UBERON](http://uberon.github.io/){:target="blank"}. Further description of annotation extensions can be found in [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
 
 ## GO-Causal Activity Models
-GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple standard GO annotations into larger models of biological function (such as “pathways”) in a semantically structured manner. Minimally, a GO-CAM model must connect at least two standard GO annotations ([GO-CAM example](http://model.geneontology.org/5323da1800000002){:target="blank"}).
+GO-Causal Activity Models (GO-CAMs) provides a system to extend GO annotations with **biological context** as well as **causal connections** between activities. 
+The network representation of GO-CAMs enables pathway visualization and analysis. 
+
+Biological context that is captured for each GO aspects: 
+- MF: substrates ("input"), products ("output"), activators, inhibitors
+- BP: the broader process that the molecular function helps accomplish: cell cycle transition, transcription, signaling pathways, etc. Processes can be nested, i. e., a biological process can be part of another biological process. For example, a signaling pathway can be part of a developmental process, like the [Wnt signaling pathway](https://amigo.geneontology.org/amigo/term/GO:0016055){:target="blank"} is part of [dorsal/ventral pattern formation](https://amigo.geneontology.org/amigo/term/GO:0009953){:target="blank"}. 
+- CC: the cellular component, cell, and/or tissue the function/process take place.
+
+See the ([GO-CAM example](http://model.geneontology.org/5323da1800000002){:target="blank"}) for an illustration.
 
 The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}.
 
