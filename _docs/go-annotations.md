@@ -18,7 +18,7 @@ A standard GO annotation is a statement that links a gene product and a GO term.
 Standard GO annotations contain minimally: a gene or gene product identifier, a GO term, an evidence code and a reference. 
 Any number of annotations can be made to a gene, in order to fully describe its function or the locations in which it acts. 
 
-Standard GO annotations may further be qualified using annotation extensions that provide additional biological context to a GO term using a relation from the [http://www.obofoundry.org/ontology/ro.html Relations Ontology (RO)] and a term from GO or an external ontology, e.g. [http://uberon.github.io/ UBERON]. Further description of annotation extensions can be found in [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
+Standard GO annotations may further be qualified using annotation extensions that provide additional biological context to a GO term using a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} and a term from GO or an external ontology, e.g. [UBERON](http://uberon.github.io/){:target="blank"}. Further description of annotation extensions can be found in [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
 
 
 ## GO-Causal Activity Models
