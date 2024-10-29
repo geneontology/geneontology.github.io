@@ -11,9 +11,9 @@ redirect_from:
 # Page contents 
 + [Standard GO annotations](#standard-go-annotations) 
 + [GO-CAMs](#go-causal-activity-models)
-+ [How to access GO annotation data](#go-annotation-files) 
----
++ [How to access GO annotation data](#go-annotation-files)
 
+---
 # Introduction to GO annotations
 
 GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Models**.
