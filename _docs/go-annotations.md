@@ -14,16 +14,16 @@ redirect_from:
 GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Models**.
 
 ## Standard GO annotations
-+ A standard GO annotation is a statement that links a gene product and a GO term via a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} . In standard GO annotations, each statement is independent. 
++ A standard GO annotation is a statement that links a gene product and a GO term via a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} . In standard GO annotations, each statement is independent; this is a key difference between standard annotations and [GO-CAMs](#go-causal-activity-models). 
 + A standard GO annotation minimally contains:
   + a gene product; may be a protein, an miRNA, a tRNA, etc.
   + a [GO term](/docs/ontology-documentation/)
   + a reference, usually a PMID, but DOIs and [GO Reference (GO_REF)](/gorefs.html) are also used. 
-  + an evidence, using [a GO Evidence Code](/docs/guide-go-evidence-codes/), which describes the type of evidence: experimental evidence, sequence similarity or phylogenetic relation, as well as whether the evidence was reviewed by an expert biocurator. If not, the annotation is described as 'automated'.
+  + an evidence code, using [a GO Evidence Code](/docs/guide-go-evidence-codes/), which describes the type of evidence: experimental evidence, sequence similarity or phylogenetic relation, as well as whether the evidence was reviewed by an expert biocurator. If not manually reviewed, the annotation is described as 'automated'.
 + Any number of annotations can be made to a gene, in order to fully describe its function and the location(s) in which it acts.
 + **Annotation extensions** are used to provide additional biological context to a GO term, using a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} and a term from GO or an external ontology, e.g. [UBERON](http://uberon.github.io/){:target="blank"}. Further description of annotation extensions can be found in tha paper of [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
 
-### Semantics of a GO annotation
+### Semantics of a standard GO annotation
 + Associations of gene products to GO terms are statements that describe:
   + **Molecular Function**: the *normal* molecular activity of a gene product; mutants and roles in disease are outside the scope for GO
   + **Cellular Component**: where the gene product is located when the activity occurs
@@ -33,7 +33,7 @@ GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Mod
 + GO adopts an open-world model, meaning that the absence of an annotation for a specific class does not imply that the gene product lacks that function, is not localized to that cellular component, or is uninvolved in that biological process. Moreover, if a gene product is unannotated, it does not mean that its role is unknown. Genes for which no role has been demonstrated are annotated to the root term (*molecular_function, biological_process, cellular_component*) with the evidence code ND (No Data available). 
 
 ## GO-Causal Activity Models
-+ GO-Causal Activity Models (GO-CAMs) provides a system to extend GO annotations with **biological context** as well as **causal connections** between activities. 
++ GO-Causal Activity Models (GO-CAMs) provide a system to extend GO annotations with **biological context** as well as **causal connections** between activities. 
 + The network representation of GO-CAMs enables pathway visualization and analysis. 
 + The biological context captured for each GO aspects corresponds to: 
   + MF: substrates ("input"), products ("output"), activators, inhibitors
@@ -45,8 +45,8 @@ The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. 
 
 GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}  **REALLY ??????**
 
-## Gene product to term relations ('gp2term' relations)
-+ gp2term relations link gene products to GO terms in standard annotations.
+## Gene product to term relations relations
++ Gene product to term relations ('gp2term') relations link gene products to GO terms in standard annotations.
 + Any of the relations can be associated with the modifer *NOT*. For the full list of permitted gp2term relations, see the [GO wiki](https://wiki.geneontology.org/Annotation_Relations#Standard_Annotation_Relations){:target="blank"}. The most common relations are:
 
 ### *enables*
@@ -78,7 +78,7 @@ GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https:
 
 ## The *NOT* modifier
 
-The NOT statement indicates that the gene product *does not* enable a Molecular Function, is *not part of* a Biological Process or is *not located in* or *active in* a specific Cellular Component. NOT statements are only used when a user might expect that the gene product would have a specific biological property (MF, BP or CC). *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or sequence analysis shows loss of an essential active site or rapid divergence after a duplication event over the course of evolution. The *NOT* modifier is not used for negative or inconclusive experimental results.
+The *NOT* statement indicates that the gene product *does NOT* enable a Molecular Function, is *not part of* a Biological Process or is *not located in* or *active in* a specific Cellular Component. NOT statements are only used when a user might expect that the gene product would have a specific biological property (MF, BP or CC). *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity or sequence analysis shows loss of an essential active site or rapid divergence after a duplication event over the course of evolution. The *NOT* modifier is not used for negative or inconclusive experimental results.
 
 Both positive and NOT statements can be used between a single gene product and a GO term when there is unresolved conflicting experimental findings in the literature. If an isoform has a different function from the main isoform represented by the gene-centric entity, a NOT annotation can be captured together with the isoform identifier.
 
