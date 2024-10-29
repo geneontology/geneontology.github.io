@@ -7,7 +7,7 @@ redirect_from:
 - /GO.downloads.ontology.shtml
 ---
 
-# Download the ontology
+# Gene ontology files
 
 Files are available in the following formats:
   * [OBO 1.4](http://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"}: human- and machine-readable; can be opened in any text editor
@@ -21,7 +21,7 @@ Files are available in the following formats:
 |**go-plus.owl** |		This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes a complete set of relationship types including some not in go.obo/go.owl. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format. | http://purl.obolibrary.org/obo/go/extensions/go-plus.owl | [Download go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
 
 
-### Download GO subsets
+### GO subset files
 GO subsets (also known as GO slims) are condensed versions of the GO containing a subset of the terms. They are specified by tags within the ontology that indicate if a given term is a member of a particular subset. GO subsets are particularly useful for providing a broad overview of the range of functions and processes.  More information can and links for downloading subsets be found on the [Guide to GO subsets](/docs/go-subset-guide/) page.
 
 ## Cross-references of GO to other classification systems
