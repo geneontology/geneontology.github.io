@@ -8,12 +8,14 @@ redirect_from:
 - /page/go-annotation-standard-operating-procedures
 - GO.annotation.conventions.shtml
 ---
+
 # Page contents 
 + [Standard GO annotations](#standard-go-annotations) 
 + [GO-CAMs](#go-causal-activity-models)
 + [How to access GO annotation data](#go-annotation-files)
 
 ---
+
 # Introduction to GO annotations
 
 GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Models**.
@@ -35,7 +37,8 @@ GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Mod
   + **Cellular Component**: where the gene product is located when the activity occurs
 + By the transitivity principle, an annotation to a GO term implies annotation to all its parents (also known as superclasses). 
 + GO annotations are meant to reflect the most up-to-date understanding of a gene product's role. As biological knowledge advances, annotations for a particular gene product may be updated to align with new insights or adjustments in the ontology. 
-+ GO adopts an open-world model, meaning that the absence of an annotation for a specific class does not imply that the gene product lacks that function, is not localized to that cellular component, or is uninvolved in that biological process. Moreover, if a gene product is unannotated, it does not mean that its role is unknown. Genes for which no role has been demonstrated are annotated to the root term (*molecular_function, biological_process, cellular_component*) with the evidence code ND ([No Biological Data available](https://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code)). 
++ GO adopts an open-world model, meaning that the absence of an annotation for a specific class does not imply that the gene product lacks that function, is not localized to that cellular component, or is uninvolved in that biological process. Moreover, if a gene product is unannotated, it does not mean that its role is unknown. Genes for which no role has been demonstrated are annotated to the root term (*molecular_function, biological_process, cellular_component*) with the evidence code ND ([No Biological Data available](https://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code)).
+   
 ---
 ### Gene product to term relations relations
 + Gene product to term relations ('gp2term') relations link gene products to GO terms in standard annotations.
@@ -50,6 +53,7 @@ GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Mod
   + *is active in* links a gene product to the cellular location in which it enables its Molecular Function.
   + *located in* links a gene product and the Cellular Component, specifically a cellular anatomical anatomy or virion component, in which a gene product has been detected. 
   + *part of* links a gene product and a protein-containing complex. 
+
 ---
 ### The *NOT* modifier
 
