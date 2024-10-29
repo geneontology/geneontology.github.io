@@ -10,9 +10,9 @@ redirect_from:
 
 ### What are GO subsets?
  GO subsets (also known as GO slims) are simplified versions of the GO containing a reduced number of terms. There are several types of subsets: 
-+ **Binning**: Binning subsets are intended to be used to summarize the function/processes/cellular components … for sets of genes, including entire genomes/proteomes.
++ **Binning**: Binning subsets are intended to be used to summarize the molecular function/biological processes/cellular components for sets of genes, including entire genomes/proteomes.
 + **Ribbon**: Ribbons are used to give a quick overview of the broad classes of terms annotated for a gene. Ribbon subsets are usually smaller than binning subsets.
-+ **Exclusion List**: Exclusion lists are terms that should not be used for annotations, either because the term is too broad to be useful (for example, "GO:0008152 metabolic process"), or because a more specific term should be used (for example, more specific children of "GO:0048856 anatomical structure development" should be used that describe the actual structure formed).
++ **Exclusion List**: Exclusion lists are terms that should not be used for annotations, either because the term is too broad to be informative (for example, "GO:0008152 metabolic process"), and/or because a more specific term should be used (for example, more specific children of "GO:0048856 anatomical structure development" should be used that describe the actual structure formed).
 
 ### How are GO subsets used?
 
