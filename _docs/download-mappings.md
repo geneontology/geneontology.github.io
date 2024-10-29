@@ -5,13 +5,29 @@ redirect_from: /page/download-mappings
 ---
 
 # Cross-references to external classification systems
-Many Gene Ontology terms are cross-referenced to corresponding concepts from a number of external vocabularies, including Enzyme Commission numbers, KEGG, Reactome Pathways, and Wikipedia. Please report any errors or suggest alternatives to the [GO helpdesk](https://help.geneontology.org/).
 
-## Using and citing cross-references and mappings
+Direct access to the mappings file directory is available here: [https://current.geneontology.org/ontology/external2go/](https://current.geneontology.org/ontology/external2go/).
 
-If you have used a mapping in a publication or presentation, please ensure that you cite both the GO knowledgebase and the source of the mapping (detailed below). See the [GO citation guide](/docs/go-citation-policy/) for citing the GO knowledgebase.
+External classification systems mapped to GO terms: 
 
-## Cross-references format
+|**Database resource** |**Scope**|**Relevant GO aspect(s)**|**Direct access to mapping file(s)**|
+|--------|---------|---------|---------|
+|[Enzyme Commission (EC)](https://enzyme.expasy.org/){:target="blank"}| Reactions| Molecular Function |[ec2go](https://geneontology.org/external2go/ec2go)|
+|[KEGG: Kyoto Encyclopaedia of Genes and Genomes ](http://www.genome.jp/kegg/){:target="blank"} | Reactions |Molecular Function|[kegg_reaction2go](https://geneontology.org/external2go/kegg_reaction2go)|
+|[HAMAP](http://www.expasy.org/sprot/hamap/){:target="blank"} | High-Quality Automated and Manual Annotation of Microbial Proteomes |All aspects | [hamap2go](https://geneontology.org/external2go/hamap2go) |
+|[InterPro](http://www.ebi.ac.uk/interpro/){:target="blank"} | Protein families, domains and functional sites. Ecnompasses contributing databases: [PantherDB](https://www.pantherdb.org/), [PFAM](http://pfam.xfam.org/), [PIRSF](https://proteininformationresource.org/pirsf/), [PRINTS], [PROSITE](https://prosite.expasy.org/) and [SMART](https://smart.embl-heidelberg.de/) |All aspects | [interpro2go](https://geneontology.org/external2go/interpro2go)|
+|[MetaCyc](http://metacyc.org/){:target="blank"} | Pathways and reactions |Molecular Function & Biological Process | [metacyc2go](https://geneontology.org/external2go/metacyc2go)|
+|[Reactome](http://www.reactome.org/){:target="blank"} | Events and catalyst activities|Molecular Function  |[reactome2go](https://geneontology.org/external2go/reactome2go)|
+|[Rfam - RNA families](http://rfam.xfam.org/){:target="blank"}<br>| RNA entities| All aspects| [rfam2go](https://geneontology.org/external2go/rfam2go)|
+|[Rhea](https://www.rhea-db.org/){:target="blank"}| Reactions | Molecular Function|[rhea2go](https://geneontology.org/external2go/rhea2go)|
+|[UM-BBD](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"} | Biocatalysis/Biodegradation Database: enzymes, reactions and pathways |Molecular Function  & Biological Process|[um-bbd_enzymeid2go](https://geneontology.org/external2go/um-bbd_enzymeid2go)<br>[um-bbd_reactionid2go](https://geneontology.org/external2go/um-bbd_reactionid2go)<br>[um-bbd_pathwayid2go](https://geneontology.org/external2go/um-bbd_pathwayid2go)  |
+|[UniProt Keywords](https://www.uniprot.org/keywords/){:target="blank"}| Mapping of GO terms to UniProt Knowledgebase keywords. | All aspects| [uniprotkb_kw2go](https://geneontology.org/external2go/uniprotkb_kw2go)|
+|[UniProt Subcellular location](https://www.uniprot.org/locations/){:target="blank"}| Mapping of GO terms to UniProt Subcellular location terms | Cellular Component| [uniprotkb_sl2go](https://geneontology.org/external2go/uniprotkb_sl2go)|
+|[UniRules](https://www.uniprot.org/help/unirule){:target="blank"}|UniProt Automatic Annotation pipeline| All aspects| [unirule2go](https://geneontology.org/external2go/unirule2go)|
+[Wikipedia](https://www.wikipedia.org/){:target="blank"} | General | All aspects | [wikipedia2go](https://current.geneontology.org/ontology/external2go/wikipedia2go)
+
+
+## Cross-references files format
 
 + Header describing the date generated and the GO release used, for example:
 
@@ -21,61 +37,23 @@ If you have used a mapping in a publication or presentation, please ensure that 
 
      `database:term identifier (id/name) > GO:GO term name ; GO:id`
 
-     For example:
+     For example: `EC:1.1.1.1 > GO:alcohol dehydrogenase (NAD+) activity ; GO:0004022`
 
-     `EC:1.1.1.1 > GO:alcohol dehydrogenase (NAD) activity ; GO:0004022`
+## Mapping types & cardinality
++ Certain types of cross-references to GO mappings can be many-to-many.
++ Cross-references can be one of 4 types: exact, broad, narrow general database cross references
+     + **Exact database cross references**: GO and cross reference object have the same meaning.
+          + Cardinality: 1:1 
+     + **Narrow database cross references**: The concept represented by the cross-reference represents a *narrower* or more specific concept than the GO term.
+          + Cardinality: 1 GO:n narrow cross-references
+     + **Broad database cross references**: The concept represented by the cross-reference represents a *broader* or more general concept than the GO term.
+          + Cardinality: n:n 
+     + **Related database cross references**: The concept represented by the cross-reference is broad in some aspect, narrow in another. 
+          + Cardinality: n:n 
++ Cross references deprecated in the source database should not be included in GO. 
 
- + Note that cross-references to GO mappings can be many-to-many.
+## Using and citing cross-references and mappings
 
-## Mappings file directory
-
-Direct access to the mappings file directory is available here: [https://current.geneontology.org/ontology/external2go/](https://current.geneontology.org/ontology/external2go/).
-
-## Cross-references maintained by the GO Consortium
-
-Those cross-references are maintained by GO editors. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-ontology/issues/new){:target="blank"}.
-
-|**Mapping** |**Entities mapped**|**Direct access to mapping file**|
-|--------|---------|---------|
-|[EC: Enzyme Commission](https://www.qmul.ac.uk/sbcs/iubmb/){:target="blank"}| EC numbers |[ec2go](https://geneontology.org/external2go/ec2go)|
-|[EAWAG-BBD](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"} | Enzymes |[um-bbd_enzymeid2go](https://geneontology.org/external2go/um-bbd_enzymeid2go)|
-|[EAWAG-BBD](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"} | Pathways |[um-bbd_pathwayid2go](https://geneontology.org/external2go/um-bbd_pathwayid2go)|
-|[EAWAG-BBD](http://eawag-bbd.ethz.ch/aboutBBD.html){:target="blank"} | Reactions |[um-bbd_reactionid2go](https://geneontology.org/external2go/um-bbd_reactionid2go)|
-|[KEGG: Kyoto Encyclopaedia of Genes and Genomes ](http://www.genome.jp/kegg/){:target="blank"} | Pathways and reactions  |[kegg_reaction2go](https://geneontology.org/external2go/kegg_reaction2go)|
-|[MetaCyc](http://metacyc.org/){:target="blank"} | Pathways and reactions |[metacyc2go](https://geneontology.org/external2go/metacyc2go)|
-|[Reactome](http://www.reactome.org/){:target="blank"} | Events and catalyst activities |[reactome2go](https://geneontology.org/external2go/reactome2go)|
-|[Rhea](https://www.rhea-db.org/){:target="blank"}|Biochemical reactions |[rhea2go](https://geneontology.org/external2go/rhea2go)|
+If you have used a mapping in a publication or presentation, please ensure that you cite both the GO knowledgebase and the source of the mapping (detailed below). See the [GO citation guide](/docs/go-citation-policy/) for citing the GO knowledgebase.
 
 
-## Cross-references maintained by external groups
-
-Note: Those files are regenerated during the bi-monthly [UniProtKB-GOA release](https://www.ebi.ac.uk/GOA/){:target="blank"}. Please report issues in the [GO GitHub tracker](https://github.com/geneontology/go-annotation/issues/new).
-
-
-|**Mapping** |**Direct access to mapping file**|
-|--------|---------|
-|[HAMAP: High-Quality Automated and Manual Annotation of Microbial Proteomes - Families](http://www.expasy.org/sprot/hamap/){:target="blank"} <br> *Maintainted by the [UniProtKB](https://www.uniprot.org/){:target="blank"} team* <br> [PMID:18849571](http://www.ncbi.nlm.nih.gov/pubmed/18849571){:target="blank"} |[hamap2go](https://geneontology.org/external2go/hamap2go) |
-|[InterPro - Protein families, domains and functional sites](http://www.ebi.ac.uk/interpro/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[interpro2go](https://geneontology.org/external2go/interpro2go)|
-|[Pfam domains](http://pfam.xfam.org/){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"}|[pfam2go](https://geneontology.org/external2go/pfam2go)|
-|[PIRSF - Protein superfamilies](http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"}|[pirsf2go](https://geneontology.org/external2go/pirsf2go)|
-|[PRINTS - Domains](http://www.bioinf.manchester.ac.uk/dbbrowser/PRINTS/){:target="blank"}<br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[pirsf2go](https://geneontology.org/external2go/pirsf2go)|
-|[ProDom - Domains](http://prodom.prabi.fr/prodom/current/html/home.php){:target="blank"} <br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[prodom2go](https://geneontology.org/external2go/prodom2go)|
-|[ProSite - Domains](http://www.expasy.ch/prosite/){:target="blank"}<br>*Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:18940856](http://www.ncbi.nlm.nih.gov/pubmed/18940856){:target="blank"} |[prosite2go](https://geneontology.org/external2go/prosite2go)|
-|[Rfam - RNA families](http://rfam.xfam.org/){:target="blank"}<br>|[rfam2go](http://geneontology.org/external2go/rfam2go)|
-|[SMART - Domains](http://smart.embl-heidelberg.de/){:target="blank"}<br> *Maintainted by the [InterPro](http://www.ebi.ac.uk/interpro/) team* <br>[PMID:29040681](http://www.ncbi.nlm.nih.gov/pubmed/29040681){:target="blank"} |[smart2go](https://geneontology.org/external2go/smart2go)|
-|[UniProt Keywords](https://www.uniprot.org/keywords/)<br>Mapping of GO terms to UniProt Knowledgebase keywords. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} and [UniProtKB-GOA](https://www.ebi.ac.uk/GOA/){:target="blank"}* <br> [PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |[uniprotkb_kw2go](https://geneontology.org/external2go/uniprotkb_kw2go)|
-|[UniProt Subcellular location](https://www.uniprot.org/locations/)<br> Mapping of GO terms to UniProt Subcellular location terms. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} and [UniProtKB-GOA](https://www.ebi.ac.uk/GOA/)*{:target="blank"}<br>[PMID:25378336](https://www.ncbi.nlm.nih.gov/pubmed/25378336){:target="blank"} |[uniprotkb_sl2go](https://geneontology.org/external2go/uniprotkb_sl2go)|
-|[UniRules](https://www.uniprot.org/unirule/)<br> Mapping of GO terms to UniProt Subcellular location terms. <br>*Maintainted by the [UniProt](http://www.uniprot.org/){:target="blank"} team* |[unirule2go](https://geneontology.org/external2go/unirule2go)|
-
-
-## Archived cross-references
-
-|**Mapping** |**Last update** |**Direct access to mapping file**|
-|--------|------------|---------|
-|**COG - Functional categories** <br>[Clusters of Orthologous Groups (COG)](https://www.ncbi.nlm.nih.gov/COG/index.html){:target="blank"}<br> *Constructed by Michael Ashburner and Jane Lomax* |June 2004 |	cog2go|
-|**EGAD: Expressed Gene Anatomy Database** <br> *Constructed by Michael Ashburner* | Oct 2000 | egad2go|
-|**GenProtEC: E. coli Genome and Proteome functional categories** <br>*Constructed by Heather Butler and Michael Ashburner*|Dec 2000 	|genprotec2go|
-|**TIGRFAM: JCVI protein families**<br>[JCVI (TIGRFAM) protein families](https://www.jcvi.org/publications/tigrfams-protein-family-resource-functional-identification-proteins){:target="blank"}<br>*Constructed by Michelle Gwinn and other TIGR staff*| NA |	tigrfams2go|
-|**JCVI roles**<br>[JCVI roles](https://www.jcvi.org/){:target="blank"}<br>  *Constructed by Michael Ashburner*|Jan 2004 	| tigr2go|
-|**MIPS FunCat**<br>[MIPS Functional Catalogue (FunCat)](http://mips.gsf.de/funcatDB/){:target="blank"}<br> *Constructed by Michael Ashburner and Midori Harris*|NA|	mips2go|
-|**MultiFun cell function assignment schema classifications**<br>  *Constructed by Michael Ashburner, Jane Lomax and Margrethe Hauge Serres*|Dec 2005 |	multifun2go|
