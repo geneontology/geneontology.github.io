@@ -32,10 +32,6 @@ Once the GO-CAM unit has been created (MF + BP + CC), these different units can 
 
 The knowledge of biology is constantly evolving, therefore many models are incomplete and details may be added as more information becomes available.
 
-## Noctua Platform to Curate GO-CAMs
-
-To learn more about our curation process, please visit the documentation of the [Noctua Curation Platform](https://wiki.geneontology.org/index.php/Noctua){:target="blank"}.
-
 ## Converting GO-CAMs to standard GO annotations
 
 GO-CAMs can be “decomposed” into the standard GO annotations (connecting a gene product to a single GO term) that they are constructed from. This is accomplished in two ways. The first way is to simply take the GO terms that are connected to a gene product via a defined chain of relations. Specifically, for molecular function annotations, the decomposition starts with the MF (the activity, which is central), and follows the enabled_by edge to the gene product (or complex). For cellular component, it starts with the MF and then traces through enabled_by to get the gene product, and from MF through occurs_in to get the cellular component; biological process is similar except that it traces from MF through part_of to get the biological process (and more than one part_of if the process is nested inside a larger process). The second way is to apply logical reasoning to infer additional GO terms that are not explicitly in the model, but can be inferred from logical definitions (“equivalence axioms”) in the ontology. For instance, if a protein binding activity is enabled by a gene product, and that activity has a directly_regulates relationship to a protein kinase activity, the reasoner can infer that the protein binding activity also meets the definition of the GO term protein kinase activator activity, and that standard annotation will also be made.
