@@ -21,7 +21,7 @@ redirect_from:
 GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Models**.
 
 ### Standard GO annotations
-+ A standard GO annotation is a statement that links a gene product and a GO term via a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"}. In standard GO annotations, each statement is independent; this is a key difference between standard annotations and [GO-CAMs](#go-causal-activity-models). 
++ A standard GO annotation is a statement that links a gene product and a GO term via a relation from the [Relations Ontology (RO)](https://www.ebi.ac.uk/ols4/ontologies/ro){:target="blank"}. In standard GO annotations, each statement is independent; this is a key difference between standard annotations and [GO-CAMs](#go-causal-activity-models). 
 + A standard GO annotation minimally contains:
   + a gene product; may be a protein, an miRNA, a tRNA, etc.
   + a [GO term](/docs/ontology-documentation/)
@@ -35,13 +35,13 @@ GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Mod
   + **Molecular Function**: the *normal* molecular activity of a gene product; mutants and roles in disease are outside the scope for GO
   + **Biological Process**: the pathways and larger processes to which the gene product's activity contributes
   + **Cellular Component**: where the gene product is located when the activity occurs
-+ By the transitivity principle, an annotation to a GO term implies annotation to all its parents (also known as superclasses). 
++ By the transitivity principle, an annotation to a GO term implies annotation to all its *is a* and *part of* parents (also known as superclasses). Details about the ontology structure can be found on the [Gene Ontology overview page](/docs/ontology-documentation/).
 + GO annotations are meant to reflect the most up-to-date understanding of a gene product's role. As biological knowledge advances, annotations for a particular gene product may be updated to align with new insights or adjustments in the ontology. 
 + GO adopts an open-world model, meaning that the absence of an annotation for a specific class does not imply that the gene product lacks that function, is not localized to that cellular component, or is uninvolved in that biological process. Moreover, if a gene product is unannotated, it does not mean that its role is unknown. Genes for which no role has been demonstrated are annotated to the root term (*molecular_function, biological_process, cellular_component*) with the evidence code ND ([No Biological Data available](https://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code)).
    
 ---
 ### Gene product to term relations relations
-+ Gene product to term relations ('gp2term') relations link gene products to GO terms in standard annotations.
++ Gene product to term ('gp2term') relations link gene products to GO terms in standard annotations via a relation from the [Relations Ontology (RO)](https://www.ebi.ac.uk/ols4/ontologies/ro){:target="blank"}..
 + Any of the relations can be associated with the modifer *NOT*. For the full list of permitted gp2term relations, see the [GO wiki](https://wiki.geneontology.org/Annotation_Relations#Standard_Annotation_Relations){:target="blank"}. The most common relations are:
 #### Relations between a gene product and a Molecular Function: 
  + *enables* links a gene product to a Molecular Function it executes. 
@@ -61,7 +61,7 @@ The *NOT* statement indicates that the gene product *does NOT* enable a Molecula
 
 Both positive and NOT statements can be used between a single gene product and a GO term when there is unresolved conflicting experimental findings in the literature. If an isoform has a different function from the main isoform represented by the gene-centric entity, a NOT annotation can be captured together with the isoform identifier.
 
-Contrary to positive annotations, *NOT* statements propagate *down* the ontology to more specific terms, such that the annotation `gene product` `NOT|enables` `protein kinase activity` means that the gene product does not enable `protein kinase activity`, and neither does it enable and more specific functions, such as protein serine/threonine kinase activity and protein tyrosine kinase activity. 
+Contrary to positive annotations, *NOT* statements propagate *down* the ontology to more specific terms, such that the annotation *gene product* *NOT|enables* *protein kinase activity* means that the gene product does not enable *protein kinase activity`* and neither does it enable more specific functions, such as p*rotein serine/threonine kinase activity* and *protein tyrosine kinase activity*. 
 
 ---
 ### GO-Causal Activity Models
@@ -78,6 +78,9 @@ The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. 
 
 #### Browsing and visualizing GO-CAMs
 GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}.
+
+### Annotation Quality Control
+The GOC runs a number of [GO rules](https://github.com/geneontology/go-site/blob/master/metadata/rules/README.md) to ensure data integrity (for example, identifiers must be valid) that the annotations meet the GO curation guidelines. 
 
 ---
 ### GO as a dynamic source of biological knowledge
