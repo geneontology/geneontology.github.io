@@ -5,8 +5,7 @@ redirect_from: /page/download-mappings
 ---
 
 # Cross-references to external classification systems
-
-Direct access to the mappings file directory is available here: [https://current.geneontology.org/ontology/external2go/](https://current.geneontology.org/ontology/external2go/).
+The Gene Ontology (GO) project maps its terms to commonly used bioinformatics resources. These mappings (or "cross-references") help integrate GO annotations with other biological databases and resources, creating a network of information that helps researchers to navigate across data types. 
 
 External classification systems mapped to GO terms: 
 
@@ -25,6 +24,8 @@ External classification systems mapped to GO terms:
 |[UniProt Subcellular location](https://www.uniprot.org/locations/){:target="blank"}| Mapping of GO terms to UniProt Subcellular location terms | Cellular Component| [uniprotkb_sl2go](https://geneontology.org/external2go/uniprotkb_sl2go)|
 |[UniRules](https://www.uniprot.org/help/unirule){:target="blank"}|UniProt Automatic Annotation pipeline| All aspects| [unirule2go](https://geneontology.org/external2go/unirule2go)|
 [Wikipedia](https://www.wikipedia.org/){:target="blank"} | General | All aspects | [wikipedia2go](https://current.geneontology.org/ontology/external2go/wikipedia2go)
+
+Direct access to the mappings file directory is available here: [https://current.geneontology.org/ontology/external2go/](https://current.geneontology.org/ontology/external2go/).
 
 
 ## Cross-references files format
