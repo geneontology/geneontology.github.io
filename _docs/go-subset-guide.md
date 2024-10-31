@@ -6,31 +6,69 @@ redirect_from:
 - GO.slims.shtml
 ---
 
-# Guide to GO subsets
-## About subsets
-##### What are GO subsets?
+# GO subsets
+
+### What are GO subsets?
  GO subsets (also known as GO slims) are simplified versions of the GO containing a reduced number of terms. There are several types of subsets: 
-- Binning: Binning subsets are intended to be used to summarize the function/processes/cellular components … for sets of genes, including entire genomes/proteomes.
-- Ribbon: Ribbons are used to give a quick overview of the broad classes of terms annotated for a gene. Ribbon subsets are usually smaller than binning subsets.
-- Exclusion List: Exclusion lists are terms that should not be used for annotations, either because the term is too broad to be useful (for example, "GO:0008152 metabolic process"), or because a more specific term should be used (for example, either the positive or negative child of "GO:0042325 regulation of phosphorylation" can be used instead). 
++ **Binning**: Binning subsets are intended to be used to summarize the molecular function/biological processes/cellular components for sets of genes, including entire genomes/proteomes.
++ **Ribbon**: Ribbons are used to give a quick overview of the broad classes of terms annotated for a gene. Ribbon subsets are usually smaller than binning subsets.
++ **Exclusion List**: Exclusion lists are terms that should not be used for annotations, either because the term is too broad to be informative (for example, "GO:0008152 metabolic process"), and/or because a more specific term should be used (for example, more specific children of "GO:0048856 anatomical structure development" should be used that describe the actual structure formed).
 
-##### Why might a GO subset be useful?
+### How are GO subsets used?
 
-- GO subsets are particularly useful for providing an overview of the range of functions and processes found in a given clade or organism's genome. Given a coarse grained view of the ontology content without the detail of the specific fine-grained terms, these slims can offer an overall sense of the key biological functions that are vital to an organism. For example, the limited number of opsin genes in bedbugs, or the abundance of kinins in ticks.
-- GO subsets are also useful for addressing specific research needs in particular areas of biology. For instance, if a researcher is only interested in a particular area of biology, perhaps the process of aging or just the nuclear proteome, they can focus solely on the terms under that section of the ontology.
-- GO subsets can also be useful for simplifying searches or annotation operations. By reducing the number of choices a user is presented with their overall efficiency can be improved.
++ GO subsets are particularly useful for providing an overview of the range of functions and processes found in a given clade or organism's genome. Given a coarse grained view of the ontology content without the detail of the specific fine-grained terms, these slims can offer an overall sense of the key biological functions that are vital to an organism. For example, the limited number of opsin genes in bedbugs, or the abundance of kinins in ticks.
++ GO subsets are also useful for addressing specific research needs in particular areas of biology. For instance, if a researcher is specifically interested in the process of development or in the nuclear proteome, subsets allow them to focus solely on the terms under that section of the ontology.
++ GO subsets can also be useful for simplifying searches or annotation operations. By reducing the number of choices a user is presented with their overall efficiency can be improved.
 
-##### Who can create a subset?
-- GO provides a generic subset which, like the GO itself, is not species-specific, and which should be suitable for most purposes. In addition, many model organism-specific subsets have been created by [GO consortium members](/docs/go-consortium/) and are available for download as listed below.
-- Alternatively, users and user communities can create their own GO subsets. Please contact the [GO helpdesk](http://help.geneontology.org/){:target="blank"} for more information about creating and submitting your GO subsets.
+### Who creates GO subset?
++ GO provides a [generic subset](https://current.geneontology.org/ontology/subsets/goslim_generic.obo) which, like the GO itself, is species-agnostic, and which should be suitable for most purposes. In addition, many model organism-specific subsets have been created by [GO consortium members](/docs/go-consortium/) and are available for download as listed below.
++ Users and user communities can create their own GO subsets. Please contact the [GO helpdesk](http://help.geneontology.org/){:target="blank"} for more information about creating and submitting your GO subsets.
 
-##### How are GO subsets maintained?
-- Groups who have created a GO subset are responsible for keeping it up to date as the ontology changes. GO subsets are periodically reviewed to make sure they are relevant, that pertinent new GO terms are added, and that obsolete GO terms are replaced by valid terms to ensure the appropriate grouping of annotations.
+### How are GO subsets maintained?
++ Groups who have created a GO subset are responsible for keeping it up to date as the ontology changes. GO subsets are periodically reviewed to make sure they are relevant, that pertinent new GO terms are added, and that obsolete GO terms are replaced by valid terms to ensure the appropriate grouping of annotations.
 
-## Download GO subsets
-GO subsets are part of the ontology but can also be downloaded as separated files in the [download ontology section](/docs/download-ontology/#subsets).
+### Download GO subsets
++ GO subsets are part of the ontology, under the tag `subset`.
+ +  For example:
+[Term]
+id: GO:0048856
+name: anatomical structure development
+namespace: biological_process
+subset: gocheck_do_not_annotate
+subset: goslim_chembl
+subset: goslim_generic
++ GO subsets can also be downloaded as separated files in the [download ontology section](/docs/download-ontology/#subsets).
 
-## Related tools
++  The files available below for download are generated by script from that file. 
++ [GO subsets](/docs/go-subset-guide/) (slims) are available in OBO. OWL as as well as [JSON](https://github.com/geneontology/obographs/){:target="blank"}; [JSON](https://github.com/geneontology/obographs/){:target="blank"} files should be loaded with [ontobio](https://ontobio.readthedocs.io/en/latest/){:target="blank"}, although they can be opened with any text editor.
+
+|**Subset name**|**Maintainer**|**File name**|**OBO format**|**OWL format**|**json format**|**tsv format**|
+|------------------|-------------|-------------|-------------|------------|-------------|-------------|
+|***A*lliance of *G*enome *R*esources subset**|Developed by GO Consortium for the [Alliance of Genomes Resources](https://www.alliancegenome.org/){:target="blank"} |goslim_agr  |[obo](https://current.geneontology.org/ontology/subsets/goslim_agr.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_agr.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_agr.json){:target="blank"}  | [tsv](https://current.geneontology.org/ontology/subsets/goslim_agr.tsv){:target="blank"}  |
+|**Generic GO subset**|[GO Consortium](https://help.geneontology.org/){:target="blank"} |goslim_generic|[obo](https://current.geneontology.org/ontology/subsets/goslim_generic.obo){:target="blank"} | [owl](https://current.geneontology.org/ontology/subsets/goslim_generic.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_generic.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_generic.tsv){:target="blank"}  |
+|*__Aspergillus__* **subset**|[_Aspergillus_ Genome Data](http://www.aspgd.org/){:target="blank"} |goslim_aspergillus|[obo](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_aspergillus.tsv){:target="blank"}  |
+|*__Candida albicans__* **subset**|[_Candida_ Genome Database](http://www.candidagenome.org/){:target="blank"} |goslim_candida|[obo](https://current.geneontology.org/ontology/subsets/goslim_candida.obo){:target="blank"} |[owl](https://current.geneontology.org/ontology/subsets/goslim_candida.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_candida.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_candida.tsv){:target="blank"}  |
+|*__Drosophila__* **subset**|[FlyBase](http://www.flybase.org/){:target="blank"} |goslim_drosophila|[obo](https://current.geneontology.org/ontology/subsets/goslim_drosophila.obo){:target="blank"} |[owl](https://current.geneontology.org/ontology/subsets/goslim_drosophila.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_drosophila.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_drosophila.tsv){:target="blank"}  |
+|**Chembl Drug Target subset**|[ChEMBL](https://www.ebi.ac.uk/chembl/){:target="blank"} |goslim_chembl|[obo](https://current.geneontology.org/ontology/subsets/goslim_chembl.obo){:target="blank"} |[owl](https://current.geneontology.org/ontology/subsets/goslim_chembl.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_chembl.json){:target="blank"} |[tsv](https://current.geneontology.org/ontology/subsets/goslim_chembl.tsv){:target="blank"} |
+|**Metagenomics subset**|[InterPro](http://www.ebi.ac.uk/interpro/){:target="blank"}  group|goslim_metagenomic|[obo](https://current.geneontology.org/ontology/subsets/goslim_metagenomics.obo){:target="blank"} | [owl](https://current.geneontology.org/ontology/subsets/goslim_metagenomics.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_metagenomics.json){:target="blank"} |[tsv](https://current.geneontology.org/ontology/subsets/goslim_metagenomics.tsv){:target="blank"} |
+|**Mouse GO subset**|[Mouse Genome Informatics](http://www.informatics.jax.org/){:target="blank"} |goslim_mouse|[obo](https://current.geneontology.org/ontology/subsets/goslim_mouse.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_mouse.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_mouse.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_mouse.tsv){:target="blank"}  |
+|**Plant subset**|[The _Arabidopsis_ Information Resource](https://www.arabidopsis.org/){:target="blank"} |goslim_plant|[obo](https://current.geneontology.org/ontology/subsets/goslim_plant.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_plant.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_plant.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_plant.tsv){:target="blank"}  |
+|**Prokaryote subset**|[GO Consortium](https://help.geneontology.org/){:target="blank"} |goslim_prokaryote|[obo](https://current.geneontology.org/ontology/subsets/goslim_prokaryote.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_prokaryote.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_prokaryote.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_prokaryote.tsv){:target="blank"}  |
+|**Protein Information Resource subset**|[PIR](https://proteininformationresource.org/){:target="blank"} |goslim_pir|[obo](https://current.geneontology.org/ontology/subsets/goslim_pir.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_pir.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_pir.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_pir.tsv){:target="blank"}  |
+|*__Schizosaccharomyces pombe__* **subset**|[PomBase](https://www.pombase.org/){:target="blank"} |goslim_pombe|[obo](https://current.geneontology.org/ontology/subsets/goslim_pombe.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_pombe.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_pombe.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_pombe.tsv){:target="blank"}  |
+|**Yeast subset**|[_Saccharomyces_ Genome Database](https://www.yeastgenome.org/){:target="blank"} |goslim_yeast|[obo](https://current.geneontology.org/ontology/subsets/goslim_yeast.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_yeast.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_yeast.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_yeast.tsv){:target="blank"}  |
+
+### GO "*__anti-slims__*"
+
+For internal checking purposes, GO maintains two "anti-slims", terms to which annotations should not be made. "Anti-slim" terms should never be used when creating a subset, and terms that are obsoleted are removed from subsets.
+
+|**Subset name**|**Usage** |**File name** |**OBO format** |**OWL format** |**json format** |**tsv format***
+|------------------|----------|----------|----------|----------|----------|----------|
+|**Do not annotate**|The set of high level terms that are useful for grouping, but should have no direct annotations| gocheck_do_not_annotate |[obo](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.obo){:target="blank"} | [owl](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.json){:target="blank"} |[tsv](https://current.geneontology.org/ontology/subsets/gocheck_do_not_annotate.tsv){:target="blank"} 
+|**Obsoletion candidate**|GO terms planned for obsoletion. This subsets serves as an early warning system both for users and curators | gocheck_obsoletion_candidate | [obo](https://current.geneontology.org/ontology/subsets/gocheck_obsoletion_candidate.obo){:target="blank"} |[owl](https://current.geneontology.org/ontology/subsets/gocheck_obsoletion_candidate.owl){:target="blank"} |[json](https://current.geneontology.org/ontology/subsets/gocheck_obsoletion_candidate.json){:target="blank"} |[tsv](https://current.geneontology.org/ontology/subsets/gocheck_obsoletion_candidate.tsv){:target="blank"} 
+
+
+# Related tools
 - __Map2Slim option in OWLTools__:
 Given a GO subset, a current ontology, and specific gene product associations to precise terms from this current ontology, the Map2Slim script will map these term associations up to their respective broader terms from the GO subset. This script is an option of OWLTools, and it can be used to either create a new gene associations file, which contains the same annotations but made to the subset terms; or in count-mode, in which case it will give distinct gene product counts for each subset term. Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the <a href="https://github.com/owlcollab/owltools/wiki/Map2Slim">OWLTools Wiki</a>{:target="blank"}.
 
