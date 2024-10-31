@@ -5,7 +5,7 @@ redirect_from: /page/download-mappings
 ---
 
 # Cross-references to external classification systems
-The Gene Ontology (GO) project maps its terms to commonly used bioinformatics resources. These mappings (or "cross-references") help integrate GO annotations with other biological databases and resources, creating a network of information that helps researchers to navigate across data types. 
+Gene Ontology terms are mapped to commonly used bioinformatics resources whenver possible. These mappings (or "cross-references") help integrate GO and its annotations annotations with other biological databases and resources, creating a network of information that helps researchers to navigate across data types. 
 
 External classification systems mapped to GO terms: 
 
