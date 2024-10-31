@@ -13,7 +13,7 @@ The Gene Ontology provides a variety of tools to help users browse, search, visu
 
 Drill-down browsing of the GO ontology is possible via an [interactive tree](http://amigo.geneontology.org/amigo/dd_browse){:target="blank"}.
 
-![Browse GO ontology example](/assets/ontology-browse-tree.jpg){:width="450"}
+![Browse GO ontology example](/assets/ontology-browse-tree.jpg){:width="850"}
 
 To browse curated and inferred GO annotations, visit [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"}.
 
@@ -32,7 +32,7 @@ AmiGO supports faceted search to refine queries by restricting specific paramete
 ## Visualize annotations with the GO Ribbon
 Many genes have large numbers of annotations, making it difficult to get a quick overview of a gene function, or the functions of gene sets. The GO ribbon is specifically designed to help users visualize and explore the functions of a gene and was developed as a lightweight, reusable widget that can be embedded in any website, and retrieves data directly from the GO knowledgebase via API.
  
-![GO Ribbon example of SOX9](/assets/Ribbon-sox9-example.jpg){:width="450"}
+![GO Ribbon example of SOX9](/assets/Ribbon-sox9-example.jpg){:width="850"}
 
 Interested to learn more about the GO Ribbon ? [Check the GO Ribbon documentation](/docs/ribbon.html)
 
@@ -65,7 +65,7 @@ The Alliance of Genome Resources Pathway Viewer is integrated in the [Alliance o
 ## Explore co-annotations with the GO Term Matrix
 [The GO Term Matrix](http://amigo.geneontology.org/matrix){:target="blank"} represents co-annotations of pairs of GO terms. It allows to compare multiple pairs of terms simultaneously.
 
-![GO term matrix](/assets/go-term-matrix.jpg){:width="450"}
+![GO term matrix](/assets/go-term-matrix.jpg){:width="850"}
 
 
 ---
