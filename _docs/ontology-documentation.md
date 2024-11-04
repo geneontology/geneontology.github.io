@@ -36,7 +36,7 @@ Each of the three GO aspects is represented by a separate root ontology term. Mo
 # The GO hierarchy
 The GO is structured as a graph in which each GO term is a *node* and the relationships between the nodes are *edges*. GO is hierarchical, with *child* terms being more specialized than their *parent* terms, but unlike a strict hierarchy, a term may have more than one parent term (note that the parent/child model does not hold true for all types of relations, see the [relations documentation](/docs/ontology-relations/)). For example, the biological process term [hexose biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0019319){:target="blank"} has two parents, [hexose metabolic process](http://amigo.geneontology.org/amigo/term/GO:0019318){:target="blank"} and [monosaccharide biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0046364){:target="blank"}. This reflects the fact that *biosynthetic process* is a subtype of *metabolic process* and a *hexose* is a subtype of *monosaccharide*.
 
-<img src="/assets/hexose-biosynthetic-process.png" height="250" />
+<img src="/assets/hexose-biosynthetic-process.png" width="250" height="250" />
 
 # GO term elements
 
