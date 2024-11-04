@@ -22,7 +22,7 @@ GO was the first of the [hundreds of biomedical ontologies](https://obofoundry.o
 
 ### The GO consists of:
 
-+ The **[GO ontology](/docs/ontology-documentation/)**: the logical structure describing the full complexity of the biology, comprising the 'classes' (often referred to as ‘terms’) describing the many different types of molecular functions, the pathways carrying out different biological programs, and the cellular locations where these occur. The GO is structured by relating each class to other classes using specific [relations](/docs/ontology-relations.md).
++ The **[GO ontology](/docs/ontology-documentation/)**: the logical structure describing the full complexity of the biology, comprising the 'classes' (often referred to as ‘terms’) describing the many different types of molecular functions (Molecular Function), the pathways carrying out different biological programs (Biological Process), and the cellular locations where these occur (Cellular Component). The GO is structured by relating each class to other classes using specific [relations](/docs/ontology-relations.md).
 + The corpus of **[GO annotations](/docs/go-annotations/)**: the traceable (i. e., associated with scientific articles), [evidence-based](/docs/guide-go-evidence-codes/) statements relating a specific gene product to a specific ontology term. The set of all GO annotations associated with a gene provides a description of its biological role. As of October 2024, the GO includes experimental findings from over [180,000 published papers](https://www.ncbi.nlm.nih.gov/pubmed/?term=loprovGeneOntol[SB]){:target="blank"}, representing over 1,000,000 experimentally-supported annotations. 
 
 Together, the ontology and annotations provide a comprehensive model of biological systems.
