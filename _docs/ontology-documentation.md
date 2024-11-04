@@ -37,13 +37,8 @@ Each of the three GO aspects is represented by a separate root ontology term. Mo
 
 ----
 
-# The GO hierarchy
-The GO is structured as a graph in which each GO term is a *node* and the relationships between the nodes are *edges*. GO is hierarchical, with *child* terms being more specialized than their *parent* terms, but unlike a strict hierarchy, a term may have more than one parent term (note that the parent/child model does not hold true for all types of relations, see the [relations documentation](/docs/ontology-relations/)). For example, the biological process term [hexose biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0019319){:target="blank"} has two parents, [hexose metabolic process](http://amigo.geneontology.org/amigo/term/GO:0019318){:target="blank"} and [monosaccharide biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0046364){:target="blank"}. This reflects the fact that *biosynthetic process* is a subtype of *metabolic process* and a *hexose* is a subtype of *monosaccharide*.
-
-<img src="/assets/hexose-biosynthetic-process.png" width="450" height="450" />
-
 # GO term elements
-The different elements of a GO term are show in the image below (screen shot from the [AmiGO GO browser](https://amigo.geneontology.org/amigo/landing)). 
+The different elements of a GO term are show in the image below (screen shot from the [AmiGO GO browser](https://amigo.geneontology.org/amigo/landing)){:target="blank"}. 
  
 <img src="/assets/GO_term.png" width="950" height="450" />
 
@@ -58,7 +53,7 @@ Denotes which of the three sub-ontologies (MF, CC or BP) the term belongs to. Wr
 A textual description of what the term represents, plus reference(s) to the source of the information. 
 
 ### Relationships to other terms
-How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an *is a* sub-class relationship to another term. The Gene Ontology employs a number of other relations; the [relations documentation page](/docs/ontology-relations/) describes the relations used in the ontology.
+How the term relates to other terms in the ontology. All terms (other than the root terms representing each aspect, above) have an *is a* sub-class relationship to another term. The Gene Ontology employs a number of other relations; the [relations documentation page](/docs/ontology-relations/) describes the relations used in the ontology. The GO hierarchy (see below) is built from these relations.
 
 ## Optional elements
 ### Secondary IDs (also known as Alternate ID)
@@ -84,6 +79,13 @@ Indicates that the term belongs to a [GO subset](/docs/go-subset-guide/).
 
 ### Obsolete tag
 Boolean value that indicates that the term has been deprecated and should not be used. A GO term is obsoleted when it is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term detailing the reason for the obsoletion and replacement terms are suggested whenever possible. 
+
+----
+
+# The GO hierarchy
+The GO is structured as a graph in which each GO term is a *node* and the relationships between the nodes are *edges*. GO is hierarchical, with *child* terms being more specialized than their *parent* terms, but unlike a strict hierarchy, a term may have more than one parent term (note that the parent/child model does not hold true for all types of relations, see the [relations documentation](/docs/ontology-relations/)). For example, the biological process term [hexose biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0019319){:target="blank"} has two parents, [hexose metabolic process](http://amigo.geneontology.org/amigo/term/GO:0019318){:target="blank"} and [monosaccharide biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0046364){:target="blank"}. This reflects the fact that *biosynthetic process* is a subtype of *metabolic process* and a *hexose* is a subtype of *monosaccharide*.
+
+<img src="/assets/hexose-biosynthetic-process.png" width="450" height="450" />
 
 ----
 
