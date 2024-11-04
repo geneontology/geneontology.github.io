@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 # Gene Ontology overview
-The Gene Ontology (GO) is a structured, standardized representation of biological knowledge. GO descibes concepts (also known as terms, or formally, *classes*) that are connected to each other via formally defined [relations](/docs/ontology-relations/). Elements of GO terms are described [here](/docs/ontology/). The GO is designed to be species-agnostic, to enable the annotation of gene products across the entire tree of life. The computational framework of the GO enables consistent genes annotation, comparison of functions across organisms, and integration of knowledge across diverse biological databases. 
+The Gene Ontology (GO) is a structured, standardized representation of biological knowledge. GO descibes concepts (also known as terms, or formally, *classes*) that are connected to each other via formally defined [relations](/docs/ontology-relations/). The GO is designed to be species-agnostic, to enable the annotation of gene products across the entire tree of life. The computational framework of the GO enables consistent genes annotation, comparison of functions across organisms, and integration of knowledge across diverse biological databases. 
 
 # GO aspects
 The GO is organized in three *aspects*, Molecular Function (MF), Cellular Component (CC) and Biological Process (BP). 
