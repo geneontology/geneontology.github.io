@@ -39,6 +39,9 @@ The GO is structured as a graph in which each GO term is a *node* and the relati
 <img src="/assets/hexose-biosynthetic-process.png" width="450" height="450" />
 
 # GO term elements
+The different elements of a GO term are show in the image below (screen shot from the [AmiGO GO browser](https://amigo.geneontology.org/amigo/landing)). 
+ 
+<img src="/assets/GO_term.png" width="450" height="450" />
 
 ## Mandatory elements
 ### Unique identifier and term name 
@@ -59,10 +62,10 @@ Secondary IDs come about when two or more terms are identical in meaning, and ar
 
 ### Synonyms
 Alternative words or phrases closely related in meaning to the term name, with indication of the relationship between the name and synonym given by the synonym scope. The scopes for GO synonyms are:
-+ **Exact**: an exact equivalent; interchangeable with the term name; for e.g. ornithine cycle is an exact synonym of urea cycle 
-+ **Broad**: the synonym is broader than the term name; for e.g. cell division is a broad synonym of cytokinesis 
-+ **Narrow**: the synonym is narrower or more precise than the term name; for e.g. pyrimidine-dimer repair by photolyase is a narrow synonym of photoreactive repair
-+ **Related**: the terms are related in some imprecise way; for e.g. cytochrome bc1 complex is a related synonym of ubiquinol-cytochrome-c reductase activity virulence is a related synonym of pathogenesis 
++ **Exact**: an exact equivalent; interchangeable with the term name; for e.g. *ornithine cycle* is an exact synonym of *urea cycle *
++ **Broad**: the synonym is broader than the term name; for e.g. *cell division* is a broad synonym of *cytokinesis* 
++ **Narrow**: the synonym is narrower or more precise than the term name; for e.g. *pyrimidine-dimer repair by photolyase* is a narrow synonym of *photoreactive repair*
++ **Related**: the terms are related in some imprecise way; for e.g. *cytochrome bc1 complex* is a related synonym of *ubiquinol-cytochrome-c reductase activity*; *virulence* is a related synonym of *pathogenesis*.
 
 Custom synonym types are also used in the ontology. For example, a number of synonyms are designated as systematic synonyms; synonyms of this type are exact synonyms of the term name.
 
@@ -82,7 +85,8 @@ Boolean value that indicates that the term has been deprecated and should not be
 GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates.  Revisions to the ontology are managed by a team of editors with broad biological knowledge and expertise in computational knowledge representation. GO updates are made collaboratively between the GOC ontology team and scientists who request the updates. Most requests come from scientists making GO annotations (these typically impact only a few terms each), and from domain experts in particular areas of biology (these typically revise an entire ‘branch’ of the ontology comprising many terms and relations). Changes to the ontology can be visualized on the [GO statistics](/stats.html) page. We welcome researchers and computational scientists to [submit requests for either new terms, new relations, or any other improvements to the ontology](/docs/contributing-to-go-terms/).
 
 ## More information about the ontology
-* [GO term elements](/docs/ontology/): Description of the format of GO terms.
+* [GO subset](/docs/go-subset-guide/)
 * [Ontology relations](/docs/ontology-relations/): Documentation on the inter-term relations used in GO.
-* [Taxon constraints](/docs/taxon-constraints/): Documentation on how annotations of certain terms are restricted to specific species. 
+* [Taxon constraints](/docs/taxon-constraints/): Documentation on how annotations of certain terms are restricted to specific species.
+* [GO cross-references documentation](/docs/download-mappings.md) guide.
 
