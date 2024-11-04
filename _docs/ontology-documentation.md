@@ -45,7 +45,7 @@ The GO is structured as a graph in which each GO term is a *node* and the relati
 # GO term elements
 The different elements of a GO term are show in the image below (screen shot from the [AmiGO GO browser](https://amigo.geneontology.org/amigo/landing)). 
  
-<img src="/assets/GO_term.png" width="450" height="450" />
+<img src="/assets/GO_term.png" width="950" height="450" />
 
 ## Mandatory elements
 ### Unique identifier and term name 
