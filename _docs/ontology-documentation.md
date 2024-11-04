@@ -15,6 +15,8 @@ redirect_from:
 # Gene Ontology overview
 The Gene Ontology (GO) is a structured, standardized representation of biological knowledge. GO descibes concepts (also known as terms, or formally, *classes*) that are connected to each other via formally defined [relations](/docs/ontology-relations/). The GO is designed to be species-agnostic, to enable the annotation of gene products across the entire tree of life. The computational framework of the GO enables consistent genes annotation, comparison of functions across organisms, and integration of knowledge across diverse biological databases. 
 
+----
+
 # GO aspects
 The GO is organized in three *aspects*, Molecular Function (MF), Cellular Component (CC) and Biological Process (BP). 
 ### Molecular Function
@@ -32,6 +34,8 @@ CC serves to capture the cellular location where a molecular function takes plac
 BPs are the larger processes or ‘biological programs’ accomplished by the concerted action of multiple molecular activities. Examples of broad BP terms are *[DNA repair](http://amigo.geneontology.org/amigo/term/GO:0006281){:target="blank"}* or *[signal transduction](http://amigo.geneontology.org/amigo/term/GO:0007165){:target="blank"}*. Examples of more specific terms are *[cytosine biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0046089){:target="blank"}* or *[D-glucose transmembrane transport](http://amigo.geneontology.org/amigo/term/GO:1904659){:target="blank"}*. 
 
 Each of the three GO aspects is represented by a separate root ontology term. Moreover, the three GO aspects are *is a disjoint*, meaning that no *is a* relation exists between terms from the different ontology aspects. However, other relationships such as *part of* and *occurs in* can operate between terms from different GO aspects. For example, the MF term *[cyclin-dependent protein kinase activity](http://amigo.geneontology.org/amigo/term/GO:0097472){:target="blank"}* is *part of* the BP *[regulation of cell cycle](http://amigo.geneontology.org/amigo/term/GO:0051726){:target="blank"}*.
+
+----
 
 # The GO hierarchy
 The GO is structured as a graph in which each GO term is a *node* and the relationships between the nodes are *edges*. GO is hierarchical, with *child* terms being more specialized than their *parent* terms, but unlike a strict hierarchy, a term may have more than one parent term (note that the parent/child model does not hold true for all types of relations, see the [relations documentation](/docs/ontology-relations/)). For example, the biological process term [hexose biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0019319){:target="blank"} has two parents, [hexose metabolic process](http://amigo.geneontology.org/amigo/term/GO:0019318){:target="blank"} and [monosaccharide biosynthetic process](http://amigo.geneontology.org/amigo/term/GO:0046364){:target="blank"}. This reflects the fact that *biosynthetic process* is a subtype of *metabolic process* and a *hexose* is a subtype of *monosaccharide*.
@@ -81,10 +85,12 @@ Indicates that the term belongs to a [GO subset](/docs/go-subset-guide/).
 ### Obsolete tag
 Boolean value that indicates that the term has been deprecated and should not be used. A GO term is obsoleted when it is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term detailing the reason for the obsoletion and replacement terms are suggested whenever possible. 
 
+----
+
 # GO is a dynamic ontology
 GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates.  Revisions to the ontology are managed by a team of editors with broad biological knowledge and expertise in computational knowledge representation. GO updates are made collaboratively between the GOC ontology team and scientists who request the updates. Most requests come from scientists making GO annotations (these typically impact only a few terms each), and from domain experts in particular areas of biology (these typically revise an entire ‘branch’ of the ontology comprising many terms and relations). Changes to the ontology can be visualized on the [GO statistics](/stats.html) page. We welcome researchers and computational scientists to [submit requests for either new terms, new relations, or any other improvements to the ontology](/docs/contributing-to-go-terms/).
 
-## More information about the ontology
+# More information about the ontology
 * [GO subset](/docs/go-subset-guide/)
 * [Ontology relations](/docs/ontology-relations/): Documentation on the inter-term relations used in GO.
 * [Taxon constraints](/docs/taxon-constraints/): Documentation on how annotations of certain terms are restricted to specific species.
