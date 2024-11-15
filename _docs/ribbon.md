@@ -52,8 +52,6 @@ The GO Ribbon is designed to provide a visual summary and a simpler way to navig
 
 
 
-As an example, the [GO COVID-19 page](/covid-19.html) illustrates how both the Ribbon and enrichment analysis can be used together.
-
 ## Other ways to access GO Ribbons
 GO Ribbons specifically for eukaryotic cellular processes, plants, and prokaryotes are available on the [QuickGO slimming page](https://www.ebi.ac.uk/QuickGO/slimming){:target="blank"}, as is a FlyBase-specific ribbon. To access these, click the "Explore biology" box on the [QuickGO home page](https://www.ebi.ac.uk/QuickGO/). Select a ribbon in the dropdown and click the "Add terms to selection" button, then Apply. You can filter the resulting GO annotations by IDs, taxon, and more.
 
