@@ -10,10 +10,19 @@ redirect_from:
 ---
 
 # Page contents 
-+ [Standard GO annotations](#standard-go-annotations) 
++ [Standard GO annotations](#standard-go-annotations)
+  + [Semantics of a standard GO annotation](#Semantics-of-a-standard-GO-annotation)
+  + [Gene product to term relations](#Gene-product-to-term-relations)
+  + [The *NOT* modifier](#The-*NOT*-modifier)
 + [GO-CAMs](#go-causal-activity-models)
-+ [How to access GO annotation data](#go-annotation-files)
-
+  + [GO-CAM data model](#GO-CAM-data-model)
+  + [Browsing and visualizing GO-CAMs](#Browsing-and-visualizing-GO-CAMs)
++ [Annotation Quality Control](Annotation-Quality-Control)
++ [GO as a dynamic source of biological knowledge](#GO-as-a-dynamic-source-of-biological-knowledge)
++ [GO annotation statistics](#GO-annotation-statistics)
++ How to access GO annotation data
+  + [Download GO annotation files](#go-annotation-files)
+  + [GO annotation file formats](#GO-annotation-file-formats)
 ---
 
 # Introduction to GO annotations
@@ -40,7 +49,7 @@ GO annotations come in two flavors: **standard GO annotations** and **GO-CAM Mod
 + GO adopts an open-world model, meaning that the absence of an annotation for a specific class does not imply that the gene product lacks that function, is not localized to that cellular component, or is uninvolved in that biological process. Moreover, if a gene product is unannotated, it does not mean that its role is unknown. Genes for which no role has been demonstrated are annotated to the root term (*molecular_function, biological_process, cellular_component*) with the evidence code ND ([No Biological Data available](https://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code)).
    
 ---
-### Gene product to term relations relations
+### Gene product to term relations
 + Gene product to term ('gp2term') relations link gene products to GO terms in standard annotations via a relation from the [Relations Ontology (RO)](https://www.ebi.ac.uk/ols4/ontologies/ro){:target="blank"}..
 + Any of the relations can be associated with the modifer *NOT*. For the full list of permitted gp2term relations, see the [GO wiki](https://wiki.geneontology.org/Annotation_Relations#Standard_Annotation_Relations){:target="blank"}. The most common relations are:
 #### Relations between a gene product and a Molecular Function: 
@@ -87,20 +96,21 @@ The GOC runs a number of [GO rules](https://github.com/geneontology/go-site/blob
 GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates. With the ever-increasing number of published articles, experiments and methods, covering all biology with the latest annotations is always challenging. We therefore invite researchers and computational scientists to [submit requests for missing, erroneous or out-of-date annotations to improve the GO database](/docs/contributing-to-go/).
 
 ---
-### Statistics
+### GO annotation statistics
 Overall [GO statistics](https://geneontology.org/stats.html) and [detailed statistics](https://current.geneontology.org/release_stats/index.html) are available. The statistics are also [achived](https://release.geneontology.org/).
 
 ---
 ### GO annotation files
+* Download [GO annotations by species](/docs/download-go-annotations/)
+* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}
+
+---
+### GO annotation file formats
 * [Gene association file (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
 * [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format-2.0/) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
 
 * *(Deprecated)* [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
 * *(Deprecated)* [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
 * *(Currently being deprecated)* [Gene Product Association Data (GPAD) 1.1/1.2 files](/docs/gene-product-association-data-gpad-format-1.1/) + [Gene Product Information (GPI) 1.2 files](/docs/gene-product-information-gpi-format/): companion files
-
-### Downloads
-* Download [GO annotations by species](/docs/download-go-annotations/)
-* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}
 
 
