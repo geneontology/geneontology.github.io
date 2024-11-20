@@ -80,7 +80,8 @@ Contrary to positive annotations, *NOT* statements propagate *down* the ontology
   + **Molecular Function**: substrates ("input"), products ("output"), activators, inhibitors
   + **Biological Process**: the broader process that the molecular function helps accomplish: cell cycle transition, transcription, signaling pathways, etc. Processes can be nested, i. e., a biological process can be part of another biological process. For example, a signaling pathway can be part of a developmental process, like the [Wnt signaling pathway](https://amigo.geneontology.org/amigo/term/GO:0016055){:target="blank"} is part of [dorsal/ventral pattern formation](https://amigo.geneontology.org/amigo/term/GO:0009953){:target="blank"}. 
   + **Cellular Component**: the cellular component, cell, and/or tissue the function/process take place.
-+ See the [GO-CAM example]([http://model.geneontology.org/](https://model.geneontology.org/5323da1800000002){:target="blank"} for an illustration. 
++ See the [GO-CAM example](https://amigo.geneontology.org/amigo/model/662af8fa00002877) for an illustration.
+
 
 #### GO-CAM data model
 The primary unit of biological modeling in GO-CAM is a molecular activity, e.g. protein kinase activity, of a specific gene product or complex. A molecular activity is an activity carried out at the molecular level by a gene product; this is specified by a term from the GO MF ontology. GO-CAM models are thus connections of GO MF annotations enriched by providing the appropriate context in which that function occurs. All connections in a GO-CAM model, e.g. between a gene product and activity, two activities, or an activity and additional contextual information, are made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}. A more complete dscription of GO-CAM can be found in [Thomas & al 2019](https://www.ncbi.nlm.nih.gov/pubmed/31548717){:target="blank"}.
