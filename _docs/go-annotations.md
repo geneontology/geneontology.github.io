@@ -101,7 +101,7 @@ GO aims to represent the current state of knowledge in biology, hence it is cons
 Overall [GO statistics](https://geneontology.org/stats.html) and [detailed statistics](https://current.geneontology.org/release_stats/index.html) are available. The statistics are also [achived](https://release.geneontology.org/).
 
 ---
-### GO annotation files
+### Downloading GO annotation files
 * Download [GO annotations by species](/docs/download-go-annotations/)
 * Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}
 
@@ -110,8 +110,6 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 * [Gene association file (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
 * [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format-2.0/) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
 
-* *(Deprecated)* [Gene association file (GAF) 2.1](/docs/go-annotation-file-gaf-format-2.1/)
-* *(Deprecated)* [Gene association file (GAF) 2.0](/docs/go-annotation-file-gaf-format-2.0/)
-* *(Currently being deprecated)* [Gene Product Association Data (GPAD) 1.1/1.2 files](/docs/gene-product-association-data-gpad-format-1.1/) + [Gene Product Information (GPI) 1.2 files](/docs/gene-product-information-gpi-format/): companion files
+* For other file formats, see [GO archives](/docs/go-archives.md#Deprecated-Annotation-formats)
 
 
