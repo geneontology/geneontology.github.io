@@ -70,7 +70,7 @@ The *NOT* statement indicates that the gene product *does NOT* enable a Molecula
 
 Both positive and NOT statements can be used between a single gene product and a GO term when there is unresolved conflicting experimental findings in the literature. If an isoform has a different function from the main isoform represented by the gene-centric entity, a NOT annotation can be captured together with the isoform identifier.
 
-Contrary to positive annotations, *NOT* statements propagate *down* the ontology to more specific terms, such that the annotation *gene product* *NOT|enables* *protein kinase activity* means that the gene product does not enable *protein kinase activity`* and neither does it enable more specific functions, such as p*rotein serine/threonine kinase activity* and *protein tyrosine kinase activity*. 
+Contrary to positive annotations, *NOT* statements propagate *down* the ontology to more specific terms, such that the annotation *gene product* *NOT enables* *protein kinase activity* means that the gene product does not enable *protein kinase activity`* and neither does it enable more specific functions, such as p*rotein serine/threonine kinase activity* and *protein tyrosine kinase activity*. 
 
 ---
 ### GO-Causal Activity Models
@@ -106,9 +106,8 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 ---
 ### Downloading GO annotation files
 * Download [GO annotations by species](/docs/download-go-annotations/)
-<! --
-* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}
--->
+<!--
+* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}-->
 
 ---
 ### GO annotation file formats
