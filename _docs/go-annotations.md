@@ -106,8 +106,7 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 ---
 ### Downloading GO annotation files
 * Download [GO annotations by species](/docs/download-go-annotations/)
-<!--
-* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"}-->
+<!--* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"} /-->
 
 ---
 ### GO annotation file formats
