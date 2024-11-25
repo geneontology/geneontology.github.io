@@ -49,7 +49,7 @@ Leaders of key contributing resources.
 - __Reactome__
   - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
 - __TAIR__
-  - [Eva Huala](https://orcid.org/0000-0003-4631-7241){:target="blank"}, Phoenix Bioinformatics
+  - [Tanya Berardini](https://orcid.org/0000-0002-3837-8864){:target="blank"}, Phoenix Bioinformatics
 - __UniProt__
   - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
   - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, Swiss Institute of Bioinformatics
