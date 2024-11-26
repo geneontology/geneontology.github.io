@@ -83,17 +83,17 @@ Leaders of key contributing resources.
 | Antonia	Lock | A.	MacDougall | Michele	Magrane | Marios Makris | Steven J. Marygold |
 | Patrick	Masson | Lisa	Matthews | Bruce	May | J.	Mendel | | 
 | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato | Lisa Moore | Sierra	Moxon |
-| Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama | S.	Nadendla | Rob	Nash |
+| Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama | Suvarna Nadendla | Rob	Nash |
 | Darren A.	Natale | Li	Ni | Ivo	Pedruzzi | Livia	Perfetto | Christian	Pich |
 | Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel | Federica Quaglia |
-| D.	Raciti | Sridhar Ramachandran | Jolene Ramsey | N.D.	Rawlings | Leonore	Reiser |
+| Daniela	Raciti | Sridhar Ramachandran | Jolene Ramsey | N.D.	Rawlings | Leonore	Reiser |
 | Catherine	Rivoire | Curtis Ross | Kim	Rutherford | Leyla	Ruzicka | Edoardo Salladini |
 | A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper | Matt	Simison | Amy	Singer | 
 | Dmitry	Sitnikov | Victor B. Strelets | Shabari	Subramaniam | Shyamala Sundaram | | 
-| Christopher J. Tabone | R.	Tauber | Jim Thurmond | Silvio Tosatto | V.	Trovisco |
+| Christopher J. Tabone | Rebecca	Tauber | Jim Thurmond | Silvio Tosatto | V.	Trovisco |
 | Marek Tutaj | N.	Tyagi | Ceri	Van Slyke | Mahima Vedi | Shur-Jen Wang |
 | K.	Warner | Shuai	Weng | Edith D.	Wong | Cathy	Wu |	Z.	Xie |
-| Qianhan Xu | L.-S.	Yeh | R.	Zaru | Pinglei Zhou |
+| Qianhan Xu | L.-S.	Yeh | Rossana	Zaru | Pinglei Zhou |
 
 ## GO contributors *emeriti*
 
