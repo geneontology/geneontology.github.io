@@ -63,8 +63,8 @@ Leaders of key contributing resources.
 
 | --- | --- | --- | --- |
 | Giulia	Antonazzo | Ghislaine	Argoud-Puy | Cecilia	Arighi | Helen	Attrill | Andrea	Auchincloss |
-| Kristian	Axelsen | Erica	Bakker | Richard	Baldarelli | James P.	Balhoff | Siddhartha	Basu |
-|  | Tanya	Berardini | Marie-Claude	Blatter | C.	Bonilla | Emmanuel	Boutet |
+| Kristian	Axelsen | Erica	Bakker | Richard	Baldarelli | James P.	Balhoff | Sucharitha Balu | 
+| Siddhartha	Basu |  Tanya	Berardini | Marie-Claude	Blatter | C.	Bonilla | Emmanuel	Boutet |
 | Yvonne	Bradford | Lionel	Breuza |   | Cristina	Casals | Juancarlos	Chan |
 | H.Y.	Chang | J. Cho | Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani |
 | Elisabeth	Coudert |  | Jeff De Pons | Alex	Diehl | Robert J.	Dodson |
@@ -74,16 +74,16 @@ Leaders of key contributing resources.
 | Matt Gage | Sibyl	Gao | Phani	Garapati | Michelle	Giglio |   |
 | Josh L. Goodman | Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski |  |
 | Nomi L.	Harris | M.C.	Harrison | E.	Hartline |   | G. Thomas Hayman |
-| A.	Holmes | Doug	Howe | Siyao Huang | Xiaosong	Huang | | 
-| Chantal	Hulo | H.	Hye-A-Bye | Alexandr Ignatchenko | T.E.M.	Jones | Florence	Jungo |
+| A.	Holmes | Doug	Howe | Siyao Huang | Xiaosong	Huang | Chantal	Hulo | 
+|  H.	Hye-A-Bye | Alexandr Ignatchenko | T.E.M.	Jones | Florence	Jungo | Dushyanth Jyothi | 
 | Mary Kaldunski | Patrick	Kalita | Kati	Laiho | Colin Logie | Ruth Lovering | 
 |  Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | | 
 | Antonia	Lock |  | Michele	Magrane | Marios Makris | Steven J. Marygold |
-| Patrick	Masson | Lisa	Matthews | Bruce	May | J.	Mendel | | 
+| Patrick	Masson | Lisa	Matthews | Bruce	May | J.	Mendel | Juan Jose Medina | 
 | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato | Lisa Moore | Sierra	Moxon |
 | Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama | Suvarna Nadendla | Rob	Nash |
-| Darren A.	Natale | Li	Ni | Ivo	Pedruzzi |  Christian	Pich |  D.	Poggioli | 
-| Pablo	Porras | S.	Poudel |  | |  | 
+| Darren A.	Natale | Li	Ni | Kalpana Panneerselvam | Ivo	Pedruzzi |  Christian	Pich |  
+| D.	Poggioli | Pablo	Porras | S.	Poudel | |  | 
 | Daniela	Raciti | Sridhar Ramachandran | Jolene Ramsey | N.D.	Rawlings | Leonore	Reiser |
 | Catherine	Rivoire | Curtis Ross | Kim	Rutherford | Leyla	Ruzicka | Edoardo Salladini |
 | A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper | Matt	Simison | Amy	Singer | 
