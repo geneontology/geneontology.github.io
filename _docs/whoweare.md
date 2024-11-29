@@ -36,9 +36,7 @@ Leaders of key contributing resources.
   - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
 - __FlyBase__
   - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
-- __Functional Gene Annotation Initiative__
-  - [Ruth C.	Lovering](https://iris.ucl.ac.uk/iris/browse/profile?upi=RCLOV36){:target="blank"}, University College London
-- __InterPro__
+-- __InterPro__
   - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
 - __MGI__
   - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
@@ -78,8 +76,8 @@ Leaders of key contributing resources.
 | Nomi L.	Harris | M.C.	Harrison | E.	Hartline |   | G. Thomas Hayman |
 | A.	Holmes | Doug	Howe | Siyao Huang | Xiaosong	Huang | | 
 | Chantal	Hulo | H.	Hye-A-Bye | Alexandr Ignatchenko | T.E.M.	Jones | Florence	Jungo |
-| Mary Kaldunski | Patrick	Kalita | | Kati	Laiho | | | 
-| Colin Logie | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr |
+| Mary Kaldunski | Patrick	Kalita | Kati	Laiho | Colin Logie | Ruth Lovering | 
+|  Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr | | 
 | Antonia	Lock |  | Michele	Magrane | Marios Makris | Steven J. Marygold |
 | Patrick	Masson | Lisa	Matthews | Bruce	May | J.	Mendel | | 
 | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato | Lisa Moore | Sierra	Moxon |
