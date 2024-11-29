@@ -66,26 +66,26 @@ Leaders of key contributing resources.
 | --- | --- | --- | --- |
 | Giulia	Antonazzo | Ghislaine	Argoud-Puy | Cecilia	Arighi | Helen	Attrill | Andrea	Auchincloss |
 | Kristian	Axelsen | Erica	Bakker | Richard	Baldarelli | James P.	Balhoff | Siddhartha	Basu |
-| B.	Bely | Tanya	Berardini | Marie-Claude	Blatter | C.	Bonilla | Emmanuel	Boutet |
-| Yvonne	Bradford | Lionel	Breuza | R.	Britto | Cristina	Casals | Juancarlos	Chan |
+|  | Tanya	Berardini | Marie-Claude	Blatter | C.	Bonilla | Emmanuel	Boutet |
+| Yvonne	Bradford | Lionel	Breuza |   | Cristina	Casals | Juancarlos	Chan |
 | H.Y.	Chang | J. Cho | Karen	Christie | E.	Cibrian-Uhalte | Lori	Corbani |
-| Elisabeth	Coudert | N. Del-Toro | Jeff De Pons | Alex	Diehl | Robert J.	Dodson |
-| Corina	Duenas | M.J.	Duesbury | | | | 
+| Elisabeth	Coudert |  | Jeff De Pons | Alex	Diehl | Robert J.	Dodson |
+| Corina	Duenas |  | | | | 
 | Melinda R Dwinell | Dustin	Ebert | Stacia Engel | Anne	Estreicher | Antonio	Fabregat |
 | Kathleen	Falls | Livia	Famiglietti |	David	Fashena | Marc Feuermann | Petra Fey |
 | Matt Gage | Sibyl	Gao | Phani	Garapati | Michelle	Giglio |   |
 | Josh L. Goodman | Arnaud	Gos | Chris	Grove | Nadine	Gruaz-Gumowski |  |
-| Nomi L.	Harris | M.C.	Harrison | E.	Hartline | E.	Hatton-Ellis | G. Thomas Hayman |
+| Nomi L.	Harris | M.C.	Harrison | E.	Hartline |   | G. Thomas Hayman |
 | A.	Holmes | Doug	Howe | Siyao Huang | Xiaosong	Huang | | 
 | Chantal	Hulo | H.	Hye-A-Bye | Alexandr Ignatchenko | T.E.M.	Jones | Florence	Jungo |
-| Mary Kaldunski | Patrick	Kalita | M.	Koch | Kati	Laiho | | | 
+| Mary Kaldunski | Patrick	Kalita | | Kati	Laiho | | | 
 | Colin Logie | Stanley J.F	Laulederkind | Raymond	Lee | Philippe	Lemercier | Damien	Lieberherr |
-| Antonia	Lock | A.	MacDougall | Michele	Magrane | Marios Makris | Steven J. Marygold |
+| Antonia	Lock |  | Michele	Magrane | Marios Makris | Steven J. Marygold |
 | Patrick	Masson | Lisa	Matthews | Bruce	May | J.	Mendel | | 
 | Gillian H.	Millburn | Alexander L.	Mitchell | Stuart R.	Miyasato | Lisa Moore | Sierra	Moxon |
 | Hans-Michael	Muller | Anushya	Muruganujan | Tremayne	Mushayahama | Suvarna Nadendla | Rob	Nash |
-| Darren A.	Natale | Li	Ni | Ivo	Pedruzzi | Livia	Perfetto | Christian	Pich |
-| Klemens	Pichler | D.	Poggioli | Pablo	Porras | S.	Poudel | Federica Quaglia |
+| Darren A.	Natale | Li	Ni | Ivo	Pedruzzi |  Christian	Pich |  D.	Poggioli | 
+| Pablo	Porras | S.	Poudel |  | |  | 
 | Daniela	Raciti | Sridhar Ramachandran | Jolene Ramsey | N.D.	Rawlings | Leonore	Reiser |
 | Catherine	Rivoire | Curtis Ross | Kim	Rutherford | Leyla	Ruzicka | Edoardo Salladini |
 | A.	Sangrador-Vegas | Gil dos Santos | Kevin	Schaper | Matt	Simison | Amy	Singer | 
@@ -100,20 +100,23 @@ Leaders of key contributing resources.
 | --- | --- | --- | --- |
 | Vanessa	Acquaah | Saadullah  H. Ahmad | Laurent-Philippe Albou | Debbie Alexander | Hadil Alrohaif |
 | Igor	Antoshechkin | Joanna	Argasinska | Praoparn Asanitthong | Rama	Balakrishnan | Carol	Bastiani |
+|Benoit Bely | Ramona Britto |  |  |  | 
 | Gail	Binkley | Elizabeth R.	Bolton | Lydie	Bougueleret | S.	Bromberg |	Diana Luna Buitrago |
 | Stephanie	Bunt |	Heather	Butler | Jessica	Buxton | Evelyn	Camon | Nancy H. Campbell |
 |	Michael	Caudy |	C.F.	Chen | Hao Chen |	Russell	Collins |	Tom	Conlin |
 | Maria	Costanzo | Melanie	Courtot |	David	Croft | Isabelle	Cusin |	John	Day-Richter |
-|	Bernard	deBono | Aubrey	de Grey |	N.	delaCruz | Janos	Demeter | Alex Deng |
+|	Bernard	deBono | Aubrey	de Grey |	N.	delaCruz | Noemi Del-Toro | Janos	Demeter | 
+| Alex Deng | | | | 
 |	Paul	Denny |	Heiko	Dietze | Kara	Dolinski | Mary E. Dolan  | Harold Drabkin | 
 | James	Done |	Qing	Dong | Eric	Douglass | Aisling	Doyle |	Kate Dreher |
-| Rachel	Drysdale | Paula Duek-Roggli | Barbara L.	Dunn |
+| Rachel	Drysdale | Paula Duek-Roggli | Margaret Duesbury | Barbara L.	Dunn |
 | Nathan	Dunn | Selina	Dwight | Anne	Eagle | David B. Emmert | Meltem Erdol |
 | Ruihua	Fang | Silvie Fexova | Helen	Field |	Dianna Fisk | Hartmut	Foerster 
 |	C.	Foote |	Rebecca	Foulger |	M.	Fraser | P. Gane | Margarita	Garcia-Hernandez |
 | Penelope	Garmiri |	William	Gelbart | George	Georghiou |	Marc	Gillespie | Ben Good | 
 | Felix	Gondwe | Gopal	Gopinath | G.	Gopinatu | Heather Gunn |	Melissa	Haendel |
-| G.	Harris | Midori Harris |  Kerstin	Hausmann | Robin	Haw |	Jill	Hemish |	
+| G.	Harris | Midori Harris |  Emma Hatton-Ellis | Kerstin	Hausmann | Robin	Haw |
+| Jill	Hemish |	| | | 
 | Henning	Hermjakob |	B.	Hickman | Ursula Hinz | Jodi	Hirschman |	Ben	Hitz |
 | Eurie	Hong | Jim Hu |  A.	Hughes | Rachael P. Huntley | Katica	Ilic |	
 | Amelia	Ireland |	Howard J Jacob | Josh	Jaffery | Bijay	Jassal | P.	Jayaraman |	
@@ -123,16 +126,18 @@ Leaders of key contributing resources.
 | Maximilian	Koch |	Florian	Korninger | G.	Kowalski | Barbara Kramarz |	Cynthia	Kreiger |
 | Sandra A.	LaBonte | Mark	Lambrecht | Gabriel	Lander | Ed	Lee |	Paul	Leyland |
 | Donghui	Li | Kan Yan Chloe Li | Qian	Li | Yuling	Li |	W.	Liu |
-| Paul	Lloyd |	Jane	Lomax | Miao Long | P.	Long |	Tim	Lowry |
-| J.	Lu | Yves	Lussier | Kevin A.	MacPherson | Shahana	Mahajan |	Prita	Mani |
+| Paul	Lloyd |	Jane	Lomax | Miao Long | P.	Long |	Tim	Lowry | 
+| Alistair MacDougall | | | | 
+| J.	Lu | Yves	Lussier | Kevin A.	MacPherson | Shahana	Mahajan |	Prita	Mani | 
 | Ryan	Martin | J.	Mathis | Mark	McDowall | Brenley K.	McIntosh | Sheldon	McKay |
 | Pete	McQuilton |	Terry	Meehan | Anna	Melidoni |  Aleksandra Michalak | Klaus Mitchell |
 | Nick	Moseyko |	Lukas	Mueller |	Bob	Muller | Suparna	Mundodi |	Monica C.	Munoz-Torres |
 | Nelson	Ndegwa |	N.	Nenasheva |	Elizabeth	Nickerson | Rajni Nigam | Patrick C. Ng |
 | G.	Nuka | Claire	O'Donovan |	Gavin	O'Kelly | Stephen G.	Oliver | Marija	Orlic-Milacic |
 | David	Osumi-Sutherland |	Rose	Oughtred |	Holly	Paddock |	Julie	Park | D.	Pasko |
-| Kelley	Paskov | Sejal Patel | Angeline Pesala | Victoria	Petri |	Karen	Pilcher-Kestin |
-| Sandra M. Pinheiro | Laura	Ponting |	S.	Potter | Sagar	Poudel | Armalya Pritazahra |
+| Kelley	Paskov | Sejal Patel | Angeline Pesala | Victoria	Petri |	Klemens	Pichler | 
+| Karen	Pilcher-Kestin | Sandra M. Pinheiro | Laura	Ponting |	S.	Potter | Sagar	Poudel | 
+| Livia	Perfetto | Armalya Pritazahra | Federica Quaglia | | 
 | H.	Ramachandran | Fiona Ratnaraj | Jack H. Rawson |	D.S.	Reilly | Daniel P.	Renfro |
 | Alix J.	Rey | Sue	Rhee | Joel	Richardson | Lorna	Richardson | Shannon	Roberts |
 | Milagros	Rodríguez-López |	Tai	Roe | Bernt	Roechert | Paola	Roncaglia | Anthony	Rogers |
@@ -142,9 +147,9 @@ Leaders of key contributing resources.
 |	Veronica	Shamovsky |	Xiang	Shao | Travis K.	Sheppard | Mary Shimoyama | Jennifer R Smith |
 | Solomon	Shorser | Ajay	Shrivatsav VP | Alice	Shypitsyna |	Konstantinos	Sidiropoulos | Marek S.	Skrzypek |
 | Barry	Smith | J.R.	Smith | Heeyeon	Song |	Judy	Sprague | Elena Speretta | 
-| Brock	Sprunger | | |  |
-| Eleanor	Stanley | Raymond	Stefancsik | Andre	Stutz | Renzhi Su | Laurie-Issel	Tarver |
-| Chandra	Theesfeld | Katherine Thurlow | Christophe	Tissier |	Michael	Tognolli | Sabrina	Toro |
+| Brock	Sprunger | Eleanor	Stanley | Raymond	Stefancsik | Andre	Stutz | 
+| Renzhi Su | Laurie-Issel	Tarver | Chandra	Theesfeld | Katherine Thurlow |    |
+| Christophe	Tissier |	Michael	Tognolli | Sabrina	Toro | | | 
 | Susan	Tweedie | Simon	Twigger |	Zara Umrao | Imre	Vastrik |	Andrey	Vetushko |
 | W.	Wang | Marissa	Webber | Joel	Weiser | Mark	Williams |	Jim	Withee |
 | Guanming	Wu | Ioannis	Xenarios | Chihiro	Yamada | Jungwon	Yoon |	S.Y.	Young	|
