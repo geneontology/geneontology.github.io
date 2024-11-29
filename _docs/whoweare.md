@@ -8,7 +8,7 @@ redirect_from:
 
 # Who we are
 
-The Gene Ontology Consortium is a large, international group of scientists in the disciplines of biology and computer science.
+The Gene Ontology Consortium is an international group of scientists with expertise in biology and computer science.
 
 ![GOC meeting in Berkeley, 2019](/assets/whoweare/GOBerk_group_2019.jpg "GO Consortium Meeting 2019 attendees enjoying Berkeley, California")
 
