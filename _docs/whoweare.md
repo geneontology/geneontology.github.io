@@ -36,7 +36,7 @@ Leaders of key contributing resources.
   - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
 - __FlyBase__
   - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
--- __InterPro__
+- __InterPro__
   - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
 - __MGI__
   - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
