@@ -52,7 +52,7 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 |----------|---------|-------------|---------|--------|
 | 1 | **[DB:DB_Object_ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 | 
 | 2 | **[Object_Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |		1 |	AMOT| AMOT|  CBF1:MET4:MET28
-| 3 | [DB_Object_Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or greater |	0 or greater |	Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | 
+| 3 | [DB_Object_Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or greater | Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | 
 | 4 | [DB_Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or greater |	KIAA1071| KIAA1071| | 
 | 5 | **[Object_Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| PR:000000001| GO:0032991 | 
 | 6 | **[Object_Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBITaxon:9606|  NCBITaxon:559292 | 
