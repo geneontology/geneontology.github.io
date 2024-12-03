@@ -54,7 +54,7 @@ GO subsets are part of the ontology, under the tag `subset`. For example:
 |*__Schizosaccharomyces pombe__* **subset**|[PomBase](https://www.pombase.org/){:target="blank"} |goslim_pombe|[obo](https://current.geneontology.org/ontology/subsets/goslim_pombe.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_pombe.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_pombe.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_pombe.tsv){:target="blank"}  |
 |**Yeast subset**|[_Saccharomyces_ Genome Database](https://www.yeastgenome.org/){:target="blank"} |goslim_yeast|[obo](https://current.geneontology.org/ontology/subsets/goslim_yeast.obo){:target="blank"}  |[owl](https://current.geneontology.org/ontology/subsets/goslim_yeast.owl){:target="blank"}  |[json](https://current.geneontology.org/ontology/subsets/goslim_yeast.json){:target="blank"}  |[tsv](https://current.geneontology.org/ontology/subsets/goslim_yeast.tsv){:target="blank"}  |
 
-### GO "*__anti-slims__*"
+### GO Exclusion Lists
 
 For internal checking purposes, GO maintains two "anti-slims", terms to which annotations should not be made. "Anti-slim" terms should never be used when creating a subset, and terms that are obsoleted are removed from subsets.
 
