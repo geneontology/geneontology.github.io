@@ -47,18 +47,18 @@ The group in the `generated-by` field must be present in the [dbxrefs.yaml file]
 
 The file format comprises 11 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
 
-| **Column** | **Content** | **Required?**	| **Cardinality** | **Example**|
+| **Column** | **Content** | **Required?**	| **Cardinality** | **Example 1**| **Example 2 (isoform)**|
 |----------|---------|-------------|---------|--------|
-| 1 | [DB:DB_Object_ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5-1|
-| 2 | [DB_Object_Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	required |	1 |	AMOT|
-| 3 | [DB_Object_Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin|
-| 4 | [DB_Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	KIAA1071|
-| 5 | [DB_Object_Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)") |	required |	1 |	PR:000000001|
-| 6 | [DB_Object_Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	NCBITaxon:9606|
-| 7 | [Encoded_by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | HGNC:17810 |
-| 8 | [Parent_Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |	optional |	0 or 1 |	UniProtKB:Q4VCS5|
+| 1 | [DB:DB_Object_ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)") |	required |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|
+| 2 | [DB_Object_Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	required |	1 |	AMOT| AMOT|
+| 3 | [DB_Object_Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	optional |	0 or greater |	Angiomotin| Angiomotin|
+| 4 | [DB_Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	optional |	0 or greater |	KIAA1071| KIAA1071|
+| 5 | [DB_Object_Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)") |	required |	1 |	PR:000000001| PR:000000001|
+| 6 | [DB_Object_Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") |	required |	1 |	NCBITaxon:9606| NCBITaxon:9606|
+| 7 | [Encoded_by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | optional | 0 or greater | HGNC:17810 | HGNC:17810 |
+| 8 | [Parent_Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |	optional |	0 or 1 |	| UniProtKB:Q4VCS5 | 
 | 9 | [Protein_Containing_Complex_Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | optional | 0 or greater | SGD:S000003821\|SGD:S000001456\|SGD:S000005047|
-| 10 | [DB_Xref(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | NCBIGene:154796\|ENSEMBL:ENSG00000126016 |
+| 10 | [DB_Xref(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") |	optional |	0 or greater | NCBIGene:154796\|ENSEMBL:ENSG00000126016 | NCBIGene:154796\|ENSEMBL:ENSG00000126016 | 
 | 11 | [Gene_Product_Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") |	optional |	0 or greater |	db_subset=Swiss-Prot|
 
 
