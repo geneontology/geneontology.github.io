@@ -51,33 +51,20 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 | **Column** | **Content** | **Cardinality** | **Example 1: protein**| **Example 2: isoform**| **Example 3: complex** | **Example 3: ncRNA**
 |----------|---------|-------------|---------|--------|
 | 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 |  RNAcentral:URS0000527F89_9606 | 
-| 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |		1 |	AMOT| AMOT|  CBF1:MET4:MET28 | URS0000527F89_9606 | 
-| 3 | [DB Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or greater | Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | Homo sapiens (human) hsa-miR-145-5p | 
-| 4 | [DB_Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or greater |	KIAA1071| KIAA1071| | | 
+| 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| AMOT|  CBF1:MET4:MET28 | URS0000527F89_9606 | 
+| 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or > | Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | Homo sapiens (human) hsa-miR-145-5p | 
+| 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| KIAA1071| | | 
 | 5 | **[Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| PR:000000001| GO:0032991 |  SO:0000276	
 | 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBITaxon:9606|  NCBITaxon:559292 | NCBITaxon:9606| 
-| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or greater | HGNC:17810 | HGNC:17810 | | HGNC:31532 |
+| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | HGNC:17810 | | HGNC:31532 |
 | 8 | [Parent Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |		0 or 1 |	| UniProtKB:Q4VCS5 | | |
 | 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or greater | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047| | 
-| 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or greater | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 | ENSG00000276365 | 
-| 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or greater |	db_subset=Swiss-Prot| | | | 
-
-
-### GPI 2.0 example content
-
-    SGD:S000005027  Sal1  ADP/ATP transporter  YNL083W  PR:000000001  NCBITaxon:559292    UniProtKB:D6W196
-  
-Complex:  
-    
-    SGD:S000217643  CBF1:MET4:MET28 sulfur metabolism transcription factor complex    GO:0032991  NCBITaxon:559292      SGD:S000003821,SGD:S000001456,SGD:S000005047  ComplexPortal:CPX-1016  
-
-ncRNA:    
-
-    RNAcentral:URS0000527F89_9606		Homo sapiens (human) hsa-miR-145-5p    SO:0000276		NCBITaxon:9606  HGNC:31532      NCBIGene:406937|ENSEMBL:ENSG00000276365  
+| 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 | ENSG00000276365 | 
+| 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or > |	db_subset=Swiss-Prot| | | | 
 
 ### Definitions and requirements for field contents
 
-#### 1. DB:DB Object ID
+#### 1. DB:Object ID
 A unique identifier for the item being annotated. The **DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object. Examples:
 
 * `UniProtKB:P99999`
@@ -87,25 +74,26 @@ A unique identifier for the item being annotated. The **DB** prefix is the datab
 The identifier usually references the canonical form of a gene or gene product including functional RNAs.  Identifiers may also describe gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the Gene Product Information (GPI) file should contain information about the canonical form of the gene or gene product.
 
 This field is mandatory, cardinality 1.
-#### 2. DB Object Symbol
-A (unique and valid) symbol to which the **DB:DB_Object_ID** is matched. No white spaces allowed.
 
-The text entered in the **DB_Object_Symbol** should refer to the entity in **DB:DB_Object_ID**. The **DB_Object_Symbol** field should contain a symbol that is recognizable to a biologist wherever possible (gene product symbol, abbreviation widely used in the literature, ORF name, etc.). It is not a unique identifier or an accession number (unlike the **DB:DB_Object_ID**), although IDs can be used as a **DB_Object_Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated). For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:DB_Object_ID**, but with the same gene symbol in the **DB_Object_Symbol** column. 
+#### 2. Object Symbol
+A (unique and valid) symbol to which the **DB:Object_ID** is matched. No white spaces allowed.
+
+The text entered in the **DB_Object_Symbol** should refer to the entity in **DB:Object_ID**. The **Object_Symbol** field should contain a symbol that is recognizable to a biologist wherever possible (gene product symbol, abbreviation widely used in the literature, ORF name, etc.). It is not a unique identifier or an accession number (unlike the **DB:Object_ID**), although IDs can be used as a **Object_Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated). For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:Object_ID**, but with the same gene symbol in the **Object_Symbol** column. 
 
 This field is mandatory, cardinality 1.
 
-#### 3. DB Object Name
-The name of the gene or gene product in **DB:DB_Object_ID**. The text entered in the **DB_Object_Name** should refer to the entity in **DB:DB_Object_ID**. White spaces are allowed in this field. 
+#### 3. Object Name
+The name of the gene or gene product in **DB:Object_ID**. The text entered in the **Object_Name** should refer to the entity in **DB:Object_ID**. White spaces are allowed in this field. 
 
 This field is not mandatory, cardinality 0, 1.
 
-#### 4. DB Object Synonym
-Alternative names for the entity in **DB:DB_Object_ID**. These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
+#### 4. Object Synonym
+Alternative names for the entity in **DB:Object_ID**. These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
 
 This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene). 
 
-#### 5. DB Object Type
-An ontology identifier for the biological entity in **DB:DB_Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Common entries include: 
+#### 5. Object Type
+An ontology identifier for the biological entity in **DB:Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Common entries include: 
 
 * protein  	PR:000000001
 * protein-coding gene SO:0001217
@@ -114,37 +102,36 @@ An ontology identifier for the biological entity in **DB:DB_Object_ID** which is
   * any subtype of ncRNA in the Sequence Ontology, including ncRNA-coding gene 	 	SO:0001263
 * protein-containing complex 	GO:0032991
 
-The object type listed in the **DB_Object_Type** field must match the database entry identified by the **DB:DB_Object_ID**.
-
+The object type listed in the **Object_Type** field must match the database entry identified by the **DB:Object_ID**.
 
 This field is mandatory, cardinality 1.
 
-#### 6. DB Object Taxon
-The NCBI taxon ID of the species encoding the **DB:DB_Object_ID**, including the prefix `NCBITaxon:`. 
+#### 6. Object Taxon
+The NCBI taxon ID of the species encoding the **DB:Object_ID**, including the prefix `NCBITaxon:`. 
 
 This field is mandatory, cardinality 1.
 
 #### 7. Encoded by
 For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities, e.g. ENSG00000197153.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
 
 #### 8. Parent Protein
 When column 1 refers to a protein isoform or modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
 
-#### 9. Protein Containing Complex Members
+#### 9. Protein-Containing Complex Members
 When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
 
-#### 10. DB Xrefs
-Identifiers for the object in **DB:DB_Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For gene products in model organism databases, **DB_Xrefs** must include the UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
+#### 10. Database cross-references (DB_Xrefs)
+Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For proteins in model organism databases, **DB_Xrefs** must include the correponding UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
 
 #### 11. Gene Product Properties
 The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, kidney, etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1 use a pipe to separate entries. 
+This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
