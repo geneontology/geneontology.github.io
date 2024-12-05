@@ -12,7 +12,7 @@ redirect_from:
 Files are available in the [OBO](https://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="blank"}, [OWL](https://www.w3.org/TR/owl2-overview/){:target="blank"} and JSON formats.
 
 # Gene ontology files
-Three versions of the ontology are available, as described below.
+Three versions of the ontology are available as described below.
 
 | File Name | Description |	Download <br/>.obo file | Download <br/>.json file  | Download <br/>.owl file  |
 |-------|--------------|-------------|-------------|-------------|
@@ -21,7 +21,7 @@ Three versions of the ontology are available, as described below.
 |**go-plus** |	This is the fully axiomatised version of the GO. It includes cross-ontology relationships (axioms) and imports additional required ontologies including [ChEBI](https://www.ebi.ac.uk/chebi/){:target="blank"}, [Cell Ontology](http://www.obofoundry.org/ontology/cl.html){:target="blank"} and [Uberon](http://uberon.github.io/){:target="blank"}. It also includes to complete set of relationship types including some not present in **go**. This version is only available in [OWL](https://www.w3.org/OWL/){:target="blank"} format. | NA | NA | [go-plus.owl file](https://purl.obolibrary.org/obo/go/extensions/go-plus.owl){:target="blank"} 	|
 
 
-### GO subset files
+## GO subset files
 GO subsets (also known as GO slims) are condensed versions of the GO containing a reduced number of terms. They are specified by tags within the ontology that indicate if a given term is a member of a particular subset. GO subsets are used to provide a broad overview of the range of functions and processes relevant to a gene or a goup of genes. More information and links for downloading subsets be found on the [Guide to GO subsets](/docs/go-subset-guide/) page.
 
 ## Cross-references of GO to other classification systems
