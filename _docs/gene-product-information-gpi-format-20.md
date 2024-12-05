@@ -48,18 +48,19 @@ The group in the `generated-by` field must be present in the [dbxrefs.yaml file]
 The file format comprises 11 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
 **Required fields are shown in bold.**
 
-| **Column** | **Content** | **Cardinality** | **Example 1: protein**| **Example 2: isoform**| **Example 3: complex** | **Example 3: ncRNA**
+| **Column** | **Content** | **Cardinality** | **Example 1: protein**| **Example 2: isoform**| **Example 3: protein complex** | **Example 4: modified form**  | **Example 5: ncRNA**
 |----------|---------|-------------|---------|--------|
-| 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 |  RNAcentral:URS0000527F89_9606 | 
-| 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| AMOT|  CBF1:MET4:MET28 | URS0000527F89_9606 | 
-| 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or > | Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | Homo sapiens (human) hsa-miR-145-5p | 
-| 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| KIAA1071| | | 
-| 5 | **[Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| PR:000000001| GO:0032991 |  SO:0000276	
-| 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBITaxon:9606|  NCBITaxon:559292 | NCBITaxon:9606| 
-| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | HGNC:17810 | | HGNC:31532 |
-| 8 | [Parent Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |		0 or 1 |	| UniProtKB:Q4VCS5 | | |
-| 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or greater | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047| | 
-| 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 | ENSG00000276365 | 
+| 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 | PR:Q9DAQ4-1 |  RNAcentral:URS0000527F89_9606 | 
+| 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| AMOT|  CBF1:MET4:MET28 | m1700003E16Rik/iso:m1 | URS0000527F89_9606 | 
+| 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or > | Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | uncharacterized protein C2orf81 homolog isoform m1 (mouse) | Homo sapiens (human) hsa-miR-145-5p | 
+| 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| KIAA1071| | m1700003E16Rik/iso:m1	PR:000000001 |  | 
+| 5 | **[Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| PR:000000001| GO:0032991 | PR:000000001 | SO:0000276	
+| 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBITaxon:9606|  NCBITaxon:559292 | NCBITaxon:10090	| NCBITaxon:9606| 
+| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | HGNC:17810 | | MGI:MGI:1919087 
+ | HGNC:31532 |
+| 8 | [Parent Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |		0 or 1 |	| UniProtKB:Q4VCS5 | | PR:Q9DAQ4 | |
+| 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or greater | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047| | |
+| 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 | UniProtKB:Q9DAQ4-1 | ENSG00000276365 | 
 | 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or > |	db_subset=Swiss-Prot| | | | 
 
 ### Definitions and requirements for field contents
