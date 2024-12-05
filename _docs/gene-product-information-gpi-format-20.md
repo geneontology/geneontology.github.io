@@ -56,8 +56,7 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 | 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| KIAA1071| | m1700003E16Rik/iso:m1	PR:000000001 |  | 
 | 5 | **[Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| PR:000000001| GO:0032991 | PR:000000001 | SO:0000276	
 | 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBITaxon:9606|  NCBITaxon:559292 | NCBITaxon:10090	| NCBITaxon:9606| 
-| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | HGNC:17810 | | MGI:MGI:1919087 
- | HGNC:31532 |
+| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | HGNC:17810 | | MGI:MGI:1919087 | HGNC:31532 |
 | 8 | [Parent Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |		0 or 1 |	| UniProtKB:Q4VCS5 | | PR:Q9DAQ4 | |
 | 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or greater | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047| | |
 | 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 | UniProtKB:Q9DAQ4-1 | ENSG00000276365 | 
