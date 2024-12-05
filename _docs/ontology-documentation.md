@@ -42,6 +42,8 @@ The GO is structured as a graph in which each GO term is a *node* and the relati
 
 <img src="/assets/hexose-biosynthetic-process.png" width="450" height="450" />
 
+----
+
 # GO term elements
 The different elements of a GO term are show in the image below (screen shot from the [AmiGO GO browser](https://amigo.geneontology.org/amigo/landing)). 
  
@@ -56,7 +58,6 @@ The different elements of a GO term are show in the image below (screen shot fro
 
 ## Optional elements
 * **Alternate ID (also known as Secondary IDs)**: Secondary IDs come about when two or more terms are identical in meaning, and are merged into a single term. All terms IDs are preserved so that no information (for example, annotations to the merged IDs) is lost.
-
 * **Synonyms**: Alternative words or phrases closely related in meaning to the term name, with indication of the relationship between the name and synonym given by the synonym scope. The scopes for GO synonyms are:
   + **Exact**: an exact equivalent; interchangeable with the term name; for e.g. *ornithine cycle* is an exact synonym of *urea cycle *
   + **Broad**: the synonym is broader than the term name; for e.g. *cell division* is a broad synonym of *cytokinesis* 
@@ -66,20 +67,15 @@ The different elements of a GO term are show in the image below (screen shot fro
 * **Comment**: Any extra information about the term and its usage.
 * **Chem. react.**: For terms having cross references to the [RHEA database of chemical reactions](https://www.rhea-db.org/), this section lists the reaction paticipants.
 * **Subset**: Indicates that the term belongs to one or more [GO subsets](/docs/go-subset-guide/).
-* **Obsolete tag**: Boolean value that indicates that the term has been deprecated and should not be used. A GO term is obsoleted when it is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term detailing the reason for the obsoletion and replacement terms are suggested whenever possible. 
-* **Database cross-references**: Database cross-references, or dbxrefs, refer to identical or very similar objects in other databases. For instance, the molecular function term *[cytosine deaminase activity](http://amigo.geneontology.org/amigo/term/GO:0004131)*{:target="blank"} is cross-referenced to [RHEA:20605](https://www.rhea-db.org/reaction.xhtml?id=20605){:target="blank"}; the biological process term [sulfate assimilation](http://amigo.geneontology.org/amigo/term/GO:0000103){:target="blank"} has the [InterPro](https://www.ebi.ac.uk/interpro/){:target="blank"} cross-reference [Sulphate adenylyltransferase (IPR002650)](https://www.ebi.ac.uk/interpro/entry/IPR002650){:target="blank"}. Database cross-references are visible from the tab at the bottom of the term description (as shown in screenshot below).
+* **Obsolete tag**: Boolean value that indicates that the term has been deprecated and should not be used. A GO term is obsoleted when it is out of scope, misleadingly named or defined, or describes a concept that would be better represented in another way and needs to be removed from the published ontology. In these cases, the term and ID still persist in the ontology, but the term is tagged as obsolete, and all relationships to other terms are removed. A comment is added to the term detailing the reason for the obsoletion and replacement terms are suggested whenever possible.
+* **[Taxon constraints](/docs/taxon-constraints/)**: Annotations to some GO terms are restricted to specific species; the taxon constraints specify which taxa a term can be applied to. 
+* **[Database cross-references](/docs/download-mappings/)**: Database cross-references, or dbxrefs, refer to identical or very similar objects in other databases. For instance, the molecular function term *[cytosine deaminase activity](http://amigo.geneontology.org/amigo/term/GO:0004131)*{:target="blank"} is cross-referenced to [RHEA:20605](https://www.rhea-db.org/reaction.xhtml?id=20605){:target="blank"}; the biological process term [sulfate assimilation](http://amigo.geneontology.org/amigo/term/GO:0000103){:target="blank"} has the [InterPro](https://www.ebi.ac.uk/interpro/){:target="blank"} cross-reference [Sulphate adenylyltransferase (IPR002650)](https://www.ebi.ac.uk/interpro/entry/IPR002650){:target="blank"}. Database cross-references are visible from the tab at the bottom of the term description (as shown in screenshot below).
 <img width="538" alt="fumarate reductase (NADH) activity xrefs" src="https://github.com/user-attachments/assets/aef80afa-2ecd-4225-ad4d-22a07fdd549d">
-
-See [GO cross-references documentation](/docs/download-mappings.md) for the full list of cross-referenced databases.
 
 ----
 
 # GO is a dynamic ontology
 GO aims to represent the current state of knowledge in biology, hence it is constantly revised and expanded as biological knowledge accumulates.  Revisions to the ontology are managed by a team of editors with broad biological knowledge and expertise in computational knowledge representation. GO updates are made collaboratively between the GOC ontology team and scientists who request the updates. Most requests come from scientists making GO annotations (these typically impact only a few terms each), and from domain experts in particular areas of biology (these typically revise an entire ‘branch’ of the ontology comprising many terms and relations). Changes to the ontology can be visualized on the [GO statistics](/stats.html) page. We welcome researchers and computational scientists to [submit requests for either new terms, new relations, or any other improvements to the ontology](/docs/contributing-to-go-terms/).
 
-# More information about the ontology
-* [GO subsets](/docs/go-subset-guide/)
-* [Ontology relations](/docs/ontology-relations/): Documentation on the inter-term relations used in GO.
-* [Taxon constraints](/docs/taxon-constraints/): Documentation on how annotations of certain terms are restricted to specific species.
-* [GO cross-references documentation](/docs/download-mappings.md) guide.
+
 
