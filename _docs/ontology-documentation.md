@@ -42,6 +42,8 @@ The GO is structured as a graph in which each GO term is a *node* and the relati
 
 <img src="/assets/hexose-biosynthetic-process.png" width="450" height="450" />
 
+----
+
 # GO term elements
 The different elements of a GO term are show in the image below (screen shot from the [AmiGO GO browser](https://amigo.geneontology.org/amigo/landing)). 
  
