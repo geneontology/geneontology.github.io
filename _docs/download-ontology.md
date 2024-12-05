@@ -14,7 +14,7 @@ Files are available in the [OBO](https://owlcollab.github.io/oboformat/doc/obo-s
 # Gene ontology files
 Three versions of the ontology are available, as described below.
 
-|Name 	| Description |	Download links |
+| File Name 	| Description |	Download links |
 |-------|--------------|-------------|
 |**go-basic**|	The basic version of the GO, filtered so that the ontology is acyclic. With this version, annotations can safely be propagated up the graph. The relations included are *is a*, *part of*, *regulates*, *negatively regulates* and *positively regulates*. This version excludes relationships that cross the 3 GO hierarchies. This version is recommended for most GO-based annotation tools.| - [go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.obo){:target="blank"} <br/> - [go-basic.obo file](https://purl.obolibrary.org/obo/go/go-basic.json) |	
 |**go** |	Core ontology. This version includes additional relationships compared to **go-basic**, including *has_part* and *occurs_in*. These relations can link terms from different aspects of GO and create cycles in the ontology, so not all the relations are safe for propagating annotations. This version excludes relationships to external ontologies.| - [go.obo file](https://purl.obolibrary.org/obo/go.obo){:target="blank"} <br/>  - [go.owl file](https://purl.obolibrary.org/obo/go.owl){:target="blank"}  | [go.json file](https://purl.obolibrary.org/obo/go.json){:target="blank"}  |	
