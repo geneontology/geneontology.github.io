@@ -5,52 +5,41 @@ redirect_from:
 - /docs/gene-product-information-gpi-format/
 
 ---
-# About GPAD/GPI files
+# Gene Product Information (GPI) file description
+The (*G*ene *P*roduct *I*nformation) (GPI) file represents every annotable entity in an organism: protein-coding gene, non-coding RNA genes, protein isoforms (i. e., splice variants) and modified forms, such as cleaved forms or proteins modified by post-translational modifications. The entities should be non-redundant. 
 
-The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. *G*ene *P*roduct *A*ssociation *D*ata (GPAD) and (*G*ene *P*roduct *I*nformation) (GPI) companion files reduce the redundancy of the [Gene Association File (GAF)](/docs/go-annotation-file-gaf-format-2.2/). GAF files contains information about gene products that are present in each line of the GAF: each non-header line in an annotation file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. The GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files. GPAD/GPI is intended for internal GO use. 
+This file is used to normalize annotations to single genes, and to map different identifiers for the same entity across different resources. 
 
-GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/) and recommends use of the GAF format for most use cases. For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
+# GPI 2.0 file format
 
-
-# Gene Product Information (GPI) 2.0 file guidelines
-
-This page is a summary of the Gene Product Information Data (GPI) 2.0 format; for full technical details and changes from GPI 1.2 [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). 
-**Note that the GPI file is the companion file for the [GPAD file](/docs/gene-product-association-data-gpad-format/).
-Both files should be submitted together using the same version.** 
-
-## Changes from the GPI 1.2 to GPI 2.0
-* **Characters allowed in all fields have been explicitly specified**
-* **Extensions in file names are: `*.gpad` and `*.gpi`**
+This page is a summary of the GPI 2.0 file format; for full technical details and changes from the previous formal, GPI 1.2, see the [Full GPI 2.0 Specification](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md) page. 
   
-**Header**
-* **The `gpi-version:` header must read `2.0` for this format.**
-  
-**Columns**
-* **Columns 1 & 2 in the GPI 1.2 are now combined in a single column containing an ID in CURIE syntax, e.g. `UniProtKB:P56704`.**
-* **NCBI taxon IDs are to be prefixed with `NCBITaxon:` to indicate the source of the ID, e.g. `NCBITaxon:6239`**
-
-## GPI Header
-All annotation files MUST start with a single line denoting the file format. The database/group generating the file, as listed in dbxrefs.yaml, and the ISO-8601 formatted date the file was generated MUST also be included in the header. Example for GPI 2.0:
+## GPI File Header
+Each line of the file header must be prefixed with an exclamation mark (`!`). 
+Mandatory elements of the GPI 2.0 file header are: 
+- gpi-version
+- the name of database or group generating the file, as listed in [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+- the date the file was generated conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
+- Example GPI 2.0 header:
 
     !gpi-version: 2.0
     !generated-by: SGD 
     !date-generated: 2024-05-01
     
-The group in the `generated-by` field must be present in the [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml). The year must be `YYYY-MM-DD`, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards. Submitting groups may choose to include optional additional information in a file header by prefixing the line with an exclamation mark (`!`); such lines will be ignored by parsers. For example:
-
+- Additional information may also be included, for example project URL and funding sources. For example:
+  
     !URL: http://www.yeastgenome.org/
     !Project-release: WS275
     !Funding: NHGRI grant number HG012212
-    !go-version: https://doi.org/10.5281/zenodo.8436609
 
 ## GPI file fields
 
-The file format comprises 11 tab-delimited fields. Fields with multiple values (for example, gene product synonyms) should separate values by pipes.
-**Required fields are shown in bold.**
+The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
+**Required fields are shown with an asterisk (*).**
 
 | **Column** | **Content** | **Cardinality** | **Example 1: protein**| **Example 2: isoform**| **Example 3: protein complex** | **Example 4: modified form**  | **Example 5: ncRNA**
 |----------|---------|-------------|---------|--------|
-| 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 | PR:Q9DAQ4-1 |  RNAcentral:URS0000527F89_9606 | 
+| 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")(*)** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 | PR:Q9DAQ4-1 |  RNAcentral:URS0000527F89_9606 | 
 | 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| AMOT|  CBF1:MET4:MET28 | m1700003E16Rik/iso:m1 | URS0000527F89_9606 | 
 | 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or 1 | Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | uncharacterized protein C2orf81 homolog isoform m1 (mouse) | Homo sapiens (human) hsa-miR-145-5p | 
 | 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| KIAA1071| | m1700003E16Rik/iso:m1	PR:000000001 |  | 
@@ -65,73 +54,81 @@ The file format comprises 11 tab-delimited fields. Fields with multiple values (
 ### Definitions and requirements for field contents
 
 #### 1. DB:Object ID
-A unique identifier for the item being annotated. The **DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object. Examples:
+* A unique identifier for the entity being annotated, composed of two elements: a **DB** prefix is the database, that must be described in the GO [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml), and a **DB Object ID**, which is the alphanumerical identifier corresponding to the entity. The **DB:DB Object ID** is the combined identifier for the database object. Examples:
 
-* `UniProtKB:P99999`
-* `SGD:S000002164`
-* `MGI:MGI:1919306`
+    UniProtKB:P99999
+    SGD:S000002164
+    MGI:MGI:1919306
 
-The identifier usually references the canonical form of a gene or gene product including functional RNAs.  Identifiers may also describe gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the Gene Product Information (GPI) file should contain information about the canonical form of the gene or gene product.
+The identifier may reference the canonical form of a gene or gene product including functional RNAs, as well as gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the corresponding canonical form must be referenced in Column 8 (Parent Protein) of the GPI file. 
 
-This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 #### 2. Object Symbol
-A (unique and valid) symbol to which the **DB:Object_ID** is matched. No white spaces allowed.
+The unique symbol corresponding to the **DB:Object_ID** in Column 1; usually the name of the gene. No white spaces allowed.
 
-The text entered in the **DB_Object_Symbol** should refer to the entity in **DB:Object_ID**. The **Object_Symbol** field should contain a symbol that is recognizable to a biologist wherever possible (gene product symbol, abbreviation widely used in the literature, ORF name, etc.). It is not a unique identifier or an accession number (unlike the **DB:Object_ID**), although IDs can be used as a **Object_Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated). For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:Object_ID**, but with the same gene symbol in the **Object_Symbol** column. 
+The symbol is not a unique identifier or an accession number (unlike the **DB:Object_ID**), but if the entity does not have a symbol, the **DB:Object_ID** may be used as **Object Symbol**. For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:Object_ID**, but with the same gene symbol in the **Object_Symbol** column. 
 
-This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 #### 3. Object Name
-The name of the gene or gene product in **DB:Object_ID**. The text entered in the **Object_Name** should refer to the entity in **DB:Object_ID**. White spaces are allowed in this field. 
+The name of the gene or gene product corresponding to the **DB:Object_ID** in Column 1. White spaces are allowed in this field. 
 
-This field is not mandatory, cardinality 0, 1.
+* Cardinality = 0 or 1
 
 #### 4. Object Synonym
-Alternative names for the entity in **DB:Object_ID**. These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
+Alternative names for the entity in **DB:Object_ID** in Column 1. These entries may be a gene symbol, clone ID, or any other label ot identifier. Object synonyms are useful for searching. 
 
-This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene). 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 5. Object Type
-An ontology identifier for the biological entity in **DB:Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Common entries include: 
+An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology for all other entities. Allowed entity types: 
 
-* protein  	PR:000000001
-* protein-coding gene SO:0001217
-* gene  SO:0000704
-* ncRNA  SO:0000655
-  * any subtype of ncRNA in the Sequence Ontology, including ncRNA-coding gene 	 	SO:0001263
-* protein-containing complex 	GO:0032991
+* [PR:000000001](http://purl.obolibrary.org/obo/PR_000000001): protein 
+* [GO:0032991](http://purl.obolibrary.org/obo/PR_000000001): protein-containing complex 
+* [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217): protein-coding gene 
+* [SO:0000704](http://purl.obolibrary.org/obo/SO_0000704): gene 
+* [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655): ncRNA or any SO child term
+* [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263): ncRNA-coding gene or any SO child term
 
-The object type listed in the **Object_Type** field must match the database entry identified by the **DB:Object_ID**.
+**Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
 
-This field is mandatory, cardinality 1.
+GO strongly recommends against using 'gene' or 'gene product' as this does not allow to differentiate between proteins and ncRNAs. 
+
+<!--- 
+SGD feature type named ORF in SGD --->
+
+* Cardinality = 1
 
 #### 6. Object Taxon
-The NCBI taxon ID of the species encoding the **DB:Object_ID**, including the prefix `NCBITaxon:`. 
+The [NCBI taxon ID](https://www.ncbi.nlm.nih.gov/taxonomy) of the organism (species or strain) encoding the **DB:Object_ID** from Column 1, in the format `NCBITaxon:numerical_identifier`. 
 
-This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 #### 7. Encoded by
 For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities, e.g. ENSG00000197153.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 8. Parent Protein
-When column 1 refers to a protein isoform or modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
+When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality >1, values must be pipe-separated. 
+<!--- 
+How can that be??? this should be 0,1 --->
+
 
 #### 9. Protein-Containing Complex Members
-When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions.
+When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric reference protein accessions.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 10. Database cross-references (DB_Xrefs)
 Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For proteins in model organism databases, **DB_Xrefs** must include the correponding UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 11. Gene Product Properties
 The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, kidney, etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
