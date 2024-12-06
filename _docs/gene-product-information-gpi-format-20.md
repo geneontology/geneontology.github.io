@@ -35,11 +35,11 @@ Mandatory elements of the GPI 2.0 file header are:
 
 ## GPI File Contents
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
-**Required fields are shown with an asterisk (*).**
+**Required fields are in bold.**
 
 | **Column** | **Content** | **Cardinality** | **Example 1: protein**| **Example 2: isoform**| **Example 3: protein complex** | **Example 4: modified form**  | **Example 5: ncRNA**
 |----------|---------|-------------|---------|--------|
-| 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")(*)** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 | PR:Q9DAQ4-1 |  RNAcentral:URS0000527F89_9606 | 
+| 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	UniProtKB:Q4VCS5-1|  SGD:S000217643 | PR:Q9DAQ4-1 |  RNAcentral:URS0000527F89_9606 | 
 | 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| AMOT|  CBF1:MET4:MET28 | m1700003E16Rik/iso:m1 | URS0000527F89_9606 | 
 | 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or 1 | Angiomotin| Angiomotin| sulfur metabolism transcription factor complex | uncharacterized protein C2orf81 homolog isoform m1 (mouse) | Homo sapiens (human) hsa-miR-145-5p | 
 | 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| KIAA1071| | m1700003E16Rik/iso:m1	PR:000000001 |  | 
