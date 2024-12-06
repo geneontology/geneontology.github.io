@@ -22,9 +22,9 @@ Mandatory elements of the GPI 2.0 file header are:
 - the date the file was generated conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
 - Example GPI 2.0 header:
 
-    !gpi-version: 2.0
-    !generated-by: SGD 
-    !date-generated: 2024-05-01
+  !gpi-version: 2.0
+  !generated-by: SGD
+  !date-generated: 2024-05-01
     
 - Additional information may also be included, for example project URL and funding sources. For example:
   
