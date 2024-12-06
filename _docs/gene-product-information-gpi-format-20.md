@@ -72,55 +72,63 @@ The symbol is not a unique identifier or an accession number (unlike the **DB:Ob
 * Cardinality = 1
 
 #### 3. Object Name
-The name of the gene or gene product in **DB:Object_ID**. The text entered in the **Object_Name** should refer to the entity in **DB:Object_ID**. White spaces are allowed in this field. 
+The name of the gene or gene product corresponding to the **DB:Object_ID** in Column 1. White spaces are allowed in this field. 
 
-This field is not mandatory, cardinality 0, 1.
+* Cardinality = 0 or 1
 
 #### 4. Object Synonym
-Alternative names for the entity in **DB:Object_ID**. These entries may be a gene symbol or other text. Note that we strongly recommend that synonyms are included in the GPI file, as this aids the searching of GO.
+Alternative names for the entity in **DB:Object_ID** in Column 1. These entries may be a gene symbol, clone ID, or any other label ot identifier. Object synonyms are useful for searching. 
 
-This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene). 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 5. Object Type
-An ontology identifier for the biological entity in **DB:Object_ID** which is annotated with GO. This field uses Sequence Ontology, Protein Ontology, and GO IDs and must correspond to one of the [permitted GPI entity types](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md#gpi-entity-types) or a more granular child term. Common entries include: 
+An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology for all other entities. Allowed entity types: 
 
-* protein  	PR:000000001
-* protein-coding gene SO:0001217
-* gene  SO:0000704
-* ncRNA  SO:0000655
-  * any subtype of ncRNA in the Sequence Ontology, including ncRNA-coding gene 	 	SO:0001263
-* protein-containing complex 	GO:0032991
+* [PR:000000001](http://purl.obolibrary.org/obo/PR_000000001): protein 
+* [GO:0032991](http://purl.obolibrary.org/obo/PR_000000001): protein-containing complex 
+* [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217): protein-coding gene 
+* [SO:0000704](http://purl.obolibrary.org/obo/SO_0000704): gene 
+* [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655): ncRNA or any SO child term
+* [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263): ncRNA-coding gene or any SO child term
 
-The object type listed in the **Object_Type** field must match the database entry identified by the **DB:Object_ID**.
+**Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
 
-This field is mandatory, cardinality 1.
+GO strongly recommends against using 'gene' or 'gene product' as this does not allow to differentiate between proteins and ncRNAs. 
+
+<!--- 
+SGD feature type named ORF in SGD --->
+
+* Cardinality = 1
 
 #### 6. Object Taxon
-The NCBI taxon ID of the species encoding the **DB:Object_ID**, including the prefix `NCBITaxon:`. 
+The [NCBI taxon ID](https://www.ncbi.nlm.nih.gov/taxonomy) of the organism (species or strain) encoding the **DB:Object_ID** from Column 1, in the format `NCBITaxon:numerical_identifier`. 
 
-This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 #### 7. Encoded by
 For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities, e.g. ENSG00000197153.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 8. Parent Protein
-When column 1 refers to a protein isoform or modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
+When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality >1, values must be pipe-separated. 
+<!--- 
+How can that be??? this should be 0,1 --->
+
 
 #### 9. Protein-Containing Complex Members
-When column 1 references a protein-containing complex, this column contains the gene-centric reference protein accessions.
+When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric reference protein accessions.
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 10. Database cross-references (DB_Xrefs)
 Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For proteins in model organism databases, **DB_Xrefs** must include the correponding UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 11. Gene Product Properties
 The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, kidney, etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
 
-This field is not mandatory, cardinality 0, 1, >1 ; for cardinality >1, use a pipe to separate entries. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
