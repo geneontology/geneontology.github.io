@@ -8,8 +8,12 @@ redirect_from:
 - /page/molecular-function-ontology-guidelines
 - /page/cellular-component-ontology-guidelines
 - /page/go-annotation-conventions
-- GO.contents.doc.shtml
+- /GO.contents.doc.shtml
 - /GO.ontology.structure.shtml
+- /docs/GO-term-elements
+- /docs/ontology/
+- /page/ontology-structure
+- /page/species-specific-terms
 ---
 
 # Gene Ontology overview
