@@ -97,13 +97,11 @@ SGD feature type named ORF in SGD --->
 ---
 #### 8. Parent Protein
 * When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
-* Cardinality = 0, 1, > 1; for cardinality >1, values must be pipe-separated. 
-<!--- 
-How can that be??? this should be 0,1 --->
+* Cardinality = 0, 1 
 ---
 #### 9. Protein-Containing Complex Members
 * When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric reference protein accessions.
-* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
+* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated.
 ---
 #### 10. Database cross-references (DB_Xrefs)
 * Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For proteins in model organism databases, **DB_Xrefs** must include the correponding UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
