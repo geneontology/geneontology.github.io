@@ -24,13 +24,3 @@ GO subsets (also known as GO slims) are condensed versions of the GO containing 
 ## Cross-references of GO to other classification systems
 Many GO classes have cross-references (mappings) to a number of external classification systems. The [cross-references of external classification systems to GO page](/docs/download-mappings/) contains more information and links to the cross-reference2GO files.
 
-## Snapshot editions
-As of April 2019, the standard PURLs for GO will resolve to the monthly (release) version. We *strongly* recommend using the latest official release instead of snapshot. If you have need to access the snapshot (daily) version, use `/snapshot/` in the URL. For example:
-
- * http://purl.obolibrary.org/obo/go/snapshot/go.obo
- * http://purl.obolibrary.org/obo/go/snapshot/go.owl
- * http://purl.obolibrary.org/obo/go/snapshot/extensions/go-plus.owl
-
-## Related tools
-+ [OBO format tools in GitHub](https://github.com/oboformat/oboformat-tools){:target="blank"}: a wrapper for the Java (OWL-API) implementation of a parser for OBOF1.4 syntax and an implementation of the OBOF1.4 mapping to OWL (uses the OWL API)
-* [OWL API in Github](https://github.com/owlcs/owlapi){:target="blank"}: a Java API for creating, manipulating and serialising OWL Ontologies
