@@ -37,17 +37,16 @@ Mandatory elements of the GPI 2.0 file header are:
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
 **Required fields are in bold.**
 
-| **Column** | **Content** | **Cardinality** | **Example 1: protein**| **Example 2: protein (MOD) | Example 3: isoform**| **Example 4: protein complex** | **Example 5: ncRNA**
+| **Column** | **Content** | **Cardinality** | **Example 1: UniProt protein**| **Example 2: protein (MOD)** | **Example 3: UniProt isoform**| **Example 4: protein complex** | **Example 5: ncRNA**
 |----------|---------|-------------|---------|--------|
 | 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	WB:WBGene00000007 | UniProtKB:Q4VCS5-1|  SGD:S000217643 |  RNAcentral:URS0000527F89_9606 | 
-| 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| aat-6 | 
-AMOT|  CBF1:MET4:MET28 | URS0000527F89_9606 | 
+| 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| aat-6 | AMOT|  CBF1:MET4:MET28 | URS0000527F89_9606 | 
 | 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or 1 | Angiomotin| Amino acid transporter protein 6 | Angiomotin| sulfur metabolism transcription factor complex |  Homo sapiens (human) hsa-miR-145-5p | 
 | 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| aat-6|T11F9.4 | KIAA1071| |   | 
 | 5 | **[Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| PR:000000001 | PR:000000001| GO:0032991 | SO:0000276	
 | 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBItaxon:6239| NCBITaxon:9606|  NCBITaxon:559292 |  NCBITaxon:9606| 
 | 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | | HGNC:17810 | |HGNC:31532 |
-| 8 | [Parent Protein](#8-parent-protein "Definition and requirements for Parent Protein (column 8)") |		0 or 1 |	| | UniProtKB:Q4VCS5 | | |
+| 8 | [Canonical object ID](#8-parent-protein "Definition and requirements for Canonical object ID (column 8)") |	0 for complexes; 1 for other entities |	UniProtKB:Q4VCS5 | WB:WBGene00000007 | UniProtKB:Q4VCS5 | | RNAcentral:URS0000527F89_9606 |
 | 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or > |  | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047|  |
 | 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | UniProtKB:Q22397 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 |  ENSG00000276365 | 
 | 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or > |	db_subset=Swiss-Prot| | |  | 
@@ -96,9 +95,9 @@ SGD feature type named ORF in SGD --->
 * For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities, e.g. ENSG00000197153.
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
-#### 8. Parent Protein
-* When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry.
-* Cardinality = 0, 1 
+#### 8. Canonical object ID
+* When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry. If the **DB:Object_ID** in Column 1 corresponds to a gene-centric reference protein accession, then this value is repeated in Column 8. Together, the unique values in Column 8 correspond to the full set of genes encoded by the organism.
+* Cardinality = 0 got protein complexes, 1 for all other object types.
 
 #### 9. Protein-Containing Complex Members
 * When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric reference protein accessions.
