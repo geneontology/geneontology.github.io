@@ -46,7 +46,7 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 | 5 | **[Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| SO:0000704 | PR:000000001| GO:0032991 | SO:0000276	
 | 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBItaxon:6239| NCBITaxon:9606|  NCBITaxon:559292 |  NCBITaxon:9606| 
 | 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | | HGNC:17810 | |HGNC:31532 |
-| 8 | [Canonical object ID](#8-parent-protein "Definition and requirements for Canonical object ID (column 8)") |	0 for complexes; 1 for other entities |	UniProtKB:Q4VCS5 | WB:WBGene00000007 | UniProtKB:Q4VCS5 | | RNAcentral:URS0000527F89_9606 |
+| 8 | **[Canonical object ID](#8-parent-protein "Definition and requirements for Canonical object ID (column 8)")** | 1 |	UniProtKB:Q4VCS5 | WB:WBGene00000007 | UniProtKB:Q4VCS5 | SGD:S000217643  | RNAcentral:URS0000527F89_9606 |
 | 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or > |  | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047|  |
 | 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | UniProtKB:Q22397 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 |  ENSG00000276365 | 
 | 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or > |	db_subset=Swiss-Prot| | |  | 
@@ -96,8 +96,8 @@ SGD feature type named ORF in SGD --->
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 8. Canonical object ID
-* When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry. If the **DB:Object_ID** in Column 1 corresponds to a gene-centric reference protein accession, then this value is repeated in Column 8. Together, the unique values in Column 8 correspond to the full set of genes encoded by the organism.
-* Cardinality = 0 got protein complexes, 1 for all other object types.
+* When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry. If the **DB:Object_ID** in Column 1 corresponds to a gene-centric reference protein accession or a protein complex, then this value is repeated in Column 8. Together, the unique values in Column 8 correspond to the full set of genes encoded by the organism.
+* Cardinality = 1.
 
 #### 9. Protein-Containing Complex Members
 * When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric reference protein accessions.
