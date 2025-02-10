@@ -74,12 +74,12 @@ Leaders of key contributing resources.
 #### CACAO & EcoliWiki
 
 | --- | --- | --- | --- |
-|[Jolene Ramsey](https://orcid.org/0000-0002-3774-5896) |[Deborah A. Siegele](https://orcid.org/0000-0001-8935-0696)| | |
+|[Jolene Ramsey](https://orcid.org/0000-0002-3774-5896) |[Deborah A. Siegele](https://orcid.org/0000-0001-8935-0696)|  |  |
 
 #### dictyBase
 
 | --- | --- | --- | --- |
-|[Rex L. Chisholm](https://orcid.org/0000-0002-5638-3990) |[Petra Fey](https://orcid.org/0000-0002-4532-2703) |  | |
+|[Rex L. Chisholm](https://orcid.org/0000-0002-5638-3990) |[Petra Fey](https://orcid.org/0000-0002-4532-2703) |  |  |
 
 #### DisProt, Dept. of Biomedical Sciences, University of Padova, Italy
 
@@ -156,19 +156,19 @@ Leaders of key contributing resources.
 #### Rhea, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (SIB) (Geneva, Switzerland)
 
 | --- | --- | --- | --- |
-|[Lucila Aimo](https://orcid.org/0000-0003-0943-6401) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) |[Alan Bridge](https://orcid.org/0000-0003-2148-9135) | Nevila Hyka-Nouspikel(https://orcid.org/0000-0001-7855-209X) |
+|[Lucila Aimo](https://orcid.org/0000-0003-0943-6401) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) |[Alan Bridge](https://orcid.org/0000-0003-2148-9135) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) |
 |[Anne Morgat](https://orcid.org/0000-0002-1216-2969)| | | |
 
 #### *Saccharomyces* Genome Database (SGD), Department of Genetics, Stanford University (Stanford, CA, USA)
 
 | --- | --- | --- | --- |
-|[Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) |[J.Michael Cherry](https://orcid.org/0000-0001-9163-5180) |[Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) |Stuart[R. Miyasato](https://orcid.org/0000-0001-5250-8920) |
-|[Robert S. Nash](https://orcid.org/0000-0002-3726-7441) |[Shuai Weng](https://orcid.org/0000-0003-4233-0772) |[Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | |
+| [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [J.Michael Cherry](https://orcid.org/0000-0001-9163-5180) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920) |
+| [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) | [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | |
 
 #### The Arabidopsis Information Resource (TAIR), Phoenix Bioinformatics (Newark, CA, USA)
 
 | --- | --- | --- | --- |
-|[Erika Bakker](https://orcid.org/0000-0001-7933-3817) |[Tanya Z. Berardini](https://orcid.org/0000-0002-3837-8864) |[Leonore Reiser](https://orcid.org/0000-0003-0073-0858)| |
+| [Erika Bakker](https://orcid.org/0000-0001-7933-3817) | [Tanya Z. Berardini](https://orcid.org/0000-0002-3837-8864) | [Leonore Reiser](https://orcid.org/0000-0003-0073-0858)| |
 
 #### UniProt, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (SIB) (Geneva, Switzerland)
 
@@ -184,12 +184,12 @@ Leaders of key contributing resources.
 #### UniProt, EMBL-EBI, (Hinxton, UK)
 
 | --- | --- | --- | --- |
-|[Aduragbemi Adesina](https://orcid.org/0000-0002-1029-4159) | Sucharitha Balu|[Alex Bateman](https://orcid.org/0000-0002-6982-4660) | [Emily Bowler-Barnett](https://orcid.org/0000-0003-4785-7231) | [Hema Bye-A-Jee](https://orcid.org/0000-0003-2464-7688) |
-|[David C J Carpentier](https://orcid.org/0000-0002-8172-9121) |[Paul Denny](https://orcid.org/0000-0003-4659-6893) |[Alexandr Ignatchenko](https://orcid.org/0000-0002-6083-941X) |[Rizwan Ishtiaq](https://orcid.org/0000-0001-8041-7321) | 
-| Dushyanth Jyothi |[Gun Antonia Nilsson Lock](https://orcid.org/0000-0003-1179-5999) |[Yvonne Lussi](https://orcid.org/0000-0002-5753-0235) |[Michele Magrane](https://orcid.org/0000-0003-3544-996X) | 
-|[Maria J. Martin](https://orcid.org/0000-0001-5454-2815) | Juan Jose Medina |[Sandra Orchard](https://orcid.org/0000-0002-8878-3972) | Kalpana Panneerselvam | 
-|[Pedro Raposo](https://orcid.org/0000-0001-6149-9456) |[Nadya Urakova](https://orcid.org/0000-0003-3499-8158) |[Kate Warner](https://orcid.org/0000-0001-8705-181X) | [Conny Wing-Heng Yu](https://orcid.org/0000-0002-6478-5762) | 
-|[Rossana Zaru](https://orcid.org/0000-0002-3358-4423)| | | |
+| [Aduragbemi Adesina](https://orcid.org/0000-0002-1029-4159) | Sucharitha Balu | [Alex Bateman](https://orcid.org/0000-0002-6982-4660) | [Emily Bowler-Barnett](https://orcid.org/0000-0003-4785-7231) |
+| [Hema Bye-A-Jee](https://orcid.org/0000-0003-2464-7688) | [David C J Carpentier](https://orcid.org/0000-0002-8172-9121) |[Paul Denny](https://orcid.org/0000-0003-4659-6893) |[Alexandr Ignatchenko](https://orcid.org/0000-0002-6083-941X) |
+| [Rizwan Ishtiaq](https://orcid.org/0000-0001-8041-7321) | Dushyanth Jyothi | [Gun Antonia Nilsson Lock](https://orcid.org/0000-0003-1179-5999) |[Yvonne Lussi](https://orcid.org/0000-0002-5753-0235) |
+| [Michele Magrane](https://orcid.org/0000-0003-3544-996X) | [Maria J. Martin](https://orcid.org/0000-0001-5454-2815) | Juan Jose Medina | [Sandra Orchard](https://orcid.org/0000-0002-8878-3972) |
+| Kalpana Panneerselvam | [Pedro Raposo](https://orcid.org/0000-0001-6149-9456) |[Nadya Urakova](https://orcid.org/0000-0003-3499-8158) |[Kate Warner](https://orcid.org/0000-0001-8705-181X) |
+| [Conny Wing-Heng Yu](https://orcid.org/0000-0002-6478-5762) | |[Rossana Zaru](https://orcid.org/0000-0002-3358-4423)| | | |
 
 #### University at Buffalo, Department of Biomedical Informatics (Buffalo, NY, USA)
 
