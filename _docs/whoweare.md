@@ -213,5 +213,18 @@ Leaders of key contributing resources.
 |[Sridhar Ramachandran](https://orcid.org/0000-0002-2246-3722) |[Leyla Ruzicka](https://orcid.org/0000-0002-1009-339X) |[Monte Westerfield](https://orcid.org/0000-0003-1187-7839)| |
 
 ## GO contributors *emeriti*
-#### Find past contributors on our GOC papers
-* [The Gene Ontology's Reference Genome Project: a unified framework for functional annotation across species](https://pubmed.ncbi.nlm.nih.gov/19578431/)
+#### Find past contributors on our GOC papers:
+* [The Gene Ontology resource: enriching a GOld mine](https://pubmed.ncbi.nlm.nih.gov/33290552/) (NAR, 2021)
+* [Annotation of gene product function from high-throughput studies using the Gene Ontology](https://pubmed.ncbi.nlm.nih.gov/30715275/) (Database (Oxford), 2019)
+* [The Gene Ontology Resource: 20 years and still GOing strong](https://pubmed.ncbi.nlm.nih.gov/30395331/) (NAR, 2019)
+* [Expansion of the Gene Ontology knowledgebase and resources](https://pubmed.ncbi.nlm.nih.gov/27899567/) (NAR, 2017)
+* [Gene Ontology Consortium: going forward](https://pubmed.ncbi.nlm.nih.gov/25428369/) (NAR, 2015)
+* [Gene Ontology annotations and resources](https://pubmed.ncbi.nlm.nih.gov/23161678/) (NAR, 2013)
+* [On the Use of Gene Ontology Annotations to Assess Functional Similarity among Orthologs and Paralogs: A Short Report](https://pubmed.ncbi.nlm.nih.gov/22359495/) (PLoS Comput Biol., 2012)
+* [The Gene Ontology: enhancements for 2011](https://pubmed.ncbi.nlm.nih.gov/22102568/) (NAR, 2012)
+* [The Gene Ontology in 2010: extensions and refinements](https://pubmed.ncbi.nlm.nih.gov/19920128/) (NAR, 2010)
+* [The Gene Ontology's Reference Genome Project: a unified framework for functional annotation across species](https://pubmed.ncbi.nlm.nih.gov/19578431/) (PLoS Comput Biol., 2009)
+* [The Gene Ontology project in 2008](https://pubmed.ncbi.nlm.nih.gov/17984083/) (NAR, 2008)
+* [The Gene Ontology (GO) project in 2006](https://pubmed.ncbi.nlm.nih.gov/16381878/) (NAR, 2006)
+* [The Gene Ontology (GO) database and informatics resource](https://pubmed.ncbi.nlm.nih.gov/14681407/) (NAR, 2004)
+* [Creating the gene ontology resource: design and implementation](https://pubmed.ncbi.nlm.nih.gov/11483584/) (Genome Res., 2001)
