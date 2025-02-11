@@ -54,13 +54,10 @@ Leaders of key contributing resources.
 - __ZFIN__
   - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield){:target="blank"}, University of Oregon
   
-## Founders
-
-| :---: | :---: | :---: |
-| <img src="/assets/whoweare/Plos_ashburner.jpg" alt="Michael Ashburner, image By PLoS - PLoS, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4155078" width="200" div style="border: 2px solid black;"/> [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"} | <img src="/assets/whoweare/blake.jpg" alt="Judith Blake" width="200" div style="border: 2px solid black;"/> [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"} | <img src="/assets/whoweare/lewis.jpg" alt="Suzanna Lewis" width="200" div style="border: 2px solid black;"/> [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"} |
 
 
-## Current GO contributors by Group
+
+## GO contributors by Group
 
 #### GO Central
 
@@ -74,12 +71,12 @@ Leaders of key contributing resources.
 #### CACAO & EcoliWiki
 
 | --- | --- | --- | --- |
-|[Jolene Ramsey](https://orcid.org/0000-0002-3774-5896) |[Deborah A. Siegele](https://orcid.org/0000-0001-8935-0696)|  |  |
+|[Jolene Ramsey](https://orcid.org/0000-0002-3774-5896) |[Deborah A. Siegele](https://orcid.org/0000-0001-8935-0696)|    |    |
 
 #### dictyBase
 
 | --- | --- | --- | --- |
-|[Rex L. Chisholm](https://orcid.org/0000-0002-5638-3990) |[Petra Fey](https://orcid.org/0000-0002-4532-2703) |  |  |
+|[Rex L. Chisholm](https://orcid.org/0000-0002-5638-3990) |[Petra Fey](https://orcid.org/0000-0002-4532-2703) |    |    |
 
 #### DisProt, Dept. of Biomedical Sciences, University of Padova, Italy
 
@@ -146,14 +143,14 @@ Leaders of key contributing resources.
 | --- | --- | --- | --- |
 | Jeffrey L. De Pons |[Melinda R. Dwinell](https://orcid.org/0000-0002-9528-3618) |[G. Thomas Hayman](https://orcid.org/0000-0002-9553-7227) |[Mary L. Kaldunski](https://orcid.org/0000-0003-3645-6803) |
 |[Anne E. Kwitek](https://orcid.org/0000-0003-1024-4116) |[Stanley J. F. Laulederkind](https://orcid.org/0000-0001-5356-4174) |[Marek A. Tutaj](https://orcid.org/0000-0002-1025-101X) |[Mahima Vedi](https://orcid.org/0000-0001-5361-6739) |
-| Shur-Jen[Wang](https://orcid.org/0000-0001-5256-8683)| | | |
+| [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)| | | |
 
 #### Reactome
 
 | --- | --- | --- | --- |
 | [Peter D’Eustachio](https://orcid.org/0000-0002-5494-626X)| Lisa Matthews | | |
 
-#### Rhea, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (SIB) (Geneva, Switzerland)
+#### Rhea, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (Geneva, Switzerland)
 
 | --- | --- | --- | --- |
 |[Lucila Aimo](https://orcid.org/0000-0003-0943-6401) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) |[Alan Bridge](https://orcid.org/0000-0003-2148-9135) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) |
@@ -170,7 +167,7 @@ Leaders of key contributing resources.
 | --- | --- | --- | --- |
 | [Erika Bakker](https://orcid.org/0000-0001-7933-3817) | [Tanya Z. Berardini](https://orcid.org/0000-0002-3837-8864) | [Leonore Reiser](https://orcid.org/0000-0003-0073-0858)| |
 
-#### UniProt, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (SIB) (Geneva, Switzerland)
+#### UniProt, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (Geneva, Switzerland)
 
 | --- | --- | --- | --- |
 |[Andrea Auchincloss](https://orcid.org/0000-0002-5297-5390) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) | [Ghislaine Argoud-Puy](https://orcid.org/0000-0002-2979-8613) | [Marie-Claude Blatter](https://orcid.org/0000-0002-7474-1499) |
@@ -228,3 +225,8 @@ Leaders of key contributing resources.
 * [The Gene Ontology (GO) project in 2006](https://pubmed.ncbi.nlm.nih.gov/16381878/) (NAR, 2006)
 * [The Gene Ontology (GO) database and informatics resource](https://pubmed.ncbi.nlm.nih.gov/14681407/) (NAR, 2004)
 * [Creating the gene ontology resource: design and implementation](https://pubmed.ncbi.nlm.nih.gov/11483584/) (Genome Res., 2001)
+
+  ## Founders
+
+| :---: | :---: | :---: |
+| <img src="/assets/whoweare/Plos_ashburner.jpg" alt="Michael Ashburner, image By PLoS - PLoS, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4155078" width="200" div style="border: 2px solid black;"/> [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"} | <img src="/assets/whoweare/blake.jpg" alt="Judith Blake" width="200" div style="border: 2px solid black;"/> [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"} | <img src="/assets/whoweare/lewis.jpg" alt="Suzanna Lewis" width="200" div style="border: 2px solid black;"/> [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"} |
