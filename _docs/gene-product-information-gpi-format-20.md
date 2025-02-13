@@ -33,7 +33,7 @@ Mandatory elements of the GPI 2.0 file header are:
     !Funding: NHGRI grant number HG012212
      ```
 
-## GPI File Contents
+## GPI File Contents and Examples
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
 **Required fields are in bold.**
 
