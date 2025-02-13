@@ -76,7 +76,7 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 #### 5. Object Type
 * An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology for all other entities. Allowed entity types: 
   * [PR:000000001](http://purl.obolibrary.org/obo/PR_000000001): protein 
-  * [GO:0032991](http://purl.obolibrary.org/obo/GO:0032991): protein-containing complex 
+  * [GO:0032991](http://purl.obolibrary.org/obo/GO_0032991): protein-containing complex 
   * [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217): protein-coding gene 
   * [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655): ncRNA or any SO child term
   * [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263): ncRNA-coding gene or any SO child term
