@@ -80,6 +80,8 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
   * [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217): protein-coding gene 
   * [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655): ncRNA or any SO child term
   * [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263): ncRNA-coding gene or any SO child term
+  * [SO:0000336](http://purl.obolibrary.org/obo/SO_0000336): pseudogene
+    
 * **Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
 * GO strongly recommends against using '[gene](http://purl.obolibrary.org/obo/SO_0000704)' or 'gene product' as this does not allow to differentiate between proteins and ncRNAs. 
 <!--- 
