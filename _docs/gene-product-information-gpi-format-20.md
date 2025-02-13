@@ -76,13 +76,12 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 #### 5. Object Type
 * An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology for all other entities. Allowed entity types: 
   * [PR:000000001](http://purl.obolibrary.org/obo/PR_000000001): protein 
-  * [GO:0032991](http://purl.obolibrary.org/obo/PR_000000001): protein-containing complex 
+  * [GO:0032991](http://purl.obolibrary.org/obo/GO:0032991): protein-containing complex 
   * [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217): protein-coding gene 
-  * [SO:0000704](http://purl.obolibrary.org/obo/SO_0000704): gene 
   * [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655): ncRNA or any SO child term
   * [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263): ncRNA-coding gene or any SO child term
 * **Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
-* GO strongly recommends against using 'gene' or 'gene product' as this does not allow to differentiate between proteins and ncRNAs. 
+* GO strongly recommends against using '[gene](http://purl.obolibrary.org/obo/SO_0000704)' or 'gene product' as this does not allow to differentiate between proteins and ncRNAs. 
 <!--- 
 SGD feature type named ORF in SGD --->
 * Cardinality = 1
@@ -96,7 +95,7 @@ SGD feature type named ORF in SGD --->
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 8. Canonical object ID
-* When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry. If the **DB:Object_ID** in Column 1 corresponds to a gene-centric reference protein accession or a protein complex, then this value is repeated in Column 8. Together, the unique values in Column 8 correspond to the full set of genes encoded by the organism.
+* When the **DB:Object_ID** in Column 1 describes a protein isoform or a modified protein, this column refers to the gene-centric reference protein accession of the column 1 entry. If the **DB:Object_ID** in Column 1 corresponds to a gene-centric reference protein accession or a protein complex, then this value is repeated in Column 8. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
 * Cardinality = 1.
 
 #### 9. Protein-Containing Complex Members
