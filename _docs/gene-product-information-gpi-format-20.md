@@ -105,7 +105,9 @@ SGD feature type named ORF in SGD --->
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated.
 
 #### 10. Database cross-references (DB_Xrefs)
-* Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers, e.g. UniProtKB:Q60FP0. For proteins in model organism databases, **DB_Xrefs** must include the correponding UniProtKB ID, and may also include NCBI gene or protein IDs, etc. 
+* Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers: a namespace and a value, separated by a colon, e.g. UniProtKB:Q60FP0.
+* This field is mandatory if the prefix in column 1 is not one of: UniProtKB, RNACentral, ComplexPortal. In these cases, **DB_Xrefs** must include the correponding UniProtKB ID, RNACentral, or ComplexPortal as appropriate according to the object type (see Column 5).
+* Additional cross references such as NCBI gene or protein IDs, HGNC, etc, may also be included,
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 11. Gene Product Properties
