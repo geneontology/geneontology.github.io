@@ -19,12 +19,12 @@ Each line of the file header must be prefixed with an exclamation mark (`!`).
 Mandatory elements of the GPI 2.0 file header are: 
 - gpi-version
 - the name of database or group generating the file, as listed in [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
-- the date the file was generated conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
+- the date the file was generated conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD` or `YYYY-MM-DDTHH:MM:SS`
 - Example GPI 2.0 header:
     ```
     !gpi-version: 2.0
     !generated-by: SGD
-    !date-generated: 2024-05-01
+    !date-generated: 2024-11-02 23:27
     ```   
 - Additional information may also be included, for example project URL and funding sources. For example:
      ```
