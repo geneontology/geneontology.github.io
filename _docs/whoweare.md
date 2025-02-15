@@ -84,11 +84,11 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Snezhana Oliferenko](https://orcid.org/0000-0002-8138-6851)| | | |
 
 #### Mouse Genome Informatics (MGI)
-  - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
+  - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"} [ORCID](https://orcid.org/0000-0003-3691-0324), The Jackson Laboratory
 
 | --- | --- | --- | --- |
 |[Karen Christie](https://orcid.org/0000-0001-5501-853X) |[Lori Corbani](https://orcid.org/0000-0002-2366-557X) |[Mary E Dolan](https://orcid.org/0000-0001-7732-3295) |[Harold J Drabkin](https://orcid.org/0000-0003-2689-5511) |
-|[David P Hill](https://orcid.org/0000-0001-7476-6306) |[Li Ni](https://orcid.org/0000-0002-9796-7693) |[Dmitry Sitnikov](https://orcid.org/0000-0003-3394-9805) |[Cynthia Smith](https://orcid.org/0000-0003-3691-0324)|
+|[David P Hill](https://orcid.org/0000-0001-7476-6306) |[Li Ni](https://orcid.org/0000-0002-9796-7693) |[Dmitry Sitnikov](https://orcid.org/0000-0003-3394-9805) | |
 
 #### PHI-base
 
@@ -106,67 +106,65 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Parul Gupta](https://orcid.org/0000-0002-0190-8753) |[Pankaj Jaiswal](https://orcid.org/0000-0002-1005-8383) |[Sushma Naithani](https://orcid.org/0000-0001-7819-4552) | |
 
 #### PomBase
-  - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
+  - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"} [ORCID](https://orcid.org/0000-0001-6330-7526), University of Cambridge
 
 | --- | --- | --- | --- |
-| [Manuel Lera-Ramirez](https://orcid.org/0000-0002-8666-9746) |[Kim Rutherford](https://orcid.org/0000-0001-6277-726X) |[Valerie Wood](https://orcid.org/0000-0001-6330-7526)| |
+| [Manuel Lera-Ramirez](https://orcid.org/0000-0002-8666-9746) |[Kim Rutherford](https://orcid.org/0000-0001-6277-726X) | | |
 
 #### Rat Genome Database (RGD)
-  - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd){:target="blank"}, Medical College of Wisconsin
+  - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd){:target="blank"} [ORCID](https://orcid.org/0000-0003-1024-4116), Medical College of Wisconsin
 
 | --- | --- | --- | --- |
 | Jeffrey L. De Pons |[Melinda R. Dwinell](https://orcid.org/0000-0002-9528-3618) |[G. Thomas Hayman](https://orcid.org/0000-0002-9553-7227) |[Mary L. Kaldunski](https://orcid.org/0000-0003-3645-6803) |
-|[Anne E. Kwitek](https://orcid.org/0000-0003-1024-4116) |[Stanley J. F. Laulederkind](https://orcid.org/0000-0001-5356-4174) |[Marek A. Tutaj](https://orcid.org/0000-0002-1025-101X) |[Mahima Vedi](https://orcid.org/0000-0001-5361-6739) |
-| [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)| | | |
+|[Stanley J. F. Laulederkind](https://orcid.org/0000-0001-5356-4174) |[Marek A. Tutaj](https://orcid.org/0000-0002-1025-101X) |[Mahima Vedi](https://orcid.org/0000-0001-5361-6739) | [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)|
 
 #### Reactome
   - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
 
 | --- | --- | --- | --- |
-| [Peter D’Eustachio](https://orcid.org/0000-0002-5494-626X)| Lisa Matthews | | |
+| Lisa Matthews | | | |
 
 #### Rhea, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (Geneva, Switzerland)
+  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"} [ORCID](https://orcid.org/0000-0003-2148-9135), SIB Swiss Institute of Bioinformatics
 
 | --- | --- | --- | --- |
-|[Lucila Aimo](https://orcid.org/0000-0003-0943-6401) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) |[Alan Bridge](https://orcid.org/0000-0003-2148-9135) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) |
-|[Anne Morgat](https://orcid.org/0000-0002-1216-2969)| | | |
+|[Lucila Aimo](https://orcid.org/0000-0003-0943-6401) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) | [Anne Morgat](https://orcid.org/0000-0002-1216-2969)|
 
 #### *Saccharomyces* Genome Database (SGD), Department of Genetics, Stanford University (Stanford, CA, USA)
--[J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"},<br> Stanford University 
+- [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"} [ORCID](https://orcid.org/0000-0001-9163-5180), Stanford University 
 
 | --- | --- | --- | --- |
-| [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [J.Michael Cherry](https://orcid.org/0000-0001-9163-5180) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920) |
-| [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) | [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | |
+| [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920)| [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) |
+| [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | | |
 
 #### The Arabidopsis Information Resource (TAIR), Phoenix Bioinformatics (Newark, CA, USA)
   - [Tanya Berardini](https://orcid.org/0000-0002-3837-8864){:target="blank"}, Phoenix Bioinformatics
 
 | --- | --- | --- | --- |
-| [Erika Bakker](https://orcid.org/0000-0001-7933-3817) | [Tanya Z. Berardini](https://orcid.org/0000-0002-3837-8864) | [Leonore Reiser](https://orcid.org/0000-0003-0073-0858)| |
+| [Erika Bakker](https://orcid.org/0000-0001-7933-3817) |  [Leonore Reiser](https://orcid.org/0000-0003-0073-0858) | | |
 
 #### UniProt, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (Geneva, Switzerland)
-  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, SIB Swiss Institute of Bioinformatics
+  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"} [ORCID](https://orcid.org/0000-0003-2148-9135), SIB Swiss Institute of Bioinformatics
     
 | --- | --- | --- | --- |
 |[Andrea Auchincloss](https://orcid.org/0000-0002-5297-5390) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) | [Ghislaine Argoud-Puy](https://orcid.org/0000-0002-2979-8613) | [Marie-Claude Blatter](https://orcid.org/0000-0002-7474-1499) |
-|[Emmanuel Boutet](https://orcid.org/0000-0002-3743-4203) |[Lionel Breuza](https://orcid.org/0000-0002-8075-8625) |[Alan Bridge](https://orcid.org/0000-0003-2148-9135) | [Cristina Casals-Casas](https://orcid.org/0000-0001-8769-177X) | 
-|[Elisabeth Coudert](https://orcid.org/0000-0001-8314-404X) |[Anne Estreicher](https://orcid.org/0000-0001-6828-2508) |[Maria Livia Famiglietti](https://orcid.org/0000-0002-5283-6593) |[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |
-|[Arnaud Gos](https://orcid.org/0000-0002-5018-1378) | [Nadine Gruaz-Gumowski](https://orcid.org/0000-0002-4699-4907) |[Chantal Hulo](https://orcid.org/0000-0001-8176-7999) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) | 
-|[Florence Jungo](https://orcid.org/0000-0002-7456-8390) |[Philippe Le Mercier](https://orcid.org/0000-0001-8528-090X) |[Damien Lieberherr](https://orcid.org/0000-0002-9724-1710) |[Patrick Masson](https://orcid.org/0000-0001-7646-0052) | 
-|[Anne Morgat](https://orcid.org/0000-0002-1216-2969) |[Ivo Pedruzzi](https://orcid.org/0000-0001-8561-7170) |[Lucille Pourcel](https://orcid.org/0000-0003-1522-9900) |[Sylvain Poux](https://orcid.org/0000-0001-7299-6685) | 
-|[Catherine Rivoire](https://orcid.org/0000-0002-5979-8382) |[Shyamala Sundaram](https://orcid.org/0000-0003-4209-460X)| | |
+|[Emmanuel Boutet](https://orcid.org/0000-0002-3743-4203) |[Lionel Breuza](https://orcid.org/0000-0002-8075-8625) | [Cristina Casals-Casas](https://orcid.org/0000-0001-8769-177X) | [Elisabeth Coudert](https://orcid.org/0000-0001-8314-404X) | 
+| [Anne Estreicher](https://orcid.org/0000-0001-6828-2508) |[Maria Livia Famiglietti](https://orcid.org/0000-0002-5283-6593) |[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |[Arnaud Gos](https://orcid.org/0000-0002-5018-1378) |  
+| [Nadine Gruaz-Gumowski](https://orcid.org/0000-0002-4699-4907) |[Chantal Hulo](https://orcid.org/0000-0001-8176-7999) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) |[Florence Jungo](https://orcid.org/0000-0002-7456-8390) |
+| [Philippe Le Mercier](https://orcid.org/0000-0001-8528-090X) |[Damien Lieberherr](https://orcid.org/0000-0002-9724-1710) |[Patrick Masson](https://orcid.org/0000-0001-7646-0052) |[Anne Morgat](https://orcid.org/0000-0002-1216-2969) |
+| [Ivo Pedruzzi](https://orcid.org/0000-0001-8561-7170) |[Lucille Pourcel](https://orcid.org/0000-0003-1522-9900) |[Sylvain Poux](https://orcid.org/0000-0001-7299-6685) |[Catherine Rivoire](https://orcid.org/0000-0002-5979-8382) |
+| [Shyamala Sundaram](https://orcid.org/0000-0003-4209-460X)| | | |
 
 #### UniProt, EMBL-EBI, (Hinxton, UK)
-  - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
-  - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute
+  - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"} [ORCID](https://orcid.org/0000-0002-6982-4660), European Bioinformatics Institute
+  - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"} [ORCID](https://orcid.org/0000-0002-8878-3972), European Bioinformatics Institute
 
 | --- | --- | --- | --- |
-| [Aduragbemi Adesina](https://orcid.org/0000-0002-1029-4159) | Sucharitha Balu | [Alex Bateman](https://orcid.org/0000-0002-6982-4660) | [Emily Bowler-Barnett](https://orcid.org/0000-0003-4785-7231) |
-| [Hema Bye-A-Jee](https://orcid.org/0000-0003-2464-7688) | [David C J Carpentier](https://orcid.org/0000-0002-8172-9121) |[Paul Denny](https://orcid.org/0000-0003-4659-6893) |[Alexandr Ignatchenko](https://orcid.org/0000-0002-6083-941X) |
-| [Rizwan Ishtiaq](https://orcid.org/0000-0001-8041-7321) | Dushyanth Jyothi | [Gun Antonia Nilsson Lock](https://orcid.org/0000-0003-1179-5999) |[Yvonne Lussi](https://orcid.org/0000-0002-5753-0235) |
-| [Michele Magrane](https://orcid.org/0000-0003-3544-996X) | [Maria J. Martin](https://orcid.org/0000-0001-5454-2815) | Juan Jose Medina | [Sandra Orchard](https://orcid.org/0000-0002-8878-3972) |
-| Kalpana Panneerselvam | [Pedro Raposo](https://orcid.org/0000-0001-6149-9456) |[Nadya Urakova](https://orcid.org/0000-0003-3499-8158) |[Kate Warner](https://orcid.org/0000-0001-8705-181X) |
-| [Conny Wing-Heng Yu](https://orcid.org/0000-0002-6478-5762) | |[Rossana Zaru](https://orcid.org/0000-0002-3358-4423)| | | |
+| [Aduragbemi Adesina](https://orcid.org/0000-0002-1029-4159) | Sucharitha Balu | [Emily Bowler-Barnett](https://orcid.org/0000-0003-4785-7231) | [Emily Bowler-Barnett](https://orcid.org/0000-0003-4785-7231) | [Hema Bye-A-Jee](https://orcid.org/0000-0003-2464-7688) |
+| [David C J Carpentier](https://orcid.org/0000-0002-8172-9121) |[Paul Denny](https://orcid.org/0000-0003-4659-6893) |[Alexandr Ignatchenko](https://orcid.org/0000-0002-6083-941X) | [Rizwan Ishtiaq](https://orcid.org/0000-0001-8041-7321) | 
+| Dushyanth Jyothi | [Gun Antonia Nilsson Lock](https://orcid.org/0000-0003-1179-5999) |[Yvonne Lussi](https://orcid.org/0000-0002-5753-0235) | [Michele Magrane](https://orcid.org/0000-0003-3544-996X) |
+| [Maria J. Martin](https://orcid.org/0000-0001-5454-2815) | Juan Jose Medina | Kalpana Panneerselvam | [Pedro Raposo](https://orcid.org/0000-0001-6149-9456) |
+| [Nadya Urakova](https://orcid.org/0000-0003-3499-8158) |[Kate Warner](https://orcid.org/0000-0001-8705-181X) | [Conny Wing-Heng Yu](https://orcid.org/0000-0002-6478-5762) | [Rossana Zaru](https://orcid.org/0000-0002-3358-4423)| 
 
 #### University at Buffalo, Department of Biomedical Informatics (Buffalo, NY, USA)
 
@@ -174,22 +172,23 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Alexander D. Diehl](https://orcid.org/0000-0001-9990-8331) | | | |
 
 #### WormBase
-- [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"},<br> Caltech 
+- [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech 
 
 | --- | --- | --- | --- |
 |[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Juancarlos Chan](https://orcid.org/0000-0002-7259-8107) |[Stavros Diamantakis](https://orcid.org/0000-0002-0273-3406) |[Daniela Raciti](https://orcid.org/0000-0002-4945-5837) | 
 |[Magdalena Zarowiecki](https://orcid.org/0000-0001-6102-7731)| | | |
 
 #### Xenbase
+- [Aaron Zorn](https://www.cincinnatichildrens.org/research/divisions/d/dev-biology/labs/zorn){:target="blank"} [ORCID](https://orcid.org/0000-0003-3217-3590), Cincinnati Children’s Hospital Medical Center
 
 | --- | --- | --- | --- |
-|[Malcolm Fisher](https://orcid.org/0000-0003-1074-8103) | [Christina James-Zorn](https://orcid.org/0000-0001-5495-4588) |[Virgilio Ponferrada](https://orcid.org/0000-0002-8590-7183) |[Aaron Zorn](https://orcid.org/0000-0003-3217-3590)| 
+|[Malcolm Fisher](https://orcid.org/0000-0003-1074-8103) | [Christina James-Zorn](https://orcid.org/0000-0001-5495-4588) |[Virgilio Ponferrada](https://orcid.org/0000-0002-8590-7183) | | 
 
 #### Zebrafish Information Network (ZFIN)
- - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield){:target="blank"}, University of Oregon
+ - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield){:target="blank"} [ORCID](https://orcid.org/0000-0003-1187-7839), University of Oregon
 
 | --- | --- | --- | --- |
-|[Sridhar Ramachandran](https://orcid.org/0000-0002-2246-3722) |[Leyla Ruzicka](https://orcid.org/0000-0002-1009-339X) |[Monte Westerfield](https://orcid.org/0000-0003-1187-7839)| |
+|[Sridhar Ramachandran](https://orcid.org/0000-0002-2246-3722) |[Leyla Ruzicka](https://orcid.org/0000-0002-1009-339X) | | |
 
 ## GO contributors *emeriti*
 #### Find past contributors on our GOC papers:
