@@ -22,41 +22,6 @@ The Gene Ontology Consortium is an international group of scientists with expert
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="/assets/whoweare/gaudet.jpg" alt="Pascale Gaudet, Swiss Institute of Bioinformatics" width="200" div style="border: 2px solid black;"/> [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"},<br> Swiss Institute of Bioinformatics <br> Overall Project Management <br> Ontology development <br> Data Quality | <img src="/assets/whoweare/carbon.jpg" alt="Seth Carbon, Lawrence Berkeley National Laboratory" width="200" div style="border: 2px solid black;"/> [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"},<br> Lawrence Berkeley National Laboratory <br> Architecture | <img src="/assets/whoweare/vanauken.jpg" alt="Kimberly van Auken, Caltech" width="200" div style="border: 2px solid black;"/> [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"},<br> Caltech <br> Annotation | <img src="/assets/whoweare/mi.png" alt="Huaiyu Mi, University of Southern California" width="200" div style="border: 2px solid black;"/> [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"},<br> University of Southern California <br> Phylogenetic Annotation | <img src="/assets/whoweare/aleksander.jpeg" alt="Suzi Aleksander, Stanford University" width="200" div style="border: 2px solid black;"/> [Suzi Aleksander](https://cherrylab.stanford.edu/people/suzi-aleksander){:target="blank"},<br> Stanford University <br> User Support |
 
-## GO Council
-Leaders of key contributing resources.
-- __AspGDB & CGD__
-  - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University
-- __Complex Portal & IntAct__
-  - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute
-- __Dictybase__
-  - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466){:target="blank"}, Northwestern University
-- __EcoliWiki__
-  - [Deborah Siegele](https://www.bio.tamu.edu/faculty-page-deborah-siegele/){:target="blank"}, Texas A&M University
-- __EBI Ontologies team__
-  - [Helen	Parkinson](https://www.ebi.ac.uk/about/people/helen-parkinson){:target="blank"}, European Bioinformatics Institute
-- __FlyBase__
-  - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
-- __InterPro__
-  - [Rob D. Finn](https://www.ebi.ac.uk/about/people/rob-finn){:target="blank"}, European Bioinformatics Institute
-- __MGI__
-  - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
-- __PomBase__
-  - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
-- __RGD__
-  - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd){:target="blank"}, Medical College of Wisconsin
-- __Reactome__
-  - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
-- __TAIR__
-  - [Tanya Berardini](https://orcid.org/0000-0002-3837-8864){:target="blank"}, Phoenix Bioinformatics
-- __UniProt__
-  - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
-  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, Swiss Institute of Bioinformatics
-- __ZFIN__
-  - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield){:target="blank"}, University of Oregon
-  
-
-
-
 ## GO contributors by Group
 
 #### GO Central
@@ -67,13 +32,18 @@ Leaders of key contributing resources.
 |[Nomi L Harris](https://orcid.org/0000-0001-6315-3707) |[David P Hill](https://orcid.org/0000-0001-7476-6306) |[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Huaiyu Mi](https://orcid.org/0000-0001-8721-202X) |
 |[Sierra Moxon](https://orcid.org/0000-0002-8719-7760) |[Christopher J Mungall](https://orcid.org/0000-0002-6601-2165) |[Anushya Muruganugan](https://orcid.org/0000-0001-7169-5864) |[Tremayne Mushayahama](https://orcid.org/0000-0002-2874-6934) |
 |[Paul W. Sternberg](https://orcid.org/0000-0002-7699-0173) |[Paul D Thomas](https://orcid.org/0000-0002-9074-3507) |[Kimberly Van Auken](https://orcid.org/0000-0002-8151-747) | |
+
+#### AspGDB & CGD
+- [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University
  
 #### CACAO & EcoliWiki
+- [Deborah Siegele](https://www.bio.tamu.edu/faculty-page-deborah-siegele/){:target="blank"}, Texas A&M University
 
 | --- | --- | --- | --- |
 |[Jolene Ramsey](https://orcid.org/0000-0002-3774-5896) |[Deborah A. Siegele](https://orcid.org/0000-0001-8935-0696)|    |    |
 
 #### dictyBase
+- [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466){:target="blank"}, Northwestern University
 
 | --- | --- | --- | --- |
 |[Rex L. Chisholm](https://orcid.org/0000-0002-5638-3990) |[Petra Fey](https://orcid.org/0000-0002-4532-2703) |    |    |
@@ -89,6 +59,7 @@ Leaders of key contributing resources.
 |[Michelle Giglio](https://orcid.org/0000-0001-7628-5565) |[Suvarna Nadendla](https://orcid.org/0000-0003-3643-281X)|  | |
 
 #### FlyBase
+- [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
 
 | --- | --- | --- | --- |
 |[Giulia Antonazzo](https://orcid.org/0000-0003-0086-5621) |[Helen Attrill](https://orcid.org/0000-0003-3212-6364) |[Gil dos Santos](https://orcid.org/0000-0003-3507-8273) |[Steven Marygold](https://orcid.org/0000-0003-2759-266X) |
@@ -113,6 +84,7 @@ Leaders of key contributing resources.
 |[Snezhana Oliferenko](https://orcid.org/0000-0002-8138-6851)| | | |
 
 #### Mouse Genome Informatics (MGI)
+  - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith){:target="blank"}, The Jackson Laboratory
 
 | --- | --- | --- | --- |
 |[Karen Christie](https://orcid.org/0000-0001-5501-853X) |[Lori Corbani](https://orcid.org/0000-0002-2366-557X) |[Mary E Dolan](https://orcid.org/0000-0001-7732-3295) |[Harold J Drabkin](https://orcid.org/0000-0003-2689-5511) |
@@ -134,11 +106,13 @@ Leaders of key contributing resources.
 |[Parul Gupta](https://orcid.org/0000-0002-0190-8753) |[Pankaj Jaiswal](https://orcid.org/0000-0002-1005-8383) |[Sushma Naithani](https://orcid.org/0000-0001-7819-4552) | |
 
 #### PomBase
+  - [Valerie	Wood](https://www.sysbiol.cam.ac.uk/Investigators/val-wood){:target="blank"}, University of Cambridge
 
 | --- | --- | --- | --- |
 | [Manuel Lera-Ramirez](https://orcid.org/0000-0002-8666-9746) |[Kim Rutherford](https://orcid.org/0000-0001-6277-726X) |[Valerie Wood](https://orcid.org/0000-0001-6330-7526)| |
 
 #### Rat Genome Database (RGD)
+  - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd){:target="blank"}, Medical College of Wisconsin
 
 | --- | --- | --- | --- |
 | Jeffrey L. De Pons |[Melinda R. Dwinell](https://orcid.org/0000-0002-9528-3618) |[G. Thomas Hayman](https://orcid.org/0000-0002-9553-7227) |[Mary L. Kaldunski](https://orcid.org/0000-0003-3645-6803) |
@@ -146,6 +120,7 @@ Leaders of key contributing resources.
 | [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)| | | |
 
 #### Reactome
+  - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
 
 | --- | --- | --- | --- |
 | [Peter D’Eustachio](https://orcid.org/0000-0002-5494-626X)| Lisa Matthews | | |
@@ -157,18 +132,21 @@ Leaders of key contributing resources.
 |[Anne Morgat](https://orcid.org/0000-0002-1216-2969)| | | |
 
 #### *Saccharomyces* Genome Database (SGD), Department of Genetics, Stanford University (Stanford, CA, USA)
+-[J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"},<br> Stanford University 
 
 | --- | --- | --- | --- |
 | [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [J.Michael Cherry](https://orcid.org/0000-0001-9163-5180) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920) |
 | [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) | [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | |
 
 #### The Arabidopsis Information Resource (TAIR), Phoenix Bioinformatics (Newark, CA, USA)
+  - [Tanya Berardini](https://orcid.org/0000-0002-3837-8864){:target="blank"}, Phoenix Bioinformatics
 
 | --- | --- | --- | --- |
 | [Erika Bakker](https://orcid.org/0000-0001-7933-3817) | [Tanya Z. Berardini](https://orcid.org/0000-0002-3837-8864) | [Leonore Reiser](https://orcid.org/0000-0003-0073-0858)| |
 
 #### UniProt, Swiss-Prot group, SIB Swiss Institute of Bioinformatics (Geneva, Switzerland)
-
+  - [Alan Bridge](https://orcid.org/0000-0003-2148-9135){:target="blank"}, SIB Swiss Institute of Bioinformatics
+    
 | --- | --- | --- | --- |
 |[Andrea Auchincloss](https://orcid.org/0000-0002-5297-5390) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) | [Ghislaine Argoud-Puy](https://orcid.org/0000-0002-2979-8613) | [Marie-Claude Blatter](https://orcid.org/0000-0002-7474-1499) |
 |[Emmanuel Boutet](https://orcid.org/0000-0002-3743-4203) |[Lionel Breuza](https://orcid.org/0000-0002-8075-8625) |[Alan Bridge](https://orcid.org/0000-0003-2148-9135) | [Cristina Casals-Casas](https://orcid.org/0000-0001-8769-177X) | 
@@ -179,6 +157,8 @@ Leaders of key contributing resources.
 |[Catherine Rivoire](https://orcid.org/0000-0002-5979-8382) |[Shyamala Sundaram](https://orcid.org/0000-0003-4209-460X)| | |
 
 #### UniProt, EMBL-EBI, (Hinxton, UK)
+  - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"}, European Bioinformatics Institute
+  - [Sandra Orchard](https://www.ebi.ac.uk/about/people/sandra-orchard){:target="blank"}, European Bioinformatics Institute
 
 | --- | --- | --- | --- |
 | [Aduragbemi Adesina](https://orcid.org/0000-0002-1029-4159) | Sucharitha Balu | [Alex Bateman](https://orcid.org/0000-0002-6982-4660) | [Emily Bowler-Barnett](https://orcid.org/0000-0003-4785-7231) |
@@ -194,6 +174,7 @@ Leaders of key contributing resources.
 |[Alexander D. Diehl](https://orcid.org/0000-0001-9990-8331) | | | |
 
 #### WormBase
+- [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"},<br> Caltech 
 
 | --- | --- | --- | --- |
 |[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Juancarlos Chan](https://orcid.org/0000-0002-7259-8107) |[Stavros Diamantakis](https://orcid.org/0000-0002-0273-3406) |[Daniela Raciti](https://orcid.org/0000-0002-4945-5837) | 
@@ -205,6 +186,7 @@ Leaders of key contributing resources.
 |[Malcolm Fisher](https://orcid.org/0000-0003-1074-8103) | [Christina James-Zorn](https://orcid.org/0000-0001-5495-4588) |[Virgilio Ponferrada](https://orcid.org/0000-0002-8590-7183) |[Aaron Zorn](https://orcid.org/0000-0003-3217-3590)| 
 
 #### Zebrafish Information Network (ZFIN)
+ - [Monte	Westerfield](https://ion.uoregon.edu/content/monte-westerfield){:target="blank"}, University of Oregon
 
 | --- | --- | --- | --- |
 |[Sridhar Ramachandran](https://orcid.org/0000-0002-2246-3722) |[Leyla Ruzicka](https://orcid.org/0000-0002-1009-339X) |[Monte Westerfield](https://orcid.org/0000-0003-1187-7839)| |
