@@ -17,6 +17,7 @@
 
 - title: Annotations
   docs:
+  - pan-go
   - go-annotations
   - guide-go-evidence-codes
   - contributing-to-go
