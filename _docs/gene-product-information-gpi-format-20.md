@@ -37,14 +37,14 @@ Mandatory elements of the GPI 2.0 file header are:
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
 **Required fields are in bold.**
 
-| **Column** | **Content** | **Cardinality** | **Example 1: UniProt protein**| **Example 2: gene (MOD)** | **Example 3: UniProt isoform**| **Example 4: protein complex** | **Example 5: ncRNA**
+| **Column** | **Content** | **Cardinality** | **Example 1: UniProt protein**| **Example 2: Protein-coding gene (MOD)** | **Example 3: UniProt isoform**| **Example 4: protein complex** | **Example 5: ncRNA**
 |----------|---------|-------------|---------|--------|
 | 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	WB:WBGene00000007 | UniProtKB:Q4VCS5-1|  SGD:S000217643 |  RNAcentral:URS0000527F89_9606 | 
 | 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| aat-6 | AMOT|  CBF1:MET4:MET28 | URS0000527F89_9606 | 
 | 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or 1 | Angiomotin| Amino acid transporter protein 6 | Angiomotin| sulfur metabolism transcription factor complex |  Homo sapiens (human) hsa-miR-145-5p | 
 | 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| aat-6|T11F9.4 | KIAA1071| |   | 
 | 5 | **[Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)")** |	1 |	PR:000000001| SO:0000704 | PR:000000001| GO:0032991 | SO:0000276	
-| 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBItaxon:6239| NCBITaxon:9606|  NCBITaxon:559292 |  NCBITaxon:9606| 
+| 6 | **[Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)")** | 1 |	NCBITaxon:9606| NCBITaxon:6239| NCBITaxon:9606|  NCBITaxon:559292 |  NCBITaxon:9606| 
 | 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | | HGNC:17810 | |HGNC:31532 |
 | 8 | **[Canonical object ID](#8-parent-protein "Definition and requirements for Canonical object ID (column 8)")** | 1 |	UniProtKB:Q4VCS5 | WB:WBGene00000007 | UniProtKB:Q4VCS5 | SGD:S000217643  | RNAcentral:URS0000527F89_9606 |
 | 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or > |  | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047|  |
