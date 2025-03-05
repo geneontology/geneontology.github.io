@@ -53,7 +53,7 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 | 8 | **[Canonical object ID](#8-parent-protein "Definition and requirements for Canonical object ID (column 8)")** | 1 |	UniProtKB:Q4VCS5 | WB:WBGene00000007 | UniProtKB:Q4VCS5 | SGD:S000217643  | RNAcentral:URS0000527F89_9606 | FB:FBgn0262451
 | 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or > |  | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047|  | | 
 | 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | UniProtKB:Q22397 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 |  ENSG00000276365 |  RNAcentral:URS00002F21DA_7227
-| 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or > |	db_subset=Swiss-Prot| | |  |  |
+| 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or > |	db_subset=Swiss-Prot | | |  |  | |
 
 ### Definitions and requirements for GPI 2.0 field contents
 #### 1. DB:Object ID
@@ -101,11 +101,10 @@ SGD feature type named ORF in SGD --->
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 8. Canonical object ID
-* If the **DB:Object_ID** in Column 1 describes a protein isoform, a modified protein or a processed transcript such as a miRNA, this column refers to the gene-centric ID of the column 1 entry.
-* If the **DB:Object_ID** in Column 1 corresponds to a gene-centric reference protein accession or a protein complex, then this value is repeated in Column 8. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
-* If the organism's gene set represented by the GPI does not have IDs for a specific type of entity, then the same COMPLETE!!!! 
-* The ID represented in Column 8 should be in the same namespace as Column 1.
-* 
+* If the **DB:Object_ID** in Column 1 describes a gene, a gene-centric reference protein accession or a protein complex then this column should repeat the gene ID from Column 1.
+* If the **DB:Object_ID** in Column 1 describes an entity derived from a gene product such as a protein isoform, a modified protein or a processed transcript (e. g.  miRNA), then this column refers to the gene-centric ID of the Column 1 entry.
+* If the **DB:Object_ID** in Column 1 is of a type for which the organism's gene set represented by the GPI does not have IDs for a specific type of entity, then the same COMPLETE!!!!
+* Note that not all **DB:Object_ID** are necessarily in the same ID space. Some groups use [RNA Central]([url](https://rnacentral.org/)) IDs for RNAs, some groups use [ComplexPortal]([url](https://www.ebi.ac.uk/complexportal)) IDs for protein complexes, and some groups use [Protein Ontology]([url](https://proconsortium.org/)) IDs for modified proteoforms. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
 * Cardinality = 1.
 
 #### 9. Protein-Containing Complex Members
