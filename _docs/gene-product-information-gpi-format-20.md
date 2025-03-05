@@ -37,7 +37,7 @@ Mandatory elements of the GPI 2.0 file header are:
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
 **Required fields are in bold.**
 
-| **Column** | **Content** | **Cardinality** | **Example 1: UniProt protein**| **Example 2: Protein-coding gene (MOD)** | **Example 3: UniProt isoform**| **Example 4: SGD protein complex** | **Example 5: PomBase protein complex** | **Example 6: UniProt human ncRNA** | **Example 7: FlyBase ncRNA** 
+| **Column** | **Content** | **Cardinality** | **Example 1: UniProt protein**| **Example 2: WormBase protein-coding gene** | **Example 3: UniProt isoform**| **Example 4: SGD protein complex** | **Example 5: PomBase protein complex** | **Example 6: UniProt human ncRNA** | **Example 7: FlyBase ncRNA** 
 |----------|---------|-------------|---------|--------|--------|--------|
 | 1 | **[DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)")** |	1 |	UniProtKB:Q4VCS5| 	WB:WBGene00000007 | UniProtKB:Q4VCS5-1|  SGD:S000217643 |  ComplexPortal:CPX-25785  | RNAcentral:URS0000527F89_9606 | FB:FBgn0262451 |  
 | 2 | **[Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)")** |	1 |	AMOT| aat-6 | AMOT|  CBF1:MET4:MET28 | SWI5-SWI2 | URS0000527F89_9606 | mir-ban |  
