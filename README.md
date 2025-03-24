@@ -9,10 +9,9 @@ As versions have rather moved on at this point, we can still reproduce our desir
 ```
 git clone https://github.com/geneontology/geneontology.github.io.git
 cd geneontology.github.io
-docker run --network host -v `pwd`:'/work' -w /work -i -t ubuntu:focal /bin/bash
+docker run --network host -v `pwd`:'/work' -w /work -i -t ubuntu:noble /bin/bash
 apt-get update && apt-get -u install bundler wget
 make
-gem install bundler:2.2.3
 bundler install
 export LANG="C.UTF-8"
 export LC_ALL="C.UTF-8"
@@ -20,7 +19,7 @@ export LC_ALL="C.UTF-8"
 
 As a "shortcut"
 ```
-apt-get update && apt-get -u install bundler wget && make && gem install bundler:2.2.3 && bundler install && export LANG="C.UTF-8" && export LC_ALL="C.UTF-8"
+apt-get update && apt-get -u install bundler wget && make && bundler install && export LANG="C.UTF-8" && export LC_ALL="C.UTF-8"
 ```
 
 ## Running (in docker image)
