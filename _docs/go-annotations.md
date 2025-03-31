@@ -32,9 +32,9 @@ GO annotations come in two flavors: **[standard GO annotations](#standard-go-ann
 ### Standard GO annotations
 + A standard GO annotation is a statement that links a gene product and a GO term via a relation from the [Relations Ontology (RO)](https://www.ebi.ac.uk/ols4/ontologies/ro){:target="blank"}. In standard GO annotations, each statement is independent; this is a key difference between standard annotations and [GO-CAMs](#go-causal-activity-models). 
 + A standard GO annotation minimally contains:
-  + a gene product; may be a protein, an miRNA, a tRNA, etc.
+  + a gene product: may be a protein, an miRNA, a tRNA, etc.
   + a [GO term](/docs/ontology-documentation/)
-  + a reference, usually a PMID, but DOIs and [GO Reference (GO_REF)](/gorefs.html) are also used. 
+  + a reference, usually a PMID, but DOIs and [GO Reference (GO_REF)](/gorefs.html) are also use 
   + an evidence code, using [a GO Evidence Code](/docs/guide-go-evidence-codes/), which describes the type of evidence: experimental evidence, sequence similarity or phylogenetic relation, as well as whether the evidence was reviewed by an expert biocurator. If not manually reviewed, the annotation is described as 'automated'.
 + Any number of annotations can be made to a gene, in order to fully describe its function and the location(s) in which it acts.
 + **Annotation extensions** are used to provide additional biological context to a GO term, using a relation from the [Relations Ontology (RO)](http://www.obofoundry.org/ontology/ro.html){:target="blank"} and a term from GO or an external ontology, e.g. [UBERON](http://uberon.github.io/){:target="blank"}. Further description of annotation extensions can be found in tha paper of [Huntley & Lovering 2017](https://www.ncbi.nlm.nih.gov/pubmed/27812947){:target="blank"} and [Huntley *et al.* 2014](https://www.ncbi.nlm.nih.gov/pubmed/24885854){:target="blank"}.
@@ -44,7 +44,7 @@ GO annotations come in two flavors: **[standard GO annotations](#standard-go-ann
   + **Molecular Function**: the *normal* molecular activity of a gene product; mutants and roles in disease are outside the scope for GO
   + **Biological Process**: the pathways and larger processes to which the gene product's activity contributes
   + **Cellular Component**: where the gene product is located when the activity occurs
-+ By the transitivity principle, an annotation to a GO term implies annotation to all its *is a* and *part of* parents (also known as superclasses). Details about the ontology structure can be found on the [Gene Ontology overview page](/docs/ontology-documentation/).
++ By the transitivity principle, a positive annotation to a GO term implies annotation to all its *is a* and *part of* parents (also known as superclasses). Details about the ontology structure can be found on the [Gene Ontology overview page](/docs/ontology-documentation/). Not that [a *NOT* qualifier](#The-*NOT*-modifier) changes the direction of propogation.
 + GO annotations are meant to reflect the most up-to-date understanding of a gene product's role. As biological knowledge advances, annotations for a particular gene product may be updated to align with new insights or adjustments in the ontology. 
 + GO adopts an open-world model, meaning that the absence of an annotation for a specific class does not imply that the gene product lacks that function, is not localized to that cellular component, or is uninvolved in that biological process. Moreover, if a gene product is unannotated, it does not mean that its role is unknown. Genes for which no role has been demonstrated are annotated to the root term (*molecular_function, biological_process, cellular_component*) with the evidence code ND ([No Biological Data available](https://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code)).
    
@@ -105,14 +105,13 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 
 ---
 ### Downloading GO annotation files
-* Download [GO annotations by species](/docs/download-go-annotations/)
+* Instructions on how to download [GO annotations by species](/docs/download-go-annotations/), as well as how to download GAFs from species without official GO files
 <!--* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"} /-->
 
----
 ### GO annotation file formats
-* [Gene association file (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
+
+Current guidelines for each file format can be found at:
+* [Gene Association File (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
 * [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format-2.0/) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
 
-* For older file formats, see [GO archives](/docs/go-archives.md#Deprecated-Annotation-formats)
-
-
+For older file formats, see [GO archives](/docs/go-archives.md#Deprecated-Annotation-formats)
