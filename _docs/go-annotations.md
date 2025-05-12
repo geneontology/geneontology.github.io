@@ -27,7 +27,7 @@ redirect_from:
 ---
 # Introduction to GO annotations
 
-GO annotations come in two flavors: **[standard GO annotations](#standard-go-annotations)** and **[GO-CAM Models](#go-causal-activity-models)**.
+There are two types of GO annotations: **[standard GO annotations](#standard-go-annotations)** and **[GO-CAM Models](#go-causal-activity-models)**.
 
 ### Standard GO annotations
 + A standard GO annotation is a statement that links a gene product and a GO term via a relation from the [Relations Ontology (RO)](https://www.ebi.ac.uk/ols4/ontologies/ro){:target="blank"}. In standard GO annotations, each statement is independent; this is a key difference between standard annotations and [GO-CAMs](#go-causal-activity-models). 
