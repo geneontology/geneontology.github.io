@@ -1,5 +1,5 @@
 ---
-title: GO Annotation File (GAF) format
+title: GO Association File (GAF) format
 permalink: /docs/go-annotation-file-gaf-format-2.1/
 redirect_from: 
 - /page/go-annotation-file-gaf-format-21
@@ -12,7 +12,7 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 
 
-# GO Annotation File (GAF) 2.1
+# GO Association File (GAF) 2.1
 
 This guide lays out the format specifications for the **G**ene **A**ssociation **F**ile (GAF) 2.1; for the newer format please see the [GAF 2.2 guide](/docs/go-annotation-file-gaf-format-2.2/). For the older, deprecated 2.0 format please see the [GAF 2.0 guide](/docs/go-annotation-file-gaf-format-2.0/). 
 
@@ -21,7 +21,7 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
  
 
-## GO Annotation File (GAF) 2.1
+## GO Association File (GAF) 2.1
 
 ### GAF Header
 
