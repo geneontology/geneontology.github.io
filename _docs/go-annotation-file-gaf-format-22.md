@@ -1,5 +1,5 @@
 ---
-title: GO Annotation File (GAF) format
+title: GO Association File (GAF) format
 permalink: /docs/go-annotation-file-gaf-format-2.2/
 redirect_from:
 - /page/go-annotation-file-gaf-format-22
@@ -12,7 +12,7 @@ Suggestion: can we use "optional" instead of "not mandatory"?-->
 
 
 
-# GO Annotation File (GAF) 2.2
+# GO Association File (GAF) 2.2
 
 This guide lays out the format specifications for the **G**ene **A**ssociation **F**ile (GAF) 2.2 introduced in March 2021; for the older format please see the [GAF 2.1 guide](/docs/go-annotation-file-gaf-format-2.1/).
 
@@ -20,7 +20,7 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
 
-## Changes between the GO Annotation File (GAF) format 2.1 and 2.2
+## Changes between the GO Association File (GAF) format 2.1 and 2.2
 
 **Header**
 * **The `gaf-version` header must read `2.2` for this format.**
@@ -31,7 +31,7 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
   * **Column 4 ("Relation") may optionally be negated ("NOT") by pipe-separating the relation with 'NOT', e.g. NOT\|enables.**
   * **Column 4 ("Relation") was previously named "Qualifier"**
 
-## GO Annotation File (GAF) 2.2
+## GO Association File (GAF) 2.2
 
 ### GAF Header
 
