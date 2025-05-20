@@ -111,6 +111,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (= 4.4.1)
   jekyll-algolia (~> 1.0)
   jekyll-datapage-generator
   jekyll-feed
