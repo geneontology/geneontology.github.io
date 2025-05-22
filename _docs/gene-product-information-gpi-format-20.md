@@ -110,7 +110,8 @@ SGD feature type named ORF in SGD --->
 #### 10. Database cross-references (DB_Xrefs)
 * Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers: a namespace and a value, separated by a colon, e.g. UniProtKB:Q60FP0.
 * This field is mandatory if the prefix in column 1 is not one of: UniProtKB, RNACentral, ComplexPortal. In these cases, **DB_Xrefs** must include the correponding UniProtKB ID, RNACentral, or ComplexPortal as appropriate according to the object type (see Column 5).
-* Additional cross references such as NCBI gene or protein IDs, HGNC, etc, may also be included,
+* Note that RNACentral IDs contain the taxon ID of the entity appended after an 'underscore' character ("_"): see [RNACentral:URS00002F21DA]((https://rnacentral.org/rna/URS00002F21DA)] (generic for several organism) versus [[RNACentral:URS00002F21DA]_7227](https://rnacentral.org/rna/URS00002F21DA/7227) (specific for Drosophila melanogaster.
+* Additional cross references such as NCBI gene or protein IDs, HGNC, etc, may also be included.
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 11. Gene Product Properties
