@@ -178,8 +178,8 @@ The Gene Ontology Consortium is an international group of scientists with expert
 - [Paul Sternberg](http://wormlab.caltech.edu/){:target="blank"}, Caltech 
 
 | --- | --- | --- | --- |
-|[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Juancarlos Chan](https://orcid.org/0000-0002-7259-8107) |[Stavros Diamantakis](https://orcid.org/0000-0002-0273-3406) |[Daniela Raciti](https://orcid.org/0000-0002-4945-5837) | 
-|[Magdalena Zarowiecki](https://orcid.org/0000-0001-6102-7731)| | | |
+|[Juancarlos Chan](https://orcid.org/0000-0002-7259-8107) |[Stavros Diamantakis](https://orcid.org/0000-0002-0273-3406) | [Raymond Lee](https://orcid.org/0000-0002-8151-7479) |Paolo Nuin |
+| [Daniela Raciti](https://orcid.org/0000-0002-4945-5837) | [Kimberly van Auken](https://orcid.org/0000-0002-1706-4196) | | |
 
 #### Xenbase
 - [Aaron Zorn](https://www.cincinnatichildrens.org/research/divisions/d/dev-biology/labs/zorn){:target="blank"} [ORCID](https://orcid.org/0000-0003-3217-3590), Cincinnati Children’s Hospital Medical Center
