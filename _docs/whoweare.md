@@ -60,10 +60,12 @@ The Gene Ontology Consortium is an international group of scientists with expert
 
 #### FlyBase
 - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
+- [Katja Roeper](https://www2.mrc-lmb.cam.ac.uk/group-leaders/n-to-s/katja-roper/){:target="blank"}, MRC Laboratory of Molecular Biology
 
 | --- | --- | --- | --- |
 |[Giulia Antonazzo](https://orcid.org/0000-0003-0086-5621) |[Helen Attrill](https://orcid.org/0000-0003-3212-6364) |[Gil dos Santos](https://orcid.org/0000-0003-3507-8273) |[Steven Marygold](https://orcid.org/0000-0003-2759-266X) |
 |[Victor Strelets](https://orcid.org/0000-0001-6556-9335) |[Christopher J. Tabone](https://orcid.org/0000-0001-8746-0680) |[Jim Thurmond](https://orcid.org/0000-0002-5142-2583) |[Pinglei Zhou](https://orcid.org/0000-0002-3012-1044)| 
+[Rossana Zaru](https://orcid.org/0000-0002-3358-4423)| | | |
 
 #### Functional Gene Annotation, Institute of Cardiovascular Science, University College London (London, UK) 
 
@@ -131,7 +133,8 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Lucila Aimo](https://orcid.org/0000-0003-0943-6401) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) | [Anne Morgat](https://orcid.org/0000-0002-1216-2969)|
 
 #### *Saccharomyces* Genome Database (SGD), Department of Genetics, Stanford University (Stanford, CA, USA)
-- [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"} [ORCID](https://orcid.org/0000-0001-9163-5180), Stanford University 
+- [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"} [ORCID](https://orcid.org/0000-0001-9163-5180), Stanford University
+- [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University 
 
 | --- | --- | --- | --- |
 | [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920)| [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) |
@@ -164,7 +167,7 @@ The Gene Ontology Consortium is an international group of scientists with expert
 | [David C J Carpentier](https://orcid.org/0000-0002-8172-9121) |[Paul Denny](https://orcid.org/0000-0003-4659-6893) |[Alexandr Ignatchenko](https://orcid.org/0000-0002-6083-941X) | [Rizwan Ishtiaq](https://orcid.org/0000-0001-8041-7321) | 
 | Dushyanth Jyothi | [Gun Antonia Nilsson Lock](https://orcid.org/0000-0003-1179-5999) |[Yvonne Lussi](https://orcid.org/0000-0002-5753-0235) | [Michele Magrane](https://orcid.org/0000-0003-3544-996X) |
 | [Maria J. Martin](https://orcid.org/0000-0001-5454-2815) | Juan Jose Medina | Kalpana Panneerselvam | [Pedro Raposo](https://orcid.org/0000-0001-6149-9456) |
-| [Nadya Urakova](https://orcid.org/0000-0003-3499-8158) |[Kate Warner](https://orcid.org/0000-0001-8705-181X) | [Conny Wing-Heng Yu](https://orcid.org/0000-0002-6478-5762) | [Rossana Zaru](https://orcid.org/0000-0002-3358-4423)| 
+| [Nadya Urakova](https://orcid.org/0000-0003-3499-8158) |[Kate Warner](https://orcid.org/0000-0001-8705-181X) | [Conny Wing-Heng Yu](https://orcid.org/0000-0002-6478-5762) | | 
 
 #### University at Buffalo, Department of Biomedical Informatics (Buffalo, NY, USA)
 
