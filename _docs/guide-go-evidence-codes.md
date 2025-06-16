@@ -18,6 +18,8 @@ Evidence codes fall into six general categories:
 * curatorial statements
 * automatically generated annotations
 
+## Evidence & Conclusions Ontology
+Mappings between GO evidence codes and the Evidence and Conclusions Ontology (ECO) can be found on the [ECO GitHub site](https://github.com/evidenceontology/evidenceontology/blob/master/gaf-eco-mapping.txt).
 
 ## Experimental evidence codes
 
