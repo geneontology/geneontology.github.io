@@ -143,7 +143,7 @@ Note that **only one reference can be cited on a single line** in the gene assoc
 
 
 #### Evidence Code (column 7)
-See the [GO evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations
+See  [GO-ECO mapping file](https://github.com/evidenceontology/evidenceontology/blob/master/gaf-eco-mapping.txt) and the  [GO Evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations.
 
     This field is mandatory, cardinality 1.
 
