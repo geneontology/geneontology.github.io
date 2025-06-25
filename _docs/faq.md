@@ -120,6 +120,23 @@ FAQ tags: 
 The current ontologies of the GO are molecular function, biological process, and cellular component. The ontologies are developed to include all terms falling into these domains without consideration of whether the biological attribute is restricted to certain taxonomic groups. Therefore, biological processes that occur only in plants (e.g. photosynthesis) or mammals (e.g. lactation) are included. Other biological ontologies are discussed in the [OBO web site](http://www.obofoundry.org/){:target="blank"}.
 
 ---------------------------------------------------------------------------
+## What is the PAN-GO Functionome?
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="Which biological domains are supported by GO?"></span>
+FAQ tags: 
+
+[general](/faq-tags/general)
+{:/comment}
+
+The PAN-GO functionome is the set of all annotated functional characteristics ("Gene Ontology annotations") for human protein-coding genes, as determined by the PAN-GO (Phylogenetic ANnotation using Gene Ontology) project, a collaboration between the Gene Ontology Consortium and the PANTHER evolutionary tree resource. Each annotation is the result of expert biologist review, based on integration of experimental data for related genes using explicit evolutionary modeling. 
+
+A detailed description of the process used to create the PAN-GO functionome, as well as an analysis of its contents, has been published in:
+[Feuermann et al., A compendium of human gene functions derived from evolutionary modelling, Nature 2025](https://www.nature.com/articles/s41586-025-08592-0).
+
+If you are working on human protein-coding genes, we recommend you use the PAN-GO Functionome. It is designed to be as accurate and comprehensive as possible, while also being concise (a minimally redundant set of GO terms for each gene). 
+
+---------------------------------------------------------------------------
 ## What is GO "content"?
 {::comment}
 
