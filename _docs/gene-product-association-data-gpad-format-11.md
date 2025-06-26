@@ -1,6 +1,7 @@
 ---
 title: Gene Product Association Data (GPAD) format 1.1
 permalink: /docs/gene-product-association-data-gpad-format-1.1/
+redirect_from: /docs/gene-product-association-data-gpad-format-1.2/
 ---
 
 <!-- DB object ID section refers to GPAD 1.0.  What about in 1.1?  
@@ -16,7 +17,6 @@ GPAD files contain annotations for gene products which are further detailed in [
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term with a certain evidence code and the reference to support the link. 
 
 GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/). For more general information on annotation, please see the [Introduction to GO annotation](/docs/go-annotations/).
-
 
 ## Gene Product Association Data (GPAD) 1.1 format
 The GPAD file is an alternative means of exchanging annotations from the Gene Association File (GAF). 
@@ -185,7 +185,6 @@ There will be a fixed vocabulary for the property names and this list can be ext
 include curator_ID, modification_date, creation_date, annotation_notes, etc.
 
 This field is optional, cardinality 0 or greater.
-
 
 ## Gene Product Association Data (GPAD) 1.2 format
 From 2018 until the GPAD/GPI 2.0 files were formalized in mid 2024, GO generated a GPAD 1.2. 
