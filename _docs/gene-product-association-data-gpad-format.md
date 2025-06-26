@@ -1,7 +1,7 @@
 ---
 title: Annotation files in Gene Product Association Data (GPAD) format
 permalink: /docs/gene-product-association-data-gpad-format/
-permalink: /docs/gene-product-association-data-gpad-format-2.0/
+redirect_from: /docs/gene-product-association-data-gpad-format-2.0/
 redirect_from: /page/gene-product-association-data-gpad-format
 ---
 
