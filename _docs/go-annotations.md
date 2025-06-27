@@ -22,7 +22,7 @@ redirect_from:
 + [GO annotation statistics](#GO-annotation-statistics)
 + How to access GO annotation data
   + [Download GO annotation files](#go-annotation-files)
-  + [GO annotation file formats](#GO-annotation-file-formats)
+  + [GO annotation file formats](#go-annotation-file-formats)
     
 ---
 # Introduction to GO annotations
@@ -112,6 +112,6 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 
 Current guidelines for each file format can be found at:
 * [Gene Association File (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
-* [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format-2.0/) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
+* [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
 
 For older file formats, see [GO archives](/docs/go-archives.md#Deprecated-Annotation-formats)
