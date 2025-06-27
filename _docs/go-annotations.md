@@ -73,13 +73,11 @@ means that the gene product X has been shown not to have *protein kinase activit
 
 ---
 ## GO-Causal Activity Models
- [Activation of GSDME--mediated pyroptosis by NLRP1 in absence of GSDMD (Human)]([https://www.ncbi.nlm.nih.gov/search/all/?term=Anopheles%20gambiae](https://amigo.geneontology.org/amigo/model/62f58d8800007064)){:target="blank"}
  
-[<img src="/assets/gomodel62f58d8800007064.png" alt="Activation of GSDME--mediated pyroptosis by NLRP1 in absence of GSDMD" align="right" width="200" div style="border: 2px solid black;"/>](https://amigo.geneontology.org/amigo/model/62f58d8800007064){:target="blank"}
-
+[<img align="right" width="100" src="/assets/gomodel62f58d8800007064.png" alt="Activation of GSDME--mediated pyroptosis by NLRP1 in absence of GSDMD" div style="border: 2px solid black;"/>](https://amigo.geneontology.org/amigo/model/62f58d8800007064){:target="blank"}[Activation of GSDME--mediated pyroptosis by NLRP1 in absence of GSDMD (Human)](https://amigo.geneontology.org/amigo/model/62f58d8800007064)){:target="blank"}
 + GO-Causal Activity Models (GO-CAMs) provide a system to extend GO annotations with **biological context** as well as **causal connections** between activities. 
 + The network representation of GO-CAMs enables pathway visualization and analysis. 
-+ The biological context captured for each GO aspects corresponds to: 
++ The biological context captured for each GO aspect corresponds to: 
   + **Molecular Function**: substrates ("input"), products ("output"), activators, inhibitors
   + **Biological Process**: the broader process that the molecular function helps accomplish: cell cycle transition, transcription, signaling pathways, etc. Processes can be nested, i. e., a biological process can be part of another biological process. For example, a signaling pathway can be part of a developmental process, like the [Wnt signaling pathway](https://amigo.geneontology.org/amigo/term/GO:0016055){:target="blank"} is part of [dorsal/ventral pattern formation](https://amigo.geneontology.org/amigo/term/GO:0009953){:target="blank"}. 
   + **Cellular Component**: the cellular component, cell, and/or tissue the function/process take place.
