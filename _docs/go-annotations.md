@@ -60,14 +60,16 @@ There are two types of GO annotations: **[standard GO annotations](#standard-go-
   + *located in* links a gene product and the Cellular Component, specifically a cellular anatomical anatomy or virion component, in which a gene product has been detected. 
   + *part of* links a gene product and a protein-containing complex. 
 
----
-### The *NOT* modifier
+#### The *NOT* modifier
 
 The *NOT* statement indicates that the gene product *does NOT* enable a Molecular Function, is *not part of* a Biological Process or is *not located in* or *active in* a specific Cellular Component. NOT statements are only used when a user might expect that the gene product would have a specific biological property (MF, BP or CC). *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity, or sequence analysis shows loss of an essential active site or rapid divergence after a duplication event over the course of evolution. The *NOT* modifier is not used for negative or inconclusive experimental results.
 
 Both positive and NOT statements can be used between a single gene product and a GO term when there is unresolved conflicting experimental findings in the literature. If an isoform has a different function from the main isoform represented by the gene-centric entity, a NOT annotation can be captured together with the isoform identifier.
 
-Contrary to positive annotations that propogate up the ontology, *NOT* statements propagate *down* the ontology to more specific terms. Therefore, the annotation `gene product X *NOT enables* protein kinase activity` means that the gene product X does not enable *protein kinase activity`* — nor does it enable more specific functions, such as p*rotein serine/threonine kinase activity* and *protein tyrosine kinase activity*. 
+Contrary to positive annotations that propogate up the ontology, *NOT* statements propagate *down* the ontology to more specific terms. Therefore, the annotation 
+>`gene product X` *NOT* *enables* `protein kinase activity`
+
+means that the gene product X has been shown not to have *protein kinase activity* — nor does gene product X enable more specific functions, such as *protein serine/threonine kinase activity* or *protein tyrosine kinase activity*. 
 
 ---
 ## GO-Causal Activity Models
@@ -102,7 +104,11 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 ---
 ## Access GO annotation data
 ### Downloading GO annotation files
-* Instructions on how to download [GO annotations by species](/docs/download-go-annotations/), as well as how to download GAFs from species without official GO files
+* Instructions on how to download [GO annotations for commonly studied organisms](/docs/download-go-annotations/#1-commonly-studied-organisms) 
+* How to download GAFs for [other species without official species-specific GO files](docs/download-go-annotations/#2-all-other-organisms)
+
+<i class="fa-solid fa-lightbulb-o"></i> Looking for human data? The [PAN-GO human gene functionome GAF is available](https://functionome.geneontology.org/download/functionome_release.gaf.gz). More information about the PAN-GO Functionome [is available here](https://functionome.geneontology.org/about).
+
 <!--* Download [GO-CAM models](https://geneontology.org/go-cam){:target="blank"} /-->
 
 ### GO annotation file formats
@@ -111,9 +117,6 @@ Current guidelines for each file format can be found at:
 * [Gene Association File (GAF) 2.2](/docs/go-annotation-file-gaf-format-2.2/)
 * [Gene Product Association Data (GPAD) 2.0 files](/docs/gene-product-association-data-gpad-format) + [Gene Product Information (GPI) 2.0 files](/docs/gene-product-information-gpi-format-2.0/): companion files
 
-<details>
-<summary>Deprecated formats</summary>
+#### Deprecated formats
 
-For older file formats, see [GO archives](/docs/go-archives.md#Deprecated-Annotation-formats)
-
-</details>
+For older file formats, see [GO archives](/docs/go-archives.md#Deprecated-Annotation-formats).
