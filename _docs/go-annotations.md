@@ -8,25 +8,24 @@ redirect_from:
 - /page/go-annotation-standard-operating-procedures
 - GO.annotation.conventions.shtml
 ---
+# Introduction to GO annotations
 
-# Page contents 
+## Page contents 
 + [Standard GO annotations](#standard-go-annotations)
-  + [Semantics of a standard GO annotation](#Semantics-of-a-standard-GO-annotation)
-  + [Gene product to term relations](#Gene-product-to-term-relations)
-  + [The *NOT* modifier](#The-*NOT*-modifier)
+  + [Semantics of a standard GO annotation](#semantics-of-a-standard-go-annotation)
+  + [Gene product to term relations](#gene-product-to-go-term-relations)
+  + [The *NOT* modifier](#the-not-modifier)
 + [GO-CAMs](#go-causal-activity-models)
-  + [GO-CAM data model](#GO-CAM-data-model)
-  + [Browsing and visualizing GO-CAMs](#Browsing-and-visualizing-GO-CAMs)
-+ [Annotation Quality Control](Annotation-Quality-Control)
-+ [GO as a dynamic source of biological knowledge](#GO-as-a-dynamic-source-of-biological-knowledge)
-+ [GO annotation statistics](#GO-annotation-statistics)
+  + [GO-CAM data model](#go-cam-data-model)
+  + [Browsing and visualizing GO-CAMs](#browsing-and-visualizing-go-cams)
++ [Annotation Quality Control](#annotation-quality-control)
++ [GO as a dynamic source of biological knowledge](#go-as-a-dynamic-source-of-biological-knowledge)
++ [GO annotation statistics](#go-annotation-statistics)
 + How to access GO annotation data
-  + [Download GO annotation files](#go-annotation-files)
+  + [Download GO annotation files](#downloading-go-annotation-files)
   + [GO annotation file formats](#go-annotation-file-formats)
     
 ---
-# Introduction to GO annotations
-
 There are two types of GO annotations: **[standard GO annotations](#standard-go-annotations)** and **[GO-CAM Models](#go-causal-activity-models)**.
 
 ### Standard GO annotations
@@ -92,6 +91,7 @@ Activity Units are connected to each other by **causal relations**, made using c
 #### Browsing and visualizing GO-CAMs
 GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}.
 
+---
 ### Annotation Quality Control
 The GOC runs a number of [GO rules](https://github.com/geneontology/go-site/blob/master/metadata/rules/README.md) to ensure data integrity and compliance with GO curation guidelines. For example, all identifiers must be valid; each annotation muct have an evidence and a references. 
 
