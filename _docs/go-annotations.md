@@ -90,7 +90,10 @@ The primary unit of biological modeling in GO-CAM is the **Activity Unit**, whic
 Activity Units are connected to each other by **causal relations**, made using clearly defined semantic relations from the [Relations Ontology](https://obofoundry.org/ontology/ro.html){:target="blank"}. A more complete dscription of GO-CAM can be found in [Thomas & al 2019](https://www.ncbi.nlm.nih.gov/pubmed/31548717){:target="blank"}.
 
 ### Browsing and visualizing GO-CAMs
-GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}.
++ GO-CAMs can be browsed and visualized at [http://geneontology.org/go-cam](https://geneontology.org/go-cam){:target="blank"}.
++ GO-CAMs are also available through NDEx. The [NDEx Project](https://www.ndexbio.org/index.html#/){:target="blank"} allows researchers to retrieve a variety of pathways and interaction networks from a gene list.
+  + Explore the [Vitamin K Metabolic Process pathway (featured below)](https://www.ndexbio.org/viewer/networks/8a861c71-0c2a-11f0-9806-005056ae3c32){:target="blank"} and nearly 1000 other GO-CAMs, including over 660 networks in the Human network set: [GO-CAMs in NDEx](https://www.ndexbio.org/index.html#/user/9ecb7edd-5f30-11ef-a7fd-005056ae23aa){:target="blank"} 
+[<img align="center" height="300" src="/assets/VitaminKMetabolicProcess1(Mouse).png" alt="Vitamin K Metabolic Process 1 (Mouse)" div style="border: 2px solid black;"/>](https://www.ndexbio.org/viewer/networks/8a861c71-0c2a-11f0-9806-005056ae3c32){:target="blank"}
 
 ---
 ## Annotation Quality Control
