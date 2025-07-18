@@ -18,7 +18,7 @@ This guide lays out the format specifications for the **G**ene **A**ssociation *
 
 The Gene Ontology Consortium stores annotation data, the representation of gene product attributes using GO terms, in standardized tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/) and the reference to support the link.
 
-GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/) (companion files).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
+GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/).  For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
 
 ## Changes between the GO Association File (GAF) format 2.1 and 2.2
 
