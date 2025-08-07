@@ -119,14 +119,4 @@ The data provided to the ribbon has to follow a certain JSON schema and a basic 
 
 ## Under the hood
 
-The full GO Ribbon web component is available on [ [GitHub](https://github.com/geneontology/wc-ribbon/tree/master/wc-go-ribbon){:target="blank"} ] and [ [NPM](https://www.npmjs.com/package/@geneontology/wc-go-ribbon){:target="blank"} ]. It includes all the components needed to display and interact the ribbon strips and table and is pre-configured to fetch data from the GO API. This version can easily be integrated in any website or framework and additional information are available on GitHub.
-
-Subparts of the ribbon can also be integrated independently:
-* Ribbon strips: [ [GitHub](https://github.com/geneontology/wc-ribbon/tree/master/wc-ribbon-strips){:target="blank"} ] [ [NPM](https://www.npmjs.com/package/wc-ribbon-strips){:target="blank"} ]: the top part containing the high level term labels as well as the colored cells representing the annotation volume of the genes of interest
-* Ribbon table: [ [GitHub](https://github.com/geneontology/wc-ribbon/tree/master/wc-ribbon-table){:target="blank"} ] [ [NPM](https://www.npmjs.com/package/wc-ribbon-table){:target="blank"} ] : the annotation table, which opens upon clicking one of the colored cell
-* Ribbon spinner: [ [GitHub](https://github.com/geneontology/wc-ribbon/tree/master/wc-spinner){:target="blank"} ]: generic spinner to notify of loading / blocking process
-
-Code available on [GitHub](https://github.com/geneontology/wc-ribbon)
-
-Powered by the GO API [http://api.geneontology.org/](http://api.geneontology.org/)
-
+The GO Ribbon is available as part of the GO Web Components package on [ [GitHub](https://github.com/geneontology/web-components){:target="blank"} ] and [ [NPM](https://www.npmjs.com/package/@geneontology/web-components){:target="blank"} ]. It includes all the components needed to display and interact the ribbon strips and table and is pre-configured to fetch data from the [GO API](https://api.geneontology.org/){:target="blank"}. This version can easily be integrated in any website or framework. Additional information is available in the [documentation](https://geneontology.github.io/web-components/){:target="blank"}.

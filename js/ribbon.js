@@ -60,4 +60,9 @@ function view() {
     var ids = input_enrichment.value.split("\n");
     var ribbon = document.getElementById("ribbon");
     ribbon.subjects = ids.join(",");
-}    
+}
+
+function clearRibbon() {
+    var ribbon = document.getElementById("ribbon");
+    ribbon.subjects = "";
+}

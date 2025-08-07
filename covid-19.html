@@ -4,54 +4,18 @@ permalink: /covid-19.html
 ---
 
 <style>
-    .banner {
-        background-color: red;
-        color: white;
-        border-radius: 5px;
-        padding: 10px;
-        text-align: center;
-        margin: 20px 0px;
-    }
-
-    .banner__warning {
-        display: inline-block;
-        text-align: left;
-        width: 15%;
-    }
-
-    .banner__disclaimer {
-        display: inline-block;
-        text-align: start;
-        width: 80%;
-    }
-
-    .ribbon__category--cell, .ribbon__subject--cell, .ribbon__subject--cell--no-annotation, .ribbon__subject__label--link, tr, th, td {
-        /* font-size: 14px !important; */
-        line-height: 1.0 !important;
-    }
-
-    .ribbon__subject--cell {
-        box-shadow: 0 1px 1px rgba(0,0,0,.26);
-    }
-
-    .ribbon__category--cell:hover {
-        font-weight: 800 !important;
-    }
-
-    .wc-ribbon-cell, wc-ribbon-subject, wc-ribbon-strips {
-        line-height: 1.0 !important;
-    }
-
     li {
         margin-left: 30px;
+    }
+
+    go-annotation-ribbon-strips {
+        --group-height: 14em;
+        font-size: 80%;
     }
 </style>
 
 
 <script src="js/covid.js"></script>
-<script type="module" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.esm.js"></script>
-<script nomodule="" src="https://unpkg.com/@geneontology/wc-ribbon-strips/dist/wc-ribbon-strips/wc-ribbon-strips.js"></script>
-
 
 <div class="container" style="width:95%">
     <div class="row" style="margin:0rem 2rem">
@@ -77,7 +41,13 @@ permalink: /covid-19.html
         <h2 id="hp-sars-cov-2-ce">Human proteins used by SARS-CoV-2 to enter human cells</h2>
         The virus has been shown to require two human proteins (<a href="https://amigo.geneontology.org/amigo/gene_product/UniProtKB:Q9BYF1" target="_blank">ACE2</a>, <a href="https://amigo.geneontology.org/amigo/gene_product/UniProtKB:O15393" target="_blank">TMPRSS2</a>) for cell entry<sup><a href="#references">1,2</a></sup>.
         These are the same proteins used by <a href="https://www.ncbi.nlm.nih.gov/pubmed/21068237" target="blank">SARS-CoV<sup>4</sup></a>, the cause of the 2002-2004 SARS epidemic.
-        <div id="ribbon-covid-cell-entry" style="padding-top: 55px; padding-bottom: 30px; overflow-x: auto; width: 1400px;"></div>
+        <div id="ribbon-covid-cell-entry" style="padding-top: 55px; padding-bottom: 30px; overflow-x: auto; width: 1400px;">
+            <go-annotation-ribbon-strips
+                id="ribbon-cell-entry"
+                show-all-annotations-group="false"
+                subjects="UniProtKB:Q9BYF1,UniProtKB:O15393"
+            ></go-annotation-ribbon-strips>
+        </div>
 
         <table style="width:100%">
             <tr>
@@ -104,7 +74,12 @@ permalink: /covid-19.html
 
         <br><br>
         <b>SARS-CoV-2 gene</b>: <select id="selected-covid-gene" onchange="changeCOVID()"></select>
-        <div id="ribbon-covid-gene" style="padding-top: 55px; padding-bottom: 30px; overflow-x: auto; width: 1400px;"></div>
+        <div id="ribbon-covid-gene" style="padding-top: 55px; padding-bottom: 30px; overflow-x: auto; width: 1400px;">
+            <go-annotation-ribbon-strips
+                id="ribbon-covid"
+                show-all-annotations-group="false"
+            ></go-annotation-ribbon-strips>
+        </div>
 
 
         <table style="width:100%"><tr>
