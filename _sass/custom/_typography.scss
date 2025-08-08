@@ -109,6 +109,10 @@ a:not(.btn):not(.yasr_btn):not(.list-group-item):not(.dropdown-menu__item__link)
     padding: 1rem 2rem;
 }
 
+.btn-no-radius {
+    border-radius: 0 !important;
+}
+
 .tt-input {
     border-radius: 25px;
 }

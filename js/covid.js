@@ -10760,7 +10760,6 @@ function initUI(covid_data) {
     initEnrichment();
     ribbonCOVID(covid_genes[0]);
     updateEnrich(covid_genes[0]);
-    ribbonCellEntry();
 }
 
 function initEnrichment() {
@@ -10786,84 +10785,20 @@ function initEnrichment() {
 }
 
 function ribbonCOVID(covid_gene) {
-    let baseAPIURL = "http://api.geneontology.org/api/ontology/ribbon/";
     let data = covid_data[covid_gene];
-    let subjects = data.map(elt => { return elt.amigoid }).join("&subject=");
-    let query = baseAPIURL + '?subset=goslim_agr&subject=' + subjects;
-    // console.log('API query is ' + query);
-
-    var parent = document.getElementById("ribbon-covid-gene");
-    parent.innerHTML = 'Loading GO Ribbon...';
-
-    fetch(query)
-    .then(response => {
-        response.json().then(data => {
-            // console.log(data);
-            var element = document.createElement("wc-ribbon-strips");
-            element.setAttribute("id", "wc-ribbon-covid");
-            element.setAttribute("fire-event-on-empty-cells", false)
-            element.setAttribute("add-cell-all", false);
-            element.setAttribute("selection-mode", 0);
-            element.setAttribute("subject-position", 1);
-            element.setAttribute("data", JSON.stringify(data));
-
-            parent.innerHTML = '';
-            parent.appendChild(element);
-
-            // add a listener whenever a cell is clicked
-            document.addEventListener('cellClick', function hideMenu(e, v) {
-                console.log('Cell Clicked', e.detail);
-                window.open('http://amigo.geneontology.org/amigo/gene_product/' + e.detail.subjects[0].id + '?fq=regulates_closure:\"' + e.detail.group.id + '\"')
-            });
-
-            // add a listener whenever a group is clicked
-            document.addEventListener('groupClick', function hideMenu(e, v) {
-                console.log('Group Clicked', e.detail);
-                window.open('http://amigo.geneontology.org/amigo/term/' + e.detail.group.id, '_blank');
-            });
-
-        })
-    })
+    const ribbon = document.getElementById("ribbon-covid");
+    ribbon.subjects = data.map(elt => elt.amigoid).join(",");
 }
 
+// add a listener whenever a cell is clicked
+document.addEventListener('cellClick', function hideMenu(e, v) {
+    console.log('Cell Clicked', e.detail);
+    window.open('http://amigo.geneontology.org/amigo/gene_product/' + e.detail.subjects[0].id + '?fq=regulates_closure:\"' + e.detail.group.id + '\"')
+});
 
-function ribbonCellEntry() {
-    let baseAPIURL = "http://api.geneontology.org/api/ontology/ribbon/";
-    let subjects = ["UniProtKB:Q9BYF1", "UniProtKB:O15393"].join("&subject=");
-    let query = baseAPIURL + '?subset=goslim_agr&subject=' + subjects;
-    // console.log("entry: ", query);
-
-    var parent = document.getElementById("ribbon-covid-cell-entry");
-    parent.innerHTML = 'Loading GO Ribbon...';
-
-    fetch(query)
-    .then(response => {
-        response.json().then(data => {
-            var element = document.createElement("wc-ribbon-strips");
-            element.setAttribute("id", "wc-ribbon-cell-entry");
-            element.setAttribute("fire-event-on-empty-cells", false)
-            element.setAttribute("add-cell-all", false);
-            element.setAttribute("selection-mode", 0);
-            element.setAttribute("subject-position", 1);
-            element.setAttribute("data", JSON.stringify(data));
-
-            parent.innerHTML = '';
-            parent.appendChild(element);
-
-            // // add a listener whenever a cell is clicked
-            // document.addEventListener('cellClick', function hideMenu(e, v) {
-            //     console.log('Cell Clicked' , e.detail);
-            // });
-
-            // // add a listener whenever a group is clicked
-            // document.addEventListener('groupClick', function hideMenu(e, v) {
-            //     console.log('Group Clicked' , e.detail);
-            //     window.open('http://amigo.geneontology.org/amigo/term/' + e.detail.group.id, '_blank');
-            // });
-
-        })
-    })
-}
-
-
+// add a listener whenever a group is clicked
+document.addEventListener('groupClick', function hideMenu(e, v) {
+    console.log('Group Clicked', e.detail);
+    window.open('http://amigo.geneontology.org/amigo/term/' + e.detail.group.id, '_blank');
+});
 
