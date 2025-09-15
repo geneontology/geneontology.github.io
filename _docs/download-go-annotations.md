@@ -51,16 +51,15 @@ For all other organisms we recommend downloading annotations from one of the fol
 
 * [NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="blank"}: If your organism has a reference genome assembly in NCBI in the RefSeq collection (RefSeqs have assembly accessions starting with `GCF_`), GO annotations are available in GAF format through NCBI Gene identifiers. Annotation files are available for all eukaryotic genomes available at NCBI RefSeq.
 > <i class="fa-solid fa-triangle-exclamation"></i> Note: GO annotations are not currently available at NCBI for archaea, bacteria or viruses. GO annotations are not currently available at NCBI for eukaryotic genomes only in GenBank (only accession starts with `GCA_`).
-  * Start at the [NCBI homepage](https://www.ncbi.nlm.nih.gov/){:target="blank"}
-  * Enter your organism in the search box near the top of the page and click Search, e.g. [Anopheles gambiae](https://www.ncbi.nlm.nih.gov/search/all/?term=Anopheles%20gambiae){:target="blank"}
-    <br><img src="/assets/NCBIsearchbox.png" alt="NCBI homepage search" width="600" div style="border: 2px solid black;"/><br>
-  * Follow the ["Genomes" link](https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=7165){:target="blank"}
-    <br><img src="/assets/NCBIgenomelink.png" alt="NCBI Genomes link" width="600" div style="border: 2px solid black;"/><br>
-  * Select the [reference assembly](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_943734735.2/){:target="blank"} at the top of the list; this entry is indicated with a green "reference genome" icon and a `GCF_` identifer listed in the RefSeq column
-    <br><img src="/assets/NCBIrefassembly.png" alt="NCBI reference assembly" width="600" div style="border: 2px solid black;"/><br>
+  * Start at [NCBI Genomes](https://www.ncbi.nlm.nih.gov/datasets/genome/){:target="blank"}
+  * Enter your organism in the search box near the top of the page and click Search, e.g. [Anopheles gambiae](https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=7165){:target="blank"}. You can also start typing to see suggested options. If you select an organism from the dropdown, it will immediately take you to the next step.
+    <br><img src="/assets/NCBIrefseq1_sep2025.png" alt="NCBI Genomes search" width="600" div style="border: 2px solid black;"/><br>
+  * Select the [reference assembly](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_943734735.2/){:target="blank"} in the results; this entry is indicated with a green "reference genome" icon and a `GCF_` identifer listed in the RefSeq column
+    <br><img src="/assets/NCBIrefseq2_sep2025.png" alt="NCBI reference assembly" width="600" div style="border: 2px solid black;"/><br>
   * Click on the [FTP link](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/943/734/735/GCF_943734735.2_idAnoGambNW_F1_1/){:target="blank"}
-    <br><img src="/assets/NCBIftp.png" alt="NCBI FTP link to GAF" width="600" div style="border: 2px solid black;"/><br>
+    <br><img src="/assets/NCBIrefseq3_sep2025.png" alt="NCBI FTP link to GAF" width="600" div style="border: 2px solid black;"/><br>
   * Download the file with the suffix `gene_ontology.gaf.gz`, e.g. `GCF_943734735.2-RS_2023_12_gene_ontology.gaf.gz`
+    <br><img src="/assets/NCBIrefseq4_sep2025.png" alt="NCBI FTP link to GAF" width="600" div style="border: 2px solid black;"/><br>
  
 ### 3. If you cannot find annotations for your organism for download as described above
 [Get help from the GO helpdesk](https://help.geneontology.org/).
