@@ -77,7 +77,6 @@ algolia:
     - search.html
     - index.html
     - allposts.html
-    - covid-19.html
     - gorefs.html
 #   nodes_to_index: 'article' # elements to be indexed
   nodes_to_index: 'p,blockquote,li,div,paragraph,td,span,h1,h2,h3'

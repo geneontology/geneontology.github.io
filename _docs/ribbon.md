@@ -5,7 +5,7 @@ permalink: /docs/ribbon
 
 <style>
     .cell {
-        border: 1px solid black; background-color: white; height: 15px; width: 15px; display: inline-block; vertical-align: sub;        
+        border: 1px solid black; background-color: white; height: 15px; width: 15px; display: inline-block; vertical-align: sub;
     }
 </style>
 
@@ -18,7 +18,7 @@ permalink: /docs/ribbon
 
 ## A visual summary of gene functions
 
-The GO Ribbon is a graphical tool to quickly browse the GO annotations for a gene or a gene set. It provides a visual summary of the functions of a gene (resp. gene sets) by grouping the GO annotations with high level terms selected to represent a broad range of functions (see [slims/subsets](/docs/go-subset-guide/)). 
+The GO Ribbon is a graphical tool to quickly browse the GO annotations for a gene or a gene set. It provides a visual summary of the functions of a gene (resp. gene sets) by grouping the GO annotations with high level terms selected to represent a broad range of functions (see [slims/subsets](/docs/go-subset-guide/)).
 
 The color gradient of each high level term (slim) varies from white <span class="cell">&nbsp;</span> to deep blue <span class="cell" style="background-color: rgb(24,73,180)">&nbsp;</span> for increasing values. By default the color gradient informs on the number of available annotations for each high level term. A toggle allows to change the color gradient to inform instead on the number of distinct terms, giving a better approximate of the diversity of functions for the gene in that branch of the ontology.
 
@@ -48,11 +48,8 @@ The visual summary of a gene set through the Ribbon can help identify shared fun
 
 
 ## GO Ribbon is not GO Enrichment
-The GO Ribbon is designed to provide a visual summary and a simpler way to navigate GO annotations. For gene sets, the GO Ribbon will show the functions shared between genes, but it will *not* inform on the statistical relevance (over/under representation) of such functions in the gene set. Statistical significance and bias of biological functions have to be examined through [over representation tests and enrichment analysis](/docs/go-enrichment-analysis/). 
+The GO Ribbon is designed to provide a visual summary and a simpler way to navigate GO annotations. For gene sets, the GO Ribbon will show the functions shared between genes, but it will *not* inform on the statistical relevance (over/under representation) of such functions in the gene set. Statistical significance and bias of biological functions have to be examined through [over representation tests and enrichment analysis](/docs/go-enrichment-analysis/).
 
-
-
-As an example, the [GO COVID-19 page](/covid-19.html) illustrates how both the Ribbon and enrichment analysis can be used together.
 
 ## Other ways to access GO Ribbons
 GO Ribbons specifically for eukaryotic cellular processes, plants, and prokaryotes are available on the [QuickGO slimming page](https://www.ebi.ac.uk/QuickGO/slimming){:target="blank"}, as is a FlyBase-specific ribbon. To access these, click the "Explore biology" box on the [QuickGO home page](https://www.ebi.ac.uk/QuickGO/). Select a ribbon in the dropdown and click the "Add terms to selection" button, then Apply. You can filter the resulting GO annotations by IDs, taxon, and more.
