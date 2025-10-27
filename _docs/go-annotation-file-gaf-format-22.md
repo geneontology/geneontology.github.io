@@ -86,37 +86,37 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 ### Definitions and requirements for field contents
 
 #### DB (column 1)
-Refers to the database from which the identifier in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. If a UniProtKB ID is the **DB object ID** (column 2), **DB** (column 1) should be UniProtKB.
+Refers to the database from which the identifier of the biological entity edscribed in **DB object ID** (column 2) is drawn. This is not necessarily the group submitting the file. For example, if a UniProtKB ID is the **DB object ID** (column 2), **DB** (column 1) should be UniProtKB.
 
-Must be one of the values from the set of [GO database cross-references](http://amigo.geneontology.org/xrefs).
+Must be one of the values from [GO database cross-references](http://amigo.geneontology.org/xrefs).
 
     This field is mandatory, cardinality 1.
 
 #### DB Object ID (column 2)
-A unique identifier from the database in DB (column 1) for the item being annotated.
+A unique identifier from the database in DB (column 1) describing the biological entity annotated. 
 
     This field is mandatory, cardinality 1.
 
-Note that the identifier **must reference a top-level primary gene or gene product identifier**: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are *not* legal values in this field.
+Note that the identifier **must reference a top-level primary gene or gene product identifier**: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are *not* allowed in this field of the GAF file.
 
 The **DB object ID** is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to the gene encoding the protein (gene ID in **DB object ID** field) or annotations to a protein object (protein ID in **DB object ID** field).
 
 
 #### DB Object Symbol (column 3)
 A (unique and valid) symbol to which **DB object ID** is matched.
-Can use ORF name for otherwise unnamed gene or protein.
-If gene products are annotated, can use gene product symbol if available, or many gene product annotation entries can share a gene symbol.
+Can be an ORF name for otherwise unnamed gene or protein.
+If gene products are annotated, can use gene product symbol if available. Many gene product annotation entries can share a gene symbol.
 
     This field is mandatory, cardinality 1.
 
-The **DB Object Symbol** field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It is not an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB Object Symbol** if there is no more biologically meaningful symbol available (e.g., when an unnamed gene is annotated).
+The **DB Object Symbol** field should be a symbol that means something to a biologist wherever possible (a gene symbol, for example). It should not be an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB Object Symbol** if there is no more biologically meaningful symbol available (e.g., for unnamed genes).
 
 
 #### Relation (column 4)
-Also referred to as **Qualifier** column.
-This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how a gene product relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
+In past formats of the GAF file, this was referred to as **Qualifier** column, since it contained only annotation qualifiers (either: NOT, contributes_to, localized_with).
+This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how the annotated biological entity relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
-    This field is mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to").
+    This field is mandatory in GAF 2.2; cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
 
 **If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
 
@@ -135,15 +135,15 @@ The GO identifier for the term attributed to the **DB object ID**.
     This field is mandatory, cardinality 1.
 
 #### DB:Reference (column 6)
-One or more unique identifiers for a single source cited as an authority for the attribution of the **GO ID** to the **DB Object ID**. This may be a literature reference or a database record. The syntax is DB:accession_number.
+One or more unique identifiers for a single source cited as an authority for the attribution of the **GO ID** to the **DB Object ID**. This may be a literature reference (PMID or DOI) or a GOREF internal reference record. The syntax is DB:accession_number.
 
-Note that **only one reference can be cited on a single line** in the gene association file. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line. For example, if the reference is a published paper that has a PubMed ID, we strongly recommend that the PubMed ID be included, as well as an identifier within a model organism database. Note that if the model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used
+Note that **only one reference can be cited on a single line** in the GAF. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line. For example, if the reference is a published paper that has a PMID, that PMID must be included as well as an identifier within a model organism database. Note that if the model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used
 
     This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. SGD_REF:S000047763|PMID:2676709).
 
 
 #### Evidence Code (column 7)
-See  [GO-ECO mapping file](https://github.com/evidenceontology/evidenceontology/blob/master/gaf-eco-mapping.txt) and the  [GO Evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations.
+See  [GO-ECO mapping file](https://github.com/evidenceontology/evidenceontology/blob/master/gaf-eco-mapping.txt) and the [GO Evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations.
 
     This field is mandatory, cardinality 1.
 
