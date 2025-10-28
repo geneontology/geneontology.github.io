@@ -117,10 +117,11 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 #### 11. Gene Product Properties
 * The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names as indicated in the table below:
 
-Property |	Allowed usages per annotation	| Value Grammar | 	Example	| Comment 
+Property |	Allowed usages per annotation	| Value Grammar | 	Example	| Comment  
 |----------|---------|----------|----------|----------|
 'db-subset'	| 0 or 1		| 'TrEMBL' or 'Swiss-Prot'	| 	db-subset=TrEMBL		| The status of a UniProtKB accession with respect to curator review. |
 'uniprot-proteome' | 	0 or 1	|  ID	|  uniprot-proteome=UP000001940 | 	A unique UniProtKB identifier for the set of proteins that constitute an organism's proteome. |
 'go-annotation-complete' | 	0 or 1	|  Date_Or_Date_Time	|  2019-02-05	|  Indicates the date on which a curator determined that the set of GO annotations for a given entity is complete with respect to GO annotation. Complete means that all information about a gene has been captured as a GO term, but not necessarily that all possible supporting evidence is annotated. |
 'go-annotation-summary' | 	0 or 1	|  Text	|  go-annotation-summary=Sterol binding protein with a role in intracellular sterol transport; localizes to mitochondria and the cortical ER	| A textual gene or gene product description. |
+
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
