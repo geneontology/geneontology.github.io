@@ -6,7 +6,8 @@ redirect_from:
 
 ---
 # Gene Product Information (GPI) file description
-The (*G*ene *P*roduct *I*nformation) (GPI) file represents every annotable entity in an organism: protein-coding gene, non-coding RNA genes, protein isoforms (i. e., splice variants) and modified forms, such as cleaved forms or proteins modified by post-translational modifications. The entities should be non-redundant. 
+## Purpose
+The (*G*ene *P*roduct *I*nformation) (GPI) file represents every annotable biological entity for an organism: protein-coding gene, non-coding RNA genes, protein isoforms (i. e., splice variants) and modified forms, such as cleaved forms or proteins modified by post-translational modifications. The entities should be non-redundant. 
 
 This file is used to normalize annotations to single genes, and to map different identifiers for the same entity across different resources. 
 
@@ -16,7 +17,7 @@ This page is a summary of the GPI 2.0 file format; for full technical details an
   
 ## GPI File Header
 Each line of the file header must be prefixed with an exclamation mark (`!`). 
-Mandatory elements of the GPI 2.0 file header are: 
+### Mandatory elements of the GPI 2.0 file header are: 
 - gpi-version
 - the name of database or group generating the file, as listed in [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
 - the date the file was generated conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
@@ -26,7 +27,8 @@ Mandatory elements of the GPI 2.0 file header are:
     !generated-by: SGD
     !date-generated: 2024-05-01
     ```   
-- Additional information may also be included, for example project URL and funding sources. For example:
+## Additional header information 
+Include project URL and funding sources, or any other information, as long as it is preceded by an exclamation mark (`!`). For example:
      ```
     !URL: http://www.yeastgenome.org/
     !Project-release: WS275
@@ -57,7 +59,8 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
   + UniProtKB:P99999
   + SGD:S000002164
   + MGI:MGI:1919306
-* The identifier may reference the canonical form of a gene or gene product including functional RNAs, as well as gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the corresponding canonical form must be referenced in Column 8 (Parent Protein) of the GPI file. 
+* The identifier may reference the canonical form of a gene or gene product including functional RNAs, as well as gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the corresponding canonical form must be referenced in Column 8 (Parent Protein) of the GPI file.
+   Note that not all **DB:Object_ID** are necessarily in the same ID space. Some groups use [RNA Central]([url](https://rnacentral.org/)) IDs for RNAs, some groups use [ComplexPortal]([url](https://www.ebi.ac.uk/complexportal)) IDs for protein complexes, and some groups use [Protein Ontology]([url](https://proconsortium.org/)) IDs for modified proteoforms. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
 * Cardinality = 1
 
 #### 2. Object Symbol
@@ -83,9 +86,7 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
   * [SO:0000336](http://purl.obolibrary.org/obo/SO_0000336): pseudogene
     
 * **Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
-* GO strongly recommends against using '[gene](http://purl.obolibrary.org/obo/SO_0000704)' or 'gene product' as this does not allow to differentiate between proteins and ncRNAs. 
-<!--- 
-SGD feature type named ORF in SGD --->
+* GO does not allow '[gene](http://purl.obolibrary.org/obo/SO_0000704)' and 'gene product' as biological entity types, as this does not allow to differentiate between proteins and ncRNAs products. 
 * Cardinality = 1
 
 #### 6. Object Taxon
@@ -97,23 +98,29 @@ SGD feature type named ORF in SGD --->
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 8. Canonical object ID
-* If the **DB:Object_ID** in Column 1 describes a gene, a gene-centric reference protein accession or a protein complex then this column should repeat the gene ID from Column 1.
+* If the **DB:Object_ID** in Column 1 describes a gene, a gene-centric reference protein accession or a protein complex, then this column should repeat the DB:Object_ID from Column 1.
 * If the **DB:Object_ID** in Column 1 describes an entity derived from a gene product such as a protein isoform, a modified protein or a processed transcript (e. g.  miRNA), then this column refers to the gene-centric ID of the Column 1 entry.
-* If the **DB:Object_ID** in Column 1 is of a type for which the organism's gene set represented by the GPI does not have IDs for a specific type of entity, then the same COMPLETE!!!!
-* Note that not all **DB:Object_ID** are necessarily in the same ID space. Some groups use [RNA Central]([url](https://rnacentral.org/)) IDs for RNAs, some groups use [ComplexPortal]([url](https://www.ebi.ac.uk/complexportal)) IDs for protein complexes, and some groups use [Protein Ontology]([url](https://proconsortium.org/)) IDs for modified proteoforms. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
-* Cardinality = 1.
+* If the **DB:Object_ID** in Column 1 is of a type for which the organism's gene set represented by the GPI does not have IDs for a specific type of entity (for example, uncloned genes), then this column should repeat the DB:Object_ID from Column 1.
+* Cardinality = 1
 
 #### 9. Protein-Containing Complex Members
-* When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric reference protein accessions.
+* When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric canonical protein identifiers.
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated.
 
 #### 10. Database cross-references (DB_Xrefs)
 * Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers: a namespace and a value, separated by a colon, e.g. UniProtKB:Q60FP0.
-* This field is mandatory if the prefix in column 1 is not one of: UniProtKB, RNACentral, ComplexPortal. In these cases, **DB_Xrefs** must include the correponding UniProtKB ID, RNACentral, or ComplexPortal as appropriate according to the object type (see Column 5).
-* Note that RNACentral IDs contain the taxon ID of the entity appended after an 'underscore' character ("_"): see [RNACentral:URS00002F21DA]((https://rnacentral.org/rna/URS00002F21DA)] (generic for several organism) versus [[RNACentral:URS00002F21DA]_7227](https://rnacentral.org/rna/URS00002F21DA/7227) (specific for Drosophila melanogaster.
+* This field is mandatory if the prefix in column 1 is not one of: UniProtKB, RNACentral, ComplexPortal. In these cases, **DB_Xrefs** must include the correponding UniProtKB ID, RNACentral, or ComplexPortal as appropriate according to the Object Type (see Column 5).
+* Note that RNACentral IDs contain the taxon ID of the entity appended after an 'underscore' character ("_"): see [RNACentral:URS00002F21DA]((https://rnacentral.org/rna/URS00002F21DA)] (generic for several organism) versus [[RNACentral:URS00002F21DA]_7227](https://rnacentral.org/rna/URS00002F21DA/7227) (specific for Drosophila melanogaster).
 * Additional cross references such as NCBI gene or protein IDs, HGNC, etc, may also be included.
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 11. Gene Product Properties
-* The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names and this list can be extended when necessary. Supported properties will include: 'GO annotation complete', "Phenotype annotation complete' (the value for these two properties would be a date), 'Target set' (e.g. Reference Genome, kidney, etc.), 'Database subset' (e.g. Swiss-Prot, TrEMBL). 
+* The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names as indicated in the table below:
+
+Property |	Allowed usages per annotation	| Value Grammar | 	Example	| Comment 
+|----------|---------|----------|----------|----------|
+'db-subset'	| 0 or 1		| 'TrEMBL' or 'Swiss-Prot'	| 	db-subset=TrEMBL		| The status of a UniProtKB accession with respect to curator review. 
+'uniprot-proteome' | 	0 or 1	|  ID	|  uniprot-proteome=UP000001940 | 	A unique UniProtKB identifier for the set of proteins that constitute an organism's proteome.
+'go-annotation-complete' | 	0 or 1	|  Date_Or_Date_Time	|  2019-02-05	|  Indicates the date on which a curator determined that the set of GO annotations for a given entity is complete with respect to GO annotation. Complete means that all information about a gene has been captured as a GO term, but not necessarily that all possible supporting evidence is annotated.
+'go-annotation-summary' | 	0 or 1	|  Text	|  go-annotation-summary=Sterol binding protein with a role in intracellular sterol transport; localizes to mitochondria and the cortical ER	A textual gene or gene product description.
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
