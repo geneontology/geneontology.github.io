@@ -117,7 +117,7 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 #### 11. Gene Product Properties
 * The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names as indicated in the table below:
 
-Property |	Allowed usages per annotation	| Value Grammar | Example	| Comment  
+| Property |	Allowed usages per annotation	| Value Grammar | Example	| Comment  
 |----------|---------|----------|----------|----------|
 | `db-subset`	| 0 or 1		| Must be either `TrEMBL` or `Swiss-Prot`	| 	db-subset=TrEMBL		| The status of a UniProtKB accession with respect to curator review. |
 | `uniprot-proteome` | 	0 or 1	|  ID	|  uniprot-proteome=UP000001940 | 	A unique UniProtKB identifier for the set of proteins that constitute an organism's proteome. |
