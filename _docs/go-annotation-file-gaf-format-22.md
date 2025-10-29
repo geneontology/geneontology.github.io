@@ -10,28 +10,26 @@ redirect_from:
 <!--Comment transferred from gaf-format-2.1 page: Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.
 Suggestion: can we use "optional" instead of "not mandatory"?-->
 
+# GO annotations
 
+For general information on GO annotations, please see the [introduction to GO annotation](/docs/go-annotations/) page.
 
-# GO Association File (GAF) 2.2
+# GO Association file formats
 
-This guide lays out the format specifications for the **G**ene **A**ssociation **F**ile (GAF) 2.2 introduced in March 2021; for the older format please see the [GAF 2.1 guide](/docs/go-annotation-file-gaf-format-2.1/).
-
-The Gene Ontology Consortium provides annotation data, the representation of gene product attributes using GO terms, in standardized tab-delimited text files. Each line in the file represents a single association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/) and the reference to support the association.
+The Gene Ontology Consortium provides annotation data, the representation of gene product attributes using GO terms, in standardized tab-delimited text files. Each line in the file represents an association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/) and the reference to support the association. This page describes the GAF 2.02 file format.
 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/).  
 
-For more general information on annotation, please see the [introduction to GO annotation](/docs/go-annotations/).
+## GAF 2.2 format description
 
-## GO Association File (GAF) 2.2
-
-### GAF Header
+### File Header
 
 ### Mandatory elements of the GAF 2.2 file header are:  
 Three lines are required in the GAF 2.2 header as shown below.  Note that the header must start by denoting the GAF file version.
 
-    !gaf-version: 2.2
-    !generated-by: database listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
-    !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
+!`gaf-version:` 2.2
+!`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+!`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards
 
 Other information, such as links to the submitters project page, funding sources, ontology versions, etc., can be included in an association file as shown below.
 
