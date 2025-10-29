@@ -17,34 +17,28 @@ GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-
 
 For general information on GO annotations, please see the [introduction to GO annotation](/docs/go-annotations/) page.
 
-## GAF 2.2 format description
+# GAF 2.2 format description
 
-### File Header
+## File Header
 
 **Mandatory elements of the GAF 2.2 file header**  
-Three lines are required in the GAF 2.2 header as shown below.
-
-Three lines are required in the GPAD 2. header as shown below.
 
 !`gaf-version:` 2.2  <br>
-!`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)  <br>
+!`generated-by:` database (must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml))  <br>
 !`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM <br>
 
-**Other header elements**
+**Other header elements may be included such as links to the submitters project page, funding sources, ontology versions, etc.**
 
-Other information, such as links to the submitters project page, funding sources, ontology versions, etc., may be included in an association file as shown below.
+! URL: e.g. http://www.yeastgenome.org/ <br>
+! Project-release: e.g. WS275 <br>
+! Funding: e.g. NHGRI <br>
+! Columns: file format written out <br>
+! go-version: PURL <br>
+! ro-version: PURL <br>
+! gorel-version: PURL <br>
+! eco-version: PURL <br>
 
-!URL: e.g. http://www.yeastgenome.org/ <br>
-!Project-release: e.g. WS275 <br>
-!Funding: e.g. NHGRI <br>
-!Columns: file format written out <br>
-!go-version: PURL <br>
-!ro-version: PURL <br>
-!gorel-version: PURL <br>
-!eco-version: PURL <br>
-
-
-### GAF fields
+## GAF 2.2 fields
 
 The annotation flat file format is comprised of 17 tab-delimited fields.
 
@@ -69,7 +63,7 @@ The annotation flat file format is comprised of 17 tab-delimited fields.
 | 17 	| [Gene Product Form ID](#gene-product-form-id-column-17 "Definition and requirements for Gene Product Form ID (column 17)") 	| optional |	0 or 1 |	UniProtKB:P12345-2|
 
 
-### Definitions and requirements for field contents
+## Definitions and requirements for field contents
 
 #### DB (column 1)
 Refers to the database from which the identifier of the biological entity described in **DB object ID** (column 2) is drawn. For example, if a UniProtKB ID is the **DB object ID** (column 2), **DB** (column 1) should be UniProtKB.
