@@ -18,22 +18,22 @@ This page is a summary of the GPI 2.0 file format; for full technical details an
 ## GPI File Header
 Each line of the file header must be prefixed with an exclamation mark (`!`). 
 ### Mandatory elements of the GPI 2.0 file header are: 
-- gpi-version
-- the name of database or group generating the file, as listed in [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
-- the date the file was generated conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
-- Example GPI 2.0 header:
-    ```
-    !gpi-version: 2.0
-    !generated-by: SGD
-    !date-generated: 2024-05-01
-    ```   
-## Additional header information 
-Include project URL and funding sources, or any other information, as long as it is preceded by an exclamation mark (`!`). For example:
-     ```
-    !URL: http://www.yeastgenome.org/
-    !Project-release: WS275
-    !Funding: NHGRI grant number HG012212
-     ```
+Three lines are required in the GPI 2.0 header as shown below:
+
+    !gaf-version: 2.2
+    !generated-by: database listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+    !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM : conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
+
+Other information, such as links to the submitters project page, funding sources, ontology versions, etc., can be included in an association file as shown below.
+
+    !URL: e.g. http://www.yeastgenome.org/
+    !Project-release: e.g. WS275
+    !Funding: e.g. NHGRI
+    !Columns: file format written out
+    !go-version: PURL
+    !ro-version: PURL
+    !gorel-version: PURL
+    !eco-version: PURL
 
 ## GPI File Contents
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
