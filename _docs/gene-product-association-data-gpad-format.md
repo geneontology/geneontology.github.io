@@ -16,12 +16,8 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 # Gene Product Association Data (GPAD) 2.0 format guidelines
 
 This page is a summary of the current Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from previous GPAD formats, [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). 
-**Note that the GPAD file is the companion file for the [GPI file](/docs/gene-product-information-gpi-format-2.0//).
-Both files should be submitted together using the same version.** 
-
-## Changes from GPAD 1.1 to GPAD 2.0
-* **Characters allowed in all fields have been explicitly specified**
-* **Extensions in file names are: `*.gpad` and `*.gpi`**
+**Note that the GPAD file must be submitted together with the corresponding [GPI file](/docs/gene-product-information-gpi-format-2.0//).
+Both files should be using the same version.** 
   
 **GPAD Header**
 ### GAF Header
