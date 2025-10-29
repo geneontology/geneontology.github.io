@@ -64,8 +64,8 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 * Cardinality = 1
 
 #### 2. Object Symbol
-* The unique symbol corresponding to the **DB:Object_ID** in Column 1; usually the name of the gene. No white spaces allowed.
-* The symbol is not a unique identifier or an accession number (unlike the **DB:Object_ID**), but if the entity does not have a symbol, the **DB:Object_ID** may be used as **Object Symbol**. For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:Object_ID**, but with the same gene symbol in the **Object_Symbol** column. 
+A name for the entity represented by the **DB object ID**. The **DB Object Symbol** field should be text that means something to a biologist wherever possible (a gene symbol, for example). If the entity has no name, the DB object ID can be used as a **DB Object Symbol**.
+
 * Cardinality = 1
 
 #### 3. Object Name
