@@ -5,7 +5,7 @@ redirect_from: /docs/gene-product-association-data-gpad-format-2.0/
 redirect_from: /page/gene-product-association-data-gpad-format
 ---
 
-# GPAD file description
+# Gene Product Association Data (GPAD) file description
 The *G*ene *P*roduct *A*ssociation *D*ata (GPAD) file contains annotation data provided by the Gene Ontology Consortium in standardized tab-delimited text file format. Each line in the file represents an association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/), a reference to support the association, and other data associated with the gene product or the annotation. This page is a summary of GPAD 2.0 format; for full technical details and a summary of changes from previous GPAD formats, [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). Note that the GPAD file must be submitted together with the corresponding [GPI file](/docs/gene-product-information-gpi-format-2.0//), based on the same file version.
 
 >GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/) and recommends use of the GAF format for most use cases. 
