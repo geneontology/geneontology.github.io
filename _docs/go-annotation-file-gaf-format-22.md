@@ -26,6 +26,7 @@ For more general information on annotation, please see the [introduction to GO a
 
 ### GAF Header
 
+### Mandatory elements of the GAF 2.2 file header are:  
 Three lines are required in the GAF 2.2 header as shown below.  Note that the header must start by denoting the GAF file version.
 
     !gaf-version: 2.2
