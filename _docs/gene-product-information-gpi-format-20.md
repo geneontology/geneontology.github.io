@@ -18,22 +18,22 @@ This page is a summary of the GPI 2.0 file format; for full technical details an
 ## GPI File Header
 Each line of the file header must be prefixed with an exclamation mark (`!`). 
 ### Mandatory elements of the GPI 2.0 file header are: 
-- gpi-version
-- the name of database or group generating the file, as listed in [dbxrefs.yaml file](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
-- the date the file was generated conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
-- Example GPI 2.0 header:
-    ```
+Three lines are required in the GPI 2.0 header as shown below:
+
     !gpi-version: 2.0
-    !generated-by: SGD
-    !date-generated: 2024-05-01
-    ```   
-## Additional header information 
-Include project URL and funding sources, or any other information, as long as it is preceded by an exclamation mark (`!`). For example:
-     ```
-    !URL: http://www.yeastgenome.org/
-    !Project-release: WS275
-    !Funding: NHGRI grant number HG012212
-     ```
+    !generated-by: database listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+    !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM : conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
+
+Other information, such as links to the submitters project page, funding sources, ontology versions, etc., can be included in an association file as shown below.
+
+    !URL: e.g. http://www.yeastgenome.org/
+    !Project-release: e.g. WS275
+    !Funding: e.g. NHGRI
+    !Columns: file format written out
+    !go-version: PURL
+    !ro-version: PURL
+    !gorel-version: PURL
+    !eco-version: PURL
 
 ## GPI File Contents
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
@@ -64,8 +64,8 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
 * Cardinality = 1
 
 #### 2. Object Symbol
-* The unique symbol corresponding to the **DB:Object_ID** in Column 1; usually the name of the gene. No white spaces allowed.
-* The symbol is not a unique identifier or an accession number (unlike the **DB:Object_ID**), but if the entity does not have a symbol, the **DB:Object_ID** may be used as **Object Symbol**. For example, several alternative transcripts from one gene may be annotated separately, each with specific gene product identifiers in **DB:Object_ID**, but with the same gene symbol in the **Object_Symbol** column. 
+A name for the entity represented by the **DB object ID**. The **DB Object Symbol** field should be text that means something to a biologist wherever possible (a gene symbol, for example). If the entity has no name, the DB object ID can be used as a **DB Object Symbol**.
+
 * Cardinality = 1
 
 #### 3. Object Name
