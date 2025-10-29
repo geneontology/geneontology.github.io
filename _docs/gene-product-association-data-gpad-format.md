@@ -23,7 +23,7 @@ For general information on GO annotations, please see the [introduction to GO an
 
 Three lines are required in the GPAD 2. header as shown below.
 
-!`gaf-version:` 2.2  <br>
+!`gpad-version:` 2.0  <br>
 !`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)  <br>
 !`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM <br>
 
