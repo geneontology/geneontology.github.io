@@ -143,16 +143,9 @@ This field is mandatory, cardinality 1.
 
 #### 7. With [or] From
 Also referred to as **With, From** or the **With/From** column.
+This field is used with specific ECO codes to capture an additional identifier supporting the evidence for the annotation. For example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). Population of the **With/From** is mandatory for certain evidence codes, see the [documentation for the individual evidence codes](https://wiki.geneontology.org/Guide_to_GO_Evidence_Codes) for more information.
 
-This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 ([IC](https://wiki.geneontology.org/index.php/Inferred_by_Curator_(IC)));
-ECO:0000203, ECO:0000256, and ECO:0000265 ([IEA & child terms](https://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA))); ECO:00000316 ([IGI](https://wiki.geneontology.org/Inferred_from_Genetic_Interaction_(IGI))); ECO:0000021 ([IPI](https://wiki.geneontology.org/Inferred_from_Physical_Interaction_(IPI))); ECO:0000031, ECO:0000250 and ECO:0000255 ([ISS & child terms](https://wiki.geneontology.org/Inferred_from_Sequence_or_structural_Similarity_(ISS))). 
-This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, ISS) or interacts with (ECO:0000021, IPI). 
-
-The **With [or] From** column may not be used with the evidence codes ECO:0000314 ([IDA](https://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA))), ECO:0000304 ([TAS](https://wiki.geneontology.org/Traceable_Author_Statement_(TAS))), ECO:0000303 ([NAS](https://wiki.geneontology.org/Non-traceable_Author_Statement_(NAS))), or ECO:0000307 ([ND](https://wiki.geneontology.org/No_biological_Data_available_(ND)_evidence_code)). 
-
-A GO:ID is used only when the evidence code is IC, and refers to the GO term(s) used as the basis of a 
-curator inference. In these cases the entry in the **DB:Reference** column will be that used to assign the GO term(s) 
-from which the inference is made.
+Multiple values are allowed in the **With/From** field for certain evidence codes (and they must be separated with either a pipe or a comma. The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **With/From** field.
 
 Cardinality 0, 1, >1 with the following rules:
 
