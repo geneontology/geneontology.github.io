@@ -23,18 +23,26 @@ Both files should be submitted together using the same version.**
 * **Characters allowed in all fields have been explicitly specified**
 * **Extensions in file names are: `*.gpad` and `*.gpi`**
   
-**Header**
-* **The `gpad-version:` header must read `2.0` for this format.**
+**GPAD Header**
+### GAF Header
 
-**Columns**
-* **Columns 1 and 2 in the GPAD 1.2 are now combined in a single column containing an id in CURIE syntax, e.g. `UniProtKB:P56704`.**
-* **Negation is captured in a separate column, column 2, using the text string 'NOT'**
-* **Gene product-to-term relations captured in column 3 use a Relations Ontology (RO) identifier instead of a text string.**
-* **The With/From column, column 7, may contain identifiers separated by commas as well as pipes.**
-* **NCBI taxon ids are prefixed with `NCBITaxon:` to indicate the source of the id, e.g. `NCBITaxon:6239`**
-* **Annotation Extensions in column 11 will use a Relation_ID, rather than a Relation_Symbol, in the Relational_Expression, e.g. `RO:0002233(UniProtKB:Q00362)`**
-* **Dates follow the ISO-8601 format, e.g. `YYYY-MM-DD`; time may be included as `YYYY-MM-DDTHH:MM:SS`**
+### Mandatory elements of the GPAD 2.0 file header are:  
+Three lines are required in the GPAD 2. header as shown below.  Note that the header must start by denoting the GAF file version.
 
+    !gpad-version: 2.0
+    !generated-by: database listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+    !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
+
+Other information, such as links to the submitters project page, funding sources, ontology versions, etc., can be included in an association file as shown below.
+
+    !URL: e.g. http://www.yeastgenome.org/
+    !Project-release: e.g. WS275
+    !Funding: e.g. NHGRI
+    !Columns: file format written out
+    !go-version: PURL
+    !ro-version: PURL
+    !gorel-version: PURL
+    !eco-version: PURL
 
 ## GPAD Header
 All annotation files MUST start with a single line denoting the file format and version. The database/group generating the file, as listed in dbxrefs.yaml, and the ISO-8601 formatted date the file was generated MUST also be in the header as in the following example:
