@@ -10,8 +10,8 @@ redirect_from:
 <!--Comment transferred from gaf-format-2.1 page: Column 12 needs rewriting. Currently refers to "DB Object Symbol (column 2)"; should either be DB object ID or column 3.  Column 8 is too long.
 Suggestion: can we use "optional" instead of "not mandatory"?-->
 
-# GAF file description
-The *G*ene *A*ssociation *F*ile) (GAF) file contains annotation data provided by the Gene Ontology Consortium in standardized tab-delimited text files. Each line in the file represents an association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/), a reference to support the association, and other data associated with the gene product or the annotation. This page describes the GAF 2.2 file format.
+# Gene Association File (GAF) file description
+The *G*ene *A*ssociation *F*ile (GAF) file contains annotation data provided by the Gene Ontology Consortium in standardized tab-delimited text files. Each line in the file represents an association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/), a reference to support the association, and other data associated with the gene product or the annotation. This page describes the GAF 2.2 file format.
 
 GO also provides annotations as [GPAD](/docs/gene-product-association-data-gpad-format/)+[GPI](/docs/gene-product-information-gpi-format/).  
 
