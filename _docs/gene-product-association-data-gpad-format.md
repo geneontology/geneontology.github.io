@@ -16,25 +16,29 @@ The Gene Ontology Consortium stores annotation data, the representation of gene 
 # Gene Product Association Data (GPAD) 2.0 format guidelines
 
 This page is a summary of the current Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from previous GPAD formats, [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). 
-**Note that the GPAD file is the companion file for the [GPI file](/docs/gene-product-information-gpi-format-2.0//).
-Both files should be submitted together using the same version.** 
-
-## Changes from GPAD 1.1 to GPAD 2.0
-* **Characters allowed in all fields have been explicitly specified**
-* **Extensions in file names are: `*.gpad` and `*.gpi`**
+**Note that the GPAD file must be submitted together with the corresponding [GPI file](/docs/gene-product-information-gpi-format-2.0//).
+Both files should be using the same version.** 
   
-**Header**
-* **The `gpad-version:` header must read `2.0` for this format.**
+**GPAD Header**
+### GAF Header
 
-**Columns**
-* **Columns 1 and 2 in the GPAD 1.2 are now combined in a single column containing an id in CURIE syntax, e.g. `UniProtKB:P56704`.**
-* **Negation is captured in a separate column, column 2, using the text string 'NOT'**
-* **Gene product-to-term relations captured in column 3 use a Relations Ontology (RO) identifier instead of a text string.**
-* **The With/From column, column 7, may contain identifiers separated by commas as well as pipes.**
-* **NCBI taxon ids are prefixed with `NCBITaxon:` to indicate the source of the id, e.g. `NCBITaxon:6239`**
-* **Annotation Extensions in column 11 will use a Relation_ID, rather than a Relation_Symbol, in the Relational_Expression, e.g. `RO:0002233(UniProtKB:Q00362)`**
-* **Dates follow the ISO-8601 format, e.g. `YYYY-MM-DD`; time may be included as `YYYY-MM-DDTHH:MM:SS`**
+### Mandatory elements of the GPAD 2.0 file header are:  
+Three lines are required in the GPAD 2. header as shown below.  Note that the header must start by denoting the GAF file version.
 
+    !gpad-version: 2.0
+    !generated-by: database listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+    !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM
+
+Other information, such as links to the submitters project page, funding sources, ontology versions, etc., can be included in an association file as shown below.
+
+    !URL: e.g. http://www.yeastgenome.org/
+    !Project-release: e.g. WS275
+    !Funding: e.g. NHGRI
+    !Columns: file format written out
+    !go-version: PURL
+    !ro-version: PURL
+    !gorel-version: PURL
+    !eco-version: PURL
 
 ## GPAD Header
 All annotation files MUST start with a single line denoting the file format and version. The database/group generating the file, as listed in dbxrefs.yaml, and the ISO-8601 formatted date the file was generated MUST also be in the header as in the following example:
@@ -139,16 +143,9 @@ This field is mandatory, cardinality 1.
 
 #### 7. With [or] From
 Also referred to as **With, From** or the **With/From** column.
+This field is used with specific ECO codes to capture an additional identifier supporting the evidence for the annotation. For example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). Population of the **With/From** is mandatory for certain evidence codes, see the [documentation for the individual evidence codes](https://wiki.geneontology.org/Guide_to_GO_Evidence_Codes) for more information.
 
-This field is used to hold an identifier for annotations using certain evidence codes: ECO:0000305 ([IC](https://wiki.geneontology.org/index.php/Inferred_by_Curator_(IC)));
-ECO:0000203, ECO:0000256, and ECO:0000265 ([IEA & child terms](https://wiki.geneontology.org/index.php/Inferred_from_Electronic_Annotation_(IEA))); ECO:00000316 ([IGI](https://wiki.geneontology.org/Inferred_from_Genetic_Interaction_(IGI))); ECO:0000021 ([IPI](https://wiki.geneontology.org/Inferred_from_Physical_Interaction_(IPI))); ECO:0000031, ECO:0000250 and ECO:0000255 ([ISS & child terms](https://wiki.geneontology.org/Inferred_from_Sequence_or_structural_Similarity_(ISS))). 
-This column can identify another gene product to which the annotated gene product is similar (ECO:0000031, ECO:0000250 and ECO:0000255, ISS) or interacts with (ECO:0000021, IPI). 
-
-The **With [or] From** column may not be used with the evidence codes ECO:0000314 ([IDA](https://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA))), ECO:0000304 ([TAS](https://wiki.geneontology.org/Traceable_Author_Statement_(TAS))), ECO:0000303 ([NAS](https://wiki.geneontology.org/Non-traceable_Author_Statement_(NAS))), or ECO:0000307 ([ND](https://wiki.geneontology.org/No_biological_Data_available_(ND)_evidence_code)). 
-
-A GO:ID is used only when the evidence code is IC, and refers to the GO term(s) used as the basis of a 
-curator inference. In these cases the entry in the **DB:Reference** column will be that used to assign the GO term(s) 
-from which the inference is made.
+Multiple values are allowed in the **With/From** field for certain evidence codes (and they must be separated with either a pipe or a comma. The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **With/From** field.
 
 Cardinality 0, 1, >1 with the following rules:
 
