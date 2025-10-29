@@ -90,14 +90,9 @@ The **DB object ID** is the identifier for the database object, which may or may
 
 
 #### DB Object Symbol (column 3)
-A (unique and valid) symbol associated with the **DB object ID**.
-The DB object symbol can be an open reading frame (ORF) name for an otherwise unnamed gene or protein.
-If gene products are annotated, can use gene product symbol if available. Many gene product annotation entries can share a gene symbol.
+A name for the entity represented by the **DB object ID**. The **DB Object Symbol** field should be text that means something to a biologist wherever possible (a gene symbol, for example). If the entity has no name, the DB object ID can be used as a **DB Object Symbol**.
 
     This field is mandatory, cardinality 1.
-
-The **DB Object Symbol** field should be text that means something to a biologist wherever possible (a gene symbol, for example). It should not be an ID or an accession number (**DB object ID** [column 2] provides the unique identifier), although IDs can be used as a **DB Object Symbol** if there is no more biologically meaningful symbol available (e.g., for unnamed genes).
-
 
 #### Relation (column 4)
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how the annotated biological entity relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
