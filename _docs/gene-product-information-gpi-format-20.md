@@ -6,7 +6,7 @@ redirect_from:
 
 ---
 # Gene Product Information (GPI) file description
-## Purpose
+
 The (*G*ene *P*roduct *I*nformation) (GPI) file represents every annotable biological entity for an organism: protein-coding gene, non-coding RNA genes, protein isoforms (i. e., splice variants) and modified forms, such as cleaved forms or proteins modified by post-translational modifications. The entities should be non-redundant. 
 
 This file is used to normalize annotations to single genes, and to map different identifiers for the same entity across different resources. 
