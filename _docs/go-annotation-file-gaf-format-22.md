@@ -133,28 +133,9 @@ See  [GO-ECO mapping file](https://github.com/evidenceontology/evidenceontology/
 Also referred to as **With, From** or the **With/From** column.
 This field is used with specific ECO codes to capture an additional identifier supporting the evidence for the annotation. For example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). Population of the **With/From** is mandatory for certain evidence codes, see the [documentation for the individual evidence codes](https://wiki.geneontology.org/Guide_to_GO_Evidence_Codes) for more information.
 
-Some permitted values are:
-
-        DB:gene_symbol
-        DB:gene_symbol[allele_symbol]
-        DB:gene_id
-        DB:protein_name
-        DB:sequence_id
-        GO:GO_id
-        CHEBI:CHEBI_id
-        IntAct:Complex _id
-        RNAcentral:RNAcentral_id
-        more...
-
-Multiple entries are allowed in the **With/From** field for certain evidence codes (see below) and they must be separated with either a pipe or a comma. The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **With/From** field.
+Multiple values are allowed in the **With/From** field for certain evidence codes (see below) and they must be separated with either a pipe or a comma. The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **With/From** field.
 
     This field is required for some evidence codes, cardinality 0, 1, >1.
-
-The **With/From** field may be populated with multiple identifiers when making annotations using the following evidence codes: IMP, IGI, IPI, IC, ISS, ISA, ISO, ISM, IGC, IBA, IKR, RCA, IEA.
-
-Annotations made using the following evidence codes may only use the pipe operator in the **With/From** field: ISS, ISA, ISO, ISM, IBA, IKR, RCA, IEA. It is not mandatory to use pipes, however, and some groups may prefer to make separate annotations.
-
-Annotations made using the following evidence codes may use the pipe or comma operators in the **With/From** field: IMP, IGI, IPI, IC, IGC.
 
 ##### Examples
 
