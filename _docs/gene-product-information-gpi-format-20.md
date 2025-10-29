@@ -20,7 +20,7 @@ Each line of the file header must be prefixed with an exclamation mark (`!`).
 ### Mandatory elements of the GPI 2.0 file header are: 
 Three lines are required in the GPI 2.0 header as shown below:
 
-    !gaf-version: 2.2
+    !gpi-version: 2.0
     !generated-by: database listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
     !date-generated: YYYY-MM-DD or YYYY-MM-DDTHH:MM : conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards, i. e. `YYYY-MM-DD`
 
