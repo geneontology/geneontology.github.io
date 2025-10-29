@@ -5,33 +5,29 @@ redirect_from: /docs/gene-product-association-data-gpad-format-2.0/
 redirect_from: /page/gene-product-association-data-gpad-format
 ---
 
-# GPAD 2.0 file format 
-This page is a summary of the current Gene Product Association Data (GPAD) 2.0 format; for full technical details and a summary of changes from previous GPAD formats, [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). 
-**Note that the GPAD file must be submitted together with the corresponding [GPI file](/docs/gene-product-information-gpi-format-2.0//), based on the same file version.** 
-
-## GO Association file formats
-
-The Gene Ontology Consortium provides annotation data, the representation of gene product attributes using GO terms, in standardized tab-delimited text files. Each line in the file represents an association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/) and the reference to support the association. This page describes the GPAD2.0 file format.
-
-The *G*ene *P*roduct *A*ssociation *D*ata (GPAD) should be used in conjunction with the corresponing (*G*ene *P*roduct *I*nformation) (GPI). GAF files contains redundant information about gene products. The GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files, thus removing redundancy about gene product description in the GAF file and providing a unique and complete set of annotated entities in the GPI file. 
+# GPAD file desctiption
+*G*ene *P*roduct *A*ssociation *D*ata (GPAD) contains annotation data provided by the Gene Ontology Consortium in standardized tab-delimited text file format. Each line in the file represents an association between a gene product and a GO term, with an [evidence code](/docs/guide-go-evidence-codes/), a reference to support the association, and other data associated with the gene product or the annotation. This page is a summary of GPAD 2.0 format; for full technical details and a summary of changes from previous GPAD formats, [see the GitHub specification page](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md). Note that the GPAD file must be submitted together with the corresponding [GPI file](/docs/gene-product-information-gpi-format-2.0//), based on the same file version.
 
 >GO also provides annotations as [GAF files](/docs/go-annotation-file-gaf-format-2.2/) and recommends use of the GAF format for most use cases. 
 
 For general information on GO annotations, please see the [introduction to GO annotation](/docs/go-annotations/) page.
 
+<!-- Should we keep ? GAF files contains redundant information about gene products. The GPAD/GPI file system normalizes the data by separating the annotations and metadata about gene and gene product entities in two separate files, thus removing redundancy about gene product description in the GAF file and providing a unique and complete set of annotated entities in the GPI file. -->
 
-# GPAD 2.0 format description
+
+## GPAD 2.0 format description
  
 **File Header**
 
-## Mandatory elements of the GPAD 2.0 file header are:  
-Three lines are required in the GPAD 2. header as shown below.  Note that the header must start by denoting the GAF file version.
+### Mandatory elements of the GPAD 2.0 file header are:  
+Three lines are required in the GPAD 2. header as shown below.
 
-!`gaf-version:` 2.2
-!`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
-!`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards
+    !`gaf-version:` 2.2
+    !`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+    !`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards
 
-Other information, such as links to the submitters project page, funding sources, ontology versions, etc., can be included in an association file as shown below.
+### Other header elements
+Other information, such as links to the submitters project page, funding sources, ontology versions, etc., may be included in an association file as shown below.
 
     !URL: e.g. http://www.yeastgenome.org/
     !Project-release: e.g. WS275
@@ -43,7 +39,7 @@ Other information, such as links to the submitters project page, funding sources
     !eco-version: PURL
 
     
-## GPAD file fields
+### GPAD file fields
 The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, some fields are mandatory and cardinality varies by field and other conditions.  For fields that permit multiple values, values should be separated by pipes (\|) for `OR` statements and commas (,) for `AND` statements.
 
 | **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example** |
