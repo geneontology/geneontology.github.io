@@ -22,9 +22,11 @@ For general information on GO annotations, please see the [introduction to GO an
 **Mandatory elements of the GPAD 2.0 file header**  
 Three lines are required in the GPAD 2. header as shown below.
 
-    !`gaf-version:` 2.2
-    !`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
-    !`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards
+!`gaf-version:` 2.2
+
+!`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)
+
+!`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM, conforming to the date portion of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standards
 
 **Other header elements**
 Other information, such as links to the submitters project page, funding sources, ontology versions, etc., may be included in an association file as shown below.
