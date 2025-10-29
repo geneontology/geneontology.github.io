@@ -24,23 +24,24 @@ For general information on GO annotations, please see the [introduction to GO an
 **Mandatory elements of the GAF 2.2 file header**  
 Three lines are required in the GAF 2.2 header as shown below.
 
-    !`gaf-version:` 2.2
-    !`generated-by:` database 
-    !`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM
+Three lines are required in the GPAD 2. header as shown below.
 
-* The database must be listed in the GO [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml).
+!`gaf-version:` 2.2  <br>
+!`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)  <br>
+!`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM <br>
 
 **Other header elements**
+
 Other information, such as links to the submitters project page, funding sources, ontology versions, etc., may be included in an association file as shown below.
 
-    !URL: e.g. http://www.yeastgenome.org/
-    !Project-release: e.g. WS275
-    !Funding: e.g. NHGRI
-    !Columns: file format written out
-    !go-version: PURL
-    !ro-version: PURL
-    !gorel-version: PURL
-    !eco-version: PURL
+!URL: e.g. http://www.yeastgenome.org/ <br>
+!Project-release: e.g. WS275 <br>
+!Funding: e.g. NHGRI <br>
+!Columns: file format written out <br>
+!go-version: PURL <br>
+!ro-version: PURL <br>
+!gorel-version: PURL <br>
+!eco-version: PURL <br>
 
 
 ### GAF fields
