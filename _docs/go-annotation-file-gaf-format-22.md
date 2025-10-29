@@ -97,7 +97,7 @@ A name for the entity represented by the **DB object ID**. The **DB Object Symbo
 #### Relation (column 4)
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how the annotated biological entity relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
-    This field is mandatory, cardinality 1 or 2; for cardinality 2 use a pipe to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
+    This field is mandatory, cardinality 1. For negation, a pipe must be used to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
 
 **If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
 
