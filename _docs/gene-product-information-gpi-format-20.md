@@ -15,23 +15,22 @@ This file is used to normalize annotations to single genes, and to map different
 
 This page is a summary of the GPI 2.0 file format; for full technical details and changes from the previous formal, GPI 1.2, see the [Full GPI 2.0 Specification](https://github.com/geneontology/go-annotation/blob/master/specs/gpad-gpi-2-0.md) page. 
   
-## GPI File Header
-Each line of the file header must be prefixed with an exclamation mark (`!`). 
-### Mandatory elements of the GPI 2.0 file header are: 
-Three lines are required in the GPI 2.0 header as shown below:
+### File Header
+
+**Mandatory elements of the GPI 2.0 file header**  
 
 !`gpi-version:` 2.0  <br>
 !`generated-by:` database must be listed in [dbxrefs.yaml](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml)  <br>
 !`date-generated:` YYYY-MM-DD or YYYY-MM-DDTHH:MM <br>
 
-**Other header elements**
+**Other header elements may be included such as links to the submitters project page, funding sources, ontology versions, etc.**
 
 Other information, such as links to the submitters project page, funding sources, ontology versions, etc., may be included in an association file as shown below.
 
-!URL: e.g. http://www.yeastgenome.org/ <br>
-!Project-release: e.g. WS275 <br>
-!Funding: e.g. NHGRI <br>
-!Columns: file format written out <br>
+! URL: e.g. http://www.yeastgenome.org/ <br>
+! Project-release: e.g. WS275 <br>
+! Funding: e.g. NHGRI <br>
+! Columns: file format written out <br>
 
 ## GPI File Contents
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
