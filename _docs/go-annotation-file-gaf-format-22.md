@@ -91,7 +91,7 @@ A name for the entity represented by the **DB object ID**. The **DB Object Symbo
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how the annotated biological entity relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
 * Cardinality = 1
-* * For negation, a pipe must be used to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
+  * For negation, a pipe must be used to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
 
 **If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
 
@@ -115,7 +115,7 @@ One or more unique identifiers for a single reference cited as the source experi
 Note that **only one unique reference can be cited on a single line** in the GAF. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line, separated by a pipe. For example, if a reference has a PMID and a model organism database reference, the PMID **must** be included but the model orgainsm database identifier may be included, as well. Note that if a model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used.
 
 * Cardinality = 1, >1
-* * For cardinality >1, use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763).
+  * For cardinality >1, use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763).
 
 
 #### Evidence Code (column 7)
@@ -128,9 +128,9 @@ See  [GO-ECO mapping file](https://github.com/evidenceontology/evidenceontology/
 This field is used with specific ECO codes to capture an additional identifier supporting the evidence for the annotation. For example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). Population of the **With/From** is mandatory for certain evidence codes, see the [documentation for the individual evidence codes](https://wiki.geneontology.org/Guide_to_GO_Evidence_Codes) for more information.
 
 * Cardinality = 0, 1, >1, with the following rules:
-* * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
-* * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
-* * For cardinality >1 pipes or commas may be used. A pipe is used to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). A commas indicates grouped evidence, e.g. two of three genes in a triply mutant organism.
+  * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
+  * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
+  * For cardinality >1 pipes or commas may be used. A pipe is used to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). A commas indicates grouped evidence, e.g. two of three genes in a triply mutant organism.
 
 
 #### Aspect (column 9)
@@ -142,25 +142,23 @@ Refers to the specific branch of the GO to which the **GO ID** (column 5) belong
 Name of the annotated gene or gene product.
 
 * Cardinality = 0, 1
-* * White space is allowed.
+  * White space is allowed.
 
 
 #### DB Object Synonym (column 11)
 A gene symbol [or other text] that denotes another name by which the annotated gene or gene product might be known. 
 
 * Cardinality = 0, 1, >1
-* * For cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene).
-* * White space is allowed.
+  * For cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene).
+  * White space is allowed.
 
 
 #### DB Object Type (column 12)
-A label for the ontology identifier describing the class of biological entity of the **DB Object_ID** in Column 2. This must must be a value from the Protein Ontology for proteins, Gene Ontology for protein-containing complexes, or the Sequence Ontology for all other entities. Examples of commonly used entity types are shown below.  The full list of entity types and their allowed identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
+A label corresponding to the ontology identifier describing the class of biological entity of the **DB Object_ID** in Column 2. The values used are shown below.  The full list of entity types and their corresponding identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
   
 * protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
-* protein-coding gene [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217)
 * protein-containing complex [GO:0032991](http://purl.obolibrary.org/obo/GO_0032991)  
 * ncRNA or any SO child term [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655) 
-* ncRNA-coding gene or any SO child term [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263) 
     
 * Cardinality = 1
 
@@ -169,7 +167,7 @@ A label for the ontology identifier describing the class of biological entity of
 The NCBI taxonomic identifier(s) of the annotated entity (column 1). Identifiers must come from NCBI Taxonomy database and have the `taxon:` prefix (e.g. taxon:1|taxon:1000). It is also possible to capture a second taxonomic identifier for an interacting organism, in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. 
 
 * Cardinality = 1, 2
-* For cardinality 2, use a pipe to separate entries.
+  * For cardinality 2, use a pipe to separate entries.
 
 
 #### Date (column 14)
