@@ -89,9 +89,8 @@ A name for the entity represented by the **DB object ID**. The **DB Object Symbo
 
 #### Relation (column 4)
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how the annotated biological entity relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
-
 * Cardinality = 1
-* * For negation, a pipe must be used to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
+ * * For negation, a pipe must be used to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
 
 **If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
 
@@ -106,14 +105,12 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 
 #### GO ID (column 5)
 The GO identifier for the term associated with the **DB object ID**.
-
 * Cardinality = 1
 
 #### Reference (column 6)
 One or more unique identifiers for a single reference cited as the source experiment or method for atributing the **GO ID** to the **DB Object ID**. This may be a literature reference (PMID or DOI), a [GOREF internal reference record](https://github.com/geneontology/go-site/blob/master/metadata/gorefs.yaml) or a Model Organism Database (MOD) internal reference. The syntax is DB:accession_number.
 
 Note that **only one unique reference can be cited on a single line** in the GAF. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line, separated by a pipe. For example, if a reference has a PMID and a model organism database reference, the PMID **must** be included but the model orgainsm database identifier may be included, as well. Note that if a model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used.
-
 * Cardinality = 1, >1
 * * For cardinality >1, use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763).
 
