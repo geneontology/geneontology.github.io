@@ -79,9 +79,6 @@ A unique identifier from the database in DB (column 1) describing the biological
 
 Note that the identifier **must reference a top-level primary gene or gene product identifier**: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are *not* allowed in this field of the GAF file; such identifiers are captured in the [Gene Product Form ID](#gene-product-form-id-column-17 "Definition and requirements for Gene Product Form ID (column 17)").
 
-The **DB object ID** is the identifier for the database object, which may or may not correspond exactly to what is described in a paper. For example, a paper describing a protein may support annotations to a gene encoding a protein (gene ID in **DB object ID** field) or annotations to the protein (protein ID in **DB object ID** field).
-
-
 #### DB Object Symbol (column 3)
 A name for the entity represented by the **DB object ID**. The **DB Object Symbol** field should be text that means something to a biologist wherever possible (a gene symbol, for example). If the entity has no name, the DB object ID can be used as a **DB Object Symbol**.
 
@@ -115,7 +112,7 @@ One or more unique identifiers for a single reference cited as the source experi
 Note that **only one unique reference can be cited on a single line** in the GAF. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line, separated by a pipe. For example, if a reference has a PMID and a model organism database reference, the PMID **must** be included but the model orgainsm database identifier may be included, as well. Note that if a model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used.
 
 * Cardinality = 1, >1
-* For cardinality >1, values must be pipe-separated (e.g. PMID:2676709|SGD_REF:S000047763).
+* For cardinality >1, values must be pipe-separated (e.g. PMID:2676709\|SGD_REF:S000047763).
 
 
 #### Evidence Code (column 7)
@@ -130,7 +127,7 @@ This field is used with specific ECO codes to capture an additional identifier s
 * Cardinality = 0, 1, >1, with the following rules:
   * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
   * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
-  * For cardinality >1 pipes or commas may be used. A pipe is used to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). A commas indicates grouped evidence, e.g. two of three genes in a triply mutant organism.
+  * For cardinality >1 pipes or commas may be used. A pipe is used to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). A comma indicates grouped evidence, e.g. two of three genes in a triply mutant organism.
 
 
 #### Aspect (column 9)
@@ -141,12 +138,12 @@ Refers to the specific branch of the GO to which the **GO ID** (column 5) belong
 #### DB Object Name (column 10)
 Name of the annotated gene or gene product.
 
-* Cardinality = 0, 1
+* Cardinality = 0 or 1
   * White space is allowed.
 
 
 #### DB Object Synonym (column 11)
-A gene symbol [or other text] that denotes another name by which the annotated gene or gene product might be known. 
+A gene symbol (or other text) that denotes another name by which the annotated gene or gene product might be known. 
 
 * Cardinality = 0, 1, >1
   * For cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene).
@@ -166,7 +163,7 @@ A label corresponding to the ontology identifier describing the class of biologi
 #### Taxon (column 13)
 The NCBI taxonomic identifier(s) of the annotated entity (column 1). Identifiers must come from NCBI Taxonomy database and have the `taxon:` prefix (e.g. taxon:1|taxon:1000). It is also possible to capture a second taxonomic identifier for an interacting organism, in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. 
 
-* Cardinality = 1, 2
+* Cardinality = 1 or 2
 * For cardinality 2, values must be pipe-separated.
 
 #### Date (column 14)
@@ -183,12 +180,10 @@ This column must use one of the values from the set of [GO database cross-refere
 
 
 #### Annotation Extension (column 16)
-This column contains cross references to other ontologies used to qualify or enhance the annotation with additional biological context. The cross-reference is prefaced by an appropriate relationship from the Relation Ontology; references to multiple ontologies can be entered. 
-
-Use of a pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. Use of a comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **Annotation Extension** field. 
+Annotation extensions allow GO terms in standard annotations to be further specified, using gene products, chemicals, cell types, anatomical structures, to provide additional biological context. The cross-reference is prefaced by an appropriate relationship from the [Relation Ontology](https://www.ebi.ac.uk/ols4/ontologies/ro). Multiple extensions may be entered. 
 
 * Cardinality = 0, 1, >1
-
+* For cardinality > 1, use of a pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. Use of a comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same annotation extension field. 
 
 #### Gene Product Form ID (column 17)
 This column captures specific isoforms or post-translationally processed forms of a gene or gene product that are associated with the annotation.  As the **DB Object ID** (column 2) must be a canonical entity, i.e. a gene OR a representative protein that has a 1:1 correspondence to a gene, this column allows for capturing greater specificity about the annotated entity. Content may include identifiers for distinct proteins produced by differential splicing, alternative translationalal starts, post-translational cleavage or post-translational modification. Identifiers for functional RNAs can also be included in this column.
@@ -197,4 +192,4 @@ The identifier used must be a standard 2-part global identifier, e.g. UniProtKB:
 * When the **Gene Product Form ID** is filled with a protein identifier, the value in **DB Object Type** (column 12) must be protein. Protein identifiers can include UniProtKB accessions or Protein Ontology (PRO) identifiers.
 * When the **Gene Product Form ID** is filled with a functional RNA identifier, the **DB Object Type** (column 12) must be either ncRNA, rRNA, tRNA, snRNA, or snoRNA.
 
-* Cardinality = 0, 1
+* Cardinality = 0 or 1
