@@ -115,7 +115,7 @@ This field is used with specific ECO codes to capture an additional identifier s
 * Cardinality 0, 1, >1 with the following rules:
   * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
   * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
-  * For cardinality >1, values must be eith pipe-separated, (e.g. FB:FBgn1111111\|FB:FBgn2222222) to indicate independent evidence, or comma-separated to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
+  * For cardinality >1 pipes or commas may be used: a pipe is used to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). A comma indicates grouped evidence, e.g. two of three genes in a triply mutant organism.
 
 #### 8. Interacting taxon ID
 Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
