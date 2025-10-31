@@ -132,16 +132,11 @@ the source of an individual annotation. Value may differ from the **DB:DB Object
 * Cardinality = 1
 
 #### 11. Annotation Extension
-Annotation extensions allow GO terms in standard annotations to be further specified, using gene products, chemicals, cell types, anatomical structures. The ontology terms used to extend annotations are GO term or external ontologies and build a more complete model of biological systems.
+Annotation extensions allow GO terms in standard annotations to be further specified, using gene products, chemicals, cell types, anatomical structures, to provide additional biological context. The cross-reference is prefaced by an appropriate relationship from the [Relation Ontology](https://www.ebi.ac.uk/ols4/ontologies/ro). Multiple extensions may be entered. 
 
-For example, if a gene product has a role in [tetrahydrofolate interconversion](http://amigo.geneontology.org/amigo/term/GO:0035999) during [S phase](http://amigo.geneontology.org/amigo/term/GO:0051320), the **GO ID** (column 4) would be GO:0035999 and 
-the **Annotation Extension** column would contain the Relations Ontology and appropriate GO term: [RO:0002092](http://purl.obolibrary.org/obo/RO_0002092)([GO:0051320](http://amigo.geneontology.org/amigo/term/GO:0051320)). 
-Targets of certain processes or functions can also be included in this field to indicate the gene, gene product, or 
-chemical involved; for example, if a gene product is annotated to protein kinase activity, the annotation extension 
-column would contain the UniProtKB protein ID for the protein phosphorylated in the reaction. See the documentation on 
-using the [annotation extension column](https://wiki.geneontology.org/Annotation_Extension) for details of practical usage.
-* Cardinality = 0 or 1
-* For cardinality >1, values must be pipe-separated
+* Cardinality = 0, 1, >1
+* For cardinality > 1, use of a pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. Use of a comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same annotation extension field. 
+
 
 #### 12. Annotation Properties
 The Annotation Properties column contains a list of "property_name = property_value".  If the property exists, the property is single valued. Annotation properties include [GO-CAM](https://geneontology.org/docs/gocam-overview/) information and comments on annotations. 
