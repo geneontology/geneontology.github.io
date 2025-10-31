@@ -71,26 +71,10 @@ Negation is indicated by the 'NOT' value.
 * Cardinality =  0 or 1
 
 #### 3. Relation
-The relations depend upon the term namespace, and must be in the below list of current allowed Gene Product to GO Term Relations. 
+This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how the annotated biological entity relates to the GO term with which it is associated.
+See also the [documentation on qualifiers](http://geneontology.org/docs/go-annotations/#gene-product-to-go-term-relations) in the GO annotation guide.
+
 * Cardinality = 1
-
-<!--- # Allowed Gene Product to GO Term Relations -->
-
-| **GO Aspect** 	| **Relations Ontology Label**  | **Relations Ontology ID** | **Usage Guidelines** |
-|-----------|---------------------------|----------------------|------------------|
-|Molecular Function | enables | `RO:0002327` | Default for all `GO:0003674 molecular_function` & child terms|
-|Molecular Function | contributes to | `RO:0002326` | |
-|Biological Process | involved in | `RO:0002331` | |
-|Biological Process | acts upstream of | `RO:0002263` | |
-|Biological Process | acts upstream of positive effect | `RO:0004034` | |
-|Biological Process | acts upstream of negative effect | `RO:0004035` | |
-|Biological Process | acts upstream of or within | `RO:0002264` | Default for all `GO:0008150  biological_process` & child terms|
-|Biological Process | acts upstream of or within positive effect | `RO:0004032` | |
-|Biological Process | acts upstream of or within negative effect | `RO:0004033` | |
-|Cellular Component | part of	| `BFO:0000050` | Default for all `GO:0032991 protein-containing complex` & child terms|
-|Cellular Component | located in | `RO:0001025` | Default for `GO:0005575 cellular_component` *except* protein-containing complex|
-|Cellular Component | is active in | `RO:0002432` | Used to indicate where a gene product enables its MF|
-|Cellular Component | colocalizes with | `RO:0002325` |
 
 #### 4. GO ID
 The GO identifier for the term attributed to the **DB object ID**. Must be in the format `GO:GOID`.
