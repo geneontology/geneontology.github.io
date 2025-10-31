@@ -115,7 +115,7 @@ One or more unique identifiers for a single reference cited as the source experi
 Note that **only one unique reference can be cited on a single line** in the GAF. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line, separated by a pipe. For example, if a reference has a PMID and a model organism database reference, the PMID **must** be included but the model orgainsm database identifier may be included, as well. Note that if a model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used.
 
 * Cardinality = 1, >1
-  * For cardinality >1, use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763).
+* For cardinality >1, values must be pipe-separated (e.g. PMID:2676709|SGD_REF:S000047763).
 
 
 #### Evidence Code (column 7)
@@ -157,8 +157,8 @@ A gene symbol [or other text] that denotes another name by which the annotated g
 A label corresponding to the ontology identifier describing the class of biological entity of the **DB Object_ID** in Column 2. The values used are shown below.  The full list of entity types and their corresponding identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
   
 * protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
-* protein-containing complex [GO:0032991](http://purl.obolibrary.org/obo/GO_0032991)  
-* ncRNA or any SO child term [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655) 
+* protein-containing complex ([GO:0032991](http://purl.obolibrary.org/obo/GO_0032991))
+* ncRNA or any SO child term ([SO:0000655](http://purl.obolibrary.org/obo/SO_0000655))
     
 * Cardinality = 1
 
@@ -167,14 +167,12 @@ A label corresponding to the ontology identifier describing the class of biologi
 The NCBI taxonomic identifier(s) of the annotated entity (column 1). Identifiers must come from NCBI Taxonomy database and have the `taxon:` prefix (e.g. taxon:1|taxon:1000). It is also possible to capture a second taxonomic identifier for an interacting organism, in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. 
 
 * Cardinality = 1, 2
-  * For cardinality 2, use a pipe to separate entries.
-
+* For cardinality 2, values must be pipe-separated.
 
 #### Date (column 14)
 Date on which the annotation was made; format is YYYYMMDD.
 
 * Cardinality = 1
-
 
 #### Assigned By (column 15)
 The database that made the annotation. The value of this column is used for tracking the source of an individual annotation, but will differ from the value in column 1 for any annotation that is made by one database and incorporated into another.
