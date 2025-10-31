@@ -154,7 +154,7 @@ A gene symbol [or other text] that denotes another name by which the annotated g
 
 
 #### DB Object Type (column 12)
-* An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins, Gene Ontology for protein-containing complexes, or the Sequence Ontology for all other entities. Examples of commonly used entity types are shown below.  The full list of entity types and their allowed identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
+A label for the ontology identifier describing the class of biological entity of the **DB Object_ID** in Column 2. This must must be a value from the Protein Ontology for proteins, Gene Ontology for protein-containing complexes, or the Sequence Ontology for all other entities. Examples of commonly used entity types are shown below.  The full list of entity types and their allowed identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
   
 * protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
 * protein-coding gene [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217)
