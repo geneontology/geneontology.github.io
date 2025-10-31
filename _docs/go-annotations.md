@@ -46,21 +46,29 @@ A standard GO annotation is a statement that links a gene product and a GO term 
 + By the transitivity principle, a positive annotation to a GO term implies annotation to all its *is a* and *part of* parents (also known as superclasses). Details about the ontology structure can be found on the [Gene Ontology overview page](/docs/ontology-documentation/). Not that [a *NOT* qualifier](#The-*NOT*-modifier) changes the direction of propogation.
 + GO annotations are meant to reflect the most up-to-date understanding of a gene product's role. As biological knowledge advances, annotations for a particular gene product may be updated to align with new insights or adjustments in the ontology. 
 + GO adopts an open-world model, meaning that the absence of an annotation for a specific class does not imply that the gene product lacks that function, is not localized to that cellular component, or is uninvolved in that biological process. Moreover, if a gene product is unannotated, it does not mean that its role is unknown. Genes for which no role has been demonstrated are annotated to the root term (*molecular_function, biological_process, cellular_component*) with the evidence code ND ([No Biological Data available](https://wiki.geneontology.org/index.php/No_biological_Data_available_(ND)_evidence_code)).
-#### Gene product to GO term relations
+### Gene product to GO term relations
 + Gene product to GO term ('gp2term') relations explicitly link gene products to GO terms in standard annotations via a relation from the [Relations Ontology (RO)](https://www.ebi.ac.uk/ols4/ontologies/ro){:target="blank"}. 
 + Any of the relations can be associated with the modifer *NOT*. For the full list of permitted gp2term relations, see the [GO wiki](https://wiki.geneontology.org/Annotation_Relations#Standard_Annotation_Relations){:target="blank"}. The most common relations are:
-##### Relations between a gene product and a Molecular Function: 
+#### Relations between a gene product and a Molecular Function: 
  + *enables* links a gene product to a Molecular Function it executes. 
  + *contributes to* links a gene product to a Molecular Function executed by a macromolecular complex, in which the Molecular Function cannot be ascribed to an individual subunit of that complex. Only the complex subunits required for the Molecular Function are annotated to the Molecular Function term with 'contributes to'.  
-##### Relations between a gene product and a Biological Process: 
+#### Relations between a gene product and a Biological Process: 
   + *involved in* links a gene product and a Biological Process in which the gene product's Molecular Function plays an integral role.
   + *acts upstream of or within* links a gene product and a Biological Process when the mechanism relating the gene product's activity to the Biological Process is not known.
-##### Relations between a gene product and a Cellular Component: 
+#### Relations between a gene product and a Cellular Component: 
   + *is active in* links a gene product to the cellular location in which it enables its Molecular Function.
   + *located in* links a gene product and the Cellular Component, specifically a cellular anatomical anatomy or virion component, in which a gene product has been detected. 
-  + *part of* links a gene product and a protein-containing complex. 
+  + *part of* links a gene product and a protein-containing complex.
 
-#### The *NOT* modifier
+| **GO Aspect** | **Default relation** | **Default relation for root annotations** | **Other allowed relations** |
+|----------|---------|-------------|------------|
+| **Molecular Function** | [enables](https://wiki.geneontology.org/Enables) | [enables](https://wiki.geneontology.org/Enables) | [contributes_to](https://wiki.geneontology.org/Contributes_to) |
+| **Biological Process** | [acts_upstream_of_or_within](https://wiki.geneontology.org/Acts_upstream_of_or_within)  |  [involved_in](https://wiki.geneontology.org/Involved_in) |[acts_upstream_of](https://wiki.geneontology.org/Acts_upstream_of), [acts_upstream_of_positive_effect](https://wiki.geneontology.org/Acts_upstream_of,_positive_effect), [acts_upstream_of_negative_effect](https://wiki.geneontology.org/Acts_upstream_of,_negative_effect), [acts_upstream_of_or_within_negative_effect](https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect), [acts_upstream_of_or_within_positive_effect](https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect) |
+| **Cellular Component**: [cellular anatomical entity](http://amigo.geneontology.org/amigo/term/GO:0110165) and [virion component](http://amigo.geneontology.org/amigo/term/GO:0044423#display-lineage-tab) & child terms | [located_in](http://purl.obolibrary.org/obo/RO_0001025) | [is_active_in](https://wiki.geneontology.org/Is_active_in) | [colocalizes_with](https://wiki.geneontology.org/Colocalizes_with)
+| **Cellular Component**: [protein-containing complex](http://amigo.geneontology.org/amigo/term/GO:0032991) & child terms  | [part_of](https://wiki.geneontology.org/Part_of_relation)  |   [part_of](https://wiki.geneontology.org/Part_of_relation)  |
+
+
+### The *NOT* modifier
 
 The *NOT* statement indicates that the gene product *does NOT* enable a Molecular Function, is *not part of* a Biological Process or is *not located in* or *active in* a specific Cellular Component. NOT statements are only used when a user might expect that the gene product would have a specific biological property (MF, BP or CC). *NOT* makes an explicit statement that a gene product has been experimentally demonstrated not to be able to carry out a particular activity, or sequence analysis shows loss of an essential active site or rapid divergence after a duplication event over the course of evolution. The *NOT* modifier is not used for negative or inconclusive experimental results.
 
