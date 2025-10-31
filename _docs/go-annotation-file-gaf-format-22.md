@@ -70,12 +70,12 @@ Refers to the database from which the identifier of the biological entity descri
 
 Must be one of the values from [GO database cross-references](http://amigo.geneontology.org/xrefs).
 
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 #### DB Object ID (column 2)
 A unique identifier from the database in DB (column 1) describing the biological entity annotated. 
 
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 Note that the identifier **must reference a top-level primary gene or gene product identifier**: either a gene, or a protein that has a 1:1 correspondence to a gene. Identifiers referring to particular protein isoforms or post-translationally cleaved or modified proteins are *not* allowed in this field of the GAF file; such identifiers are captured in the [Gene Product Form ID](#gene-product-form-id-column-17 "Definition and requirements for Gene Product Form ID (column 17)").
 
@@ -85,12 +85,13 @@ The **DB object ID** is the identifier for the database object, which may or may
 #### DB Object Symbol (column 3)
 A name for the entity represented by the **DB object ID**. The **DB Object Symbol** field should be text that means something to a biologist wherever possible (a gene symbol, for example). If the entity has no name, the DB object ID can be used as a **DB Object Symbol**.
 
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 #### Relation (column 4)
 This column is populated with relations from the [Relation Ontology](https://ontobee.org/ontology/RO) that describe how the annotated biological entity relates to the GO term with which it is associated. [**Negation**](https://wiki.geneontology.org/Elements_of_an_annotation#Negation) is represented by prepending "NOT" to a relation with a pipe.
 
-    This field is mandatory, cardinality 1. For negation, a pipe must be used to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
+* Cardinality = 1
+* * For negation, a pipe must be used to separate the "NOT" from the relation (e.g. "NOT|contributes_to" or "NOT|enables").
 
 **If no relation is provided by a contributing group, default values (shown in bold below) will be added during file processing in the GO Central pipeline. The default relation represents the most general relation.**
 
@@ -106,119 +107,98 @@ See also the [documentation on qualifiers](http://geneontology.org/docs/go-annot
 #### GO ID (column 5)
 The GO identifier for the term associated with the **DB object ID**.
 
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 #### Reference (column 6)
-One or more unique identifiers for a single reference cited as the source experiment or method for atributing the **GO ID** to the **DB Object ID**. This may be a literature reference (PMID or DOI) or a [GOREF internal reference record](https://github.com/geneontology/go-site/blob/master/metadata/gorefs.yaml). The syntax is DB:accession_number.
+One or more unique identifiers for a single reference cited as the source experiment or method for atributing the **GO ID** to the **DB Object ID**. This may be a literature reference (PMID or DOI), a [GOREF internal reference record](https://github.com/geneontology/go-site/blob/master/metadata/gorefs.yaml) or a Model Organism Database (MOD) internal reference. The syntax is DB:accession_number.
 
 Note that **only one unique reference can be cited on a single line** in the GAF. If a reference has identifiers in more than one database, multiple identifiers for that reference can be included on a single line, separated by a pipe. For example, if a reference has a PMID and a model organism database reference, the PMID **must** be included but the model orgainsm database identifier may be included, as well. Note that if a model organism database has an identifier for the reference, that identifier should **always** be included, even if a PubMed ID is also used.
 
-    This field is mandatory, cardinality 1, >1; for cardinality >1 use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763).
+* Cardinality = 1, >1
+* * For cardinality >1, use a pipe to separate entries (e.g. PMID:2676709|SGD_REF:S000047763).
 
 
 #### Evidence Code (column 7)
 See  [GO-ECO mapping file](https://github.com/evidenceontology/evidenceontology/blob/master/gaf-eco-mapping.txt) and the [GO Evidence code guide](http://geneontology.org/page/guide-go-evidence-codes) for the list of valid evidence codes for GO annotations.
 
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 
 #### With [or] From (column 8)
-Also referred to as **With, From** or the **With/From** column.
 This field is used with specific ECO codes to capture an additional identifier supporting the evidence for the annotation. For example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). Population of the **With/From** is mandatory for certain evidence codes, see the [documentation for the individual evidence codes](https://wiki.geneontology.org/Guide_to_GO_Evidence_Codes) for more information.
 
-Multiple values are allowed in the **With/From** field for certain evidence codes (and they must be separated with either a pipe or a comma. The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **With/From** field.
-
-    Cardinality 0, 1, >1 with the following rules:
-
-* Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
-
-* Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
-
-For cardinality >1 a pipe is used to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). A commas indicates grouped evidence, e.g. two of three genes in a triply mutant organism.
+* Cardinality = 0, 1, >1, with the following rules:
+* * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
+* * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
+* * For cardinality >1 pipes or commas may be used. A pipe is used to separate independent evidence (e.g. FB:FBgn1111111\|FB:FBgn2222222). A commas indicates grouped evidence, e.g. two of three genes in a triply mutant organism.
 
 
 #### Aspect (column 9)
 Refers to the specific branch of the GO to which the **GO ID** (column 5) belongs: P (biological process), F (molecular function) or C (cellular component).
 
-    This field is mandatory; cardinality 1.
-
+* Cardinality = 1
 
 #### DB Object Name (column 10)
 Name of the annotated gene or gene product.
 
-    This field is not mandatory, cardinality 0, 1 [white space allowed].
+* Cardinality = 0, 1
+* * White space is allowed.
 
 
 #### DB Object Synonym (column 11)
 A gene symbol [or other text] that denotes another name by which the annotated gene or gene product might be known. 
 
-    This field is not mandatory, cardinality 0, 1, >1 [white space allowed]; for cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene).
+* Cardinality = 0, 1, >1
+* * For cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene).
+* * White space is allowed.
 
 
 #### DB Object Type (column 12)
-* An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology for all other entities. Allowed entity types: 
-  *  protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
-  * [GO:0032991](http://purl.obolibrary.org/obo/GO_0032991): protein-containing complex 
-  * [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217): protein-coding gene 
-  * [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655): ncRNA or any SO child term
-  * [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263): ncRNA-coding gene or any SO child term
-  * [SO:0000336](http://purl.obolibrary.org/obo/SO_0000336): pseudogene
+* An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins, Gene Ontology for protein-containing complexes, or the Sequence Ontology for all other entities. Examples of commonly used entity types are shown below.  The full list of entity types and their allowed identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
+  
+* protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
+* protein-coding gene [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217)
+* protein-containing complex [GO:0032991](http://purl.obolibrary.org/obo/GO_0032991)  
+* ncRNA or any SO child term [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655) 
+* ncRNA-coding gene or any SO child term [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263) 
     
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 
 #### Taxon (column 13)
-The NCBI taxonomic identifier(s) of the annotated entity (column 1). It is also possible to capture a second taxonomic identifier for an interacting organism, in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. 
+The NCBI taxonomic identifier(s) of the annotated entity (column 1). Identifiers must come from NCBI Taxonomy database and have the `taxon:` prefix (e.g. taxon:1|taxon:1000). It is also possible to capture a second taxonomic identifier for an interacting organism, in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. 
 
- This field is mandatory, cardinality 1, 2; for cardinality 2 use a pipe to separate entries.
-
-Identifiers must come from NCBI Taxonomy database and have the `taxon:` prefix (e.g. taxon:1|taxon:1000)
+* Cardinality = 1, 2
+* For cardinality 2, use a pipe to separate entries.
 
 
 #### Date (column 14)
 Date on which the annotation was made; format is YYYYMMDD.
 
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 
 #### Assigned By (column 15)
-The database that made the annotation.
+The database that made the annotation. The value of this column is used for tracking the source of an individual annotation, but will differ from the value in column 1 for any annotation that is made by one database and incorporated into another.
 
 This column must use one of the values from the set of [GO database cross-references](https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml).
 
-The value of this column is used for tracking the source of an individual annotation, but will differ from the value in column 1 for any annotation that is made by one database and incorporated into another.
-
-    This field is mandatory, cardinality 1.
+* Cardinality = 1
 
 
 #### Annotation Extension (column 16)
- One of:
+This column contains cross references to other ontologies used to qualify or enhance the annotation with additional biological context. The cross-reference is prefaced by an appropriate relationship from the Relation Ontology; references to multiple ontologies can be entered. 
 
-        DB:gene_id
-        DB:sequence_id
-        CHEBI:CHEBI_id
-        Anatomy Ontology:anatomy_id
-        Life Stage Ontology:lifestage_id
-        GO:GO_id
+Use of a pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. Use of a comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **Annotation Extension** field. 
 
-This column contains cross references to other ontologies used to qualify or enhance the annotation with additional biological context. The cross-reference is prefaced by an appropriate relationship from the Relations Ontology; references to multiple ontologies can be entered. For example, if a gene product is active in the mitochondria of lymphocytes, the **GO ID** (column 5) would be GO:0005739 and the annotation extension column would contain a relationship and cross-reference to the term lymphocyte, ***part of***(CL:0000542) from the Cell Type Ontology.
-
-Targets of certain processes or functions can also be included in this field to indicate the gene, gene product, or chemical involved; for example, if a gene product is annotated to protein kinase activity, the annotation extension column would contain the UniProtKB protein ID for the protein phosphorylated in the reaction.
-
-The pipe (\|) specifies an independent statement (OR) and is equivalent to making separate annotations, i.e. not all conditions are required to infer the annotated GO term. The comma (,) specifies a connected statement (AND) and indicates that all conditions are required to infer the annotated GO term. In this case, 'OR' is a weaker statement than 'AND', therefore will be correct in all cases. Pipe and comma separators may be used together in the same **Annotation Extension** field.
-
-See the documentation on using the **Annotation Extension** column for details of practical usage; a wider discussion of the annotation extension column can be found on the <a href="http://wiki.geneontology.org/index.php/Annotation_Extension">GO internal documentation site</a>.
-
-    This field is optional, cardinality 0, 1, >1.
+* Cardinality = 0, 1, >1
 
 
 #### Gene Product Form ID (column 17)
-As the **DB Object ID** (column 2) must be a canonical entity, i.e. a gene OR a representative protein that has a 1:1 correspondence to a gene—this column captures specific isoforms or post-translationally processed forms of that gene or gene product. Contents will frequently include protein sequence identifiers: for example, identifiers that specify distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. Identifiers for functional RNAs can also be included in this column.
+This column captures specific isoforms or post-translationally processed forms of a gene or gene product that are associated with the annotation.  As the **DB Object ID** (column 2) must be a canonical entity, i.e. a gene OR a representative protein that has a 1:1 correspondence to a gene, this column allows for capturing greater specificity about the annotated entity. Content may include identifiers for distinct proteins produced by differential splicing, alternative translationalal starts, post-translational cleavage or post-translational modification. Identifiers for functional RNAs can also be included in this column.
 
 The identifier used must be a standard 2-part global identifier, e.g. UniProtKB:OK0206-2
-* When the **Gene Product Form ID** is filled with a protein identifier, the value in **DB Object Type** (column 12) must be protein. Protein identifiers can include UniProtKB accession numbers, NCBI NP identifiers or Protein Ontology (PRO) identifiers.
-* When the **Gene Product Form ID** is filled with a functional RNA identifier, the **DB Object Type** (column 12) must be either ncRNA, rRNA, tRNA, snRNA, or snoRNA
+* When the **Gene Product Form ID** is filled with a protein identifier, the value in **DB Object Type** (column 12) must be protein. Protein identifiers can include UniProtKB accessions or Protein Ontology (PRO) identifiers.
+* When the **Gene Product Form ID** is filled with a functional RNA identifier, the **DB Object Type** (column 12) must be either ncRNA, rRNA, tRNA, snRNA, or snoRNA.
 
-This column may be left blank; if so, the value in **DB Object Type** (column 12) will provide a description of the expected gene product.
-
-More information and examples are available from the <a href="http://wiki.geneontology.org/index.php/GAF_Col17_GeneProducts">GO internal documentation on column 17</a>.
+* Cardinality = 0, 1
