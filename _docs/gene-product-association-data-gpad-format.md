@@ -41,7 +41,7 @@ The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, so
 
 | **Column** 	| **Content** 	| **Required?** 	| **Cardinality** 	| **Example** |
 |----------|---------|-------------|---------|--------|
-|1 |	[DB:DB_Object_ID ](#1-db-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000002164 | 
+|1 |	[DB:DB_Object_ID](#1-db-object-id "Definition and requirements for DB:DB Object ID (column 1)") | 	required | 1 |	SGD:S000002164 | 
 |2 |	[Negation](#2-negation "Definition and requirements for Negation (column 2)") |	optional |	0 or 1 |	NOT |
 |3 |	[Relation](#3-relation "Definition and requirements for Relation (column 3)") |	required |	1 |	RO:0002331 |
 |4 |	[GO ID](#4-go-id "Definition and requirements for GO ID (column 4)") |	required |	1 |	GO:0043409 |
@@ -56,7 +56,7 @@ The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, so
 
 ### Definitions and requirements for field contents
 
-#### 1. DB:DB Object ID
+#### 1. DB Object ID
 A unique identifier for the item being annotated. The **DB** prefix is the database from which the **DB Object ID** is drawn and must be one of the values from the set of GO database cross-references. The **DB:DB Object ID** is the combined identifier for the database object.  The **DB** is not necessarily the same as the group submitting the file, which is named in column 10 **Assigned by**. Examples:
 
 * UniProtKB:P99999
@@ -113,9 +113,9 @@ One of the codes from the [Evidence & Conclusion Ontology](http://www.evidenceon
 #### 7. With [or] From
 This field is used with specific ECO codes to capture an additional identifier supporting the evidence for the annotation. For example, it can identify another gene product to which the annotated gene product is similar (ISS) or interacts with (IPI). Population of the **With/From** is mandatory for certain evidence codes, see the [documentation for the individual evidence codes](https://wiki.geneontology.org/Guide_to_GO_Evidence_Codes) for more information.
 * Cardinality 0, 1, >1 with the following rules:
-* * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
-* * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
-* * For cardinality >1, values must be eith pipe-separated, (e.g. FB:FBgn1111111\|FB:FBgn2222222) to indicate independent evidence, or comma-separated to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
+  * Cardinality must be 0 for evidence codes IDA, TAS, NAS, or ND. 
+  * Cardinality must be 1, >1 for IEA, IC, IGI, IPI, ISS & child terms of ISS. 
+  * For cardinality >1, values must be eith pipe-separated, (e.g. FB:FBgn1111111\|FB:FBgn2222222) to indicate independent evidence, or comma-separated to indicate grouped evidence, e.g. two of three genes in a triply mutant organism.
 
 #### 8. Interacting taxon ID
 Taxonomic identifier for interacting organism to be used only in conjunction with terms that have the biological process term 'GO:0044419 biological process involved in interspecies interaction between organisms'or the cellular component term 'GO:0018995 host cellular component' as an ancestor. Identifiers must come from NCBI Taxonomy database and have the `NCBITaxon:` prefix.
