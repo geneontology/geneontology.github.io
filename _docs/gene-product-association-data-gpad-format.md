@@ -54,16 +54,6 @@ The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, so
 |11 |	[Annotation Extension](#11-annotation-extension "Definition and requirements for Annotation Extension (column 11)") |	optional |	0 or greater |	RO:0002233(UniProtKB:Q00772),BFO:0000050(GO:0071852)|
 |12 |	[Annotation Properties](#12-annotation-properties "Definition and requirements for Annotation Properties (column 12)") |	optional |	0 or greater |	noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=orcid:0000-0003-3212-6364|
 
-### GPAD 2.0 examples
-
-| DB:DB_Object_ID     | Negation | Relation   | GOID       | Reference       | Evidence Code | With (or) From            | Interacting taxon ID | Date       | Assigned by | Annotation Extension                                         | Annotation Properties                                                                 |
-|----------------------|-----------|-------------|-------------|-----------------|----------------|---------------------------|----------------------|-------------|--------------|----------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| SGD:S000002164       | NOT       | RO:0002331  | GO:0043409  | PMID:26546002   | ECO:0000316    | SGD:S000003631            |                      | 2018-01-19  | SGD          | RO:0002233(UniProtKB:Q00772), BFO:0000050(GO:0071852)        | noctua-model-id=gomodel:6086f4f200000223\|model-state=production\|contributor=orcid:0000-0003-3212-6364 |
-| UniProtKB:Q06187 |           | RO:0002331  | GO:003555 | PMID:14656219  | ECO:0000316    | UniProtKB:P16885     |                      | 20210308  | ARUK-UCL  |                                                                |                                              |
-
-
-
-
 ### Definitions and requirements for field contents
 
 #### 1. DB:DB Object ID
