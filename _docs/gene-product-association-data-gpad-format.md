@@ -45,7 +45,7 @@ The GPAD format comprises 12 tab-delimited fields.  Some fields are optional, so
 |2 |	[Negation](#2-negation "Definition and requirements for Negation (column 2)") |	optional |	0 or 1 |	NOT |
 |3 |	[Relation](#3-relation "Definition and requirements for Relation (column 3)") |	required |	1 |	RO:0002331 |
 |4 |	[GO ID](#4-go-id "Definition and requirements for GO ID (column 4)") |	required |	1 |	GO:0043409 |
-|5 |	[Reference](#5-dbreferences "Definition and requirements for Reference (column 5)") |	required |	1 or greater |	PMID:26546002|
+|5 |	[Reference](#5-reference "Definition and requirements for Reference (column 5)") |	required |	1 or greater |	PMID:26546002|
 |6 |	[Evidence Code](#6-evidence-code "Definition and requirements for Evidence Code (column 6)") |	required |	1 |	ECO:0000316|
 |7 |	[With [or] From](#7-with-or-from "Definition and requirements for With [or] From (column 7)") |	optional |	0 or greater |	SGD:S000003631|
 |8 |	[Interacting taxon ID](#8-interacting-taxon-id "Definition and requirements for Interacting taxon ID (column 8)") |	optional |	0 or greater |	NCBITaxon:5476|
@@ -154,12 +154,9 @@ using the [annotation extension column](https://wiki.geneontology.org/Annotation
 * For cardinality >1, values must be pipe-separated
 
 #### 12. Annotation Properties
-The Annotation Properties column contains a list of "property_name = property_value".  If the property exists, the property is single valued. Annotation properties include [GO-CAM](https://geneontology.org/docs/gocam-overview/) information and comments on annotations. Examples:
- 
-  id=GOA:2113861687 
-  noctua-model-id=gomodel:6086f4f200000223
-  model-state=production
-  creation-date=2019-07-20T12:04:08
+The Annotation Properties column contains a list of "property_name = property_value".  If the property exists, the property is single valued. Annotation properties include [GO-CAM](https://geneontology.org/docs/gocam-overview/) information and comments on annotations. 
+
+Example: id=GOA:2113861687 | noctua-model-id=gomodel:6086f4f200000223 | model-state=production | creation-date=2019-07-20T12:04:08
   
 * Cardinality = 0 or 1
 * For cardinality > 1, values must be pipe-separated
