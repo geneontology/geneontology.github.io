@@ -78,11 +78,11 @@ A name for the entity represented by the **DB object ID**. The **DB Object Symbo
 
 A label corresponding to the ontology identifier describing the class of biological entity of the **DB Object_ID** in Column 2. The values used are shown below.  The full list of entity types and their corresponding identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
   
-  * [PR:000000001](http://purl.obolibrary.org/obo/PR_000000001): protein 
-  * [GO:0032991](http://purl.obolibrary.org/obo/GO_0032991): protein-containing complex 
-  * [SO:0001217](http://purl.obolibrary.org/obo/SO_0001217): protein-coding gene 
-  * [SO:0000655](http://purl.obolibrary.org/obo/SO_0000655): ncRNA or any SO child term
-  * [SO:0001263](http://purl.obolibrary.org/obo/SO_0001263): ncRNA-coding gene or any SO child term
+  * protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
+  * protein-containing complex ([GO:0032991](http://purl.obolibrary.org/obo/GO_0032991))
+  * protein-coding gene ([SO:0001217](http://purl.obolibrary.org/obo/SO_0001217))
+  * ncRNA or any SO child term ([SO:0000655](http://purl.obolibrary.org/obo/SO_0000655))
+  * ncRNA-coding gene or any SO child term ([SO:0001263](http://purl.obolibrary.org/obo/SO_0001263))
 
 * **Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
 * GO does not allow '[gene](http://purl.obolibrary.org/obo/SO_0000704)' and 'gene product' as biological entity types, as this does not allow to differentiate between proteins and ncRNAs products. 
