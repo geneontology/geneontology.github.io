@@ -149,7 +149,7 @@ Name of the annotated gene or gene product.
 A gene symbol [or other text] that denotes another name by which the annotated gene or gene product might be known. 
 
 * Cardinality = 0, 1, >1
-  * For cardinality >1 use a pipe to separate entries (e.g. YFL039C|ABY1|END7|actin gene).
+  * For cardinality >1 use a pipe to separate entries (e.g. YFL039C\|ABY1\|END7\|actin gene).
   * White space is allowed.
 
 
