@@ -94,7 +94,8 @@ A label corresponding to the ontology identifier describing the class of biologi
 
 #### 7. Encoded by
 * For proteins and transcripts, **Encoded by** refers to the gene ID that encodes those entities, e.g. ENSG00000197153.
-* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
+* Cardinality = 0, 1, > 1
+* For cardinality > 1, values must be pipe-separated. 
 
 #### 8. Canonical object ID
 * If the **DB:Object_ID** in Column 1 describes a gene, a gene-centric reference protein accession or a protein complex, then this column should repeat the DB:Object_ID from Column 1.
@@ -103,15 +104,17 @@ A label corresponding to the ontology identifier describing the class of biologi
 * Cardinality = 1
 
 #### 9. Protein-Containing Complex Members
-* When the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column contains the gene-centric canonical protein identifiers.
-* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated.
+* If the **DB:Object_ID** in Column 1 describes a protein-containing complex, this column can include the gene-centric canonical protein identifiers.
+* Cardinality = 0, 1, > 1
+* For cardinality > 1, values must be pipe-separated.
 
 #### 10. Database cross-references (DB_Xrefs)
 * Identifiers for the object in **DB:Object_ID** found in other databases. Identifiers used must be standard 2-part global identifiers: a namespace and a value, separated by a colon, e.g. UniProtKB:Q60FP0.
 * This field is mandatory if the prefix in column 1 is not one of: UniProtKB, RNACentral, ComplexPortal. In these cases, **DB_Xrefs** must include the correponding UniProtKB ID, RNACentral, or ComplexPortal as appropriate according to the Object Type (see Column 5).
 * Note that RNACentral IDs contain the taxon ID of the entity appended after an 'underscore' character ("_"): see [RNACentral:URS00002F21DA]((https://rnacentral.org/rna/URS00002F21DA)] (generic for several organism) versus [[RNACentral:URS00002F21DA]_7227](https://rnacentral.org/rna/URS00002F21DA/7227) (specific for Drosophila melanogaster).
 * Additional cross references such as NCBI gene or protein IDs, HGNC, etc, may also be included.
-* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
+* Cardinality = 0, 1, > 1
+* For cardinality > 1, values must be pipe-separated. 
 
 #### 11. Gene Product Properties
 * The Properties column can be filled with a pipe separated list of values in the format "property_name = property_value". There is a fixed vocabulary for the property names as indicated in the table below:
@@ -123,4 +126,5 @@ A label corresponding to the ontology identifier describing the class of biologi
 | `go-annotation-complete` | 0 or 1	| Date_Or_Date_Time in [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format, i. e. `YYYY-MM-DD`	| 2019-02-05	| Indicates the date on which a curator determined that the set of GO annotations for a given entity is complete with respect to GO annotation. Complete means that all information about a gene has been captured as a GO term, but not necessarily that all possible supporting evidence is annotated. |
 | `go-annotation-summary` | 0 or 1	| Text	| go-annotation-summary=Sterol binding protein with a role in intracellular sterol transport; localizes to mitochondria and the cortical ER	| A textual gene or gene product description. |
 
-* Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
+* Cardinality = 0, 1, > 1
+* For cardinality > 1, values must be pipe-separated. 
