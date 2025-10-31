@@ -85,7 +85,7 @@ A label corresponding to the ontology identifier describing the class of biologi
   * ncRNA-coding gene ([SO:0001263](http://purl.obolibrary.org/obo/SO_0001263))  or any SO child term
 
 * **Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
-* GO does not allow '[gene](http://purl.obolibrary.org/obo/SO_0000704)' and 'gene product' as biological entity types, as this does not allow to differentiate between proteins and ncRNAs products. 
+* GO does not allow 'gene' and 'gene product' as biological entity types, as this does not allow to differentiate between proteins and ncRNAs products. 
 * Cardinality = 1
 
 #### 6. Object Taxon
