@@ -5,7 +5,7 @@ permalink: /docs/guidelines-external/
 
 # Best Practices: <br> Guidelines for Resources Presenting Gene Ontology Predictions & Annotations
 
-This document outlines best practices for Gene Ontology (GO) prediction and annotation, emphasizing the importance of data integrity, specificity in annotations, and adherence to logical constraints. By following these guidelines, researchers can enhance the accuracy and reliability of their GO-related work, ultimately contributing to the quality of biological data representation.
+This document is aimed at resources external to the GO Consortium who present or use GO data. The following information contains the best practices for Gene Ontology (GO) prediction and annotation, emphasizing the importance of data integrity, specificity in annotations, and adherence to logical constraints. By following these guidelines, researchers can enhance the accuracy and reliability of their GO-related work, ultimately contributing to the quality of biological data representation.
 
 ## Data and Ontology Integrity
 
