@@ -48,7 +48,7 @@ GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking mult
 
 GO-CAMs can be browsed and searched in the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site. For example, you can limit your search results to GO-CAMs having a certain GO term, a certain gene, or created by a specific curation group or curator.
 
-[![GO-CAM example](/assets/GO-CAM-site-illustration.jpg)](https://geneontology.cloud/browse){:target="blank"}
+[![GO-CAM example](/assets/GO-CAM-site-illustration.jpg)](https://go-cam-browser.geneontology.org/browse){:target="blank"}
 
 ---
 
