@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""
-Update downloads.html with organism metadata from goex.yaml
-Usage: python3 update_downloads.py
-"""
+#!"""
+#!Update downloads.html with organism metadata from goex.yaml
+#!Usage: python3 update_downloads.py
+#!"""
 
 import urllib.request
 import sys
