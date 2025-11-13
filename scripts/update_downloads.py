@@ -1,8 +1,8 @@
-!/usr/bin/env python3
-!"""
-!Update downloads.html with organism metadata from goex.yaml
-!Usage: python3 update_downloads.py
-!"""
+#!/usr/bin/env python3
+"""
+Update downloads.html with organism metadata from goex.yaml
+Usage: python3 update_downloads.py
+"""
 
 import urllib.request
 import sys
@@ -63,16 +63,16 @@ def get_taxonomic_group_name(ncbi_taxon_id):
     taxon_map = {
         'NCBITaxon:2': 'Bacteria',
         'NCBITaxon:2157': 'Archaea',
-        'NCBITaxon:2759': 'Eukaryota',
+        'NCBITaxon:2759': 'Eukaryotes',
         'NCBITaxon:4751': 'Fungi',
         'NCBITaxon:4762': 'Oomycetes',
-        'NCBITaxon:6072': 'Invertebrates',
+        'NCBITaxon:6072': 'Eumetazoa',
         'NCBITaxon:6231': 'Nematodes',
         'NCBITaxon:6656': 'Arthropods',
         'NCBITaxon:7742': 'Vertebrates',
         'NCBITaxon:33090': 'Plants',
-        'NCBITaxon:33208': 'Metazoa',
-        'NCBITaxon:33630': 'Alveolata',
+        'NCBITaxon:33208': 'Animals',
+        'NCBITaxon:33630': 'Alveolates',
         'NCBITaxon:554915': 'Amoebozoa',
         'NCBITaxon:10239': 'Viruses',
     }
