@@ -12,8 +12,8 @@ This document is aimed at resources external to the GO Consortium who present or
 ### Source Data
 **Authoritative Source** : Always use up-to-date, authoritative Gene Ontology data. The GO Consortium is the sole reliable source. Avoid third-party data, which may be outdated.
 
-### Ontology Graph
-**Latest Version**: Use the latest GO ontology graph (available at https://current.geneontology.org/ontology) for predictions and evaluations.The GO Consortium frequently refactors the Ontology, including adding, removing, and changing the parentage of terms. These changes directly impact annotation propagation and the accuracy of your results. Refer to the GO Consortium stats page for the extent of these changes.
+### Ontology 
+**Latest Version**: Use the latest GO ontology version (available at https://current.geneontology.org/ontology) for predictions and evaluations.The GO Consortium frequently refactors the Ontology, including adding, removing, and changing the parentage of terms to better reflect the current understanding of biology. These changes directly impact annotation propagation and the accuracy of your results. Refer to the GO Consortium stats page for the extent of these changes.
 
 ### Obsolete and Do Not Annotate Terms
 **Avoid Obsolete Terms**: Do not make predictions to terms that are obsolete or tagged with `do not annotate` in the OBO file. These terms are either uninformative or are being phased out. For example, many single-step biological process (BP) terms like 'protein phosphorylation' are better represented as molecular functions (MF) like 'protein kinase activity'. For a deeper understanding of the reasons behind refactoring and obsoletion, review the latest GO Consortium paper. This will provide essential context for interpreting the Ontology.
