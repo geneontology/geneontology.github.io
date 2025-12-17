@@ -36,13 +36,14 @@ The Gene Ontology Consortium is an international group of scientists with expert
  
 #### CACAO & EcoliWiki
 - [Deborah Siegele](https://www.bio.tamu.edu/faculty-page-deborah-siegele/){:target="blank"}, Texas A&M University
-- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 |[Jolene Ramsey](https://orcid.org/0000-0002-3774-5896) | |    |    |
 
 
 #### CGD
 - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University
-- [Jodi Lew-Smith](https://orcid.org/0000-0003-0784-046X), Stanford University
+| --- | --- | --- | --- |
+|[Jodi Lew-Smith](https://orcid.org/0000-0003-0784-046X), Stanford University | | | |
 
 #### dictyBase
 - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466){:target="blank"}, Northwestern University
@@ -96,11 +97,13 @@ The Gene Ontology Consortium is an international group of scientists with expert
 
 #### Planteome
 - [Pankaj Jaiswal](https://orcid.org/0000-0002-1005-8383)
+  
 | --- | --- | --- | --- |
 |[Laurel Cooper](https://orcid.org/0000-0002-6379-8932) |[Justin Elser](https://orcid.org/0000-0003-0921-1982) | | |
 
 #### Plant Reactome
 - [Pankaj Jaiswal](https://orcid.org/0000-0002-1005-8383)
+  
 | --- | --- | --- | --- |
 |[Parul Gupta](https://orcid.org/0000-0002-0190-8753) |  |[Sushma Naithani](https://orcid.org/0000-0001-7819-4552) | |
 
