@@ -42,7 +42,7 @@ The Gene Ontology Consortium is an international group of scientists with expert
 
 #### CGD
 - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University
-- 
+- [Jodi Lew-Smith](https://orcid.org/0000-0003-0784-046X), Stanford University
 
 #### dictyBase
 - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466){:target="blank"}, Northwestern University
@@ -114,8 +114,8 @@ The Gene Ontology Consortium is an international group of scientists with expert
   - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd){:target="blank"} [ORCID](https://orcid.org/0000-0003-1024-4116), Medical College of Wisconsin
 
 | --- | --- | --- | --- |
-| Jeffrey L. De Pons |[Melinda R. Dwinell](https://orcid.org/0000-0002-9528-3618) | |[Mary L. Kaldunski](https://orcid.org/0000-0003-3645-6803) |
-|[Stanley J. F. Laulederkind](https://orcid.org/0000-0001-5356-4174) |[Marek A. Tutaj](https://orcid.org/0000-0002-1025-101X) |[Mahima Vedi](https://orcid.org/0000-0001-5361-6739) | [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)|
+| Jeffrey L. De Pons |[Melinda R. Dwinell](https://orcid.org/0000-0002-9528-3618) | [Mary L. Kaldunski](https://orcid.org/0000-0003-3645-6803) |
+|[Stanley J. F. Laulederkind](https://orcid.org/0000-0001-5356-4174) | | [Marek A. Tutaj](https://orcid.org/0000-0002-1025-101X) |[Mahima Vedi](https://orcid.org/0000-0001-5361-6739) | [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)|
 
 #### Reactome
   - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
@@ -133,8 +133,8 @@ The Gene Ontology Consortium is an international group of scientists with expert
 - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University 
 
 | --- | --- | --- | --- |
-| [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920)| [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) |
-| [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | | |
+| [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Jodi Lew-Smith](https://orcid.org/0000-0003-0784-046X), Stanford University | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920) | | [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) |
+| [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | |
 
 #### The Arabidopsis Information Resource (TAIR), Phoenix Bioinformatics (Newark, CA, USA)
   - [Tanya Berardini](https://orcid.org/0000-0002-3837-8864){:target="blank"}, Phoenix Bioinformatics
