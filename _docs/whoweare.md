@@ -23,7 +23,7 @@ The Gene Ontology Consortium is an international group of scientists with expert
 | <img src="/assets/whoweare/gaudet.jpg" alt="Pascale Gaudet, Swiss Institute of Bioinformatics" width="200" div style="border: 2px solid black;"/> [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"},<br> SIB Swiss Institute of Bioinformatics <br> Overall Project Management <br> Ontology development <br> Data Quality | <img src="/assets/whoweare/carbon.jpg" alt="Seth Carbon, Lawrence Berkeley National Laboratory" width="200" div style="border: 2px solid black;"/> [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"},<br> Lawrence Berkeley National Laboratory <br> Architecture | <img src="/assets/whoweare/vanauken.jpg" alt="Kimberly van Auken, Caltech" width="200" div style="border: 2px solid black;"/> [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"},<br> Caltech <br> Annotation | <img src="/assets/whoweare/mi.png" alt="Huaiyu Mi, University of Southern California" width="200" div style="border: 2px solid black;"/> [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"},<br> University of Southern California <br> Phylogenetic Annotation | <img src="/assets/whoweare/aleksander.jpeg" alt="Suzi Aleksander, Stanford University" width="200" div style="border: 2px solid black;"/> [Suzi Aleksander](https://cherrylab.stanford.edu/people/suzi-aleksander){:target="blank"},<br> Stanford University <br> User Support |
 
 ## GO contributors by Group
-|
+| --- | --- | --- | --- |
 
 #### GO Central
 
