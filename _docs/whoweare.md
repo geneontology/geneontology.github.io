@@ -27,10 +27,11 @@ The Gene Ontology Consortium is an international group of scientists with expert
 #### GO Central
 
 | --- | --- | --- | --- |
-|[Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) |[James Balhoff](https://orcid.org/0000-0002-8688-6599) |[Seth Carbon](https://orcid.org/0000-0001-8244-1536) |
-|[Dustin Ebert](https://orcid.org/0000-0002-6659-0416) ||[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |[Pascale Gaudet](https://orcid.org/0000-0003-1813-6857) | 
-|[Nomi L Harris](https://orcid.org/0000-0001-6315-3707) |[David P Hill](https://orcid.org/0000-0001-7476-6306) ||[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Huaiyu Mi](https://orcid.org/0000-0001-8721-202X) |[Sierra Moxon](https://orcid.org/0000-0002-8719-7760) ||[Christopher J Mungall](https://orcid.org/0000-0002-6601-2165) |[Anushya Muruganugan](https://orcid.org/0000-0001-7169-5864) |[Tremayne Mushayahama](https://orcid.org/0000-0002-2874-6934) |
-|[Paul W. Sternberg](https://orcid.org/0000-0002-7699-0173) ||[Paul D Thomas](https://orcid.org/0000-0002-9074-3507) |[Kimberly Van Auken](https://orcid.org/0000-0002-8151-747) | | |
+|[Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) |[James Balhoff](https://orcid.org/0000-0002-8688-6599) |[Seth Carbon](https://orcid.org/0000-0001-8244-1536) |[Dustin Ebert](https://orcid.org/0000-0002-6659-0416) |
+|[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |[Pascale Gaudet](https://orcid.org/0000-0003-1813-6857) |[Nomi L Harris](https://orcid.org/0000-0001-6315-3707) |[David P Hill](https://orcid.org/0000-0001-7476-6306) |
+|[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Huaiyu Mi](https://orcid.org/0000-0001-8721-202X) |[Sierra Moxon](https://orcid.org/0000-0002-8719-7760) |[Christopher J Mungall](https://orcid.org/0000-0002-6601-2165) |
+|[Anushya Muruganugan](https://orcid.org/0000-0001-7169-5864) |[Tremayne Mushayahama](https://orcid.org/0000-0002-2874-6934) |[Paul W. Sternberg](https://orcid.org/0000-0002-7699-0173) |[Paul D Thomas](https://orcid.org/0000-0002-9074-3507) |
+|[Kimberly Van Auken](https://orcid.org/0000-0002-8151-747) | | | |
 
  
 #### CACAO & EcoliWiki
@@ -53,12 +54,14 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Robert Dodson](https://orcid.org/0000-0002-2757-5950) |    |    | |
 
 #### DisProt, Dept. of Biomedical Sciences, University of Padova, Italy
-- [Silvio Tosatto ](https://orcid.org/0000-0003-4525-7793)| 
+- [Silvio Tosatto ](https://orcid.org/0000-0003-4525-7793)|
+
 | --- | --- | --- | --- |
 |[Maria Cristina Aspromonte ](https://orcid.org/0000-0002-4937-6952) |[Maria Victoria Nugnes ](https://orcid.org/0000-0001-8399-7907) |[Federica Quaglia ](https://orcid.org/0000-0002-0341-4888) | |
 
 #### Evidence & Conclusion Ontology (ECO)
 - [Michelle Giglio](https://orcid.org/0000-0001-7628-5565)
+  
 | --- | --- | --- | --- |
 | |[Suvarna Nadendla](https://orcid.org/0000-0003-3643-281X)|  | |
 
