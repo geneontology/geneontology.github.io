@@ -27,21 +27,22 @@ The Gene Ontology Consortium is an international group of scientists with expert
 #### GO Central
 
 | --- | --- | --- | --- |
-|[Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) |[James Balhoff](https://orcid.org/0000-0002-8688-6599) |[Seth Carbon](https://orcid.org/0000-0001-8244-1536) |[J. Michael Cherry](https://orcid.org/0000-0001-9163-5180) |
-|[Dustin Ebert](https://orcid.org/0000-0002-6659-0416) |[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |[Pascale Gaudet](https://orcid.org/0000-0003-1813-6857) | 
-|[Nomi L Harris](https://orcid.org/0000-0001-6315-3707) |[David P Hill](https://orcid.org/0000-0001-7476-6306) |[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Huaiyu Mi](https://orcid.org/0000-0001-8721-202X) |
-|[Sierra Moxon](https://orcid.org/0000-0002-8719-7760) |[Christopher J Mungall](https://orcid.org/0000-0002-6601-2165) |[Anushya Muruganugan](https://orcid.org/0000-0001-7169-5864) |[Tremayne Mushayahama](https://orcid.org/0000-0002-2874-6934) |
-|[Paul W. Sternberg](https://orcid.org/0000-0002-7699-0173) |[Paul D Thomas](https://orcid.org/0000-0002-9074-3507) |[Kimberly Van Auken](https://orcid.org/0000-0002-8151-747) | |
+|[Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) |[James Balhoff](https://orcid.org/0000-0002-8688-6599) |[Seth Carbon](https://orcid.org/0000-0001-8244-1536) |
+|[Dustin Ebert](https://orcid.org/0000-0002-6659-0416) ||[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |[Pascale Gaudet](https://orcid.org/0000-0003-1813-6857) | 
+|[Nomi L Harris](https://orcid.org/0000-0001-6315-3707) |[David P Hill](https://orcid.org/0000-0001-7476-6306) ||[Raymond Lee](https://orcid.org/0000-0002-8151-7479) |[Huaiyu Mi](https://orcid.org/0000-0001-8721-202X) |[Sierra Moxon](https://orcid.org/0000-0002-8719-7760) ||[Christopher J Mungall](https://orcid.org/0000-0002-6601-2165) |[Anushya Muruganugan](https://orcid.org/0000-0001-7169-5864) |[Tremayne Mushayahama](https://orcid.org/0000-0002-2874-6934) |
+|[Paul W. Sternberg](https://orcid.org/0000-0002-7699-0173) ||[Paul D Thomas](https://orcid.org/0000-0002-9074-3507) |[Kimberly Van Auken](https://orcid.org/0000-0002-8151-747) | | |
 
  
 #### CACAO & EcoliWiki
 - [Deborah Siegele](https://www.bio.tamu.edu/faculty-page-deborah-siegele/){:target="blank"}, Texas A&M University
+  
 | --- | --- | --- | --- |
 |[Jolene Ramsey](https://orcid.org/0000-0002-3774-5896) | |    |    |
 
 
 #### CGD
 - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University
+  
 | --- | --- | --- | --- |
 |[Jodi Lew-Smith](https://orcid.org/0000-0003-0784-046X), Stanford University | | | |
 
@@ -49,12 +50,12 @@ The Gene Ontology Consortium is an international group of scientists with expert
 - [Rex	Chisholm](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=10466){:target="blank"}, Northwestern University
 
 | --- | --- | --- | --- |
-|[Rex L. Chisholm](https://orcid.org/0000-0002-5638-3990) |[Robert Dodson](https://orcid.org/0000-0002-2757-5950) |    |    |
+|[Robert Dodson](https://orcid.org/0000-0002-2757-5950) |    |    | |
 
 #### DisProt, Dept. of Biomedical Sciences, University of Padova, Italy
 - [Silvio Tosatto ](https://orcid.org/0000-0003-4525-7793)| 
 | --- | --- | --- | --- |
-|[Maria Cristina Aspromonte ](https://orcid.org/0000-0002-4937-6952) |[Maria Victoria Nugnes ](https://orcid.org/0000-0001-8399-7907) |[Federica Quaglia ](https://orcid.org/0000-0002-0341-4888) |
+|[Maria Cristina Aspromonte ](https://orcid.org/0000-0002-4937-6952) |[Maria Victoria Nugnes ](https://orcid.org/0000-0001-8399-7907) |[Federica Quaglia ](https://orcid.org/0000-0002-0341-4888) | |
 
 #### Evidence & Conclusion Ontology (ECO)
 - [Michelle Giglio](https://orcid.org/0000-0001-7628-5565)
@@ -72,7 +73,6 @@ The Gene Ontology Consortium is an international group of scientists with expert
 
 #### Functional Gene Annotation, Institute of Cardiovascular Science, University College London (London, UK) 
 - [Ruth C. Lovering](https://orcid.org/0000-0002-9791-0064)
-| --- | --- | --- | --- |
 
 #### GREEKC
 
@@ -85,10 +85,10 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Snezhana Oliferenko](https://orcid.org/0000-0002-8138-6851)| | | |
 
 #### Mouse Genome Informatics (MGI)
-  - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith)[ORCID](https://orcid.org/0000-0003-3691-0324), The Jackson Laboratory
+  - [Cynthia Smith](https://www.jax.org/research-and-faculty/faculty/research-scientists/cynthia-smith) [ORCID](https://orcid.org/0000-0003-3691-0324), The Jackson Laboratory
 
 | --- | --- | --- | --- |
-| | | |[David P Hill](https://orcid.org/0000-0001-7476-6306) |[Li Ni](https://orcid.org/0000-0002-9796-7693) |[Dmitry Sitnikov](https://orcid.org/0000-0003-3394-9805) | |
+|[David P Hill](https://orcid.org/0000-0001-7476-6306) |[Li Ni](https://orcid.org/0000-0002-9796-7693) |[Dmitry Sitnikov](https://orcid.org/0000-0003-3394-9805) | |
 
 #### PHI-base
 
@@ -117,8 +117,8 @@ The Gene Ontology Consortium is an international group of scientists with expert
   - [Anne E Kwitek](https://www.mcw.edu/departments/physiology/people/anne-e-kwitek-phd){:target="blank"} [ORCID](https://orcid.org/0000-0003-1024-4116), Medical College of Wisconsin
 
 | --- | --- | --- | --- |
-| Jeffrey L. De Pons |[Melinda R. Dwinell](https://orcid.org/0000-0002-9528-3618) | [Mary L. Kaldunski](https://orcid.org/0000-0003-3645-6803) |
-|[Stanley J. F. Laulederkind](https://orcid.org/0000-0001-5356-4174) | | [Marek A. Tutaj](https://orcid.org/0000-0002-1025-101X) |[Mahima Vedi](https://orcid.org/0000-0001-5361-6739) | [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)|
+| Jeffrey L. De Pons |[Melinda R. Dwinell](https://orcid.org/0000-0002-9528-3618) | [Mary L. Kaldunski](https://orcid.org/0000-0003-3645-6803) | [Stanley J. F. Laulederkind](https://orcid.org/0000-0001-5356-4174) |
+| [Marek A. Tutaj](https://orcid.org/0000-0002-1025-101X) |[Mahima Vedi](https://orcid.org/0000-0001-5361-6739) | [Shur-Jen Wang](https://orcid.org/0000-0001-5256-8683)||
 
 #### Reactome
   - [Peter	D'Eustachio](https://orcid.org/0000-0002-5494-626X){:target="blank"}, New York University
@@ -136,8 +136,8 @@ The Gene Ontology Consortium is an international group of scientists with expert
 - [Gavin Sherlock](https://web.stanford.edu/group/sherlocklab/){:target="blank"}, Stanford University 
 
 | --- | --- | --- | --- |
-| [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Jodi Lew-Smith](https://orcid.org/0000-0003-0784-046X), Stanford University | [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920) | | [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) |
-| [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | |
+| [Suzi A. Aleksander](https://orcid.org/0000-0001-6787-2901) | [Stacia R. Engel](https://orcid.org/0000-0001-5472-917X) | [Jodi Lew-Smith](https://orcid.org/0000-0003-0784-046X)| [Stuart R. Miyasato](https://orcid.org/0000-0001-5250-8920) | 
+| [Robert S. Nash](https://orcid.org/0000-0002-3726-7441) | [Shuai Weng](https://orcid.org/0000-0003-4233-0772) | [Edith D. Wong](https://orcid.org/0000-0001-9799-5523) | |
 
 #### The Arabidopsis Information Resource (TAIR), Phoenix Bioinformatics (Newark, CA, USA)
   - [Tanya Berardini](https://orcid.org/0000-0002-3837-8864){:target="blank"}, Phoenix Bioinformatics
@@ -150,13 +150,12 @@ The Gene Ontology Consortium is an international group of scientists with expert
   - [Paul Thomas](https://orcid.org/0000-0002-9074-3507), SIB Swiss Institute of Bioinformatics
     
 | --- | --- | --- | --- |
-|[Andrea Auchincloss](https://orcid.org/0000-0002-5297-5390) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) | [Ghislaine Argoud-Puy](https://orcid.org/0000-0002-2979-8613) | |
-|[Emmanuel Boutet](https://orcid.org/0000-0002-3743-4203) |[Lionel Breuza](https://orcid.org/0000-0002-8075-8625) | [Cristina Casals-Casas](https://orcid.org/0000-0001-8769-177X) | [Elisabeth Coudert](https://orcid.org/0000-0001-8314-404X) | 
-| [Anne Estreicher](https://orcid.org/0000-0001-6828-2508) |[Maria Livia Famiglietti](https://orcid.org/0000-0002-5283-6593) |[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |[Arnaud Gos](https://orcid.org/0000-0002-5018-1378) |  
-| [Nadine Gruaz-Gumowski](https://orcid.org/0000-0002-4699-4907) |[Chantal Hulo](https://orcid.org/0000-0001-8176-7999) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) |[Florence Jungo](https://orcid.org/0000-0002-7456-8390) |
-| [Philippe Le Mercier](https://orcid.org/0000-0001-8528-090X) | |[Patrick Masson](https://orcid.org/0000-0001-7646-0052) | |
-| [Ivo Pedruzzi](https://orcid.org/0000-0001-8561-7170) |[Lucille Pourcel](https://orcid.org/0000-0003-1522-9900) |[Sylvain Poux](https://orcid.org/0000-0001-7299-6685) |[Catherine Rivoire](https://orcid.org/0000-0002-5979-8382) |
-| [Shyamala Sundaram](https://orcid.org/0000-0003-4209-460X)| | | |
+|[Andrea Auchincloss](https://orcid.org/0000-0002-5297-5390) |[Kristian Axelsen](https://orcid.org/0000-0003-3889-2879) | [Ghislaine Argoud-Puy](https://orcid.org/0000-0002-2979-8613) | [Emmanuel Boutet](https://orcid.org/0000-0002-3743-4203) |
+| [Lionel Breuza](https://orcid.org/0000-0002-8075-8625) | [Cristina Casals-Casas](https://orcid.org/0000-0001-8769-177X) | [Elisabeth Coudert](https://orcid.org/0000-0001-8314-404X) |  [Anne Estreicher](https://orcid.org/0000-0001-6828-2508) |
+| [Maria Livia Famiglietti](https://orcid.org/0000-0002-5283-6593) |[Marc Feuermann](https://orcid.org/0000-0002-4187-2863) |[Arnaud Gos](https://orcid.org/0000-0002-5018-1378) | [Nadine Gruaz-Gumowski](https://orcid.org/0000-0002-4699-4907) |
+| [Chantal Hulo](https://orcid.org/0000-0001-8176-7999) | [Nevila Hyka-Nouspikel](https://orcid.org/0000-0001-7855-209X) |[Florence Jungo](https://orcid.org/0000-0002-7456-8390) | [Philippe Le Mercier](https://orcid.org/0000-0001-8528-090X) | 
+|[Patrick Masson](https://orcid.org/0000-0001-7646-0052) | [Ivo Pedruzzi](https://orcid.org/0000-0001-8561-7170) |[Lucille Pourcel](https://orcid.org/0000-0003-1522-9900) |[Sylvain Poux](https://orcid.org/0000-0001-7299-6685) |
+| [Catherine Rivoire](https://orcid.org/0000-0002-5979-8382) | [Shyamala Sundaram](https://orcid.org/0000-0003-4209-460X) | | |
 
 #### UniProt, EMBL-EBI, (Hinxton, UK)
   - [Alex	Bateman](https://www.ebi.ac.uk/about/people/alex-bateman){:target="blank"} [ORCID](https://orcid.org/0000-0002-6982-4660), European Bioinformatics Institute
@@ -213,4 +212,4 @@ The Gene Ontology Consortium is an international group of scientists with expert
   ## Founders
 
 | :---: | :---: | :---: |
-| <img src="/assets/whoweare/Plos_ashburner.jpg" alt="Michael Ashburner, image By PLoS - PLoS, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4155078" width="200" div style="border: 2px solid black;"/> [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"} | <img src="/assets/whoweare/blake.jpg" alt="Judith Blake" width="200" div style="border: 2px solid black;"/> [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"} | <img src="/assets/whoweare/lewis.jpg" alt="Suzanna Lewis" width="200" div style="border: 2px solid black;"/> [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"} |  <img src="/assets/whoweare/cherry.jpeg" alt="J. Michael Cherry, Stanford University" width="200" div style="border: 2px solid black;"/> [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"},<br> Stanford University |
+| <img src="/assets/whoweare/Plos_ashburner.jpg" alt="Michael Ashburner, image By PLoS - PLoS, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4155078" width="200" div style="border: 2px solid black;"/> [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"} | <img src="/assets/whoweare/blake.jpg" alt="Judith Blake" width="200" div style="border: 2px solid black;"/> [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"} | <img src="/assets/whoweare/lewis.jpg" alt="Suzanna Lewis" width="200" div style="border: 2px solid black;"/> [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"} |  <img src="/assets/whoweare/cherry.jpeg" alt="J. Michael Cherry, Stanford University" width="200" div style="border: 2px solid black;"/> [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"} |
