@@ -23,6 +23,7 @@ The Gene Ontology Consortium is an international group of scientists with expert
 | <img src="/assets/whoweare/gaudet.jpg" alt="Pascale Gaudet, Swiss Institute of Bioinformatics" width="200" div style="border: 2px solid black;"/> [Pascale Gaudet](https://orcid.org/0000-0003-1813-6857){:target="blank"},<br> SIB Swiss Institute of Bioinformatics <br> Overall Project Management <br> Ontology development <br> Data Quality | <img src="/assets/whoweare/carbon.jpg" alt="Seth Carbon, Lawrence Berkeley National Laboratory" width="200" div style="border: 2px solid black;"/> [Seth Carbon](https://orcid.org/0000-0001-8244-1536){:target="blank"},<br> Lawrence Berkeley National Laboratory <br> Architecture | <img src="/assets/whoweare/vanauken.jpg" alt="Kimberly van Auken, Caltech" width="200" div style="border: 2px solid black;"/> [Kimberly van Auken](https://wormbase.org/resources/person/WBPerson1843){:target="blank"},<br> Caltech <br> Annotation | <img src="/assets/whoweare/mi.png" alt="Huaiyu Mi, University of Southern California" width="200" div style="border: 2px solid black;"/> [Huaiyu Mi](https://keck.usc.edu/faculty-search/huaiyu-mi/){:target="blank"},<br> University of Southern California <br> Phylogenetic Annotation | <img src="/assets/whoweare/aleksander.jpeg" alt="Suzi Aleksander, Stanford University" width="200" div style="border: 2px solid black;"/> [Suzi Aleksander](https://cherrylab.stanford.edu/people/suzi-aleksander){:target="blank"},<br> Stanford University <br> User Support |
 
 ## GO contributors by Group
+|
 
 #### GO Central
 
@@ -54,7 +55,7 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Robert Dodson](https://orcid.org/0000-0002-2757-5950) |    |    | |
 
 #### DisProt, Dept. of Biomedical Sciences, University of Padova, Italy
-- [Silvio Tosatto ](https://orcid.org/0000-0003-4525-7793)|
+- [Silvio Tosatto ](https://orcid.org/0000-0003-4525-7793)
 
 | --- | --- | --- | --- |
 |[Maria Cristina Aspromonte ](https://orcid.org/0000-0002-4937-6952) |[Maria Victoria Nugnes ](https://orcid.org/0000-0001-8399-7907) |[Federica Quaglia ](https://orcid.org/0000-0002-0341-4888) | |
@@ -63,7 +64,7 @@ The Gene Ontology Consortium is an international group of scientists with expert
 - [Michelle Giglio](https://orcid.org/0000-0001-7628-5565)
   
 | --- | --- | --- | --- |
-| |[Suvarna Nadendla](https://orcid.org/0000-0003-3643-281X)|  | |
+|[Suvarna Nadendla](https://orcid.org/0000-0003-3643-281X)|  | | |
 
 #### FlyBase
 - [Nick	Brown](https://www.pdn.cam.ac.uk/directory/nick-brown){:target="blank"}, University of Cambridge
