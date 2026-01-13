@@ -88,4 +88,4 @@ The GO logo is available in four sizes. For reuse, please do not hotlink images,
 
 ## Website disclaimer
 
-All information on this website is copyright © 1999–2025 Gene Ontology Consortium. Permission to use the information contained in this database was given by the researchers and institutes who contributed or published the information. Users of the data are solely responsible for compliance with any copyright restrictions. Documents from this server are provided "AS-IS" without any warranty, expressed or implied.
+All information on this website is copyright © 1999–2026 Gene Ontology Consortium. Permission to use the information contained in this database was given by the researchers and institutes who contributed or published the information. Users of the data are solely responsible for compliance with any copyright restrictions. Documents from this server are provided "AS-IS" without any warranty, expressed or implied.
