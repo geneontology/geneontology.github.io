@@ -13,7 +13,7 @@ redirect_from:
 
 We ask that whenever using the GO and/or annotations in a publication, please cite the two papers below (the original paper describing GO, and our most recent update paper):
 + Ashburner et al. Gene ontology: tool for the unification of biology. Nat Genet. 2000 May;25(1):25-9. DOI: [10.1038/75556](https://doi.org/10.1038/75556){:target="blank"} \[[abstract](https://www.ncbi.nlm.nih.gov/pubmed/10802651){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3037419/){:target="blank"}\]
-+ The Gene Ontology Consortium. The Gene Ontology knowledgebase in 2023. Genetics. 2023 May 4;224(1):iyad031. DOI: [10.1093/genetics/iyad031](https://doi.org/10.1093/genetics/iyad031){:target="blank"}  \[[abstract](https://pubmed.ncbi.nlm.nih.gov/36866529/){:target="blank"} \| [full text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10158837/pdf/iyad031.pdf){:target="blank"}\]
++ The Gene Ontology Consortium. The Gene Ontology knowledgebase in 2026. Nucleic Acids Res. 2025 Dec 18;gkaf1292. DOI: [10.1093/nar/gkaf1292](https://doi.org/10.1093/nar/gkaf1292){:target="blank"}  \[[abstract](https://pubmed.ncbi.nlm.nih.gov/41413728/){:target="blank"} \| [full text](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaf1292/8383826){:target="blank"}\]
 
 
 If you used a specific software/analysis tool in your research, in addition to the two publications above, please also cite the tool used according to the following list:
