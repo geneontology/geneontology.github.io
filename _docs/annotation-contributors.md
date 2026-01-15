@@ -60,17 +60,27 @@ The GO Consortium integrates resources from a variety of research groups, from m
 ## Funding of contributing groups
 As described in the most recent GO publication, [PMID:41413728](https://pubmed.ncbi.nlm.nih.gov/41413728/){:target="blank"}.
 
-- The core funding for the GOC is from the National Human Genome Research Institute (U41HG002273, U24HG012212).
-- Curation activities supported by National Human Genome Research Institute grants U24HG002659 (ZFIN), U24HG002223 (WormBase), U41HG000739 (FlyBase), U24HG001315 (SGD), U24HG000330 (MGD), U24HG012198 (Reactome curation), U24HG011851 (Reactome - GO harmonization) and grant R01HL064541 from the National Heart, Lung and Blood Institute (RGD).
-- Additional funding for GO curation at FlyBase is provided by UK Medical Research Council Award MR/W024233/1.
-- PomBase is supported by Wellcome Trust 218236/Z/19/Z. Xenbase is supported by grant P41 HD064556 from the Eunice Kennedy Shriver National Institute of Child Health and Human Development.
-- Functional Gene Annotation, University College London is supported by National Institute for Health Research University College London Hospitals Biomedical Research Centre.
-- Planteome and Plant Reactome are supported by USDA-ARS, and DARPA awards.
-- Some software development was funded by U24HG010859 (Alliance of Genome Resources Central).
-- The TAIR project is funded by academic, institutional, corporate, and individual subscriptions; TAIR is administered by the 501(c)(3) non-profit Phoenix Bioinformatics.
-- Chris Mungall, Seth Carbon, and Sierra Moxon were supported in part by Director, Office of Science, Office of Basic Energy Sciences of the U.S. Department of Energy Contract No. DE-AC02-05CH11231.
-- Matrisome is supported in part by the National Human Genome Research Institute (NHGRI) of the National Institutes of Health and the National Institutes of Health Common Fund through the Office of Strategic Coordination/Office of the NIH Director (U01HG012680).
-- UniProt is funded by National Human Genome Research Institute (NHGRI), Office of Director [OD/DPCPSI/ODSS]; National Institute of Allergy and Infectious Diseases (NIAID), National Institute on Aging (NIA), National Institute of General Medical Sciences (NIGMS), National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Eye Institute (NEI), National Cancer Institute (NCI), National Heart, Lung, and Blood Institute (NHLBI) of the National Institutes of Health [U24HG007822]; Biotechnology and Biological Sciences Research Council [BB/T010541/1, BB/S01781X/1]; Open Targets; Swiss Federal Government through the State Secretariat for Education, Research and Innovation SERI; European Molecular Biology Laboratory core funds. 
+| Group | Funding Source | Grant Number(s) |
+|:------|:---------------|:--------------|
+| GOC (Core) | National Human Genome Research Institute | U41HG002273, U24HG012212 |
+| [ZFIN](http://zfin.org/){:target="blank"} | National Human Genome Research Institute | U24HG002659 |
+| [WormBase](http://www.wormbase.org/){:target="blank"} | National Human Genome Research Institute | U24HG002223 |
+| [FlyBase](http://flybase.org/){:target="blank"} | National Human Genome Research Institute<br>UK Medical Research Council | U41HG000739<br>MR/W024233/1 |
+| [SGD](http://www.yeastgenome.org/){:target="blank"} | National Human Genome Research Institute | U24HG001315 |
+| [MGD](https://www.informatics.jax.org/){:target="blank"} | National Human Genome Research Institute | U24HG000330 |
+| [Reactome (curation)](http://www.reactome.org/){:target="blank"} | National Human Genome Research Institute | U24HG012198 |
+| [Reactome (GO harmonization)](http://www.reactome.org/){:target="blank"} | National Human Genome Research Institute | U24HG011851 |
+| [RGD](http://rgd.mcw.edu/){:target="blank"} | National Heart, Lung and Blood Institute | R01HL064541 |
+| [PomBase](http://www.pombase.org/){:target="blank"} | Wellcome Trust | 218236/Z/19/Z |
+| [Xenbase](https://www.xenbase.org/entry/){:target="blank"} | Eunice Kennedy Shriver National Institute of Child Health and Human Development | P41 HD064556 |
+| [Functional Gene Annotation, University College London](https://www.ucl.ac.uk/functional-gene-annotation/){:target="blank"} | National Institute for Health Research University College London Hospitals Biomedical Research Centre | |
+| [Planteome](https://planteome.org/){:target="blank"} | USDA-ARS, DARPA | |
+| [Plant Reactome](https://plantreactome.gramene.org){:target="blank"} | USDA-ARS, DARPA | |
+| [Alliance of Genome Resources Central (software)](https://www.alliancegenome.org/){:target="blank"} | National Human Genome Research Institute | U24HG010859 |
+| [TAIR](https://www.arabidopsis.org/){:target="blank"} | Academic, institutional, corporate, and individual subscriptions; administered by 501(c)(3) non-profit Phoenix Bioinformatics | |
+| GO Software Development (Chris Mungall, Seth Carbon, Sierra Moxon) | U.S. Department of Energy, Director, Office of Science, Office of Basic Energy Sciences | DE-AC02-05CH11231 |
+| [Matrisome](https://sites.google.com/uic.edu/matrisome/home){:target="blank"} | National Human Genome Research Institute (NHGRI), NIH Common Fund through Office of Strategic Coordination/Office of the NIH Director | U01HG012680 |
+| [UniProt](https://www.uniprot.org/){:target="blank"} | National Human Genome Research Institute (NHGRI), Office of Director [OD/DPCPSI/ODSS], National Institute of Allergy and Infectious Diseases (NIAID), National Institute on Aging (NIA), National Institute of General Medical Sciences (NIGMS), National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Eye Institute (NEI), National Cancer Institute (NCI), National Heart, Lung, and Blood Institute (NHLBI), Biotechnology and Biological Sciences Research Council, Open Targets, Swiss Federal Government through SERI, European Molecular Biology Laboratory | U24HG007822<br>BB/T010541/1<br>BB/S01781X/1 |
 
 ----
 
@@ -78,23 +88,38 @@ As described in the most recent GO publication, [PMID:41413728](https://pubmed.n
 
 These groups have contributed to the GO Consortium in the past. For questions on these annotations, please contact the [GO Central helpdesk](https://help.geneontology.org/){:target="blank"}.
 
-| Name 	| Description |	Funding |	Contact |
-|-------|-------------|---------|---------|
-|[AgBase](http://agbase.arizona.edu){:target="blank"}| 	A curated, open-source, web-accessible resource for functional analysis of agricultural plant and animal gene products 	  	||[AgBase]|
-|[Alzheimer's Project at the University of Toronto](http://wiki.geneontology.org/index.php/Alzheimer%27s_Disease_Annotation_Project){:target="blank"}| 	Curation of genes associated with Alzheimer’s disease that have been significant in previous genome wide association studies || |
-|[ASAP](https://www.genome.wisc.edu/tools/asap.htm){:target="blank"} | A Systematic Annotation Package for Community Analysis of Genomes| 	  | || 	
-|[Aspergillus Genome Database (AspGD)](http://www.aspergillusgenome.org){:target="blank"}| 	AspGD is an organized collection of genetic and molecular biological information about the filamentous fungi of the genus *Aspergillus* 	|  | |  	
-|[AstraZeneca](https://www.astrazeneca.com/){:target="blank"}| AstraZeneca is a global, science-led biopharmaceutical business. | ||
-|[GeneDB]([http://www.genedb.org/Homepage](https://www.sanger.ac.uk/tool/genedb/)){:target="blank"}|	Curation for the whole range of organisms sequenced by the Sanger Institute's Pathogen Genomics group; sunsetted in 2022 	||	||
-|[Gramene](http://www.gramene.org/){:target="blank"}|	A comparative plant genomics resource for model and reference genomes of more than 30 plant genomes. It provides information for genomes, gene models, gene annotations, genome and gene tree alignments, synteny, genetic variation, gene expression, and a knowledgebase for plant pathways (Plant Reactome). 	| The National Science Foundation (NSF) supported this work through NSF Plant Genome Initiative grant award #0321685 during the years 2004-2007, NSF award #0851652 (REU Bioinformatics and Computational Biology Summer Undergraduate Program) in 2009-2012, and since 2007, through NSF Plant Genome Research Resource grant award #0703908. Current work is being supported by NSF Improving Plant Genome Annotation grant award #1127112 (Gramene - Exploring Function through Comparative Genomics and Network Analysis). [More information](http://gramene.org/funding){:target="blank"} |[Gramene web submission form](http://tools.gramene.org/feedback){:target="blank"}|
-|J Craig Venter Institute| 	Databases on several bacterial species; formerly known as The Institute for Genomic Research (TIGR). 	 || |
-|[Microbial ENergy processes Gene Ontology Project (MENGO)](http://mengo.vbi.vt.edu/){:target="blank"}| 	The MENGO project is a multi-institutional collaborative effort that aims to develop new Gene Ontology terms to describe microbial bioenergy related processes |	Office of Science (BER), U.S. Department of Energy. |	|
-|[Norwegian University of Science and Technology, Systems Biology team](https://www.ntnu.edu/biology/research/systems-biology#/view/about){:target="blank"}| Development of procedures and approaches to build high quality knowledge sources (the ‘Knowledge Commons’) for understanding gene regulation processes | | [NTNU_SB](mailto:martin.kuiper@ntnu.no)|
-|Plant-Associated Microbe Gene Ontology (PAMGO)| Consortium 	A multi-institutional collaborative effort involving scientists working on plant pathogenic genomes: the bacteria *Dickeya dadantii*, *Pseudomonas syringae* pv *tomato* and *Agrobacterium tumefaciens*, the fungus *Magnaporthe grisea*, the oomycetes *Phytophthora sojae* and *Phytophthora ramorum* and the nematode *Meloidogyne hapla*	 | ||
-|[Pseudomonas Genome Database (PseudoCAP)](http://www.pseudomonas.com/){:target="blank"}| 	A resource for annotations for the *Pseudomonas aeruginosa* PAO1 reference strain's genome and comparative analyses of several related *Pseudomonas* species |	[Cystic Fibrosis Foundation Therapeutics Inc.](http://www.cff.org/research/CFFT/){:target="blank"} |	[PseudoCAP](mailto:pseudocap-mail@sfu.ca)|
-|[Renal Gene Ontology Annotation Initiative](https://www.ebi.ac.uk/GOA/kidney){:target="blank"} | European Bioinformatics Institute | Kidney Research UK| |
-|[SGN](https://www.solgenomics.net//){:target="blank"}| 	The Sol Genomics Network (SGN) is a clade-oriented database dedicated to the biology of the Solanaceae family.|| 		[SGN](https://www.solgenomics.net/contact/form){:target="blank"}|
-|[SYSCILIA](http://syscilia.org/){:target="blank"}| 	The European project SYSCILIA is a systems biology approach to dissect cilia function and its disruption in human genetic disease |	European Community's Seventh Framework Programme (FP7/2007-2013) under the Health Cooperation Programme. |	[SYSCILIA](http://syscilia.org/contacts.shtml){:target="blank"}|
-|[Tetrahymena Genome Database (TGD)](https://ciliate.org/tet/){:target="blank"}| 	Database of information about the Tetrahymena thermophila genome sequence determined at The Institute for Genomic Research (TIGR) | |[TGD](mailto:ciliate-curator@bradley.edu)|
-
-
+| Name | Contact | Description | Funding |
+|:-----|:-------:|:-----------|:--------|
+|[AgBase](http://agbase.arizona.edu){:target="blank"}| | A curated, open-source, web-accessible resource for functional analysis of agricultural plant and animal gene products | |
+|[Alzheimer's Project at the University of Toronto](http://wiki.geneontology.org/index.php/Alzheimer%27s_Disease_Annotation_Project){:target="blank"}| | Curation of genes associated with Alzheimer's disease that have been significant in previous genome wide association studies | |
+|[ASAP](https://www.genome.wisc.edu/tools/asap.htm){:target="blank"} | | A Systematic Annotation Package for Community Analysis of Genomes | |
+|[Aspergillus Genome Database (AspGD)](http://www.aspergillusgenome.org){:target="blank"}| | AspGD is an organized collection of genetic and molecular biological information about the filamentous fungi of the genus *Aspergillus* | |
+|[AstraZeneca](https://www.astrazeneca.com/){:target="blank"}| | AstraZeneca is a global, science-led biopharmaceutical business. | |
+|[GeneDB](https://www.sanger.ac.uk/tool/genedb/){:target="blank"}| | Curation for the whole range of organisms sequenced by the Sanger Institute's Pathogen Genomics group; sunsetted in 2022 | |
+|[Gramene](http://www.gramene.org/){:target="blank"}| [✉️](http://tools.gramene.org/feedback){:target="blank"} | A comparative plant genomics resource for model and reference genomes of more than 30 plant genomes. It provides information for genomes, gene models, gene annotations, genome and gene tree alignments, synteny, genetic variation, gene expression, and a knowledgebase for plant pathways (Plant Reactome). | The National Science Foundation (NSF) supported this work through NSF Plant Genome Initiative grant award #0321685 during the years 2004-2007, NSF award #0851652 (REU Bioinformatics and Computational Biology Summer Undergraduate Program) in 2009-2012, and since 2007, through NSF Plant Genome Research Resource grant award #0703908. Current work is being supported by NSF Improving Plant Genome Annotation grant award #1127112 (Gramene - Exploring Function through Comparative Genomics and Network Analysis). [More information](http://gramene.org/funding){:target="blank"} |
+|J Craig Venter Institute| | Databases on several bacterial species; formerly known as The Institute for Genomic Research (TIGR). | |
+|[Microbial ENergy processes Gene Ontology Project (MENGO)](http://mengo.vbi.vt.edu/){:target="blank"}| | The MENGO project is a multi-institutional collaborative effort that aims to develop new Gene Ontology terms to describe microbial bioenergy related processes | Office of Science (BER), U.S. Department of Energy. |
+|[Norwegian University of Science and Technology, Systems Biology team](https://www.ntnu.edu/biology/research/systems-biology#/view/about){:target="blank"}| [✉️](mailto:martin.kuiper@ntnu.no) | Development of procedures and approaches to build high quality knowledge sources (the 'Knowledge Commons') for understanding gene regulation processes | |
+|Plant-Associated Microbe Gene Ontology (PAMGO)| | Consortium A multi-institutional collaborative effort involving scientists working on plant pathogenic genomes: the bacteria *Dickeya dadantii*, *Pseudomonas syringae* pv *tomato* and *Agrobacterium tumefaciens*, the fungus *Magnaporthe grisea*, the oomycetes *Phytophthora sojae* and *Phytophthora ramorum* and the nematode *Meloidogyne hapla* | |
+|[Pseudomonas Genome Database (PseudoCAP)](http://www.pseudomonas.com/){:target="blank"}| [✉️](mailto:pseudocap-mail@sfu.ca) | A resource for annotations for the *Pseudomonas aeruginosa* PAO1 reference strain's genome and comparative analyses of several related *Pseudomonas* species | [Cystic Fibrosis Foundation Therapeutics Inc.](http://www.cff.org/research/CFFT/){:target="blank"} |
+|[Renal Gene Ontology Annotation Initiative](https://www.ebi.ac.uk/GOA/kidney){:target="blank"} | | European Bioinformatics Institute | Kidney Research UK |
+|[SGN](https://www.solgenomics.net//){:target="blank"}| [✉️](https://www.solgenomics.net/contact/form){:target="blank"} | The Sol Genomics Network (SGN) is a clade-oriented database dedicated to the biology of the Solanaceae family. | |
+|[SYSCILIA](http://syscilia.org/){:target="blank"}| [✉️](http://syscilia.org/contacts.shtml){:target="blank"} | The European project SYSCILIA is a systems biology approach to dissect cilia function and its disruption in human genetic disease | European Community's Seventh Framework Programme (FP7/2007-2013) under the Health Cooperation Programme. |
+|[Tetrahymena Genome Database (TGD)](https://ciliate.org/tet/){:target="blank"}| [✉️](mailto:ciliate-curator@bradley.edu) | Database of information about the Tetrahymena thermophila genome sequence determined at The Institute for Genomic Research (TIGR) | |
+ 
+## GO contributors *emeriti*
+### Find past contributors on our GOC papers:
+* [The Gene Ontology resource: enriching a GOld mine](https://pubmed.ncbi.nlm.nih.gov/33290552/) (NAR, 2021)
+* [Annotation of gene product function from high-throughput studies using the Gene Ontology](https://pubmed.ncbi.nlm.nih.gov/30715275/) (Database (Oxford), 2019)
+* [The Gene Ontology Resource: 20 years and still GOing strong](https://pubmed.ncbi.nlm.nih.gov/30395331/) (NAR, 2019)
+* [Expansion of the Gene Ontology knowledgebase and resources](https://pubmed.ncbi.nlm.nih.gov/27899567/) (NAR, 2017)
+* [Gene Ontology Consortium: going forward](https://pubmed.ncbi.nlm.nih.gov/25428369/) (NAR, 2015)
+* [Gene Ontology annotations and resources](https://pubmed.ncbi.nlm.nih.gov/23161678/) (NAR, 2013)
+* [On the Use of Gene Ontology Annotations to Assess Functional Similarity among Orthologs and Paralogs: A Short Report](https://pubmed.ncbi.nlm.nih.gov/22359495/) (PLoS Comput Biol., 2012)
+* [The Gene Ontology: enhancements for 2011](https://pubmed.ncbi.nlm.nih.gov/22102568/) (NAR, 2012)
+* [The Gene Ontology in 2010: extensions and refinements](https://pubmed.ncbi.nlm.nih.gov/19920128/) (NAR, 2010)
+* [The Gene Ontology's Reference Genome Project: a unified framework for functional annotation across species](https://pubmed.ncbi.nlm.nih.gov/19578431/) (PLoS Comput Biol., 2009)
+* [The Gene Ontology project in 2008](https://pubmed.ncbi.nlm.nih.gov/17984083/) (NAR, 2008)
+* [The Gene Ontology (GO) project in 2006](https://pubmed.ncbi.nlm.nih.gov/16381878/) (NAR, 2006)
+* [The Gene Ontology (GO) database and informatics resource](https://pubmed.ncbi.nlm.nih.gov/14681407/) (NAR, 2004)
+* [Creating the gene ontology resource: design and implementation](https://pubmed.ncbi.nlm.nih.gov/11483584/) (Genome Res., 2001)
