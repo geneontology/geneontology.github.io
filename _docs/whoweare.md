@@ -31,7 +31,7 @@ The Gene Ontology Consortium is an international group of scientists with expert
 |[Anushya Muruganugan](https://orcid.org/0000-0001-7169-5864) |[Tremayne Mushayahama](https://orcid.org/0000-0002-2874-6934) |[Paul W. Sternberg](https://orcid.org/0000-0002-7699-0173) |[Paul D Thomas](https://orcid.org/0000-0002-9074-3507) |
 |[Kimberly Van Auken](https://orcid.org/0000-0002-8151-747) | | | |
 
-  ## Founders
+## Founders
 
 | :---: | :---: | :---: |
 | <img src="/assets/whoweare/Plos_ashburner.jpg" alt="Michael Ashburner, image By PLoS - PLoS, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=4155078" width="200" div style="border: 2px solid black;"/> [Michael Ashburner](https://en.wikipedia.org/wiki/Michael_Ashburner){:target="blank"} | <img src="/assets/whoweare/blake.jpg" alt="Judith Blake" width="200" div style="border: 2px solid black;"/> [Judith Blake](https://en.wikipedia.org/wiki/Judith_Blake_(scientist)){:target="blank"} | <img src="/assets/whoweare/lewis.jpg" alt="Suzanna Lewis" width="200" div style="border: 2px solid black;"/> [Suzanna Lewis](https://en.wikipedia.org/wiki/Suzanna_Lewis){:target="blank"} |  <img src="/assets/whoweare/cherry.jpeg" alt="J. Michael Cherry, Stanford University" width="200" div style="border: 2px solid black;"/> [J. Michael Cherry](https://med.stanford.edu/profiles/j-michael-cherry){:target="blank"} |
