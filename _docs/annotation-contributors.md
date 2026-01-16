@@ -58,29 +58,29 @@ The GO Consortium integrates resources from a variety of research groups, from m
 
 
 ## Funding of contributing groups
-As described in the most recent GO publication, [PMID:41413728](https://pubmed.ncbi.nlm.nih.gov/41413728/){:target="blank"}.
+As described in the most recent GO publication, [The Gene Ontology knowledgebase in 2026, PMID:41413728.](https://pubmed.ncbi.nlm.nih.gov/41413728/){:target="blank"}.
 
-| Group | Funding Source | Grant Number(s) |
-|:------|:---------------|:--------------|
-| GOC (Core) | National Human Genome Research Institute | U41HG002273, U24HG012212 |
-| [ZFIN](http://zfin.org/){:target="blank"} | National Human Genome Research Institute | U24HG002659 |
-| [WormBase](http://www.wormbase.org/){:target="blank"} | National Human Genome Research Institute | U24HG002223 |
-| [FlyBase](http://flybase.org/){:target="blank"} | National Human Genome Research Institute<br>UK Medical Research Council | U41HG000739<br>MR/W024233/1 |
-| [SGD](http://www.yeastgenome.org/){:target="blank"} | National Human Genome Research Institute | U24HG001315 |
-| [MGD](https://www.informatics.jax.org/){:target="blank"} | National Human Genome Research Institute | U24HG000330 |
-| [Reactome (curation)](http://www.reactome.org/){:target="blank"} | National Human Genome Research Institute | U24HG012198 |
-| [Reactome (GO harmonization)](http://www.reactome.org/){:target="blank"} | National Human Genome Research Institute | U24HG011851 |
-| [RGD](http://rgd.mcw.edu/){:target="blank"} | National Heart, Lung and Blood Institute | R01HL064541 |
-| [PomBase](http://www.pombase.org/){:target="blank"} | Wellcome Trust | 218236/Z/19/Z |
-| [Xenbase](https://www.xenbase.org/entry/){:target="blank"} | Eunice Kennedy Shriver National Institute of Child Health and Human Development | P41 HD064556 |
-| [Functional Gene Annotation, University College London](https://www.ucl.ac.uk/functional-gene-annotation/){:target="blank"} | National Institute for Health Research University College London Hospitals Biomedical Research Centre | |
-| [Planteome](https://planteome.org/){:target="blank"} | USDA-ARS, DARPA | |
-| [Plant Reactome](https://plantreactome.gramene.org){:target="blank"} | USDA-ARS, DARPA | |
-| [Alliance of Genome Resources Central (software)](https://www.alliancegenome.org/){:target="blank"} | National Human Genome Research Institute | U24HG010859 |
-| [TAIR](https://www.arabidopsis.org/){:target="blank"} | Academic, institutional, corporate, and individual subscriptions; administered by 501(c)(3) non-profit Phoenix Bioinformatics | |
-| GO Software Development (Chris Mungall, Seth Carbon, Sierra Moxon) | U.S. Department of Energy, Director, Office of Science, Office of Basic Energy Sciences | DE-AC02-05CH11231 |
-| [Matrisome](https://sites.google.com/uic.edu/matrisome/home){:target="blank"} | National Human Genome Research Institute (NHGRI), NIH Common Fund through Office of Strategic Coordination/Office of the NIH Director | U01HG012680 |
-| [UniProt](https://www.uniprot.org/){:target="blank"} | National Human Genome Research Institute (NHGRI), Office of Director [OD/DPCPSI/ODSS], National Institute of Allergy and Infectious Diseases (NIAID), National Institute on Aging (NIA), National Institute of General Medical Sciences (NIGMS), National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Eye Institute (NEI), National Cancer Institute (NCI), National Heart, Lung, and Blood Institute (NHLBI), Biotechnology and Biological Sciences Research Council, Open Targets, Swiss Federal Government through SERI, European Molecular Biology Laboratory | U24HG007822<br>BB/T010541/1<br>BB/S01781X/1 |
+| Group | Grant Number(s) | Funding Source |
+|:------|:--------------:|:---------------|
+| GOC (Core) | U41HG002273, U24HG012212 | National Human Genome Research Institute |
+| [ZFIN](http://zfin.org/){:target="blank"} | U24HG002659 | National Human Genome Research Institute |
+| [WormBase](http://www.wormbase.org/){:target="blank"} | U24HG002223 | National Human Genome Research Institute |
+| [FlyBase](http://flybase.org/){:target="blank"} | U41HG000739<br>MR/W024233/1 | National Human Genome Research Institute<br>UK Medical Research Council |
+| [SGD](http://www.yeastgenome.org/){:target="blank"} | U24HG001315 | National Human Genome Research Institute |
+| [MGD](https://www.informatics.jax.org/){:target="blank"} | U24HG000330 | National Human Genome Research Institute |
+| [Reactome (curation)](http://www.reactome.org/){:target="blank"} | U24HG012198 | National Human Genome Research Institute |
+| [Reactome (GO harmonization)](http://www.reactome.org/){:target="blank"} | U24HG011851 | National Human Genome Research Institute |
+| [RGD](http://rgd.mcw.edu/){:target="blank"} | R01HL064541 | National Heart, Lung and Blood Institute |
+| [PomBase](http://www.pombase.org/){:target="blank"} | 218236/Z/19/Z | Wellcome Trust |
+| [Xenbase](https://www.xenbase.org/entry/){:target="blank"} | P41 HD064556 | Eunice Kennedy Shriver National Institute of Child Health and Human Development |
+| [Functional Gene Annotation, University College London](https://www.ucl.ac.uk/functional-gene-annotation/){:target="blank"} | | National Institute for Health Research University College London Hospitals Biomedical Research Centre |
+| [Planteome](https://planteome.org/){:target="blank"} | | USDA-ARS, DARPA |
+| [Plant Reactome](https://plantreactome.gramene.org){:target="blank"} | | USDA-ARS, DARPA |
+| [Alliance of Genome Resources Central (software)](https://www.alliancegenome.org/){:target="blank"} | U24HG010859 | National Human Genome Research Institute |
+| [TAIR](https://www.arabidopsis.org/){:target="blank"} | | Academic, institutional, corporate, and individual subscriptions; administered by 501(c)(3) non-profit Phoenix Bioinformatics |
+| GO Software Development (Chris Mungall, Seth Carbon, Sierra Moxon) | DE-AC02-05CH11231 | U.S. Department of Energy, Director, Office of Science, Office of Basic Energy Sciences |
+| [Matrisome](https://sites.google.com/uic.edu/matrisome/home){:target="blank"} | U01HG012680 | National Human Genome Research Institute (NHGRI), NIH Common Fund through Office of Strategic Coordination/Office of the NIH Director |
+| [UniProt](https://www.uniprot.org/){:target="blank"} | U24HG007822<br>BB/T010541/1<br>BB/S01781X/1 | National Human Genome Research Institute (NHGRI), Office of Director [OD/DPCPSI/ODSS], National Institute of Allergy and Infectious Diseases (NIAID), National Institute on Aging (NIA), National Institute of General Medical Sciences (NIGMS), National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Eye Institute (NEI), National Cancer Institute (NCI), National Heart, Lung, and Blood Institute (NHLBI), Biotechnology and Biological Sciences Research Council, Open Targets, Swiss Federal Government through SERI, European Molecular Biology Laboratory |
 
 ----
 
