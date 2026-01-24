@@ -56,7 +56,7 @@ The GO Consortium integrates resources from a variety of research groups, from m
 
 
 ## Funding of contributing groups
-As described in the most recent GO publication, [The Gene Ontology knowledgebase in 2026, PMID:41413728.](https://pubmed.ncbi.nlm.nih.gov/41413728/){:target="blank"}.
+As described in the most recent GO publication, [The Gene Ontology knowledgebase in 2026, PMID:41413728.](https://pubmed.ncbi.nlm.nih.gov/41413728/){:target="blank"}
 
 | Group | Grant Number(s) | Funding Source |
 |:------|:--------------:|:---------------|
