@@ -9,17 +9,24 @@ The GO Consortium collaborates with many other groups on a wide variety of topic
 
 ## Annotation/Ontology development projects
 
+
+<!-- 
 | Project | Description |
 |---------|-------------|
 | [SynGO](https://www.syngoportal.org/){:target="blank"} | Capturing synaptic processes and cellular components<br>[Stanley Center for Psychiatric Research at the Broad Institute](https://www.broadinstitute.org/stanley){:target="blank"} |
 | [Critical Assessment of Functional Annotation](https://biofunctionprediction.org/cafa/){:target="blank"} | An ongoing, global, community-driven effort to evaluate and improve the computational annotation of protein function |
 | [Gene Regulation Consortium (GRECO)](http://thegreco.org/){:target="blank"} | GRECO aspires to build a 'knowledge commons' for gene regulation research, coordinating groups who generate and collate knowledge on gene transcription regulation and building a common knowledge management framework |
+-->>
 
 ## Domain-specific expertise
-- __Transcription__: Marcio L. Acencio, Astrid Lægreid, Colin	Logie
-- *__S. pombe__* __annotations__: Jacqueline	Hayles
-- __Extracellular matrix__: Rachel Lennon, Geoff Meyer, Jeff Miner, Sylvie Ricard-Blum, David Sherwood, Peter Yurchenco
 
+- __Extracellular Matrix__: Alexandra Naba, Daiqing Chen, Matrisome
+- __Pathogens__: Gene Godbold, Signature Science
+- __Transcription__: Colin	Logie, Radboud University
+- *__S. pombe__* __annotations__: Jacqueline	Hayles
+
+
+- 
 ## Ontologies imported by the GO Consortium
 
 The following ontologies are imported into GO:
