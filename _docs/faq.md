@@ -1198,7 +1198,7 @@ Contact the [contact the GO](http://help.geneontology.org) for more information.
 {::comment}
 
 <span class="rdf-meta element-hidden" property="dc:title" content="How do I  map a set of gene products or annotations to high level GO terms (GO slim)?"></span>
-FAQ tags: 
+FAQ tags: 
 
 [analysis](/faq-tags/analysis)
 
@@ -1211,11 +1211,9 @@ FAQ tags: 
 [go_slim](/faq-tags/go_slim)
 {:/comment}
 
-* One method is to use [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"}.  Choose the aspect (Molecular Function, Biological Process, or Cellular Component) and indicate if you want to map to a generic subset or one curated for your organism (for example, the *S. cerevisiae* slim omits terms applicable only to plants or bacteria).
+You can use the [GO Term Mapper](https://go.princeton.edu/cgi-bin/GOTermMapper){:target="blank"} provided by the Bioinformatics Group at Princeton's Lewis-Sigler Institute. This web-based tool takes a list of genes with their detailed GO term annotations and maps them to broader GO slim terms, allowing you to bin your genes into broad functional categories. 
 
-* In order to map your annotations to a GO slim, use the [Map2Slim](https://github.com/owlcollab/owltools/wiki/Map2Slim){:target="blank"} option in OWLTools. Given a GO slim file, and a current ontology (in one or more files), the Map2Slim script will map a gene association file (containing annotations to the full GO) to the terms in the GO slim. This script is an option of OWLTools, and it can be used to either create a new gene association file, which contains the most pertinent GO slim accessions, or in count-mode, in which case it will give distinct gene product counts for each slim term.
-
-Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the [OWLTools Wiki](https://github.com/owlcollab/owltools/wiki/Map2Slim){:target="blank"}.
+The tool allows you to select from the three GO aspects (Molecular Function, Biological Process, or Cellular Component) and choose from available GO slims including the generic slim or organism-specific slims (such as S. cerevisiae or plant slims, which are curated to best represent the biology of those organisms). The tool accepts various gene identifier types and provides output in multiple formats including HTML tables with gene links and frequency counts. Please note that web-based tools may have processing limitations and time constraints.
 
 Read more or download the [GO slims here](/docs/go-subset-guide/).
 
