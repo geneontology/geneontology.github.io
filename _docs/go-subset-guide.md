@@ -63,8 +63,10 @@ For internal checking purposes, GO maintains two "anti-slims", terms to which an
 
 
 # Related tools
-- __Map2Slim option in OWLTools__:
-Given a GO subset, a current ontology, and specific gene product associations to precise terms from this current ontology, the Map2Slim script will map these term associations up to their respective broader terms from the GO subset. This script is an option of OWLTools, and it can be used to either create a new gene associations file, which contains the same annotations but made to the subset terms; or in count-mode, in which case it will give distinct gene product counts for each subset term. Background information and details on how to download, install, and implement OWLTools, as well as instructions on how to run the Map2Slim script are available from the <a href="https://github.com/owlcollab/owltools/wiki/Map2Slim">OWLTools Wiki</a>{:target="blank"}.
-
-- __On the web__:
-Similarly, there are online tools that may be of use including the [Princeton slimming tool](http://go.princeton.edu/){:target="blank"}. It should be noted that online tools do often contain limitations and timeouts.
+- __GO tools at the Lewis-Sigler Institute__:
+The Bioinformatics Group at Princeton's Lewis-Sigler Institute provides several web-based GO tools:
+  - The <a href="https://go.princeton.edu/cgi-bin/GOTermMapper" target="_blank">Generic GO Term Mapper</a> takes a list of genes with their detailed GO term annotations and maps them to broader GO slim terms, allowing users to bin their genes into broad functional categories.
+  - The <a href="https://go.princeton.edu/cgi-bin/GOTermFinder" target="_blank">Generic GO Term Finder</a> identifies significant GO terms shared among a list of genes, helping discover what genes may have in common.
+  - <a href="https://go.princeton.edu/cgi-bin/LAGO" target="_blank">LAGO</a> (A Logically Accelerated GO Term Finder) is a implementation of the GO Term Finder algorithms with significant speed improvements.
+  
+These web-based tools support batch processing of gene lists and provide easily interpretable results. Additional information is available from the <a href="https://go.princeton.edu/" target="_blank">Lewis-Sigler Institute GO tools website</a>. Users should note that web-based tools may have processing limitations and time constraints.
