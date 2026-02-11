@@ -30,3 +30,15 @@ $headings-font-weight: 400;
 .jumbotron p {
   font-weight: 400;
 }
+.faq-gif-row{
+  display:flex;
+  gap:12px;
+  flex-wrap:nowrap;
+  align-items:flex-start;
+  justify-content:center;
+}
+
+.faq-gif-row img{
+  max-width:32%;
+  height:auto;
+}
