@@ -136,6 +136,15 @@ A detailed description of the process used to create the PAN-GO functionome, as 
 
 If you are working on human protein-coding genes, we recommend you use the PAN-GO Functionome. It is designed to be as accurate and comprehensive as possible, while also being concise (a minimally redundant set of GO terms for each gene). 
 
+<div class="faq-gif-row">
+  <img src="{{ '/assets/functionome_allianceDL_intro.gif' | relative_url }}"
+       alt="PAN-GO Functionome intro">
+  <img src="{{ '/assets/functionome_allianceDL_genesinfxncategory.gif' | relative_url }}"
+       alt="Genes in function category">
+  <img src="{{ '/assets/functionome_allianceDL_fxnforhumangene.gif' | relative_url }}"
+       alt="Function for human gene">
+</div>
+
 ---------------------------------------------------------------------------
 ## What is GO "content"?
 {::comment}
