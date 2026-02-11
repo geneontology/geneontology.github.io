@@ -41,6 +41,7 @@ Browse the GO FAQ by topic:
 - [General: Citing the GO](/docs/faq/#general-citing-the-go)
 - [Annotation](/docs/faq/#annotation)
 - [Ontology](/docs/faq/#ontology)
+- [PAN-GO Functionome](/docs/faq/#pan-go-functionome)
 - [AmiGO](/docs/faq/#amigo)
 - [GO-CAMs](/docs/faq/#go-cams)
 - [Enrichment Analysis (EA)](/docs/faq/#enrichment-analysis)
@@ -136,13 +137,9 @@ A detailed description of the process used to create the PAN-GO functionome, as 
 
 If you are working on human protein-coding genes, we recommend you use the PAN-GO Functionome. It is designed to be as accurate and comprehensive as possible, while also being concise (a minimally redundant set of GO terms for each gene). 
 
-<div class="faq-gif-row">
+<div class="faq-gif">
   <img src="{{ '/assets/functionome_allianceDL_intro.gif' | relative_url }}"
        alt="PAN-GO Functionome intro">
-  <img src="{{ '/assets/functionome_allianceDL_genesinfxncategory.gif' | relative_url }}"
-       alt="Genes in function category">
-  <img src="{{ '/assets/functionome_allianceDL_fxnforhumangene.gif' | relative_url }}"
-       alt="Function for human gene">
 </div>
 
 ---------------------------------------------------------------------------
@@ -906,6 +903,36 @@ FAQ tags: 
 Good principles of ontological design state that terms should represent biological entities that actually exist, e.g., functional activities that are catalyzed by enzymes, biological processes that are carried out in cells, specific locations or complexes in cells, etc. To adhere to these principles the Gene Ontology Consortium has removed the terms 'GO:0000004 biological process unknown', 'GO:0005554 molecular function unknown' and 'GO:0008372 cellular component unknown' from the ontology. The "unknown" terms violated this principle of sound ontological design because they did not represent actual biological entities but instead represented annotation status. Annotations to "unknown" terms distinguished between genes that were curated when no information was available and genes that were not yet curated (i.e., not annotated).
 
 Annotation status is now indicated by annotating to the root nodes, i.e. ['GO:0008150 biological_process'](http://amigo.geneontology.org/amigo/term/GO:0008150){:target="blank"}, ['GO:0003674 molecular_function'](http://amigo.geneontology.org/amigo/term/GO:0003674){:target="blank"}, or ['GO:0005575 cellular_component'](http://amigo.geneontology.org/amigo/term/GO:0005575){:target="blank"}. These annotations continue to signify that a given gene product is expected to have a molecular function, biological process, or cellular component, but that no information was available as of the date of annotation. Adhering to principles of correct ontology design should allow GO users to take advantage of existing tools and reasoning methods developed by the ontological community.
+
+---------------------------------------------------------------------------
+# <a id="pan-go-functionome"></a>PAN-GO Functionome
+---------------------------------------------------------------------------
+## How do I use the GO Function Category Distribution view in the PAN-GO Functionome?
+{::comment}
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I use the GO Function Category Distribution view in the PAN-GO Functionome?"></span>
+FAQ tags:
+
+[functionome](/faq-tags/functionome)
+{:/comment}
+
+<div class="faq-gif">
+  <img src="{{ '/assets/functionome_allianceDL_genesinfxncategory.gif' | relative_url }}"
+       alt="GO Function Category Distribution in the PAN-GO Functionome">
+</div>
+
+---------------------------------------------------------------------------
+## How do I find the functions of a specific human gene in the PAN-GO Functionome?
+{::comment}
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I find the functions of a specific human gene in the PAN-GO Functionome?"></span>
+FAQ tags:
+
+[functionome](/faq-tags/functionome)
+{:/comment}
+
+<div class="faq-gif">
+  <img src="{{ '/assets/functionome_allianceDL_fxnforhumangene.gif' | relative_url }}"
+       alt="Finding functions of a human gene in the PAN-GO Functionome">
+</div>
 
 ---------------------------------------------------------------------------
 # AmiGO
