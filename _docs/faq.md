@@ -1318,6 +1318,20 @@ UniProt and the [Protein Information Resource (PIR)](https://proteininformationr
 GO annotations from QuickGO can be filtered for many parameters and provide mappings to several IDs, e.g NCBI or Ensembl gene IDs: <http://www.ebi.ac.uk/QuickGO/GAnnotation>{:target="blank"}
 
 ---------------------------------------------------------------------------
+## What is the UniProt GCRP?
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="What is UniProt GCRP?"></span>
+FAQ tags: 
+
+[mappings](/faq-tags/mappings)
+{:/comment}
+
+UniProt **GCRP** stands for **Gene-Centric Reference Proteome**. It indicates a **gene-centered, minimally redundant protein set** for an organism, intended to provide **one representative UniProtKB protein sequence per protein-coding gene**. This helps reduce redundancy that can occur when many very similar genomes or annotations exist (common in bacteria and also seen across other taxa), making downstream analyses more consistent.
+
+GCRP is related to, but distinct from, a **Reference proteome**: a reference proteome is a representative proteome for a species, while **GCRP describes the gene-centric representation strategy** (one representative sequence per gene) within a proteome rather than attempting to enumerate all isoforms, variants, or strain-specific sequences.
+
+---------------------------------------------------------------------------
 ## Why are Interpro2go mappings not updated with GOA releases?
 {::comment}
 
