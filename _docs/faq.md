@@ -942,9 +942,9 @@ FAQ tags:
 
 If you already have a gene of interest and want a concise summary of its annotated functions, use the gene search and open the gene’s functionome view.
 
-Go to the PAN-GO Human Functionome site and use the search box (the page notes you can use **UniProt ID/AC, Gene Name, or Gene Symbols**). Select the matching gene from the results.
+Go to the PAN-GO Human Functionome site and use the search box to enter a **UniProt ID/AC**, **Gene Name**, or **Gene Symbol**. Select the matching gene from the results.
 
-The **Functions of Human Genes** table summarizes the gene’s functional characteristics using GO terms, organized by **Molecular Functions**, **Biological Processes**, and **Cellular Components**. For full details, click the gene name in the table (or the “View all functions and evidence” link) to open the gene’s detailed view, including supporting evidence for each annotation.
+The results page summarizes the gene’s functional characteristics using GO terms, organized by **Molecular Functions**, **Biological Processes**, and **Cellular Components**. For full details, click the gene name in the table to open the gene’s detailed view, including supporting evidence for each annotation.
 
 <div class="faq-gif">
   <img src="{{ '/assets/functionome_allianceDL_fxnforhumangene.gif' | relative_url }}"
