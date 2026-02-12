@@ -41,7 +41,7 @@ Browse the GO FAQ by topic:
 - [General: Citing the GO](/docs/faq/#general-citing-the-go)
 - [Annotation](/docs/faq/#annotation)
 - [Ontology](/docs/faq/#ontology)
-- [PAN-GO Functionome](/docs/faq/#pan-go-functionome)
+- [PAN-GO Functionome](#pan-go-functionome)
 - [AmiGO](/docs/faq/#amigo)
 - [GO-CAMs](/docs/faq/#go-cams)
 - [Enrichment Analysis (EA)](/docs/faq/#enrichment-analysis)
@@ -121,13 +121,14 @@ FAQ tags: 
 The current ontologies of the GO are molecular function, biological process, and cellular component. The ontologies are developed to include all terms falling into these domains without consideration of whether the biological attribute is restricted to certain taxonomic groups. Therefore, biological processes that occur only in plants (e.g. photosynthesis) or mammals (e.g. lactation) are included. Other biological ontologies are discussed in the [OBO web site](http://www.obofoundry.org/){:target="blank"}.
 
 ---------------------------------------------------------------------------
-## What is the PAN-GO Functionome?
+## <a id="pan-go-functionome-intro"></a>What is the PAN-GO Functionome?
 {::comment}
 
-<span class="rdf-meta element-hidden" property="dc:title" content="Which biological domains are supported by GO?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="What is the PAN-GO Functionome?"></span>
 FAQ tags: 
 
 [general](/faq-tags/general)
+[functionome](/faq-tags/functionome)
 {:/comment}
 
 The PAN-GO functionome is the set of all annotated functional characteristics ("Gene Ontology annotations") for human protein-coding genes, as determined by the PAN-GO (Phylogenetic ANnotation using Gene Ontology) project, a collaboration between the Gene Ontology Consortium and the PANTHER evolutionary tree resource. Each annotation is the result of expert biologist review, based on integration of experimental data for related genes using explicit evolutionary modeling. 
@@ -907,9 +908,13 @@ Annotation status is now indicated by annotating to the root nodes, i.e. ['GO:00
 ---------------------------------------------------------------------------
 # <a id="pan-go-functionome"></a>PAN-GO Functionome
 ---------------------------------------------------------------------------
-## How do I use the GO Function Category Distribution view in the PAN-GO Functionome?
+
+See also: [What is the PAN-GO Functionome?](#pan-go-functionome-intro)
+
+---------------------------------------------------------------------------
+## How do I use the GO Function Category view in the PAN-GO Functionome?
 {::comment}
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I use the GO Function Category Distribution view in the PAN-GO Functionome?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I use the GO Function Category view in the PAN-GO Functionome?"></span>
 FAQ tags:
 
 [functionome](/faq-tags/functionome)
@@ -917,7 +922,7 @@ FAQ tags:
 
 <div class="faq-gif">
   <img src="{{ '/assets/functionome_allianceDL_genesinfxncategory.gif' | relative_url }}"
-       alt="GO Function Category Distribution in the PAN-GO Functionome">
+       alt="GO Function Category in the PAN-GO Functionome">
 </div>
 
 ---------------------------------------------------------------------------
