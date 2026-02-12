@@ -912,27 +912,39 @@ Annotation status is now indicated by annotating to the root nodes, i.e. ['GO:00
 See also: [What is the PAN-GO Functionome?](#pan-go-functionome-intro)
 
 ---------------------------------------------------------------------------
-## How do I use the GO Function Category view in the PAN-GO Functionome?
+## How do I use the GO Function Category Distribution view in the PAN-GO Functionome?
 {::comment}
-<span class="rdf-meta element-hidden" property="dc:title" content="How do I use the GO Function Category view in the PAN-GO Functionome?"></span>
+<span class="rdf-meta element-hidden" property="dc:title" content="How do I use the GO Function Category Distribution view in the PAN-GO Functionome?"></span>
 FAQ tags:
 
 [functionome](/faq-tags/functionome)
 {:/comment}
 
+If you want to explore the PAN-GO Functionome *by topic* (rather than starting from a specific gene), the **GO Function Category** view lets you browse human genes grouped into broad functional groupings. A **function category** (also called a [GO subset](/docs/faq/#subsets)) is a high-level GO concept used to group genes by their annotated functions.
+
+For example, if you filter to the **chromosome** category, you will see genes with chromosome-related annotations, and you will not see genes that are only annotated to unrelated categories such as **cytoskeleton**.
+
+To browse by function category, go to the PAN-GO Human Functionome site and use the **Distribution of Genes by Function Category** interactive graph/filter. You can show or hide GO aspects (MF, BP, CC) and then click one or more categories in the graph to apply filters. The gene table updates to show only genes in the selected category (or categories). You can remove filters to broaden the results again.
+
 <div class="faq-gif">
   <img src="{{ '/assets/functionome_allianceDL_genesinfxncategory.gif' | relative_url }}"
-       alt="GO Function Category in the PAN-GO Functionome">
+       alt="GO Function Category Distribution view in the PAN-GO Functionome">
 </div>
 
 ---------------------------------------------------------------------------
 ## How do I find the functions of a specific human gene in the PAN-GO Functionome?
 {::comment}
 <span class="rdf-meta element-hidden" property="dc:title" content="How do I find the functions of a specific human gene in the PAN-GO Functionome?"></span>
-FAQ tags:
+FAQ tags: 
 
 [functionome](/faq-tags/functionome)
 {:/comment}
+
+If you already have a gene of interest and want a concise summary of its annotated functions, use the gene search and open the gene’s functionome view.
+
+Go to the PAN-GO Human Functionome site and use the search box (the page notes you can use **UniProt ID/AC, Gene Name, or Gene Symbols**). Select the matching gene from the results.
+
+The **Functions of Human Genes** table summarizes the gene’s functional characteristics using GO terms, organized by **Molecular Functions**, **Biological Processes**, and **Cellular Components**. For full details, click the gene name in the table (or the “View all functions and evidence” link) to open the gene’s detailed view, including supporting evidence for each annotation.
 
 <div class="faq-gif">
   <img src="{{ '/assets/functionome_allianceDL_fxnforhumangene.gif' | relative_url }}"
