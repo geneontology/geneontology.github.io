@@ -1497,7 +1497,7 @@ For current download information, please see:
  Please [contact us](https://help.geneontology.org/) if you cannot locate what you were looking for.
 
 
-If you are here because your file or source is no longer available, we invite you to follow us on [Twitter (@news4go)](https://twitter.com/news4go), [Facebook (/geneontology)](www.facebook.com/geneontology), [GitHub go-announcements repo](https://github.com/geneontology/go-announcements/issues) or join our [go-friends email list](https://help.geneontology.org/) to stay current with significant changes to the GO knowledgebase.
+If you are here because your file or source is no longer available, we invite you to follow us on [Twitter (@news4go)](https://twitter.com/news4go), [Facebook (/geneontology)](https://www.facebook.com/geneontology), [GitHub go-announcements repo](https://github.com/geneontology/go-announcements/issues) or join our [go-friends email list](https://help.geneontology.org/) to stay current with significant changes to the GO knowledgebase.
 
 ---------------------------------------------------------------------------
 # Database Access
