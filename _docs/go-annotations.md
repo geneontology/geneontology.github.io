@@ -122,7 +122,7 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 ## Access GO annotation data
 ### Downloading GO annotation files
 * Instructions on how to download [GO annotations for commonly studied organisms](/docs/download-go-annotations/#1-commonly-studied-organisms) 
-* How to download GAFs for [other species without official species-specific GO files](docs/download-go-annotations/#2-all-other-organisms)
+* How to download GAFs for [other species without official species-specific GO files](/docs/download-go-annotations/#2-all-other-organisms)
 
 <i class="fa-solid fa-lightbulb-o"></i> Looking for human data? The [PAN-GO human gene functionome GAF is available](https://functionome.geneontology.org/download/functionome_release.gaf.gz). More information about the PAN-GO Functionome [is available here](https://functionome.geneontology.org/about).
 
@@ -136,4 +136,4 @@ Current guidelines for each file format can be found at:
 
 #### Deprecated formats
 
-For older file formats, see [GO archives](/docs/go-archives.md#Deprecated-Annotation-formats).
+For older file formats, see [GO archives](/docs/go-archives/#Deprecated-Annotation-formats).

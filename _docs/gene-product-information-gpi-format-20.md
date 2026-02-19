@@ -56,7 +56,7 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
   + SGD:S000002164
   + MGI:MGI:1919306
 * The identifier may reference the canonical form of a gene or gene product including functional RNAs, as well as gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the corresponding canonical form must be referenced in Column 8 (Parent Protein) of the GPI file.
-   Note that not all **DB:Object_ID** are necessarily in the same ID space. Some groups use [RNA Central]([url](https://rnacentral.org/)) IDs for RNAs, some groups use [ComplexPortal]([url](https://www.ebi.ac.uk/complexportal)) IDs for protein complexes, and some groups use [Protein Ontology]([url](https://proconsortium.org/)) IDs for modified proteoforms. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
+   Note that not all **DB:Object_ID** are necessarily in the same ID space. Some groups use [RNA Central](https://rnacentral.org/) IDs for RNAs, some groups use [ComplexPortal](https://www.ebi.ac.uk/complexportal) IDs for protein complexes, and some groups use [Protein Ontology](https://proconsortium.org/) IDs for modified proteoforms. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
 * Cardinality = 1
 
 #### 2. Object Symbol
