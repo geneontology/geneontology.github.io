@@ -278,7 +278,7 @@ FAQ tags: 
 
 The most important criterion for GO Consortium membership is that the members contribute something to the collection of resources that we make available to the public (almost all members contribute annotations; several contribute to the ontologies; a few contribute software). The scientists involved in working with GO in these member groups communicate via the GO mailing lists and [GitHub](https://github.com/geneontology/){:target="blank"} to discuss development issues in the ontologies. If you represent a database that wishes to join the GO Consortium please [contact the GOC](http://help.geneontology.org/).
 
-Anyone with a more general interest in the GO should subscribe to the [Twitter feed](https://twitter.com/news4go){:target="blank"} (@news4go) to receive updates about the GO.
+Anyone with a more general interest in the GO should follow our [Bluesky (@geneontology.bsky.social)](https://bsky.app/profile/geneontology.bsky.social){:target="blank"} to receive updates about the GO.
 
 ---------------------------------------------------------------------------
 ## Who funds GO?
@@ -1497,7 +1497,7 @@ For current download information, please see:
  Please [contact us](https://help.geneontology.org/) if you cannot locate what you were looking for.
 
 
-If you are here because your file or source is no longer available, we invite you to follow us on [Twitter (@news4go)](https://twitter.com/news4go), [Facebook (/geneontology)](www.facebook.com/geneontology), [GitHub go-announcements repo](https://github.com/geneontology/go-announcements/issues) or join our [go-friends email list](https://help.geneontology.org/) to stay current with significant changes to the GO knowledgebase.
+If you are here because your file or source is no longer available, we invite you to follow us on [Bluesky (@geneontology.bsky.social)](https://bsky.app/profile/geneontology.bsky.social), [Facebook (/geneontology)](https://www.facebook.com/geneontology), [GitHub go-announcements repo](https://github.com/geneontology/go-announcements/issues) or join our [go-friends email list](https://help.geneontology.org/) to stay current with significant changes to the GO knowledgebase.
 
 ---------------------------------------------------------------------------
 # Database Access
