@@ -1,11 +1,12 @@
-<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/_pagefind/pagefind-ui.js"></script>
+<link href="{{ "/_pagefind/pagefind-ui.css" | relative_url }}" rel="stylesheet">
+<script src="{{ "/_pagefind/pagefind-ui.js" | relative_url }}"></script>
 <div id="search" role="search" aria-label="Site search"></div>
 <script>
   window.addEventListener('DOMContentLoaded', function() {
     new PagefindUI({
       element: "#search",
-      showSubResults: true
+      showSubResults: true,
+      bundlePath: "{{ "/_pagefind/" | relative_url }}"
     });
   });
 </script>
