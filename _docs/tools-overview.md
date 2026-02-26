@@ -46,9 +46,9 @@ The GO Ribbon is also integrated in the [Alliance of Genome Resources](https://w
 
 GO-Causal Activity Models (GO-CAMs) use a defined “grammar” for linking multiple [standard GO annotations](/docs/go-annotations/) into larger models of biological function (such as “pathways”) in a semantically structured manner. GO-CAMs are created by expert biocurators from the [GO Consortium](/docs/annotation-contributors/), using the [Noctua Curation Platform](http://noctua.geneontology.org){:target="blank"}.
 
-GO-CAMs can be browsed and searched in the [http://geneontology.org/go-cam](http://geneontology.org/go-cam){:target="blank"} section of this site. For example, you can limit your search results to GO-CAMs having a certain GO term, a certain gene, or created by a specific curation group or curator.
+GO-CAMs can be browsed and searched in the [GO-CAM Browser](http://geneontology.org/go-cam){:target="blank"}. For example, you can limit your search results to GO-CAMs having a certain GO term, a certain gene, or created by a specific curation group.
 
-[![GO-CAM example](/assets/GO-CAM-site-illustration.jpg)](https://go-cam-browser.geneontology.org/){:target="blank"}
+[![GO-CAM example](/assets/GO-CAM-site-illustration.png)](https://go-cam-browser.geneontology.org/){:target="blank"}
 
 ---
 

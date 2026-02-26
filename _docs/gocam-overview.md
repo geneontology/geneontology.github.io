@@ -39,3 +39,7 @@ GO-CAMs can be “decomposed” into the standard GO annotations (connecting a g
 ### Software
 
 Code handling the export of standard GO annotations from a GO-CAM model is provided by the open source [Minerva software](https://github.com/geneontology/minerva/){:target="blank"}, which is the data handling backend for Noctua. This code extracts an initial set of proposed standard GO annotations from a model, and then applies filters ensuring that appropriate metadata, such as an [ECO evidence code](http://www.evidenceontology.org/){:target="blank"}, is obtained for each annotation.
+
+## Browsing GO-CAMs
+
+The [GO-CAM Browser](https://go-cam-browser.geneontology.org/){:target="blank"} provides a faceted search interface to explore GO-CAM models. It displays GO-CAMs from the latest GO release. There are facets to filter by organism, gene product, GO terms, and more. A free-text search box allows finding GO-CAMs by title or gene product. As filters are applied, the URL updates, enabling users to share links to specific subsets of GO-CAMs. For example, this link shows GO-CAMs involving human gene products: [https://go-cam-browser.geneontology.org/?filter=organism:Homo+sapiens](https://go-cam-browser.geneontology.org/?filter=organism:Homo+sapiens).

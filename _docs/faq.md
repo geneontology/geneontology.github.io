@@ -1089,7 +1089,7 @@ Full documentation for downloading and installing AmiGO is [available on the GO 
 
 GO-CAM stands for Gene Ontology Causal Activity Model. GO-CAMs link
 multiple standard GO annotations into an integrated model of a biological
-system. More information can be found on the [GO-CAM site](http://geneontology.org/go-cam).
+system. More information can be found on the [Introduction to GO-CAMs](/docs/gocam-overview/) page.
 
 ---------------------------------------------------------------------------
 ## How does the information in GO-CAMs compare to existing pathway databases?
