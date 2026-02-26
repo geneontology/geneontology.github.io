@@ -36,7 +36,11 @@ bundle exec jekyll build
 The static files of the site will be stored in `_site`
 
 ## Search indexing
-Search is powered by [Pagefind](https://pagefind.app/) and indexed automatically during the GitHub Actions build. No manual indexing step is needed.
+Search is powered by [Pagefind](https://pagefind.app/) and indexed automatically during the GitHub Actions build. To build the search index locally after a Jekyll build:
+```
+npx pagefind@latest --site _site
+```
+This generates `_site/_pagefind/` containing the search index, JS, and CSS. You can then test search by serving the site (e.g. `python3 -m http.server -d _site`).
 
 ## Removing pages
 
