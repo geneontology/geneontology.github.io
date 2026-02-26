@@ -27,7 +27,7 @@ apt-get update && apt-get -u install bundler wget nodejs npm && make && bundler 
 Build the site and generate the [Pagefind](https://pagefind.app/) search index:
 ```
 bundle exec jekyll build
-npx pagefind@latest --site _site
+npx pagefind@1.4.0 --site _site
 ```
 
 Serve the site locally:
