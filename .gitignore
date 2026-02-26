@@ -45,7 +45,5 @@ _site
 .bundle
 vendor/bundle
 
-_algolia_api_key
-
 ## Transient data
 _data/gorefs.yaml
