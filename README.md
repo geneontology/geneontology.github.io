@@ -22,25 +22,19 @@ As a "shortcut"
 apt-get update && apt-get -u install bundler wget nodejs npm && make && bundler install && export LANG="C.UTF-8" && export LC_ALL="C.UTF-8"
 ```
 
-## Running (in docker image)
-```
-bundle exec jekyll serve
-```
-This will run a local instance of the jekyll server.
-The site will be available at: http://127.0.0.1:4000/ .
+## Building and testing locally (in docker image)
 
-## Building the site
+Build the site and generate the [Pagefind](https://pagefind.app/) search index:
 ```
 bundle exec jekyll build
-```
-The static files of the site will be stored in `_site`
-
-## Search indexing
-Search is powered by [Pagefind](https://pagefind.app/) and indexed automatically during the GitHub Actions build. To build the search index locally after a Jekyll build:
-```
 npx pagefind@latest --site _site
 ```
-This generates `_site/_pagefind/` containing the search index, JS, and CSS. You can then test search by serving the site (e.g. `python3 -m http.server -d _site`).
+
+Serve the site locally:
+```
+python3 -m http.server -d _site
+```
+The site will be available at http://localhost:8000/ . Re-run both commands above after making changes.
 
 ## Removing pages
 
