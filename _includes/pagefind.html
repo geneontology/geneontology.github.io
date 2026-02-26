@@ -1,0 +1,23 @@
+<link href="{{ "/_pagefind/pagefind-ui.css" | relative_url }}" rel="stylesheet">
+<script src="{{ "/_pagefind/pagefind-ui.js" | relative_url }}"></script>
+<div id="search" role="search" aria-label="Site search"></div>
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      bundlePath: "{{ "/_pagefind/" | relative_url }}"
+    });
+  });
+</script>
+<style>
+  :root {
+    --pagefind-ui-border-radius: 25px;
+  }
+  .pagefind-ui__search-input {
+    border-radius: 25px !important;
+  }
+  .pagefind-ui {
+    max-width: 100%;
+  }
+</style>

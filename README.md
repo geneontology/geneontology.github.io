@@ -10,7 +10,7 @@ As versions have rather moved on at this point, we can still reproduce our desir
 git clone https://github.com/geneontology/geneontology.github.io.git
 cd geneontology.github.io
 docker run --network host -v `pwd`:'/work' -w /work -i -t ubuntu:noble /bin/bash
-apt-get update && apt-get -u install bundler wget
+apt-get update && apt-get -u install bundler wget nodejs npm
 make
 bundler install
 export LANG="C.UTF-8"
@@ -19,27 +19,22 @@ export LC_ALL="C.UTF-8"
 
 As a "shortcut"
 ```
-apt-get update && apt-get -u install bundler wget && make && bundler install && export LANG="C.UTF-8" && export LC_ALL="C.UTF-8"
+apt-get update && apt-get -u install bundler wget nodejs npm && make && bundler install && export LANG="C.UTF-8" && export LC_ALL="C.UTF-8"
 ```
 
-## Running (in docker image)
-```
-bundle exec jekyll serve
-```
-This will run a local instance of the jekyll server.
-The site will be available at: http://127.0.0.1:4000/ .
+## Building and testing locally (in docker image)
 
-## Building the site
+Build the site and generate the [Pagefind](https://pagefind.app/) search index:
 ```
 bundle exec jekyll build
+npx pagefind@1.4.0 --site _site
 ```
-The static files of the site will be stored in `_site`
 
-## Indexing the pages
+Serve the site locally:
 ```
-ALGOLIA_API_KEY=admin_key bundle exec jekyll algolia
+python3 -m http.server -d _site
 ```
-This will index all markdown pages using [algolia](https://www.algolia.com). The pages to be indexed (or not indexed) as well as the tag elements can be configured in `_config.yml`
+The site will be available at http://localhost:8000/ . Re-run both commands above after making changes.
 
 ## Removing pages
 

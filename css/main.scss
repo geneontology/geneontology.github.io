@@ -19,8 +19,7 @@ $headings-font-weight: 400;
     "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
   {% endif %}
 
-  "syntax-highlighting",
-  "typeahead"
+  "syntax-highlighting"
 ;
 
 .navbar {

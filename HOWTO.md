@@ -74,16 +74,7 @@ All changes made on the master branch of this repository should reflect after a 
 When this site is deployed in production, it will also be accessible through the usual [https://geneontology.org](https://geneontology.org)
 
 ## Search capabilities
-The current version of the site uses [Algolia Search](https://www.algolia.com) that create indexes of all pages. Two useful documentations:
-* https://community.algolia.com/jekyll-algolia/getting-started.html
-* https://community.algolia.com/jekyll-algolia/blog.html
-
-Note: to stay in sync, the index should be updated anytime a new documentation is modified. This could be achieved through some [webhook](https://forestry.io/blog/search-with-algolia-in-jekyll/).
-
-The manual command to update the index is:
-```
-ALGOLIA_API_KEY=ENTER_ADMIN_API_KEY bundle exec jekyll algolia
-```
+Site search is powered by [Pagefind](https://pagefind.app/), a static search engine that runs entirely client-side. The search index is generated automatically during the GitHub Actions build — no manual indexing step is needed.
 
 
 ## Other useful links
