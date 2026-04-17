@@ -851,23 +851,23 @@ FAQ tags:
 [annotation](/faq-tags/annotation)
 {:/comment}
 
-GO cellular component terms describe **where** a gene product is located and acts, rather than describing the physical features of proteins.
+GO cellular component terms describe **where** a gene product is active, rather than describing the physical features of proteins. For membrane proteins, the topology of the protein or  must be taken into account. 
 
 **How GO represents membrane locations:**
-Based on experimental evidence, you'll find proteins annotated to specific membrane locations, such as:
+ Transmembrane and anchor proteins are annotated to the membrane itself, such as:
 - [plasma membrane](http://amigo.geneontology.org/amigo/term/GO:0005886) (GO:0005886)
 - [nuclear membrane](http://amigo.geneontology.org/amigo/term/GO:0031965) (GO:0031965)  
 - [mitochondrial membrane](http://amigo.geneontology.org/amigo/term/GO:0031966) (GO:0031966)
 - [endoplasmic reticulum membrane](http://amigo.geneontology.org/amigo/term/GO:0005789) (GO:0005789)
 
 **Membrane sides:**
-Some proteins work on specific sides of membranes, so GO includes terms related to [side of membrane](http://amigo.geneontology.org/amigo/term/GO:0098552) (GO:0098552) to allow annotations to the more specific child terms such as:
+Proteins and protein complexes that are loosely bound to a membrane surface, but are not integrated into the hydrophobic region should be annotated to child terms of [side of membrane](http://amigo.geneontology.org/amigo/term/GO:0098552) (GO:0098552). These annotations are unique as they rely on topological (HMMs, known transmembrane domains or anchors, etc.) as well as experimental evidence. For example, a protein associated with the plasma membrane should be annotated to one of:
 - [cytoplasmic side of plasma membrane](http://amigo.geneontology.org/amigo/term/GO:0009898) (GO:0009898)
 - [external side of plasma membrane](http://amigo.geneontology.org/amigo/term/GO:0009897) (GO:0009897)
 
-**What you'll see in GO annotations:** Proteins are typically annotated to the **most specific location term** that experimental evidence supports. For example, if research shows a protein works on the cytoplasmic side of the plasma membrane, it will be annotated to that specific term.
+**What you'll see in GO annotations:** Proteins are typically annotated to the **most specific location term** that the evidence supports. For example, if research shows a protein functions on the cytoplasmic side of the plasma membrane and the topology shows the protein is not transmembrane, it should be annotated to that specific term.
 
-**What GO doesn't include:** You won't find terms like "type I membrane protein" in GO because these describe how a protein is structured rather than where it's located. Some older terms like "integral to membrane" have been updated to better reflect current understanding of cellular organization.
+**What GO doesn't include:** You won't find terms like "type I membrane protein" in GO, because these describe how a protein is structured rather than where it's located. Some older terms like "integral to membrane" have been updated to better reflect current understanding of cellular organization.
 
 **For researchers:** When searching GO or interpreting results, keep in mind that GO annotations are based on available published evidence rather than providing comprehensive coverage of all protein functions and locations.
 
