@@ -87,13 +87,30 @@ def generate_table_row(org, code):
     taxonomic_group_id = org.get('taxonomic_group', '')
     taxonomic_group = get_taxonomic_group_name(taxonomic_group_id)
 
+    # As of the EBI GOEx filename simplification (go-site#2681) the
+    # pipeline publishes SPECIES-{uniprot,mod}.<ext>.gz under
+    # annotations/{gaf,gpad,gpi}/. Every species has a -uniprot variant;
+    # only MOD-managed species (goex.yaml group != UniProt) also get -mod.
+    base = 'https://skyhook.geneontology.io/pipeline-from-goa/main/annotations'
+    is_mod = bool(org.get('group')) and org.get('group') != 'UniProt'
+
+    if is_mod:
+        mod_cell = (f'<a href="{base}/gaf/{code}-mod.gaf.gz">'
+                    f'{code}-mod.gaf.gz</a>')
+    else:
+        mod_cell = '&mdash;'
+    uniprot_cell = (f'<a href="{base}/gaf/{code}-uniprot.gaf.gz">'
+                    f'{code}-uniprot.gaf.gz</a>')
+    gpi_cell = (f'<a href="{base}/gpi/{code}-uniprot.gpi.gz">'
+                f'{code}-uniprot.gpi.gz</a>')
+
     return f'''        <tr>
           <td>{full_name}</td>
           <td>{common_name}</td>
           <td>{taxonomic_group}</td>
-          <td><a href="https://skyhook.geneontology.io/pipeline-from-goa/main/annotations/{code}.gaf.gz">{code}.gaf.gz</a></td>
-          <td><a href="https://skyhook.geneontology.io/pipeline-from-goa/main/annotations/{code}-uniprot.gaf.gz">{code}-uniprot.gaf.gz</a></td>
-          <td><a href="https://ftp.ebi.ac.uk/pub/contrib/goa/goex/current/gpi/{code}.gpi.gz">{code}.gpi.gz</a></td>
+          <td>{mod_cell}</td>
+          <td>{uniprot_cell}</td>
+          <td>{gpi_cell}</td>
         </tr>'''
 
 
