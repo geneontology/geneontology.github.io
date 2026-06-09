@@ -18,6 +18,8 @@ This page has instructions for getting GO annotations for almost any organism. I
 Jump to a section:
 - [Commonly studied organisms](/docs/download-go-annotations/#1-commonly-studied-organisms)
 - [All other organisms](/docs/download-go-annotations/#2-all-other-organisms)
+- [Can't find annotations](/docs/download-go-annotations/#3-if-you-cannot-find-annotations-for-your-organism-for-download-as-described-above)
+- [Genome not available](/docs/download-go-annotations/#4-if-your-organisms-genome-sequence-is-not-yet-publicly-available)
 
 #### Required Files
 Most tools that use GO annotations take two input files: 
@@ -33,9 +35,9 @@ To ensure reproducibility for any publication where GO was used at any point in 
 * the date on the header of the GAF file
 * the ontology version number
 
-### [1. Commonly studied organisms](http://current.geneontology.org/products/pages/downloads.html)
-[This GAF download page has annotations for selected commonly-studied species](http://current.geneontology.org/products/pages/downloads.html).
-
+### 1. Commonly studied organisms
+[Download annotations for commonly-studied species here](http://current.geneontology.org/products/pages/downloads.html).
+<i class="fa fa-download"></i> **[Download GAF annotation files for commonly-studied species](http://current.geneontology.org/products/pages/downloads.html)**
 For organisms with many expert-curated GO annotations (those with MODs, dedicated databases, etc.), we recommend downloading annotations from the links in the above-linked table. These organisms often have a large number of manual annotations supported by direct experimental evidence as well as annotations based on other evidence types.
 <!-- * Most of these have two downloads available, one with the full set of GO annotations, and one with only the “core” function annotations (PAN-GO) for each organism. /-->
 * These annotations should be used with the [latest version of the GO ontology](http://current.geneontology.org/ontology/index.html).
@@ -77,10 +79,14 @@ Download InterProScan at [https://www.ebi.ac.uk/interpro/about/interproscan](htt
   + [GPAD](/docs/gene-product-association-data-gpad-format/) + [GPI](/docs/gene-product-information-gpi-format/) companion files
 
 ## Programmatic access to GO annotations
-As with any GO resource, GO annotations are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}. 
-+ Access the full bundle of the current release or any other archived release at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166 "DOI versioned BDBag"){:target="_blank"}.
-   + DOI-versioned archives of each monthly GO release from `2018-08-09` are available through [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}
-   + Releases from 2004-03-01 to present are also available in our [Archives](http://release.geneontology.org/).
+
+GO annotations are accessible through DOI-versioned releases stored in Zenodo:
+
++ **Full data bundles:** Access the complete archive of the current release or any archived release from `2018-07-02` onward at [Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166){:target="_blank"}
+
++ **Release references:** DOI-versioned references for each monthly GO release from `2018-08-09` onward are available through [Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159){:target="_blank"}
+
++ **Older releases:** Releases from `2004-03-01` onward are also available in our [Archives](http://release.geneontology.org/){:target="_blank"}
 
 ## Error or omission?
 Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](http://help.geneontology.org/){:target="blank"}.
