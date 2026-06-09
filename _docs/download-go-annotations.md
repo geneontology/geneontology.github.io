@@ -84,11 +84,12 @@ Download InterProScan at [https://www.ebi.ac.uk/interpro/about/interproscan](htt
 
 GO annotations are accessible through DOI-versioned releases stored in Zenodo:
 
-+ <i class="fa fa-archive"></i> **Full data bundles:** Access the complete archive of the current release or any archived release from `2018-07-02` onward at **[Zenodo - record 1205166](https://doi.org/10.5281/zenodo.1205166){:target="_blank"}**
++ [<i class="fa fa-archive"></i> **Full data bundles**](https://doi.org/10.5281/zenodo.1205166){:target="_blank"}: Access the complete archive of the current release or any archived release from `2018-07-02` onward
 
-+ <i class="fa fa-list"></i> **Release references:** DOI-versioned references for each monthly GO release from `2018-08-09` onward are available through **[Zenodo - record 1205159](https://doi.org/10.5281/zenodo.1205159){:target="_blank"}**
-
-+ <i class="fa fa-folder-open"></i> **Older releases:** Releases from `2004-03-01` onward are also available in our **[Archives](http://release.geneontology.org/){:target="_blank"}**
++ [<i class="fa fa-list"></i> **Release references**](https://doi.org/10.5281/zenodo.1205159){:target="_blank"}: DOI-versioned references for each monthly GO release from `2018-08-09` onward
+  
++ [<i class="fa fa-folder-open"></i> **Older releases**](http://release.geneontology.org/){:target="_blank"}: Releases from `2004-03-01` onward are also available
 
 ## Error or omission?
-Any errors or omissions in annotations should be reported by writing to the <i class="fa fa-question-circle"></i> **[GO helpdesk](http://help.geneontology.org/){:target="blank"}**.
+
+Any errors or omissions in annotations should be reported by [<i class="fa fa-question-circle"></i> **writing to the GO helpdesk**](http://help.geneontology.org/){:target="blank"}.
