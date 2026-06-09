@@ -122,11 +122,11 @@ Overall [GO statistics](https://geneontology.org/stats.html) and [detailed stati
 ---
 ## Access GO annotation data
 
-**Download files:** <i class="fa fa-download"></i> **[Human PAN-GO](https://functionome.geneontology.org/download/functionome_release.gaf.gz)** | <i class="fa fa-external-link"></i> **[Common organisms](/docs/download-go-annotations/#1-commonly-studied-organisms)** | <i class="fa fa-external-link"></i> **[Other species](/docs/download-go-annotations/#2-all-other-organisms)**
+**Download annotation files:**
+<i class="fa fa-download"></i> **[Human PAN-GO](https://functionome.geneontology.org/download/functionome_release.gaf.gz)** | <i class="fa fa-external-link"></i> **[Common organisms](/docs/download-go-annotations/#1-commonly-studied-organisms)** | <i class="fa fa-external-link"></i> **[Other species](/docs/download-go-annotations/#2-all-other-organisms)**
 
-**File format info:** [GAF 2.2](/docs/go-annotation-file-gaf-format-2.2/) | [GPAD 2.0](/docs/gene-product-association-data-gpad-format) | [GPI 2.0](/docs/gene-product-information-gpi-format-2.0/)
+**File format guide:**
+[GAF 2.2](/docs/go-annotation-file-gaf-format-2.2/) (recommended format) | [GPAD 2.0](/docs/gene-product-association-data-gpad-format) + [GPI 2.0](/docs/gene-product-information-gpi-format-2.0/) (companion files for specialized use)
 
-<!--* Download [GO-CAM models](https://geneontology.org/go-cam){:target="_blank"} /-->
-#### Deprecated formats
-
-For older file formats, see [GO archives](/docs/go-archives/#Deprecated-Annotation-formats).
+**Older formats:**
+<i class="fa fa-external-link"></i> **[GO archives](/docs/go-archives/#Deprecated-Annotation-formats)**
