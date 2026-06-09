@@ -7,7 +7,7 @@ redirect_from:
 - /GO.downloads.ontology.shtml
 ---
 
-# Gene ontology files
+# Download the ontology 
 Gene ontology file formats: Files are available in the [OBO](https://owlcollab.github.io/oboformat/doc/obo-syntax.html){:target="_blank"}, [OWL](https://www.w3.org/TR/owl2-overview/){:target="_blank"} and JSON formats.
 Three versions of the ontology are available as described below.
 
