@@ -117,28 +117,26 @@ def generate_table_row(org, code):
 def generate_tables(organisms):
     """Generate both Common Model Organisms and All Organisms tables"""
 
-    # Define common model organisms
-    common_organisms = [
-        'CAEEL',  # Caenorhabditis elegans
-        'DANRE',  # Danio rerio
-        'DROME',  # Drosophila melanogaster
-        'HUMAN',  # Homo sapiens
-        'MOUSE',  # Mus musculus
-        'RAT',    # Rattus norvegicus
-        'YEAST',  # Saccharomyces cerevisiae
-        'SCHPO',  # Schizosaccharomyces pombe
-        'XENLA',  # Xenopus laevis
-    ]
-
-    # Sort organisms by full_name
+    # Sort organisms by full_name (used by the All Organisms table).
     organisms_sorted = sorted(organisms, key=lambda x: x.get('full_name', ''))
 
+    # "Common Model Organisms" = every MOD-managed species (goex.yaml
+    # group != UniProt -- i.e. the ones that also get a -mod file), plus HUMAN.
+    # HUMAN is listed first; the rest keep the by-full_name order.
+    def is_mod(org):
+        grp = org.get('group', '')
+        return bool(grp) and grp != 'UniProt'
+
+    common_orgs = [o for o in organisms
+                   if is_mod(o) or o.get('code_uniprot', '') == 'HUMAN']
+    common_orgs.sort(key=lambda o: (
+        0 if o.get('code_uniprot', '') == 'HUMAN' else 1,
+        o.get('full_name', ''),
+    ))
+
     # Generate Common Model Organisms table
-    common_rows = []
-    for org in organisms_sorted:
-        code = org.get('code_uniprot', '')
-        if code in common_organisms:
-            common_rows.append(generate_table_row(org, code))
+    common_rows = [generate_table_row(o, o.get('code_uniprot', ''))
+                   for o in common_orgs]
 
     common_table = f'''  <h2>Common Model Organisms</h2>
   <div class="table-responsive">
@@ -168,8 +166,14 @@ def generate_tables(organisms):
 
     all_table = f'''
   <h2>All Organisms</h2>
+  <p>
+    <input type="text" id="species-filter"
+           placeholder="Filter species by name, code, or group&hellip;"
+           onkeyup="filterSpecies()" aria-label="Filter species"
+           style="width: 100%; max-width: 420px; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px;">
+  </p>
   <div class="table-responsive">
-    <table class="table table-striped table-hover">
+    <table class="table table-striped table-hover" id="all-organisms-table">
       <thead>
         <tr>
           <th>Organism</th>
@@ -184,7 +188,16 @@ def generate_tables(organisms):
 {chr(10).join(all_rows)}
       </tbody>
     </table>
-  </div>'''
+  </div>
+  <script>
+  function filterSpecies() {{
+    var q = document.getElementById('species-filter').value.toLowerCase();
+    var rows = document.querySelectorAll('#all-organisms-table tbody tr');
+    rows.forEach(function (row) {{
+      row.style.display = (row.textContent.toLowerCase().indexOf(q) !== -1) ? '' : 'none';
+    }});
+  }}
+  </script>'''
 
     return common_table + all_table
 
