@@ -474,11 +474,11 @@ FAQ tags: 
 [general](/faq-tags/general)
 {:/comment}
 
-Annotations from GO Consortium member groups can be [downloaded here](http://current.geneontology.org/products/pages/downloads.html){:target="blank"}.  These are taxon-specific, although some have multiple taxons in the file.  For example, the [CGD GAF](http://current.geneontology.org/annotations/cgd.gaf.gz) includes several *Candida* as well as *Debaryomyces hansenii* and *Lodderomyces elongisporus*.
+Annotations from GO Consortium member groups can be [downloaded here](/docs/download-go-annotations/downloads/).  These are taxon-specific, although some have multiple taxons in the file.  For example, the [CGD GAF](http://current.geneontology.org/annotations/cgd.gaf.gz) includes several *Candida* as well as *Debaryomyces hansenii* and *Lodderomyces elongisporus*.
 
 If your organism is included in a multi-organism file, and you would like to extract just your organism of interest, you can filter by taxon.  [Verify your taxon ID](https://www.uniprot.org/help/taxonomy){:target="blank"} and refer to the [file format guides](/docs/go-annotations/#types-of-go-annotation-files) under "Types of GO annotation files" to determine which column to sort on.
 
-If your organism is not available from our [downloads page](http://current.geneontology.org/products/pages/downloads.html){:target="blank"}, you can [use AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} to view or download annotations.  Filter for your taxon under "Organism"; [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} allows users to download up to 100,000 annotations.  [QuickGO](https://www.ebi.ac.uk/QuickGO/annotations){:target="blank"} is EMBL-EBI's GO browser and has a download limit of 2,000,000.
+If your organism is not available from our [downloads page](/docs/download-go-annotations/downloads/), you can [use AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} to view or download annotations.  Filter for your taxon under "Organism"; [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} allows users to download up to 100,000 annotations.  [QuickGO](https://www.ebi.ac.uk/QuickGO/annotations){:target="blank"} is EMBL-EBI's GO browser and has a download limit of 2,000,000.
 Please see our FAQ on [AmiGO and QuickGO data](/docs/faq/#what-are-the-differences-between-the-data-available-in-amigo-and-those-on-quickgo), [software to browse the GO](/docs/faq/#where-can-i-find-software-to-allow-me-to-browse-the-go-terms-and-annotations) and [finding species that are not available in AmiGO](/docs/faq/#how-do-i-find-all-annotations-for-species-x-that-i-cant-find-in-amigo).
 
 
