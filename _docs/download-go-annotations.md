@@ -15,7 +15,7 @@ redirect_from:
 
 This page has instructions for getting GO annotations for almost any organism. If your organism is not available from these main sources:
 
-* <i class="fa fa-download"></i> **[Official GO products](http://current.geneontology.org/products/pages/downloads.html)**
+* <i class="fa fa-download"></i> **[Official GO products](/docs/download-go-annotations/downloads/)**
 * <i class="fa fa-external-link"></i> **[UniProt GAFs by proteome](https://ftp.ebi.ac.uk/pub/databases/GO/goa/proteomes/){:target="_blank"}**  
 * <i class="fa fa-external-link"></i> **[NCBI RefSeq](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/){:target="_blank"}**
 
@@ -42,7 +42,7 @@ To ensure reproducibility for any publication where GO was used at any point in 
 * the ontology version number
 
 ### 1. Commonly studied organisms
-<i class="fa fa-download"></i> **[Download GAF annotation files for commonly-studied species](http://current.geneontology.org/products/pages/downloads.html)**
+<i class="fa fa-download"></i> **[Download GAF annotation files for commonly-studied species](/docs/download-go-annotations/downloads/)**
 
 For organisms with many expert-curated GO annotations (those with MODs, dedicated databases, etc.), we recommend downloading annotations from the links in the above-linked table. These organisms often have a large number of manual annotations supported by direct experimental evidence as well as annotations based on other evidence types.
 <!-- * Most of these have two downloads available, one with the full set of GO annotations, and one with only the “core” function annotations (PAN-GO) for each organism. /-->
