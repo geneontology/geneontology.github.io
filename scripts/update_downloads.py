@@ -91,7 +91,9 @@ def generate_table_row(org, code):
     # pipeline publishes SPECIES-{uniprot,mod}.<ext>.gz under
     # annotations/{gaf,gpad,gpi}/. Every species has a -uniprot variant;
     # only MOD-managed species (goex.yaml group != UniProt) also get -mod.
-    base = 'https://skyhook.geneontology.io/pipeline-from-goa/main/annotations'
+    # Link to current.geneontology.org -- THE canonical source of truth for a
+    # release (not the rolling skyhook build, not EBI upstream).
+    base = 'https://current.geneontology.org/annotations'
     is_mod = bool(org.get('group')) and org.get('group') != 'UniProt'
 
     if is_mod:
@@ -202,12 +204,14 @@ def generate_tables(organisms):
     return common_table + all_table
 
 
-def generate_downloads_html(new_tables, output_file='downloads.html'):
-    """Generate complete downloads.html file"""
+def generate_downloads_html(new_tables,
+                            output_file='_docs/download-go-annotations-downloads.html'):
+    """Generate the Jekyll downloads page served at
+    /docs/download-go-annotations/downloads/ (run from the repo root)."""
 
     html_content = f'''---
-layout: default
-title: Downloads
+title: Download annotations by organism
+permalink: /docs/download-go-annotations/downloads/
 ---
 
 <div class="container">
