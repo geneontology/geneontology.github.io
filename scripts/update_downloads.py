@@ -90,11 +90,17 @@ def generate_table_row(org, code):
     # As of the EBI GOEx filename simplification (go-site#2681) the
     # pipeline publishes SPECIES-{uniprot,mod}.<ext>.gz under
     # annotations/{gaf,gpad,gpi}/. Every species has a -uniprot variant;
-    # only MOD-managed species (goex.yaml group != UniProt) also get -mod.
+    # only species whose gene products use a MOD ID space also get a -mod file.
+    # Key that off goex.yaml `mod_id_space` (the required gene-product namespace):
+    # != UniProtKB <=> a -mod file exists. `group` (the annotation authority) is
+    # NOT a reliable proxy -- a CGD-authority species can still be UniProtKB-only
+    # (empty/absent -mod), which made group over-emit broken -mod links for
+    # CANO9/CANTT/CLAL4/PICGU (go-site#2711, #2713). goex.yaml is the source of
+    # truth here -- no file cross-check.
     # Link to current.geneontology.org -- THE canonical source of truth for a
     # release (not the rolling skyhook build, not EBI upstream).
     base = 'https://current.geneontology.org/annotations'
-    is_mod = bool(org.get('group')) and org.get('group') != 'UniProt'
+    is_mod = (org.get('mod_id_space') or 'UniProtKB') != 'UniProtKB'
 
     if is_mod:
         mod_cell = (f'<a href="{base}/gaf/{code}-mod.gaf.gz">'
@@ -123,11 +129,10 @@ def generate_tables(organisms):
     organisms_sorted = sorted(organisms, key=lambda x: x.get('full_name', ''))
 
     # "Common Model Organisms" = every MOD-managed species (goex.yaml
-    # group != UniProt -- i.e. the ones that also get a -mod file), plus HUMAN.
-    # HUMAN is listed first; the rest keep the by-full_name order.
+    # mod_id_space != UniProtKB -- i.e. the ones that also get a -mod file), plus
+    # HUMAN. HUMAN is listed first; the rest keep the by-full_name order.
     def is_mod(org):
-        grp = org.get('group', '')
-        return bool(grp) and grp != 'UniProt'
+        return (org.get('mod_id_space') or 'UniProtKB') != 'UniProtKB'
 
     common_orgs = [o for o in organisms
                    if is_mod(o) or o.get('code_uniprot', '') == 'HUMAN']
