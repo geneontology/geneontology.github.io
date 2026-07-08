@@ -1602,12 +1602,16 @@ FAQ tags:
 [annotation](/faq-tags/annotation)
 {:/comment}
 
-In June 2026, we updated our file organization and naming system to make GO annotation files more consistent and easier to use.
+In June 2026, we updated our file organization and naming system to make GO annotation files more consistent and easier to use. **What changed:**
+
+| Old URL example | New URL example|
+|----------|----------|
+| `https://current.geneontology.org/annotations/goa_human.gaf.gz` | `https://current.geneontology.org/annotations/gaf/HUMAN-uniprot.gaf.gz` |
 
 **Key changes:**
 - **New URL structure:** Files now organized by type (`/gaf`, `/gpad`, `/gpi` folders)
 - **Standardized naming:** Files use UniProt organism codes (e.g., `HUMAN-uniprot.gaf.gz` instead of `goa_human.gaf.gz`)
-- **Separate species files:** Multi-species files (Xenbase, CGD) split into individual organism files
+- **Separate species files:** Multi-species files from Xenbase & CGD split into individual organism files
 - **Two options for Model Organisms:** MOD files available in both MOD-centric (`DANRE-mod.gaf.gz`) and UniProt-centric (`DANRE-uniprot.gaf.gz`) versions
 
 **Migration timeline:**
