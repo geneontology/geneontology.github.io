@@ -544,6 +544,29 @@ Most annotations in association files are electronically inferred (IEA). As with
 However, if you think that an observed change in the size of an annotation file cannot be explained by any of the above, and suspect a bug, please contact us using our [Contact Form](http://geneontology.org/form/contact-go).
 
 ---------------------------------------------------------------------------
+## Why have the number of electronic annotations (IEA) changed in 2026?
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="Why have the number of electronic annotations (IEA) changed in 2026?"></span>
+FAQ tags: 
+
+[annotation](/faq-tags/annotation)
+{:/comment}
+
+The GO Consortium is updating how we generate electronic annotations to improve accuracy and coverage. As part of aligning the EBI-GOA (QuickGO) and GO Central (AmiGO) pipelines, we've made several changes that affect the electronic annotations (IEA):
+
+**Key changes in 2026:**
+- **Keywords2GO pipeline retired** for most species, but remains active for viruses (NCBITaxon:10239)
+- **New annotation sources added** from PAN-GO, TreeGrafter, and ARBA projects
+
+**What to expect:**
+You may notice increases or decreases in IEA counts for specific organisms as we optimize annotation quality. These changes reflect our commitment to providing the most accurate and valuable GO annotations.
+
+**If you notice significant changes** that affect your work, please [contact us](http://help.geneontology.org/) with specific details about the organism and annotation changes you've observed.
+
+*Note: Additional pipeline updates will continue throughout 2026.*
+
+---------------------------------------------------------------------------
 ## What is the difference between the filtered_goa_uniprot_all.gaf and filtered_goa_uniprot_all_noiea.gaf?
 ## <a name="filtered_gaf"></a>Why can't I find my organism in the GOA UniProt_All gene association files, doesn't this GAF contain all annotations?
 {::comment}
@@ -1565,6 +1588,35 @@ FAQ tags: 
 AmiGO and the GO relational database servers are a shared resource and thus we require data mining to be performed in a manner that allows others to utilize this resource at the same time. Any activity that mines the GO database or uses AmiGO must be controlled so that only one request is made at a time. If this is not sufficient, you may download and install the database locally. You can also retrieve all the source files that define the data within the database. More details on the database, including downloads and installation, can be found in the GO [database guide](/page/lead-database-guide).
 
 For more information please contact the [GO helpdesk](/form/contact-go).
+
+---------------------------------------------------------------------------
+
+## What GO annotation file URLs changed in mid 2026? Why?
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="Why are GO annotation file URLs changing in 2026?"></span>
+FAQ tags: 
+
+[downloads](/faq-tags/downloads)
+
+[annotation](/faq-tags/annotation)
+{:/comment}
+
+In June 2026, we updated our file organization and naming system to make GO annotation files more consistent and easier to use.
+
+**Key changes:**
+- **New URL structure:** Files now organized by type (`/gaf`, `/gpad`, `/gpi` folders)
+- **Standardized naming:** Files use UniProt organism codes (e.g., `HUMAN-uniprot.gaf.gz` instead of `goa_human.gaf.gz`)
+- **Separate species files:** Multi-species files (Xenbase, CGD) split into individual organism files
+- **Two options for Model Organisms:** MOD files available in both MOD-centric (`DANRE-mod.gaf.gz`) and UniProt-centric (`DANRE-uniprot.gaf.gz`) versions
+
+**Migration timeline:**
+- **June 2026:** New URLs went live
+- **July 2026:** Old URLs still work (one month grace period)
+- **July-September 2026:** Old URLs redirect to new locations
+- **After September 2026:** Old URLs no longer functional
+
+**Need help?** Check our [URL mapping table](https://github.com/geneontology/pipeline-from-goa/blob/main/docs/annotations-mapping.md) or [contact us](http://help.geneontology.org/) if you need assistance updating your data pipelines.
 
 ---------------------------------------------------------------------------
 ## I want to use the database files but...
