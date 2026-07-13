@@ -6,18 +6,15 @@ permalink: /docs/download-go-cams/
 # Download Causal Activity Models
 
 ## GO-CAM download links
-+ [Pathway-like GO-CAMs](http://current.geneontology.org/products/ttl/pathway-like_go-cams.tar.gz) as TTLs
++ [GO-CAM JSON](https://current.geneontology.org/go-cams/json/) — one JSON file per GO-CAM, in the user-friendly GO-CAM JSON format
++ DEPRECATED [Pathway-like GO-CAMs](http://current.geneontology.org/products/ttl/pathway-like_go-cams.tar.gz) as TTLs
 
-<!--- + [GO-CAM TTLs](https://s3.amazonaws.com/geneontology-public/gocam/GO-CAMs.ttl.zip) --->
-+ [GO-CAM JNL](http://current.geneontology.org/products/blazegraph/blazegraph-production.jnl.gz)
-+ [GO-CAM JSON](https://current.geneontology.org/go-cams/json/index.html) — one JSON file per GO-CAM, in the user-friendly GO-CAM JSON format
 
 
 ## About GO-CAM formats
 + Available formats:
-  + [RDF Turtle (TTL)](https://www.w3.org/TR/turtle/){:target="blank"}, a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes.
-  + [BlazeGraph Journal (JNL)](https://www.blazegraph.com/){:target="blank"}, The graph store for GO-CAMs using Blazegraph; this data product is currently deprecated. See also the [GO and RDF/SPARQL guide](/docs/sparql)
   + [GO-CAM JSON](https://geneontology.github.io/gocam-py/){:target="blank"}, a user-friendly, LinkML-defined JSON serialization of GO-CAM models. This is the recommended format for most programmatic users; the schema is documented in the [gocam-py documentation](https://geneontology.github.io/gocam-py/){:target="blank"}.
+  + DEPRECATED [RDF Turtle (TTL)](https://www.w3.org/TR/turtle/){:target="blank"}, a textual syntax for RDF called Turtle that allows an RDF graph to be completely written in a compact and natural text form, with abbreviations for common usage patterns and datatypes.
 
 **Notes**:
 * Individual TTLs (1 TTL for 1 GO-CAM) can also be retrieved from the GitHub repository [noctua-models](https://github.com/geneontology/noctua-models/tree/master/models){:target="blank"}.
