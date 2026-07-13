@@ -9,7 +9,7 @@ redirect_from:
 
 ---
 
-> This page documents how to query the ontology annotations and GO-CAM models using the GO APIs
+> This page documents how to query the ontology, annotations, and GO-CAM models using the GO API.
 
 ---
 
