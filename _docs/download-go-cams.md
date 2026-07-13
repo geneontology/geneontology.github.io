@@ -25,7 +25,7 @@ As for any resource in GO, GO-CAMs are accessible through the DOI-versioned rele
 
 GO-CAM models can also be retrieved individually, or by taxon or publication, through the [GO API](https://api.geneontology.org/){:target="blank"}. For example, [`/api/gocam-model/{id}`](https://api.geneontology.org/api/gocam-model/5323da1800000002){:target="blank"} returns a single model in GO-CAM JSON format. See [Programmatic Access to Gene Ontology](/docs/tools-guide/#access-go-cam-models) for details.
 
-Advanced users can work with GO-CAM models in Python using the [gocam-py](https://github.com/geneontology/gocam-py){:target="blank"} package, which also defines the GO-CAM JSON schema.
+Advanced users can work with GO-CAM models in Python using the [gocam-py](https://github.com/geneontology/gocam-py){:target="blank"} package, which also defines the GO-CAM LinkML schema.
 
 ## Error or omission ?
 Any errors or omissions in annotations should be reported by writing to the [GO helpdesk](https://help.geneontology.org/){:target="blank"}.
