@@ -51,4 +51,4 @@ Some GO-endorsed enrichment tools are:
 * [GeneWeaver](https://www.geneweaver.org/){:target="_blank"}
 * [gProfiler](http://biit.cs.ut.ee/gprofiler/){:target="_blank"}
 * [GOrilla](http://cbl-gorilla.cs.technion.ac.il/){:target="_blank"}
-* [Ontologizer](http://ontologizer.de){:target="_blank"}
+* [Ontologizer](https://github.com/P2GX/ontologizer-gui){:target="_blank"}
