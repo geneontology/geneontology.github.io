@@ -102,15 +102,19 @@ def generate_table_row(org, code):
     base = 'https://current.geneontology.org/annotations'
     is_mod = (org.get('mod_id_space') or 'UniProtKB') != 'UniProtKB'
 
+    # GPI follows the same -mod/-uniprot split as GAF (geneontology.github.io#950).
     if is_mod:
         mod_cell = (f'<a href="{base}/gaf/{code}-mod.gaf.gz">'
                     f'{code}-mod.gaf.gz</a>')
+        gpi_mod_cell = (f'<a href="{base}/gpi/{code}-mod.gpi.gz">'
+                        f'{code}-mod.gpi.gz</a>')
     else:
         mod_cell = '&mdash;'
+        gpi_mod_cell = '&mdash;'
     uniprot_cell = (f'<a href="{base}/gaf/{code}-uniprot.gaf.gz">'
                     f'{code}-uniprot.gaf.gz</a>')
-    gpi_cell = (f'<a href="{base}/gpi/{code}-uniprot.gpi.gz">'
-                f'{code}-uniprot.gpi.gz</a>')
+    gpi_uniprot_cell = (f'<a href="{base}/gpi/{code}-uniprot.gpi.gz">'
+                        f'{code}-uniprot.gpi.gz</a>')
 
     return f'''        <tr>
           <td>{full_name}</td>
@@ -118,7 +122,8 @@ def generate_table_row(org, code):
           <td>{taxonomic_group}</td>
           <td>{mod_cell}</td>
           <td>{uniprot_cell}</td>
-          <td>{gpi_cell}</td>
+          <td>{gpi_mod_cell}</td>
+          <td>{gpi_uniprot_cell}</td>
         </tr>'''
 
 
@@ -153,9 +158,10 @@ def generate_tables(organisms):
           <th>Organism</th>
           <th>Common Name</th>
           <th>Taxonomic Group</th>
-          <th>MOD ID-centric File</th>
-          <th>UniProt ID-centric File</th>
-          <th>GPI File</th>
+          <th>MOD ID-centric GAF</th>
+          <th>UniProt ID-centric GAF</th>
+          <th>MOD ID-centric GPI</th>
+          <th>UniProt ID-centric GPI</th>
         </tr>
       </thead>
       <tbody>
@@ -186,9 +192,10 @@ def generate_tables(organisms):
           <th>Organism</th>
           <th>Common Name</th>
           <th>Taxonomic Group</th>
-          <th>MOD ID-centric File</th>
-          <th>UniProt ID-centric File</th>
-          <th>GPI File</th>
+          <th>MOD ID-centric GAF</th>
+          <th>UniProt ID-centric GAF</th>
+          <th>MOD ID-centric GPI</th>
+          <th>UniProt ID-centric GPI</th>
         </tr>
       </thead>
       <tbody>
@@ -219,7 +226,6 @@ title: Download annotations by organism
 permalink: /docs/download-go-annotations/downloads/
 ---
 
-<div class="container">
   <h1>GO Annotation Downloads</h1>
 
   <h2>Overview</h2>
@@ -229,15 +235,8 @@ permalink: /docs/download-go-annotations/downloads/
   <p>The files shown below are taxon-specific files created through collaborative efforts, particularly from model organism database groups. All the files in this table have been filtered using the annotation file QC pipeline. A critical filtering requirement restricts particular organism IDs to specific authorized projects. The current list of authoritative groups and major model organisms can be found in the tables below.</p>
 
 {new_tables}
-</div>
 
 <style>
-  .container {{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }}
-
   h1 {{
     margin-bottom: 30px;
   }}
