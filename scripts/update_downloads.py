@@ -102,15 +102,18 @@ def generate_table_row(org, code):
     base = 'https://current.geneontology.org/annotations'
     is_mod = (org.get('mod_id_space') or 'UniProtKB') != 'UniProtKB'
 
+    # GPI: the -mod file where one exists, else -uniprot (geneontology.github.io#950).
     if is_mod:
         mod_cell = (f'<a href="{base}/gaf/{code}-mod.gaf.gz">'
                     f'{code}-mod.gaf.gz</a>')
+        gpi_cell = (f'<a href="{base}/gpi/{code}-mod.gpi.gz">'
+                    f'{code}-mod.gpi.gz</a>')
     else:
         mod_cell = '&mdash;'
+        gpi_cell = (f'<a href="{base}/gpi/{code}-uniprot.gpi.gz">'
+                    f'{code}-uniprot.gpi.gz</a>')
     uniprot_cell = (f'<a href="{base}/gaf/{code}-uniprot.gaf.gz">'
                     f'{code}-uniprot.gaf.gz</a>')
-    gpi_cell = (f'<a href="{base}/gpi/{code}-uniprot.gpi.gz">'
-                f'{code}-uniprot.gpi.gz</a>')
 
     return f'''        <tr>
           <td>{full_name}</td>
@@ -219,7 +222,6 @@ title: Download annotations by organism
 permalink: /docs/download-go-annotations/downloads/
 ---
 
-<div class="container">
   <h1>GO Annotation Downloads</h1>
 
   <h2>Overview</h2>
@@ -229,15 +231,8 @@ permalink: /docs/download-go-annotations/downloads/
   <p>The files shown below are taxon-specific files created through collaborative efforts, particularly from model organism database groups. All the files in this table have been filtered using the annotation file QC pipeline. A critical filtering requirement restricts particular organism IDs to specific authorized projects. The current list of authoritative groups and major model organisms can be found in the tables below.</p>
 
 {new_tables}
-</div>
 
 <style>
-  .container {{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }}
-
   h1 {{
     margin-bottom: 30px;
   }}
