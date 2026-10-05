@@ -102,19 +102,18 @@ def generate_table_row(org, code):
     base = 'https://current.geneontology.org/annotations'
     is_mod = (org.get('mod_id_space') or 'UniProtKB') != 'UniProtKB'
 
-    # GPI follows the same -mod/-uniprot split as GAF (geneontology.github.io#950).
+    # GPI: the -mod file where one exists, else -uniprot (geneontology.github.io#950).
     if is_mod:
         mod_cell = (f'<a href="{base}/gaf/{code}-mod.gaf.gz">'
                     f'{code}-mod.gaf.gz</a>')
-        gpi_mod_cell = (f'<a href="{base}/gpi/{code}-mod.gpi.gz">'
-                        f'{code}-mod.gpi.gz</a>')
+        gpi_cell = (f'<a href="{base}/gpi/{code}-mod.gpi.gz">'
+                    f'{code}-mod.gpi.gz</a>')
     else:
         mod_cell = '&mdash;'
-        gpi_mod_cell = '&mdash;'
+        gpi_cell = (f'<a href="{base}/gpi/{code}-uniprot.gpi.gz">'
+                    f'{code}-uniprot.gpi.gz</a>')
     uniprot_cell = (f'<a href="{base}/gaf/{code}-uniprot.gaf.gz">'
                     f'{code}-uniprot.gaf.gz</a>')
-    gpi_uniprot_cell = (f'<a href="{base}/gpi/{code}-uniprot.gpi.gz">'
-                        f'{code}-uniprot.gpi.gz</a>')
 
     return f'''        <tr>
           <td>{full_name}</td>
@@ -122,8 +121,7 @@ def generate_table_row(org, code):
           <td>{taxonomic_group}</td>
           <td>{mod_cell}</td>
           <td>{uniprot_cell}</td>
-          <td>{gpi_mod_cell}</td>
-          <td>{gpi_uniprot_cell}</td>
+          <td>{gpi_cell}</td>
         </tr>'''
 
 
@@ -158,10 +156,9 @@ def generate_tables(organisms):
           <th>Organism</th>
           <th>Common Name</th>
           <th>Taxonomic Group</th>
-          <th>MOD ID-centric GAF</th>
-          <th>UniProt ID-centric GAF</th>
-          <th>MOD ID-centric GPI</th>
-          <th>UniProt ID-centric GPI</th>
+          <th>MOD ID-centric File</th>
+          <th>UniProt ID-centric File</th>
+          <th>GPI File</th>
         </tr>
       </thead>
       <tbody>
@@ -192,10 +189,9 @@ def generate_tables(organisms):
           <th>Organism</th>
           <th>Common Name</th>
           <th>Taxonomic Group</th>
-          <th>MOD ID-centric GAF</th>
-          <th>UniProt ID-centric GAF</th>
-          <th>MOD ID-centric GPI</th>
-          <th>UniProt ID-centric GPI</th>
+          <th>MOD ID-centric File</th>
+          <th>UniProt ID-centric File</th>
+          <th>GPI File</th>
         </tr>
       </thead>
       <tbody>
