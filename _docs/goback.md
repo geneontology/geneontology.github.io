@@ -19,7 +19,7 @@ permalink: /docs/download-go-annotations/downloads/
         <tr>
           <th>Organism</th>
           <th>Common Name</th>
-          <th>Curating database</th>
+          <th>Database Authority</th>
           <th>Taxonomic Group</th>
           <th>MOD ID-centric File</th>
           <th>UniProt ID-centric File</th>
