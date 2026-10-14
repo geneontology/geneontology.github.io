@@ -35,6 +35,6 @@ Taxon groupings are in the same `/ontology/imports` directory as the computed ta
 Improvements can be suggested on the [GitHub go-ontology repository](https://github.com/geneontology/go-ontology/issues/new?assignees=&labels=taxon+constraints&template=taxon-constraint-request.md&title=Taxon+constraint%3A+){:target="blank"}.
 
 ## Further reading
-- The taxon constraints are further described in [Deegan, Dimmer and Mungall. BMC Bionformatics (2010)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3098089/){:target="blank"}: Formalization of taxon-based constraints to detect inconsistencies in annotation and ontology development. (PMID:20973947)
+- The taxon constraints are further described in [Deegan, Dimmer and Mungall. BMC Bioinformatics (2010)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3098089/){:target="blank"}: Formalization of taxon-based constraints to detect inconsistencies in annotation and ontology development. (PMID:20973947)
 
 - Also see [OBO Academy's Guide to Taxon Restrictions](https://oboacademy.github.io/obook/explanation/taxon-constraints-explainer/)
