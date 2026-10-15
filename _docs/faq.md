@@ -417,7 +417,7 @@ It is **possible and usually expected** for a single gene/gene product to be ass
 
 The Gene Ontology allows users to describe a gene/gene product in detail, considering three main aspects: its molecular function, the biological process in which it participates, and its cellular location.
 
-For example, the [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"} gene product from zebrafish has numerous GO terms associated with it.  Each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of [selectively interacting with DNA (DNA binding)](http://amigo.geneontology.org/amigo/term/GO:0003677){:target="blank"}, while a different GO term explains that this gene product is [found in the nucleus of the cell](http://amigo.geneontology.org/amigo/term/GO:0005634){:target="blank"}.
+For example, the [homeobox D9a](http://amigo.geneontology.org/amigo/gene_product/ZFIN:ZDB-GENE-990415-121){:target="blank"} gene product from zebrafish has numerous GO terms associated with it.  Each term describes details about this gene's molecular function, localization in the cell, or its involvement in certain biological processes. One GO term explains that this gene product carries out the molecular function of [selectively interacting with DNA (DNA binding)](http://amigo.geneontology.org/amigo/term/GO:0003677){:target="blank"}, while a different GO term explains that this gene product is <span style="white-space:nowrap">[found in the nucleus of the cell](http://amigo.geneontology.org/amigo/term/GO:0005634){:target="blank"}.</span>
 
 Trying to write one single term that describes in detail everything about a gene/gene product in a single statement would require the existence of as many terms as genes there are - for all species - in the planet. This would be very unpractical and not easily scalable. Instead, the use of ontologies help us organize information in a way that allows researchers to use the same term to describe a characteristic that is shared by more than one gene product (e.g. all the genes involved in the process 'translation'), and more than one term to describe all the characteristics of each gene product, as in the example above. **This is a reason why you would see more than one GO term associated to a single gene/gene product**.
 
@@ -474,9 +474,7 @@ FAQ tags: 
 [general](/faq-tags/general)
 {:/comment}
 
-Annotations from GO Consortium member groups can be [downloaded here](/docs/download-go-annotations/downloads/).  These are taxon-specific, although some have multiple taxons in the file.  For example, the [CGD GAF](http://current.geneontology.org/annotations/cgd.gaf.gz) includes several *Candida* as well as *Debaryomyces hansenii* and *Lodderomyces elongisporus*.
-
-If your organism is included in a multi-organism file, and you would like to extract just your organism of interest, you can filter by taxon.  [Verify your taxon ID](https://www.uniprot.org/help/taxonomy){:target="blank"} and refer to the [file format guides](/docs/go-annotations/#types-of-go-annotation-files) under "Types of GO annotation files" to determine which column to sort on.
+Annotations from GO Consortium member groups can be [downloaded here](/docs/download-go-annotations/downloads/).  Files are provided for each organism. For model organisms there are two: a MOD ID-centric file (`-mod`) and a UniProt-centric file (`-uniprot`).
 
 If your organism is not available from our [downloads page](/docs/download-go-annotations/downloads/), you can [use AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} to view or download annotations.  Filter for your taxon under "Organism"; [AmiGO](http://amigo.geneontology.org/amigo/search/annotation){:target="blank"} allows users to download up to 100,000 annotations.  [QuickGO](https://www.ebi.ac.uk/QuickGO/annotations){:target="blank"} is EMBL-EBI's GO browser and has a download limit of 2,000,000.
 Please see our FAQ on [AmiGO and QuickGO data](/docs/faq/#what-are-the-differences-between-the-data-available-in-amigo-and-those-on-quickgo), [software to browse the GO](/docs/faq/#where-can-i-find-software-to-allow-me-to-browse-the-go-terms-and-annotations) and [finding species that are not available in AmiGO](/docs/faq/#how-do-i-find-all-annotations-for-species-x-that-i-cant-find-in-amigo).
@@ -495,6 +493,8 @@ FAQ tags: 
 {:/comment}
 
 For files produced after 2018-03-06, please use the /annotation directory from [http://release.geneontology.org/](http://release.geneontology.org/).  GO annotations from 2018-03-06 to present are also accessible through the [DOI-versioned release stored in Zenodo](https://zenodo.org/search?q=conceptrecid%3A%221205166%22&sort=-version&all_versions=True).
+
+The names and organization of GO's annotation files changed with release 2026-06-19. Releases before that use a flat layout with files named after the source resource (for example `goa_human.gaf.gz`); release 2026-06-19 and later sort files into `gaf`, `gpad` and `gpi` folders and name them by organism (for example `HUMAN-uniprot.gaf.gz`). The [old-to-new mapping table](https://github.com/geneontology/pipeline-from-goa/blob/main/docs/annotations-mapping.md){:target="_blank" rel="noopener"} shows which old file corresponds to which new one.
 
 For files older than 2018-03-06, there is some data that is no longer maintained on our archive: http://archive.geneontology.org/full/ Please note, even though some files appear to be recently updated, this archive is no longer maintained and may refer to URLs that are no longer active.
 
@@ -579,10 +579,15 @@ FAQ tags: 
 [downloads](/faq-tags/downloads)
 {:/comment}
 
-First of all, note that GOA≠GO; the [Gene Ontology Annotation (GOA) Database](https://www.ebi.ac.uk/GOA/) is a contributor to the Gene Ontology knowledgebase and active member in the Gene Ontology Consortium, but is a different entity from the GO.- see [our FAQ on GO, GOA, GOC, and GO Central](#what-is-the-difference-between-go-goc-go-central-and-goa). The files in question, using the current archive as an example, are:
+Files such as `filtered_goa_uniprot_all.gaf.gz` and `filtered_goa_uniprot_all_noiea.gaf.gz` were part of GO releases before 2026-06-19 and have no direct equivalent in release 2026-06-19 or later. Annotation files are now provided per organism for the organisms listed in [goex.yaml](https://github.com/geneontology/go-site/blob/master/metadata/goex.yaml){:target="_blank" rel="noopener"}. Earlier releases that include the older files are available in the [GO Archive](/docs/go-archives/). If your organism is not covered, see our FAQs on [viewing and downloading annotations](#where-can-i-view-or-download-the-complete-sets-of-go-annotations) and on [finding annotations for species that are not in AmiGO](#how-do-i-find-all-annotations-for-species-x-that-i-cant-find-in-amigo).
 
--   http://current.geneontology.org/annotations/filtered_goa_uniprot_all.gaf.gz
--   http://current.geneontology.org/annotations/filtered_goa_uniprot_all_noiea.gaf.gz
+The rest of this answer describes how the older files were produced.
+
+
+First of all, note that GOA≠GO; the [Gene Ontology Annotation (GOA) Database](https://www.ebi.ac.uk/GOA/) is a contributor to the Gene Ontology knowledgebase and active member in the Gene Ontology Consortium, but is a different entity from the GO.- see [our FAQ on GO, GOA, GOC, and GO Central](#what-is-the-difference-between-go-goc-go-central-and-goa). The files in question, using releases before 2026-06-19 as an example, were:
+
+-   `filtered_goa_uniprot_all.gaf.gz`
+-   `filtered_goa_uniprot_all_noiea.gaf.gz`
 
 The upstream file for both of these is https://ftp.ebi.ac.uk/pub/databases/GO/goa/UNIPROT/goa_uniprot_all.gaf.gz. We'll refer to this as the "upstream" file. Also, archived releases up to and including [2023-04-01](http://release.geneontology.org/2023-04-01/index.html) refer to these files by the legacy names goa_uniprot_all.gaf.gz, goa_uniprot_all_noiea.gaf.gz, goa_uniprot_all_noiea.gpad.gz, goa_uniprot_all_noiea.gpi.gz.  We renamed these files in April 2023 to clarify the contents.
 
@@ -593,6 +598,26 @@ For filtered_goa_uniprot_all.gaf, the GO takes the upstream file and removes all
 #### goa_uniprot_all_noiea.gaf
 
 This is the same as the filtered_goa_uniprot_all.gaf.gz file, except with electronically inferred (IEA) annotations filtered out. This is the file that is included in the AmiGO load and available at http://amigo.geneontology.org.
+
+---------------------------------------------------------------------------
+## What are UniProt reference proteomes, and why did the proteins for some organisms change?
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="What are UniProt reference proteomes, and why did the proteins for some organisms change?"></span>
+FAQ tags: 
+
+[annotation](/faq-tags/annotation)
+
+[downloads](/faq-tags/downloads)
+{:/comment}
+
+A **proteome** is the set of proteins an organism is believed to express, usually predicted from its sequenced genome. For each species, [UniProt](https://www.uniprot.org/){:target="_blank" rel="noopener"} selects one or more **reference proteomes** as the best representatives, so that users aren't buried in near-identical copies from thousands of sequenced strains. See [UniProt's explanation](https://www.uniprot.org/help/reference_proteome){:target="_blank" rel="noopener"}.
+
+Between UniProt releases 2025_04 and 2026_02, UniProt [restricted UniProtKB to proteins from reference proteomes](https://www.uniprot.org/help/refprot_only_changes){:target="_blank" rel="noopener"}. Proteins from other proteomes were removed from UniProtKB but remain available in UniParc, so UniProtKB holds fewer proteins for some species than it used to. Because bacteria and viruses make up most of UniProt's proteomes, they are among the groups where you are most likely to notice a change.
+
+GO's UniProt-centric annotation files list proteins from UniProtKB, so annotation counts for some organisms may have changed as a result.
+
+If your organism's proteome is missing, or you think it should be a reference proteome, you can look for it in the [UniProt Proteomes portal](https://www.uniprot.org/proteomes){:target="_blank" rel="noopener"} and [contact UniProt](https://www.uniprot.org/contact){:target="_blank" rel="noopener"} with evidence of its importance to your research community.
 
 ---------------------------------------------------------------------------
 ## What criteria are used to annotate genes with GO terms?
@@ -1602,7 +1627,7 @@ FAQ tags:
 [annotation](/faq-tags/annotation)
 {:/comment}
 
-In June 2026, we updated our file organization and naming system to make GO annotation files more consistent and easier to use. What changed:
+With release 2026-06-19, we updated our file organization and naming system to make GO annotation files more consistent and easier to use. What changed:
 
 | Old URL example | New URL example|
 |----------|----------|
@@ -1614,11 +1639,7 @@ In June 2026, we updated our file organization and naming system to make GO anno
 - Separate species files: Multi-species files from Xenbase & CGD split into individual organism files
 - Two options for Model Organisms: MOD files available in both MOD-centric (`DANRE-mod.gaf.gz`) and UniProt-centric (`DANRE-uniprot.gaf.gz`) versions
 
-**Migration timeline:**
-- June 2026: New URLs went live
-- July 2026: Old URLs still work (one month grace period)
-- July-September 2026: Old URLs redirect to new locations
-- After September 2026: Old URLs no longer functional
+The previous file names and layout were retired with this change. Releases before 2026-06-19, which used them, are available in the [GO Archive](/docs/go-archives/).
 
 **Need help?** Check our [URL mapping table](https://github.com/geneontology/pipeline-from-goa/blob/main/docs/annotations-mapping.md) or [contact us](http://help.geneontology.org/) if you need assistance updating your data pipelines.
 
@@ -1695,3 +1716,5 @@ FAQ tags: 
 
 Need an answer- Chris?
 {:/comment}
+
+<script src="{{ "/js/faq-collapse.js" | relative_url }}" defer></script>
