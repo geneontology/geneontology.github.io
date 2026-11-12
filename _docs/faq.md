@@ -1633,7 +1633,7 @@ The public GO RDF/SPARQL services were retired in late 2026, after being marked 
 - `https://sparql.geneontology.org`
 - The query interface at `https://geneontology.org/sparql`
 
-No replacement SPARQL endpoint is planned. Supported alternatives include the [GO API](/docs/tools-guide/) (including routes for GO-CAM models), [GO-CAM JSON downloads](/docs/download-go-cams/) and the [gocam-py](https://github.com/geneontology/gocam-py){:target="blank"} Python package, and the full [ontology](/docs/download-ontology/) and [annotation](/docs/download-go-annotations/) downloads. Past releases are available in the [GO Archive](/docs/go-archives/).
+No replacement SPARQL endpoint is planned. Supported alternatives include the [GO API](/docs/tools-guide/) (including routes for GO-CAM models), [GO-CAM JSON downloads](/docs/download-go-cams/) and the [gocam-py](https://github.com/geneontology/gocam-py){:target="blank"} Python package, and the full [ontology](/docs/download-ontology/) and [annotation](/docs/download-go-annotations/) downloads. Past releases are available in the [GO Archive](/docs/go-archives/). Blazegraph journals for releases up to 2026-05-19 also remain in the [release archive](https://release.geneontology.org/2026-05-19/products/blazegraph/){:target="blank"} for advanced users who want to run a local instance.
 
 Full details are in the [retirement announcement](https://github.com/geneontology/go-announcements/issues/1218){:target="blank"}. If you depended on the SPARQL endpoint, please [contact the GO Helpdesk](http://help.geneontology.org/) so we can advise on alternatives.
 
