@@ -76,6 +76,10 @@ GO currently provides annotations in GAF 2.2 as well as GPAD/GPI 2.0. See the [a
 +  [GAF 2.0](/docs/go-annotation-file-gaf-format-2.0/): deprecated as of 03-2021.
 +  GAF 1.0: deprecated as of 06-2010. <br>
 
+## Retired services
+
++ GO RDF/SPARQL endpoint: retired in late 2026 (deprecated since July 2024). This includes `https://rdf.geneontology.org` (and `https://rdf.geneontology.org/blazegraph/sparql`), `https://sparql.geneontology.org`, and the query interface at `https://geneontology.org/sparql`. No replacement SPARQL endpoint is planned. GO-CAMs and other GO data remain available through the [GO API](/docs/tools-guide/), [GO-CAM downloads](/docs/download-go-cams/) and the releases in this archive. See the [retirement announcement](https://github.com/geneontology/go-announcements/issues/1218){:target="blank"}; the [GO SPARQL documentation](/docs/sparql) is kept for historical reference. Blazegraph journals for releases up to 2026-05-19 remain in this archive (e.g. [2026-05-19](https://release.geneontology.org/2026-05-19/products/blazegraph/){:target="blank"}) for advanced users who want to run a local instance.
+
 ## How the GO Archive was built
 The archive was generated using the data scattered across 3 legacy systems, namely the GO CVS, the GO SVN and the old product archive. Each of those systems was created at different times to serve different purposes and they were partially redundant, both in terms of the types of data they contained and in time frames (e.g. SVN was maintained from 2011 to 2018 while CVS was maintained from 2002 to 2018). The project is hosted on [GitHub](https://github.com/geneontology/archive-reconstruction){:target="blank"}.
 

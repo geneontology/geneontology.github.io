@@ -1496,7 +1496,7 @@ by the GO.
 The native representation for GO-CAMs is the Web Ontology Language
 ([OWL](https://www.w3.org/OWL){:target="blank"}). Standard [RDF](https://www.w3.org/RDF){:target="blank"} exchange formats such as RDF/XML and Turtle can be used for GO-CAMs.
 
-Individual files can be found on [GitHub](https://github.com/geneontology/noctua-models).
+For most programmatic users we recommend [GO-CAM JSON](/docs/download-go-cams/), a LinkML-defined JSON format available from our downloads and the [GO API](/docs/tools-guide/#access-go-cam-models). Individual OWL/Turtle files can be found on [GitHub](https://github.com/geneontology/noctua-models). Note that the GO SPARQL endpoint for querying GO-CAMs as RDF has been [retired](#what-happened-to-the-go-sparql-endpoint). 
 
 ---------------------------------------------------------------------------
 ## What is an OWL file?
@@ -1613,6 +1613,29 @@ FAQ tags: 
 AmiGO and the GO relational database servers are a shared resource and thus we require data mining to be performed in a manner that allows others to utilize this resource at the same time. Any activity that mines the GO database or uses AmiGO must be controlled so that only one request is made at a time. If this is not sufficient, you may download and install the database locally. You can also retrieve all the source files that define the data within the database. More details on the database, including downloads and installation, can be found in the GO [database guide](/page/lead-database-guide).
 
 For more information please contact the [GO helpdesk](/form/contact-go).
+
+---------------------------------------------------------------------------
+
+## What happened to the GO SPARQL endpoint?
+{::comment}
+
+<span class="rdf-meta element-hidden" property="dc:title" content="What happened to the GO SPARQL endpoint?"></span>
+FAQ tags: 
+
+[database](/faq-tags/database)
+
+[software](/faq-tags/software)
+{:/comment}
+
+The public GO RDF/SPARQL services were retired in late 2026, after being marked deprecated since July 2024. This includes:
+
+- `https://rdf.geneontology.org` (including `https://rdf.geneontology.org/blazegraph/sparql`)
+- `https://sparql.geneontology.org`
+- The query interface at `https://geneontology.org/sparql`
+
+No replacement SPARQL endpoint is planned. Supported alternatives include the [GO API](/docs/tools-guide/) (including routes for GO-CAM models), [GO-CAM JSON downloads](/docs/download-go-cams/) and the [gocam-py](https://github.com/geneontology/gocam-py){:target="blank"} Python package, and the full [ontology](/docs/download-ontology/) and [annotation](/docs/download-go-annotations/) downloads. Past releases are available in the [GO Archive](/docs/go-archives/). Blazegraph journals for releases up to 2026-05-19 also remain in the [release archive](https://release.geneontology.org/2026-05-19/products/blazegraph/){:target="blank"} for advanced users who want to run a local instance.
+
+Full details are in the [retirement announcement](https://github.com/geneontology/go-announcements/issues/1218){:target="blank"}. If you depended on the SPARQL endpoint, please [contact the GO Helpdesk](http://help.geneontology.org/) so we can advise on alternatives.
 
 ---------------------------------------------------------------------------
 
