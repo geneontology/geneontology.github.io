@@ -83,7 +83,7 @@ A name for the entity represented by the **DB object ID**. The **DB Object Symbo
   * pseudogene ([SO:0000336](http://purl.obolibrary.org/obo/SO_0000336))
 
 * **Note on object types**: This field describes the biological object as defined by the contributing database. For example, PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [WormBase](https://wormbase.org/species/c_elegans/gene/WBGene00000001) and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
-* GO does not allow 'gene' and 'gene product' as biological entity types, as this does not allow to differentiate between proteins and ncRNAs products. 
+* GO does not allow 'gene' and 'gene product' as biological entity types, as this does not allow to differentiate between proteins and ncRNAs products. Genes are accepted in the GPIs but annotations to these objects are not exported in GAF and GPAD files.
 * Cardinality = 1
 
 #### 6. Object Taxon
