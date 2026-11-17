@@ -35,18 +35,18 @@ Other information, such as links to the submitters project page, funding sources
 ## GPI File Contents
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
 
-| **Column** | **Content** | **Cardinality** | **Example 1: UniProt protein**| **Example 2: WormBase protein-coding gene** | **Example 3: UniProt isoform**| **Example 4: SGD protein complex** | **Example 5: PomBase protein complex** | **Example 6: UniProt human ncRNA** | **Example 7: FlyBase ncRNA** 
-|----------|---------|-------------|---------|--------|--------|--------|
-| 1 | [DB:Object ID](#1-dbdb-object-id "Definition and requirements for DB:DB_Object_ID (column 1)") |	1 |	UniProtKB:Q4VCS5| 	WB:WBGene00000007 | UniProtKB:Q4VCS5-1|  SGD:S000217643 |  ComplexPortal:CPX-25785  | RNAcentral:URS0000527F89_9606 | FB:FBgn0262451 |  
-| 2 | [Object Symbol](#2-db-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	1 |	AMOT| aat-6 | AMOT|  CBF1:MET4:MET28 | SWI5-SWI2 | URS0000527F89_9606 | mir-ban |  
-| 3 | [Object Name](#3-db-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or 1 | Angiomotin| Amino acid transporter protein 6 | Angiomotin| sulfur metabolism transcription factor complex | mating-type switching complex |  Homo sapiens (human) hsa-miR-145-5p | bantam |
-| 4 | [Object_Synonym(s)](#4-db-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| aat-6|T11F9.4 | | |   |  | | 
-| 5 | [Object Type](#5-db-object-type "Definition and requirements for DB Object Type (column 5)") |	1 |	PR:000000001| SO:0000704 | PR:000000001| GO:0032991 | GO:0032991 |  SO:0000276	| SO:0000276	 |  
-| 6 | [Object Taxon](#6-db-object-taxon "Definition and requirements for DB Object Taxon (column 6)") | 1 |	NCBITaxon:9606| NCBITaxon:6239| NCBITaxon:9606|  NCBITaxon:559292 |  NCBITaxon:4896 |  NCBITaxon:9606| NCBITaxon:7227 | 
-| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > | HGNC:17810 | | | HGNC:17810 | |HGNC:31532 |  
-| 8 | [Canonical object ID](#8-parent-protein "Definition and requirements for Canonical object ID (column 8)") | 1 |	UniProtKB:Q4VCS5 | WB:WBGene00000007 | UniProtKB:Q4VCS5 | SGD:S000217643  | ComplexPortal:CPX-25785 |  RNAcentral:URS0000527F89_9606 | FB:FBgn0262451 |  
+| **Column** | **Content** | **Cardinality** | **Example 1: Human protein**| **Example 2: C. elegans protein** | **Example 3: Human isoform**| **Example 4: Yeast protein complex** | **Example 5: S. pombe protein complex** | **Example 6: Human ncRNA** | **Example 7: Drosophila ncRNA** 
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | [DB:Object ID](#1-dbobject-id "Definition and requirements for DB:DB_Object_ID (column 1)") |	1 |	UniProtKB:Q4VCS5| 	WB:WBGene00000007 | UniProtKB:Q4VCS5-1|  SGD:S000217643 |  ComplexPortal:CPX-25785  | RNAcentral:URS0000527F89_9606 | FB:FBgn0262451 |  
+| 2 | [Object Symbol](#2-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	1 |	AMOT| aat-6 | AMOT|  CBF1:MET4:MET28 | SWI5-SWI2 | URS0000527F89_9606 | mir-ban |  
+| 3 | [Object Name](#3-object-name "Definition and requirements for DB Object Name (column 3)") |	0 or 1 | Angiomotin| Amino acid transporter protein 6 | Angiomotin| sulfur metabolism transcription factor complex | mating-type switching complex |  Homo sapiens (human) hsa-miR-145-5p | bantam |
+| 4 | [Object_Synonym(s)](#4-object-synonym "Definition and requirements for DB Object Synonym(s) (column 4)") |	0 or > |	KIAA1071| aat-6|T11F9.4 | | |   |  | | 
+| 5 | [Object Type](#5-object-type "Definition and requirements for DB Object Type (column 5)") |	1 |	PR:000000001| PR:000000001 | PR:000000001| GO:0032991 | GO:0032991 |  SO:0000276	| SO:0000276	 |  
+| 6 | [Object Taxon](#6-object-taxon "Definition and requirements for DB Object Taxon (column 6)") | 1 |	NCBITaxon:9606| NCBITaxon:6239| NCBITaxon:9606|  NCBITaxon:559292 |  NCBITaxon:4896 |  NCBITaxon:9606| NCBITaxon:7227 | 
+| 7 | [Encoded by](#7-encoded-by "Definition and requirements for Encoded by (column 7)") | 0 or > |   | |  | | |   | |
+| 8 | [Canonical object ID](#8-canonical-object-id "Definition and requirements for Canonical object ID (column 8)") | 1 |	UniProtKB:Q4VCS5 | WB:WBGene00000007 | UniProtKB:Q4VCS5 | SGD:S000217643  | ComplexPortal:CPX-25785 |  RNAcentral:URS0000527F89_9606 | FB:FBgn0262451 |  
 | 9 | [Protein Complex Members](#9-protein-containing-complex-members "Definition and requirements for Protein Containing Complex Members (column 9)") | 0 or > |  | | |SGD:S000003821 \|<br/>SGD:S000001456 \|<br/>SGD:S000005047| PomBase:SPAC1142.03c \|<br/>PomBase:SPBC409.03	|   | |  
-| 10 | [Cross-reference(s)](#10-db-xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | UniProtKB:Q22397 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 |  | ENSG00000276365 |  RNAcentral:URS00002F21DA_7227 |    
+| 10 | [Cross-reference(s)](#10-database-cross-references-db_xrefs "Definition and requirements for DB_Xref(s) (column 10)") | 0 or > | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | UniProtKB:Q22397 | NCBIGene:154796 \|<br/>ENSEMBL:ENSG00000126016 | ComplexPortal:CPX-1016 |  | ENSEMBL:ENSG00000276365 |  RNAcentral:URS00002F21DA_7227 |    
 | 11 | [Gene Product Properties](#11-gene-product-properties "Definition and requirements for Gene Product Properties (column 11)") | 0 or > |	db_subset=Swiss-Prot | | |  |  | | |  
 
 ### Definitions and requirements for GPI 2.0 field contents
@@ -55,7 +55,7 @@ The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple val
   + UniProtKB:P99999
   + SGD:S000002164
   + MGI:MGI:1919306
-* The identifier may reference the canonical form of a gene or gene product including functional RNAs, as well as gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the corresponding canonical form must be referenced in Column 8 (Parent Protein) of the GPI file.
+* The identifier may reference the canonical form of a gene or gene product including functional RNAs, as well as gene variants, distinct proteins produced by to differential splicing, alternative translational starts, post-translational cleavage or post-translational modification. If the gene product is not a canonical gene or gene product identifier, the corresponding canonical form must be referenced in Column 8 (Canonical object ID) of the GPI file.
    Note that not all **DB:Object_ID** are necessarily in the same ID space. Some groups use [RNA Central](https://rnacentral.org/) IDs for RNAs, some groups use [ComplexPortal](https://www.ebi.ac.uk/complexportal) IDs for protein complexes, and some groups use [Protein Ontology](https://proconsortium.org/) IDs for modified proteoforms. Together, the unique values in Column 8 correspond to the full set of genes products encoded by the organism, as well as the protein complexes represented in the source database.
 * Cardinality = 1
 
@@ -73,17 +73,16 @@ A name for the entity represented by the **DB object ID**. The **DB Object Symbo
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 5. Object Type
-* An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology (SO) for all other entities. Allowed entity types:
+* An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology (SO) for all other entities. The full list of entity types and their corresponding identifiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml). Allowed entity types:
 
-A label corresponding to the ontology identifier describing the class of biological entity of the **DB Object_ID** in Column 2. The values used are shown below.  The full list of entity types and their corresponding identitiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml).
-  
   * protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
   * protein-containing complex ([GO:0032991](http://purl.obolibrary.org/obo/GO_0032991))
   * protein-coding gene ([SO:0001217](http://purl.obolibrary.org/obo/SO_0001217))
   * ncRNA ([SO:0000655](http://purl.obolibrary.org/obo/SO_0000655)) or any SO child term 
   * ncRNA-coding gene ([SO:0001263](http://purl.obolibrary.org/obo/SO_0001263))  or any SO child term
+  * pseudogene ([SO:0000336](http://purl.obolibrary.org/obo/SO_0000336))
 
-* **Note on object types**: This field should descibe the type of biological object as defined by the contributing database. For example, [WormBase identifiers](https://wormbase.org/species/c_elegans/gene/WBGene00000001) represent [genes](http://purl.obolibrary.org/obo/SO_0000704), PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
+* **Note on object types**: This field describes the biological object as defined by the contributing database. For example, PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [WormBase](https://wormbase.org/species/c_elegans/gene/WBGene00000001) and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
 * GO does not allow 'gene' and 'gene product' as biological entity types, as this does not allow to differentiate between proteins and ncRNAs products. 
 * Cardinality = 1
 
