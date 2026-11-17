@@ -35,7 +35,7 @@ Other information, such as links to the submitters project page, funding sources
 ## GPI File Contents
 The GPI 2.0 file comprises 11 tab-delimited fields. For fields that multiple values, those should be separated by pipes (`|`).
 
-| **Column** | **Content** | **Cardinality** | **Example 1: UniProt protein**| **Example 2: WormBase protein** | **Example 3: UniProt isoform**| **Example 4: SGD protein complex** | **Example 5: PomBase protein complex** | **Example 6: RNAcentral human ncRNA** | **Example 7: FlyBase ncRNA** 
+| **Column** | **Content** | **Cardinality** | **Example 1: Human protein**| **Example 2: C. elegans protein** | **Example 3: Human isoform**| **Example 4: Yeast protein complex** | **Example 5: S. pombe protein complex** | **Example 6: Human ncRNA** | **Example 7: Drosophila ncRNA** 
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | [DB:Object ID](#1-dbobject-id "Definition and requirements for DB:DB_Object_ID (column 1)") |	1 |	UniProtKB:Q4VCS5| 	WB:WBGene00000007 | UniProtKB:Q4VCS5-1|  SGD:S000217643 |  ComplexPortal:CPX-25785  | RNAcentral:URS0000527F89_9606 | FB:FBgn0262451 |  
 | 2 | [Object Symbol](#2-object-symbol "Definition and requirements for DB Object Symbol (column 2)") |	1 |	AMOT| aat-6 | AMOT|  CBF1:MET4:MET28 | SWI5-SWI2 | URS0000527F89_9606 | mir-ban |  
