@@ -73,17 +73,19 @@ A name for the entity represented by the **DB object ID**. The **DB Object Symbo
 * Cardinality = 0, 1, > 1; for cardinality > 1, values must be pipe-separated. 
 
 #### 5. Object Type
-* An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins,  Gene Ontology for protein complexes, or Sequence Ontology (SO) for all other entities. The full list of allowed entity types and their corresponding identifiers can be found in the [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml). Allowed entity types include:
+* An ontology identifier describing the class of biological entity of the **DB:Object_ID** in Column 1. The ontology identifier must be a value from Protein Ontology for proteins, Gene Ontology for protein-containing complexes, or Sequence Ontology (SO) for all other entities. It must be one of the allowed entity types below; SO child terms are allowed only where indicated, and the other types must be used as is. Allowed entity types:
 
   * protein ([PR:000000001](http://purl.obolibrary.org/obo/PR_000000001))
   * protein-containing complex ([GO:0032991](http://purl.obolibrary.org/obo/GO_0032991))
-  * protein-coding gene ([SO:0001217](http://purl.obolibrary.org/obo/SO_0001217))
-  * ncRNA ([SO:0000655](http://purl.obolibrary.org/obo/SO_0000655)) or any SO child term 
-  * ncRNA-coding gene ([SO:0001263](http://purl.obolibrary.org/obo/SO_0001263))  or any SO child term
+  * protein-coding gene ([SO:0001217](http://purl.obolibrary.org/obo/SO_0001217)) or any SO child term
+  * ncRNA ([SO:0000655](http://purl.obolibrary.org/obo/SO_0000655)) or any SO child term
+  * ncRNA-coding gene ([SO:0001263](http://purl.obolibrary.org/obo/SO_0001263)) or any SO child term
   * pseudogene ([SO:0000336](http://purl.obolibrary.org/obo/SO_0000336))
+  * gene ([SO:0000704](http://purl.obolibrary.org/obo/SO_0000704)), only for uncloned genetic loci
 
 * **Note on object types**: This field describes the biological object as defined by the contributing database. For example, PomBase identifiers represent [protein-coding genes](http://purl.obolibrary.org/obo/SO_0001217), and [WormBase](https://wormbase.org/species/c_elegans/gene/WBGene00000001) and [SGD identifiers](https://www.yeastgenome.org/locus/S000002429) represent [proteins](http://purl.obolibrary.org/obo/PR_000000001). 
-* 'Gene' SO:0000704) is accepted in the GPI as an entity type but annotations to these objects are not exported in GAF and GPAD files, as this does not allow to differentiate between proteins and ncRNAs products. 
+* **Gene and pseudogene**: these types are accepted in the GPI, but annotations to objects of these types are not exported in GAF and GPAD files. Gene does not distinguish between protein and ncRNA products.
+* The [biological_entity_mapping.yaml](https://github.com/geneontology/go-site/blob/master/metadata/biological_entity_mapping.yaml) file maps entity types to the gene product types used when annotations are exported to GAF and GPAD. It does not define which types are allowed in the GPI; only the types listed above are.
 * Cardinality = 1
 
 #### 6. Object Taxon
