@@ -93,8 +93,6 @@ GO annotations are accessible through DOI-versioned releases stored in Zenodo:
 
 + [<i class="fa fa-archive"></i> **Full data bundles**](https://doi.org/10.5281/zenodo.1205166){:target="_blank"}: Access the complete archive of the current release or any archived release from `2018-07-02` onward
 
-+ [<i class="fa fa-list"></i> **Release references**](https://doi.org/10.5281/zenodo.1205159){:target="_blank"}: DOI-versioned references for each monthly GO release from `2018-08-09` onward
-  
 + [<i class="fa fa-folder-open"></i> **Older releases**](http://release.geneontology.org/){:target="_blank"}: Releases from `2004-03-01` onward are also available
 
 ## Error or omission?

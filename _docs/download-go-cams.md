@@ -21,7 +21,7 @@ permalink: /docs/download-go-cams/
 
 
 ## Programmatic access to GO-CAMs
-As for any resource in GO, GO-CAMs are accessible through the DOI-versioned release stored in [Zenodo](https://doi.org/10.5281/zenodo.1205159){:target="blank"}.
+As for any resource in GO, GO-CAMs are accessible through the DOI-versioned release archives stored in [Zenodo](https://doi.org/10.5281/zenodo.1205166){:target="blank"}. GO-CAM JSON is included in the archives from the `2026-06-19` release onward, under `go-cams/json/`.
 
 GO-CAM models can also be retrieved individually, or by taxon or publication, through the [GO API](https://api.geneontology.org/){:target="blank"}. For example, [`/api/gocam-model/{id}`](https://api.geneontology.org/api/gocam-model/5323da1800000002){:target="blank"} returns a single model in GO-CAM JSON format. See [Programmatic Access to Gene Ontology](/docs/tools-guide/#access-go-cam-models) for details.
 
